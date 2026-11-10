@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f1f5f9">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="description" content="Mémo — a French flashcard study app with spaced repetition, CEFR levels A1 to C1 and native pronunciation.">
+<title>Mémo — French Flashcards</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%234f46e5'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='700' text-anchor='middle' fill='white'%3EM%3C/text%3E%3C/svg%3E">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<style>
+  :root { color-scheme: light; }
+  html, body { height: 100%; }
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    background:
+      radial-gradient(1100px 520px at 50% -180px, #e0e7ff 0%, rgba(224,231,255,0) 70%),
+      #f1f5f9;
+    background-attachment: fixed;
+  }
+  .font-display { font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+  .safe-top { padding-top: max(1rem, env(safe-area-inset-top)); }
+  .safe-bottom { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+  .tabular { font-variant-numeric: tabular-nums; }
+
+  /* ---------- 3D flashcard ---------- */
+  .scene { perspective: 1400px; }
+  .card3d {
+    display: grid;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: transform .65s cubic-bezier(.2,.8,.2,1);
+    cursor: pointer;
+  }
+  .card3d.flipped { transform: rotateY(180deg); }
+  .card3d.no-anim { transition: none !important; }
+  .face {
+    grid-area: 1 / 1;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    min-height: 23rem;
+  }
+  .face.back { transform: rotateY(180deg); }
+  .card3d:not(.flipped) .face.back,
+  .card3d.flipped .face.front { pointer-events: none; }
+  .card3d:focus-visible { outline: none; }
+  .card3d:focus-visible .face { box-shadow: 0 0 0 3px #a5b4fc, 0 20px 40px -20px rgba(30,41,59,.25); }
+
+  @keyframes cardIn {
+    from { opacity: 0; transform: translateY(14px) scale(.98); }
+    to   { opacity: 1; transform: none; }
+  }
+  .card-enter { animation: cardIn .35s cubic-bezier(.2,.8,.2,1); }
+
+  @keyframes viewIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: none; }
+  }
+  .view-enter { animation: viewIn .3s ease-out; }
+
+  @keyframes pop {
+    0% { transform: scale(.6); opacity: 0; }
+    60% { transform: scale(1.08); opacity: 1; }
+    100% { transform: scale(1); }
+  }
+  .pop { animation: pop .5s cubic-bezier(.2,.8,.2,1); }
+
+  .bar { transition: width .6s cubic-bezier(.2,.8,.2,1); }
+  .press { transition: transform .12s ease, box-shadow .2s ease, background-color .2s ease, border-color .2s ease; }
+  .press:active { transform: scale(.97); }
+  .lift:hover { transform: translateY(-2px); box-shadow: 0 14px 30px -18px rgba(30,41,59,.35); }
+  .lift:active { transform: scale(.985); }
+
+  .toggle { transition: background-color .2s ease; }
+  .toggle > span { transition: transform .2s cubic-bezier(.2,.8,.2,1); }
+  .toggle[aria-pressed="true"] { background-color: #4f46e5; }
+  .toggle[aria-pressed="true"] > span { transform: translateX(1.25rem); }
+
+  input[type="range"] { accent-color: #4f46e5; }
+
+  #toast { transition: opacity .25s ease, transform .25s ease; }
+  #toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card3d, .bar, .press, .toggle, .toggle > span { transition-duration: .01ms !important; }
+    .card-enter, .view-enter, .pop { animation: none !important; }
+  }
+</style>
+</head>
+<body class="text-slate-800">
+
+<div id="app" class="mx-auto flex min-h-full w-full max-w-3xl flex-col px-4 sm:px-6">
+
+  <!-- ======================= DASHBOARD ======================= -->
+  <main id="view-dashboard" class="safe-top safe-bottom flex-1">
+    <header class="flex items-center justify-between py-2">
+      <div class="flex items-center gap-3">
+        <div class="font-display grid h-10 w-10 place-items-center rounded-xl bg-indigo-600 text-xl font-bold text-white shadow-sm shadow-indigo-300">M</div>
+        <div>
+          <h1 class="text-lg font-semibold leading-tight tracking-tight text-slate-900">Mémo</h1>
+          <p class="text-xs text-slate-500">French flashcards · A1 to C1</p>
+        </div>
+      </div>
+      <button id="btn-settings" class="press grid h-10 w-10 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Settings">
+        <i data-lucide="settings" class="h-5 w-5"></i>
+      </button>
+    </header>
+
+    <section class="mt-5">
+      <p id="greeting" class="font-display text-3xl font-semibold tracking-tight text-slate-900">Bonjour !</p>
+      <p id="greeting-sub" class="mt-1 text-sm text-slate-500">Pick a level to start today's session.</p>
+    </section>
+
+    <!-- Stats -->
+    <section class="mt-5 grid grid-cols-3 gap-3" aria-label="Your progress">
+      <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+        <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500">
+          <i data-lucide="flame" class="h-4 w-4 text-orange-500"></i> Streak
+        </div>
+        <p class="tabular mt-1 text-2xl font-semibold text-slate-900"><span id="stat-streak">0</span><span id="stat-streak-unit" class="ml-1 text-sm font-medium text-slate-400">days</span></p>
+        <p id="stat-streak-note" class="mt-0.5 truncate text-[11px] text-slate-400">Best: 0</p>
+      </div>
+      <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+        <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500">
+          <i data-lucide="trophy" class="h-4 w-4 text-amber-500"></i> Mastered
+        </div>
+        <p class="tabular mt-1 text-2xl font-semibold text-slate-900"><span id="stat-mastered">0</span><span id="stat-total" class="ml-1 text-sm font-medium text-slate-400">/ 50</span></p>
+        <p id="stat-learning" class="mt-0.5 truncate text-[11px] text-slate-400">0 in progress</p>
+      </div>
+      <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+        <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500">
+          <i data-lucide="clock" class="h-4 w-4 text-indigo-500"></i> Ready
+        </div>
+        <p class="tabular mt-1 text-2xl font-semibold text-slate-900"><span id="stat-due">0</span><span class="ml-1 text-sm font-medium text-slate-400">cards</span></p>
+        <p id="stat-reviews" class="mt-0.5 truncate text-[11px] text-slate-400">0 reviews so far</p>
+      </div>
+    </section>
+
+    <!-- Overall -->
+    <section class="mt-3 rounded-2xl border border-slate-200 bg-white p-4">
+      <div class="flex items-center justify-between text-sm">
+        <span class="font-medium text-slate-700">Overall mastery</span>
+        <span id="overall-pct" class="tabular font-semibold text-indigo-600">0%</span>
+      </div>
+      <div class="mt-2 flex h-2 overflow-hidden rounded-full bg-slate-100" role="progressbar" aria-label="Overall mastery" aria-valuemin="0" aria-valuemax="100" id="overall-bar-wrap">
+        <div id="overall-bar" class="bar h-full bg-indigo-600" style="width:0%"></div>
+        <div id="overall-bar-learning" class="bar h-full bg-indigo-200" style="width:0%"></div>
+      </div>
+    </section>
+
+    <!-- Levels -->
+    <section class="mt-7">
+      <div class="flex items-end justify-between">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500">Choose your level</h2>
+        <span class="text-xs text-slate-400">CEFR</span>
+      </div>
+      <div id="level-list" class="mt-3 grid gap-3 sm:grid-cols-2"></div>
+    </section>
+
+    <button id="btn-mixed" class="press mt-4 flex w-full items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-4 py-3.5 text-sm font-semibold text-white shadow-sm shadow-indigo-300 hover:bg-indigo-700">
+      <i data-lucide="shuffle" class="h-4 w-4"></i>
+      <span id="btn-mixed-label">Mixed review · all levels</span>
+    </button>
+
+    <p class="mt-6 pb-2 text-center text-xs text-slate-400">Progress is saved on this device. Cards you know come back after 1, 2, 4, 8 and 16 days.</p>
+  </main>
+
+  <!-- ======================= STUDY ======================= -->
+  <main id="view-study" class="safe-top safe-bottom mx-auto hidden w-full max-w-md flex-1 flex-col">
+    <header class="flex items-center gap-3 py-2">
+      <button id="btn-back" class="press grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Back to dashboard">
+        <i data-lucide="arrow-left" class="h-5 w-5"></i>
+      </button>
+      <div class="min-w-0 flex-1">
+        <div class="flex items-center justify-between text-sm">
+          <span id="study-title" class="truncate font-semibold text-slate-900">A1 · Beginner</span>
+          <span id="study-count" class="tabular shrink-0 text-xs font-medium text-slate-500">0 / 0</span>
+        </div>
+        <div class="mt-1.5 h-1.5 overflow-hidden rounded-full bg-slate-200">
+          <div id="study-bar" class="bar h-full rounded-full bg-indigo-600" style="width:0%"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="flex flex-1 flex-col justify-center py-4">
+      <div id="scene" class="scene">
+        <div id="card" class="card3d" role="button" tabindex="0" aria-label="Flashcard. Press space to flip.">
+
+          <!-- FRONT -->
+          <div class="face front flex flex-col rounded-3xl border border-slate-200 bg-white p-5 shadow-xl shadow-slate-300/40">
+            <div class="flex items-center justify-between">
+              <span id="card-level" class="rounded-full px-2.5 py-1 text-xs font-bold tracking-wide">A1</span>
+              <div class="flex items-center gap-2">
+                <span id="card-box-label" class="text-[11px] font-medium text-slate-400">New</span>
+                <div id="card-box" class="flex gap-1" aria-hidden="true"></div>
+              </div>
+            </div>
+
+            <div class="flex flex-1 flex-col items-center justify-center py-6 text-center">
+              <p id="card-type" class="text-xs font-semibold uppercase tracking-widest text-slate-400">Noun</p>
+              <p id="card-word" lang="fr" class="font-display mt-3 break-words text-4xl font-semibold leading-tight tracking-tight text-slate-900 sm:text-5xl">Bonjour</p>
+              <button id="btn-speak-word" class="press mt-5 inline-flex items-center gap-2 rounded-full bg-indigo-50 px-4 py-2 text-sm font-semibold text-indigo-700 hover:bg-indigo-100" aria-label="Hear the pronunciation">
+                <i data-lucide="volume-2" class="h-4 w-4"></i> Speak
+              </button>
+            </div>
+
+            <div class="min-h-[4.5rem]">
+              <button id="btn-hint" class="press mx-auto flex items-center gap-1.5 rounded-full border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-500 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-700">
+                <i data-lucide="lightbulb" class="h-3.5 w-3.5"></i> Show context hint
+              </button>
+              <div id="hint-box" class="hidden rounded-2xl bg-amber-50 px-4 py-3 text-center">
+                <p class="text-[10px] font-semibold uppercase tracking-widest text-amber-600">In context</p>
+                <p id="hint-text" lang="fr" class="mt-1 text-sm italic leading-snug text-amber-900"></p>
+              </div>
+            </div>
+            <p class="mt-3 text-center text-[11px] text-slate-400">Tap the card to flip</p>
+          </div>
+
+          <!-- BACK -->
+          <div class="face back flex flex-col rounded-3xl border border-indigo-100 bg-white p-5 shadow-xl shadow-slate-300/40">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-semibold uppercase tracking-widest text-slate-400">Translation</span>
+              <span id="back-word" lang="fr" class="font-display max-w-[60%] truncate text-sm font-semibold text-indigo-600">Bonjour</span>
+            </div>
+
+            <div class="flex flex-1 flex-col justify-center py-5">
+              <p id="back-translation" class="text-center text-3xl font-semibold leading-tight tracking-tight text-slate-900">Hello</p>
+
+              <div class="mt-6 rounded-2xl bg-slate-50 p-4">
+                <div class="flex items-start justify-between gap-3">
+                  <div class="min-w-0">
+                    <p class="text-[10px] font-semibold uppercase tracking-widest text-slate-400">Example</p>
+                    <p id="back-example-fr" lang="fr" class="font-display mt-1 text-lg leading-snug text-slate-900"></p>
+                  </div>
+                  <button id="btn-speak-example" class="press grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white text-indigo-600 shadow-sm ring-1 ring-slate-200 hover:bg-indigo-50" aria-label="Hear the example sentence">
+                    <i data-lucide="volume-2" class="h-4 w-4"></i>
+                  </button>
+                </div>
+                <p id="back-example-en" class="mt-2 border-t border-slate-200 pt-2 text-sm leading-snug text-slate-500"></p>
+              </div>
+            </div>
+            <p class="text-center text-[11px] text-slate-400">Did you know it?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="pb-1">
+      <div id="actions-reveal">
+        <button id="btn-reveal" class="press w-full rounded-2xl bg-slate-900 px-4 py-4 text-sm font-semibold text-white hover:bg-slate-800">Show answer</button>
+      </div>
+      <div id="actions-grade" class="hidden grid-cols-2 gap-3">
+        <button id="btn-again" class="press flex items-center justify-center gap-2 rounded-2xl bg-red-600 px-4 py-4 text-sm font-semibold text-white shadow-sm shadow-red-200 hover:bg-red-700">
+          <i data-lucide="rotate-ccw" class="h-4 w-4"></i> Study Again
+        </button>
+        <button id="btn-know" class="press flex items-center justify-center gap-2 rounded-2xl bg-emerald-600 px-4 py-4 text-sm font-semibold text-white shadow-sm shadow-emerald-200 hover:bg-emerald-700">
+          <i data-lucide="check" class="h-4 w-4"></i> Know It
+        </button>
+      </div>
+      <p class="mt-3 hidden text-center text-[11px] text-slate-400 sm:block">Space to flip · ← Study again · → Know it · S to speak</p>
+    </div>
+  </main>
+
+  <!-- ======================= SESSION END ======================= -->
+  <main id="view-done" class="safe-top safe-bottom mx-auto hidden w-full max-w-md flex-1 flex-col justify-center">
+    <div class="rounded-3xl border border-slate-200 bg-white p-6 text-center shadow-xl shadow-slate-300/40">
+      <div id="done-icon" class="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-emerald-50 text-emerald-600">
+        <i data-lucide="party-popper" class="h-8 w-8"></i>
+      </div>
+      <h2 id="done-title" class="font-display mt-4 text-2xl font-semibold tracking-tight text-slate-900">Bien joué !</h2>
+      <p id="done-text" class="mt-1 text-sm text-slate-500">Session complete.</p>
+
+      <div id="done-stats" class="mt-5 grid grid-cols-3 gap-2">
+        <div class="rounded-2xl bg-emerald-50 p-3">
+          <p id="done-known" class="tabular text-2xl font-semibold text-emerald-700">0</p>
+          <p class="text-[11px] font-medium text-emerald-700/80">First try</p>
+        </div>
+        <div class="rounded-2xl bg-red-50 p-3">
+          <p id="done-again" class="tabular text-2xl font-semibold text-red-700">0</p>
+          <p class="text-[11px] font-medium text-red-700/80">Repeated</p>
+        </div>
+        <div class="rounded-2xl bg-orange-50 p-3">
+          <p id="done-streak" class="tabular text-2xl font-semibold text-orange-700">0</p>
+          <p class="text-[11px] font-medium text-orange-700/80">Day streak</p>
+        </div>
+      </div>
+
+      <button id="btn-done-primary" class="press mt-6 w-full rounded-2xl bg-indigo-600 px-4 py-3.5 text-sm font-semibold text-white shadow-sm shadow-indigo-300 hover:bg-indigo-700">Keep going</button>
+      <button id="btn-done-home" class="press mt-2 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-slate-700 hover:border-indigo-200 hover:text-indigo-700">Back to dashboard</button>
+    </div>
+  </main>
+</div>
+
+<!-- ======================= SETTINGS SHEET ======================= -->
+<div id="settings" class="fixed inset-0 z-40 hidden items-end justify-center bg-slate-900/40 backdrop-blur-sm sm:items-center" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+  <div class="view-enter safe-bottom max-h-[92vh] w-full max-w-md overflow-y-auto rounded-t-3xl bg-white p-5 shadow-2xl sm:rounded-3xl">
+    <div class="flex items-center justify-between">
+      <h2 id="settings-title" class="text-lg font-semibold tracking-tight text-slate-900">Session settings</h2>
+      <button id="btn-settings-close" class="press grid h-9 w-9 place-items-center rounded-xl bg-slate-100 text-slate-600 hover:bg-slate-200" aria-label="Close settings">
+        <i data-lucide="x" class="h-4 w-4"></i>
+      </button>
+    </div>
+
+    <div class="mt-5">
+      <p class="text-sm font-medium text-slate-700">Cards per session</p>
+      <div id="size-options" class="mt-2 grid grid-cols-4 gap-1 rounded-xl bg-slate-100 p-1">
+        <button data-size="5"  class="press rounded-lg py-2 text-sm font-semibold">5</button>
+        <button data-size="10" class="press rounded-lg py-2 text-sm font-semibold">10</button>
+        <button data-size="20" class="press rounded-lg py-2 text-sm font-semibold">20</button>
+        <button data-size="0"  class="press rounded-lg py-2 text-sm font-semibold">All</button>
+      </div>
+    </div>
+
+    <div class="mt-5 divide-y divide-slate-100">
+      <div class="flex items-center justify-between py-3">
+        <div>
+          <p class="text-sm font-medium text-slate-700">Shuffle cards</p>
+          <p class="text-xs text-slate-400">Randomise the order in each session</p>
+        </div>
+        <button id="toggle-shuffle" class="toggle relative h-7 w-12 shrink-0 rounded-full bg-slate-300 p-1" aria-pressed="false" aria-label="Shuffle cards"><span class="block h-5 w-5 rounded-full bg-white shadow"></span></button>
+      </div>
+      <div class="flex items-center justify-between py-3">
+        <div>
+          <p class="text-sm font-medium text-slate-700">Auto-speak</p>
+          <p class="text-xs text-slate-400">Read each new word aloud in French</p>
+        </div>
+        <button id="toggle-autospeak" class="toggle relative h-7 w-12 shrink-0 rounded-full bg-slate-300 p-1" aria-pressed="false" aria-label="Auto-speak"><span class="block h-5 w-5 rounded-full bg-white shadow"></span></button>
+      </div>
+      <div class="py-3">
+        <div class="flex items-center justify-between">
+          <label for="rate" class="text-sm font-medium text-slate-700">Speech speed</label>
+          <span id="rate-label" class="tabular text-xs font-semibold text-indigo-600">0.9×</span>
+        </div>
+        <input id="rate" type="range" min="0.5" max="1.2" step="0.1" value="0.9" class="mt-2 w-full">
+        <button id="btn-test-voice" class="press mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-600 hover:text-indigo-800">
+          <i data-lucide="volume-2" class="h-3.5 w-3.5"></i> Test the French voice
+        </button>
+      </div>
+    </div>
+
+    <button id="btn-reset" class="press mt-4 w-full rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-semibold text-red-700 hover:bg-red-100">Reset all progress</button>
+  </div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="pointer-events-none fixed bottom-6 left-1/2 z-50 max-w-[90vw] -translate-x-1/2 translate-y-3 rounded-full bg-slate-900 px-4 py-2 text-center text-sm font-medium text-white opacity-0 shadow-lg" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* =========================================================
+     1. DATASET — 50 cards, 10 per CEFR level
+     ========================================================= */
+  const CARDS = [
+    // ---------- A1 · Beginner ----------
+    { id: "a1_bonjour", level: "A1", word: "Bonjour", type: "Interjection", translation: "Hello / Good morning",
+      exampleFr: "Bonjour, comment allez-vous ?", exampleEn: "Hello, how are you?" },
+    { id: "a1_merci", level: "A1", word: "Merci", type: "Interjection", translation: "Thank you",
+      exampleFr: "Merci beaucoup pour votre aide.", exampleEn: "Thank you very much for your help." },
+    { id: "a1_etre", level: "A1", word: "Être", type: "Verb", translation: "To be",
+      exampleFr: "Je suis très content d'être ici.", exampleEn: "I am very happy to be here." },
+    { id: "a1_avoir", level: "A1", word: "Avoir", type: "Verb", translation: "To have",
+      exampleFr: "Nous avons deux chats à la maison.", exampleEn: "We have two cats at home." },
+    { id: "a1_maison", level: "A1", word: "La maison", type: "Noun (f.)", translation: "The house / home",
+      exampleFr: "Ma maison est près de la gare.", exampleEn: "My house is near the train station." },
+    { id: "a1_manger", level: "A1", word: "Manger", type: "Verb", translation: "To eat",
+      exampleFr: "Les enfants mangent une pomme.", exampleEn: "The children are eating an apple." },
+    { id: "a1_eau", level: "A1", word: "L'eau", type: "Noun (f.)", translation: "Water",
+      exampleFr: "Je voudrais un verre d'eau, s'il vous plaît.", exampleEn: "I would like a glass of water, please." },
+    { id: "a1_petit", level: "A1", word: "Petit", type: "Adjective", translation: "Small / little",
+      exampleFr: "Elle habite dans un petit village.", exampleEn: "She lives in a small village." },
+    { id: "a1_aujourdhui", level: "A1", word: "Aujourd'hui", type: "Adverb", translation: "Today",
+      exampleFr: "Aujourd'hui, il fait très beau.", exampleEn: "Today, the weather is very nice." },
+    { id: "a1_svp", level: "A1", word: "S'il vous plaît", type: "Phrase", translation: "Please (formal)",
+      exampleFr: "L'addition, s'il vous plaît.", exampleEn: "The bill, please." },
+
+    // ---------- A2 · Elementary ----------
+    { id: "a2_voyage", level: "A2", word: "Le voyage", type: "Noun (m.)", translation: "The trip / journey",
+      exampleFr: "Notre voyage en Italie était magnifique.", exampleEn: "Our trip to Italy was wonderful." },
+    { id: "a2_se_reveiller", level: "A2", word: "Se réveiller", type: "Reflexive verb", translation: "To wake up",
+      exampleFr: "Je me réveille à sept heures tous les matins.", exampleEn: "I wake up at seven o'clock every morning." },
+    { id: "a2_souvent", level: "A2", word: "Souvent", type: "Adverb", translation: "Often",
+      exampleFr: "Nous allons souvent au cinéma le week-end.", exampleEn: "We often go to the cinema at the weekend." },
+    { id: "a2_travail", level: "A2", word: "Le travail", type: "Noun (m.)", translation: "Work / job",
+      exampleFr: "Elle cherche un nouveau travail à Lyon.", exampleEn: "She is looking for a new job in Lyon." },
+    { id: "a2_acheter", level: "A2", word: "Acheter", type: "Verb", translation: "To buy",
+      exampleFr: "J'ai acheté du pain à la boulangerie.", exampleEn: "I bought some bread at the bakery." },
+    { id: "a2_heureux", level: "A2", word: "Heureux", type: "Adjective", translation: "Happy",
+      exampleFr: "Ils sont heureux de vous revoir.", exampleEn: "They are happy to see you again." },
+    { id: "a2_meteo", level: "A2", word: "La météo", type: "Noun (f.)", translation: "The weather forecast",
+      exampleFr: "La météo annonce de la pluie pour demain.", exampleEn: "The forecast says rain for tomorrow." },
+    { id: "a2_besoin", level: "A2", word: "Avoir besoin de", type: "Verb phrase", translation: "To need",
+      exampleFr: "J'ai besoin d'un nouveau téléphone.", exampleEn: "I need a new phone." },
+    { id: "a2_rendez_vous", level: "A2", word: "Le rendez-vous", type: "Noun (m.)", translation: "Appointment / meeting",
+      exampleFr: "J'ai rendez-vous chez le médecin à quinze heures.", exampleEn: "I have a doctor's appointment at 3 p.m." },
+    { id: "a2_deja", level: "A2", word: "Déjà", type: "Adverb", translation: "Already",
+      exampleFr: "Tu as déjà fini tes devoirs ?", exampleEn: "Have you already finished your homework?" },
+
+    // ---------- B1 · Intermediate ----------
+    { id: "b1_pourtant", level: "B1", word: "Pourtant", type: "Adverb", translation: "Yet / however",
+      exampleFr: "Il a beaucoup étudié ; pourtant, il a raté l'examen.", exampleEn: "He studied a lot; yet he failed the exam." },
+    { id: "b1_se_debrouiller", level: "B1", word: "Se débrouiller", type: "Reflexive verb", translation: "To manage / to get by",
+      exampleFr: "Elle se débrouille très bien en espagnol.", exampleEn: "She gets by very well in Spanish." },
+    { id: "b1_environnement", level: "B1", word: "L'environnement", type: "Noun (m.)", translation: "The environment",
+      exampleFr: "Il faut protéger l'environnement pour les générations futures.", exampleEn: "We must protect the environment for future generations." },
+    { id: "b1_ameliorer", level: "B1", word: "Améliorer", type: "Verb", translation: "To improve",
+      exampleFr: "Je lis des romans pour améliorer mon français.", exampleEn: "I read novels to improve my French." },
+    { id: "b1_chomage", level: "B1", word: "Le chômage", type: "Noun (m.)", translation: "Unemployment",
+      exampleFr: "Le chômage a baissé cette année.", exampleEn: "Unemployment has fallen this year." },
+    { id: "b1_avoir_hate", level: "B1", word: "Avoir hâte", type: "Idiom", translation: "To look forward to / can't wait",
+      exampleFr: "J'ai hâte de partir en vacances.", exampleEn: "I can't wait to go on holiday." },
+    { id: "b1_decu", level: "B1", word: "Déçu", type: "Adjective", translation: "Disappointed",
+      exampleFr: "Nous avons été déçus par la fin du film.", exampleEn: "We were disappointed by the end of the film." },
+    { id: "b1_grace_a", level: "B1", word: "Grâce à", type: "Preposition", translation: "Thanks to",
+      exampleFr: "Grâce à ton aide, j'ai réussi mon entretien.", exampleEn: "Thanks to your help, my interview went well." },
+    { id: "b1_se_rendre_compte", level: "B1", word: "Se rendre compte", type: "Verb phrase", translation: "To realise",
+      exampleFr: "Je me suis rendu compte que j'avais oublié mes clés.", exampleEn: "I realised that I had forgotten my keys." },
+    { id: "b1_logement", level: "B1", word: "Le logement", type: "Noun (m.)", translation: "Housing / accommodation",
+      exampleFr: "Trouver un logement à Paris est difficile.", exampleEn: "Finding accommodation in Paris is difficult." },
+
+    // ---------- B2 · Upper Intermediate ----------
+    { id: "b2_neanmoins", level: "B2", word: "Néanmoins", type: "Adverb", translation: "Nevertheless",
+      exampleFr: "Le projet est risqué ; néanmoins, il mérite d'être tenté.", exampleEn: "The project is risky; nevertheless, it is worth trying." },
+    { id: "b2_remettre_en_question", level: "B2", word: "Remettre en question", type: "Verb phrase", translation: "To call into question",
+      exampleFr: "Cette découverte remet en question nos certitudes.", exampleEn: "This discovery calls our certainties into question." },
+    { id: "b2_enjeu", level: "B2", word: "L'enjeu", type: "Noun (m.)", translation: "What is at stake / the issue",
+      exampleFr: "L'enjeu principal de cette élection est l'économie.", exampleEn: "The main issue in this election is the economy." },
+    { id: "b2_susciter", level: "B2", word: "Susciter", type: "Verb", translation: "To arouse / to spark",
+      exampleFr: "Son discours a suscité de vives réactions.", exampleEn: "His speech sparked strong reactions." },
+    { id: "b2_en_revanche", level: "B2", word: "En revanche", type: "Adverbial phrase", translation: "On the other hand",
+      exampleFr: "Il parle peu ; en revanche, il écoute beaucoup.", exampleEn: "He says little; on the other hand, he listens a lot." },
+    { id: "b2_mettre_en_oeuvre", level: "B2", word: "Mettre en œuvre", type: "Verb phrase", translation: "To implement",
+      exampleFr: "Le gouvernement va mettre en œuvre de nouvelles mesures.", exampleEn: "The government is going to implement new measures." },
+    { id: "b2_atteindre", level: "B2", word: "Atteindre", type: "Verb", translation: "To reach / to achieve",
+      exampleFr: "Elle a enfin atteint son objectif.", exampleEn: "She has finally reached her goal." },
+    { id: "b2_bouleversement", level: "B2", word: "Le bouleversement", type: "Noun (m.)", translation: "Upheaval",
+      exampleFr: "La révolution numérique a provoqué un bouleversement profond de la société.", exampleEn: "The digital revolution has caused a profound upheaval in society." },
+    { id: "b2_quitte_a", level: "B2", word: "Quitte à", type: "Prepositional phrase", translation: "Even if it means",
+      exampleFr: "Je préfère dire la vérité, quitte à le décevoir.", exampleEn: "I would rather tell the truth, even if it means disappointing him." },
+    { id: "b2_soucieux", level: "B2", word: "Soucieux", type: "Adjective", translation: "Concerned / mindful",
+      exampleFr: "Soucieux de sa santé, il a arrêté de fumer.", exampleEn: "Mindful of his health, he stopped smoking." },
+
+    // ---------- C1 · Advanced ----------
+    { id: "c1_saverer", level: "C1", word: "S'avérer", type: "Reflexive verb", translation: "To prove / to turn out to be",
+      exampleFr: "La tâche s'est avérée plus complexe que prévu.", exampleEn: "The task turned out to be more complex than expected." },
+    { id: "c1_nonobstant", level: "C1", word: "Nonobstant", type: "Preposition (formal)", translation: "Notwithstanding",
+      exampleFr: "Nonobstant les critiques, la réforme a été adoptée.", exampleEn: "Notwithstanding the criticism, the reform was adopted." },
+    { id: "c1_ephemere", level: "C1", word: "Éphémère", type: "Adjective", translation: "Ephemeral / fleeting",
+      exampleFr: "La gloire est souvent éphémère.", exampleEn: "Fame is often fleeting." },
+    { id: "c1_pallier", level: "C1", word: "Pallier", type: "Verb", translation: "To compensate for / to mitigate",
+      exampleFr: "Ces mesures visent à pallier le manque de personnel.", exampleEn: "These measures aim to compensate for the staff shortage." },
+    { id: "c1_a_linstar_de", level: "C1", word: "À l'instar de", type: "Prepositional phrase", translation: "Following the example of / like",
+      exampleFr: "À l'instar de ses prédécesseurs, il a privilégié le dialogue.", exampleEn: "Like his predecessors, he favoured dialogue." },
+    { id: "c1_clivage", level: "C1", word: "Le clivage", type: "Noun (m.)", translation: "Divide / rift",
+      exampleFr: "Ce débat révèle un clivage profond au sein du parti.", exampleEn: "This debate reveals a deep divide within the party." },
+    { id: "c1_enteriner", level: "C1", word: "Entériner", type: "Verb", translation: "To ratify / to endorse",
+      exampleFr: "Le conseil a entériné la décision à l'unanimité.", exampleEn: "The board unanimously ratified the decision." },
+    { id: "c1_epingle", level: "C1", word: "Tirer son épingle du jeu", type: "Idiom", translation: "To come out of it well",
+      exampleFr: "Malgré la crise, cette entreprise a su tirer son épingle du jeu.", exampleEn: "Despite the crisis, this company managed to come out of it well." },
+    { id: "c1_en_loccurrence", level: "C1", word: "En l'occurrence", type: "Adverbial phrase", translation: "In this case / as it happens",
+      exampleFr: "Il fallait un expert, en l'occurrence un juriste.", exampleEn: "An expert was needed — in this case, a lawyer." },
+    { id: "c1_fallacieux", level: "C1", word: "Fallacieux", type: "Adjective", translation: "Fallacious / misleading",
+      exampleFr: "Son raisonnement repose sur un argument fallacieux.", exampleEn: "His reasoning rests on a fallacious argument." }
+  ];
+
+  const LEVELS = [
+    { id: "A1", name: "Beginner",           color: "#047857", soft: "#d1fae5", tint: "#a7f3d0" },
+    { id: "A2", name: "Elementary",         color: "#0369a1", soft: "#e0f2fe", tint: "#bae6fd" },
+    { id: "B1", name: "Intermediate",       color: "#4338ca", soft: "#e0e7ff", tint: "#c7d2fe" },
+    { id: "B2", name: "Upper Intermediate", color: "#6d28d9", soft: "#ede9fe", tint: "#ddd6fe" },
+    { id: "C1", name: "Advanced",           color: "#be123c", soft: "#ffe4e6", tint: "#fecdd3" }
+  ];
+  const LEVEL_BY_ID = Object.fromEntries(LEVELS.map(l => [l.id, l]));
+  const CARD_BY_ID = Object.fromEntries(CARDS.map(c => [c.id, c]));
+
+  /* =========================================================
+     2. STATE & PERSISTENCE
+     ========================================================= */
+  const STORAGE_KEY = "memo-french-flashcards-v1";
+  const DAY_MS = 24 * 60 * 60 * 1000;
+  const MAX_BOX = 5;
+  const MASTERED_BOX = 3;                                   // box 3+ counts as mastered
+  const INTERVAL_DAYS = { 1: 1, 2: 2, 3: 4, 4: 8, 5: 16 };  // Leitner review spacing
+
+  function defaultState() {
+    return {
+      cards: {},                                            // id -> { box, due, correct, wrong }
+      streak: { count: 0, best: 0, last: null },
+      settings: { sessionSize: 10, shuffle: true, autoSpeak: false, rate: 0.9, lastLevel: null },
+      totals: { reviews: 0 }
+    };
+  }
+
+  function loadState() {
+    const base = defaultState();
+    try {
+      const raw = window.localStorage.getItem(STORAGE_KEY);
+      if (!raw) return base;
+      const saved = JSON.parse(raw);
+      if (!saved || typeof saved !== "object") return base;
+      return {
+        cards: (saved.cards && typeof saved.cards === "object") ? saved.cards : {},
+        streak: Object.assign(base.streak, saved.streak || {}),
+        settings: Object.assign(base.settings, saved.settings || {}),
+        totals: Object.assign(base.totals, saved.totals || {})
+      };
+    } catch (err) {
+      return base;
+    }
+  }
+
+  let storageWarned = false;
+  function saveState() {
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (err) {
+      if (!storageWarned) {
+        storageWarned = true;
+        toast("Progress can't be saved in this browser mode");
+      }
+    }
+  }
+
+  let state = loadState();
+  let session = null;       // active study session
+  let flipped = false;
+
+  /* =========================================================
+     3. HELPERS
+     ========================================================= */
+  const $ = id => document.getElementById(id);
+
+  function dateKey(d) {
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+    return y + "-" + m + "-" + day;
+  }
+  function startOfToday() {
+    const d = new Date();
+    d.setHours(0, 0, 0, 0);
+    return d.getTime();
+  }
+  function yesterdayKey() {
+    const d = new Date();
+    d.setDate(d.getDate() - 1);
+    return dateKey(d);
+  }
+  function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+  function plural(n, one, many) { return n + " " + (n === 1 ? one : many); }
+
+  function boxOf(id) { const s = state.cards[id]; return s ? (s.box || 0) : 0; }
+  function isNew(id) { return !state.cards[id]; }
+  function isDue(id) { const s = state.cards[id]; return !s || (s.due || 0) <= Date.now(); }
+  function isMastered(id) { return boxOf(id) >= MASTERED_BOX; }
+  function isLearning(id) { const b = boxOf(id); return b >= 1 && b < MASTERED_BOX; }
+
+  function cardsFor(levelId) {
+    return levelId === "ALL" ? CARDS : CARDS.filter(c => c.level === levelId);
+  }
+  function levelStats(levelId) {
+    const list = cardsFor(levelId);
+    let mastered = 0, learning = 0, due = 0;
+    list.forEach(c => {
+      if (isMastered(c.id)) mastered++;
+      else if (isLearning(c.id)) learning++;
+      if (isDue(c.id)) due++;
+    });
+    return { total: list.length, mastered: mastered, learning: learning, due: due };
+  }
+  function currentStreak() {
+    const last = state.streak.last;
+    if (last === dateKey(new Date()) || last === yesterdayKey()) return state.streak.count;
+    return 0;
+  }
+  function touchStreak() {
+    const today = dateKey(new Date());
+    if (state.streak.last === today) return;
+    state.streak.count = (state.streak.last === yesterdayKey()) ? state.streak.count + 1 : 1;
+    state.streak.last = today;
+    if (state.streak.count > state.streak.best) state.streak.best = state.streak.count;
+  }
+  function nextDueText(levelId) {
+    let soonest = Infinity;
+    cardsFor(levelId).forEach(c => {
+      const s = state.cards[c.id];
+      if (s && s.due < soonest) soonest = s.due;
+    });
+    if (!isFinite(soonest)) return "";
+    const days = Math.max(1, Math.round((soonest - startOfToday()) / DAY_MS));
+    return days === 1 ? "tomorrow" : "in " + days + " days";
+  }
+
+  let toastTimer = null;
+  function toast(message) {
+    const el = $("toast");
+    el.textContent = message;
+    el.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => el.classList.remove("show"), 2400);
+  }
+
+  function refreshIcons() {
+    if (window.lucide && typeof window.lucide.createIcons === "function") {
+      window.lucide.createIcons();
+    }
+  }
+
+  /* =========================================================
+     4. SPEECH (Web Speech API, fr-FR)
+     ========================================================= */
+  const speechSupported = ("speechSynthesis" in window) && ("SpeechSynthesisUtterance" in window);
+  let frenchVoice = null;
+
+  function pickFrenchVoice() {
+    if (!speechSupported) return;
+    const voices = window.speechSynthesis.getVoices() || [];
+    const norm = v => (v.lang || "").replace("_", "-").toLowerCase();
+    frenchVoice =
+      voices.find(v => norm(v) === "fr-fr" && v.localService) ||
+      voices.find(v => norm(v) === "fr-fr") ||
+      voices.find(v => norm(v).indexOf("fr") === 0) ||
+      null;
+  }
+  if (speechSupported) {
+    pickFrenchVoice();
+    if (typeof window.speechSynthesis.addEventListener === "function") {
+      window.speechSynthesis.addEventListener("voiceschanged", pickFrenchVoice);
+    } else {
+      window.speechSynthesis.onvoiceschanged = pickFrenchVoice;
+    }
+  }
+
+  function speak(text, silentIfUnsupported) {
+    if (!speechSupported) {
+      if (!silentIfUnsupported) toast("Speech isn't supported in this browser");
+      return;
+    }
+    try {
+      const synth = window.speechSynthesis;
+      synth.cancel();
+      if (!frenchVoice) pickFrenchVoice();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = "fr-FR";
+      if (frenchVoice) u.voice = frenchVoice;
+      u.rate = Number(state.settings.rate) || 0.9;
+      u.pitch = 1;
+      synth.speak(u);
+    } catch (err) {
+      if (!silentIfUnsupported) toast("Couldn't play audio");
+    }
+  }
+  function stopSpeaking() {
+    if (speechSupported) { try { window.speechSynthesis.cancel(); } catch (err) {} }
+  }
+
+  /* =========================================================
+     5. VIEWS
+     ========================================================= */
+  const VIEWS = ["view-dashboard", "view-study", "view-done"];
+  function showView(id) {
+    VIEWS.forEach(v => {
+      const el = $(v);
+      const active = v === id;
+      el.classList.toggle("hidden", !active);
+      if (v !== "view-dashboard") el.classList.toggle("flex", active);
+      if (active) {
+        el.classList.remove("view-enter");
+        void el.offsetWidth;
+        el.classList.add("view-enter");
+      }
+    });
+    window.scrollTo(0, 0);
+  }
+
+  /* ---------- Dashboard ---------- */
+  function renderDashboard() {
+    const all = levelStats("ALL");
+    const streak = currentStreak();
+    const hour = new Date().getHours();
+
+    $("greeting").textContent = hour < 18 ? "Bonjour !" : "Bonsoir !";
+    $("greeting-sub").textContent = all.due > 0
+      ? plural(all.due, "card is", "cards are") + " ready for you today."
+      : "You're all caught up. Come back tomorrow, or review ahead.";
+
+    $("stat-streak").textContent = streak;
+    $("stat-streak-unit").textContent = streak === 1 ? "day" : "days";
+    $("stat-streak-note").textContent =
+      (state.streak.last === dateKey(new Date())) ? "Studied today ✓" : "Best: " + state.streak.best;
+
+    $("stat-mastered").textContent = all.mastered;
+    $("stat-total").textContent = "/ " + all.total;
+    $("stat-learning").textContent = all.learning + " in progress";
+    $("stat-due").textContent = all.due;
+    $("stat-reviews").textContent = plural(state.totals.reviews, "review", "reviews") + " so far";
+
+    const pct = Math.round((all.mastered / all.total) * 100);
+    $("overall-pct").textContent = pct + "%";
+    $("overall-bar").style.width = (all.mastered / all.total * 100) + "%";
+    $("overall-bar-learning").style.width = (all.learning / all.total * 100) + "%";
+    $("overall-bar-wrap").setAttribute("aria-valuenow", String(pct));
+
+    $("btn-mixed-label").textContent = all.due > 0
+      ? "Mixed review · " + plural(all.due, "card", "cards") + " ready"
+      : "Mixed review · all levels";
+
+    const list = $("level-list");
+    list.innerHTML = "";
+    LEVELS.forEach(level => {
+      const s = levelStats(level.id);
+      const p = Math.round((s.mastered / s.total) * 100);
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "press lift group rounded-2xl border bg-white p-4 text-left " +
+        (state.settings.lastLevel === level.id ? "border-indigo-300 ring-2 ring-indigo-100" : "border-slate-200 hover:border-indigo-200");
+      btn.setAttribute("aria-label", level.id + " " + level.name + ", " + p + " percent mastered, " + s.due + " cards ready");
+      btn.innerHTML =
+        '<div class="flex items-center gap-3">' +
+          '<span class="grid h-11 w-11 shrink-0 place-items-center rounded-xl text-sm font-bold" style="background:' + level.soft + ';color:' + level.color + '">' + level.id + '</span>' +
+          '<div class="min-w-0 flex-1">' +
+            '<p class="truncate text-sm font-semibold text-slate-900">' + level.name + '</p>' +
+            '<p class="text-xs text-slate-500">' + s.total + ' cards · ' +
+              (s.due > 0 ? '<span class="font-medium text-slate-700">' + s.due + ' ready</span>' : 'all caught up') + '</p>' +
+          '</div>' +
+          '<span class="tabular text-sm font-semibold" style="color:' + level.color + '">' + p + '%</span>' +
+          '<i data-lucide="chevron-right" class="h-4 w-4 text-slate-300 transition-transform group-hover:translate-x-0.5 group-hover:text-slate-500"></i>' +
+        '</div>' +
+        '<div class="mt-3 flex h-2 overflow-hidden rounded-full bg-slate-100" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + p + '">' +
+          '<div class="bar h-full" style="width:' + (s.mastered / s.total * 100) + '%;background:' + level.color + '"></div>' +
+          '<div class="bar h-full" style="width:' + (s.learning / s.total * 100) + '%;background:' + level.tint + '"></div>' +
+        '</div>' +
+        '<p class="mt-2 text-[11px] text-slate-400">' + s.mastered + ' mastered · ' + s.learning + ' learning · ' + (s.total - s.mastered - s.learning) + ' new</p>';
+      btn.addEventListener("click", () => startSession(level.id, false));
+      list.appendChild(btn);
+    });
+    refreshIcons();
+  }
+
+  function goHome() {
+    stopSpeaking();
+    session = null;
+    renderDashboard();
+    showView("view-dashboard");
+  }
+
+  /* ---------- Session ---------- */
+  function buildQueue(levelId, ahead) {
+    const pool = cardsFor(levelId);
+    let picked;
+    if (ahead) {
+      // Nothing is due: review the weakest cards first.
+      picked = (state.settings.shuffle ? shuffle(pool) : pool.slice())
+        .sort((a, b) => boxOf(a.id) - boxOf(b.id));
+    } else {
+      const due = pool.filter(c => isDue(c.id));
+      const reviews = due.filter(c => !isNew(c.id)).sort((a, b) => boxOf(a.id) - boxOf(b.id));
+      const fresh = due.filter(c => isNew(c.id));
+      picked = reviews.concat(state.settings.shuffle ? shuffle(fresh) : fresh);
+    }
+    const size = Number(state.settings.sessionSize) || 0;
+    if (size > 0) picked = picked.slice(0, size);
+    if (state.settings.shuffle) picked = shuffle(picked);
+    return picked.map(c => c.id);
+  }
+
+  function startSession(levelId, ahead) {
+    const queue = buildQueue(levelId, ahead);
+    if (levelId !== "ALL") { state.settings.lastLevel = levelId; saveState(); }
+
+    if (queue.length === 0) {
+      showCaughtUp(levelId);
+      return;
+    }
+    session = {
+      level: levelId,
+      ahead: !!ahead,
+      queue: queue,
+      total: queue.length,
+      done: 0,
+      missed: {}
+    };
+    const level = LEVEL_BY_ID[levelId];
+    $("study-title").textContent = level ? level.id + " · " + level.name : "Mixed review";
+    showView("view-study");
+    showCard();
+  }
+
+  function setFlipped(value) {
+    flipped = value;
+    $("card").classList.toggle("flipped", flipped);
+    $("card").setAttribute("aria-label", flipped
+      ? "Flashcard, answer side. Press space to flip back."
+      : "Flashcard, question side. Press space to flip.");
+    $("actions-reveal").classList.toggle("hidden", flipped);
+    $("actions-grade").classList.toggle("hidden", !flipped);
+    $("actions-grade").classList.toggle("grid", flipped);
+  }
+
+  function flipCard() {
+    if (!session) return;
+    setFlipped(!flipped);
+  }
+
+  function renderBoxDots(id) {
+    const box = boxOf(id);
+    const wrap = $("card-box");
+    wrap.innerHTML = "";
+    for (let i = 1; i <= MAX_BOX; i++) {
+      const dot = document.createElement("span");
+      dot.className = "h-1.5 w-1.5 rounded-full " + (i <= box ? "bg-indigo-500" : "bg-slate-200");
+      wrap.appendChild(dot);
+    }
+    $("card-box-label").textContent = isNew(id) ? "New" : "Box " + box + " of " + MAX_BOX;
+  }
+
+  function showCard() {
+    const card = CARD_BY_ID[session.queue[0]];
+    const level = LEVEL_BY_ID[card.level];
+    const cardEl = $("card");
+
+    stopSpeaking();
+
+    // Reset to the front instantly so the next answer never flashes during the flip.
+    cardEl.classList.add("no-anim");
+    setFlipped(false);
+
+    const badge = $("card-level");
+    badge.textContent = card.level;
+    badge.style.background = level.soft;
+    badge.style.color = level.color;
+
+    $("card-type").textContent = card.type;
+    $("card-word").textContent = card.word;
+    $("hint-text").textContent = card.exampleFr;
+    $("hint-box").classList.add("hidden");
+    $("btn-hint").classList.remove("hidden");
+    renderBoxDots(card.id);
+
+    $("back-word").textContent = card.word;
+    $("back-translation").textContent = card.translation;
+    $("back-example-fr").textContent = card.exampleFr;
+    $("back-example-en").textContent = card.exampleEn;
+
+    $("study-count").textContent = session.done + " / " + session.total;
+    $("study-bar").style.width = (session.done / session.total * 100) + "%";
+
+    void cardEl.offsetWidth;
+    cardEl.classList.remove("no-anim");
+
+    const scene = $("scene");
+    scene.classList.remove("card-enter");
+    void scene.offsetWidth;
+    scene.classList.add("card-enter");
+
+    if (state.settings.autoSpeak) speak(card.word, true);
+  }
+
+  function answer(known) {
+    if (!session || !flipped) return;
+    const id = session.queue.shift();
+    const entry = state.cards[id] || { box: 0, due: 0, correct: 0, wrong: 0 };
+
+    if (known) {
+      // A card missed earlier in this session restarts at box 1; otherwise it moves up one box.
+      entry.box = session.missed[id] ? 1 : Math.min(MAX_BOX, (entry.box || 0) + 1);
+      entry.due = startOfToday() + INTERVAL_DAYS[entry.box] * DAY_MS;
+      entry.correct = (entry.correct || 0) + 1;
+      session.done++;
+    } else {
+      // Back to box 1 and back into this session's queue.
+      entry.box = 1;
+      entry.due = startOfToday();
+      entry.wrong = (entry.wrong || 0) + 1;
+      session.missed[id] = true;
+      const pos = Math.min(session.queue.length, 3);
+      session.queue.splice(pos, 0, id);
+    }
+
+    state.cards[id] = entry;
+    state.totals.reviews = (state.totals.reviews || 0) + 1;
+    touchStreak();
+    saveState();
+
+    if (session.queue.length === 0) finishSession();
+    else showCard();
+  }
+
+  function setDoneIcon(name, bg, fg) {
+    const wrap = $("done-icon");
+    wrap.className = "pop mx-auto grid h-16 w-16 place-items-center rounded-2xl " + bg + " " + fg;
+    wrap.innerHTML = '<i data-lucide="' + name + '" class="h-8 w-8"></i>';
+    refreshIcons();
+  }
+
+  function finishSession() {
+    stopSpeaking();
+    const levelId = session.level;
+    const missed = Object.keys(session.missed).length;
+    const firstTry = session.total - missed;
+    const remaining = levelStats(levelId).due;
+    const label = levelId === "ALL" ? "all levels" : levelId;
+
+    setDoneIcon("party-popper", "bg-emerald-50", "text-emerald-600");
+    $("done-title").textContent = missed === 0 ? "Parfait !" : "Bien joué !";
+    $("done-text").textContent = "You reviewed " + plural(session.total, "card", "cards") + " in " + label + ". " +
+      (remaining > 0 ? plural(remaining, "more is", "more are") + " ready." : "Nothing else is due today.");
+    $("done-stats").classList.remove("hidden");
+    $("done-known").textContent = firstTry;
+    $("done-again").textContent = missed;
+    $("done-streak").textContent = currentStreak();
+
+    const primary = $("btn-done-primary");
+    primary.textContent = remaining > 0 ? "Keep going" : "Review ahead";
+    primary.onclick = () => startSession(levelId, remaining === 0);
+
+    session = null;
+    showView("view-done");
+  }
+
+  function showCaughtUp(levelId) {
+    const when = nextDueText(levelId);
+    const label = levelId === "ALL" ? "any level" : levelId;
+    setDoneIcon("sparkles", "bg-indigo-50", "text-indigo-600");
+    $("done-title").textContent = "Tout est à jour";
+    $("done-text").textContent = "No cards are due in " + label + " right now." +
+      (when ? " Your next review is " + when + "." : "");
+    $("done-stats").classList.add("hidden");
+
+    const primary = $("btn-done-primary");
+    primary.textContent = "Review ahead anyway";
+    primary.onclick = () => startSession(levelId, true);
+    showView("view-done");
+  }
+
+  /* ---------- Settings ---------- */
+  function renderSettings() {
+    const size = Number(state.settings.sessionSize) || 0;
+    Array.prototype.forEach.call($("size-options").children, btn => {
+      const active = Number(btn.dataset.size) === size;
+      btn.className = "press rounded-lg py-2 text-sm font-semibold " +
+        (active ? "bg-white text-indigo-700 shadow-sm" : "text-slate-500 hover:text-slate-700");
+      btn.setAttribute("aria-pressed", String(active));
+    });
+    $("toggle-shuffle").setAttribute("aria-pressed", String(!!state.settings.shuffle));
+    $("toggle-autospeak").setAttribute("aria-pressed", String(!!state.settings.autoSpeak));
+    $("rate").value = state.settings.rate;
+    $("rate-label").textContent = Number(state.settings.rate).toFixed(1) + "×";
+  }
+
+  let resetArmed = false;
+  let resetTimer = null;
+  function disarmReset() {
+    resetArmed = false;
+    clearTimeout(resetTimer);
+    $("btn-reset").textContent = "Reset all progress";
+  }
+  function openSettings() {
+    renderSettings();
+    disarmReset();
+    const el = $("settings");
+    el.classList.remove("hidden");
+    el.classList.add("flex");
+    $("btn-settings-close").focus();
+  }
+  function closeSettings() {
+    const el = $("settings");
+    el.classList.add("hidden");
+    el.classList.remove("flex");
+    stopSpeaking();
+    renderDashboard();
+  }
+  function settingsOpen() { return !$("settings").classList.contains("hidden"); }
+
+  /* =========================================================
+     6. EVENTS
+     ========================================================= */
+  $("btn-settings").addEventListener("click", openSettings);
+  $("btn-settings-close").addEventListener("click", closeSettings);
+  $("settings").addEventListener("click", e => { if (e.target === $("settings")) closeSettings(); });
+
+  $("size-options").addEventListener("click", e => {
+    const btn = e.target.closest("button[data-size]");
+    if (!btn) return;
+    state.settings.sessionSize = Number(btn.dataset.size);
+    saveState();
+    renderSettings();
+  });
+  $("toggle-shuffle").addEventListener("click", () => {
+    state.settings.shuffle = !state.settings.shuffle;
+    saveState();
+    renderSettings();
+  });
+  $("toggle-autospeak").addEventListener("click", () => {
+    state.settings.autoSpeak = !state.settings.autoSpeak;
+    saveState();
+    renderSettings();
+  });
+  $("rate").addEventListener("input", e => {
+    state.settings.rate = Number(e.target.value);
+    $("rate-label").textContent = state.settings.rate.toFixed(1) + "×";
+    saveState();
+  });
+  $("btn-test-voice").addEventListener("click", () => speak("Bonjour ! Bienvenue dans votre séance de français."));
+  $("btn-reset").addEventListener("click", () => {
+    if (!resetArmed) {
+      resetArmed = true;
+      $("btn-reset").textContent = "Tap again to erase everything";
+      resetTimer = setTimeout(disarmReset, 4000);
+      return;
+    }
+    const keep = state.settings;
+    state = defaultState();
+    state.settings = Object.assign(state.settings, keep, { lastLevel: null });
+    saveState();
+    disarmReset();
+    closeSettings();
+    toast("Progress reset");
+  });
+
+  $("btn-mixed").addEventListener("click", () => startSession("ALL", false));
+  $("btn-back").addEventListener("click", goHome);
+  $("btn-done-home").addEventListener("click", goHome);
+
+  $("card").addEventListener("click", flipCard);
+  $("btn-reveal").addEventListener("click", () => { if (!flipped) flipCard(); });
+  $("btn-again").addEventListener("click", () => answer(false));
+  $("btn-know").addEventListener("click", () => answer(true));
+
+  $("btn-speak-word").addEventListener("click", e => {
+    e.stopPropagation();
+    if (session) speak(CARD_BY_ID[session.queue[0]].word);
+  });
+  $("btn-speak-example").addEventListener("click", e => {
+    e.stopPropagation();
+    if (session) speak(CARD_BY_ID[session.queue[0]].exampleFr);
+  });
+  $("btn-hint").addEventListener("click", e => {
+    e.stopPropagation();
+    $("btn-hint").classList.add("hidden");
+    $("hint-box").classList.remove("hidden");
+  });
+  $("hint-box").addEventListener("click", e => e.stopPropagation());
+
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") {
+      if (settingsOpen()) closeSettings();
+      else if (session) goHome();
+      return;
+    }
+    if (settingsOpen() || !session || e.metaKey || e.ctrlKey || e.altKey) return;
+
+    const onButton = e.target && e.target.tagName === "BUTTON";
+    if (e.key === " " || e.key === "Enter") {
+      if (onButton) return;            // let the focused button handle its own click
+      e.preventDefault();
+      flipCard();
+    } else if (e.key === "ArrowRight" || e.key === "2") {
+      if (flipped) { e.preventDefault(); answer(true); }
+    } else if (e.key === "ArrowLeft" || e.key === "1") {
+      if (flipped) { e.preventDefault(); answer(false); }
+    } else if (e.key === "s" || e.key === "S") {
+      const card = CARD_BY_ID[session.queue[0]];
+      speak(flipped ? card.exampleFr : card.word);
+    } else if (e.key === "h" || e.key === "H") {
+      if (!flipped) $("btn-hint").click();
+    }
+  });
+
+  // Refresh due counts if the tab is left open overnight.
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden && !session && !$("view-dashboard").classList.contains("hidden")) renderDashboard();
+  });
+
+  /* =========================================================
+     7. INIT
+     ========================================================= */
+  renderDashboard();
+  refreshIcons();
+})();
+</script>
+</body>
+</html>
