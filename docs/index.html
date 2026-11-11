@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f1f5f9">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="description" content="Mémo — a French flashcard study app with spaced repetition, CEFR levels A1 to C1 and native pronunciation.">
+<meta name="description" content="Mémo — a French study app with flashcards, multiple choice, fill-in-the-blank and typed answers, organised by CEFR level and subject.">
 <title>Mémo — French Flashcards</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%234f46e5'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='700' text-anchor='middle' fill='white'%3EM%3C/text%3E%3C/svg%3E">
 <script src="https://cdn.tailwindcss.com"></script>
@@ -43,7 +43,7 @@
     grid-area: 1 / 1;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-    min-height: 23rem;
+    min-height: 22rem;
   }
   .face.back { transform: rotateY(180deg); }
   .card3d:not(.flipped) .face.back,
@@ -56,22 +56,22 @@
     to   { opacity: 1; transform: none; }
   }
   .card-enter { animation: cardIn .35s cubic-bezier(.2,.8,.2,1); }
-
   @keyframes viewIn {
     from { opacity: 0; transform: translateY(8px); }
     to   { opacity: 1; transform: none; }
   }
   .view-enter { animation: viewIn .3s ease-out; }
-
   @keyframes pop {
     0% { transform: scale(.6); opacity: 0; }
     60% { transform: scale(1.08); opacity: 1; }
     100% { transform: scale(1); }
   }
   .pop { animation: pop .5s cubic-bezier(.2,.8,.2,1); }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .spin { animation: spin 1s linear infinite; }
 
   .bar { transition: width .6s cubic-bezier(.2,.8,.2,1); }
-  .press { transition: transform .12s ease, box-shadow .2s ease, background-color .2s ease, border-color .2s ease; }
+  .press { transition: transform .12s ease, box-shadow .2s ease, background-color .2s ease, border-color .2s ease, color .2s ease; }
   .press:active { transform: scale(.97); }
   .lift:hover { transform: translateY(-2px); box-shadow: 0 14px 30px -18px rgba(30,41,59,.35); }
   .lift:active { transform: scale(.985); }
@@ -80,8 +80,14 @@
   .toggle > span { transition: transform .2s cubic-bezier(.2,.8,.2,1); }
   .toggle[aria-pressed="true"] { background-color: #4f46e5; }
   .toggle[aria-pressed="true"] > span { transform: translateX(1.25rem); }
-
   input[type="range"] { accent-color: #4f46e5; }
+
+  .blank {
+    display: inline-block; min-width: 3.2rem; padding: 0 .35rem; text-align: center;
+    border-bottom: 2px solid #a5b4fc; color: #4338ca;
+  }
+  .blank.ok { border-color: #059669; color: #047857; }
+  .blank.bad { border-color: #dc2626; color: #b91c1c; }
 
   #toast { transition: opacity .25s ease, transform .25s ease; }
   #toast.show { opacity: 1; transform: translate(-50%, 0); }
@@ -103,7 +109,7 @@
         <div class="font-display grid h-10 w-10 place-items-center rounded-xl bg-indigo-600 text-xl font-bold text-white shadow-sm shadow-indigo-300">M</div>
         <div>
           <h1 class="text-lg font-semibold leading-tight tracking-tight text-slate-900">Mémo</h1>
-          <p class="text-xs text-slate-500">French flashcards · A1 to C1</p>
+          <p id="app-sub" class="text-xs text-slate-500">French study decks</p>
         </div>
       </div>
       <button id="btn-settings" class="press grid h-10 w-10 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Settings">
@@ -113,72 +119,111 @@
 
     <section class="mt-5">
       <p id="greeting" class="font-display text-3xl font-semibold tracking-tight text-slate-900">Bonjour !</p>
-      <p id="greeting-sub" class="mt-1 text-sm text-slate-500">Pick a level to start today's session.</p>
+      <p id="greeting-sub" class="mt-1 text-sm text-slate-500">Loading your decks…</p>
     </section>
 
-    <!-- Stats -->
-    <section class="mt-5 grid grid-cols-3 gap-3" aria-label="Your progress">
-      <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
-        <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500">
-          <i data-lucide="flame" class="h-4 w-4 text-orange-500"></i> Streak
+    <!-- Loading / error -->
+    <div id="loading" class="mt-6 flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-600">
+      <i data-lucide="loader-circle" class="spin h-5 w-5 text-indigo-600"></i> Loading decks from the resources folder…
+    </div>
+    <div id="load-error" class="mt-6 hidden rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">
+      <p class="font-semibold">The decks could not be loaded.</p>
+      <p id="load-error-text" class="mt-1"></p>
+      <button id="btn-retry" class="press mt-3 rounded-xl bg-red-600 px-4 py-2 text-sm font-semibold text-white hover:bg-red-700">Try again</button>
+    </div>
+
+    <div id="dash-body" class="hidden">
+      <!-- Stats -->
+      <section class="mt-5 grid grid-cols-3 gap-3" aria-label="Your progress">
+        <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+          <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500">
+            <i data-lucide="flame" class="h-4 w-4 text-orange-500"></i> Streak
+          </div>
+          <p class="tabular mt-1 text-2xl font-semibold text-slate-900"><span id="stat-streak">0</span><span id="stat-streak-unit" class="ml-1 text-sm font-medium text-slate-400">days</span></p>
+          <p id="stat-streak-note" class="mt-0.5 truncate text-[11px] text-slate-400">Best: 0</p>
         </div>
-        <p class="tabular mt-1 text-2xl font-semibold text-slate-900"><span id="stat-streak">0</span><span id="stat-streak-unit" class="ml-1 text-sm font-medium text-slate-400">days</span></p>
-        <p id="stat-streak-note" class="mt-0.5 truncate text-[11px] text-slate-400">Best: 0</p>
-      </div>
-      <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
-        <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500">
-          <i data-lucide="trophy" class="h-4 w-4 text-amber-500"></i> Mastered
+        <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+          <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500">
+            <i data-lucide="trophy" class="h-4 w-4 text-amber-500"></i> Mastered
+          </div>
+          <p class="tabular mt-1 text-2xl font-semibold text-slate-900" id="stat-mastered">0</p>
+          <p id="stat-total" class="mt-0.5 truncate text-[11px] text-slate-400">of 0 items</p>
         </div>
-        <p class="tabular mt-1 text-2xl font-semibold text-slate-900"><span id="stat-mastered">0</span><span id="stat-total" class="ml-1 text-sm font-medium text-slate-400">/ 50</span></p>
-        <p id="stat-learning" class="mt-0.5 truncate text-[11px] text-slate-400">0 in progress</p>
-      </div>
-      <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
-        <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500">
-          <i data-lucide="clock" class="h-4 w-4 text-indigo-500"></i> Ready
+        <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+          <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500">
+            <i data-lucide="clock" class="h-4 w-4 text-indigo-500"></i> Ready
+          </div>
+          <p class="tabular mt-1 text-2xl font-semibold text-slate-900" id="stat-due">0</p>
+          <p id="stat-reviews" class="mt-0.5 truncate text-[11px] text-slate-400">0 reviews so far</p>
         </div>
-        <p class="tabular mt-1 text-2xl font-semibold text-slate-900"><span id="stat-due">0</span><span class="ml-1 text-sm font-medium text-slate-400">cards</span></p>
-        <p id="stat-reviews" class="mt-0.5 truncate text-[11px] text-slate-400">0 reviews so far</p>
-      </div>
-    </section>
+      </section>
 
-    <!-- Overall -->
-    <section class="mt-3 rounded-2xl border border-slate-200 bg-white p-4">
-      <div class="flex items-center justify-between text-sm">
-        <span class="font-medium text-slate-700">Overall mastery</span>
-        <span id="overall-pct" class="tabular font-semibold text-indigo-600">0%</span>
-      </div>
-      <div class="mt-2 flex h-2 overflow-hidden rounded-full bg-slate-100" role="progressbar" aria-label="Overall mastery" aria-valuemin="0" aria-valuemax="100" id="overall-bar-wrap">
-        <div id="overall-bar" class="bar h-full bg-indigo-600" style="width:0%"></div>
-        <div id="overall-bar-learning" class="bar h-full bg-indigo-200" style="width:0%"></div>
-      </div>
-    </section>
+      <!-- Overall -->
+      <section class="mt-3 rounded-2xl border border-slate-200 bg-white p-4">
+        <div class="flex items-center justify-between text-sm">
+          <span class="font-medium text-slate-700">Overall mastery</span>
+          <span id="overall-pct" class="tabular font-semibold text-indigo-600">0%</span>
+        </div>
+        <div class="mt-2 flex h-2 overflow-hidden rounded-full bg-slate-100" role="progressbar" aria-label="Overall mastery" aria-valuemin="0" aria-valuemax="100" id="overall-bar-wrap">
+          <div id="overall-bar" class="bar h-full bg-indigo-600" style="width:0%"></div>
+          <div id="overall-bar-learning" class="bar h-full bg-indigo-200" style="width:0%"></div>
+        </div>
+      </section>
 
-    <!-- Levels -->
-    <section class="mt-7">
-      <div class="flex items-end justify-between">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500">Choose your level</h2>
-        <span class="text-xs text-slate-400">CEFR</span>
-      </div>
-      <div id="level-list" class="mt-3 grid gap-3 sm:grid-cols-2"></div>
-    </section>
+      <!-- Levels -->
+      <section class="mt-7">
+        <div class="flex items-end justify-between">
+          <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500">Choose your level</h2>
+          <span class="text-xs text-slate-400">CEFR</span>
+        </div>
+        <div id="level-list" class="mt-3 grid gap-3 sm:grid-cols-2"></div>
+      </section>
 
-    <button id="btn-mixed" class="press mt-4 flex w-full items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-4 py-3.5 text-sm font-semibold text-white shadow-sm shadow-indigo-300 hover:bg-indigo-700">
-      <i data-lucide="shuffle" class="h-4 w-4"></i>
-      <span id="btn-mixed-label">Mixed review · all levels</span>
+      <button id="btn-mixed" class="press mt-4 flex w-full items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-4 py-3.5 text-sm font-semibold text-white shadow-sm shadow-indigo-300 hover:bg-indigo-700">
+        <i data-lucide="shuffle" class="h-4 w-4"></i>
+        <span id="btn-mixed-label">Mixed review · everything</span>
+      </button>
+
+      <p class="mt-6 pb-2 text-center text-xs text-slate-400">Progress is saved on this device. Items you know come back after 1, 2, 4, 8 and 16 days.</p>
+    </div>
+  </main>
+
+  <!-- ======================= LEVEL (subject list) ======================= -->
+  <main id="view-level" class="safe-top safe-bottom hidden flex-1">
+    <header class="flex items-center gap-3 py-2">
+      <button id="btn-level-back" class="press grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Back to dashboard">
+        <i data-lucide="arrow-left" class="h-5 w-5"></i>
+      </button>
+      <div class="min-w-0 flex-1">
+        <h1 id="level-title" class="truncate text-lg font-semibold leading-tight tracking-tight text-slate-900">A1 · Beginner</h1>
+        <p id="level-sub" class="truncate text-xs text-slate-500"></p>
+      </div>
+      <span id="level-pct" class="tabular text-sm font-semibold"></span>
+    </header>
+
+    <div class="mt-2 flex h-2 overflow-hidden rounded-full bg-slate-200">
+      <div id="level-bar" class="bar h-full" style="width:0%"></div>
+      <div id="level-bar-learning" class="bar h-full" style="width:0%"></div>
+    </div>
+
+    <button id="btn-level-review" class="press mt-4 flex w-full items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-4 py-3.5 text-sm font-semibold text-white shadow-sm shadow-indigo-300 hover:bg-indigo-700">
+      <i data-lucide="layers" class="h-4 w-4"></i>
+      <span id="btn-level-review-label">Review this level</span>
     </button>
 
-    <p class="mt-6 pb-2 text-center text-xs text-slate-400">Progress is saved on this device. Cards you know come back after 1, 2, 4, 8 and 16 days.</p>
+    <h2 class="mt-6 text-sm font-semibold uppercase tracking-wider text-slate-500">Subjects</h2>
+    <div id="deck-list" class="mt-3 grid gap-2.5 pb-4 sm:grid-cols-2"></div>
   </main>
 
   <!-- ======================= STUDY ======================= -->
   <main id="view-study" class="safe-top safe-bottom mx-auto hidden w-full max-w-md flex-1 flex-col">
     <header class="flex items-center gap-3 py-2">
-      <button id="btn-back" class="press grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Back to dashboard">
+      <button id="btn-back" class="press grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Leave this session">
         <i data-lucide="arrow-left" class="h-5 w-5"></i>
       </button>
       <div class="min-w-0 flex-1">
-        <div class="flex items-center justify-between text-sm">
-          <span id="study-title" class="truncate font-semibold text-slate-900">A1 · Beginner</span>
+        <div class="flex items-center justify-between gap-2 text-sm">
+          <span id="study-title" class="truncate font-semibold text-slate-900"></span>
           <span id="study-count" class="tabular shrink-0 text-xs font-medium text-slate-500">0 / 0</span>
         </div>
         <div class="mt-1.5 h-1.5 overflow-hidden rounded-full bg-slate-200">
@@ -188,50 +233,48 @@
     </header>
 
     <div class="flex flex-1 flex-col justify-center py-4">
+      <p id="study-deck" class="mb-2 truncate text-center text-xs font-medium text-slate-400"></p>
+
+      <!-- Flashcard -->
       <div id="scene" class="scene">
         <div id="card" class="card3d" role="button" tabindex="0" aria-label="Flashcard. Press space to flip.">
-
           <!-- FRONT -->
           <div class="face front flex flex-col rounded-3xl border border-slate-200 bg-white p-5 shadow-xl shadow-slate-300/40">
             <div class="flex items-center justify-between">
-              <span id="card-level" class="rounded-full px-2.5 py-1 text-xs font-bold tracking-wide">A1</span>
+              <span id="card-level" class="rounded-full px-2.5 py-1 text-xs font-bold tracking-wide"></span>
               <div class="flex items-center gap-2">
                 <span id="card-box-label" class="text-[11px] font-medium text-slate-400">New</span>
                 <div id="card-box" class="flex gap-1" aria-hidden="true"></div>
               </div>
             </div>
-
             <div class="flex flex-1 flex-col items-center justify-center py-6 text-center">
-              <p id="card-type" class="text-xs font-semibold uppercase tracking-widest text-slate-400">Noun</p>
-              <p id="card-word" lang="fr" class="font-display mt-3 break-words text-4xl font-semibold leading-tight tracking-tight text-slate-900 sm:text-5xl">Bonjour</p>
+              <p id="card-type" class="text-xs font-semibold uppercase tracking-widest text-slate-400"></p>
+              <p id="card-word" lang="fr" class="font-display mt-3 break-words text-4xl font-semibold leading-tight tracking-tight text-slate-900"></p>
               <button id="btn-speak-word" class="press mt-5 inline-flex items-center gap-2 rounded-full bg-indigo-50 px-4 py-2 text-sm font-semibold text-indigo-700 hover:bg-indigo-100" aria-label="Hear the pronunciation">
                 <i data-lucide="volume-2" class="h-4 w-4"></i> Speak
               </button>
             </div>
-
             <div class="min-h-[4.5rem]">
               <button id="btn-hint" class="press mx-auto flex items-center gap-1.5 rounded-full border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-500 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-700">
-                <i data-lucide="lightbulb" class="h-3.5 w-3.5"></i> Show context hint
+                <i data-lucide="lightbulb" class="h-3.5 w-3.5"></i> Show hint
               </button>
               <div id="hint-box" class="hidden rounded-2xl bg-amber-50 px-4 py-3 text-center">
-                <p class="text-[10px] font-semibold uppercase tracking-widest text-amber-600">In context</p>
-                <p id="hint-text" lang="fr" class="mt-1 text-sm italic leading-snug text-amber-900"></p>
+                <p id="hint-label" class="text-[10px] font-semibold uppercase tracking-widest text-amber-600">In context</p>
+                <p id="hint-text" class="mt-1 text-sm italic leading-snug text-amber-900"></p>
               </div>
             </div>
             <p class="mt-3 text-center text-[11px] text-slate-400">Tap the card to flip</p>
           </div>
-
           <!-- BACK -->
           <div class="face back flex flex-col rounded-3xl border border-indigo-100 bg-white p-5 shadow-xl shadow-slate-300/40">
-            <div class="flex items-center justify-between">
-              <span class="text-xs font-semibold uppercase tracking-widest text-slate-400">Translation</span>
-              <span id="back-word" lang="fr" class="font-display max-w-[60%] truncate text-sm font-semibold text-indigo-600">Bonjour</span>
+            <div class="flex items-center justify-between gap-3">
+              <span class="text-xs font-semibold uppercase tracking-widest text-slate-400">Answer</span>
+              <span id="back-word" lang="fr" class="font-display max-w-[60%] truncate text-sm font-semibold text-indigo-600"></span>
             </div>
-
             <div class="flex flex-1 flex-col justify-center py-5">
-              <p id="back-translation" class="text-center text-3xl font-semibold leading-tight tracking-tight text-slate-900">Hello</p>
-
-              <div class="mt-6 rounded-2xl bg-slate-50 p-4">
+              <p id="back-translation" class="text-center text-2xl font-semibold leading-tight tracking-tight text-slate-900"></p>
+              <p id="back-note" class="mt-2 text-center text-xs leading-snug text-slate-500"></p>
+              <div id="back-example" class="mt-5 rounded-2xl bg-slate-50 p-4">
                 <div class="flex items-start justify-between gap-3">
                   <div class="min-w-0">
                     <p class="text-[10px] font-semibold uppercase tracking-widest text-slate-400">Example</p>
@@ -248,13 +291,49 @@
           </div>
         </div>
       </div>
+
+      <!-- Question card (multiple choice / fill in the blank / typed answer) -->
+      <div id="quiz" class="hidden rounded-3xl border border-slate-200 bg-white p-5 shadow-xl shadow-slate-300/40">
+        <div class="flex items-center justify-between">
+          <span id="quiz-level" class="rounded-full px-2.5 py-1 text-xs font-bold tracking-wide"></span>
+          <div class="flex items-center gap-2">
+            <span id="quiz-box-label" class="text-[11px] font-medium text-slate-400">New</span>
+            <div id="quiz-box" class="flex gap-1" aria-hidden="true"></div>
+          </div>
+        </div>
+        <p id="quiz-kind" class="mt-5 text-xs font-semibold uppercase tracking-widest text-slate-400"></p>
+        <p id="quiz-prompt" class="font-display mt-2 break-words text-2xl font-semibold leading-snug tracking-tight text-slate-900"></p>
+        <p id="quiz-hint" class="mt-2 text-sm text-slate-500"></p>
+
+        <div id="quiz-options" class="mt-5 grid gap-2"></div>
+
+        <div id="quiz-input-wrap" class="mt-5 hidden">
+          <label for="quiz-input" class="sr-only">Your answer in French</label>
+          <input id="quiz-input" type="text" lang="fr" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done"
+                 placeholder="Type your answer in French"
+                 class="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-lg text-slate-900 outline-none placeholder:text-slate-400 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100 disabled:bg-slate-50 disabled:text-slate-500">
+          <div id="accent-keys" class="mt-2 flex flex-wrap gap-1.5" aria-label="Accented letters"></div>
+        </div>
+
+        <div id="quiz-feedback" class="mt-4 hidden rounded-2xl p-4" role="status" aria-live="polite">
+          <div class="flex items-start justify-between gap-3">
+            <div class="min-w-0">
+              <p id="fb-title" class="text-sm font-semibold"></p>
+              <p id="fb-answer" lang="fr" class="font-display mt-1 break-words text-lg leading-snug"></p>
+            </div>
+            <button id="btn-speak-quiz" class="press grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white text-indigo-600 shadow-sm ring-1 ring-slate-200 hover:bg-indigo-50" aria-label="Hear it in French">
+              <i data-lucide="volume-2" class="h-4 w-4"></i>
+            </button>
+          </div>
+          <p id="fb-extra" class="mt-2 text-sm leading-snug opacity-90"></p>
+          <button id="btn-override" class="press mt-3 hidden text-xs font-semibold underline underline-offset-2">My answer was right — count it</button>
+        </div>
+      </div>
     </div>
 
     <!-- Actions -->
     <div class="pb-1">
-      <div id="actions-reveal">
-        <button id="btn-reveal" class="press w-full rounded-2xl bg-slate-900 px-4 py-4 text-sm font-semibold text-white hover:bg-slate-800">Show answer</button>
-      </div>
+      <button id="btn-reveal" class="press w-full rounded-2xl bg-slate-900 px-4 py-4 text-sm font-semibold text-white hover:bg-slate-800">Show answer</button>
       <div id="actions-grade" class="hidden grid-cols-2 gap-3">
         <button id="btn-again" class="press flex items-center justify-center gap-2 rounded-2xl bg-red-600 px-4 py-4 text-sm font-semibold text-white shadow-sm shadow-red-200 hover:bg-red-700">
           <i data-lucide="rotate-ccw" class="h-4 w-4"></i> Study Again
@@ -263,19 +342,19 @@
           <i data-lucide="check" class="h-4 w-4"></i> Know It
         </button>
       </div>
-      <p class="mt-3 hidden text-center text-[11px] text-slate-400 sm:block">Space to flip · ← Study again · → Know it · S to speak</p>
+      <button id="btn-check" class="press hidden w-full rounded-2xl bg-indigo-600 px-4 py-4 text-sm font-semibold text-white shadow-sm shadow-indigo-300 hover:bg-indigo-700">Check answer</button>
+      <button id="btn-continue" class="press hidden w-full rounded-2xl bg-slate-900 px-4 py-4 text-sm font-semibold text-white hover:bg-slate-800">Continue</button>
+      <p id="actions-note" class="hidden py-4 text-center text-sm text-slate-400">Choose an answer</p>
+      <p class="mt-3 hidden text-center text-[11px] text-slate-400 sm:block">Space to flip · ← Study again · → Know it · 1–4 to choose · Enter to check</p>
     </div>
   </main>
 
   <!-- ======================= SESSION END ======================= -->
   <main id="view-done" class="safe-top safe-bottom mx-auto hidden w-full max-w-md flex-1 flex-col justify-center">
     <div class="rounded-3xl border border-slate-200 bg-white p-6 text-center shadow-xl shadow-slate-300/40">
-      <div id="done-icon" class="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-emerald-50 text-emerald-600">
-        <i data-lucide="party-popper" class="h-8 w-8"></i>
-      </div>
-      <h2 id="done-title" class="font-display mt-4 text-2xl font-semibold tracking-tight text-slate-900">Bien joué !</h2>
-      <p id="done-text" class="mt-1 text-sm text-slate-500">Session complete.</p>
-
+      <div id="done-icon" class="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-emerald-50 text-emerald-600"></div>
+      <h2 id="done-title" class="font-display mt-4 text-2xl font-semibold tracking-tight text-slate-900"></h2>
+      <p id="done-text" class="mt-1 text-sm text-slate-500"></p>
       <div id="done-stats" class="mt-5 grid grid-cols-3 gap-2">
         <div class="rounded-2xl bg-emerald-50 p-3">
           <p id="done-known" class="tabular text-2xl font-semibold text-emerald-700">0</p>
@@ -290,9 +369,8 @@
           <p class="text-[11px] font-medium text-orange-700/80">Day streak</p>
         </div>
       </div>
-
       <button id="btn-done-primary" class="press mt-6 w-full rounded-2xl bg-indigo-600 px-4 py-3.5 text-sm font-semibold text-white shadow-sm shadow-indigo-300 hover:bg-indigo-700">Keep going</button>
-      <button id="btn-done-home" class="press mt-2 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-slate-700 hover:border-indigo-200 hover:text-indigo-700">Back to dashboard</button>
+      <button id="btn-done-home" class="press mt-2 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-slate-700 hover:border-indigo-200 hover:text-indigo-700">Back</button>
     </div>
   </main>
 </div>
@@ -308,7 +386,7 @@
     </div>
 
     <div class="mt-5">
-      <p class="text-sm font-medium text-slate-700">Cards per session</p>
+      <p class="text-sm font-medium text-slate-700">Items per session</p>
       <div id="size-options" class="mt-2 grid grid-cols-4 gap-1 rounded-xl bg-slate-100 p-1">
         <button data-size="5"  class="press rounded-lg py-2 text-sm font-semibold">5</button>
         <button data-size="10" class="press rounded-lg py-2 text-sm font-semibold">10</button>
@@ -320,15 +398,15 @@
     <div class="mt-5 divide-y divide-slate-100">
       <div class="flex items-center justify-between py-3">
         <div>
-          <p class="text-sm font-medium text-slate-700">Shuffle cards</p>
+          <p class="text-sm font-medium text-slate-700">Shuffle</p>
           <p class="text-xs text-slate-400">Randomise the order in each session</p>
         </div>
-        <button id="toggle-shuffle" class="toggle relative h-7 w-12 shrink-0 rounded-full bg-slate-300 p-1" aria-pressed="false" aria-label="Shuffle cards"><span class="block h-5 w-5 rounded-full bg-white shadow"></span></button>
+        <button id="toggle-shuffle" class="toggle relative h-7 w-12 shrink-0 rounded-full bg-slate-300 p-1" aria-pressed="false" aria-label="Shuffle"><span class="block h-5 w-5 rounded-full bg-white shadow"></span></button>
       </div>
       <div class="flex items-center justify-between py-3">
         <div>
           <p class="text-sm font-medium text-slate-700">Auto-speak</p>
-          <p class="text-xs text-slate-400">Read each new word aloud in French</p>
+          <p class="text-xs text-slate-400">Read each new flashcard aloud in French</p>
         </div>
         <button id="toggle-autospeak" class="toggle relative h-7 w-12 shrink-0 rounded-full bg-slate-300 p-1" aria-pressed="false" aria-label="Auto-speak"><span class="block h-5 w-5 rounded-full bg-white shadow"></span></button>
       </div>
@@ -356,134 +434,107 @@
   'use strict';
 
   /* =========================================================
-     1. DATASET — 50 cards, 10 per CEFR level
+     1. CONFIGURATION
+     Decks live in resources/. The manifest resources/index.json
+     lists the deck files; each deck file holds its own title,
+     level, subject number and items. See README.md.
      ========================================================= */
-  const CARDS = [
-    // ---------- A1 · Beginner ----------
-    { id: "a1_bonjour", level: "A1", word: "Bonjour", type: "Interjection", translation: "Hello / Good morning",
-      exampleFr: "Bonjour, comment allez-vous ?", exampleEn: "Hello, how are you?" },
-    { id: "a1_merci", level: "A1", word: "Merci", type: "Interjection", translation: "Thank you",
-      exampleFr: "Merci beaucoup pour votre aide.", exampleEn: "Thank you very much for your help." },
-    { id: "a1_etre", level: "A1", word: "Être", type: "Verb", translation: "To be",
-      exampleFr: "Je suis très content d'être ici.", exampleEn: "I am very happy to be here." },
-    { id: "a1_avoir", level: "A1", word: "Avoir", type: "Verb", translation: "To have",
-      exampleFr: "Nous avons deux chats à la maison.", exampleEn: "We have two cats at home." },
-    { id: "a1_maison", level: "A1", word: "La maison", type: "Noun (f.)", translation: "The house / home",
-      exampleFr: "Ma maison est près de la gare.", exampleEn: "My house is near the train station." },
-    { id: "a1_manger", level: "A1", word: "Manger", type: "Verb", translation: "To eat",
-      exampleFr: "Les enfants mangent une pomme.", exampleEn: "The children are eating an apple." },
-    { id: "a1_eau", level: "A1", word: "L'eau", type: "Noun (f.)", translation: "Water",
-      exampleFr: "Je voudrais un verre d'eau, s'il vous plaît.", exampleEn: "I would like a glass of water, please." },
-    { id: "a1_petit", level: "A1", word: "Petit", type: "Adjective", translation: "Small / little",
-      exampleFr: "Elle habite dans un petit village.", exampleEn: "She lives in a small village." },
-    { id: "a1_aujourdhui", level: "A1", word: "Aujourd'hui", type: "Adverb", translation: "Today",
-      exampleFr: "Aujourd'hui, il fait très beau.", exampleEn: "Today, the weather is very nice." },
-    { id: "a1_svp", level: "A1", word: "S'il vous plaît", type: "Phrase", translation: "Please (formal)",
-      exampleFr: "L'addition, s'il vous plaît.", exampleEn: "The bill, please." },
-
-    // ---------- A2 · Elementary ----------
-    { id: "a2_voyage", level: "A2", word: "Le voyage", type: "Noun (m.)", translation: "The trip / journey",
-      exampleFr: "Notre voyage en Italie était magnifique.", exampleEn: "Our trip to Italy was wonderful." },
-    { id: "a2_se_reveiller", level: "A2", word: "Se réveiller", type: "Reflexive verb", translation: "To wake up",
-      exampleFr: "Je me réveille à sept heures tous les matins.", exampleEn: "I wake up at seven o'clock every morning." },
-    { id: "a2_souvent", level: "A2", word: "Souvent", type: "Adverb", translation: "Often",
-      exampleFr: "Nous allons souvent au cinéma le week-end.", exampleEn: "We often go to the cinema at the weekend." },
-    { id: "a2_travail", level: "A2", word: "Le travail", type: "Noun (m.)", translation: "Work / job",
-      exampleFr: "Elle cherche un nouveau travail à Lyon.", exampleEn: "She is looking for a new job in Lyon." },
-    { id: "a2_acheter", level: "A2", word: "Acheter", type: "Verb", translation: "To buy",
-      exampleFr: "J'ai acheté du pain à la boulangerie.", exampleEn: "I bought some bread at the bakery." },
-    { id: "a2_heureux", level: "A2", word: "Heureux", type: "Adjective", translation: "Happy",
-      exampleFr: "Ils sont heureux de vous revoir.", exampleEn: "They are happy to see you again." },
-    { id: "a2_meteo", level: "A2", word: "La météo", type: "Noun (f.)", translation: "The weather forecast",
-      exampleFr: "La météo annonce de la pluie pour demain.", exampleEn: "The forecast says rain for tomorrow." },
-    { id: "a2_besoin", level: "A2", word: "Avoir besoin de", type: "Verb phrase", translation: "To need",
-      exampleFr: "J'ai besoin d'un nouveau téléphone.", exampleEn: "I need a new phone." },
-    { id: "a2_rendez_vous", level: "A2", word: "Le rendez-vous", type: "Noun (m.)", translation: "Appointment / meeting",
-      exampleFr: "J'ai rendez-vous chez le médecin à quinze heures.", exampleEn: "I have a doctor's appointment at 3 p.m." },
-    { id: "a2_deja", level: "A2", word: "Déjà", type: "Adverb", translation: "Already",
-      exampleFr: "Tu as déjà fini tes devoirs ?", exampleEn: "Have you already finished your homework?" },
-
-    // ---------- B1 · Intermediate ----------
-    { id: "b1_pourtant", level: "B1", word: "Pourtant", type: "Adverb", translation: "Yet / however",
-      exampleFr: "Il a beaucoup étudié ; pourtant, il a raté l'examen.", exampleEn: "He studied a lot; yet he failed the exam." },
-    { id: "b1_se_debrouiller", level: "B1", word: "Se débrouiller", type: "Reflexive verb", translation: "To manage / to get by",
-      exampleFr: "Elle se débrouille très bien en espagnol.", exampleEn: "She gets by very well in Spanish." },
-    { id: "b1_environnement", level: "B1", word: "L'environnement", type: "Noun (m.)", translation: "The environment",
-      exampleFr: "Il faut protéger l'environnement pour les générations futures.", exampleEn: "We must protect the environment for future generations." },
-    { id: "b1_ameliorer", level: "B1", word: "Améliorer", type: "Verb", translation: "To improve",
-      exampleFr: "Je lis des romans pour améliorer mon français.", exampleEn: "I read novels to improve my French." },
-    { id: "b1_chomage", level: "B1", word: "Le chômage", type: "Noun (m.)", translation: "Unemployment",
-      exampleFr: "Le chômage a baissé cette année.", exampleEn: "Unemployment has fallen this year." },
-    { id: "b1_avoir_hate", level: "B1", word: "Avoir hâte", type: "Idiom", translation: "To look forward to / can't wait",
-      exampleFr: "J'ai hâte de partir en vacances.", exampleEn: "I can't wait to go on holiday." },
-    { id: "b1_decu", level: "B1", word: "Déçu", type: "Adjective", translation: "Disappointed",
-      exampleFr: "Nous avons été déçus par la fin du film.", exampleEn: "We were disappointed by the end of the film." },
-    { id: "b1_grace_a", level: "B1", word: "Grâce à", type: "Preposition", translation: "Thanks to",
-      exampleFr: "Grâce à ton aide, j'ai réussi mon entretien.", exampleEn: "Thanks to your help, my interview went well." },
-    { id: "b1_se_rendre_compte", level: "B1", word: "Se rendre compte", type: "Verb phrase", translation: "To realise",
-      exampleFr: "Je me suis rendu compte que j'avais oublié mes clés.", exampleEn: "I realised that I had forgotten my keys." },
-    { id: "b1_logement", level: "B1", word: "Le logement", type: "Noun (m.)", translation: "Housing / accommodation",
-      exampleFr: "Trouver un logement à Paris est difficile.", exampleEn: "Finding accommodation in Paris is difficult." },
-
-    // ---------- B2 · Upper Intermediate ----------
-    { id: "b2_neanmoins", level: "B2", word: "Néanmoins", type: "Adverb", translation: "Nevertheless",
-      exampleFr: "Le projet est risqué ; néanmoins, il mérite d'être tenté.", exampleEn: "The project is risky; nevertheless, it is worth trying." },
-    { id: "b2_remettre_en_question", level: "B2", word: "Remettre en question", type: "Verb phrase", translation: "To call into question",
-      exampleFr: "Cette découverte remet en question nos certitudes.", exampleEn: "This discovery calls our certainties into question." },
-    { id: "b2_enjeu", level: "B2", word: "L'enjeu", type: "Noun (m.)", translation: "What is at stake / the issue",
-      exampleFr: "L'enjeu principal de cette élection est l'économie.", exampleEn: "The main issue in this election is the economy." },
-    { id: "b2_susciter", level: "B2", word: "Susciter", type: "Verb", translation: "To arouse / to spark",
-      exampleFr: "Son discours a suscité de vives réactions.", exampleEn: "His speech sparked strong reactions." },
-    { id: "b2_en_revanche", level: "B2", word: "En revanche", type: "Adverbial phrase", translation: "On the other hand",
-      exampleFr: "Il parle peu ; en revanche, il écoute beaucoup.", exampleEn: "He says little; on the other hand, he listens a lot." },
-    { id: "b2_mettre_en_oeuvre", level: "B2", word: "Mettre en œuvre", type: "Verb phrase", translation: "To implement",
-      exampleFr: "Le gouvernement va mettre en œuvre de nouvelles mesures.", exampleEn: "The government is going to implement new measures." },
-    { id: "b2_atteindre", level: "B2", word: "Atteindre", type: "Verb", translation: "To reach / to achieve",
-      exampleFr: "Elle a enfin atteint son objectif.", exampleEn: "She has finally reached her goal." },
-    { id: "b2_bouleversement", level: "B2", word: "Le bouleversement", type: "Noun (m.)", translation: "Upheaval",
-      exampleFr: "La révolution numérique a provoqué un bouleversement profond de la société.", exampleEn: "The digital revolution has caused a profound upheaval in society." },
-    { id: "b2_quitte_a", level: "B2", word: "Quitte à", type: "Prepositional phrase", translation: "Even if it means",
-      exampleFr: "Je préfère dire la vérité, quitte à le décevoir.", exampleEn: "I would rather tell the truth, even if it means disappointing him." },
-    { id: "b2_soucieux", level: "B2", word: "Soucieux", type: "Adjective", translation: "Concerned / mindful",
-      exampleFr: "Soucieux de sa santé, il a arrêté de fumer.", exampleEn: "Mindful of his health, he stopped smoking." },
-
-    // ---------- C1 · Advanced ----------
-    { id: "c1_saverer", level: "C1", word: "S'avérer", type: "Reflexive verb", translation: "To prove / to turn out to be",
-      exampleFr: "La tâche s'est avérée plus complexe que prévu.", exampleEn: "The task turned out to be more complex than expected." },
-    { id: "c1_nonobstant", level: "C1", word: "Nonobstant", type: "Preposition (formal)", translation: "Notwithstanding",
-      exampleFr: "Nonobstant les critiques, la réforme a été adoptée.", exampleEn: "Notwithstanding the criticism, the reform was adopted." },
-    { id: "c1_ephemere", level: "C1", word: "Éphémère", type: "Adjective", translation: "Ephemeral / fleeting",
-      exampleFr: "La gloire est souvent éphémère.", exampleEn: "Fame is often fleeting." },
-    { id: "c1_pallier", level: "C1", word: "Pallier", type: "Verb", translation: "To compensate for / to mitigate",
-      exampleFr: "Ces mesures visent à pallier le manque de personnel.", exampleEn: "These measures aim to compensate for the staff shortage." },
-    { id: "c1_a_linstar_de", level: "C1", word: "À l'instar de", type: "Prepositional phrase", translation: "Following the example of / like",
-      exampleFr: "À l'instar de ses prédécesseurs, il a privilégié le dialogue.", exampleEn: "Like his predecessors, he favoured dialogue." },
-    { id: "c1_clivage", level: "C1", word: "Le clivage", type: "Noun (m.)", translation: "Divide / rift",
-      exampleFr: "Ce débat révèle un clivage profond au sein du parti.", exampleEn: "This debate reveals a deep divide within the party." },
-    { id: "c1_enteriner", level: "C1", word: "Entériner", type: "Verb", translation: "To ratify / to endorse",
-      exampleFr: "Le conseil a entériné la décision à l'unanimité.", exampleEn: "The board unanimously ratified the decision." },
-    { id: "c1_epingle", level: "C1", word: "Tirer son épingle du jeu", type: "Idiom", translation: "To come out of it well",
-      exampleFr: "Malgré la crise, cette entreprise a su tirer son épingle du jeu.", exampleEn: "Despite the crisis, this company managed to come out of it well." },
-    { id: "c1_en_loccurrence", level: "C1", word: "En l'occurrence", type: "Adverbial phrase", translation: "In this case / as it happens",
-      exampleFr: "Il fallait un expert, en l'occurrence un juriste.", exampleEn: "An expert was needed — in this case, a lawyer." },
-    { id: "c1_fallacieux", level: "C1", word: "Fallacieux", type: "Adjective", translation: "Fallacious / misleading",
-      exampleFr: "Son raisonnement repose sur un argument fallacieux.", exampleEn: "His reasoning rests on a fallacious argument." }
-  ];
+  const RESOURCES_DIR = "resources/";
+  const MANIFEST_FILE = "index.json";
 
   const LEVELS = [
     { id: "A1", name: "Beginner",           color: "#047857", soft: "#d1fae5", tint: "#a7f3d0" },
     { id: "A2", name: "Elementary",         color: "#0369a1", soft: "#e0f2fe", tint: "#bae6fd" },
     { id: "B1", name: "Intermediate",       color: "#4338ca", soft: "#e0e7ff", tint: "#c7d2fe" },
     { id: "B2", name: "Upper Intermediate", color: "#6d28d9", soft: "#ede9fe", tint: "#ddd6fe" },
-    { id: "C1", name: "Advanced",           color: "#be123c", soft: "#ffe4e6", tint: "#fecdd3" }
+    { id: "C1", name: "Advanced",           color: "#be123c", soft: "#ffe4e6", tint: "#fecdd3" },
+    { id: "C2", name: "Mastery",            color: "#b45309", soft: "#fef3c7", tint: "#fde68a" }
   ];
-  const LEVEL_BY_ID = Object.fromEntries(LEVELS.map(l => [l.id, l]));
-  const CARD_BY_ID = Object.fromEntries(CARDS.map(c => [c.id, c]));
+  const LEVEL_BY_ID = {};
+  LEVELS.forEach(l => { LEVEL_BY_ID[l.id] = l; });
+  function levelMeta(id) {
+    if (!LEVEL_BY_ID[id]) {
+      LEVEL_BY_ID[id] = { id: id, name: "Level " + id, color: "#334155", soft: "#e2e8f0", tint: "#cbd5e1", extra: true };
+      LEVELS.push(LEVEL_BY_ID[id]);
+    }
+    return LEVEL_BY_ID[id];
+  }
+
+  const KIND_LABEL = { choice: "Multiple choice", fill: "Fill in the blank", typed: "Type the answer" };
+  const ACCENT_KEYS = ["é", "è", "ê", "ë", "à", "â", "ç", "î", "ï", "ô", "ù", "û", "œ"];
 
   /* =========================================================
-     2. STATE & PERSISTENCE
+     2. DECK LOADING
      ========================================================= */
-  const STORAGE_KEY = "memo-french-flashcards-v1";
+  let DECKS = [];          // [{ id, level, subject, title, description, items: [...] }]
+  let ITEM_BY_KEY = {};    // "deckId/itemId" -> item
+
+  function fetchJson(path) {
+    return fetch(RESOURCES_DIR + path, { cache: "no-cache" }).then(res => {
+      if (!res.ok) throw new Error(path + " (" + res.status + ")");
+      return res.json();
+    });
+  }
+
+  function validItem(it) {
+    if (!it || typeof it !== "object") return false;
+    if (it.kind === "flashcard") return !!(it.word && it.translation);
+    if (it.kind === "choice") return !!(it.prompt && it.answer && Array.isArray(it.options) && it.options.length >= 2 && it.options.indexOf(it.answer) !== -1);
+    if (it.kind === "fill") return !!(it.prompt && it.answer && String(it.prompt).indexOf("___") !== -1);
+    if (it.kind === "typed") return !!(it.prompt && it.answer);
+    return false;
+  }
+
+  function normaliseDeck(raw, path) {
+    if (!raw || !Array.isArray(raw.items)) throw new Error(path + " has no items");
+    const deck = {
+      id: String(raw.id || path.replace(/\.json$/i, "")),
+      level: String(raw.level || "A1").toUpperCase(),
+      subject: (typeof raw.subject === "number") ? raw.subject : null,
+      title: String(raw.title || path),
+      description: raw.description ? String(raw.description) : "",
+      items: []
+    };
+    levelMeta(deck.level);
+    raw.items.forEach((src, index) => {
+      const it = Object.assign({}, src);
+      it.kind = it.kind || "flashcard";
+      if (!validItem(it)) return;
+      it.id = String(it.id || index + 1);
+      it.key = deck.id + "/" + it.id;
+      it.deck = deck;
+      deck.items.push(it);
+    });
+    return deck;
+  }
+
+  function loadDecks() {
+    return fetchJson(MANIFEST_FILE).then(manifest => {
+      const paths = Array.isArray(manifest) ? manifest : (manifest && manifest.decks) || [];
+      const files = paths.map(p => (typeof p === "string") ? p : (p && p.file)).filter(Boolean);
+      return Promise.all(files.map(path =>
+        fetchJson(path).then(raw => normaliseDeck(raw, path)).catch(err => ({ failed: path, error: err }))
+      ));
+    }).then(results => {
+      const failed = results.filter(r => r.failed);
+      const seen = {};
+      DECKS = results.filter(r => !r.failed && r.items.length > 0 && !seen[r.id] && (seen[r.id] = true));
+      const order = id => { const i = LEVELS.findIndex(l => l.id === id); return i < 0 ? 99 : i; };
+      DECKS.sort((a, b) =>
+        (order(a.level) - order(b.level)) ||
+        ((a.subject === null ? 1e9 : a.subject) - (b.subject === null ? 1e9 : b.subject)) ||
+        a.title.localeCompare(b.title));
+      ITEM_BY_KEY = {};
+      DECKS.forEach(d => d.items.forEach(it => { ITEM_BY_KEY[it.key] = it; }));
+      if (failed.length) toast(failed.length === 1 ? "1 deck could not be loaded" : failed.length + " decks could not be loaded");
+      if (!DECKS.length) throw new Error("No decks were found in " + RESOURCES_DIR + MANIFEST_FILE);
+    });
+  }
+
+  /* =========================================================
+     3. STATE & PERSISTENCE
+     ========================================================= */
+  const STORAGE_KEY = "memo-french-v2";
   const DAY_MS = 24 * 60 * 60 * 1000;
   const MAX_BOX = 5;
   const MASTERED_BOX = 3;                                   // box 3+ counts as mastered
@@ -491,13 +542,12 @@
 
   function defaultState() {
     return {
-      cards: {},                                            // id -> { box, due, correct, wrong }
+      cards: {},                                            // item key -> { box, due, correct, wrong }
       streak: { count: 0, best: 0, last: null },
-      settings: { sessionSize: 10, shuffle: true, autoSpeak: false, rate: 0.9, lastLevel: null },
+      settings: { sessionSize: 10, shuffle: true, autoSpeak: false, rate: 0.9, lastLevel: null, lastDeck: null },
       totals: { reviews: 0 }
     };
   }
-
   function loadState() {
     const base = defaultState();
     try {
@@ -511,48 +561,31 @@
         settings: Object.assign(base.settings, saved.settings || {}),
         totals: Object.assign(base.totals, saved.totals || {})
       };
-    } catch (err) {
-      return base;
-    }
+    } catch (err) { return base; }
   }
-
   let storageWarned = false;
   function saveState() {
-    try {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    } catch (err) {
-      if (!storageWarned) {
-        storageWarned = true;
-        toast("Progress can't be saved in this browser mode");
-      }
+    try { window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+    catch (err) {
+      if (!storageWarned) { storageWarned = true; toast("Progress can't be saved in this browser mode"); }
     }
   }
 
   let state = loadState();
-  let session = null;       // active study session
+  let session = null;        // active study session
   let flipped = false;
+  let currentLevel = null;   // level shown in the subject list
 
   /* =========================================================
-     3. HELPERS
+     4. HELPERS
      ========================================================= */
   const $ = id => document.getElementById(id);
 
   function dateKey(d) {
-    const y = d.getFullYear();
-    const m = String(d.getMonth() + 1).padStart(2, "0");
-    const day = String(d.getDate()).padStart(2, "0");
-    return y + "-" + m + "-" + day;
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   }
-  function startOfToday() {
-    const d = new Date();
-    d.setHours(0, 0, 0, 0);
-    return d.getTime();
-  }
-  function yesterdayKey() {
-    const d = new Date();
-    d.setDate(d.getDate() - 1);
-    return dateKey(d);
-  }
+  function startOfToday() { const d = new Date(); d.setHours(0, 0, 0, 0); return d.getTime(); }
+  function yesterdayKey() { const d = new Date(); d.setDate(d.getDate() - 1); return dateKey(d); }
   function shuffle(arr) {
     const a = arr.slice();
     for (let i = a.length - 1; i > 0; i--) {
@@ -562,30 +595,46 @@
     return a;
   }
   function plural(n, one, many) { return n + " " + (n === 1 ? one : many); }
-
-  function boxOf(id) { const s = state.cards[id]; return s ? (s.box || 0) : 0; }
-  function isNew(id) { return !state.cards[id]; }
-  function isDue(id) { const s = state.cards[id]; return !s || (s.due || 0) <= Date.now(); }
-  function isMastered(id) { return boxOf(id) >= MASTERED_BOX; }
-  function isLearning(id) { const b = boxOf(id); return b >= 1 && b < MASTERED_BOX; }
-
-  function cardsFor(levelId) {
-    return levelId === "ALL" ? CARDS : CARDS.filter(c => c.level === levelId);
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   }
-  function levelStats(levelId) {
-    const list = cardsFor(levelId);
+
+  function boxOf(key) { const s = state.cards[key]; return s ? (s.box || 0) : 0; }
+  function isNew(key) { return !state.cards[key]; }
+  function isDue(key) { const s = state.cards[key]; return !s || (s.due || 0) <= Date.now(); }
+
+  function statsFor(items) {
     let mastered = 0, learning = 0, due = 0;
-    list.forEach(c => {
-      if (isMastered(c.id)) mastered++;
-      else if (isLearning(c.id)) learning++;
-      if (isDue(c.id)) due++;
+    items.forEach(it => {
+      const b = boxOf(it.key);
+      if (b >= MASTERED_BOX) mastered++;
+      else if (b >= 1) learning++;
+      if (isDue(it.key)) due++;
     });
-    return { total: list.length, mastered: mastered, learning: learning, due: due };
+    return { total: items.length, mastered: mastered, learning: learning, due: due };
   }
+  function allItems() { return DECKS.reduce((acc, d) => acc.concat(d.items), []); }
+  function decksOf(levelId) { return DECKS.filter(d => d.level === levelId); }
+  function itemsOfLevel(levelId) { return decksOf(levelId).reduce((acc, d) => acc.concat(d.items), []); }
+  function deckById(id) { return DECKS.find(d => d.id === id) || null; }
+
+  function scopeItems(scope) {
+    if (scope.type === "deck") { const d = deckById(scope.id); return d ? d.items : []; }
+    if (scope.type === "level") return itemsOfLevel(scope.id);
+    return allItems();
+  }
+  function scopeTitle(scope) {
+    if (scope.type === "deck") { const d = deckById(scope.id); return d ? d.level + " · " + d.title : "Deck"; }
+    if (scope.type === "level") return scope.id + " · All subjects";
+    return "Mixed review";
+  }
+  function deckLabel(deck) {
+    return (deck.subject !== null ? "Subject " + deck.subject + " · " : "") + deck.title;
+  }
+
   function currentStreak() {
     const last = state.streak.last;
-    if (last === dateKey(new Date()) || last === yesterdayKey()) return state.streak.count;
-    return 0;
+    return (last === dateKey(new Date()) || last === yesterdayKey()) ? state.streak.count : 0;
   }
   function touchStreak() {
     const today = dateKey(new Date());
@@ -594,12 +643,9 @@
     state.streak.last = today;
     if (state.streak.count > state.streak.best) state.streak.best = state.streak.count;
   }
-  function nextDueText(levelId) {
+  function nextDueText(items) {
     let soonest = Infinity;
-    cardsFor(levelId).forEach(c => {
-      const s = state.cards[c.id];
-      if (s && s.due < soonest) soonest = s.due;
-    });
+    items.forEach(it => { const s = state.cards[it.key]; if (s && s.due < soonest) soonest = s.due; });
     if (!isFinite(soonest)) return "";
     const days = Math.max(1, Math.round((soonest - startOfToday()) / DAY_MS));
     return days === 1 ? "tomorrow" : "in " + days + " days";
@@ -611,30 +657,50 @@
     el.textContent = message;
     el.classList.add("show");
     clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => el.classList.remove("show"), 2400);
+    toastTimer = setTimeout(() => el.classList.remove("show"), 2600);
+  }
+  function refreshIcons() {
+    if (window.lucide && typeof window.lucide.createIcons === "function") window.lucide.createIcons();
   }
 
-  function refreshIcons() {
-    if (window.lucide && typeof window.lucide.createIcons === "function") {
-      window.lucide.createIcons();
+  /* ---------- Answer checking ---------- */
+  function normalise(s) {
+    return String(s).toLowerCase()
+      .replace(/[’‘`´]/g, "'")
+      .replace(/[.,!?;:…«»"()]/g, " ")
+      .replace(/\s+/g, " ")
+      .replace(/\s*'\s*/g, "'")
+      .replace(/\s*-\s*/g, "-")
+      .trim();
+  }
+  function stripAccents(s) {
+    return s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/œ/g, "oe").replace(/æ/g, "ae");
+  }
+  // Returns "correct", "accent" (right letters, wrong or missing accents) or "wrong".
+  function checkTyped(input, item) {
+    const given = normalise(input);
+    const answers = [item.answer].concat(Array.isArray(item.accept) ? item.accept : []).map(normalise);
+    if (answers.indexOf(given) !== -1) return "correct";
+    if (!item.strict) {
+      const bare = stripAccents(given);
+      if (answers.some(a => stripAccents(a) === bare)) return "accent";
     }
+    return "wrong";
   }
 
   /* =========================================================
-     4. SPEECH (Web Speech API, fr-FR)
+     5. SPEECH (Web Speech API, fr-FR)
      ========================================================= */
   const speechSupported = ("speechSynthesis" in window) && ("SpeechSynthesisUtterance" in window);
   let frenchVoice = null;
-
   function pickFrenchVoice() {
     if (!speechSupported) return;
     const voices = window.speechSynthesis.getVoices() || [];
-    const norm = v => (v.lang || "").replace("_", "-").toLowerCase();
+    const lang = v => (v.lang || "").replace("_", "-").toLowerCase();
     frenchVoice =
-      voices.find(v => norm(v) === "fr-fr" && v.localService) ||
-      voices.find(v => norm(v) === "fr-fr") ||
-      voices.find(v => norm(v).indexOf("fr") === 0) ||
-      null;
+      voices.find(v => lang(v) === "fr-fr" && v.localService) ||
+      voices.find(v => lang(v) === "fr-fr") ||
+      voices.find(v => lang(v).indexOf("fr") === 0) || null;
   }
   if (speechSupported) {
     pickFrenchVoice();
@@ -644,40 +710,36 @@
       window.speechSynthesis.onvoiceschanged = pickFrenchVoice;
     }
   }
-
-  function speak(text, silentIfUnsupported) {
-    if (!speechSupported) {
-      if (!silentIfUnsupported) toast("Speech isn't supported in this browser");
-      return;
-    }
+  function speak(text, quiet) {
+    if (!text) return;
+    if (!speechSupported) { if (!quiet) toast("Speech isn't supported in this browser"); return; }
     try {
       const synth = window.speechSynthesis;
       synth.cancel();
       if (!frenchVoice) pickFrenchVoice();
-      const u = new SpeechSynthesisUtterance(text);
+      const u = new SpeechSynthesisUtterance(String(text).replace(/\s*\/\s*/g, ", "));
       u.lang = "fr-FR";
       if (frenchVoice) u.voice = frenchVoice;
       u.rate = Number(state.settings.rate) || 0.9;
       u.pitch = 1;
       synth.speak(u);
-    } catch (err) {
-      if (!silentIfUnsupported) toast("Couldn't play audio");
-    }
+    } catch (err) { if (!quiet) toast("Couldn't play audio"); }
   }
   function stopSpeaking() {
     if (speechSupported) { try { window.speechSynthesis.cancel(); } catch (err) {} }
   }
 
   /* =========================================================
-     5. VIEWS
+     6. VIEWS
      ========================================================= */
-  const VIEWS = ["view-dashboard", "view-study", "view-done"];
+  const VIEWS = ["view-dashboard", "view-level", "view-study", "view-done"];
+  const FLEX_VIEWS = { "view-study": true, "view-done": true };
   function showView(id) {
     VIEWS.forEach(v => {
       const el = $(v);
       const active = v === id;
       el.classList.toggle("hidden", !active);
-      if (v !== "view-dashboard") el.classList.toggle("flex", active);
+      if (FLEX_VIEWS[v]) el.classList.toggle("flex", active);
       if (active) {
         el.classList.remove("view-enter");
         void el.offsetWidth;
@@ -686,66 +748,75 @@
     });
     window.scrollTo(0, 0);
   }
+  function viewVisible(id) { return !$(id).classList.contains("hidden"); }
+
+  function progressBarHtml(s, meta) {
+    const pct = s.total ? Math.round(s.mastered / s.total * 100) : 0;
+    return '<div class="mt-3 flex h-2 overflow-hidden rounded-full bg-slate-100" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + pct + '">' +
+      '<div class="bar h-full" style="width:' + (s.total ? s.mastered / s.total * 100 : 0) + '%;background:' + meta.color + '"></div>' +
+      '<div class="bar h-full" style="width:' + (s.total ? s.learning / s.total * 100 : 0) + '%;background:' + meta.tint + '"></div>' +
+      '</div>';
+  }
 
   /* ---------- Dashboard ---------- */
   function renderDashboard() {
-    const all = levelStats("ALL");
+    const items = allItems();
+    const all = statsFor(items);
     const streak = currentStreak();
-    const hour = new Date().getHours();
 
-    $("greeting").textContent = hour < 18 ? "Bonjour !" : "Bonsoir !";
+    $("greeting").textContent = new Date().getHours() < 18 ? "Bonjour !" : "Bonsoir !";
     $("greeting-sub").textContent = all.due > 0
-      ? plural(all.due, "card is", "cards are") + " ready for you today."
+      ? plural(all.due, "item is", "items are") + " ready to study."
       : "You're all caught up. Come back tomorrow, or review ahead.";
+    $("app-sub").textContent = plural(DECKS.length, "deck", "decks") + " · " + plural(all.total, "item", "items");
 
     $("stat-streak").textContent = streak;
     $("stat-streak-unit").textContent = streak === 1 ? "day" : "days";
-    $("stat-streak-note").textContent =
-      (state.streak.last === dateKey(new Date())) ? "Studied today ✓" : "Best: " + state.streak.best;
-
+    $("stat-streak-note").textContent = (state.streak.last === dateKey(new Date())) ? "Studied today ✓" : "Best: " + state.streak.best;
     $("stat-mastered").textContent = all.mastered;
-    $("stat-total").textContent = "/ " + all.total;
-    $("stat-learning").textContent = all.learning + " in progress";
+    $("stat-total").textContent = "of " + plural(all.total, "item", "items");
     $("stat-due").textContent = all.due;
     $("stat-reviews").textContent = plural(state.totals.reviews, "review", "reviews") + " so far";
 
-    const pct = Math.round((all.mastered / all.total) * 100);
+    const pct = all.total ? Math.round(all.mastered / all.total * 100) : 0;
     $("overall-pct").textContent = pct + "%";
-    $("overall-bar").style.width = (all.mastered / all.total * 100) + "%";
-    $("overall-bar-learning").style.width = (all.learning / all.total * 100) + "%";
+    $("overall-bar").style.width = (all.total ? all.mastered / all.total * 100 : 0) + "%";
+    $("overall-bar-learning").style.width = (all.total ? all.learning / all.total * 100 : 0) + "%";
     $("overall-bar-wrap").setAttribute("aria-valuenow", String(pct));
-
     $("btn-mixed-label").textContent = all.due > 0
-      ? "Mixed review · " + plural(all.due, "card", "cards") + " ready"
-      : "Mixed review · all levels";
+      ? "Mixed review · " + plural(all.due, "item", "items") + " ready"
+      : "Mixed review · everything";
 
     const list = $("level-list");
     list.innerHTML = "";
     LEVELS.forEach(level => {
-      const s = levelStats(level.id);
-      const p = Math.round((s.mastered / s.total) * 100);
+      const decks = decksOf(level.id);
+      if (level.extra && !decks.length) return;
+      const s = statsFor(itemsOfLevel(level.id));
+      const p = s.total ? Math.round(s.mastered / s.total * 100) : 0;
+      const empty = decks.length === 0;
       const btn = document.createElement("button");
       btn.type = "button";
-      btn.className = "press lift group rounded-2xl border bg-white p-4 text-left " +
-        (state.settings.lastLevel === level.id ? "border-indigo-300 ring-2 ring-indigo-100" : "border-slate-200 hover:border-indigo-200");
-      btn.setAttribute("aria-label", level.id + " " + level.name + ", " + p + " percent mastered, " + s.due + " cards ready");
+      btn.disabled = empty;
+      btn.className = "group rounded-2xl border bg-white p-4 text-left " +
+        (empty ? "cursor-default border-slate-200 opacity-60"
+               : "press lift " + (state.settings.lastLevel === level.id ? "border-indigo-300 ring-2 ring-indigo-100" : "border-slate-200 hover:border-indigo-200"));
       btn.innerHTML =
         '<div class="flex items-center gap-3">' +
-          '<span class="grid h-11 w-11 shrink-0 place-items-center rounded-xl text-sm font-bold" style="background:' + level.soft + ';color:' + level.color + '">' + level.id + '</span>' +
+          '<span class="grid h-11 w-11 shrink-0 place-items-center rounded-xl text-sm font-bold" style="background:' + level.soft + ';color:' + level.color + '">' + esc(level.id) + '</span>' +
           '<div class="min-w-0 flex-1">' +
-            '<p class="truncate text-sm font-semibold text-slate-900">' + level.name + '</p>' +
-            '<p class="text-xs text-slate-500">' + s.total + ' cards · ' +
-              (s.due > 0 ? '<span class="font-medium text-slate-700">' + s.due + ' ready</span>' : 'all caught up') + '</p>' +
+            '<p class="truncate text-sm font-semibold text-slate-900">' + esc(level.name) + '</p>' +
+            '<p class="truncate text-xs text-slate-500">' +
+              (empty ? "No decks yet"
+                     : plural(decks.length, "subject", "subjects") + " · " + s.total + " items" +
+                       (s.due > 0 ? ' · <span class="font-medium text-slate-700">' + s.due + " ready</span>" : "")) +
+            '</p>' +
           '</div>' +
-          '<span class="tabular text-sm font-semibold" style="color:' + level.color + '">' + p + '%</span>' +
-          '<i data-lucide="chevron-right" class="h-4 w-4 text-slate-300 transition-transform group-hover:translate-x-0.5 group-hover:text-slate-500"></i>' +
-        '</div>' +
-        '<div class="mt-3 flex h-2 overflow-hidden rounded-full bg-slate-100" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + p + '">' +
-          '<div class="bar h-full" style="width:' + (s.mastered / s.total * 100) + '%;background:' + level.color + '"></div>' +
-          '<div class="bar h-full" style="width:' + (s.learning / s.total * 100) + '%;background:' + level.tint + '"></div>' +
-        '</div>' +
-        '<p class="mt-2 text-[11px] text-slate-400">' + s.mastered + ' mastered · ' + s.learning + ' learning · ' + (s.total - s.mastered - s.learning) + ' new</p>';
-      btn.addEventListener("click", () => startSession(level.id, false));
+          (empty ? "" :
+            '<span class="tabular text-sm font-semibold" style="color:' + level.color + '">' + p + '%</span>' +
+            '<i data-lucide="chevron-right" class="h-4 w-4 text-slate-300 transition-transform group-hover:translate-x-0.5 group-hover:text-slate-500"></i>') +
+        '</div>' + progressBarHtml(s, level);
+      if (!empty) btn.addEventListener("click", () => openLevel(level.id));
       list.appendChild(btn);
     });
     refreshIcons();
@@ -754,130 +825,336 @@
   function goHome() {
     stopSpeaking();
     session = null;
+    currentLevel = null;
     renderDashboard();
     showView("view-dashboard");
   }
 
+  /* ---------- Level: list of subjects ---------- */
+  function renderLevel() {
+    const level = levelMeta(currentLevel);
+    const decks = decksOf(level.id);
+    const s = statsFor(itemsOfLevel(level.id));
+    const pct = s.total ? Math.round(s.mastered / s.total * 100) : 0;
+
+    $("level-title").textContent = level.id + " · " + level.name;
+    $("level-sub").textContent = plural(decks.length, "subject", "subjects") + " · " + s.total + " items · " + s.mastered + " mastered";
+    $("level-pct").textContent = pct + "%";
+    $("level-pct").style.color = level.color;
+    $("level-bar").style.width = (s.total ? s.mastered / s.total * 100 : 0) + "%";
+    $("level-bar").style.background = level.color;
+    $("level-bar-learning").style.width = (s.total ? s.learning / s.total * 100 : 0) + "%";
+    $("level-bar-learning").style.background = level.tint;
+    $("btn-level-review-label").textContent = s.due > 0
+      ? "Review all of " + level.id + " · " + plural(s.due, "item", "items") + " ready"
+      : "Review all of " + level.id;
+
+    const list = $("deck-list");
+    list.innerHTML = "";
+    decks.forEach(deck => {
+      const ds = statsFor(deck.items);
+      const p = ds.total ? Math.round(ds.mastered / ds.total * 100) : 0;
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "press lift group rounded-2xl border bg-white p-4 text-left " +
+        (state.settings.lastDeck === deck.id ? "border-indigo-300 ring-2 ring-indigo-100" : "border-slate-200 hover:border-indigo-200");
+      btn.innerHTML =
+        '<div class="flex items-start gap-3">' +
+          '<span class="tabular grid h-9 w-9 shrink-0 place-items-center rounded-lg text-xs font-bold" style="background:' + level.soft + ';color:' + level.color + '">' +
+            (deck.subject !== null ? deck.subject : "•") + '</span>' +
+          '<div class="min-w-0 flex-1">' +
+            '<p class="text-sm font-semibold leading-snug text-slate-900">' + esc(deck.title) + '</p>' +
+            '<p class="mt-0.5 text-xs text-slate-500">' + ds.total + " items · " +
+              (ds.due > 0 ? '<span class="font-medium text-slate-700">' + ds.due + " ready</span>" : "all caught up") + '</p>' +
+          '</div>' +
+          '<span class="tabular text-xs font-semibold" style="color:' + level.color + '">' + p + '%</span>' +
+        '</div>' + progressBarHtml(ds, level);
+      btn.addEventListener("click", () => startSession({ type: "deck", id: deck.id }, false));
+      list.appendChild(btn);
+    });
+    refreshIcons();
+  }
+  function openLevel(levelId) {
+    stopSpeaking();
+    session = null;
+    currentLevel = levelId;
+    state.settings.lastLevel = levelId;
+    saveState();
+    renderLevel();
+    showView("view-level");
+  }
+  function leaveScope(scope) {
+    if (scope && scope.type === "deck") { const d = deckById(scope.id); if (d) { openLevel(d.level); return; } }
+    if (scope && scope.type === "level") { openLevel(scope.id); return; }
+    goHome();
+  }
+
   /* ---------- Session ---------- */
-  function buildQueue(levelId, ahead) {
-    const pool = cardsFor(levelId);
+  function buildQueue(scope, ahead) {
+    const pool = scopeItems(scope);
     let picked;
     if (ahead) {
-      // Nothing is due: review the weakest cards first.
-      picked = (state.settings.shuffle ? shuffle(pool) : pool.slice())
-        .sort((a, b) => boxOf(a.id) - boxOf(b.id));
+      picked = (state.settings.shuffle ? shuffle(pool) : pool.slice()).sort((a, b) => boxOf(a.key) - boxOf(b.key));
     } else {
-      const due = pool.filter(c => isDue(c.id));
-      const reviews = due.filter(c => !isNew(c.id)).sort((a, b) => boxOf(a.id) - boxOf(b.id));
-      const fresh = due.filter(c => isNew(c.id));
-      picked = reviews.concat(state.settings.shuffle ? shuffle(fresh) : fresh);
+      const due = pool.filter(it => isDue(it.key));
+      const reviews = due.filter(it => !isNew(it.key)).sort((a, b) => boxOf(a.key) - boxOf(b.key));
+      const fresh = due.filter(it => isNew(it.key));
+      // New items keep deck order inside a single deck (rules before drills); shuffled across wider scopes.
+      picked = reviews.concat(scope.type === "deck" || !state.settings.shuffle ? fresh : shuffle(fresh));
     }
     const size = Number(state.settings.sessionSize) || 0;
     if (size > 0) picked = picked.slice(0, size);
     if (state.settings.shuffle) picked = shuffle(picked);
-    return picked.map(c => c.id);
+    return picked.map(it => it.key);
   }
 
-  function startSession(levelId, ahead) {
-    const queue = buildQueue(levelId, ahead);
-    if (levelId !== "ALL") { state.settings.lastLevel = levelId; saveState(); }
-
-    if (queue.length === 0) {
-      showCaughtUp(levelId);
-      return;
-    }
-    session = {
-      level: levelId,
-      ahead: !!ahead,
-      queue: queue,
-      total: queue.length,
-      done: 0,
-      missed: {}
-    };
-    const level = LEVEL_BY_ID[levelId];
-    $("study-title").textContent = level ? level.id + " · " + level.name : "Mixed review";
+  function startSession(scope, ahead) {
+    const queue = buildQueue(scope, ahead);
+    if (scope.type === "deck") { state.settings.lastDeck = scope.id; saveState(); }
+    if (queue.length === 0) { showCaughtUp(scope); return; }
+    session = { scope: scope, queue: queue, total: queue.length, done: 0, missed: {}, result: null, speakText: "" };
+    $("study-title").textContent = scopeTitle(scope);
     showView("view-study");
-    showCard();
+    showItem();
+  }
+  function currentItem() { return session ? ITEM_BY_KEY[session.queue[0]] : null; }
+
+  function setActions(mode) {
+    $("btn-reveal").classList.toggle("hidden", mode !== "reveal");
+    $("actions-grade").classList.toggle("hidden", mode !== "grade");
+    $("actions-grade").classList.toggle("grid", mode === "grade");
+    $("btn-check").classList.toggle("hidden", mode !== "check");
+    $("btn-continue").classList.toggle("hidden", mode !== "continue");
+    $("actions-note").classList.toggle("hidden", mode !== "choose");
   }
 
-  function setFlipped(value) {
-    flipped = value;
-    $("card").classList.toggle("flipped", flipped);
-    $("card").setAttribute("aria-label", flipped
-      ? "Flashcard, answer side. Press space to flip back."
-      : "Flashcard, question side. Press space to flip.");
-    $("actions-reveal").classList.toggle("hidden", flipped);
-    $("actions-grade").classList.toggle("hidden", !flipped);
-    $("actions-grade").classList.toggle("grid", flipped);
-  }
-
-  function flipCard() {
-    if (!session) return;
-    setFlipped(!flipped);
-  }
-
-  function renderBoxDots(id) {
-    const box = boxOf(id);
-    const wrap = $("card-box");
+  function renderMeta(prefix, item) {
+    const level = levelMeta(item.deck.level);
+    const badge = $(prefix + "-level");
+    badge.textContent = level.id;
+    badge.style.background = level.soft;
+    badge.style.color = level.color;
+    const box = boxOf(item.key);
+    const wrap = $(prefix + "-box");
     wrap.innerHTML = "";
     for (let i = 1; i <= MAX_BOX; i++) {
       const dot = document.createElement("span");
       dot.className = "h-1.5 w-1.5 rounded-full " + (i <= box ? "bg-indigo-500" : "bg-slate-200");
       wrap.appendChild(dot);
     }
-    $("card-box-label").textContent = isNew(id) ? "New" : "Box " + box + " of " + MAX_BOX;
+    $(prefix + "-box-label").textContent = isNew(item.key) ? "New" : "Box " + box + " of " + MAX_BOX;
   }
 
-  function showCard() {
-    const card = CARD_BY_ID[session.queue[0]];
-    const level = LEVEL_BY_ID[card.level];
-    const cardEl = $("card");
-
+  function showItem() {
+    const item = currentItem();
     stopSpeaking();
-
-    // Reset to the front instantly so the next answer never flashes during the flip.
-    cardEl.classList.add("no-anim");
-    setFlipped(false);
-
-    const badge = $("card-level");
-    badge.textContent = card.level;
-    badge.style.background = level.soft;
-    badge.style.color = level.color;
-
-    $("card-type").textContent = card.type;
-    $("card-word").textContent = card.word;
-    $("hint-text").textContent = card.exampleFr;
-    $("hint-box").classList.add("hidden");
-    $("btn-hint").classList.remove("hidden");
-    renderBoxDots(card.id);
-
-    $("back-word").textContent = card.word;
-    $("back-translation").textContent = card.translation;
-    $("back-example-fr").textContent = card.exampleFr;
-    $("back-example-en").textContent = card.exampleEn;
-
+    session.result = null;
+    session.speakText = "";
+    $("study-deck").textContent = deckLabel(item.deck);
     $("study-count").textContent = session.done + " / " + session.total;
     $("study-bar").style.width = (session.done / session.total * 100) + "%";
 
-    void cardEl.offsetWidth;
-    cardEl.classList.remove("no-anim");
+    const isFlash = item.kind === "flashcard";
+    $("scene").classList.toggle("hidden", !isFlash);
+    $("quiz").classList.toggle("hidden", isFlash);
+    if (isFlash) renderFlashcard(item); else renderQuestion(item);
 
-    const scene = $("scene");
-    scene.classList.remove("card-enter");
-    void scene.offsetWidth;
-    scene.classList.add("card-enter");
-
-    if (state.settings.autoSpeak) speak(card.word, true);
+    const el = isFlash ? $("scene") : $("quiz");
+    el.classList.remove("card-enter");
+    void el.offsetWidth;
+    el.classList.add("card-enter");
   }
 
-  function answer(known) {
-    if (!session || !flipped) return;
-    const id = session.queue.shift();
-    const entry = state.cards[id] || { box: 0, due: 0, correct: 0, wrong: 0 };
+  /* ---------- Flashcards ---------- */
+  function setFlipped(value) {
+    flipped = value;
+    $("card").classList.toggle("flipped", flipped);
+    $("card").setAttribute("aria-label", flipped
+      ? "Flashcard, answer side. Press space to flip back."
+      : "Flashcard, question side. Press space to flip.");
+    setActions(flipped ? "grade" : "reveal");
+  }
+  function flipCard() {
+    const item = currentItem();
+    if (item && item.kind === "flashcard") setFlipped(!flipped);
+  }
+  function renderFlashcard(item) {
+    const cardEl = $("card");
+    cardEl.classList.add("no-anim");     // reset to the front instantly so the next answer never flashes
+    setFlipped(false);
+    renderMeta("card", item);
 
+    $("card-type").textContent = item.type || "";
+    $("card-word").textContent = item.word;
+    const hasHint = !!(item.hint || item.exampleFr);
+    $("btn-hint").classList.toggle("hidden", !hasHint);
+    $("hint-box").classList.add("hidden");
+    $("hint-label").textContent = item.hint ? "Hint" : "In context";
+    $("hint-text").textContent = item.hint || item.exampleFr || "";
+    $("hint-text").setAttribute("lang", item.hint ? "en" : "fr");
+
+    $("back-word").textContent = item.word;
+    $("back-translation").textContent = item.translation;
+    $("back-note").textContent = item.hint || "";
+    $("back-note").classList.toggle("hidden", !item.hint);
+    $("back-example").classList.toggle("hidden", !item.exampleFr);
+    $("back-example-fr").textContent = item.exampleFr || "";
+    $("back-example-en").textContent = item.exampleEn || "";
+    $("back-example-en").classList.toggle("hidden", !item.exampleEn);
+
+    void cardEl.offsetWidth;
+    cardEl.classList.remove("no-anim");
+    if (state.settings.autoSpeak) speak(item.word, true);
+  }
+
+  /* ---------- Questions ---------- */
+  function setPrompt(item, filled, cls) {
+    const el = $("quiz-prompt");
+    el.innerHTML = "";
+    if (item.kind !== "fill") { el.textContent = item.prompt; el.setAttribute("lang", item.kind === "choice" ? "fr" : "en"); return; }
+    el.setAttribute("lang", "fr");
+    const parts = String(item.prompt).split("___");
+    parts.forEach((part, i) => {
+      el.appendChild(document.createTextNode(part));
+      if (i < parts.length - 1) {
+        const span = document.createElement("span");
+        span.className = "blank" + (cls ? " " + cls : "");
+        span.textContent = filled || " ";
+        el.appendChild(span);
+      }
+    });
+  }
+  function joinFill(item) {
+    return String(item.prompt).split("___").join(item.answer).replace(/'\s+/g, "'");
+  }
+
+  function renderQuestion(item) {
+    renderMeta("quiz", item);
+    $("quiz-kind").textContent = KIND_LABEL[item.kind];
+    setPrompt(item, "", "");
+    $("quiz-hint").textContent = item.hint ? "Hint: " + item.hint : "";
+    $("quiz-hint").classList.toggle("hidden", !item.hint);
+    $("quiz-feedback").classList.add("hidden");
+    $("btn-override").classList.add("hidden");
+
+    const optionsEl = $("quiz-options");
+    optionsEl.innerHTML = "";
+    const isChoice = item.kind === "choice";
+    optionsEl.classList.toggle("hidden", !isChoice);
+    $("quiz-input-wrap").classList.toggle("hidden", isChoice);
+
+    if (isChoice) {
+      const options = item.options.length > 2 ? shuffle(item.options) : item.options.slice().sort();
+      options.forEach((opt, i) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.dataset.value = opt;
+        btn.className = "press flex w-full items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-left text-base text-slate-800 hover:border-indigo-300 hover:bg-indigo-50";
+        const num = document.createElement("span");
+        num.className = "tabular grid h-6 w-6 shrink-0 place-items-center rounded-md bg-slate-100 text-xs font-semibold text-slate-500";
+        num.textContent = String(i + 1);
+        const label = document.createElement("span");
+        label.className = "min-w-0 break-words";
+        label.textContent = opt;
+        btn.appendChild(num);
+        btn.appendChild(label);
+        btn.addEventListener("click", () => chooseOption(btn));
+        optionsEl.appendChild(btn);
+      });
+      setActions("choose");
+    } else {
+      const input = $("quiz-input");
+      input.value = "";
+      input.disabled = false;
+      input.className = input.className.replace(/\s(border-emerald-500|border-amber-500|border-red-500)/g, "");
+      setActions("check");
+      try { input.focus({ preventScroll: true }); } catch (err) { input.focus(); }
+    }
+  }
+
+  function chooseOption(btn) {
+    const item = currentItem();
+    if (!item || session.result) return;
+    const correct = btn.dataset.value === item.answer;
+    Array.prototype.forEach.call($("quiz-options").children, b => {
+      b.disabled = true;
+      b.classList.remove("hover:border-indigo-300", "hover:bg-indigo-50");
+      if (b.dataset.value === item.answer) {
+        b.classList.remove("border-slate-200", "bg-white");
+        b.classList.add("border-emerald-500", "bg-emerald-50", "text-emerald-900");
+      } else if (b === btn) {
+        b.classList.remove("border-slate-200", "bg-white");
+        b.classList.add("border-red-500", "bg-red-50", "text-red-900");
+      } else {
+        b.classList.add("opacity-50");
+      }
+    });
+    resolve(item, correct ? "correct" : "wrong");
+  }
+
+  function checkInput() {
+    const item = currentItem();
+    if (!item || session.result || item.kind === "choice" || item.kind === "flashcard") return;
+    const input = $("quiz-input");
+    if (!input.value.trim()) { toast("Type your answer first"); input.focus(); return; }
+    const result = checkTyped(input.value, item);
+    input.disabled = true;
+    input.blur();
+    input.classList.add(result === "correct" ? "border-emerald-500" : result === "accent" ? "border-amber-500" : "border-red-500");
+    resolve(item, result);
+  }
+
+  const FEEDBACK_STYLE = {
+    correct: "bg-emerald-50 text-emerald-900",
+    accent:  "bg-amber-50 text-amber-900",
+    wrong:   "bg-red-50 text-red-900"
+  };
+  function resolve(item, result) {
+    session.result = result;
+    const box = $("quiz-feedback");
+    box.className = "mt-4 rounded-2xl p-4 " + FEEDBACK_STYLE[result];
+
+    let title, answerLine = "", speakText = "";
+    if (item.kind === "choice") {
+      title = result === "correct" ? "Correct !" : "Not quite";
+      if (result !== "correct") answerLine = item.answer;
+      speakText = item.speak || "";
+    } else {
+      title = result === "correct" ? "Correct !"
+            : result === "accent" ? "Accepted — check the accents"
+            : "Not quite";
+      if (item.kind === "fill") {
+        setPrompt(item, item.answer, result === "wrong" ? "bad" : "ok");
+        if (result !== "correct") answerLine = item.answer;
+        speakText = joinFill(item);
+      } else {
+        if (result !== "correct") answerLine = item.answer;
+        speakText = item.answer;
+      }
+    }
+    session.speakText = speakText;
+
+    $("fb-title").textContent = title;
+    $("fb-answer").textContent = answerLine
+      ? (result === "accent" ? "Correct spelling: " : "Answer: ") + answerLine : "";
+    $("fb-answer").classList.toggle("hidden", !answerLine);
+    const extra = [item.explain, item.translation].filter(Boolean).join(" · ");
+    $("fb-extra").textContent = extra;
+    $("fb-extra").classList.toggle("hidden", !extra);
+    $("btn-speak-quiz").classList.toggle("hidden", !speakText);
+    $("btn-override").classList.toggle("hidden", !(result === "wrong" && item.kind !== "choice"));
+    setActions("continue");
+    try { $("btn-continue").focus({ preventScroll: true }); } catch (err) {}
+  }
+
+  /* ---------- Grading (Leitner boxes) ---------- */
+  function answer(known) {
+    if (!session) return;
+    const key = session.queue.shift();
+    const entry = state.cards[key] || { box: 0, due: 0, correct: 0, wrong: 0 };
     if (known) {
-      // A card missed earlier in this session restarts at box 1; otherwise it moves up one box.
-      entry.box = session.missed[id] ? 1 : Math.min(MAX_BOX, (entry.box || 0) + 1);
+      // An item missed earlier in this session restarts at box 1; otherwise it moves up one box.
+      entry.box = session.missed[key] ? 1 : Math.min(MAX_BOX, (entry.box || 0) + 1);
       entry.due = startOfToday() + INTERVAL_DAYS[entry.box] * DAY_MS;
       entry.correct = (entry.correct || 0) + 1;
       session.done++;
@@ -886,64 +1163,64 @@
       entry.box = 1;
       entry.due = startOfToday();
       entry.wrong = (entry.wrong || 0) + 1;
-      session.missed[id] = true;
-      const pos = Math.min(session.queue.length, 3);
-      session.queue.splice(pos, 0, id);
+      session.missed[key] = true;
+      session.queue.splice(Math.min(session.queue.length, 3), 0, key);
     }
-
-    state.cards[id] = entry;
+    state.cards[key] = entry;
     state.totals.reviews = (state.totals.reviews || 0) + 1;
     touchStreak();
     saveState();
-
-    if (session.queue.length === 0) finishSession();
-    else showCard();
+    if (session.queue.length === 0) finishSession(); else showItem();
+  }
+  function gradeFlashcard(known) {
+    const item = currentItem();
+    if (item && item.kind === "flashcard" && flipped) answer(known);
+  }
+  function continueQuestion() {
+    if (session && session.result) answer(session.result !== "wrong");
   }
 
+  /* ---------- End of session ---------- */
   function setDoneIcon(name, bg, fg) {
     const wrap = $("done-icon");
     wrap.className = "pop mx-auto grid h-16 w-16 place-items-center rounded-2xl " + bg + " " + fg;
     wrap.innerHTML = '<i data-lucide="' + name + '" class="h-8 w-8"></i>';
     refreshIcons();
   }
+  function backLabel(scope) { return scope.type === "all" ? "Back to dashboard" : "Back to subjects"; }
 
   function finishSession() {
     stopSpeaking();
-    const levelId = session.level;
+    const scope = session.scope;
     const missed = Object.keys(session.missed).length;
-    const firstTry = session.total - missed;
-    const remaining = levelStats(levelId).due;
-    const label = levelId === "ALL" ? "all levels" : levelId;
+    const remaining = statsFor(scopeItems(scope)).due;
 
     setDoneIcon("party-popper", "bg-emerald-50", "text-emerald-600");
     $("done-title").textContent = missed === 0 ? "Parfait !" : "Bien joué !";
-    $("done-text").textContent = "You reviewed " + plural(session.total, "card", "cards") + " in " + label + ". " +
-      (remaining > 0 ? plural(remaining, "more is", "more are") + " ready." : "Nothing else is due today.");
+    $("done-text").textContent = "You worked through " + plural(session.total, "item", "items") + " in " + scopeTitle(scope) + ". " +
+      (remaining > 0 ? plural(remaining, "more is", "more are") + " ready." : "Nothing else is due here today.");
     $("done-stats").classList.remove("hidden");
-    $("done-known").textContent = firstTry;
+    $("done-known").textContent = session.total - missed;
     $("done-again").textContent = missed;
     $("done-streak").textContent = currentStreak();
 
-    const primary = $("btn-done-primary");
-    primary.textContent = remaining > 0 ? "Keep going" : "Review ahead";
-    primary.onclick = () => startSession(levelId, remaining === 0);
-
+    $("btn-done-primary").textContent = remaining > 0 ? "Keep going" : "Review ahead";
+    $("btn-done-primary").onclick = () => startSession(scope, remaining === 0);
+    $("btn-done-home").textContent = backLabel(scope);
+    $("btn-done-home").onclick = () => leaveScope(scope);
     session = null;
     showView("view-done");
   }
-
-  function showCaughtUp(levelId) {
-    const when = nextDueText(levelId);
-    const label = levelId === "ALL" ? "any level" : levelId;
+  function showCaughtUp(scope) {
+    const when = nextDueText(scopeItems(scope));
     setDoneIcon("sparkles", "bg-indigo-50", "text-indigo-600");
     $("done-title").textContent = "Tout est à jour";
-    $("done-text").textContent = "No cards are due in " + label + " right now." +
-      (when ? " Your next review is " + when + "." : "");
+    $("done-text").textContent = "Nothing is due in " + scopeTitle(scope) + " right now." + (when ? " Your next review is " + when + "." : "");
     $("done-stats").classList.add("hidden");
-
-    const primary = $("btn-done-primary");
-    primary.textContent = "Review ahead anyway";
-    primary.onclick = () => startSession(levelId, true);
+    $("btn-done-primary").textContent = "Review ahead anyway";
+    $("btn-done-primary").onclick = () => startSession(scope, true);
+    $("btn-done-home").textContent = backLabel(scope);
+    $("btn-done-home").onclick = () => leaveScope(scope);
     showView("view-done");
   }
 
@@ -961,9 +1238,7 @@
     $("rate").value = state.settings.rate;
     $("rate-label").textContent = Number(state.settings.rate).toFixed(1) + "×";
   }
-
-  let resetArmed = false;
-  let resetTimer = null;
+  let resetArmed = false, resetTimer = null;
   function disarmReset() {
     resetArmed = false;
     clearTimeout(resetTimer);
@@ -972,44 +1247,32 @@
   function openSettings() {
     renderSettings();
     disarmReset();
-    const el = $("settings");
-    el.classList.remove("hidden");
-    el.classList.add("flex");
+    $("settings").classList.remove("hidden");
+    $("settings").classList.add("flex");
     $("btn-settings-close").focus();
   }
   function closeSettings() {
-    const el = $("settings");
-    el.classList.add("hidden");
-    el.classList.remove("flex");
+    $("settings").classList.add("hidden");
+    $("settings").classList.remove("flex");
     stopSpeaking();
-    renderDashboard();
+    if (DECKS.length) renderDashboard();
   }
   function settingsOpen() { return !$("settings").classList.contains("hidden"); }
 
   /* =========================================================
-     6. EVENTS
+     7. EVENTS
      ========================================================= */
   $("btn-settings").addEventListener("click", openSettings);
   $("btn-settings-close").addEventListener("click", closeSettings);
   $("settings").addEventListener("click", e => { if (e.target === $("settings")) closeSettings(); });
-
   $("size-options").addEventListener("click", e => {
     const btn = e.target.closest("button[data-size]");
     if (!btn) return;
     state.settings.sessionSize = Number(btn.dataset.size);
-    saveState();
-    renderSettings();
+    saveState(); renderSettings();
   });
-  $("toggle-shuffle").addEventListener("click", () => {
-    state.settings.shuffle = !state.settings.shuffle;
-    saveState();
-    renderSettings();
-  });
-  $("toggle-autospeak").addEventListener("click", () => {
-    state.settings.autoSpeak = !state.settings.autoSpeak;
-    saveState();
-    renderSettings();
-  });
+  $("toggle-shuffle").addEventListener("click", () => { state.settings.shuffle = !state.settings.shuffle; saveState(); renderSettings(); });
+  $("toggle-autospeak").addEventListener("click", () => { state.settings.autoSpeak = !state.settings.autoSpeak; saveState(); renderSettings(); });
   $("rate").addEventListener("input", e => {
     state.settings.rate = Number(e.target.value);
     $("rate-label").textContent = state.settings.rate.toFixed(1) + "×";
@@ -1025,30 +1288,28 @@
     }
     const keep = state.settings;
     state = defaultState();
-    state.settings = Object.assign(state.settings, keep, { lastLevel: null });
-    saveState();
-    disarmReset();
-    closeSettings();
+    state.settings = Object.assign(state.settings, keep, { lastLevel: null, lastDeck: null });
+    saveState(); disarmReset(); closeSettings();
     toast("Progress reset");
   });
 
-  $("btn-mixed").addEventListener("click", () => startSession("ALL", false));
-  $("btn-back").addEventListener("click", goHome);
-  $("btn-done-home").addEventListener("click", goHome);
+  $("btn-mixed").addEventListener("click", () => startSession({ type: "all" }, false));
+  $("btn-level-back").addEventListener("click", goHome);
+  $("btn-level-review").addEventListener("click", () => { if (currentLevel) startSession({ type: "level", id: currentLevel }, false); });
+  $("btn-back").addEventListener("click", () => { const scope = session ? session.scope : null; leaveScope(scope); });
+  $("btn-retry").addEventListener("click", init);
 
   $("card").addEventListener("click", flipCard);
   $("btn-reveal").addEventListener("click", () => { if (!flipped) flipCard(); });
-  $("btn-again").addEventListener("click", () => answer(false));
-  $("btn-know").addEventListener("click", () => answer(true));
+  $("btn-again").addEventListener("click", () => gradeFlashcard(false));
+  $("btn-know").addEventListener("click", () => gradeFlashcard(true));
+  $("btn-check").addEventListener("click", checkInput);
+  $("btn-continue").addEventListener("click", continueQuestion);
+  $("btn-override").addEventListener("click", () => { if (session && session.result === "wrong") answer(true); });
 
-  $("btn-speak-word").addEventListener("click", e => {
-    e.stopPropagation();
-    if (session) speak(CARD_BY_ID[session.queue[0]].word);
-  });
-  $("btn-speak-example").addEventListener("click", e => {
-    e.stopPropagation();
-    if (session) speak(CARD_BY_ID[session.queue[0]].exampleFr);
-  });
+  $("btn-speak-word").addEventListener("click", e => { e.stopPropagation(); const it = currentItem(); if (it) speak(it.word); });
+  $("btn-speak-example").addEventListener("click", e => { e.stopPropagation(); const it = currentItem(); if (it) speak(it.exampleFr); });
+  $("btn-speak-quiz").addEventListener("click", () => { if (session) speak(session.speakText); });
   $("btn-hint").addEventListener("click", e => {
     e.stopPropagation();
     $("btn-hint").classList.add("hidden");
@@ -1056,41 +1317,93 @@
   });
   $("hint-box").addEventListener("click", e => e.stopPropagation());
 
+  // Accent keys for typed answers
+  ACCENT_KEYS.forEach(ch => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.textContent = ch;
+    btn.setAttribute("aria-label", "Insert " + ch);
+    btn.className = "press h-9 min-w-[2.25rem] rounded-lg border border-slate-200 bg-slate-50 px-2 text-base text-slate-700 hover:border-indigo-300 hover:bg-indigo-50";
+    btn.addEventListener("pointerdown", e => e.preventDefault());   // keep the keyboard open
+    btn.addEventListener("click", () => {
+      const input = $("quiz-input");
+      if (input.disabled) return;
+      const start = input.selectionStart == null ? input.value.length : input.selectionStart;
+      const end = input.selectionEnd == null ? input.value.length : input.selectionEnd;
+      input.setRangeText(ch, start, end, "end");
+      input.focus();
+    });
+    $("accent-keys").appendChild(btn);
+  });
+
   document.addEventListener("keydown", e => {
     if (e.key === "Escape") {
       if (settingsOpen()) closeSettings();
-      else if (session) goHome();
+      else if (session) leaveScope(session.scope);
       return;
     }
     if (settingsOpen() || !session || e.metaKey || e.ctrlKey || e.altKey) return;
-
+    const item = currentItem();
     const onButton = e.target && e.target.tagName === "BUTTON";
-    if (e.key === " " || e.key === "Enter") {
-      if (onButton) return;            // let the focused button handle its own click
+    const inInput = e.target === $("quiz-input");
+
+    if (item.kind === "flashcard") {
+      if (e.key === " " || e.key === "Enter") {
+        if (onButton) return;
+        e.preventDefault(); flipCard();
+      } else if (e.key === "ArrowRight" || e.key === "2") {
+        if (flipped) { e.preventDefault(); gradeFlashcard(true); }
+      } else if (e.key === "ArrowLeft" || e.key === "1") {
+        if (flipped) { e.preventDefault(); gradeFlashcard(false); }
+      } else if (e.key === "s" || e.key === "S") {
+        speak(flipped && item.exampleFr ? item.exampleFr : item.word);
+      } else if (e.key === "h" || e.key === "H") {
+        if (!flipped && !$("btn-hint").classList.contains("hidden")) $("btn-hint").click();
+      }
+      return;
+    }
+
+    if (e.key === "Enter") {
+      if (onButton) return;
       e.preventDefault();
-      flipCard();
-    } else if (e.key === "ArrowRight" || e.key === "2") {
-      if (flipped) { e.preventDefault(); answer(true); }
-    } else if (e.key === "ArrowLeft" || e.key === "1") {
-      if (flipped) { e.preventDefault(); answer(false); }
-    } else if (e.key === "s" || e.key === "S") {
-      const card = CARD_BY_ID[session.queue[0]];
-      speak(flipped ? card.exampleFr : card.word);
-    } else if (e.key === "h" || e.key === "H") {
-      if (!flipped) $("btn-hint").click();
+      if (session.result) continueQuestion(); else if (item.kind !== "choice") checkInput();
+    } else if (!inInput && item.kind === "choice" && !session.result && /^[1-9]$/.test(e.key)) {
+      const btn = $("quiz-options").children[Number(e.key) - 1];
+      if (btn) { e.preventDefault(); btn.click(); }
+    } else if (!inInput && (e.key === "s" || e.key === "S") && session.result) {
+      speak(session.speakText);
     }
   });
 
   // Refresh due counts if the tab is left open overnight.
   document.addEventListener("visibilitychange", () => {
-    if (!document.hidden && !session && !$("view-dashboard").classList.contains("hidden")) renderDashboard();
+    if (document.hidden || session || !DECKS.length) return;
+    if (viewVisible("view-dashboard")) renderDashboard();
+    else if (viewVisible("view-level") && currentLevel) renderLevel();
   });
 
   /* =========================================================
-     7. INIT
+     8. INIT
      ========================================================= */
-  renderDashboard();
+  function init() {
+    $("loading").classList.remove("hidden");
+    $("load-error").classList.add("hidden");
+    $("dash-body").classList.add("hidden");
+    loadDecks().then(() => {
+      $("loading").classList.add("hidden");
+      $("dash-body").classList.remove("hidden");
+      renderDashboard();
+    }).catch(err => {
+      $("loading").classList.add("hidden");
+      $("load-error").classList.remove("hidden");
+      $("greeting-sub").textContent = "Something went wrong while loading.";
+      $("load-error-text").textContent = (location.protocol === "file:")
+        ? "This page was opened straight from a file. Browsers block it from reading the resources folder that way — serve the folder from a web server such as GitHub Pages instead."
+        : "Check that resources/index.json exists and lists your deck files. (" + (err && err.message ? err.message : "unknown error") + ")";
+    });
+  }
   refreshIcons();
+  init();
 })();
 </script>
 </body>
