@@ -1,0 +1,224 @@
+{
+ "id": "a1-26-colors",
+ "level": "A1",
+ "subject": 26,
+ "title": "Colors",
+ "description": "The main colours and how they agree.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "rouge",
+   "type": "Adjective",
+   "translation": "red",
+   "exampleFr": "La pomme est rouge.",
+   "exampleEn": "The apple is red.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “blue”",
+   "answer": "bleu",
+   "accept": [
+    "bleu / bleue",
+    "bleue"
+   ],
+   "explain": "Le ciel est bleu. — The sky is blue.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “green”",
+   "answer": "vert",
+   "accept": [
+    "vert / verte",
+    "verte"
+   ],
+   "explain": "L'herbe est verte. — The grass is green.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "jaune",
+   "type": "Adjective",
+   "translation": "yellow",
+   "exampleFr": "Le soleil est jaune.",
+   "exampleEn": "The sun is yellow.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "noir / noire",
+   "type": "Adjective",
+   "translation": "black",
+   "exampleFr": "J'ai un chat noir.",
+   "exampleEn": "I have a black cat.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “white”",
+   "answer": "blanc",
+   "accept": [
+    "blanc / blanche",
+    "blanche"
+   ],
+   "explain": "La neige est blanche. — The snow is white.",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “grey”",
+   "answer": "gris",
+   "accept": [
+    "gris / grise",
+    "grise"
+   ],
+   "explain": "Le ciel est gris aujourd'hui. — The sky is grey today.",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "rose",
+   "type": "Adjective",
+   "translation": "pink",
+   "exampleFr": "Elle porte une robe rose.",
+   "exampleEn": "She is wearing a pink dress.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “purple”",
+   "answer": "violet",
+   "accept": [
+    "violet / violette",
+    "violette"
+   ],
+   "explain": "J'aime les fleurs violettes. — I like purple flowers.",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “orange”",
+   "answer": "orange",
+   "explain": "Il a des chaussures orange. — He has orange shoes.",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "marron",
+   "type": "Adjective (invariable)",
+   "translation": "brown",
+   "exampleFr": "Elle a les yeux marron.",
+   "exampleEn": "She has brown eyes.",
+   "hint": "Never takes -s or -e",
+   "id": "011"
+  },
+  {
+   "kind": "flashcard",
+   "word": "De quelle couleur est… ?",
+   "type": "Question",
+   "translation": "What colour is…?",
+   "exampleFr": "De quelle couleur est ta voiture ?",
+   "exampleEn": "What colour is your car?",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Une voiture ___.",
+   "answer": "verte",
+   "hint": "vert",
+   "translation": "A green car.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Des fleurs ___.",
+   "answer": "blanches",
+   "hint": "blanc",
+   "translation": "White flowers.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Des chaussures ___.",
+   "answer": "noires",
+   "hint": "noir",
+   "translation": "Black shoes.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Une robe ___.",
+   "answer": "violette",
+   "hint": "violet",
+   "translation": "A purple dress.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Des yeux ___.",
+   "answer": "bleus",
+   "hint": "bleu",
+   "translation": "Blue eyes.",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "des chaussures marron",
+    "des chaussures marrons",
+    "des chaussures marronnes",
+    "des marron chaussures"
+   ],
+   "answer": "des chaussures marron",
+   "explain": "marron and orange never change.",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What colour is a clear sky?",
+   "options": [
+    "bleu",
+    "vert",
+    "jaune",
+    "noir"
+   ],
+   "answer": "bleu",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Where does a colour adjective go?",
+   "options": [
+    "after the noun",
+    "before the noun",
+    "before the article",
+    "anywhere"
+   ],
+   "answer": "after the noun",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “yellow”",
+   "answer": "jaune",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “black”",
+   "answer": "noir",
+   "accept": [
+    "noire"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “white” (feminine form)",
+   "answer": "blanche",
+   "id": "023"
+  }
+ ]
+}

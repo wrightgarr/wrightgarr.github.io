@@ -1,0 +1,720 @@
+{
+ "id": "a1-10-le-present-simple",
+ "level": "A1",
+ "subject": 10,
+ "title": "Le Présent Simple (1st Group Verbs)",
+ "description": "Regular -er verbs: -e, -es, -e, -ons, -ez, -ent.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Verbes en -er",
+   "type": "Rule",
+   "translation": "Drop -er and add -e, -es, -e, -ons, -ez, -ent",
+   "exampleFr": "Je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent.",
+   "exampleEn": "I speak, you speak, he speaks, we speak, you speak, they speak.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Verbes en -ger et -cer",
+   "type": "Rule",
+   "translation": "Spelling change with nous: mangeons, commençons",
+   "exampleFr": "Nous mangeons et nous commençons.",
+   "exampleEn": "We eat and we begin.",
+   "hint": "This keeps the soft g and c sounds",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Parler",
+   "type": "Verb",
+   "translation": "To speak",
+   "exampleFr": "Je parle français avec mes amis.",
+   "exampleEn": "I speak French with my friends.",
+   "hint": "je parle · nous parlons · ils parlent",
+   "id": "003"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ français.  (parler)",
+   "options": [
+    "parle",
+    "parles",
+    "parlons",
+    "parlez"
+   ],
+   "answer": "parle",
+   "explain": "parler → je parle",
+   "speak": "Je parle français.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) speak”  (parler)",
+   "answer": "tu parles",
+   "accept": [
+    "parles"
+   ],
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ français.",
+   "answer": "parle",
+   "hint": "verb: parler",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we speak”  (parler)",
+   "answer": "nous parlons",
+   "accept": [
+    "parlons"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ français.  (parler)",
+   "options": [
+    "parlez",
+    "parle",
+    "parles",
+    "parlons"
+   ],
+   "answer": "parlez",
+   "explain": "parler → vous parlez",
+   "speak": "Vous parlez français.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they speak”  (parler)",
+   "answer": "ils parlent",
+   "accept": [
+    "parlent",
+    "ils parlent",
+    "elles parlent"
+   ],
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To like”",
+   "answer": "Aimer",
+   "explain": "Elle aime beaucoup le chocolat. — She likes chocolate a lot.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I like”  (aimer)",
+   "answer": "j'aime",
+   "accept": [
+    "aime"
+   ],
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ la musique.",
+   "answer": "aimes",
+   "hint": "verb: aimer",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she likes”  (aimer)",
+   "answer": "elle aime",
+   "accept": [
+    "aime",
+    "il aime",
+    "elle aime",
+    "on aime"
+   ],
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ la musique.  (aimer)",
+   "options": [
+    "aimons",
+    "aiment",
+    "aime",
+    "aimes"
+   ],
+   "answer": "aimons",
+   "explain": "aimer → nous aimons",
+   "speak": "Nous aimons la musique.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) like”  (aimer)",
+   "answer": "vous aimez",
+   "accept": [
+    "aimez"
+   ],
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ la musique.",
+   "answer": "aiment",
+   "hint": "verb: aimer",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To live”",
+   "answer": "Habiter",
+   "explain": "Nous habitons dans une petite ville. — We live in a small town.",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ à Paris.",
+   "answer": "habite",
+   "hint": "verb: habiter",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) live”  (habiter)",
+   "answer": "tu habites",
+   "accept": [
+    "habites"
+   ],
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ à Paris.  (habiter)",
+   "options": [
+    "habite",
+    "habitez",
+    "habitent",
+    "habites"
+   ],
+   "answer": "habite",
+   "explain": "habiter → il habite",
+   "speak": "Il habite à Paris.",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we live”  (habiter)",
+   "answer": "nous habitons",
+   "accept": [
+    "habitons"
+   ],
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ à Paris.",
+   "answer": "habitez",
+   "hint": "verb: habiter",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they live”  (habiter)",
+   "answer": "ils habitent",
+   "accept": [
+    "habitent",
+    "ils habitent",
+    "elles habitent"
+   ],
+   "id": "023"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Travailler",
+   "type": "Verb",
+   "translation": "To work",
+   "exampleFr": "Tu travailles dans un bureau ?",
+   "exampleEn": "Do you work in an office?",
+   "hint": "je travaille · nous travaillons · ils travaillent",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I work”  (travailler)",
+   "answer": "je travaille",
+   "accept": [
+    "travaille"
+   ],
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ le lundi.  (travailler)",
+   "options": [
+    "travailles",
+    "travaillons",
+    "travaillez",
+    "travaillent"
+   ],
+   "answer": "travailles",
+   "explain": "travailler → tu travailles",
+   "speak": "Tu travailles le lundi.",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she works”  (travailler)",
+   "answer": "elle travaille",
+   "accept": [
+    "travaille",
+    "il travaille",
+    "elle travaille",
+    "on travaille"
+   ],
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ le lundi.",
+   "answer": "travaillons",
+   "hint": "verb: travailler",
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) work”  (travailler)",
+   "answer": "vous travaillez",
+   "accept": [
+    "travaillez"
+   ],
+   "id": "029"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ le lundi.  (travailler)",
+   "options": [
+    "travaillent",
+    "travailles",
+    "travaillons",
+    "travaillez"
+   ],
+   "answer": "travaillent",
+   "explain": "travailler → elles travaillent",
+   "speak": "Elles travaillent le lundi.",
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To watch”",
+   "answer": "Regarder",
+   "explain": "Ils regardent un film ce soir. — They are watching a film tonight.",
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ la télévision.  (regarder)",
+   "options": [
+    "regarde",
+    "regardes",
+    "regardons",
+    "regardez"
+   ],
+   "answer": "regarde",
+   "explain": "regarder → je regarde",
+   "speak": "Je regarde la télévision.",
+   "id": "032"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) watch”  (regarder)",
+   "answer": "tu regardes",
+   "accept": [
+    "regardes"
+   ],
+   "id": "033"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ la télévision.",
+   "answer": "regarde",
+   "hint": "verb: regarder",
+   "id": "034"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we watch”  (regarder)",
+   "answer": "nous regardons",
+   "accept": [
+    "regardons"
+   ],
+   "id": "035"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ la télévision.  (regarder)",
+   "options": [
+    "regardez",
+    "regarde",
+    "regardes",
+    "regardons"
+   ],
+   "answer": "regardez",
+   "explain": "regarder → vous regardez",
+   "speak": "Vous regardez la télévision.",
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they watch”  (regarder)",
+   "answer": "ils regardent",
+   "accept": [
+    "regardent",
+    "ils regardent",
+    "elles regardent"
+   ],
+   "id": "037"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To listen”",
+   "answer": "Écouter",
+   "explain": "J'écoute de la musique dans le bus. — I listen to music on the bus.",
+   "id": "038"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I listen”  (écouter)",
+   "answer": "j'écoute",
+   "accept": [
+    "écoute"
+   ],
+   "id": "039"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ la radio.",
+   "answer": "écoutes",
+   "hint": "verb: écouter",
+   "id": "040"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she listens”  (écouter)",
+   "answer": "elle écoute",
+   "accept": [
+    "écoute",
+    "il écoute",
+    "elle écoute",
+    "on écoute"
+   ],
+   "id": "041"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ la radio.  (écouter)",
+   "options": [
+    "écoutons",
+    "écoutent",
+    "écoute",
+    "écoutes"
+   ],
+   "answer": "écoutons",
+   "explain": "écouter → nous écoutons",
+   "speak": "Nous écoutons la radio.",
+   "id": "042"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) listen”  (écouter)",
+   "answer": "vous écoutez",
+   "accept": [
+    "écoutez"
+   ],
+   "id": "043"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ la radio.",
+   "answer": "écoutent",
+   "hint": "verb: écouter",
+   "id": "044"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Manger",
+   "type": "Verb",
+   "translation": "To eat",
+   "exampleFr": "Nous mangeons à midi.",
+   "exampleEn": "We eat at noon.",
+   "hint": "je mange · nous mangeons · ils mangent",
+   "id": "045"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ une pomme.",
+   "answer": "mange",
+   "hint": "verb: manger",
+   "id": "046"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) eat”  (manger)",
+   "answer": "tu manges",
+   "accept": [
+    "manges"
+   ],
+   "id": "047"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ une pomme.  (manger)",
+   "options": [
+    "mange",
+    "mangez",
+    "mangent",
+    "manges"
+   ],
+   "answer": "mange",
+   "explain": "manger → il mange",
+   "speak": "Il mange une pomme.",
+   "id": "048"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we eat”  (manger)",
+   "answer": "nous mangeons",
+   "accept": [
+    "mangeons"
+   ],
+   "id": "049"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ une pomme.",
+   "answer": "mangez",
+   "hint": "verb: manger",
+   "id": "050"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they eat”  (manger)",
+   "answer": "ils mangent",
+   "accept": [
+    "mangent",
+    "ils mangent",
+    "elles mangent"
+   ],
+   "id": "051"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To begin”",
+   "answer": "Commencer",
+   "explain": "Nous commençons le cours maintenant. — We are beginning the class now.",
+   "id": "052"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I begin”  (commencer)",
+   "answer": "je commence",
+   "accept": [
+    "commence"
+   ],
+   "id": "053"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ à huit heures.  (commencer)",
+   "options": [
+    "commences",
+    "commençons",
+    "commencez",
+    "commencent"
+   ],
+   "answer": "commences",
+   "explain": "commencer → tu commences",
+   "speak": "Tu commences à huit heures.",
+   "id": "054"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she begins”  (commencer)",
+   "answer": "elle commence",
+   "accept": [
+    "commence",
+    "il commence",
+    "elle commence",
+    "on commence"
+   ],
+   "id": "055"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ à huit heures.",
+   "answer": "commençons",
+   "hint": "verb: commencer",
+   "id": "056"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) begin”  (commencer)",
+   "answer": "vous commencez",
+   "accept": [
+    "commencez"
+   ],
+   "id": "057"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ à huit heures.  (commencer)",
+   "options": [
+    "commencent",
+    "commences",
+    "commençons",
+    "commencez"
+   ],
+   "answer": "commencent",
+   "explain": "commencer → elles commencent",
+   "speak": "Elles commencent à huit heures.",
+   "id": "058"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To study”",
+   "answer": "Étudier",
+   "explain": "Vous étudiez à l'université ? — Do you study at university?",
+   "id": "059"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ le français.  (étudier)",
+   "options": [
+    "étudie",
+    "étudies",
+    "étudions",
+    "étudiez"
+   ],
+   "answer": "étudie",
+   "explain": "étudier → j'étudie",
+   "speak": "J'étudie le français.",
+   "id": "060"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) study”  (étudier)",
+   "answer": "tu étudies",
+   "accept": [
+    "étudies"
+   ],
+   "id": "061"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le français.",
+   "answer": "étudie",
+   "hint": "verb: étudier",
+   "id": "062"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we study”  (étudier)",
+   "answer": "nous étudions",
+   "accept": [
+    "étudions"
+   ],
+   "id": "063"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le français.  (étudier)",
+   "options": [
+    "étudiez",
+    "étudie",
+    "étudies",
+    "étudions"
+   ],
+   "answer": "étudiez",
+   "explain": "étudier → vous étudiez",
+   "speak": "Vous étudiez le français.",
+   "id": "064"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they study”  (étudier)",
+   "answer": "ils étudient",
+   "accept": [
+    "étudient",
+    "ils étudient",
+    "elles étudient"
+   ],
+   "id": "065"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Jouer",
+   "type": "Verb",
+   "translation": "To play",
+   "exampleFr": "Les enfants jouent dans le jardin.",
+   "exampleEn": "The children are playing in the garden.",
+   "hint": "je joue · nous jouons · ils jouent",
+   "id": "066"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I play”  (jouer)",
+   "answer": "je joue",
+   "accept": [
+    "joue"
+   ],
+   "id": "067"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ au football.",
+   "answer": "joues",
+   "hint": "verb: jouer",
+   "id": "068"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she plays”  (jouer)",
+   "answer": "elle joue",
+   "accept": [
+    "joue",
+    "il joue",
+    "elle joue",
+    "on joue"
+   ],
+   "id": "069"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ au football.  (jouer)",
+   "options": [
+    "jouons",
+    "jouent",
+    "joue",
+    "joues"
+   ],
+   "answer": "jouons",
+   "explain": "jouer → nous jouons",
+   "speak": "Nous jouons au football.",
+   "id": "070"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) play”  (jouer)",
+   "answer": "vous jouez",
+   "accept": [
+    "jouez"
+   ],
+   "id": "071"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ au football.",
+   "answer": "jouent",
+   "hint": "verb: jouer",
+   "id": "072"
+  }
+ ]
+}

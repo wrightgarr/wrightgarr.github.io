@@ -1,0 +1,140 @@
+{
+ "id": "a1-14-forming-interrogative-sentences",
+ "level": "A1",
+ "subject": 14,
+ "title": "Forming Interrogative Sentences",
+ "description": "Three ways to ask a yes / no question.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Intonation",
+   "type": "Question form (informal)",
+   "translation": "Keep the statement and raise your voice at the end",
+   "exampleFr": "Tu parles français ?",
+   "exampleEn": "Do you speak French?",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Est-ce que…",
+   "type": "Question form (neutral)",
+   "translation": "Put est-ce que in front of the statement",
+   "exampleFr": "Est-ce que tu parles français ?",
+   "exampleEn": "Do you speak French?",
+   "hint": "est-ce qu' before a vowel: Est-ce qu'il…",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Swap the verb and the pronoun, joined by a hyphen”",
+   "answer": "Inversion",
+   "explain": "Parlez-vous français ? — Do you speak French?",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-t- in inversion",
+   "type": "Rule",
+   "translation": "Add -t- when the verb ends in a vowel before il, elle, on",
+   "exampleFr": "Parle-t-il anglais ?",
+   "exampleEn": "Does he speak English?",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "…, n'est-ce pas ?",
+   "type": "Question tag",
+   "translation": "…, isn't it? / right?",
+   "exampleFr": "Tu es canadien, n'est-ce pas ?",
+   "exampleEn": "You are Canadian, aren't you?",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Yes — used to contradict a negative question”",
+   "answer": "Si",
+   "explain": "Tu ne viens pas ? — Si, je viens ! — Aren't you coming? — Yes, I am!",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with est-ce que: “Tu parles français.”",
+   "answer": "Est-ce que tu parles français",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with est-ce que: “Vous habitez ici.”",
+   "answer": "Est-ce que vous habitez ici",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with est-ce que: “Il aime le thé.”",
+   "answer": "Est-ce qu'il aime le thé",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with inversion: “Vous parlez anglais.”",
+   "answer": "Parlez-vous anglais",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with inversion: “Tu as un stylo.”",
+   "answer": "As-tu un stylo",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with inversion: “Il habite à Paris.”",
+   "answer": "Habite-t-il à Paris",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which question form is the most formal?",
+   "options": [
+    "Inversion",
+    "Intonation",
+    "Est-ce que",
+    "They are all the same"
+   ],
+   "answer": "Inversion",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "Aime-t-elle le chocolat ?",
+    "Aime-elle le chocolat ?",
+    "Aime elle-t le chocolat ?",
+    "Elle-aime le chocolat ?"
+   ],
+   "answer": "Aime-t-elle le chocolat ?",
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Est-ce que” + “elle” becomes…",
+   "options": [
+    "Est-ce qu'elle",
+    "Est-ce que elle",
+    "Est-que elle",
+    "Est-ce elle"
+   ],
+   "answer": "Est-ce qu'elle",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ne viens pas ? — ___, je viens !",
+   "answer": "Si",
+   "translation": "Aren't you coming? — Yes, I am!",
+   "explain": "Si contradicts a negative question; oui would not.",
+   "id": "016"
+  }
+ ]
+}

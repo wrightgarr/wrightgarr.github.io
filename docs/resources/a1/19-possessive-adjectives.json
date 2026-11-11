@@ -1,0 +1,206 @@
+{
+ "id": "a1-19-possessive-adjectives",
+ "level": "A1",
+ "subject": 19,
+ "title": "Possessive Adjectives",
+ "description": "my, your, his, her, our, their.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "mon / ma / mes",
+   "type": "Possessive adjective",
+   "translation": "my",
+   "exampleFr": "Mon père, ma mère et mes frères.",
+   "exampleEn": "My father, my mother and my brothers.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ton / ta / tes",
+   "type": "Possessive adjective",
+   "translation": "your (tu)",
+   "exampleFr": "Ton livre, ta chaise et tes stylos.",
+   "exampleEn": "Your book, your chair and your pens.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "son / sa / ses",
+   "type": "Possessive adjective",
+   "translation": "his / her / its",
+   "exampleFr": "Son frère, sa sœur et ses parents.",
+   "exampleEn": "His (or her) brother, sister and parents.",
+   "hint": "It agrees with the thing owned, not with the owner",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "notre / nos",
+   "type": "Possessive adjective",
+   "translation": "our",
+   "exampleFr": "Notre maison et nos enfants.",
+   "exampleEn": "Our house and our children.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "votre / vos",
+   "type": "Possessive adjective",
+   "translation": "your (vous)",
+   "exampleFr": "Votre nom et vos papiers, s'il vous plaît.",
+   "exampleEn": "Your name and your papers, please.",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "leur / leurs",
+   "type": "Possessive adjective",
+   "translation": "their",
+   "exampleFr": "Leur chien et leurs chats.",
+   "exampleEn": "Their dog and their cats.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "mon / ton / son + voyelle",
+   "type": "Rule",
+   "translation": "Before a feminine noun starting with a vowel sound, use mon, ton, son",
+   "exampleFr": "Mon amie Léa habite ici.",
+   "exampleEn": "My friend Léa lives here.",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est ___ frère.",
+   "answer": "mon",
+   "hint": "my",
+   "translation": "This is my brother.",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ sœur s'appelle Léa.",
+   "answer": "Ma",
+   "hint": "my",
+   "translation": "My sister is called Léa.",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ parents habitent à Nice.",
+   "answer": "Mes",
+   "hint": "my",
+   "translation": "My parents live in Nice.",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Où est ___ livre ?",
+   "answer": "ton",
+   "hint": "your (tu)",
+   "translation": "Where is your book?",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ amie est sympa.",
+   "answer": "Mon",
+   "hint": "my",
+   "translation": "My friend is nice.",
+   "explain": "amie is feminine but starts with a vowel, so mon.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Paul aime ___ mère.",
+   "answer": "sa",
+   "hint": "his",
+   "translation": "Paul loves his mother.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Marie aime ___ père.",
+   "answer": "son",
+   "hint": "her",
+   "translation": "Marie loves her father.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ maison est grande.",
+   "answer": "Notre",
+   "hint": "our",
+   "translation": "Our house is big.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ enfants sont à l'école.",
+   "answer": "Nos",
+   "hint": "our",
+   "translation": "Our children are at school.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quel est ___ nom ?",
+   "answer": "votre",
+   "hint": "your (vous)",
+   "translation": "What is your name?",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils aiment ___ chien.",
+   "answer": "leur",
+   "hint": "their",
+   "translation": "They love their dog.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles parlent à ___ amis.",
+   "answer": "leurs",
+   "hint": "their",
+   "translation": "They are talking to their friends.",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“son”, “sa” and “ses” agree with…",
+   "options": [
+    "the thing that is owned",
+    "the owner",
+    "the verb",
+    "the speaker"
+   ],
+   "answer": "the thing that is owned",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “her brother”?",
+   "options": [
+    "son frère",
+    "sa frère",
+    "elle frère",
+    "ses frère"
+   ],
+   "answer": "son frère",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “his car”?",
+   "options": [
+    "sa voiture",
+    "son voiture",
+    "il voiture",
+    "ses voiture"
+   ],
+   "answer": "sa voiture",
+   "id": "022"
+  }
+ ]
+}

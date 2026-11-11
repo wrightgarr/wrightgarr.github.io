@@ -1,0 +1,260 @@
+{
+ "id": "a1-21-days-months",
+ "level": "A1",
+ "subject": 21,
+ "title": "Days & Months",
+ "description": "The week and the year.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "lundi",
+   "type": "Noun (m.)",
+   "translation": "Monday",
+   "exampleFr": "Lundi, je commence un nouveau travail.",
+   "exampleEn": "On Monday, I start a new job.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Tuesday”",
+   "answer": "mardi",
+   "explain": "Mardi, nous avons un cours de français. — On Tuesday, we have a French class.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Wednesday”",
+   "answer": "mercredi",
+   "explain": "Les enfants n'ont pas école mercredi. — The children have no school on Wednesday.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "jeudi",
+   "type": "Noun (m.)",
+   "translation": "Thursday",
+   "exampleFr": "Jeudi soir, je vais au cinéma.",
+   "exampleEn": "On Thursday evening, I am going to the cinema.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "vendredi",
+   "type": "Noun (m.)",
+   "translation": "Friday",
+   "exampleFr": "Vendredi, c'est le dernier jour de travail.",
+   "exampleEn": "Friday is the last working day.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Saturday”",
+   "answer": "samedi",
+   "explain": "Samedi, je fais les courses. — On Saturday, I do the shopping.",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Sunday”",
+   "answer": "dimanche",
+   "explain": "Dimanche, je reste à la maison. — On Sunday, I stay at home.",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "janvier",
+   "type": "Noun (m.)",
+   "translation": "January",
+   "exampleFr": "En janvier, il fait froid.",
+   "exampleEn": "In January, it is cold.",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "février",
+   "type": "Noun (m.)",
+   "translation": "February",
+   "exampleFr": "Février est un mois court.",
+   "exampleEn": "February is a short month.",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “March”",
+   "answer": "mars",
+   "explain": "Le printemps commence en mars. — Spring begins in March.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “April”",
+   "answer": "avril",
+   "explain": "Il pleut souvent en avril. — It often rains in April.",
+   "id": "011"
+  },
+  {
+   "kind": "flashcard",
+   "word": "mai",
+   "type": "Noun (m.)",
+   "translation": "May",
+   "exampleFr": "En mai, les fleurs sont belles.",
+   "exampleEn": "In May, the flowers are beautiful.",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “June”",
+   "answer": "juin",
+   "explain": "L'école finit en juin. — School ends in June.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “July”",
+   "answer": "juillet",
+   "explain": "Nous partons en vacances en juillet. — We go on holiday in July.",
+   "id": "014"
+  },
+  {
+   "kind": "flashcard",
+   "word": "août",
+   "type": "Noun (m.)",
+   "translation": "August",
+   "exampleFr": "En août, il fait très chaud.",
+   "exampleEn": "In August, it is very hot.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "septembre",
+   "type": "Noun (m.)",
+   "translation": "September",
+   "exampleFr": "L'école commence en septembre.",
+   "exampleEn": "School starts in September.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “October”",
+   "answer": "octobre",
+   "explain": "Les feuilles tombent en octobre. — The leaves fall in October.",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “November”",
+   "answer": "novembre",
+   "explain": "Mon anniversaire est en novembre. — My birthday is in November.",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "décembre",
+   "type": "Noun (m.)",
+   "translation": "December",
+   "exampleFr": "Noël est en décembre.",
+   "exampleEn": "Christmas is in December.",
+   "id": "019"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le lundi",
+   "type": "Rule",
+   "translation": "le + day = every Monday",
+   "exampleFr": "Le lundi, je vais à la piscine.",
+   "exampleEn": "On Mondays, I go to the swimming pool.",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le premier jour de la semaine, c'est ___.",
+   "answer": "lundi",
+   "translation": "The first day of the week is Monday.",
+   "explain": "In France the week starts on Monday.",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Après mardi, c'est ___.",
+   "answer": "mercredi",
+   "translation": "After Tuesday comes Wednesday.",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Noël est en ___.",
+   "answer": "décembre",
+   "translation": "Christmas is in December.",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le mois après mars, c'est ___.",
+   "answer": "avril",
+   "translation": "The month after March is April.",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je travaille ___ lundi.",
+   "answer": "le",
+   "hint": "every Monday",
+   "translation": "I work on Mondays.",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which days are the weekend?",
+   "options": [
+    "samedi et dimanche",
+    "vendredi et samedi",
+    "dimanche et lundi",
+    "jeudi et vendredi"
+   ],
+   "answer": "samedi et dimanche",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Are days and months written with a capital letter in French?",
+   "options": [
+    "No",
+    "Yes",
+    "Only days",
+    "Only months"
+   ],
+   "answer": "No",
+   "id": "027"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “in July”?",
+   "options": [
+    "en juillet",
+    "à juillet",
+    "dans juillet",
+    "le juillet"
+   ],
+   "answer": "en juillet",
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Thursday”",
+   "answer": "jeudi",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “August”",
+   "answer": "août",
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “February”",
+   "answer": "février",
+   "id": "031"
+  }
+ ]
+}

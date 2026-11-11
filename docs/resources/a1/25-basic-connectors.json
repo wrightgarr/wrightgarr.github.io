@@ -1,0 +1,193 @@
+{
+ "id": "a1-25-basic-connectors",
+ "level": "A1",
+ "subject": 25,
+ "title": "Basic Connectors",
+ "description": "Small words that link ideas.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "et",
+   "type": "Connector",
+   "translation": "and",
+   "exampleFr": "J'aime le thé et le café.",
+   "exampleEn": "I like tea and coffee.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “but”",
+   "answer": "mais",
+   "explain": "Il est fatigué, mais il travaille. — He is tired, but he is working.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “or”",
+   "answer": "ou",
+   "explain": "Tu veux du thé ou du café ? — Do you want tea or coffee?",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "donc",
+   "type": "Connector",
+   "translation": "so / therefore",
+   "exampleFr": "Il pleut, donc je reste ici.",
+   "exampleEn": "It is raining, so I am staying here.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “because”",
+   "answer": "parce que",
+   "explain": "Je mange parce que j'ai faim. — I am eating because I am hungry.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “so / then”",
+   "answer": "alors",
+   "explain": "Tu es prêt ? Alors, on y va ! — Are you ready? Then let's go!",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "aussi",
+   "type": "Connector",
+   "translation": "also / too",
+   "exampleFr": "Moi aussi, j'aime le chocolat.",
+   "exampleEn": "Me too, I like chocolate.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “first”",
+   "answer": "d'abord",
+   "explain": "D'abord, je prends un café. — First, I have a coffee.",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ensuite / puis",
+   "type": "Connector",
+   "translation": "then / next",
+   "exampleFr": "Ensuite, je vais au travail.",
+   "exampleEn": "Then, I go to work.",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “finally”",
+   "answer": "enfin",
+   "explain": "Enfin, je rentre à la maison. — Finally, I go home.",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "avec",
+   "type": "Connector",
+   "translation": "with",
+   "exampleFr": "Je voyage avec ma sœur.",
+   "exampleEn": "I am travelling with my sister.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “without”",
+   "answer": "sans",
+   "explain": "Un café sans sucre, s'il vous plaît. — A coffee without sugar, please.",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “for / in order to”",
+   "answer": "pour",
+   "explain": "J'étudie pour parler français. — I study in order to speak French.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'aime le thé ___ le café.",
+   "answer": "et",
+   "hint": "and",
+   "translation": "I like tea and coffee.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est fatigué, ___ il travaille.",
+   "answer": "mais",
+   "hint": "but",
+   "translation": "He is tired, but he is working.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je reste à la maison ___ je suis malade.",
+   "answer": "parce que",
+   "hint": "because",
+   "translation": "I am staying home because I am ill.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Thé ___ café ?",
+   "answer": "ou",
+   "hint": "or",
+   "translation": "Tea or coffee?",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je pense, ___ je suis.",
+   "answer": "donc",
+   "hint": "therefore",
+   "translation": "I think, therefore I am.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Un café ___ sucre, s'il vous plaît.",
+   "answer": "sans",
+   "hint": "without",
+   "translation": "A coffee without sugar, please.",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "D'abord je mange, ___ je travaille.",
+   "answer": "ensuite",
+   "hint": "then",
+   "translation": "First I eat, then I work.",
+   "accept": [
+    "puis"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which order is correct?",
+   "options": [
+    "d'abord, ensuite, enfin",
+    "enfin, d'abord, ensuite",
+    "ensuite, enfin, d'abord",
+    "d'abord, enfin, ensuite"
+   ],
+   "answer": "d'abord, ensuite, enfin",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which connector gives a reason?",
+   "options": [
+    "parce que",
+    "mais",
+    "ou",
+    "ensuite"
+   ],
+   "answer": "parce que",
+   "id": "022"
+  }
+ ]
+}

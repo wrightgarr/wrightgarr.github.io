@@ -1,0 +1,174 @@
+{
+ "id": "a1-30-10-expressions-idioms",
+ "level": "A1",
+ "subject": 30,
+ "title": "10 Expressions & Idioms",
+ "description": "Ten everyday expressions.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Ça marche !",
+   "type": "Expression",
+   "translation": "OK! / That works!",
+   "exampleFr": "On se voit à huit heures ? — Ça marche !",
+   "exampleEn": "See you at eight? — That works!",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Pas de problème",
+   "type": "Expression",
+   "translation": "No problem",
+   "exampleFr": "Tu peux m'aider ? — Pas de problème.",
+   "exampleEn": "Can you help me? — No problem.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Bien sûr",
+   "type": "Expression",
+   "translation": "Of course",
+   "exampleFr": "Tu viens à la fête ? — Bien sûr !",
+   "exampleEn": "Are you coming to the party? — Of course!",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "D'accord",
+   "type": "Expression",
+   "translation": "OK / Agreed",
+   "exampleFr": "On mange ici ? — D'accord.",
+   "exampleEn": "Shall we eat here? — OK.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To be hungry (literally: to have hunger)”",
+   "answer": "Avoir faim",
+   "explain": "J'ai faim, on mange ? — I'm hungry, shall we eat?",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Enjoy your meal!”",
+   "answer": "Bon appétit !",
+   "explain": "Le dîner est prêt. Bon appétit ! — Dinner is ready. Enjoy your meal!",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "À tes souhaits !",
+   "type": "Expression",
+   "translation": "Bless you! (after a sneeze)",
+   "exampleFr": "Atchoum ! — À tes souhaits !",
+   "exampleEn": "Achoo! — Bless you!",
+   "hint": "Formal: À vos souhaits !",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Good luck!”",
+   "answer": "Bonne chance !",
+   "explain": "Tu as un examen demain ? Bonne chance ! — You have an exam tomorrow? Good luck!",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “That's life”",
+   "answer": "C'est la vie",
+   "explain": "J'ai raté le bus. C'est la vie ! — I missed the bus. That's life!",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Tant pis",
+   "type": "Expression",
+   "translation": "Too bad / Never mind",
+   "exampleFr": "Il n'y a plus de pain. Tant pis.",
+   "exampleEn": "There is no bread left. Never mind.",
+   "hint": "The opposite is tant mieux: so much the better",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Someone sneezes. You say…",
+   "options": [
+    "À tes souhaits !",
+    "Bon appétit !",
+    "Bonne chance !",
+    "Tant pis"
+   ],
+   "answer": "À tes souhaits !",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Your friends are about to start eating. You say…",
+   "options": [
+    "Bon appétit !",
+    "Bonne chance !",
+    "À tes souhaits !",
+    "Ça marche !"
+   ],
+   "answer": "Bon appétit !",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "A friend has an exam tomorrow. You say…",
+   "options": [
+    "Bonne chance !",
+    "Bien sûr",
+    "C'est la vie",
+    "Bon appétit !"
+   ],
+   "answer": "Bonne chance !",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which expression means “too bad”?",
+   "options": [
+    "Tant pis",
+    "Tant mieux",
+    "D'accord",
+    "Bien sûr"
+   ],
+   "answer": "Tant pis",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ faim.",
+   "answer": "ai",
+   "translation": "I am hungry.",
+   "explain": "French uses avoir, not être: “I have hunger”.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu viens ? — Bien ___ !",
+   "answer": "sûr",
+   "translation": "Are you coming? — Of course!",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Of course”",
+   "answer": "Bien sûr",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “No problem”",
+   "answer": "Pas de problème",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “OK / Agreed”",
+   "answer": "D'accord",
+   "id": "019"
+  }
+ ]
+}

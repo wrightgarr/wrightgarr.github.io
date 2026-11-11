@@ -1,0 +1,196 @@
+{
+ "id": "a1-15-interrogative-words",
+ "level": "A1",
+ "subject": 15,
+ "title": "Interrogative Words (qui, que, où, quand, ...)",
+ "description": "The words that open a question.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "qui",
+   "type": "Question word",
+   "translation": "who",
+   "exampleFr": "Qui est-ce ?",
+   "exampleEn": "Who is it?",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "que / qu'est-ce que",
+   "type": "Question word",
+   "translation": "what",
+   "exampleFr": "Qu'est-ce que tu fais ?",
+   "exampleEn": "What are you doing?",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “what (after a verb or preposition)”",
+   "answer": "quoi",
+   "explain": "Tu fais quoi ? — What are you doing?",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “where”",
+   "answer": "où",
+   "explain": "Où habites-tu ? — Where do you live?",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "quand",
+   "type": "Question word",
+   "translation": "when",
+   "exampleFr": "Quand arrives-tu ?",
+   "exampleEn": "When are you arriving?",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “how”",
+   "answer": "comment",
+   "explain": "Comment allez-vous ? — How are you?",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “why”",
+   "answer": "pourquoi",
+   "explain": "Pourquoi es-tu triste ? — Why are you sad?",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "combien (de)",
+   "type": "Question word",
+   "translation": "how much / how many",
+   "exampleFr": "Combien de frères as-tu ?",
+   "exampleEn": "How many brothers do you have?",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "quel / quelle / quels / quelles",
+   "type": "Question word",
+   "translation": "which / what (agrees with the noun)",
+   "exampleFr": "Quelle heure est-il ?",
+   "exampleEn": "What time is it?",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “at what time”",
+   "answer": "à quelle heure",
+   "explain": "À quelle heure commence le film ? — What time does the film start?",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “from where”",
+   "answer": "d'où",
+   "explain": "D'où venez-vous ? — Where are you from?",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ habites-tu ? — À Lyon.",
+   "answer": "Où",
+   "translation": "Where do you live? — In Lyon.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ est-ce ? — C'est mon frère.",
+   "answer": "Qui",
+   "translation": "Who is it? — It's my brother.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ arrives-tu ? — Demain.",
+   "answer": "Quand",
+   "translation": "When are you arriving? — Tomorrow.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ tu t'appelles ?",
+   "answer": "Comment",
+   "translation": "What's your name?",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ apprends-tu le français ? — Parce que j'aime la France.",
+   "answer": "Pourquoi",
+   "translation": "Why are you learning French? — Because I love France.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ coûte ce livre ?",
+   "answer": "Combien",
+   "translation": "How much does this book cost?",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ âge as-tu ?",
+   "answer": "Quel",
+   "translation": "How old are you?",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ heure est-il ?",
+   "answer": "Quelle",
+   "translation": "What time is it?",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Qu'est-ce ___ tu fais ?",
+   "answer": "que",
+   "translation": "What are you doing?",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ sont tes couleurs préférées ?",
+   "options": [
+    "Quelles",
+    "Quel",
+    "Quelle",
+    "Quels"
+   ],
+   "answer": "Quelles",
+   "explain": "couleurs is feminine plural.",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "A question with “Pourquoi ?” is answered with…",
+   "options": [
+    "Parce que…",
+    "Quand…",
+    "Combien…",
+    "Comment…"
+   ],
+   "answer": "Parce que…",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which word asks about a place?",
+   "options": [
+    "où",
+    "qui",
+    "quand",
+    "combien"
+   ],
+   "answer": "où",
+   "id": "023"
+  }
+ ]
+}

@@ -1,0 +1,491 @@
+{
+ "id": "a1-20-numbers-0-100",
+ "level": "A1",
+ "subject": 20,
+ "title": "Numbers 0–100",
+ "description": "Counting, including the tricky 70s, 80s and 90s.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "zéro",
+   "type": "Number",
+   "translation": "0",
+   "exampleFr": "Il fait zéro degré ce matin.",
+   "exampleEn": "It is zero degrees this morning.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “1”",
+   "answer": "un",
+   "explain": "J'ai un frère. — I have one brother.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “2”",
+   "answer": "deux",
+   "explain": "Ça coûte deux euros. — It costs 2 euros.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "trois",
+   "type": "Number",
+   "translation": "3",
+   "exampleFr": "Il y a trois étudiants dans la classe.",
+   "exampleEn": "There are 3 students in the class.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “4”",
+   "answer": "quatre",
+   "explain": "Ça coûte quatre euros. — It costs 4 euros.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “5”",
+   "answer": "cinq",
+   "explain": "Il y a cinq étudiants dans la classe. — There are 5 students in the class.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "six",
+   "type": "Number",
+   "translation": "6",
+   "exampleFr": "Ça coûte six euros.",
+   "exampleEn": "It costs 6 euros.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “7”",
+   "answer": "sept",
+   "explain": "Il y a sept étudiants dans la classe. — There are 7 students in the class.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “8”",
+   "answer": "huit",
+   "explain": "Ça coûte huit euros. — It costs 8 euros.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "neuf",
+   "type": "Number",
+   "translation": "9",
+   "exampleFr": "Il y a neuf étudiants dans la classe.",
+   "exampleEn": "There are 9 students in the class.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “10”",
+   "answer": "dix",
+   "explain": "Ça coûte dix euros. — It costs 10 euros.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “11”",
+   "answer": "onze",
+   "explain": "Il y a onze étudiants dans la classe. — There are 11 students in the class.",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "douze",
+   "type": "Number",
+   "translation": "12",
+   "exampleFr": "Ça coûte douze euros.",
+   "exampleEn": "It costs 12 euros.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “13”",
+   "answer": "treize",
+   "explain": "Il y a treize étudiants dans la classe. — There are 13 students in the class.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “14”",
+   "answer": "quatorze",
+   "explain": "Ça coûte quatorze euros. — It costs 14 euros.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "quinze",
+   "type": "Number",
+   "translation": "15",
+   "exampleFr": "Il y a quinze étudiants dans la classe.",
+   "exampleEn": "There are 15 students in the class.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “16”",
+   "answer": "seize",
+   "explain": "Ça coûte seize euros. — It costs 16 euros.",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “17”",
+   "answer": "dix-sept",
+   "explain": "Il y a dix-sept étudiants dans la classe. — There are 17 students in the class.",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "dix-huit",
+   "type": "Number",
+   "translation": "18",
+   "exampleFr": "Ça coûte dix-huit euros.",
+   "exampleEn": "It costs 18 euros.",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “19”",
+   "answer": "dix-neuf",
+   "explain": "Il y a dix-neuf étudiants dans la classe. — There are 19 students in the class.",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “20”",
+   "answer": "vingt",
+   "explain": "Ça coûte vingt euros. — It costs 20 euros.",
+   "id": "021"
+  },
+  {
+   "kind": "flashcard",
+   "word": "trente",
+   "type": "Number",
+   "translation": "30",
+   "exampleFr": "Ça coûte trente euros.",
+   "exampleEn": "It costs 30 euros.",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “40”",
+   "answer": "quarante",
+   "explain": "Ça coûte quarante euros. — It costs 40 euros.",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “50”",
+   "answer": "cinquante",
+   "explain": "Ça coûte cinquante euros. — It costs 50 euros.",
+   "id": "024"
+  },
+  {
+   "kind": "flashcard",
+   "word": "soixante",
+   "type": "Number",
+   "translation": "60",
+   "exampleFr": "Ça coûte soixante euros.",
+   "exampleEn": "It costs 60 euros.",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “70”",
+   "answer": "soixante-dix",
+   "explain": "Ça coûte soixante-dix euros. — It costs 70 euros.",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “80”",
+   "answer": "quatre-vingts",
+   "explain": "Ça coûte quatre-vingts euros. — It costs 80 euros.",
+   "id": "027"
+  },
+  {
+   "kind": "flashcard",
+   "word": "quatre-vingt-dix",
+   "type": "Number",
+   "translation": "90",
+   "exampleFr": "Ça coûte quatre-vingt-dix euros.",
+   "exampleEn": "It costs 90 euros.",
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “100”",
+   "answer": "cent",
+   "explain": "Ça coûte cent euros. — It costs 100 euros.",
+   "id": "029"
+  },
+  {
+   "kind": "flashcard",
+   "word": "vingt et un, trente et un…",
+   "type": "Rule",
+   "translation": "21, 31, 41, 51, 61 and 71 use “et”",
+   "exampleFr": "J'ai vingt et un ans.",
+   "exampleEn": "I am twenty-one years old.",
+   "hint": "But 81 and 91 do not: quatre-vingt-un, quatre-vingt-onze",
+   "id": "030"
+  },
+  {
+   "kind": "flashcard",
+   "word": "soixante-dix (70–79)",
+   "type": "Rule",
+   "translation": "70 = sixty-ten; 71–79 continue with onze, douze…",
+   "exampleFr": "Mon grand-père a soixante-quinze ans.",
+   "exampleEn": "My grandfather is seventy-five.",
+   "id": "031"
+  },
+  {
+   "kind": "flashcard",
+   "word": "quatre-vingts (80–89)",
+   "type": "Rule",
+   "translation": "80 = four twenties; the s disappears when another number follows",
+   "exampleFr": "Quatre-vingts, quatre-vingt-un, quatre-vingt-deux.",
+   "exampleEn": "Eighty, eighty-one, eighty-two.",
+   "id": "032"
+  },
+  {
+   "kind": "flashcard",
+   "word": "quatre-vingt-dix (90–99)",
+   "type": "Rule",
+   "translation": "90 = four-twenty-ten; 91–99 continue with onze, douze…",
+   "exampleFr": "Elle a quatre-vingt-dix-neuf ans.",
+   "exampleEn": "She is ninety-nine years old.",
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 21",
+   "answer": "vingt et un",
+   "accept": [
+    "vingt-et-un"
+   ],
+   "id": "034"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 22",
+   "answer": "vingt-deux",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 31",
+   "answer": "trente et un",
+   "accept": [
+    "trente-et-un"
+   ],
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 45",
+   "answer": "quarante-cinq",
+   "id": "037"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 58",
+   "answer": "cinquante-huit",
+   "id": "038"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 61",
+   "answer": "soixante et un",
+   "accept": [
+    "soixante-et-un"
+   ],
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 69",
+   "answer": "soixante-neuf",
+   "id": "040"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 71",
+   "answer": "soixante et onze",
+   "accept": [
+    "soixante-et-onze"
+   ],
+   "id": "041"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 72",
+   "answer": "soixante-douze",
+   "id": "042"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 77",
+   "answer": "soixante-dix-sept",
+   "id": "043"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 81",
+   "answer": "quatre-vingt-un",
+   "id": "044"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 88",
+   "answer": "quatre-vingt-huit",
+   "id": "045"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 91",
+   "answer": "quatre-vingt-onze",
+   "id": "046"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 96",
+   "answer": "quatre-vingt-seize",
+   "id": "047"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 99",
+   "answer": "quatre-vingt-dix-neuf",
+   "id": "048"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “seize”?",
+   "options": [
+    "16",
+    "6",
+    "26",
+    "17"
+   ],
+   "answer": "16",
+   "id": "049"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “soixante”?",
+   "options": [
+    "60",
+    "50",
+    "70",
+    "40"
+   ],
+   "answer": "60",
+   "id": "050"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “soixante-six”?",
+   "options": [
+    "66",
+    "56",
+    "76",
+    "46"
+   ],
+   "answer": "66",
+   "id": "051"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “soixante-quinze”?",
+   "options": [
+    "75",
+    "65",
+    "85",
+    "55"
+   ],
+   "answer": "75",
+   "id": "052"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “soixante-seize”?",
+   "options": [
+    "76",
+    "66",
+    "86",
+    "56"
+   ],
+   "answer": "76",
+   "id": "053"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “soixante-dix-neuf”?",
+   "options": [
+    "79",
+    "69",
+    "89",
+    "59"
+   ],
+   "answer": "79",
+   "id": "054"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “quatre-vingt-quatre”?",
+   "options": [
+    "84",
+    "74",
+    "94",
+    "64"
+   ],
+   "answer": "84",
+   "id": "055"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “quatre-vingt-douze”?",
+   "options": [
+    "92",
+    "82",
+    "72",
+    "93"
+   ],
+   "answer": "92",
+   "id": "056"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “quatre-vingt-quinze”?",
+   "options": [
+    "95",
+    "85",
+    "75",
+    "96"
+   ],
+   "answer": "95",
+   "id": "057"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “quatre-vingt-dix-huit”?",
+   "options": [
+    "98",
+    "88",
+    "78",
+    "99"
+   ],
+   "answer": "98",
+   "id": "058"
+  }
+ ]
+}

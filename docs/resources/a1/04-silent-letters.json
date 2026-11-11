@@ -1,0 +1,220 @@
+{
+ "id": "a1-04-silent-letters",
+ "level": "A1",
+ "subject": 4,
+ "title": "Silent Letters (d, e, g, h, p, s, t, x)",
+ "description": "Letters you write but do not say.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Final -e",
+   "type": "Rule",
+   "translation": "Usually silent; it makes the consonant before it heard",
+   "exampleFr": "La porte est grande.",
+   "exampleEn": "The door is big.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Final -s",
+   "type": "Rule",
+   "translation": "Silent, including the plural -s",
+   "exampleFr": "Trois chats gris.",
+   "exampleEn": "Three grey cats.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Final -t",
+   "type": "Rule",
+   "translation": "Usually silent",
+   "exampleFr": "Le chat est petit.",
+   "exampleEn": "The cat is small.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Final -d",
+   "type": "Rule",
+   "translation": "Usually silent",
+   "exampleFr": "Mon pied est froid.",
+   "exampleEn": "My foot is cold.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Final -x",
+   "type": "Rule",
+   "translation": "Silent",
+   "exampleFr": "Elle a deux choix.",
+   "exampleEn": "She has two choices.",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Final -p",
+   "type": "Rule",
+   "translation": "Usually silent",
+   "exampleFr": "Il y a beaucoup de monde, c'est trop.",
+   "exampleEn": "There are a lot of people; it is too much.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Final -g",
+   "type": "Rule",
+   "translation": "Usually silent",
+   "exampleFr": "Le chemin est long.",
+   "exampleEn": "The path is long.",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "H",
+   "type": "Rule",
+   "translation": "Never pronounced in French",
+   "exampleFr": "L'hôtel est près de l'hôpital.",
+   "exampleEn": "The hotel is near the hospital.",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-ent (verb ending)",
+   "type": "Rule",
+   "translation": "Silent in the ils / elles form of a verb",
+   "exampleFr": "Ils parlent et elles chantent.",
+   "exampleEn": "They talk and they sing.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "C, R, F, L (“CaReFuL”)",
+   "type": "Rule",
+   "translation": "These four final consonants are usually pronounced",
+   "exampleFr": "Le sac neuf est pour Paul.",
+   "exampleEn": "The new bag is for Paul.",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "La liaison",
+   "type": "Rule",
+   "translation": "A silent final consonant is pronounced when the next word starts with a vowel sound",
+   "exampleFr": "Les amis ont deux enfants.",
+   "exampleEn": "The friends have two children.",
+   "hint": "les amis → “lay-za-mee”; deux enfants → “duh-zahn-fahn”",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which letter is silent in “petit”?",
+   "options": [
+    "the final t",
+    "the p",
+    "the i",
+    "none"
+   ],
+   "answer": "the final t",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Ils parlent” is pronounced exactly like…",
+   "options": [
+    "il parle",
+    "ils parlons",
+    "il parlé",
+    "ils parlant"
+   ],
+   "answer": "il parle",
+   "explain": "The verb ending -ent is silent.",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which word has a final consonant you can hear?",
+   "options": [
+    "avec",
+    "petit",
+    "trois",
+    "grand"
+   ],
+   "answer": "avec",
+   "explain": "Remember CaReFuL: c, r, f, l.",
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “homme”, which letter is silent?",
+   "options": [
+    "h",
+    "o",
+    "m",
+    "none"
+   ],
+   "answer": "h",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “beaucoup”, the final p is…",
+   "options": [
+    "silent",
+    "pronounced “p”",
+    "pronounced “b”",
+    "pronounced “f”"
+   ],
+   "answer": "silent",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “temps”, which letters are silent?",
+   "options": [
+    "p and s",
+    "only s",
+    "t and s",
+    "none"
+   ],
+   "answer": "p and s",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “les enfants”, the s of “les” is…",
+   "options": [
+    "pronounced like “z”",
+    "silent",
+    "pronounced like “s”",
+    "pronounced like “sh”"
+   ],
+   "answer": "pronounced like “z”",
+   "explain": "This linking is called a liaison.",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which word ends in a sound you can hear?",
+   "options": [
+    "hôtel",
+    "Paris",
+    "salut",
+    "deux"
+   ],
+   "answer": "hôtel",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How many sounds do you hear in “eaux”?",
+   "options": [
+    "one (“oh”)",
+    "two",
+    "three",
+    "four"
+   ],
+   "answer": "one (“oh”)",
+   "id": "020"
+  }
+ ]
+}

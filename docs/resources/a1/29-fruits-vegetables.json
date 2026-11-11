@@ -1,0 +1,303 @@
+{
+ "id": "a1-29-fruits-vegetables",
+ "level": "A1",
+ "subject": 29,
+ "title": "Fruits & Vegetables",
+ "description": "What you will find at the market.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "la pomme",
+   "type": "Noun (f.)",
+   "translation": "the apple",
+   "exampleFr": "Je mange une pomme chaque jour.",
+   "exampleEn": "I eat an apple every day.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la banane",
+   "type": "Noun (f.)",
+   "translation": "the banana",
+   "exampleFr": "Le singe aime les bananes.",
+   "exampleEn": "The monkey likes bananas.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the orange”",
+   "answer": "l'orange",
+   "accept": [
+    "orange"
+   ],
+   "explain": "Je bois un jus d'orange. — I am drinking an orange juice.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la fraise",
+   "type": "Noun (f.)",
+   "translation": "the strawberry",
+   "exampleFr": "Les fraises sont rouges.",
+   "exampleEn": "Strawberries are red.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “grapes”",
+   "answer": "le raisin",
+   "accept": [
+    "raisin"
+   ],
+   "explain": "Le raisin est sucré. — The grapes are sweet.",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le citron",
+   "type": "Noun (m.)",
+   "translation": "the lemon",
+   "exampleFr": "Un thé au citron, s'il vous plaît.",
+   "exampleEn": "A lemon tea, please.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la poire",
+   "type": "Noun (f.)",
+   "translation": "the pear",
+   "exampleFr": "Cette poire est très mûre.",
+   "exampleEn": "This pear is very ripe.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the peach”",
+   "answer": "la pêche",
+   "accept": [
+    "pêche"
+   ],
+   "explain": "J'adore les pêches en été. — I love peaches in summer.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the cherry”",
+   "answer": "la cerise",
+   "accept": [
+    "cerise"
+   ],
+   "explain": "Il y a des cerises sur le gâteau. — There are cherries on the cake.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "l'ananas",
+   "type": "Noun (m.)",
+   "translation": "the pineapple",
+   "exampleFr": "L'ananas vient des pays chauds.",
+   "exampleEn": "Pineapple comes from hot countries.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the watermelon”",
+   "answer": "la pastèque",
+   "accept": [
+    "pastèque"
+   ],
+   "explain": "La pastèque est fraîche. — The watermelon is cool.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the tomato”",
+   "answer": "la tomate",
+   "accept": [
+    "tomate"
+   ],
+   "explain": "Je fais une salade de tomates. — I am making a tomato salad.",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la carotte",
+   "type": "Noun (f.)",
+   "translation": "the carrot",
+   "exampleFr": "Les lapins mangent des carottes.",
+   "exampleEn": "Rabbits eat carrots.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the potato”",
+   "answer": "la pomme de terre",
+   "accept": [
+    "pomme de terre"
+   ],
+   "explain": "J'achète un kilo de pommes de terre. — I am buying a kilo of potatoes.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the onion”",
+   "answer": "l'oignon",
+   "accept": [
+    "oignon"
+   ],
+   "explain": "Je coupe un oignon. — I am chopping an onion.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la salade",
+   "type": "Noun (f.)",
+   "translation": "lettuce / salad",
+   "exampleFr": "Une salade verte, s'il vous plaît.",
+   "exampleEn": "A green salad, please.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the cucumber”",
+   "answer": "le concombre",
+   "accept": [
+    "concombre"
+   ],
+   "explain": "Le concombre est vert. — The cucumber is green.",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the bell pepper”",
+   "answer": "le poivron",
+   "accept": [
+    "poivron"
+   ],
+   "explain": "J'aime les poivrons rouges. — I like red peppers.",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le champignon",
+   "type": "Noun (m.)",
+   "translation": "the mushroom",
+   "exampleFr": "Une pizza aux champignons.",
+   "exampleEn": "A mushroom pizza.",
+   "id": "019"
+  },
+  {
+   "kind": "flashcard",
+   "word": "les haricots verts",
+   "type": "Noun (m. pl.)",
+   "translation": "green beans",
+   "exampleFr": "Nous mangeons des haricots verts.",
+   "exampleEn": "We are eating green beans.",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “garlic”",
+   "answer": "l'ail",
+   "accept": [
+    "ail"
+   ],
+   "explain": "Il y a de l'ail dans la sauce. — There is garlic in the sauce.",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “fruit and vegetables”",
+   "answer": "les fruits et les légumes",
+   "accept": [
+    "fruits et les légumes"
+   ],
+   "explain": "J'achète des fruits et des légumes au marché. — I buy fruit and vegetables at the market.",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which one is a vegetable?",
+   "options": [
+    "la carotte",
+    "la fraise",
+    "la poire",
+    "la cerise"
+   ],
+   "answer": "la carotte",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which one is a fruit?",
+   "options": [
+    "la pêche",
+    "l'oignon",
+    "le poivron",
+    "l'ail"
+   ],
+   "answer": "la pêche",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Le raisin” means…",
+   "options": [
+    "grapes",
+    "a raisin",
+    "a raspberry",
+    "a radish"
+   ],
+   "answer": "grapes",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "French fries are made from…",
+   "options": [
+    "pommes de terre",
+    "pommes",
+    "poires",
+    "poivrons"
+   ],
+   "answer": "pommes de terre",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the apple”",
+   "answer": "la pomme",
+   "accept": [
+    "pomme"
+   ],
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the lemon”",
+   "answer": "le citron",
+   "accept": [
+    "citron"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the strawberry”",
+   "answer": "la fraise",
+   "accept": [
+    "fraise"
+   ],
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the mushroom”",
+   "answer": "le champignon",
+   "accept": [
+    "champignon"
+   ],
+   "id": "030"
+  }
+ ]
+}

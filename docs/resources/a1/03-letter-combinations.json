@@ -1,0 +1,304 @@
+{
+ "id": "a1-03-letter-combinations",
+ "level": "A1",
+ "subject": 3,
+ "title": "Letter Combinations (ç, ai, ei, an, am, en, em, ...)",
+ "description": "Groups of letters that make one sound.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "ç",
+   "type": "Sound",
+   "translation": "“s” sound before a, o, u",
+   "exampleFr": "Le garçon parle français.",
+   "exampleEn": "The boy speaks French.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ai",
+   "type": "Sound",
+   "translation": "“eh”, as in English “bed”",
+   "exampleFr": "J'aime ma maison.",
+   "exampleEn": "I love my house.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ei",
+   "type": "Sound",
+   "translation": "“eh”, the same sound as ai",
+   "exampleFr": "La neige est blanche.",
+   "exampleEn": "The snow is white.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "au / eau",
+   "type": "Sound",
+   "translation": "“oh”",
+   "exampleFr": "L'eau est chaude.",
+   "exampleEn": "The water is hot.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ou",
+   "type": "Sound",
+   "translation": "“oo”, as in “food”",
+   "exampleFr": "Vous êtes où ?",
+   "exampleEn": "Where are you?",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "oi",
+   "type": "Sound",
+   "translation": "“wah”",
+   "exampleFr": "Moi, j'ai trois chats.",
+   "exampleEn": "Me, I have three cats.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "eu / œu",
+   "type": "Sound",
+   "translation": "“uh” with rounded lips",
+   "exampleFr": "Ma sœur a deux fleurs bleues.",
+   "exampleEn": "My sister has two blue flowers.",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "an / am",
+   "type": "Nasal sound",
+   "translation": "Nasal “ahn” — the n or m is not pronounced",
+   "exampleFr": "Les enfants sont dans la chambre.",
+   "exampleEn": "The children are in the bedroom.",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "en / em",
+   "type": "Nasal sound",
+   "translation": "Nasal “ahn”, the same sound as an / am",
+   "exampleFr": "En septembre, il a le temps.",
+   "exampleEn": "In September, he has time.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "in / im / ain / ein",
+   "type": "Nasal sound",
+   "translation": "Nasal “ehn”",
+   "exampleFr": "Le matin, je mange du pain.",
+   "exampleEn": "In the morning, I eat bread.",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "on / om",
+   "type": "Nasal sound",
+   "translation": "Nasal “ohn”",
+   "exampleFr": "Bonjour, mon nom est Léon.",
+   "exampleEn": "Hello, my name is Léon.",
+   "id": "011"
+  },
+  {
+   "kind": "flashcard",
+   "word": "un / um",
+   "type": "Nasal sound",
+   "translation": "Nasal “uhn”",
+   "exampleFr": "J'ai un parfum.",
+   "exampleEn": "I have a perfume.",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ch",
+   "type": "Sound",
+   "translation": "“sh”, as in “shoe”",
+   "exampleFr": "Le chat est sur la chaise.",
+   "exampleEn": "The cat is on the chair.",
+   "id": "013"
+  },
+  {
+   "kind": "flashcard",
+   "word": "gn",
+   "type": "Sound",
+   "translation": "“ny”, as in “canyon”",
+   "exampleFr": "Elle habite à la montagne.",
+   "exampleEn": "She lives in the mountains.",
+   "id": "014"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ph",
+   "type": "Sound",
+   "translation": "“f”",
+   "exampleFr": "C'est une photo de l'éléphant.",
+   "exampleEn": "It is a photo of the elephant.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "qu",
+   "type": "Sound",
+   "translation": "“k”",
+   "exampleFr": "Quel est ton nom ?",
+   "exampleEn": "What is your name?",
+   "id": "016"
+  },
+  {
+   "kind": "flashcard",
+   "word": "th",
+   "type": "Sound",
+   "translation": "“t” — never the English “th”",
+   "exampleFr": "Je bois du thé.",
+   "exampleEn": "I drink tea.",
+   "id": "017"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ill",
+   "type": "Sound",
+   "translation": "Usually “y”, as in “yes”",
+   "exampleFr": "La fille de la famille travaille.",
+   "exampleEn": "The daughter of the family works.",
+   "hint": "Exceptions: ville, mille, tranquille keep the “l” sound",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ui",
+   "type": "Sound",
+   "translation": "“wee”",
+   "exampleFr": "Il fait nuit à huit heures.",
+   "exampleEn": "It is dark at eight o'clock.",
+   "id": "019"
+  },
+  {
+   "kind": "flashcard",
+   "word": "g + e, i",
+   "type": "Sound",
+   "translation": "Soft “zh”; g + a, o, u is hard “g”",
+   "exampleFr": "Le garçon mange une orange.",
+   "exampleEn": "The boy is eating an orange.",
+   "id": "020"
+  },
+  {
+   "kind": "flashcard",
+   "word": "c + e, i",
+   "type": "Sound",
+   "translation": "“s”; c + a, o, u is hard “k”",
+   "exampleFr": "Cécile aime le café.",
+   "exampleEn": "Cécile likes coffee.",
+   "id": "021"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-er, -ez, -et (word ending)",
+   "type": "Sound",
+   "translation": "“ay”, like é",
+   "exampleFr": "Vous parlez et je vais chanter.",
+   "exampleEn": "You talk and I am going to sing.",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which word contains the “sh” sound?",
+   "options": [
+    "chat",
+    "quatre",
+    "ciel",
+    "garçon"
+   ],
+   "answer": "chat",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How is “oi” pronounced in “trois”?",
+   "options": [
+    "wah",
+    "oy",
+    "oh-ee",
+    "wee"
+   ],
+   "answer": "wah",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which letters make the same sound as “o” in “moto”?",
+   "options": [
+    "eau",
+    "ou",
+    "eu",
+    "oi"
+   ],
+   "answer": "eau",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which word rhymes with “pain”?",
+   "options": [
+    "main",
+    "pomme",
+    "lune",
+    "peur"
+   ],
+   "answer": "main",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How is ç pronounced?",
+   "options": [
+    "like “s”",
+    "like “k”",
+    "like “sh”",
+    "like “z”"
+   ],
+   "answer": "like “s”",
+   "id": "027"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which word has a nasal vowel?",
+   "options": [
+    "enfant",
+    "ami",
+    "école",
+    "lune"
+   ],
+   "answer": "enfant",
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In which word does “ill” keep its “l” sound?",
+   "options": [
+    "ville",
+    "fille",
+    "famille",
+    "billet"
+   ],
+   "answer": "ville",
+   "id": "029"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which two spellings sound the same?",
+   "options": [
+    "an and en",
+    "ou and u",
+    "oi and ai",
+    "ch and qu"
+   ],
+   "answer": "an and en",
+   "id": "030"
+  }
+ ]
+}

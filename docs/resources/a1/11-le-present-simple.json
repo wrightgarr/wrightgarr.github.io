@@ -1,0 +1,499 @@
+{
+ "id": "a1-11-le-present-simple",
+ "level": "A1",
+ "subject": 11,
+ "title": "Le Présent Simple (2nd Group Verbs)",
+ "description": "Regular -ir verbs: -is, -is, -it, -issons, -issez, -issent.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Verbes en -ir (2e groupe)",
+   "type": "Rule",
+   "translation": "Drop -ir and add -is, -is, -it, -issons, -issez, -issent",
+   "exampleFr": "Je finis, tu finis, il finit, nous finissons, vous finissez, ils finissent.",
+   "exampleEn": "I finish, you finish, he finishes, we finish, you finish, they finish.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Verb",
+   "translation": "To finish",
+   "exampleFr": "Je finis mes devoirs avant le dîner.",
+   "exampleEn": "I finish my homework before dinner.",
+   "hint": "je finis · nous finissons · ils finissent",
+   "id": "002"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ le travail.  (finir)",
+   "options": [
+    "finis",
+    "finit",
+    "finissons",
+    "finissez"
+   ],
+   "answer": "finis",
+   "explain": "finir → je finis",
+   "speak": "Je finis le travail.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) finish”  (finir)",
+   "answer": "tu finis",
+   "accept": [
+    "finis"
+   ],
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le travail.",
+   "answer": "finit",
+   "hint": "verb: finir",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we finish”  (finir)",
+   "answer": "nous finissons",
+   "accept": [
+    "finissons"
+   ],
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le travail.  (finir)",
+   "options": [
+    "finissez",
+    "finis",
+    "finit",
+    "finissons"
+   ],
+   "answer": "finissez",
+   "explain": "finir → vous finissez",
+   "speak": "Vous finissez le travail.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they finish”  (finir)",
+   "answer": "ils finissent",
+   "accept": [
+    "finissent",
+    "ils finissent",
+    "elles finissent"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To choose”",
+   "answer": "Choisir",
+   "explain": "Vous choisissez quel plat ? — Which dish are you choosing?",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I choose”  (choisir)",
+   "answer": "je choisis",
+   "accept": [
+    "choisis"
+   ],
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ un dessert.",
+   "answer": "choisis",
+   "hint": "verb: choisir",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she chooses”  (choisir)",
+   "answer": "elle choisit",
+   "accept": [
+    "choisit",
+    "il choisit",
+    "elle choisit",
+    "on choisit"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ un dessert.  (choisir)",
+   "options": [
+    "choisissons",
+    "choisissent",
+    "choisis",
+    "choisit"
+   ],
+   "answer": "choisissons",
+   "explain": "choisir → nous choisissons",
+   "speak": "Nous choisissons un dessert.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) choose”  (choisir)",
+   "answer": "vous choisissez",
+   "accept": [
+    "choisissez"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ un dessert.",
+   "answer": "choisissent",
+   "hint": "verb: choisir",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To succeed”",
+   "answer": "Réussir",
+   "explain": "Elle réussit toujours ses examens. — She always passes her exams.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ l'examen.",
+   "answer": "réussis",
+   "hint": "verb: réussir",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) succeed”  (réussir)",
+   "answer": "tu réussis",
+   "accept": [
+    "réussis"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ l'examen.  (réussir)",
+   "options": [
+    "réussit",
+    "réussissez",
+    "réussissent",
+    "réussis"
+   ],
+   "answer": "réussit",
+   "explain": "réussir → il réussit",
+   "speak": "Il réussit l'examen.",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we succeed”  (réussir)",
+   "answer": "nous réussissons",
+   "accept": [
+    "réussissons"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ l'examen.",
+   "answer": "réussissez",
+   "hint": "verb: réussir",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they succeed”  (réussir)",
+   "answer": "ils réussissent",
+   "accept": [
+    "réussissent",
+    "ils réussissent",
+    "elles réussissent"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Grandir",
+   "type": "Verb",
+   "translation": "To grow up",
+   "exampleFr": "Les enfants grandissent vite.",
+   "exampleEn": "Children grow up fast.",
+   "hint": "je grandis · nous grandissons · ils grandissent",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I grow up”  (grandir)",
+   "answer": "je grandis",
+   "accept": [
+    "grandis"
+   ],
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ vite.  (grandir)",
+   "options": [
+    "grandis",
+    "grandissons",
+    "grandissez",
+    "grandissent"
+   ],
+   "answer": "grandis",
+   "explain": "grandir → tu grandis",
+   "speak": "Tu grandis vite.",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she grows up”  (grandir)",
+   "answer": "elle grandit",
+   "accept": [
+    "grandit",
+    "il grandit",
+    "elle grandit",
+    "on grandit"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ vite.",
+   "answer": "grandissons",
+   "hint": "verb: grandir",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) grow up”  (grandir)",
+   "answer": "vous grandissez",
+   "accept": [
+    "grandissez"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ vite.  (grandir)",
+   "options": [
+    "grandissent",
+    "grandit",
+    "grandissons",
+    "grandissez"
+   ],
+   "answer": "grandissent",
+   "explain": "grandir → elles grandissent",
+   "speak": "Elles grandissent vite.",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To think”",
+   "answer": "Réfléchir",
+   "explain": "Je réfléchis avant de répondre. — I think before answering.",
+   "id": "030"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ à la question.  (réfléchir)",
+   "options": [
+    "réfléchis",
+    "réfléchit",
+    "réfléchissons",
+    "réfléchissez"
+   ],
+   "answer": "réfléchis",
+   "explain": "réfléchir → je réfléchis",
+   "speak": "Je réfléchis à la question.",
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) think”  (réfléchir)",
+   "answer": "tu réfléchis",
+   "accept": [
+    "réfléchis"
+   ],
+   "id": "032"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ à la question.",
+   "answer": "réfléchit",
+   "hint": "verb: réfléchir",
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we think”  (réfléchir)",
+   "answer": "nous réfléchissons",
+   "accept": [
+    "réfléchissons"
+   ],
+   "id": "034"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ à la question.  (réfléchir)",
+   "options": [
+    "réfléchissez",
+    "réfléchis",
+    "réfléchit",
+    "réfléchissons"
+   ],
+   "answer": "réfléchissez",
+   "explain": "réfléchir → vous réfléchissez",
+   "speak": "Vous réfléchissez à la question.",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they think”  (réfléchir)",
+   "answer": "ils réfléchissent",
+   "accept": [
+    "réfléchissent",
+    "ils réfléchissent",
+    "elles réfléchissent"
+   ],
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To fill”",
+   "answer": "Remplir",
+   "explain": "Il remplit la bouteille d'eau. — He fills the bottle with water.",
+   "id": "037"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I fill”  (remplir)",
+   "answer": "je remplis",
+   "accept": [
+    "remplis"
+   ],
+   "id": "038"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ le verre.",
+   "answer": "remplis",
+   "hint": "verb: remplir",
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she fills”  (remplir)",
+   "answer": "elle remplit",
+   "accept": [
+    "remplit",
+    "il remplit",
+    "elle remplit",
+    "on remplit"
+   ],
+   "id": "040"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ le verre.  (remplir)",
+   "options": [
+    "remplissons",
+    "remplissent",
+    "remplis",
+    "remplit"
+   ],
+   "answer": "remplissons",
+   "explain": "remplir → nous remplissons",
+   "speak": "Nous remplissons le verre.",
+   "id": "041"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) fill”  (remplir)",
+   "answer": "vous remplissez",
+   "accept": [
+    "remplissez"
+   ],
+   "id": "042"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ le verre.",
+   "answer": "remplissent",
+   "hint": "verb: remplir",
+   "id": "043"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Obéir",
+   "type": "Verb",
+   "translation": "To obey",
+   "exampleFr": "Le chien obéit à son maître.",
+   "exampleEn": "The dog obeys its owner.",
+   "hint": "je obéis · nous obéissons · ils obéissent",
+   "id": "044"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ aux règles.",
+   "answer": "obéis",
+   "hint": "verb: obéir",
+   "id": "045"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) obey”  (obéir)",
+   "answer": "tu obéis",
+   "accept": [
+    "obéis"
+   ],
+   "id": "046"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ aux règles.  (obéir)",
+   "options": [
+    "obéit",
+    "obéissez",
+    "obéissent",
+    "obéis"
+   ],
+   "answer": "obéit",
+   "explain": "obéir → il obéit",
+   "speak": "Il obéit aux règles.",
+   "id": "047"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we obey”  (obéir)",
+   "answer": "nous obéissons",
+   "accept": [
+    "obéissons"
+   ],
+   "id": "048"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ aux règles.",
+   "answer": "obéissez",
+   "hint": "verb: obéir",
+   "id": "049"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they obey”  (obéir)",
+   "answer": "ils obéissent",
+   "accept": [
+    "obéissent",
+    "ils obéissent",
+    "elles obéissent"
+   ],
+   "id": "050"
+  }
+ ]
+}

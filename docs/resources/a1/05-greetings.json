@@ -1,0 +1,279 @@
+{
+ "id": "a1-05-greetings",
+ "level": "A1",
+ "subject": 5,
+ "title": "Greetings",
+ "description": "Saying hello, goodbye and being polite.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Bonjour",
+   "type": "Interjection",
+   "translation": "Hello / Good morning",
+   "exampleFr": "Bonjour, madame !",
+   "exampleEn": "Hello, madam!",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Good evening”",
+   "answer": "Bonsoir",
+   "explain": "Bonsoir, tout le monde. — Good evening, everyone.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Hi / Bye”",
+   "answer": "Salut",
+   "explain": "Salut, ça va ? — Hi, how's it going?",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Coucou",
+   "type": "Interjection (familiar)",
+   "translation": "Hey there",
+   "exampleFr": "Coucou, c'est moi !",
+   "exampleEn": "Hey, it's me!",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Au revoir",
+   "type": "Interjection",
+   "translation": "Goodbye",
+   "exampleFr": "Au revoir, à demain !",
+   "exampleEn": "Goodbye, see you tomorrow!",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "À bientôt",
+   "type": "Phrase",
+   "translation": "See you soon",
+   "exampleFr": "Merci et à bientôt !",
+   "exampleEn": "Thank you and see you soon!",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "À demain",
+   "type": "Phrase",
+   "translation": "See you tomorrow",
+   "exampleFr": "Bonne soirée, à demain.",
+   "exampleEn": "Have a good evening, see you tomorrow.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “See you later (today)”",
+   "answer": "À tout à l'heure",
+   "explain": "Je vais au marché, à tout à l'heure ! — I'm going to the market, see you later!",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Have a good day”",
+   "answer": "Bonne journée",
+   "explain": "Merci, bonne journée ! — Thank you, have a good day!",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Bonne soirée",
+   "type": "Phrase",
+   "translation": "Have a good evening",
+   "exampleFr": "Au revoir et bonne soirée.",
+   "exampleEn": "Goodbye and have a good evening.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Good night (going to bed)”",
+   "answer": "Bonne nuit",
+   "explain": "Bonne nuit, dors bien. — Good night, sleep well.",
+   "id": "011"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Comment allez-vous ?",
+   "type": "Question (formal)",
+   "translation": "How are you?",
+   "exampleFr": "Bonjour monsieur, comment allez-vous ?",
+   "exampleEn": "Hello sir, how are you?",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Ça va ?",
+   "type": "Question (informal)",
+   "translation": "How's it going?",
+   "exampleFr": "Salut Léa, ça va ?",
+   "exampleEn": "Hi Léa, how's it going?",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Very well, thank you”",
+   "answer": "Très bien, merci",
+   "explain": "Je vais très bien, merci. Et vous ? — I am very well, thank you. And you?",
+   "id": "014"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Enchanté / Enchantée",
+   "type": "Phrase",
+   "translation": "Pleased to meet you",
+   "exampleFr": "Je m'appelle Marc. — Enchantée !",
+   "exampleEn": "My name is Marc. — Pleased to meet you!",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Bienvenue",
+   "type": "Interjection",
+   "translation": "Welcome",
+   "exampleFr": "Bienvenue à Montréal !",
+   "exampleEn": "Welcome to Montreal!",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Please (formal)”",
+   "answer": "S'il vous plaît",
+   "explain": "Un café, s'il vous plaît. — A coffee, please.",
+   "id": "017"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Merci beaucoup",
+   "type": "Phrase",
+   "translation": "Thank you very much",
+   "exampleFr": "Merci beaucoup pour le cadeau.",
+   "exampleEn": "Thank you very much for the gift.",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “You're welcome”",
+   "answer": "De rien",
+   "explain": "Merci ! — De rien. — Thanks! — You're welcome.",
+   "id": "019"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Excusez-moi",
+   "type": "Phrase",
+   "translation": "Excuse me",
+   "exampleFr": "Excusez-moi, où est la gare ?",
+   "exampleEn": "Excuse me, where is the station?",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Sorry / Pardon me”",
+   "answer": "Pardon",
+   "explain": "Oh, pardon ! — Oh, sorry!",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "It is 8 p.m. and you arrive at a dinner. What do you say?",
+   "options": [
+    "Bonsoir",
+    "Bonne nuit",
+    "Bonne journée",
+    "Bonne soirée"
+   ],
+   "answer": "Bonsoir",
+   "explain": "“Bonsoir” greets; “Bonne soirée” is said when leaving.",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "You are leaving a shop at 10 a.m. What do you wish the shopkeeper?",
+   "options": [
+    "Bonne journée",
+    "Bonjour",
+    "Bonne nuit",
+    "Bonsoir"
+   ],
+   "answer": "Bonne journée",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which greeting is informal?",
+   "options": [
+    "Salut",
+    "Bonjour",
+    "Bonsoir",
+    "Comment allez-vous ?"
+   ],
+   "answer": "Salut",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Someone says “Merci !”. You answer…",
+   "options": [
+    "De rien",
+    "S'il vous plaît",
+    "Pardon",
+    "Enchanté"
+   ],
+   "answer": "De rien",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "You are going to bed. You say…",
+   "options": [
+    "Bonne nuit",
+    "Bonsoir",
+    "Bonne soirée",
+    "À bientôt"
+   ],
+   "answer": "Bonne nuit",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Bonjour, comment ___-vous ?",
+   "answer": "allez",
+   "translation": "Hello, how are you?",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Salut ! Ça ___ ?",
+   "answer": "va",
+   "translation": "Hi! How's it going?",
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Thank you very much”",
+   "answer": "Merci beaucoup",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “See you tomorrow”",
+   "answer": "À demain",
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Goodbye”",
+   "answer": "Au revoir",
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “See you soon”",
+   "answer": "À bientôt",
+   "id": "032"
+  }
+ ]
+}

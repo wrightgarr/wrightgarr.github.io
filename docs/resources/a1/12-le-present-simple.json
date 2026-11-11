@@ -1,0 +1,985 @@
+{
+ "id": "a1-12-le-present-simple",
+ "level": "A1",
+ "subject": 12,
+ "title": "Le Présent Simple (3rd Group Verbs)",
+ "description": "The irregular verbs you will use every day.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Verbes du 3e groupe",
+   "type": "Rule",
+   "translation": "Irregular verbs: each one has to be learned by heart",
+   "exampleFr": "Je suis, j'ai, je vais, je fais.",
+   "exampleEn": "I am, I have, I go, I do.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Être",
+   "type": "Verb",
+   "translation": "To be",
+   "exampleFr": "Nous sommes très contents.",
+   "exampleEn": "We are very happy.",
+   "hint": "je suis · nous sommes · ils sont",
+   "id": "002"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ à la maison.  (être)",
+   "options": [
+    "suis",
+    "es",
+    "est",
+    "sommes"
+   ],
+   "answer": "suis",
+   "explain": "être → je suis",
+   "speak": "Je suis à la maison.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) are”  (être)",
+   "answer": "tu es",
+   "accept": [
+    "es"
+   ],
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ à la maison.",
+   "answer": "est",
+   "hint": "verb: être",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we are”  (être)",
+   "answer": "nous sommes",
+   "accept": [
+    "sommes"
+   ],
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ à la maison.  (être)",
+   "options": [
+    "êtes",
+    "sont",
+    "suis",
+    "es"
+   ],
+   "answer": "êtes",
+   "explain": "être → vous êtes",
+   "speak": "Vous êtes à la maison.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they are”  (être)",
+   "answer": "ils sont",
+   "accept": [
+    "sont",
+    "ils sont",
+    "elles sont"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To have”",
+   "answer": "Avoir",
+   "explain": "Tu as un stylo ? — Do you have a pen?",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I have”  (avoir)",
+   "answer": "j'ai",
+   "accept": [
+    "ai"
+   ],
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ un chien.",
+   "answer": "as",
+   "hint": "verb: avoir",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she has”  (avoir)",
+   "answer": "elle a",
+   "accept": [
+    "a",
+    "il a",
+    "elle a",
+    "on a"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ un chien.  (avoir)",
+   "options": [
+    "avons",
+    "avez",
+    "ont",
+    "ai"
+   ],
+   "answer": "avons",
+   "explain": "avoir → nous avons",
+   "speak": "Nous avons un chien.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) have”  (avoir)",
+   "answer": "vous avez",
+   "accept": [
+    "avez"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ un chien.",
+   "answer": "ont",
+   "hint": "verb: avoir",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To go”",
+   "answer": "Aller",
+   "explain": "Je vais à l'école à pied. — I go to school on foot.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ au marché.",
+   "answer": "vais",
+   "hint": "verb: aller",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) go”  (aller)",
+   "answer": "tu vas",
+   "accept": [
+    "vas"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ au marché.  (aller)",
+   "options": [
+    "va",
+    "allons",
+    "allez",
+    "vont"
+   ],
+   "answer": "va",
+   "explain": "aller → il va",
+   "speak": "Il va au marché.",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we go”  (aller)",
+   "answer": "nous allons",
+   "accept": [
+    "allons"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ au marché.",
+   "answer": "allez",
+   "hint": "verb: aller",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they go”  (aller)",
+   "answer": "ils vont",
+   "accept": [
+    "vont",
+    "ils vont",
+    "elles vont"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Verb",
+   "translation": "To do",
+   "exampleFr": "Qu'est-ce que vous faites ce week-end ?",
+   "exampleEn": "What are you doing this weekend?",
+   "hint": "je fais · nous faisons · ils font",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I do”  (faire)",
+   "answer": "je fais",
+   "accept": [
+    "fais"
+   ],
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ du sport.  (faire)",
+   "options": [
+    "fais",
+    "faisons",
+    "faites",
+    "font"
+   ],
+   "answer": "fais",
+   "explain": "faire → tu fais",
+   "speak": "Tu fais du sport.",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she does”  (faire)",
+   "answer": "elle fait",
+   "accept": [
+    "fait",
+    "il fait",
+    "elle fait",
+    "on fait"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ du sport.",
+   "answer": "faisons",
+   "hint": "verb: faire",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) do”  (faire)",
+   "answer": "vous faites",
+   "accept": [
+    "faites"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ du sport.  (faire)",
+   "options": [
+    "font",
+    "fait",
+    "faisons",
+    "faites"
+   ],
+   "answer": "font",
+   "explain": "faire → elles font",
+   "speak": "Elles font du sport.",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To come”",
+   "answer": "Venir",
+   "explain": "Elle vient du Canada. — She comes from Canada.",
+   "id": "030"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ de Lyon.  (venir)",
+   "options": [
+    "viens",
+    "vient",
+    "venons",
+    "venez"
+   ],
+   "answer": "viens",
+   "explain": "venir → je viens",
+   "speak": "Je viens de Lyon.",
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) come”  (venir)",
+   "answer": "tu viens",
+   "accept": [
+    "viens"
+   ],
+   "id": "032"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ de Lyon.",
+   "answer": "vient",
+   "hint": "verb: venir",
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we come”  (venir)",
+   "answer": "nous venons",
+   "accept": [
+    "venons"
+   ],
+   "id": "034"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ de Lyon.  (venir)",
+   "options": [
+    "venez",
+    "viens",
+    "vient",
+    "venons"
+   ],
+   "answer": "venez",
+   "explain": "venir → vous venez",
+   "speak": "Vous venez de Lyon.",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they come”  (venir)",
+   "answer": "ils viennent",
+   "accept": [
+    "viennent",
+    "ils viennent",
+    "elles viennent"
+   ],
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To can”",
+   "answer": "Pouvoir",
+   "explain": "Est-ce que je peux entrer ? — May I come in?",
+   "id": "037"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I can”  (pouvoir)",
+   "answer": "je peux",
+   "accept": [
+    "peux"
+   ],
+   "id": "038"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ venir demain.",
+   "answer": "peux",
+   "hint": "verb: pouvoir",
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she can”  (pouvoir)",
+   "answer": "elle peut",
+   "accept": [
+    "peut",
+    "il peut",
+    "elle peut",
+    "on peut"
+   ],
+   "id": "040"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ venir demain.  (pouvoir)",
+   "options": [
+    "pouvons",
+    "peuvent",
+    "peux",
+    "peut"
+   ],
+   "answer": "pouvons",
+   "explain": "pouvoir → nous pouvons",
+   "speak": "Nous pouvons venir demain.",
+   "id": "041"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) can”  (pouvoir)",
+   "answer": "vous pouvez",
+   "accept": [
+    "pouvez"
+   ],
+   "id": "042"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ venir demain.",
+   "answer": "peuvent",
+   "hint": "verb: pouvoir",
+   "id": "043"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Vouloir",
+   "type": "Verb",
+   "translation": "To want",
+   "exampleFr": "Nous voulons visiter le musée.",
+   "exampleEn": "We want to visit the museum.",
+   "hint": "je veux · nous voulons · ils veulent",
+   "id": "044"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ un café.",
+   "answer": "veux",
+   "hint": "verb: vouloir",
+   "id": "045"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) want”  (vouloir)",
+   "answer": "tu veux",
+   "accept": [
+    "veux"
+   ],
+   "id": "046"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ un café.  (vouloir)",
+   "options": [
+    "veut",
+    "voulez",
+    "veulent",
+    "veux"
+   ],
+   "answer": "veut",
+   "explain": "vouloir → il veut",
+   "speak": "Il veut un café.",
+   "id": "047"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we want”  (vouloir)",
+   "answer": "nous voulons",
+   "accept": [
+    "voulons"
+   ],
+   "id": "048"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ un café.",
+   "answer": "voulez",
+   "hint": "verb: vouloir",
+   "id": "049"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they want”  (vouloir)",
+   "answer": "ils veulent",
+   "accept": [
+    "veulent",
+    "ils veulent",
+    "elles veulent"
+   ],
+   "id": "050"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To must”",
+   "answer": "Devoir",
+   "explain": "Tu dois finir tes devoirs. — You must finish your homework.",
+   "id": "051"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I must”  (devoir)",
+   "answer": "je dois",
+   "accept": [
+    "dois"
+   ],
+   "id": "052"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ partir.  (devoir)",
+   "options": [
+    "dois",
+    "devons",
+    "devez",
+    "doivent"
+   ],
+   "answer": "dois",
+   "explain": "devoir → tu dois",
+   "speak": "Tu dois partir.",
+   "id": "053"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she must”  (devoir)",
+   "answer": "elle doit",
+   "accept": [
+    "doit",
+    "il doit",
+    "elle doit",
+    "on doit"
+   ],
+   "id": "054"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ partir.",
+   "answer": "devons",
+   "hint": "verb: devoir",
+   "id": "055"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) must”  (devoir)",
+   "answer": "vous devez",
+   "accept": [
+    "devez"
+   ],
+   "id": "056"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ partir.  (devoir)",
+   "options": [
+    "doivent",
+    "doit",
+    "devons",
+    "devez"
+   ],
+   "answer": "doivent",
+   "explain": "devoir → elles doivent",
+   "speak": "Elles doivent partir.",
+   "id": "057"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To know”",
+   "answer": "Savoir",
+   "explain": "Ils savent parler espagnol. — They know how to speak Spanish.",
+   "id": "058"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ nager.  (savoir)",
+   "options": [
+    "sais",
+    "sait",
+    "savons",
+    "savez"
+   ],
+   "answer": "sais",
+   "explain": "savoir → je sais",
+   "speak": "Je sais nager.",
+   "id": "059"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) know”  (savoir)",
+   "answer": "tu sais",
+   "accept": [
+    "sais"
+   ],
+   "id": "060"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ nager.",
+   "answer": "sait",
+   "hint": "verb: savoir",
+   "id": "061"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we know”  (savoir)",
+   "answer": "nous savons",
+   "accept": [
+    "savons"
+   ],
+   "id": "062"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ nager.  (savoir)",
+   "options": [
+    "savez",
+    "sais",
+    "sait",
+    "savons"
+   ],
+   "answer": "savez",
+   "explain": "savoir → vous savez",
+   "speak": "Vous savez nager.",
+   "id": "063"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they know”  (savoir)",
+   "answer": "ils savent",
+   "accept": [
+    "savent",
+    "ils savent",
+    "elles savent"
+   ],
+   "id": "064"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Verb",
+   "translation": "To take",
+   "exampleFr": "Je prends le métro tous les jours.",
+   "exampleEn": "I take the metro every day.",
+   "hint": "je prends · nous prenons · ils prennent",
+   "id": "065"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I take”  (prendre)",
+   "answer": "je prends",
+   "accept": [
+    "prends"
+   ],
+   "id": "066"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ le bus.",
+   "answer": "prends",
+   "hint": "verb: prendre",
+   "id": "067"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she takes”  (prendre)",
+   "answer": "elle prend",
+   "accept": [
+    "prend",
+    "il prend",
+    "elle prend",
+    "on prend"
+   ],
+   "id": "068"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ le bus.  (prendre)",
+   "options": [
+    "prenons",
+    "prennent",
+    "prends",
+    "prend"
+   ],
+   "answer": "prenons",
+   "explain": "prendre → nous prenons",
+   "speak": "Nous prenons le bus.",
+   "id": "069"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) take”  (prendre)",
+   "answer": "vous prenez",
+   "accept": [
+    "prenez"
+   ],
+   "id": "070"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ le bus.",
+   "answer": "prennent",
+   "hint": "verb: prendre",
+   "id": "071"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To say”",
+   "answer": "Dire",
+   "explain": "Qu'est-ce que tu dis ? — What are you saying?",
+   "id": "072"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ la vérité.",
+   "answer": "dis",
+   "hint": "verb: dire",
+   "id": "073"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) say”  (dire)",
+   "answer": "tu dis",
+   "accept": [
+    "dis"
+   ],
+   "id": "074"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ la vérité.  (dire)",
+   "options": [
+    "dit",
+    "dites",
+    "disent",
+    "dis"
+   ],
+   "answer": "dit",
+   "explain": "dire → il dit",
+   "speak": "Il dit la vérité.",
+   "id": "075"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we say”  (dire)",
+   "answer": "nous disons",
+   "accept": [
+    "disons"
+   ],
+   "id": "076"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ la vérité.",
+   "answer": "dites",
+   "hint": "verb: dire",
+   "id": "077"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they say”  (dire)",
+   "answer": "ils disent",
+   "accept": [
+    "disent",
+    "ils disent",
+    "elles disent"
+   ],
+   "id": "078"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To see”",
+   "answer": "Voir",
+   "explain": "Vous voyez la tour Eiffel ? — Can you see the Eiffel Tower?",
+   "id": "079"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I see”  (voir)",
+   "answer": "je vois",
+   "accept": [
+    "vois"
+   ],
+   "id": "080"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ la mer.  (voir)",
+   "options": [
+    "vois",
+    "voyons",
+    "voyez",
+    "voient"
+   ],
+   "answer": "vois",
+   "explain": "voir → tu vois",
+   "speak": "Tu vois la mer.",
+   "id": "081"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she sees”  (voir)",
+   "answer": "elle voit",
+   "accept": [
+    "voit",
+    "il voit",
+    "elle voit",
+    "on voit"
+   ],
+   "id": "082"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ la mer.",
+   "answer": "voyons",
+   "hint": "verb: voir",
+   "id": "083"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) see”  (voir)",
+   "answer": "vous voyez",
+   "accept": [
+    "voyez"
+   ],
+   "id": "084"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ la mer.  (voir)",
+   "options": [
+    "voient",
+    "voit",
+    "voyons",
+    "voyez"
+   ],
+   "answer": "voient",
+   "explain": "voir → elles voient",
+   "speak": "Elles voient la mer.",
+   "id": "085"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Partir",
+   "type": "Verb",
+   "translation": "To leave",
+   "exampleFr": "Le train part à midi.",
+   "exampleEn": "The train leaves at noon.",
+   "hint": "je pars · nous partons · ils partent",
+   "id": "086"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ en vacances.  (partir)",
+   "options": [
+    "pars",
+    "part",
+    "partons",
+    "partez"
+   ],
+   "answer": "pars",
+   "explain": "partir → je pars",
+   "speak": "Je pars en vacances.",
+   "id": "087"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) leave”  (partir)",
+   "answer": "tu pars",
+   "accept": [
+    "pars"
+   ],
+   "id": "088"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ en vacances.",
+   "answer": "part",
+   "hint": "verb: partir",
+   "id": "089"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we leave”  (partir)",
+   "answer": "nous partons",
+   "accept": [
+    "partons"
+   ],
+   "id": "090"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ en vacances.  (partir)",
+   "options": [
+    "partez",
+    "pars",
+    "part",
+    "partons"
+   ],
+   "answer": "partez",
+   "explain": "partir → vous partez",
+   "speak": "Vous partez en vacances.",
+   "id": "091"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they leave”  (partir)",
+   "answer": "ils partent",
+   "accept": [
+    "partent",
+    "ils partent",
+    "elles partent"
+   ],
+   "id": "092"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “To put”",
+   "answer": "Mettre",
+   "explain": "Elle met une robe bleue. — She is putting on a blue dress.",
+   "id": "093"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I put”  (mettre)",
+   "answer": "je mets",
+   "accept": [
+    "mets"
+   ],
+   "id": "094"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ un manteau.",
+   "answer": "mets",
+   "hint": "verb: mettre",
+   "id": "095"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she puts”  (mettre)",
+   "answer": "elle met",
+   "accept": [
+    "met",
+    "il met",
+    "elle met",
+    "on met"
+   ],
+   "id": "096"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ un manteau.  (mettre)",
+   "options": [
+    "mettons",
+    "mettent",
+    "mets",
+    "met"
+   ],
+   "answer": "mettons",
+   "explain": "mettre → nous mettons",
+   "speak": "Nous mettons un manteau.",
+   "id": "097"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) put”  (mettre)",
+   "answer": "vous mettez",
+   "accept": [
+    "mettez"
+   ],
+   "id": "098"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ un manteau.",
+   "answer": "mettent",
+   "hint": "verb: mettre",
+   "id": "099"
+  }
+ ]
+}

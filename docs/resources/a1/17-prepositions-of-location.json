@@ -1,0 +1,228 @@
+{
+ "id": "a1-17-prepositions-of-location",
+ "level": "A1",
+ "subject": 17,
+ "title": "Prepositions of Location",
+ "description": "Saying where things are.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "dans",
+   "type": "Preposition",
+   "translation": "in / inside",
+   "exampleFr": "Les clés sont dans le sac.",
+   "exampleEn": "The keys are in the bag.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “on”",
+   "answer": "sur",
+   "explain": "Le livre est sur la table. — The book is on the table.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “under”",
+   "answer": "sous",
+   "explain": "Le chat dort sous le lit. — The cat is sleeping under the bed.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "devant",
+   "type": "Preposition",
+   "translation": "in front of",
+   "exampleFr": "La voiture est devant la maison.",
+   "exampleEn": "The car is in front of the house.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "derrière",
+   "type": "Preposition",
+   "translation": "behind",
+   "exampleFr": "Le jardin est derrière la maison.",
+   "exampleEn": "The garden is behind the house.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “between”",
+   "answer": "entre",
+   "explain": "La banque est entre la poste et le café. — The bank is between the post office and the café.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "à côté de",
+   "type": "Preposition",
+   "translation": "next to",
+   "exampleFr": "Je suis assis à côté de Paul.",
+   "exampleEn": "I am sitting next to Paul.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “near”",
+   "answer": "près de",
+   "explain": "L'hôtel est près de la gare. — The hotel is near the station.",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "loin de",
+   "type": "Preposition",
+   "translation": "far from",
+   "exampleFr": "Mon bureau est loin de chez moi.",
+   "exampleEn": "My office is far from my home.",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “opposite / across from”",
+   "answer": "en face de",
+   "explain": "La pharmacie est en face de l'école. — The pharmacy is opposite the school.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to the left of”",
+   "answer": "à gauche de",
+   "explain": "La lampe est à gauche du lit. — The lamp is to the left of the bed.",
+   "id": "011"
+  },
+  {
+   "kind": "flashcard",
+   "word": "à droite de",
+   "type": "Preposition",
+   "translation": "to the right of",
+   "exampleFr": "Les toilettes sont à droite de l'entrée.",
+   "exampleEn": "The toilets are to the right of the entrance.",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “at the home / place of”",
+   "answer": "chez",
+   "explain": "Ce soir, je dîne chez Marie. — Tonight, I am having dinner at Marie's.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “above”",
+   "answer": "au-dessus de",
+   "explain": "La photo est au-dessus du canapé. — The photo is above the sofa.",
+   "id": "014"
+  },
+  {
+   "kind": "flashcard",
+   "word": "au milieu de",
+   "type": "Preposition",
+   "translation": "in the middle of",
+   "exampleFr": "La table est au milieu de la pièce.",
+   "exampleEn": "The table is in the middle of the room.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le chat est ___ la table.",
+   "answer": "sous",
+   "hint": "under",
+   "translation": "The cat is under the table.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le livre est ___ la table.",
+   "answer": "sur",
+   "hint": "on",
+   "translation": "The book is on the table.",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les clés sont ___ le sac.",
+   "answer": "dans",
+   "hint": "in",
+   "translation": "The keys are in the bag.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La banque est ___ la poste et le café.",
+   "answer": "entre",
+   "hint": "between",
+   "translation": "The bank is between the post office and the café.",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce soir, je suis ___ Marie.",
+   "answer": "chez",
+   "hint": "at Marie's place",
+   "translation": "Tonight, I am at Marie's.",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le jardin est ___ la maison.",
+   "answer": "derrière",
+   "hint": "behind",
+   "translation": "The garden is behind the house.",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“à côté de” + “le cinéma” becomes…",
+   "options": [
+    "à côté du cinéma",
+    "à côté de le cinéma",
+    "à côté au cinéma",
+    "à côté des cinéma"
+   ],
+   "answer": "à côté du cinéma",
+   "explain": "de + le = du",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What is the opposite of “devant”?",
+   "options": [
+    "derrière",
+    "sur",
+    "entre",
+    "chez"
+   ],
+   "answer": "derrière",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What is the opposite of “loin de”?",
+   "options": [
+    "près de",
+    "à gauche de",
+    "en face de",
+    "sous"
+   ],
+   "answer": "près de",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “next to”",
+   "answer": "à côté de",
+   "accept": [
+    "à côté"
+   ],
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “in front of”",
+   "answer": "devant",
+   "id": "026"
+  }
+ ]
+}

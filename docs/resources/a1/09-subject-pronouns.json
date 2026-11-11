@@ -1,0 +1,210 @@
+{
+ "id": "a1-09-subject-pronouns",
+ "level": "A1",
+ "subject": 9,
+ "title": "Subject Pronouns (je, tu, il, elle, on, nous, vous, ils, elles)",
+ "description": "Who is doing the action.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "je / j'",
+   "type": "Subject pronoun",
+   "translation": "I",
+   "exampleFr": "Je parle et j'écoute.",
+   "exampleEn": "I speak and I listen.",
+   "hint": "je becomes j' before a vowel sound",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "tu",
+   "type": "Subject pronoun",
+   "translation": "you (one person you know well)",
+   "exampleFr": "Tu es mon ami.",
+   "exampleEn": "You are my friend.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he / it (masculine)”",
+   "answer": "il",
+   "explain": "Il est français. — He is French.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she / it (feminine)”",
+   "answer": "elle",
+   "explain": "Elle est médecin. — She is a doctor.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "on",
+   "type": "Subject pronoun",
+   "translation": "we (everyday speech) / one / people",
+   "exampleFr": "On mange à midi.",
+   "exampleEn": "We eat at noon.",
+   "hint": "The verb takes the il / elle form",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we”",
+   "answer": "nous",
+   "explain": "Nous sommes canadiens. — We are Canadian.",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal, or more than one person)”",
+   "answer": "vous",
+   "explain": "Vous êtes prêts ? — Are you ready?",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ils",
+   "type": "Subject pronoun",
+   "translation": "they (masculine or mixed group)",
+   "exampleFr": "Ils sont à l'école.",
+   "exampleEn": "They are at school.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (all feminine)”",
+   "answer": "elles",
+   "explain": "Elles sont contentes. — They are happy.",
+   "id": "009"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which pronoun do you use for a group of women?",
+   "options": [
+    "elles",
+    "ils",
+    "nous",
+    "vous"
+   ],
+   "answer": "elles",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which pronoun do you use for a group of men and women?",
+   "options": [
+    "ils",
+    "elles",
+    "on",
+    "il"
+   ],
+   "answer": "ils",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "You speak politely to one stranger. Which pronoun?",
+   "options": [
+    "vous",
+    "tu",
+    "il",
+    "on"
+   ],
+   "answer": "vous",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "You speak to a close friend. Which pronoun?",
+   "options": [
+    "tu",
+    "vous",
+    "nous",
+    "elle"
+   ],
+   "answer": "tu",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In everyday speech, “on” most often means…",
+   "options": [
+    "we",
+    "he",
+    "you",
+    "they (women)"
+   ],
+   "answer": "we",
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What happens to “je” before “aime”?",
+   "options": [
+    "It becomes j'",
+    "Nothing",
+    "It becomes ja",
+    "It is dropped"
+   ],
+   "answer": "It becomes j'",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ suis canadien.",
+   "answer": "Je",
+   "translation": "I am Canadian.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ es mon ami.",
+   "answer": "Tu",
+   "translation": "You are my friend.",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Marie ? ___ est médecin.",
+   "answer": "Elle",
+   "translation": "Marie? She is a doctor.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Paul et moi, ___ sommes amis.",
+   "answer": "nous",
+   "translation": "Paul and I, we are friends.",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Paul et Marc ? ___ sont à l'école.",
+   "answer": "Ils",
+   "translation": "Paul and Marc? They are at school.",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Madame, ___ êtes prête ?",
+   "answer": "vous",
+   "translation": "Madam, are you ready?",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ aime le chocolat.",
+   "answer": "J'",
+   "translation": "I like chocolate.",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "En France, ___ parle français.",
+   "answer": "on",
+   "translation": "In France, people speak French.",
+   "id": "023"
+  }
+ ]
+}

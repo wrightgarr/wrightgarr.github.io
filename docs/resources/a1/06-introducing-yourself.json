@@ -1,0 +1,219 @@
+{
+ "id": "a1-06-introducing-yourself",
+ "level": "A1",
+ "subject": 6,
+ "title": "Introducing Yourself",
+ "description": "Name, age, origin, language and occupation.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Je m'appelle…",
+   "type": "Phrase",
+   "translation": "My name is…",
+   "exampleFr": "Je m'appelle Sophie.",
+   "exampleEn": "My name is Sophie.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Comment vous appelez-vous ?",
+   "type": "Question (formal)",
+   "translation": "What is your name?",
+   "exampleFr": "Bonjour, comment vous appelez-vous ?",
+   "exampleEn": "Hello, what is your name?",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Comment tu t'appelles ?",
+   "type": "Question (informal)",
+   "translation": "What's your name?",
+   "exampleFr": "Salut ! Comment tu t'appelles ?",
+   "exampleEn": "Hi! What's your name?",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "J'ai … ans",
+   "type": "Phrase",
+   "translation": "I am … years old",
+   "exampleFr": "J'ai vingt-huit ans.",
+   "exampleEn": "I am twenty-eight years old.",
+   "hint": "French uses avoir (to have) for age",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Quel âge avez-vous ?",
+   "type": "Question",
+   "translation": "How old are you?",
+   "exampleFr": "Quel âge avez-vous, madame ?",
+   "exampleEn": "How old are you, madam?",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "J'habite à…",
+   "type": "Phrase",
+   "translation": "I live in… (city)",
+   "exampleFr": "J'habite à Toronto.",
+   "exampleEn": "I live in Toronto.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Je viens de…",
+   "type": "Phrase",
+   "translation": "I come from…",
+   "exampleFr": "Je viens du Canada.",
+   "exampleEn": "I come from Canada.",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Je suis canadien / canadienne",
+   "type": "Phrase",
+   "translation": "I am Canadian",
+   "exampleFr": "Je suis canadienne, et toi ?",
+   "exampleEn": "I am Canadian, and you?",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Je parle…",
+   "type": "Phrase",
+   "translation": "I speak…",
+   "exampleFr": "Je parle anglais et un peu français.",
+   "exampleEn": "I speak English and a little French.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Je suis étudiant / étudiante",
+   "type": "Phrase",
+   "translation": "I am a student",
+   "exampleFr": "Je suis étudiante à l'université.",
+   "exampleEn": "I am a student at the university.",
+   "hint": "No article before a profession",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Qu'est-ce que vous faites dans la vie ?",
+   "type": "Question",
+   "translation": "What do you do for a living?",
+   "exampleFr": "Et vous, qu'est-ce que vous faites dans la vie ?",
+   "exampleEn": "And you, what do you do for a living?",
+   "id": "011"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Je travaille comme…",
+   "type": "Phrase",
+   "translation": "I work as…",
+   "exampleFr": "Je travaille comme infirmier.",
+   "exampleEn": "I work as a nurse.",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Et vous ? / Et toi ?",
+   "type": "Question",
+   "translation": "And you?",
+   "exampleFr": "Je vais bien. Et toi ?",
+   "exampleEn": "I am well. And you?",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je m'___ Marie.",
+   "answer": "appelle",
+   "translation": "My name is Marie.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ trente ans.",
+   "answer": "ai",
+   "translation": "I am thirty years old.",
+   "explain": "Age uses avoir: “I have thirty years”.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ à Montréal.",
+   "answer": "habite",
+   "translation": "I live in Montreal.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ du Canada.",
+   "answer": "viens",
+   "translation": "I come from Canada.",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ professeur.",
+   "answer": "suis",
+   "translation": "I am a teacher.",
+   "explain": "No “un” or “une” before a profession.",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “I am 25 years old”?",
+   "options": [
+    "J'ai vingt-cinq ans",
+    "Je suis vingt-cinq ans",
+    "Je suis vingt-cinq",
+    "J'ai vingt-cinq"
+   ],
+   "answer": "J'ai vingt-cinq ans",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is the formal way to ask someone's name?",
+   "options": [
+    "Comment vous appelez-vous ?",
+    "Comment tu t'appelles ?",
+    "C'est quoi ton nom ?",
+    "Tu t'appelles comment ?"
+   ],
+   "answer": "Comment vous appelez-vous ?",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “I am a doctor”?",
+   "options": [
+    "Je suis médecin",
+    "Je suis un médecin",
+    "J'ai médecin",
+    "Je suis le médecin"
+   ],
+   "answer": "Je suis médecin",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “My name is Paul.”",
+   "answer": "Je m'appelle Paul",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I live in Paris.”",
+   "answer": "J'habite à Paris",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I speak French.”",
+   "answer": "Je parle français",
+   "id": "024"
+  }
+ ]
+}

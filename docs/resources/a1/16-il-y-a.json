@@ -1,0 +1,111 @@
+{
+ "id": "a1-16-il-y-a",
+ "level": "A1",
+ "subject": 16,
+ "title": "Il y a",
+ "description": "Saying “there is” and “there are”.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "il y a",
+   "type": "Expression",
+   "translation": "there is / there are (it never changes)",
+   "exampleFr": "Il y a un chat dans le jardin.",
+   "exampleEn": "There is a cat in the garden.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “there is no / there are no”",
+   "answer": "il n'y a pas de",
+   "explain": "Il n'y a pas de lait. — There is no milk.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Est-ce qu'il y a… ? / Y a-t-il… ?",
+   "type": "Question",
+   "translation": "Is there…? / Are there…?",
+   "exampleFr": "Est-ce qu'il y a une pharmacie ici ?",
+   "exampleEn": "Is there a pharmacy here?",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “… ago”",
+   "answer": "il y a + durée",
+   "explain": "Il est arrivé il y a deux jours. — He arrived two days ago.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ a trois chaises.",
+   "answer": "y",
+   "translation": "There are three chairs.",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il y ___ des livres sur la table.",
+   "answer": "a",
+   "translation": "There are books on the table.",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il n'y a pas ___ lait.",
+   "answer": "de",
+   "translation": "There is no milk.",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il n'___ a pas de problème.",
+   "answer": "y",
+   "translation": "There is no problem.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “There is a problem.”",
+   "answer": "Il y a un problème",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “There are two cats.”",
+   "answer": "Il y a deux chats",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “There is no bread.”",
+   "answer": "Il n'y a pas de pain",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How does “il y a” change in the plural?",
+   "options": [
+    "It does not change",
+    "ils y ont",
+    "il y ont",
+    "ils y a"
+   ],
+   "answer": "It does not change",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Y a-t-il un restaurant ici ?",
+    "Y a il un restaurant ici ?",
+    "Il y a-t un restaurant ici ?",
+    "A-t-il y un restaurant ici ?"
+   ],
+   "answer": "Y a-t-il un restaurant ici ?",
+   "id": "013"
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "id": "a1-13-forming-negative-sentences",
+ "level": "A1",
+ "subject": 13,
+ "title": "Forming Negative Sentences",
+ "description": "ne … pas and what happens to articles.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "ne … pas",
+   "type": "Negation",
+   "translation": "not — ne before the verb, pas after it",
+   "exampleFr": "Je ne parle pas espagnol.",
+   "exampleEn": "I do not speak Spanish.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "n' … pas",
+   "type": "Negation",
+   "translation": "ne becomes n' before a vowel sound",
+   "exampleFr": "Il n'aime pas le café.",
+   "exampleEn": "He does not like coffee.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "pas de / pas d'",
+   "type": "Negation",
+   "translation": "un, une, des become de (d') after a negative",
+   "exampleFr": "Je n'ai pas de voiture.",
+   "exampleEn": "I do not have a car.",
+   "hint": "Not after être: Ce n'est pas un problème.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Dropping “ne”",
+   "type": "Spoken French",
+   "translation": "In casual speech, ne is often left out",
+   "exampleFr": "Je sais pas.",
+   "exampleEn": "I don't know.",
+   "hint": "Always write ne in formal French",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Je parle anglais.”",
+   "answer": "Je ne parle pas anglais",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Il aime le café.”",
+   "answer": "Il n'aime pas le café",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Nous sommes fatigués.”",
+   "answer": "Nous ne sommes pas fatigués",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “J'ai un chien.”",
+   "answer": "Je n'ai pas de chien",
+   "explain": "un → de after a negative.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Elle mange des légumes.”",
+   "answer": "Elle ne mange pas de légumes",
+   "explain": "des → de after a negative.",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Tu habites ici.”",
+   "answer": "Tu n'habites pas ici",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “C'est difficile.”",
+   "answer": "Ce n'est pas difficile",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Vous travaillez le dimanche.”",
+   "answer": "Vous ne travaillez pas le dimanche",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ sais pas.",
+   "answer": "ne",
+   "translation": "I do not know.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il n'a ___ de voiture.",
+   "answer": "pas",
+   "translation": "He does not have a car.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ est pas française.",
+   "answer": "n'",
+   "translation": "She is not French.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous n'avons pas ___ enfants.",
+   "answer": "d'",
+   "translation": "We do not have children.",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is the correct negative of “J'aime le sport”?",
+   "options": [
+    "Je n'aime pas le sport",
+    "Je ne aime pas le sport",
+    "Je n'aime le sport pas",
+    "Je pas aime le sport"
+   ],
+   "answer": "Je n'aime pas le sport",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Where does “pas” go?",
+   "options": [
+    "Right after the conjugated verb",
+    "Before the subject",
+    "Before the verb",
+    "At the end of the sentence"
+   ],
+   "answer": "Right after the conjugated verb",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "After a negative, “un, une, des” usually become…",
+   "options": [
+    "de",
+    "le",
+    "du",
+    "des"
+   ],
+   "answer": "de",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ce n'est pas un problème",
+    "Ce n'est pas de problème",
+    "Ce ne pas est un problème",
+    "C'est ne pas un problème"
+   ],
+   "answer": "Ce n'est pas un problème",
+   "explain": "After être, the article does not change.",
+   "id": "020"
+  }
+ ]
+}

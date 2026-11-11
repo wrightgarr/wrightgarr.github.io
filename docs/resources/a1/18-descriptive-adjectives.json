@@ -1,0 +1,303 @@
+{
+ "id": "a1-18-descriptive-adjectives",
+ "level": "A1",
+ "subject": 18,
+ "title": "Descriptive Adjectives",
+ "description": "Common adjectives, their feminine forms and where they go.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "grand / grande",
+   "type": "Adjective",
+   "translation": "big / tall",
+   "exampleFr": "Mon frère est très grand.",
+   "exampleEn": "My brother is very tall.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “small / short”",
+   "answer": "petit",
+   "accept": [
+    "petit / petite",
+    "petite"
+   ],
+   "explain": "Elle a une petite voiture. — She has a small car.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “beautiful / handsome”",
+   "answer": "beau",
+   "accept": [
+    "beau / belle",
+    "belle"
+   ],
+   "explain": "Quelle belle journée ! — What a beautiful day!",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "nouveau / nouvelle",
+   "type": "Adjective",
+   "translation": "new",
+   "exampleFr": "J'ai un nouveau téléphone.",
+   "exampleEn": "I have a new phone.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “old”",
+   "answer": "vieux",
+   "accept": [
+    "vieux / vieille",
+    "vieille"
+   ],
+   "explain": "C'est une vieille maison. — It is an old house.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “good”",
+   "answer": "bon",
+   "accept": [
+    "bon / bonne",
+    "bonne"
+   ],
+   "explain": "Ce gâteau est très bon. — This cake is very good.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "mauvais / mauvaise",
+   "type": "Adjective",
+   "translation": "bad",
+   "exampleFr": "Le temps est mauvais aujourd'hui.",
+   "exampleEn": "The weather is bad today.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “young”",
+   "answer": "jeune",
+   "explain": "Ma mère est encore jeune. — My mother is still young.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “kind / nice”",
+   "answer": "gentil",
+   "accept": [
+    "gentil / gentille",
+    "gentille"
+   ],
+   "explain": "Ton ami est très gentil. — Your friend is very kind.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "heureux / heureuse",
+   "type": "Adjective",
+   "translation": "happy",
+   "exampleFr": "Elle est heureuse à Paris.",
+   "exampleEn": "She is happy in Paris.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “sad”",
+   "answer": "triste",
+   "explain": "Pourquoi es-tu triste ? — Why are you sad?",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “tired”",
+   "answer": "fatigué",
+   "accept": [
+    "fatigué / fatiguée",
+    "fatiguée"
+   ],
+   "explain": "Je suis fatigué ce soir. — I am tired tonight.",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "content / contente",
+   "type": "Adjective",
+   "translation": "pleased / glad",
+   "exampleFr": "Nous sommes contents de te voir.",
+   "exampleEn": "We are glad to see you.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “funny”",
+   "answer": "drôle",
+   "explain": "Ce film est très drôle. — This film is very funny.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “serious”",
+   "answer": "sérieux",
+   "accept": [
+    "sérieux / sérieuse",
+    "sérieuse"
+   ],
+   "explain": "C'est une étudiante sérieuse. — She is a serious student.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "long / longue",
+   "type": "Adjective",
+   "translation": "long",
+   "exampleFr": "La route est longue.",
+   "exampleEn": "The road is long.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “short (length)”",
+   "answer": "court",
+   "accept": [
+    "court / courte",
+    "courte"
+   ],
+   "explain": "Elle a les cheveux courts. — She has short hair.",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “expensive / dear”",
+   "answer": "cher",
+   "accept": [
+    "cher / chère",
+    "chère"
+   ],
+   "explain": "Ce restaurant est trop cher. — This restaurant is too expensive.",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "facile / difficile",
+   "type": "Adjective",
+   "translation": "easy / difficult",
+   "exampleFr": "Le français n'est pas difficile.",
+   "exampleEn": "French is not difficult.",
+   "id": "019"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Place de l'adjectif",
+   "type": "Rule",
+   "translation": "Most adjectives follow the noun; a few short common ones (beau, bon, petit, grand, jeune, vieux, nouveau) come before",
+   "exampleFr": "Une petite maison blanche.",
+   "exampleEn": "A small white house.",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle est ___.",
+   "answer": "grande",
+   "hint": "grand",
+   "translation": "She is tall.",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils sont ___.",
+   "answer": "contents",
+   "hint": "content",
+   "translation": "They are pleased.",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est une ___ maison.",
+   "answer": "belle",
+   "hint": "beau",
+   "translation": "It is a beautiful house.",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Mes sœurs sont ___.",
+   "answer": "heureuses",
+   "hint": "heureux",
+   "translation": "My sisters are happy.",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est une ___ idée.",
+   "answer": "bonne",
+   "hint": "bon",
+   "translation": "It is a good idea.",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est un ___ homme.",
+   "answer": "vieil",
+   "hint": "vieux",
+   "translation": "He is an old man.",
+   "explain": "vieux becomes vieil before a masculine vowel sound.",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les filles sont ___.",
+   "answer": "gentilles",
+   "hint": "gentil",
+   "translation": "The girls are kind.",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est une voiture ___.",
+   "answer": "chère",
+   "hint": "cher",
+   "translation": "It is an expensive car.",
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “a red car”?",
+   "options": [
+    "une voiture rouge",
+    "une rouge voiture",
+    "un voiture rouge",
+    "une voiture rouges"
+   ],
+   "answer": "une voiture rouge",
+   "explain": "Colours follow the noun.",
+   "id": "029"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “a small house”?",
+   "options": [
+    "une petite maison",
+    "une maison petite",
+    "un petit maison",
+    "une petit maison"
+   ],
+   "answer": "une petite maison",
+   "id": "030"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What is the masculine plural of “beau”?",
+   "options": [
+    "beaux",
+    "beaus",
+    "belles",
+    "bels"
+   ],
+   "answer": "beaux",
+   "id": "031"
+  }
+ ]
+}

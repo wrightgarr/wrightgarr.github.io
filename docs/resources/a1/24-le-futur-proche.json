@@ -1,0 +1,196 @@
+{
+ "id": "a1-24-le-futur-proche",
+ "level": "A1",
+ "subject": 24,
+ "title": "Le Futur Proche",
+ "description": "aller + infinitive: what is going to happen.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "aller + infinitif",
+   "type": "Rule",
+   "translation": "Present of aller + an infinitive = “going to…”",
+   "exampleFr": "Je vais manger au restaurant.",
+   "exampleEn": "I am going to eat at the restaurant.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ne + aller + pas + infinitif",
+   "type": "Rule",
+   "translation": "The negative wraps around aller only",
+   "exampleFr": "Je ne vais pas travailler demain.",
+   "exampleEn": "I am not going to work tomorrow.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Marqueurs de temps",
+   "type": "Vocabulary",
+   "translation": "demain, ce soir, bientôt, la semaine prochaine",
+   "exampleFr": "Demain, il va faire beau.",
+   "exampleEn": "Tomorrow, the weather is going to be nice.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ manger au restaurant ce soir.",
+   "answer": "vais",
+   "hint": "aller",
+   "translation": "I am going to eat at the restaurant tonight.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ voir un film ?",
+   "answer": "vas",
+   "hint": "aller",
+   "translation": "Are you going to see a film?",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ partir demain.",
+   "answer": "va",
+   "hint": "aller",
+   "translation": "She is going to leave tomorrow.",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ visiter Paris.",
+   "answer": "allons",
+   "hint": "aller",
+   "translation": "We are going to visit Paris.",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ adorer ce livre.",
+   "answer": "allez",
+   "hint": "aller",
+   "translation": "You are going to love this book.",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ arriver bientôt.",
+   "answer": "vont",
+   "hint": "aller",
+   "translation": "They are going to arrive soon.",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Attention, il ___ pleuvoir.",
+   "answer": "va",
+   "hint": "aller",
+   "translation": "Careful, it is going to rain.",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ danser ce soir.",
+   "answer": "va",
+   "hint": "aller",
+   "translation": "We are going to dance tonight.",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne vais ___ sortir ce soir.",
+   "answer": "pas",
+   "translation": "I am not going to go out tonight.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous allons ___ nos amis.",
+   "answer": "voir",
+   "hint": "to see",
+   "translation": "We are going to see our friends.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I am going to eat.”",
+   "answer": "Je vais manger",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “We are going to leave.”",
+   "answer": "Nous allons partir",
+   "accept": [
+    "On va partir"
+   ],
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “She is going to study.”",
+   "answer": "Elle va étudier",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “They are going to play.”",
+   "answer": "Ils vont jouer",
+   "accept": [
+    "Elles vont jouer"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I am not going to work.”",
+   "answer": "Je ne vais pas travailler",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “You (tu) are going to love Paris.”",
+   "answer": "Tu vas adorer Paris",
+   "accept": [
+    "Tu vas aimer Paris"
+   ],
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is in the futur proche?",
+   "options": [
+    "Je vais dormir",
+    "Je dors",
+    "J'ai dormi",
+    "Je dormais"
+   ],
+   "answer": "Je vais dormir",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which negative is correct?",
+   "options": [
+    "Il ne va pas venir",
+    "Il va ne pas venir",
+    "Il ne va venir pas",
+    "Il va pas ne venir"
+   ],
+   "answer": "Il ne va pas venir",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which form follows the verb aller in the futur proche?",
+   "options": [
+    "the infinitive",
+    "the present tense",
+    "the past participle",
+    "the nous form"
+   ],
+   "answer": "the infinitive",
+   "id": "022"
+  }
+ ]
+}

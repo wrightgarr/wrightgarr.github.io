@@ -1,0 +1,238 @@
+{
+ "id": "a1-28-weather-seasons",
+ "level": "A1",
+ "subject": 28,
+ "title": "Weather & Seasons",
+ "description": "Talking about the weather through the year.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Quel temps fait-il ?",
+   "type": "Question",
+   "translation": "What is the weather like?",
+   "exampleFr": "Quel temps fait-il à Toronto ?",
+   "exampleEn": "What is the weather like in Toronto?",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Il fait beau",
+   "type": "Phrase",
+   "translation": "The weather is nice",
+   "exampleFr": "Il fait beau, allons au parc.",
+   "exampleEn": "The weather is nice, let's go to the park.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “The weather is bad”",
+   "answer": "Il fait mauvais",
+   "explain": "Il fait mauvais, je reste ici. — The weather is bad, I am staying here.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Il fait chaud",
+   "type": "Phrase",
+   "translation": "It is hot",
+   "exampleFr": "En été, il fait chaud.",
+   "exampleEn": "In summer, it is hot.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “It is cold”",
+   "answer": "Il fait froid",
+   "explain": "Il fait froid ce matin. — It is cold this morning.",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Il pleut",
+   "type": "Phrase",
+   "translation": "It is raining",
+   "exampleFr": "Il pleut, prends ton parapluie.",
+   "exampleEn": "It is raining, take your umbrella.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Il neige",
+   "type": "Phrase",
+   "translation": "It is snowing",
+   "exampleFr": "Il neige beaucoup au Québec.",
+   "exampleEn": "It snows a lot in Quebec.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “It is sunny”",
+   "answer": "Il y a du soleil",
+   "explain": "Il y a du soleil aujourd'hui. — It is sunny today.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “It is windy”",
+   "answer": "Il y a du vent",
+   "explain": "Il y a du vent sur la plage. — It is windy on the beach.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Il y a des nuages",
+   "type": "Phrase",
+   "translation": "It is cloudy",
+   "exampleFr": "Il y a des nuages dans le ciel.",
+   "exampleEn": "There are clouds in the sky.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “There is a thunderstorm”",
+   "answer": "Il y a de l'orage",
+   "explain": "Ce soir, il y a de l'orage. — Tonight, there is a thunderstorm.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “spring”",
+   "answer": "le printemps",
+   "accept": [
+    "printemps"
+   ],
+   "explain": "Au printemps, les fleurs poussent. — In spring, the flowers grow.",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "l'été",
+   "type": "Noun (m.)",
+   "translation": "summer",
+   "exampleFr": "En été, nous allons à la plage.",
+   "exampleEn": "In summer, we go to the beach.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “autumn / fall”",
+   "answer": "l'automne",
+   "accept": [
+    "automne"
+   ],
+   "explain": "En automne, les feuilles tombent. — In autumn, the leaves fall.",
+   "id": "014"
+  },
+  {
+   "kind": "flashcard",
+   "word": "l'hiver",
+   "type": "Noun (m.)",
+   "translation": "winter",
+   "exampleFr": "En hiver, il neige.",
+   "exampleEn": "In winter, it snows.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "au printemps / en été, en automne, en hiver",
+   "type": "Rule",
+   "translation": "au with printemps; en with the other three seasons",
+   "exampleFr": "Au printemps et en été, il fait beau.",
+   "exampleEn": "In spring and in summer, the weather is nice.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "En hiver, il ___ froid.",
+   "answer": "fait",
+   "translation": "In winter, it is cold.",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ printemps, les fleurs poussent.",
+   "answer": "Au",
+   "translation": "In spring, the flowers grow.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ été, nous allons à la plage.",
+   "answer": "En",
+   "translation": "In summer, we go to the beach.",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il y a ___ vent.",
+   "answer": "du",
+   "translation": "It is windy.",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ : prends ton parapluie !",
+   "answer": "pleut",
+   "translation": "It is raining: take your umbrella!",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “It is snowing”?",
+   "options": [
+    "Il neige",
+    "Il fait neige",
+    "Il est neige",
+    "Il y a neige"
+   ],
+   "answer": "Il neige",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “It is hot” (weather)?",
+   "options": [
+    "Il fait chaud",
+    "Il est chaud",
+    "C'est chaud",
+    "Il a chaud"
+   ],
+   "answer": "Il fait chaud",
+   "explain": "“Il a chaud” means “He feels hot”.",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which season comes after l'été?",
+   "options": [
+    "l'automne",
+    "le printemps",
+    "l'hiver",
+    "l'année"
+   ],
+   "answer": "l'automne",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “It is raining.”",
+   "answer": "Il pleut",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “It is hot.”",
+   "answer": "Il fait chaud",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “winter”",
+   "answer": "l'hiver",
+   "accept": [
+    "hiver"
+   ],
+   "id": "027"
+  }
+ ]
+}

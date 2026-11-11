@@ -1,0 +1,213 @@
+{
+ "id": "a1-07-definite-indefinite-articles",
+ "level": "A1",
+ "subject": 7,
+ "title": "Definite & Indefinite Articles (le, la, l', les, un, une, des)",
+ "description": "Choosing “the” and “a / some”.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "le",
+   "type": "Definite article (m. sing.)",
+   "translation": "the",
+   "exampleFr": "Le livre est sur la table.",
+   "exampleEn": "The book is on the table.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “the”",
+   "answer": "la",
+   "explain": "La voiture est rouge. — The car is red.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the”",
+   "answer": "l'",
+   "accept": [
+    ""
+   ],
+   "explain": "L'école est fermée. — The school is closed.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "les",
+   "type": "Definite article (plural)",
+   "translation": "the",
+   "exampleFr": "Les enfants jouent.",
+   "exampleEn": "The children are playing.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “a / an”",
+   "answer": "un",
+   "explain": "J'ai un frère. — I have a brother.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “a / an”",
+   "answer": "une",
+   "explain": "C'est une bonne idée. — It's a good idea.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "des",
+   "type": "Indefinite article (plural)",
+   "translation": "some (often not translated)",
+   "exampleFr": "Il y a des livres ici.",
+   "exampleEn": "There are (some) books here.",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ chat est noir.",
+   "answer": "Le",
+   "translation": "The cat is black.",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ maison est grande.",
+   "answer": "La",
+   "translation": "The house is big.",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ école est fermée.",
+   "answer": "L'",
+   "translation": "The school is closed.",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ enfants jouent dans le jardin.",
+   "answer": "Les",
+   "translation": "The children are playing in the garden.",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai ___ frère.",
+   "answer": "un",
+   "translation": "I have a brother.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est ___ voiture rouge.",
+   "answer": "une",
+   "translation": "It's a red car.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il y a ___ livres sur la table.",
+   "answer": "des",
+   "translation": "There are some books on the table.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ hôtel est près de la gare.",
+   "answer": "L'",
+   "translation": "The hotel is near the station.",
+   "explain": "h is silent, so le becomes l'.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle mange ___ pomme.",
+   "answer": "une",
+   "translation": "She is eating an apple.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'aime ___ musique.",
+   "answer": "la",
+   "translation": "I like music.",
+   "explain": "Likes and dislikes in general take le, la, les.",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ soleil brille.",
+   "answer": "Le",
+   "translation": "The sun is shining.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous avons ___ amis à Rome.",
+   "answer": "des",
+   "translation": "We have friends in Rome.",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which article is used before a singular noun starting with a vowel sound?",
+   "options": [
+    "l'",
+    "le",
+    "la",
+    "les"
+   ],
+   "answer": "l'",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What is the plural of “un livre”?",
+   "options": [
+    "des livres",
+    "les livre",
+    "un livres",
+    "de livres"
+   ],
+   "answer": "des livres",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What is the plural of “la fille”?",
+   "options": [
+    "les filles",
+    "las filles",
+    "la filles",
+    "des fille"
+   ],
+   "answer": "les filles",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “I like dogs” (in general)?",
+   "options": [
+    "J'aime les chiens",
+    "J'aime des chiens",
+    "J'aime chiens",
+    "J'aime un chiens"
+   ],
+   "answer": "J'aime les chiens",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ table",
+   "options": [
+    "la",
+    "le",
+    "l'",
+    "un"
+   ],
+   "answer": "la",
+   "id": "024"
+  }
+ ]
+}

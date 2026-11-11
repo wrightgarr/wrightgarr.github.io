@@ -1,0 +1,222 @@
+{
+ "id": "a1-02-accent-marks",
+ "level": "A1",
+ "subject": 2,
+ "title": "Accent Marks (é, è, ê, ë)",
+ "description": "What each accent does to sound and meaning.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "é — accent aigu",
+   "type": "Accent",
+   "translation": "Closed “ay” sound, as in “café”",
+   "exampleFr": "L'été, je vais au café.",
+   "exampleEn": "In summer, I go to the café.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "è — accent grave",
+   "type": "Accent",
+   "translation": "Open “eh” sound, as in English “bed”",
+   "exampleFr": "Mon père et ma mère sont ici.",
+   "exampleEn": "My father and my mother are here.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ê — accent circonflexe",
+   "type": "Accent",
+   "translation": "Open “eh” sound; often marks an old lost “s”",
+   "exampleFr": "La forêt est belle.",
+   "exampleEn": "The forest is beautiful.",
+   "hint": "forêt ↔ forest, hôpital ↔ hospital",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ë — tréma",
+   "type": "Accent",
+   "translation": "Pronounce this vowel separately from the one before it",
+   "exampleFr": "Joyeux Noël !",
+   "exampleEn": "Merry Christmas!",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "à, ù — accent grave",
+   "type": "Accent",
+   "translation": "No change in sound; it tells two words apart (a / à, ou / où)",
+   "exampleFr": "Il a un ami à Paris.",
+   "exampleEn": "He has a friend in Paris.",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ï — tréma",
+   "type": "Accent",
+   "translation": "The i is pronounced on its own: ma-ïs",
+   "exampleFr": "J'aime le maïs.",
+   "exampleEn": "I like corn.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "â, î, ô, û — accent circonflexe",
+   "type": "Accent",
+   "translation": "Mostly a spelling mark; ô is a closed “oh”",
+   "exampleFr": "L'hôtel est sur une île.",
+   "exampleEn": "The hotel is on an island.",
+   "id": "007"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which spelling is correct for “school”?",
+   "options": [
+    "école",
+    "ècole",
+    "êcole",
+    "ecolé"
+   ],
+   "answer": "école",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which spelling is correct for “mother”?",
+   "options": [
+    "mère",
+    "mére",
+    "mêre",
+    "mëre"
+   ],
+   "answer": "mère",
+   "id": "009"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which spelling is correct for “window”?",
+   "options": [
+    "fenêtre",
+    "fenétre",
+    "fenètre",
+    "fénetre"
+   ],
+   "answer": "fenêtre",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which spelling is correct for “student”?",
+   "options": [
+    "étudiant",
+    "ètudiant",
+    "êtudiant",
+    "etudiânt"
+   ],
+   "answer": "étudiant",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which spelling is correct for “very”?",
+   "options": [
+    "très",
+    "trés",
+    "três",
+    "trës"
+   ],
+   "answer": "très",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which word means “where”?",
+   "options": [
+    "où",
+    "ou",
+    "oû",
+    "oü"
+   ],
+   "answer": "où",
+   "explain": "“ou” means “or”; “où” means “where”.",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which word means “has”?",
+   "options": [
+    "a",
+    "à",
+    "â",
+    "ä"
+   ],
+   "answer": "a",
+   "explain": "“a” = has (from avoir); “à” = to, at, in.",
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which accent gives the closed “ay” sound of “café”?",
+   "options": [
+    "é (accent aigu)",
+    "è (accent grave)",
+    "ê (accent circonflexe)",
+    "ë (tréma)"
+   ],
+   "answer": "é (accent aigu)",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Noël”, what does the tréma on ë tell you?",
+   "options": [
+    "Say the o and the e separately",
+    "The e is silent",
+    "The e sounds like “ay”",
+    "The word is plural"
+   ],
+   "answer": "Say the o and the e separately",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "The circumflex often replaces an old “s”. Which English word matches “hôpital”?",
+   "options": [
+    "hospital",
+    "hotel",
+    "hostel",
+    "hopeful"
+   ],
+   "answer": "hospital",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle habite ___ Lyon.",
+   "answer": "à",
+   "hint": "in (a city) — mind the accent",
+   "translation": "She lives in Lyon.",
+   "strict": true,
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu préfères le thé ___ le café ?",
+   "answer": "ou",
+   "hint": "or — mind the accent",
+   "translation": "Do you prefer tea or coffee?",
+   "strict": true,
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu habites ___ ?",
+   "answer": "où",
+   "hint": "where — mind the accent",
+   "translation": "Where do you live?",
+   "strict": true,
+   "id": "020"
+  }
+ ]
+}

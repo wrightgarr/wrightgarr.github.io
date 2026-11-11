@@ -1,0 +1,266 @@
+{
+ "id": "a1-08-how-to-guess-the-gender-of-french-nouns",
+ "level": "A1",
+ "subject": 8,
+ "title": "How to Guess the Gender of French Nouns?",
+ "description": "Endings that usually tell you masculine or feminine.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "-tion / -sion",
+   "type": "Ending → feminine",
+   "translation": "Nouns in -tion and -sion are feminine",
+   "exampleFr": "La situation est claire.",
+   "exampleEn": "The situation is clear.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-té",
+   "type": "Ending → feminine",
+   "translation": "Nouns in -té are usually feminine",
+   "exampleFr": "La liberté est importante.",
+   "exampleEn": "Freedom is important.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Nouns in -ette are feminine”",
+   "answer": "-ette",
+   "explain": "La bicyclette est rouge. — The bicycle is red.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-ance / -ence",
+   "type": "Ending → feminine",
+   "translation": "Nouns in -ance and -ence are usually feminine",
+   "exampleFr": "La différence est petite.",
+   "exampleEn": "The difference is small.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Nouns in -ure are usually feminine”",
+   "answer": "-ure",
+   "explain": "La voiture est neuve. — The car is new.",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-ie",
+   "type": "Ending → feminine",
+   "translation": "Nouns in -ie are usually feminine",
+   "exampleFr": "La boulangerie est ouverte.",
+   "exampleEn": "The bakery is open.",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Usually feminine (exceptions: le musée, le lycée)”",
+   "answer": "-ée",
+   "explain": "La journée est longue. — The day is long.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Usually masculine (exceptions: la plage, la page, l'image)”",
+   "answer": "-age",
+   "explain": "Le fromage est bon. — The cheese is good.",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-ment",
+   "type": "Ending → masculine",
+   "translation": "Nouns in -ment are masculine",
+   "exampleFr": "Le gouvernement parle.",
+   "exampleEn": "The government is speaking.",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Usually masculine (exceptions: l'eau, la peau)”",
+   "answer": "-eau",
+   "explain": "Le bateau est blanc. — The boat is white.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Nouns in -isme are masculine”",
+   "answer": "-isme",
+   "explain": "Le tourisme est important ici. — Tourism is important here.",
+   "id": "011"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-oir",
+   "type": "Ending → masculine",
+   "translation": "Nouns in -oir are masculine",
+   "exampleFr": "Le miroir est grand.",
+   "exampleEn": "The mirror is big.",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “These are all masculine”",
+   "answer": "Days, months, seasons, languages",
+   "explain": "Le lundi, j'étudie le français. — On Mondays, I study French.",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ situation",
+   "options": [
+    "la",
+    "le"
+   ],
+   "answer": "la",
+   "explain": "-tion → feminine",
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ fromage",
+   "options": [
+    "le",
+    "la"
+   ],
+   "answer": "le",
+   "explain": "-age → masculine",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ liberté",
+   "options": [
+    "la",
+    "le"
+   ],
+   "answer": "la",
+   "explain": "-té → feminine",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ gouvernement",
+   "options": [
+    "le",
+    "la"
+   ],
+   "answer": "le",
+   "explain": "-ment → masculine",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ voiture",
+   "options": [
+    "la",
+    "le"
+   ],
+   "answer": "la",
+   "explain": "-ure → feminine",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ bateau",
+   "options": [
+    "le",
+    "la"
+   ],
+   "answer": "le",
+   "explain": "-eau → masculine",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ tourisme",
+   "options": [
+    "le",
+    "la"
+   ],
+   "answer": "le",
+   "explain": "-isme → masculine",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ différence",
+   "options": [
+    "la",
+    "le"
+   ],
+   "answer": "la",
+   "explain": "-ence → feminine",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ boulangerie",
+   "options": [
+    "la",
+    "le"
+   ],
+   "answer": "la",
+   "explain": "-ie → feminine",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ miroir",
+   "options": [
+    "le",
+    "la"
+   ],
+   "answer": "le",
+   "explain": "-oir → masculine",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ plage",
+   "options": [
+    "la",
+    "le"
+   ],
+   "answer": "la",
+   "explain": "An exception: most -age nouns are masculine, but la plage is feminine.",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ musée",
+   "options": [
+    "le",
+    "la"
+   ],
+   "answer": "le",
+   "explain": "An exception: most -ée nouns are feminine, but le musée is masculine.",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ télévision",
+   "options": [
+    "la",
+    "le"
+   ],
+   "answer": "la",
+   "explain": "-sion → feminine",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ printemps",
+   "options": [
+    "le",
+    "la"
+   ],
+   "answer": "le",
+   "explain": "Seasons are masculine.",
+   "id": "027"
+  }
+ ]
+}

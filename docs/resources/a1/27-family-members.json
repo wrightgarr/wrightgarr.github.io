@@ -1,0 +1,311 @@
+{
+ "id": "a1-27-family-members",
+ "level": "A1",
+ "subject": 27,
+ "title": "Family Members",
+ "description": "The people in your family.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "la famille",
+   "type": "Noun (f.)",
+   "translation": "the family",
+   "exampleFr": "Ma famille habite à Québec.",
+   "exampleEn": "My family lives in Quebec City.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the parents”",
+   "answer": "les parents",
+   "accept": [
+    "parents"
+   ],
+   "explain": "Mes parents sont à la retraite. — My parents are retired.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the father”",
+   "answer": "le père",
+   "accept": [
+    "père"
+   ],
+   "explain": "Mon père s'appelle Jean. — My father's name is Jean.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la mère",
+   "type": "Noun (f.)",
+   "translation": "the mother",
+   "exampleFr": "Ma mère est professeure.",
+   "exampleEn": "My mother is a teacher.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le frère",
+   "type": "Noun (m.)",
+   "translation": "the brother",
+   "exampleFr": "J'ai un frère aîné.",
+   "exampleEn": "I have an older brother.",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la sœur",
+   "type": "Noun (f.)",
+   "translation": "the sister",
+   "exampleFr": "Ma sœur habite à Londres.",
+   "exampleEn": "My sister lives in London.",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the son”",
+   "answer": "le fils",
+   "accept": [
+    "fils"
+   ],
+   "explain": "Leur fils a dix ans. — Their son is ten.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the daughter / the girl”",
+   "answer": "la fille",
+   "accept": [
+    "fille"
+   ],
+   "explain": "Notre fille aime la musique. — Our daughter loves music.",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "les enfants",
+   "type": "Noun (m. pl.)",
+   "translation": "the children",
+   "exampleFr": "Ils ont trois enfants.",
+   "exampleEn": "They have three children.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le mari",
+   "type": "Noun (m.)",
+   "translation": "the husband",
+   "exampleFr": "Son mari est cuisinier.",
+   "exampleEn": "Her husband is a cook.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the wife / the woman”",
+   "answer": "la femme",
+   "accept": [
+    "femme"
+   ],
+   "explain": "Sa femme est médecin. — His wife is a doctor.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the grandfather”",
+   "answer": "le grand-père",
+   "accept": [
+    "grand-père"
+   ],
+   "explain": "Mon grand-père a quatre-vingts ans. — My grandfather is eighty.",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la grand-mère",
+   "type": "Noun (f.)",
+   "translation": "the grandmother",
+   "exampleFr": "Ma grand-mère fait de bons gâteaux.",
+   "exampleEn": "My grandmother makes good cakes.",
+   "id": "013"
+  },
+  {
+   "kind": "flashcard",
+   "word": "les grands-parents",
+   "type": "Noun (m. pl.)",
+   "translation": "the grandparents",
+   "exampleFr": "Mes grands-parents vivent à la campagne.",
+   "exampleEn": "My grandparents live in the countryside.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the uncle”",
+   "answer": "l'oncle",
+   "accept": [
+    "oncle"
+   ],
+   "explain": "Mon oncle habite au Canada. — My uncle lives in Canada.",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the aunt”",
+   "answer": "la tante",
+   "accept": [
+    "tante"
+   ],
+   "explain": "Ma tante est très drôle. — My aunt is very funny.",
+   "id": "016"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le cousin / la cousine",
+   "type": "Noun",
+   "translation": "the cousin",
+   "exampleFr": "J'ai deux cousins et une cousine.",
+   "exampleEn": "I have two male cousins and one female cousin.",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the nephew”",
+   "answer": "le neveu",
+   "accept": [
+    "neveu"
+   ],
+   "explain": "Mon neveu a cinq ans. — My nephew is five.",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the niece”",
+   "answer": "la nièce",
+   "accept": [
+    "nièce"
+   ],
+   "explain": "Ma nièce apprend le piano. — My niece is learning the piano.",
+   "id": "019"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le bébé",
+   "type": "Noun (m.)",
+   "translation": "the baby",
+   "exampleFr": "Le bébé dort.",
+   "exampleEn": "The baby is sleeping.",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the grandson / the granddaughter”",
+   "answer": "le petit-fils",
+   "accept": [
+    "petit-fils",
+    "le petit-fils / la petite-fille",
+    "la petite-fille"
+   ],
+   "explain": "Elle a un petit-fils et deux petites-filles. — She has one grandson and two granddaughters.",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "My mother's brother is my…",
+   "options": [
+    "oncle",
+    "cousin",
+    "neveu",
+    "grand-père"
+   ],
+   "answer": "oncle",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "My father's mother is my…",
+   "options": [
+    "grand-mère",
+    "tante",
+    "nièce",
+    "sœur"
+   ],
+   "answer": "grand-mère",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "My sister's son is my…",
+   "options": [
+    "neveu",
+    "cousin",
+    "oncle",
+    "frère"
+   ],
+   "answer": "neveu",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "My uncle's daughter is my…",
+   "options": [
+    "cousine",
+    "nièce",
+    "tante",
+    "sœur"
+   ],
+   "answer": "cousine",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the brother”",
+   "answer": "le frère",
+   "accept": [
+    "frère"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the sister”",
+   "answer": "la sœur",
+   "accept": [
+    "sœur",
+    "la soeur",
+    "soeur"
+   ],
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the grandmother”",
+   "answer": "la grand-mère",
+   "accept": [
+    "grand-mère"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the husband”",
+   "answer": "le mari",
+   "accept": [
+    "mari"
+   ],
+   "id": "029"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le père de mon père est mon ___.",
+   "answer": "grand-père",
+   "translation": "My father's father is my grandfather.",
+   "id": "030"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La sœur de ma mère est ma ___.",
+   "answer": "tante",
+   "translation": "My mother's sister is my aunt.",
+   "id": "031"
+  }
+ ]
+}

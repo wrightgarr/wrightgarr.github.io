@@ -1,0 +1,161 @@
+{
+ "id": "a1-23-telling-the-date",
+ "level": "A1",
+ "subject": 23,
+ "title": "Telling the Date",
+ "description": "Asking for and giving the date.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Quelle est la date aujourd'hui ?",
+   "type": "Question",
+   "translation": "What is the date today?",
+   "exampleFr": "Quelle est la date aujourd'hui ? — Le dix novembre.",
+   "exampleEn": "What is the date today? — The tenth of November.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "On est quel jour ?",
+   "type": "Question (informal)",
+   "translation": "What day is it?",
+   "exampleFr": "On est quel jour ? — On est mardi.",
+   "exampleEn": "What day is it? — It's Tuesday.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Nous sommes le…",
+   "type": "Phrase",
+   "translation": "It is the… (date)",
+   "exampleFr": "Nous sommes le dix novembre.",
+   "exampleEn": "It is the tenth of November.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le + nombre + mois",
+   "type": "Rule",
+   "translation": "Dates use le + a plain number + the month",
+   "exampleFr": "Je pars le quinze août.",
+   "exampleEn": "I am leaving on the fifteenth of August.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le premier",
+   "type": "Rule",
+   "translation": "Only the 1st uses an ordinal number",
+   "exampleFr": "Le premier mai est un jour férié.",
+   "exampleEn": "The first of May is a public holiday.",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "en + année",
+   "type": "Rule",
+   "translation": "in + year",
+   "exampleFr": "Je suis né en 1990.",
+   "exampleEn": "I was born in 1990.",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "C'est quand, ton anniversaire ?",
+   "type": "Question",
+   "translation": "When is your birthday?",
+   "exampleFr": "C'est quand, ton anniversaire ? — Le trois mars.",
+   "exampleEn": "When is your birthday? — The third of March.",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "aujourd'hui / demain / hier",
+   "type": "Adverbs",
+   "translation": "today / tomorrow / yesterday",
+   "exampleFr": "Hier lundi, aujourd'hui mardi, demain mercredi.",
+   "exampleEn": "Yesterday Monday, today Tuesday, tomorrow Wednesday.",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “May 1st”?",
+   "options": [
+    "le premier mai",
+    "le un mai",
+    "le premier de mai",
+    "mai le premier"
+   ],
+   "answer": "le premier mai",
+   "id": "009"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “March 3rd”?",
+   "options": [
+    "le trois mars",
+    "le troisième mars",
+    "mars trois",
+    "le trois de mars"
+   ],
+   "answer": "le trois mars",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “in 2026”?",
+   "options": [
+    "en 2026",
+    "dans 2026",
+    "à 2026",
+    "le 2026"
+   ],
+   "answer": "en 2026",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous sommes ___ 14 juillet.",
+   "answer": "le",
+   "translation": "It is the 14th of July.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Mon anniversaire est ___ mars.",
+   "answer": "en",
+   "translation": "My birthday is in March.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je suis né ___ 1990.",
+   "answer": "en",
+   "translation": "I was born in 1990.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, in words: “June 21”",
+   "answer": "le vingt et un juin",
+   "accept": [
+    "le vingt-et-un juin",
+    "le 21 juin",
+    "vingt et un juin"
+   ],
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Today is Monday.”",
+   "answer": "Aujourd'hui, c'est lundi",
+   "accept": [
+    "Nous sommes lundi",
+    "On est lundi",
+    "Aujourd'hui nous sommes lundi",
+    "Aujourd'hui on est lundi"
+   ],
+   "id": "016"
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "id": "a1-22-telling-the-time",
+ "level": "A1",
+ "subject": 22,
+ "title": "Telling the Time",
+ "description": "Hours, quarters, halves and times of day.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Quelle heure est-il ?",
+   "type": "Question",
+   "translation": "What time is it?",
+   "exampleFr": "Excusez-moi, quelle heure est-il ?",
+   "exampleEn": "Excuse me, what time is it?",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Il est une heure",
+   "type": "Phrase",
+   "translation": "It is one o'clock",
+   "exampleFr": "Il est une heure, on mange ?",
+   "exampleEn": "It is one o'clock, shall we eat?",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “It is two o'clock”",
+   "answer": "Il est deux heures",
+   "explain": "Il est deux heures de l'après-midi. — It is two in the afternoon.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “quarter past”",
+   "answer": "et quart",
+   "explain": "Il est trois heures et quart. — It is quarter past three.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "et demie",
+   "type": "Phrase",
+   "translation": "half past",
+   "exampleFr": "Il est six heures et demie.",
+   "exampleEn": "It is half past six.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “quarter to”",
+   "answer": "moins le quart",
+   "explain": "Il est neuf heures moins le quart. — It is quarter to nine.",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “ten to”",
+   "answer": "moins dix",
+   "explain": "Il est huit heures moins dix. — It is ten to eight.",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "midi",
+   "type": "Noun (m.)",
+   "translation": "noon",
+   "exampleFr": "Il est midi, j'ai faim.",
+   "exampleEn": "It is noon, I am hungry.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “midnight”",
+   "answer": "minuit",
+   "explain": "Il est minuit, bonne nuit ! — It is midnight, good night!",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "du matin / de l'après-midi / du soir",
+   "type": "Phrase",
+   "translation": "in the morning / in the afternoon / in the evening",
+   "exampleFr": "Il est sept heures du matin.",
+   "exampleEn": "It is seven in the morning.",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "À quelle heure… ?",
+   "type": "Question",
+   "translation": "At what time…?",
+   "exampleFr": "À quelle heure part le train ?",
+   "exampleEn": "What time does the train leave?",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “3 p.m. (24-hour clock)”",
+   "answer": "quinze heures",
+   "explain": "Le rendez-vous est à quinze heures. — The appointment is at 3 p.m.",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "3:15",
+   "options": [
+    "Il est trois heures et quart",
+    "Il est trois heures et demie",
+    "Il est trois heures moins le quart",
+    "Il est quatre heures et quart"
+   ],
+   "answer": "Il est trois heures et quart",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "6:30",
+   "options": [
+    "Il est six heures et demie",
+    "Il est six heures et quart",
+    "Il est sept heures et demie",
+    "Il est six heures trente et demie"
+   ],
+   "answer": "Il est six heures et demie",
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "8:45",
+   "options": [
+    "Il est neuf heures moins le quart",
+    "Il est huit heures moins le quart",
+    "Il est neuf heures et quart",
+    "Il est huit heures et quart"
+   ],
+   "answer": "Il est neuf heures moins le quart",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "12:00 (midday)",
+   "options": [
+    "Il est midi",
+    "Il est minuit",
+    "Il est douze heures du soir",
+    "Il est une heure"
+   ],
+   "answer": "Il est midi",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "1:00",
+   "options": [
+    "Il est une heure",
+    "Il est un heure",
+    "Il est une heures",
+    "C'est une heure"
+   ],
+   "answer": "Il est une heure",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "2 p.m.",
+   "options": [
+    "Il est deux heures de l'après-midi",
+    "Il est deux heures du matin",
+    "Il est deux heures du soir",
+    "Il est douze heures"
+   ],
+   "answer": "Il est deux heures de l'après-midi",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “It is four o'clock.”",
+   "answer": "Il est quatre heures",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “It is noon.”",
+   "answer": "Il est midi",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: 7:30 — “It is half past seven.”",
+   "answer": "Il est sept heures et demie",
+   "accept": [
+    "Il est sept heures trente"
+   ],
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: 10:10 — “It is ten past ten.”",
+   "answer": "Il est dix heures dix",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est neuf heures ___ quart.",
+   "answer": "et",
+   "hint": "9:15",
+   "translation": "It is quarter past nine.",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est dix heures moins ___ quart.",
+   "answer": "le",
+   "hint": "9:45",
+   "translation": "It is quarter to ten.",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le train part ___ huit heures.",
+   "answer": "à",
+   "translation": "The train leaves at eight o'clock.",
+   "id": "025"
+  }
+ ]
+}
