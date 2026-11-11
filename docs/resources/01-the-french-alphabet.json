@@ -1,0 +1,356 @@
+{
+ "id": "a1-01-the-french-alphabet",
+ "level": "A1",
+ "subject": 1,
+ "title": "The French Alphabet",
+ "description": "The 26 letters and how each one is named.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "A",
+   "type": "Letter",
+   "translation": "Its name sounds like “ah”",
+   "exampleFr": "A comme ami.",
+   "exampleEn": "A as in ami (friend).",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "B",
+   "type": "Letter",
+   "translation": "Its name sounds like “bay”",
+   "exampleFr": "B comme bateau.",
+   "exampleEn": "B as in bateau (boat).",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "C",
+   "type": "Letter",
+   "translation": "Its name sounds like “say”",
+   "exampleFr": "C comme café.",
+   "exampleEn": "C as in café (coffee).",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "D",
+   "type": "Letter",
+   "translation": "Its name sounds like “day”",
+   "exampleFr": "D comme dimanche.",
+   "exampleEn": "D as in dimanche (Sunday).",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "E",
+   "type": "Letter",
+   "translation": "Its name sounds like “uh”",
+   "exampleFr": "E comme école.",
+   "exampleEn": "E as in école (school).",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "F",
+   "type": "Letter",
+   "translation": "Its name sounds like “eff”",
+   "exampleFr": "F comme fleur.",
+   "exampleEn": "F as in fleur (flower).",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "G",
+   "type": "Letter",
+   "translation": "Its name sounds like “zhay”",
+   "exampleFr": "G comme garçon.",
+   "exampleEn": "G as in garçon (boy).",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "H",
+   "type": "Letter",
+   "translation": "Its name sounds like “ahsh”",
+   "exampleFr": "H comme hôtel.",
+   "exampleEn": "H as in hôtel (hotel).",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "I",
+   "type": "Letter",
+   "translation": "Its name sounds like “ee”",
+   "exampleFr": "I comme île.",
+   "exampleEn": "I as in île (island).",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "J",
+   "type": "Letter",
+   "translation": "Its name sounds like “zhee”",
+   "exampleFr": "J comme jardin.",
+   "exampleEn": "J as in jardin (garden).",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "K",
+   "type": "Letter",
+   "translation": "Its name sounds like “kah”",
+   "exampleFr": "K comme kiwi.",
+   "exampleEn": "K as in kiwi (kiwi).",
+   "id": "011"
+  },
+  {
+   "kind": "flashcard",
+   "word": "L",
+   "type": "Letter",
+   "translation": "Its name sounds like “ell”",
+   "exampleFr": "L comme livre.",
+   "exampleEn": "L as in livre (book).",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "M",
+   "type": "Letter",
+   "translation": "Its name sounds like “em”",
+   "exampleFr": "M comme maison.",
+   "exampleEn": "M as in maison (house).",
+   "id": "013"
+  },
+  {
+   "kind": "flashcard",
+   "word": "N",
+   "type": "Letter",
+   "translation": "Its name sounds like “en”",
+   "exampleFr": "N comme nuit.",
+   "exampleEn": "N as in nuit (night).",
+   "id": "014"
+  },
+  {
+   "kind": "flashcard",
+   "word": "O",
+   "type": "Letter",
+   "translation": "Its name sounds like “oh”",
+   "exampleFr": "O comme orange.",
+   "exampleEn": "O as in orange (orange).",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "P",
+   "type": "Letter",
+   "translation": "Its name sounds like “pay”",
+   "exampleFr": "P comme pain.",
+   "exampleEn": "P as in pain (bread).",
+   "id": "016"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Q",
+   "type": "Letter",
+   "translation": "Its name sounds like “kü (“kee” with rounded lips)”",
+   "exampleFr": "Q comme quatre.",
+   "exampleEn": "Q as in quatre (four).",
+   "id": "017"
+  },
+  {
+   "kind": "flashcard",
+   "word": "R",
+   "type": "Letter",
+   "translation": "Its name sounds like “air”",
+   "exampleFr": "R comme rue.",
+   "exampleEn": "R as in rue (street).",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "S",
+   "type": "Letter",
+   "translation": "Its name sounds like “ess”",
+   "exampleFr": "S comme soleil.",
+   "exampleEn": "S as in soleil (sun).",
+   "id": "019"
+  },
+  {
+   "kind": "flashcard",
+   "word": "T",
+   "type": "Letter",
+   "translation": "Its name sounds like “tay”",
+   "exampleFr": "T comme table.",
+   "exampleEn": "T as in table (table).",
+   "id": "020"
+  },
+  {
+   "kind": "flashcard",
+   "word": "U",
+   "type": "Letter",
+   "translation": "Its name sounds like “ü (“ee” with rounded lips)”",
+   "exampleFr": "U comme université.",
+   "exampleEn": "U as in université (university).",
+   "id": "021"
+  },
+  {
+   "kind": "flashcard",
+   "word": "V",
+   "type": "Letter",
+   "translation": "Its name sounds like “vay”",
+   "exampleFr": "V comme ville.",
+   "exampleEn": "V as in ville (city).",
+   "id": "022"
+  },
+  {
+   "kind": "flashcard",
+   "word": "W",
+   "type": "Letter",
+   "translation": "Its name sounds like “doo-bluh-vay”",
+   "exampleFr": "W comme wagon.",
+   "exampleEn": "W as in wagon (train carriage).",
+   "id": "023"
+  },
+  {
+   "kind": "flashcard",
+   "word": "X",
+   "type": "Letter",
+   "translation": "Its name sounds like “eeks”",
+   "exampleFr": "X comme xylophone.",
+   "exampleEn": "X as in xylophone (xylophone).",
+   "id": "024"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Y",
+   "type": "Letter",
+   "translation": "Its name sounds like “ee-grek”",
+   "exampleFr": "Y comme yaourt.",
+   "exampleEn": "Y as in yaourt (yogurt).",
+   "id": "025"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Z",
+   "type": "Letter",
+   "translation": "Its name sounds like “zed”",
+   "exampleFr": "Z comme zéro.",
+   "exampleEn": "Z as in zéro (zero).",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which letter is called “ee-grek” in French?",
+   "options": [
+    "Y",
+    "I",
+    "G",
+    "J"
+   ],
+   "answer": "Y",
+   "explain": "Y = “i grec”, literally “Greek i”.",
+   "id": "027"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which letter's name sounds like “zhay”?",
+   "options": [
+    "G",
+    "J",
+    "H",
+    "C"
+   ],
+   "answer": "G",
+   "explain": "G = “zhay”, J = “zhee” — the reverse of what English speakers expect.",
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which letter's name sounds like “zhee”?",
+   "options": [
+    "J",
+    "G",
+    "I",
+    "Z"
+   ],
+   "answer": "J",
+   "id": "029"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What is the letter W called in French?",
+   "options": [
+    "double-vé",
+    "double-u",
+    "vé-vé",
+    "ou"
+   ],
+   "answer": "double-vé",
+   "explain": "Literally “double V”.",
+   "id": "030"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which letter's name sounds like “uh”?",
+   "options": [
+    "E",
+    "I",
+    "U",
+    "A"
+   ],
+   "answer": "E",
+   "explain": "The French I sounds like English “ee”; E sounds like “uh”.",
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which letter's name sounds like “ee”?",
+   "options": [
+    "I",
+    "E",
+    "A",
+    "Y"
+   ],
+   "answer": "I",
+   "id": "032"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How is the letter H named in French?",
+   "options": [
+    "ahsh",
+    "aitch",
+    "hay",
+    "hah"
+   ],
+   "answer": "ahsh",
+   "id": "033"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How many letters does the French alphabet have?",
+   "options": [
+    "26",
+    "24",
+    "27",
+    "28"
+   ],
+   "answer": "26",
+   "explain": "The same 26 letters as English, plus accents.",
+   "id": "034"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Spell it aloud, then type the word: “bay – oh – en – zhee – oh – ü – air”",
+   "answer": "bonjour",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Spell it aloud, then type the word: “em – uh – air – say – ee”",
+   "answer": "merci",
+   "id": "036"
+  }
+ ]
+}
