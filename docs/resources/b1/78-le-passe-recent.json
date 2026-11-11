@@ -1,0 +1,170 @@
+{
+ "id": "b1-78-le-passe-recent",
+ "level": "B1",
+ "subject": 78,
+ "title": "Le Passé Récent",
+ "description": "venir de + infinitive: to have just done.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "venir de + infinitif",
+   "type": "Rule",
+   "translation": "Present of venir + de + infinitive = “have just…”",
+   "exampleFr": "Je viens de manger.",
+   "exampleEn": "I have just eaten.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Passé récent à l'imparfait",
+   "type": "Rule",
+   "translation": "Imparfait of venir + de + infinitive = “had just…”",
+   "exampleFr": "Elle venait de partir quand je suis arrivé.",
+   "exampleEn": "She had just left when I arrived.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "venir de + lieu / venir de + infinitif",
+   "type": "Rule",
+   "translation": "Before a place it means “come from”; before an infinitive, “have just”",
+   "exampleFr": "Je viens de Paris. Je viens de rentrer.",
+   "exampleEn": "I come from Paris. I have just come home.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ de manger.",
+   "answer": "viens",
+   "hint": "venir",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ d'arriver.",
+   "answer": "vient",
+   "hint": "venir",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ de finir.",
+   "answer": "venons",
+   "hint": "venir",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ de partir.",
+   "answer": "viennent",
+   "hint": "venir",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ de téléphoner ?",
+   "answer": "viens",
+   "hint": "venir",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ de voir ce film ?",
+   "answer": "venez",
+   "hint": "venir",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il vient ___ sortir.",
+   "answer": "de",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je viens ___ apprendre la nouvelle.",
+   "answer": "d'",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ de partir quand je suis arrivé.",
+   "answer": "venait",
+   "hint": "venir · imparfait",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ de nous coucher quand le téléphone a sonné.",
+   "answer": "venions",
+   "hint": "venir · imparfait",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé récent): “I have just eaten.”",
+   "answer": "Je viens de manger",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé récent): “She has just left.”",
+   "answer": "Elle vient de partir",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé récent): “We have just arrived.”",
+   "answer": "Nous venons d'arriver",
+   "accept": [
+    "On vient d'arriver"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé récent): “They have just finished.”",
+   "answer": "Ils viennent de finir",
+   "accept": [
+    "Elles viennent de finir"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé récent): “The train has just left.”",
+   "answer": "Le train vient de partir",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé récent): “I have just seen Paul.”",
+   "answer": "Je viens de voir Paul",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is in the passé récent?",
+   "options": [
+    "Je viens de rentrer.",
+    "Je viens de Lyon.",
+    "Je vais rentrer.",
+    "Je suis rentré."
+   ],
+   "answer": "Je viens de rentrer.",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Je vais manger” / “Je viens de manger” mean…",
+   "options": [
+    "I am going to eat / I have just eaten",
+    "I have just eaten / I am going to eat",
+    "I go to eat / I come to eat",
+    "I ate / I will eat"
+   ],
+   "answer": "I am going to eat / I have just eaten",
+   "id": "021"
+  }
+ ]
+}

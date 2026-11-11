@@ -1,0 +1,215 @@
+{
+ "id": "b1-82-expressing-cause-and-effect",
+ "level": "B1",
+ "subject": 82,
+ "title": "Expressing Cause and Effect",
+ "description": "because, since, thanks to — so, therefore, that is why.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "parce que",
+   "type": "Cause",
+   "translation": "because",
+   "exampleFr": "Je reste parce que je suis fatigué.",
+   "exampleEn": "I am staying because I am tired.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “since (a reason the listener knows)”",
+   "answer": "puisque",
+   "explain": "Puisque tu insistes, je viens. — Since you insist, I am coming.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “because of”",
+   "answer": "à cause de",
+   "explain": "Je suis en retard à cause des embouteillages. — I am late because of the traffic jams.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "grâce à",
+   "type": "Cause (positive)",
+   "translation": "thanks to",
+   "exampleFr": "J'ai réussi grâce à ton aide.",
+   "exampleEn": "I succeeded thanks to your help.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “owing to”",
+   "answer": "en raison de",
+   "explain": "Le vol est annulé en raison du mauvais temps. — The flight is cancelled owing to bad weather.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “étant donné que” mean?",
+   "options": [
+    "given that",
+    "consequently",
+    "so / then",
+    "because of"
+   ],
+   "answer": "given that",
+   "explain": "Étant donné qu'il pleut, on reste ici. — Given that it is raining, we are staying here.",
+   "speak": "étant donné que",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "donc",
+   "type": "Effect",
+   "translation": "so / therefore",
+   "exampleFr": "Il pleut, donc je reste.",
+   "exampleEn": "It is raining, so I am staying.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “that is why”",
+   "answer": "c'est pourquoi",
+   "explain": "Elle était fatiguée, c'est pourquoi elle est partie. — She was tired; that is why she left.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “consequently”",
+   "answer": "par conséquent",
+   "explain": "Il n'a pas étudié ; par conséquent, il a échoué. — He did not study; consequently, he failed.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "si bien que",
+   "type": "Effect",
+   "translation": "so that / with the result that",
+   "exampleFr": "Il a plu, si bien que le match a été annulé.",
+   "exampleEn": "It rained, with the result that the match was cancelled.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “so / as a result”",
+   "answer": "du coup",
+   "explain": "J'ai raté le bus, du coup je suis en retard. — I missed the bus, so I am late.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “tellement … que” mean?",
+   "options": [
+    "so … that",
+    "because",
+    "owing to",
+    "consequently"
+   ],
+   "answer": "so … that",
+   "explain": "Il a tellement mangé qu'il est malade. — He ate so much that he is ill.",
+   "speak": "tellement … que",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "alors",
+   "type": "Effect",
+   "translation": "so / then",
+   "exampleFr": "Il n'était pas là, alors je suis parti.",
+   "exampleEn": "He was not there, so I left.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “for lack of”",
+   "answer": "faute de",
+   "explain": "Faute de temps, je n'ai pas fini. — For lack of time, I did not finish.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je suis en retard ___ des embouteillages.",
+   "answer": "à cause",
+   "hint": "because of",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai réussi ___ ton aide.",
+   "answer": "grâce à",
+   "hint": "thanks to",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il pleut, ___ je reste ici.",
+   "answer": "donc",
+   "hint": "so",
+   "accept": [
+    "alors"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ il était malade, il n'est pas venu.",
+   "answer": "Comme",
+   "hint": "as / since",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le vol est annulé en ___ du mauvais temps.",
+   "answer": "raison",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il a ___ mangé qu'il est malade.",
+   "answer": "tellement",
+   "hint": "so much",
+   "accept": [
+    "tant"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle était fatiguée, c'est ___ elle est partie.",
+   "answer": "pourquoi",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ tu insistes, je viens.",
+   "answer": "Puisque",
+   "hint": "since",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which expression introduces a positive cause?",
+   "options": [
+    "grâce à",
+    "à cause de",
+    "faute de",
+    "malgré"
+   ],
+   "answer": "grâce à",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which expression introduces a consequence?",
+   "options": [
+    "par conséquent",
+    "parce que",
+    "puisque",
+    "en raison de"
+   ],
+   "answer": "par conséquent",
+   "id": "024"
+  }
+ ]
+}

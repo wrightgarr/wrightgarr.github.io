@@ -1,0 +1,157 @@
+{
+ "id": "b1-72-passive-voice",
+ "level": "B1",
+ "subject": 72,
+ "title": "Passive Voice",
+ "description": "être + past participle (+ par).",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "La voix passive",
+   "type": "Rule",
+   "translation": "être (in any tense) + past participle agreeing with the subject, + par + the doer",
+   "exampleFr": "La souris est mangée par le chat.",
+   "exampleEn": "The mouse is eaten by the cat.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Le temps du passif",
+   "type": "Rule",
+   "translation": "The tense is carried by être",
+   "exampleFr": "est écrit, a été écrit, sera écrit, était écrit.",
+   "exampleEn": "is written, was written, will be written, was being written.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Éviter le passif",
+   "type": "Rule",
+   "translation": "French often prefers on or a reflexive verb",
+   "exampleFr": "On parle français ici. Ce vin se boit frais.",
+   "exampleEn": "French is spoken here. This wine is drunk chilled.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Put into the passive: “Le chat mange la souris.”",
+   "answer": "La souris est mangée par le chat",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Put into the passive: “Marie a écrit cette lettre.”",
+   "answer": "Cette lettre a été écrite par Marie",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Put into the passive: “Le professeur corrigera les examens.”",
+   "answer": "Les examens seront corrigés par le professeur",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Put into the passive: “Les enfants regardaient le film.”",
+   "answer": "Le film était regardé par les enfants",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Put into the passive: “Le maire a inauguré le musée.”",
+   "answer": "Le musée a été inauguré par le maire",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Put into the passive: “Tout le monde aime ce chanteur.”",
+   "answer": "Ce chanteur est aimé de tout le monde",
+   "accept": [
+    "Ce chanteur est aimé par tout le monde"
+   ],
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Put into the active: “La porte a été ouverte par Paul.”",
+   "answer": "Paul a ouvert la porte",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La lettre a ___ envoyée hier.",
+   "answer": "été",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce livre a été écrit ___ Victor Hugo.",
+   "answer": "par",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La maison sera ___ l'année prochaine.",
+   "answer": "vendue",
+   "hint": "vendre",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les portes sont ___ à vingt heures.",
+   "answer": "fermées",
+   "hint": "fermer",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le voleur a été ___ par la police.",
+   "answer": "arrêté",
+   "hint": "arrêter",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ces tableaux ont été ___ par Monet.",
+   "answer": "peints",
+   "hint": "peindre",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ici, ___ parle français.",
+   "answer": "on",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce vin ___ boit frais.",
+   "answer": "se",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense is “a été construit”?",
+   "options": [
+    "passé composé (passive)",
+    "présent (passive)",
+    "plus-que-parfait (passive)",
+    "imparfait (passive)"
+   ],
+   "answer": "passé composé (passive)",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In the passive, the past participle agrees with…",
+   "options": [
+    "the subject",
+    "the doer after par",
+    "nothing",
+    "the auxiliary"
+   ],
+   "answer": "the subject",
+   "id": "020"
+  }
+ ]
+}

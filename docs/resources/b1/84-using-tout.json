@@ -1,0 +1,192 @@
+{
+ "id": "b1-84-using-tout",
+ "level": "B1",
+ "subject": 84,
+ "title": "Using \"tout\"",
+ "description": "all, every, everything, very.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "tout / toute / tous / toutes + nom",
+   "type": "Adjective",
+   "translation": "all / the whole / every",
+   "exampleFr": "Tout le gâteau, toute la journée, tous les jours, toutes les filles.",
+   "exampleEn": "The whole cake, the whole day, every day, all the girls.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "tout (pronom)",
+   "type": "Pronoun",
+   "translation": "everything",
+   "exampleFr": "Tout est prêt. Il a tout mangé.",
+   "exampleEn": "Everything is ready. He ate everything.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "tous / toutes (pronom)",
+   "type": "Pronoun",
+   "translation": "all of them — the s of tous is pronounced",
+   "exampleFr": "Ils sont tous venus.",
+   "exampleEn": "They all came.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "tout (adverbe)",
+   "type": "Adverb",
+   "translation": "very / completely — it agrees before a feminine adjective starting with a consonant",
+   "exampleFr": "Il est tout petit ; elle est toute petite.",
+   "exampleEn": "He is very small; she is very small.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ le monde est là.",
+   "answer": "Tout",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai lu ___ la journée.",
+   "answer": "toute",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ les étudiants sont présents.",
+   "answer": "Tous",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ les filles chantent.",
+   "answer": "Toutes",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je travaille ___ les jours.",
+   "answer": "tous",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il a ___ mangé.",
+   "answer": "tout",
+   "hint": "everything",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Mes amis ? Ils sont ___ venus.",
+   "answer": "tous",
+   "hint": "all of them",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle est ___ petite.",
+   "answer": "toute",
+   "hint": "very",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Mes sœurs ? Elles sont ___ contentes.",
+   "answer": "toutes",
+   "hint": "all of them",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je reviens tout de ___.",
+   "answer": "suite",
+   "translation": "I will be right back.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tout à ___, il a commencé à pleuvoir.",
+   "answer": "coup",
+   "translation": "Suddenly, it started to rain.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne suis pas du ___ d'accord.",
+   "answer": "tout",
+   "translation": "I do not agree at all.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est tout à ___ vrai.",
+   "answer": "fait",
+   "translation": "It is absolutely true.",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "À tout à l'___ !",
+   "answer": "heure",
+   "translation": "See you later!",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “everyone”",
+   "answer": "tout le monde",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “every day”",
+   "answer": "tous les jours",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “right away”",
+   "answer": "tout de suite",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “not at all”",
+   "answer": "pas du tout",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “suddenly”  (with tout)",
+   "answer": "tout à coup",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Ils sont tous là”, the s of “tous” is…",
+   "options": [
+    "pronounced",
+    "silent",
+    "pronounced z",
+    "dropped in writing"
+   ],
+   "answer": "pronounced",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Tout le monde” takes a verb in the…",
+   "options": [
+    "singular",
+    "plural",
+    "either",
+    "infinitive"
+   ],
+   "answer": "singular",
+   "id": "025"
+  }
+ ]
+}

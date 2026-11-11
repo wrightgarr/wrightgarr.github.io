@@ -1,0 +1,218 @@
+{
+ "id": "b1-73-indefinite-pronouns",
+ "level": "B1",
+ "subject": 73,
+ "title": "Indefinite Pronouns (quelqu'un, quelque chose, personne, …)",
+ "description": "someone, something, nobody, nothing, each, several.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "quelqu'un",
+   "type": "Indefinite pronoun",
+   "translation": "someone",
+   "exampleFr": "Quelqu'un a téléphoné.",
+   "exampleEn": "Someone phoned.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “something”",
+   "answer": "quelque chose",
+   "explain": "J'ai quelque chose à te dire. — I have something to tell you.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “nobody (with ne)”",
+   "answer": "personne",
+   "explain": "Personne n'est venu. — Nobody came.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "rien",
+   "type": "Indefinite pronoun",
+   "translation": "nothing (with ne)",
+   "exampleFr": "Je n'ai rien vu.",
+   "exampleEn": "I saw nothing.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “everything”",
+   "answer": "tout",
+   "explain": "Tout va bien. — Everything is fine.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “chacun” mean?",
+   "options": [
+    "each one",
+    "a few",
+    "others",
+    "nobody (with ne)"
+   ],
+   "answer": "each one",
+   "explain": "Chacun a son opinion. — Each person has their own opinion.",
+   "speak": "chacun",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "plusieurs",
+   "type": "Indefinite pronoun",
+   "translation": "several",
+   "exampleFr": "Plusieurs sont déjà partis.",
+   "exampleEn": "Several have already left.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “some (people)”",
+   "answer": "certains",
+   "explain": "Certains pensent le contraire. — Some think the opposite.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “a few”",
+   "answer": "quelques-uns",
+   "explain": "Quelques-uns de mes amis viennent. — A few of my friends are coming.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "aucun",
+   "type": "Indefinite pronoun",
+   "translation": "none (with ne)",
+   "exampleFr": "Aucun de mes amis n'est venu.",
+   "exampleEn": "None of my friends came.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “anyone at all”",
+   "answer": "n'importe qui",
+   "explain": "N'importe qui peut le faire. — Anyone can do it.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “n'importe quoi” mean?",
+   "options": [
+    "anything / nonsense",
+    "someone",
+    "everything",
+    "a few"
+   ],
+   "answer": "anything / nonsense",
+   "explain": "Tu dis n'importe quoi ! — You are talking nonsense!",
+   "speak": "n'importe quoi",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "d'autres",
+   "type": "Indefinite pronoun",
+   "translation": "others",
+   "exampleFr": "Certains restent, d'autres partent.",
+   "exampleEn": "Some stay, others leave.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “everyone”",
+   "answer": "tout le monde",
+   "explain": "Tout le monde est content. — Everyone is happy.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il y a ___ à la porte.",
+   "answer": "quelqu'un",
+   "hint": "someone",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je n'ai ___ vu.",
+   "answer": "rien",
+   "hint": "nothing",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ n'est venu.",
+   "answer": "Personne",
+   "hint": "nobody",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu veux boire ___ ?",
+   "answer": "quelque chose",
+   "hint": "something",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ a son opinion.",
+   "answer": "Chacun",
+   "hint": "each one",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je n'ai ___ idée.",
+   "answer": "aucune",
+   "hint": "not a single",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ne dis pas ___ !",
+   "answer": "n'importe quoi",
+   "hint": "nonsense",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai vu quelque chose ___ intéressant.",
+   "answer": "d'",
+   "explain": "quelque chose, rien, quelqu'un, personne + de + adjective.",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tout le monde ___ content.",
+   "answer": "est",
+   "hint": "être",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "Je n'ai vu personne.",
+    "Je n'ai personne vu.",
+    "J'ai vu ne personne.",
+    "Je n'ai pas vu personne."
+   ],
+   "answer": "Je n'ai vu personne.",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "Rien ne marche.",
+    "Rien marche pas.",
+    "Rien ne marche pas.",
+    "Ne rien marche."
+   ],
+   "answer": "Rien ne marche.",
+   "id": "025"
+  }
+ ]
+}

@@ -1,0 +1,653 @@
+{
+ "id": "b1-63-le-conditionnel-present",
+ "level": "B1",
+ "subject": 63,
+ "title": "Le Conditionnel Présent",
+ "description": "would + verb: politeness, wishes, hypotheses.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Formation du conditionnel",
+   "type": "Rule",
+   "translation": "Future stem + imparfait endings: -ais, -ais, -ait, -ions, -iez, -aient",
+   "exampleFr": "Je parlerais, nous finirions, ils seraient.",
+   "exampleEn": "I would speak, we would finish, they would be.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Emplois du conditionnel",
+   "type": "Rule",
+   "translation": "Politeness, wishes, advice, and the result of an unreal condition",
+   "exampleFr": "Je voudrais un café. Tu devrais dormir. Si j'étais riche, je voyagerais.",
+   "exampleEn": "I would like a coffee. You should sleep. If I were rich, I would travel.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it polite with the conditionnel: “Je veux un café.”",
+   "answer": "Je voudrais un café",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it polite with the conditionnel: “Pouvez-vous m'aider ?”",
+   "answer": "Pourriez-vous m'aider",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Turn it into advice with the conditionnel: “Tu dois dormir.”",
+   "answer": "Tu devrais dormir",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it polite with the conditionnel: “Avez-vous l'heure ?”",
+   "answer": "Auriez-vous l'heure",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I would like to go to Paris.”  (aimer)",
+   "answer": "J'aimerais aller à Paris",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Parler",
+   "type": "Conditionnel présent",
+   "translation": "je parlerais — I would speak",
+   "exampleFr": "Nous parlerions avec le professeur.",
+   "exampleEn": "We would speak with the teacher.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “You (one friend) would speak”  (parler)",
+   "answer": "tu parlerais",
+   "accept": [
+    "parlerais"
+   ],
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ avec le professeur.",
+   "answer": "parlerait",
+   "hint": "parler · conditionnel présent",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ avec le professeur.  (parler, conditionnel présent)",
+   "options": [
+    "parleriez",
+    "parlerais",
+    "parlerait",
+    "parlerions"
+   ],
+   "answer": "parleriez",
+   "explain": "parler → vous parleriez",
+   "speak": "Vous parleriez avec le professeur.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “They would speak”  (parler)",
+   "answer": "ils parleraient",
+   "accept": [
+    "parleraient",
+    "ils parleraient",
+    "elles parleraient"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Conditionnel présent",
+   "translation": "je finirais — I would finish",
+   "exampleFr": "Nous finirions le projet.",
+   "exampleEn": "We would finish the project.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “I would finish”  (finir)",
+   "answer": "je finirais",
+   "accept": [
+    "finirais"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “She would finish”  (finir)",
+   "answer": "elle finirait",
+   "accept": [
+    "finirait",
+    "on finirait",
+    "il finirait",
+    "elle finirait"
+   ],
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ le projet.  (finir, conditionnel présent)",
+   "options": [
+    "finirions",
+    "finiraient",
+    "finirais",
+    "finirait"
+   ],
+   "answer": "finirions",
+   "explain": "finir → nous finirions",
+   "speak": "Nous finirions le projet.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ le projet.",
+   "answer": "finiraient",
+   "hint": "finir · conditionnel présent",
+   "id": "017"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Conditionnel présent",
+   "translation": "je prendrais — I would take",
+   "exampleFr": "Nous prendrions le train.",
+   "exampleEn": "We would take the train.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ le train.",
+   "answer": "prendrais",
+   "hint": "prendre · conditionnel présent",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “You (one friend) would take”  (prendre)",
+   "answer": "tu prendrais",
+   "accept": [
+    "prendrais"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “We would take”  (prendre)",
+   "answer": "nous prendrions",
+   "accept": [
+    "prendrions"
+   ],
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ le train.",
+   "answer": "prendriez",
+   "hint": "prendre · conditionnel présent",
+   "id": "022"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Être",
+   "type": "Conditionnel présent",
+   "translation": "je serais — I would be",
+   "exampleFr": "Nous serions à l'heure.",
+   "exampleEn": "We would be on time.",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ à l'heure.  (être, conditionnel présent)",
+   "options": [
+    "serais",
+    "serions",
+    "seriez",
+    "seraient"
+   ],
+   "answer": "serais",
+   "explain": "être → tu serais",
+   "speak": "Tu serais à l'heure.",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “She would be”  (être)",
+   "answer": "elle serait",
+   "accept": [
+    "serait",
+    "on serait",
+    "il serait",
+    "elle serait"
+   ],
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “You (formal or plural) would be”  (être)",
+   "answer": "vous seriez",
+   "accept": [
+    "seriez"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ à l'heure.  (être, conditionnel présent)",
+   "options": [
+    "seraient",
+    "serait",
+    "serions",
+    "seriez"
+   ],
+   "answer": "seraient",
+   "explain": "être → elles seraient",
+   "speak": "Elles seraient à l'heure.",
+   "id": "027"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir",
+   "type": "Conditionnel présent",
+   "translation": "j'aurais — I would have",
+   "exampleFr": "Nous aurions du temps.",
+   "exampleEn": "We would have time.",
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ du temps.  (avoir, conditionnel présent)",
+   "options": [
+    "aurais",
+    "aurait",
+    "aurions",
+    "auriez"
+   ],
+   "answer": "aurais",
+   "explain": "avoir → j'aurais",
+   "speak": "J'aurais du temps.",
+   "id": "029"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ du temps.",
+   "answer": "aurait",
+   "hint": "avoir · conditionnel présent",
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “We would have”  (avoir)",
+   "answer": "nous aurions",
+   "accept": [
+    "aurions"
+   ],
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “They would have”  (avoir)",
+   "answer": "ils auraient",
+   "accept": [
+    "auraient",
+    "ils auraient",
+    "elles auraient"
+   ],
+   "id": "032"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Aller",
+   "type": "Conditionnel présent",
+   "translation": "j'irais — I would go",
+   "exampleFr": "Nous irions au cinéma.",
+   "exampleEn": "We would go to the cinema.",
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “I would go”  (aller)",
+   "answer": "j'irais",
+   "accept": [
+    "irais"
+   ],
+   "id": "034"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ au cinéma.",
+   "answer": "irais",
+   "hint": "aller · conditionnel présent",
+   "id": "035"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ au cinéma.  (aller, conditionnel présent)",
+   "options": [
+    "irions",
+    "iraient",
+    "irais",
+    "irait"
+   ],
+   "answer": "irions",
+   "explain": "aller → nous irions",
+   "speak": "Nous irions au cinéma.",
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “You (formal or plural) would go”  (aller)",
+   "answer": "vous iriez",
+   "accept": [
+    "iriez"
+   ],
+   "id": "037"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Conditionnel présent",
+   "translation": "je ferais — I would do",
+   "exampleFr": "Nous ferions les courses.",
+   "exampleEn": "We would do the shopping.",
+   "id": "038"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “You (one friend) would do”  (faire)",
+   "answer": "tu ferais",
+   "accept": [
+    "ferais"
+   ],
+   "id": "039"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ les courses.  (faire, conditionnel présent)",
+   "options": [
+    "ferait",
+    "feriez",
+    "feraient",
+    "ferais"
+   ],
+   "answer": "ferait",
+   "explain": "faire → il ferait",
+   "speak": "Il ferait les courses.",
+   "id": "040"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ les courses.",
+   "answer": "feriez",
+   "hint": "faire · conditionnel présent",
+   "id": "041"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “They would do”  (faire)",
+   "answer": "ils feraient",
+   "accept": [
+    "feraient",
+    "ils feraient",
+    "elles feraient"
+   ],
+   "id": "042"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Pouvoir",
+   "type": "Conditionnel présent",
+   "translation": "je pourrais — I would be able to",
+   "exampleFr": "Nous pourrions venir.",
+   "exampleEn": "We would be able to come.",
+   "id": "043"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “I would be able to”  (pouvoir)",
+   "answer": "je pourrais",
+   "accept": [
+    "pourrais"
+   ],
+   "id": "044"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “She would be able to”  (pouvoir)",
+   "answer": "elle pourrait",
+   "accept": [
+    "pourrait",
+    "on pourrait",
+    "il pourrait",
+    "elle pourrait"
+   ],
+   "id": "045"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ venir.",
+   "answer": "pourrions",
+   "hint": "pouvoir · conditionnel présent",
+   "id": "046"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ venir.  (pouvoir, conditionnel présent)",
+   "options": [
+    "pourraient",
+    "pourrait",
+    "pourrions",
+    "pourriez"
+   ],
+   "answer": "pourraient",
+   "explain": "pouvoir → elles pourraient",
+   "speak": "Elles pourraient venir.",
+   "id": "047"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Vouloir",
+   "type": "Conditionnel présent",
+   "translation": "je voudrais — I would want",
+   "exampleFr": "Nous voudrions partir.",
+   "exampleEn": "We would want to leave.",
+   "id": "048"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ partir.  (vouloir, conditionnel présent)",
+   "options": [
+    "voudrais",
+    "voudrait",
+    "voudrions",
+    "voudriez"
+   ],
+   "answer": "voudrais",
+   "explain": "vouloir → je voudrais",
+   "speak": "Je voudrais partir.",
+   "id": "049"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “You (one friend) would want”  (vouloir)",
+   "answer": "tu voudrais",
+   "accept": [
+    "voudrais"
+   ],
+   "id": "050"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “We would want”  (vouloir)",
+   "answer": "nous voudrions",
+   "accept": [
+    "voudrions"
+   ],
+   "id": "051"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ partir.  (vouloir, conditionnel présent)",
+   "options": [
+    "voudriez",
+    "voudrais",
+    "voudrait",
+    "voudrions"
+   ],
+   "answer": "voudriez",
+   "explain": "vouloir → vous voudriez",
+   "speak": "Vous voudriez partir.",
+   "id": "052"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Devoir",
+   "type": "Conditionnel présent",
+   "translation": "je devrais — I would have to",
+   "exampleFr": "Nous devrions travailler.",
+   "exampleEn": "We would have to work.",
+   "id": "053"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ travailler.",
+   "answer": "devrais",
+   "hint": "devoir · conditionnel présent",
+   "id": "054"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “She would have to”  (devoir)",
+   "answer": "elle devrait",
+   "accept": [
+    "devrait",
+    "on devrait",
+    "il devrait",
+    "elle devrait"
+   ],
+   "id": "055"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “You (formal or plural) would have to”  (devoir)",
+   "answer": "vous devriez",
+   "accept": [
+    "devriez"
+   ],
+   "id": "056"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ travailler.",
+   "answer": "devraient",
+   "hint": "devoir · conditionnel présent",
+   "id": "057"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Savoir",
+   "type": "Conditionnel présent",
+   "translation": "je saurais — I would know",
+   "exampleFr": "Nous saurions la réponse.",
+   "exampleEn": "We would know the answer.",
+   "id": "058"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ la réponse.",
+   "answer": "saurais",
+   "hint": "savoir · conditionnel présent",
+   "id": "059"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ la réponse.  (savoir, conditionnel présent)",
+   "options": [
+    "saurait",
+    "sauriez",
+    "sauraient",
+    "saurais"
+   ],
+   "answer": "saurait",
+   "explain": "savoir → il saurait",
+   "speak": "Il saurait la réponse.",
+   "id": "060"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “We would know”  (savoir)",
+   "answer": "nous saurions",
+   "accept": [
+    "saurions"
+   ],
+   "id": "061"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “They would know”  (savoir)",
+   "answer": "ils sauraient",
+   "accept": [
+    "sauraient",
+    "ils sauraient",
+    "elles sauraient"
+   ],
+   "id": "062"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Venir",
+   "type": "Conditionnel présent",
+   "translation": "je viendrais — I would come",
+   "exampleFr": "Nous viendrions à la fête.",
+   "exampleEn": "We would come to the party.",
+   "id": "063"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “I would come”  (venir)",
+   "answer": "je viendrais",
+   "accept": [
+    "viendrais"
+   ],
+   "id": "064"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ à la fête.  (venir, conditionnel présent)",
+   "options": [
+    "viendrais",
+    "viendrions",
+    "viendriez",
+    "viendraient"
+   ],
+   "answer": "viendrais",
+   "explain": "venir → tu viendrais",
+   "speak": "Tu viendrais à la fête.",
+   "id": "065"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ à la fête.",
+   "answer": "viendrions",
+   "hint": "venir · conditionnel présent",
+   "id": "066"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel présent): “You (formal or plural) would come”  (venir)",
+   "answer": "vous viendriez",
+   "accept": [
+    "viendriez"
+   ],
+   "id": "067"
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "id": "b1-86-independent-main-subordinate-clauses",
+ "level": "B1",
+ "subject": 86,
+ "title": "Independent, Main & Subordinate Clauses",
+ "description": "How French sentences are built.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "La proposition indépendante",
+   "type": "Grammar term",
+   "translation": "A clause that stands on its own",
+   "exampleFr": "Il pleut.",
+   "exampleEn": "It is raining.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "La proposition principale",
+   "type": "Grammar term",
+   "translation": "The clause that another clause depends on",
+   "exampleFr": "Je pense [qu'il viendra].",
+   "exampleEn": "I think [that he will come].",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "La proposition subordonnée",
+   "type": "Grammar term",
+   "translation": "A clause that depends on the main clause; introduced by que, qui, quand, parce que, si…",
+   "exampleFr": "[Quand il arrive], nous mangeons.",
+   "exampleEn": "[When he arrives], we eat.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Juxtaposition et coordination",
+   "type": "Grammar term",
+   "translation": "Independent clauses joined by a comma (juxtaposed) or by mais, ou, et, donc, or, ni, car (coordinated)",
+   "exampleFr": "Il pleut, je reste. Il pleut et je reste.",
+   "exampleEn": "It is raining, I am staying. It is raining and I am staying.",
+   "id": "004"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Il pleut.” is…",
+   "options": [
+    "an independent clause",
+    "a main clause",
+    "a subordinate clause",
+    "a relative clause"
+   ],
+   "answer": "an independent clause",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Je pense qu'il viendra”, “qu'il viendra” is…",
+   "options": [
+    "a subordinate clause",
+    "an independent clause",
+    "the main clause",
+    "a coordinated clause"
+   ],
+   "answer": "a subordinate clause",
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Je pense qu'il viendra”, “Je pense” is…",
+   "options": [
+    "the main clause",
+    "a subordinate clause",
+    "a relative clause",
+    "a juxtaposed clause"
+   ],
+   "answer": "the main clause",
+   "id": "007"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Le livre que je lis est bon”, “que je lis” is…",
+   "options": [
+    "a relative subordinate clause",
+    "the main clause",
+    "an independent clause",
+    "a coordinated clause"
+   ],
+   "answer": "a relative subordinate clause",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Je sors et tu restes.” contains…",
+   "options": [
+    "two coordinated independent clauses",
+    "a main and a subordinate clause",
+    "one clause only",
+    "two subordinate clauses"
+   ],
+   "answer": "two coordinated independent clauses",
+   "id": "009"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Quand il arrive, nous mangeons”, “Quand il arrive” expresses…",
+   "options": [
+    "time",
+    "cause",
+    "purpose",
+    "condition"
+   ],
+   "answer": "time",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which word introduces a subordinate clause?",
+   "options": [
+    "parce que",
+    "et",
+    "mais",
+    "donc"
+   ],
+   "answer": "parce que",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Il pleut, je reste.” — the two clauses are…",
+   "options": [
+    "juxtaposed",
+    "coordinated",
+    "subordinated",
+    "relative"
+   ],
+   "answer": "juxtaposed",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How many clauses are in “Je crois que tu sais qu'il ment”?",
+   "options": [
+    "three",
+    "one",
+    "two",
+    "four"
+   ],
+   "answer": "three",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Bien qu'il soit tard, je travaille”, the subordinate clause expresses…",
+   "options": [
+    "concession",
+    "time",
+    "cause",
+    "purpose"
+   ],
+   "answer": "concession",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je sais ___ tu as raison.",
+   "answer": "que",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Voici l'ami ___ m'aide.",
+   "answer": "qui",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il mange, ___ il a faim.",
+   "answer": "car",
+   "hint": "coordinating",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with “parce que”: “Je reste. Il pleut.”",
+   "answer": "Je reste parce qu'il pleut",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with “que”: “Je pense. Tu as raison.”",
+   "answer": "Je pense que tu as raison",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with “quand”, starting with it: “Il arrive. Nous mangeons.”",
+   "answer": "Quand il arrive, nous mangeons",
+   "id": "020"
+  }
+ ]
+}

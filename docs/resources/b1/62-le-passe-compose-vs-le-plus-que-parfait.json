@@ -1,0 +1,178 @@
+{
+ "id": "b1-62-le-passe-compose-vs-le-plus-que-parfait",
+ "level": "B1",
+ "subject": 62,
+ "title": "Le Passé Composé vs Le Plus-Que-Parfait",
+ "description": "Ordering two past actions.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Passé composé",
+   "type": "Rule",
+   "translation": "The main past event",
+   "exampleFr": "Hier, j'ai rencontré Paul.",
+   "exampleEn": "Yesterday, I met Paul.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Plus-que-parfait",
+   "type": "Rule",
+   "translation": "What had already happened before that event",
+   "exampleFr": "Il m'a dit qu'il avait déménagé.",
+   "exampleEn": "He told me that he had moved house.",
+   "id": "002"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand je suis arrivé, le train ___.",
+   "answer": "était déjà parti",
+   "hint": "partir · déjà",
+   "translation": "When I arrived, the train had already left.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a lu le livre que je lui ___.",
+   "answer": "avais prêté",
+   "hint": "prêter",
+   "translation": "She read the book I had lent her.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il était fatigué parce qu'il ___ toute la nuit.",
+   "answer": "avait travaillé",
+   "hint": "travailler",
+   "translation": "He was tired because he had worked all night.",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous avons mangé le gâteau que maman ___.",
+   "answer": "avait préparé",
+   "hint": "préparer",
+   "translation": "We ate the cake that Mum had made.",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai retrouvé les clés que j'___.",
+   "answer": "avais perdues",
+   "hint": "perdre",
+   "translation": "I found the keys I had lost.",
+   "accept": [
+    "avais perdu"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand nous sommes arrivés, le film ___.",
+   "answer": "avait déjà commencé",
+   "hint": "commencer · déjà",
+   "translation": "When we arrived, the film had already started.",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ne voulait pas dîner : elle ___.",
+   "answer": "avait déjà mangé",
+   "hint": "manger · déjà",
+   "translation": "She did not want dinner: she had already eaten.",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Hier, j'___ Paul au marché.",
+   "answer": "ai rencontré",
+   "hint": "rencontrer",
+   "translation": "Yesterday, I met Paul at the market.",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il m'a dit qu'il ___ ce film la semaine d'avant.",
+   "answer": "avait vu",
+   "hint": "voir",
+   "translation": "He told me he had seen that film the week before.",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils sont rentrés à pied parce qu'ils ___ le dernier bus.",
+   "answer": "avaient raté",
+   "hint": "rater",
+   "translation": "They walked home because they had missed the last bus.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce matin, elle ___ à huit heures.",
+   "answer": "est partie",
+   "hint": "partir",
+   "translation": "This morning, she left at eight.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je n'avais pas faim parce que j'___ un sandwich.",
+   "answer": "avais pris",
+   "hint": "prendre",
+   "translation": "I was not hungry because I had had a sandwich.",
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Quand il est arrivé, j'avais fini”, which action happened first?",
+   "options": [
+    "finishing",
+    "arriving",
+    "both at the same time",
+    "impossible to say"
+   ],
+   "answer": "finishing",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense is “nous étions sortis”?",
+   "options": [
+    "plus-que-parfait",
+    "passé composé",
+    "imparfait",
+    "conditionnel passé"
+   ],
+   "answer": "plus-que-parfait",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which form is the plus-que-parfait of “voir” (je)?",
+   "options": [
+    "j'avais vu",
+    "j'ai vu",
+    "je voyais",
+    "j'aurais vu"
+   ],
+   "answer": "j'avais vu",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “He said that he had finished.”",
+   "answer": "Il a dit qu'il avait fini",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “We had never seen that.”",
+   "answer": "Nous n'avions jamais vu ça",
+   "accept": [
+    "On n'avait jamais vu ça",
+    "Nous n'avions jamais vu cela"
+   ],
+   "id": "019"
+  }
+ ]
+}

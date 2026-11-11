@@ -1,0 +1,278 @@
+{
+ "id": "b1-71-infinitive-constructions",
+ "level": "B1",
+ "subject": 71,
+ "title": "Infinitive Constructions",
+ "description": "Verb + infinitive, with à, de or nothing.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Verbe + infinitif",
+   "type": "Rule",
+   "translation": "No preposition after aimer, vouloir, pouvoir, devoir, savoir, aller, préférer, espérer, détester",
+   "exampleFr": "Je veux partir. Elle sait nager.",
+   "exampleEn": "I want to leave. She can swim.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Verbe + à + infinitif",
+   "type": "Rule",
+   "translation": "commencer à, apprendre à, réussir à, aider à, continuer à, hésiter à, s'habituer à, arriver à",
+   "exampleFr": "Il commence à pleuvoir.",
+   "exampleEn": "It is starting to rain.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Verbe + de + infinitif",
+   "type": "Rule",
+   "translation": "décider de, essayer de, finir de, arrêter de, oublier de, refuser de, avoir peur de, avoir envie de, rêver de",
+   "exampleFr": "J'ai décidé de partir.",
+   "exampleEn": "I have decided to leave.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il commence ___ pleuvoir.",
+   "answer": "à",
+   "hint": "à or de",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'apprends ___ conduire.",
+   "answer": "à",
+   "hint": "à or de",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a réussi ___ ouvrir la porte.",
+   "answer": "à",
+   "hint": "à or de",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu m'aides ___ porter ce sac ?",
+   "answer": "à",
+   "hint": "à or de",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous continuons ___ travailler.",
+   "answer": "à",
+   "hint": "à or de",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'hésite ___ accepter.",
+   "answer": "à",
+   "hint": "à or de",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il s'habitue ___ vivre seul.",
+   "answer": "à",
+   "hint": "à or de",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je n'arrive pas ___ dormir.",
+   "answer": "à",
+   "hint": "à or de",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai décidé ___ partir.",
+   "answer": "de",
+   "hint": "à or de",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Essaie ___ dormir.",
+   "answer": "de",
+   "hint": "à or de",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il a fini ___ manger.",
+   "answer": "de",
+   "hint": "à or de",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Arrête ___ parler !",
+   "answer": "de",
+   "hint": "à or de",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai oublié ___ fermer la porte.",
+   "answer": "de",
+   "hint": "à or de",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle refuse ___ répondre.",
+   "answer": "de",
+   "hint": "à or de",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai envie ___ voyager.",
+   "answer": "de",
+   "hint": "à or de",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il rêve ___ devenir pilote.",
+   "answer": "de",
+   "hint": "à or de",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai peur ___ tomber.",
+   "answer": "de",
+   "hint": "à or de",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "N'oublie pas ___ acheter du pain.",
+   "answer": "d'",
+   "hint": "à or de",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a accepté ___ venir.",
+   "answer": "de",
+   "hint": "à or de",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il m'a invité ___ dîner.",
+   "answer": "à",
+   "hint": "à or de",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je veux ___ partir.",
+   "options": [
+    "(nothing)",
+    "à",
+    "de"
+   ],
+   "answer": "(nothing)",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elle sait ___ nager.",
+   "options": [
+    "(nothing)",
+    "à",
+    "de"
+   ],
+   "answer": "(nothing)",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous espérons ___ revenir.",
+   "options": [
+    "(nothing)",
+    "à",
+    "de"
+   ],
+   "answer": "(nothing)",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'aime ___ lire.",
+   "options": [
+    "(nothing)",
+    "à",
+    "de"
+   ],
+   "answer": "(nothing)",
+   "id": "027"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu dois ___ travailler.",
+   "options": [
+    "(nothing)",
+    "à",
+    "de"
+   ],
+   "answer": "(nothing)",
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il préfère ___ rester ici.",
+   "options": [
+    "(nothing)",
+    "à",
+    "de"
+   ],
+   "answer": "(nothing)",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I am learning to swim.”",
+   "answer": "J'apprends à nager",
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “He decided to stay.”",
+   "answer": "Il a décidé de rester",
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “She stopped smoking.”",
+   "answer": "Elle a arrêté de fumer",
+   "id": "032"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “We want to leave.”",
+   "answer": "Nous voulons partir",
+   "accept": [
+    "On veut partir"
+   ],
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I forgot to call.”",
+   "answer": "J'ai oublié d'appeler",
+   "accept": [
+    "J'ai oublié de téléphoner"
+   ],
+   "id": "034"
+  }
+ ]
+}

@@ -1,0 +1,332 @@
+{
+ "id": "b1-89-les-faux-amis",
+ "level": "B1",
+ "subject": 89,
+ "title": "Les Faux Amis",
+ "description": "False friends between French and English.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Les faux amis",
+   "type": "Rule",
+   "translation": "Words that look like English words but mean something else",
+   "exampleFr": "« Actuellement » ne veut pas dire « actually ».",
+   "exampleEn": "“Actuellement” does not mean “actually”.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "actuellement",
+   "type": "Adverb · faux ami",
+   "translation": "currently",
+   "exampleFr": "Il travaille actuellement à Lyon.",
+   "exampleEn": "He is currently working in Lyon.",
+   "hint": "Not “actually”, which is “en fait”",
+   "id": "002"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “attendre” really mean?",
+   "options": [
+    "to wait for",
+    "to attend",
+    "sensitive",
+    "the rental"
+   ],
+   "answer": "to wait for",
+   "explain": "“to attend” is “assister à”. J'attends le bus. — I am waiting for the bus.",
+   "speak": "attendre",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "“assister à” does not mean “to assist”. Type the real French for “to assist”.",
+   "answer": "aider",
+   "accept": [
+    "aider"
+   ],
+   "explain": "“assister à” means “to attend”. J'ai assisté à la réunion. — I attended the meeting.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la librairie",
+   "type": "Noun (f.) · faux ami",
+   "translation": "the bookshop",
+   "exampleFr": "J'achète mes livres à la librairie.",
+   "exampleEn": "I buy my books at the bookshop.",
+   "hint": "Not “the library”, which is “la bibliothèque”",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “la monnaie” really mean?",
+   "options": [
+    "change / coins",
+    "money",
+    "the corner",
+    "wide"
+   ],
+   "answer": "change / coins",
+   "explain": "“money” is “l'argent”. Vous avez de la monnaie ? — Do you have any change?",
+   "speak": "la monnaie",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "“rester” does not mean “to rest”. Type the real French for “to rest”.",
+   "answer": "se reposer",
+   "accept": [
+    "se reposer"
+   ],
+   "explain": "“rester” means “to stay”. Je reste à la maison ce soir. — I am staying at home tonight.",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "sensible",
+   "type": "Adjective · faux ami",
+   "translation": "sensitive",
+   "exampleFr": "C'est un enfant très sensible.",
+   "exampleEn": "He is a very sensitive child.",
+   "hint": "Not “sensible”, which is “raisonnable”",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “éventuellement” really mean?",
+   "options": [
+    "possibly",
+    "eventually",
+    "the rental",
+    "to claim"
+   ],
+   "answer": "possibly",
+   "explain": "“eventually” is “finalement”. Je pourrais éventuellement venir. — I could possibly come.",
+   "speak": "éventuellement",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "“la journée” does not mean “the journey”. Type the real French for “the journey”.",
+   "answer": "le voyage",
+   "accept": [
+    "voyage"
+   ],
+   "explain": "“la journée” means “the day”. J'ai passé une bonne journée. — I had a good day.",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le coin",
+   "type": "Noun (m.) · faux ami",
+   "translation": "the corner",
+   "exampleFr": "La boulangerie est au coin de la rue.",
+   "exampleEn": "The bakery is on the corner of the street.",
+   "hint": "Not “the coin”, which is “la pièce”",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “blesser” really mean?",
+   "options": [
+    "to injure",
+    "to bless",
+    "wide",
+    "to complete"
+   ],
+   "answer": "to injure",
+   "explain": "“to bless” is “bénir”. Il s'est blessé au genou. — He injured his knee.",
+   "speak": "blesser",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "“passer un examen” does not mean “to pass an exam”. Type the real French for “to pass an exam”.",
+   "answer": "réussir un examen",
+   "accept": [
+    "réussir un examen"
+   ],
+   "explain": "“passer un examen” means “to sit an exam”. Je passe un examen demain. — I am sitting an exam tomorrow.",
+   "id": "013"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la location",
+   "type": "Noun (f.) · faux ami",
+   "translation": "the rental",
+   "exampleFr": "La location de voiture coûte cher.",
+   "exampleEn": "Car rental is expensive.",
+   "hint": "Not “the location”, which is “l'endroit”",
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “demander” really mean?",
+   "options": [
+    "to ask",
+    "to demand",
+    "to claim",
+    "currently"
+   ],
+   "answer": "to ask",
+   "explain": "“to demand” is “exiger”. Je vais demander le prix. — I am going to ask the price.",
+   "speak": "demander",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "“la lecture” does not mean “the lecture”. Type the real French for “the lecture”.",
+   "answer": "la conférence",
+   "accept": [
+    "conférence"
+   ],
+   "explain": "“la lecture” means “reading”. La lecture est mon passe-temps. — Reading is my hobby.",
+   "id": "016"
+  },
+  {
+   "kind": "flashcard",
+   "word": "large",
+   "type": "Adjective · faux ami",
+   "translation": "wide",
+   "exampleFr": "Cette rue est très large.",
+   "exampleEn": "This street is very wide.",
+   "hint": "Not “large”, which is “grand”",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “la cave” really mean?",
+   "options": [
+    "the cellar",
+    "the cave",
+    "to complete",
+    "the bookshop"
+   ],
+   "answer": "the cellar",
+   "explain": "“the cave” is “la grotte”. Le vin est à la cave. — The wine is in the cellar.",
+   "speak": "la cave",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "“le car” does not mean “the car”. Type the real French for “the car”.",
+   "answer": "la voiture",
+   "accept": [
+    "voiture"
+   ],
+   "explain": "“le car” means “the coach (bus)”. Nous prenons le car pour Nice. — We are taking the coach to Nice.",
+   "id": "019"
+  },
+  {
+   "kind": "flashcard",
+   "word": "prétendre",
+   "type": "Verb · faux ami",
+   "translation": "to claim",
+   "exampleFr": "Il prétend être médecin.",
+   "exampleEn": "He claims to be a doctor.",
+   "hint": "Not “to pretend”, which is “faire semblant”",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “la déception” really mean?",
+   "options": [
+    "disappointment",
+    "deception",
+    "currently",
+    "sensitive"
+   ],
+   "answer": "disappointment",
+   "explain": "“deception” is “la tromperie”. Quelle déception ! — What a disappointment!",
+   "speak": "la déception",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "“formidable” does not mean “formidable”. Type the real French for “formidable”.",
+   "answer": "redoutable",
+   "accept": [
+    "redoutable"
+   ],
+   "explain": "“formidable” means “great / wonderful”. C'est une idée formidable ! — That is a great idea!",
+   "id": "022"
+  },
+  {
+   "kind": "flashcard",
+   "word": "achever",
+   "type": "Verb · faux ami",
+   "translation": "to complete",
+   "exampleFr": "Il a achevé son roman.",
+   "exampleEn": "He has completed his novel.",
+   "hint": "Not “to achieve”, which is “accomplir”",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le médecin” really mean?",
+   "options": [
+    "the doctor",
+    "the medicine",
+    "the bookshop",
+    "the corner"
+   ],
+   "answer": "the doctor",
+   "explain": "“the medicine” is “le médicament”. Je vais chez le médecin. — I am going to the doctor's.",
+   "speak": "le médecin",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "“la chair” does not mean “the chair”. Type the real French for “the chair”.",
+   "answer": "la chaise",
+   "accept": [
+    "chaise"
+   ],
+   "explain": "“la chair” means “flesh”. La chair de ce poisson est tendre. — The flesh of this fish is tender.",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'achète un roman à la ___.",
+   "answer": "librairie",
+   "hint": "bookshop",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'emprunte un roman à la ___.",
+   "answer": "bibliothèque",
+   "hint": "library",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je n'ai pas de ___ pour le parking.",
+   "answer": "monnaie",
+   "hint": "change",
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a ___ son examen : elle a eu 18 sur 20 !",
+   "answer": "réussi",
+   "hint": "passed",
+   "id": "029"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il travaille ___ sur un nouveau projet.",
+   "answer": "actuellement",
+   "hint": "currently",
+   "id": "030"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ mon ami devant le cinéma.",
+   "answer": "attends",
+   "hint": "am waiting for",
+   "id": "031"
+  }
+ ]
+}

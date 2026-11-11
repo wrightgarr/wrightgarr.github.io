@@ -1,0 +1,168 @@
+{
+ "id": "b1-67-coordinating-conjunctions",
+ "level": "B1",
+ "subject": 67,
+ "title": "Coordinating Conjunctions (mais, ou, et, donc, or, ni, car)",
+ "description": "Linking words and clauses of equal weight.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Mais où est donc Ornicar ?",
+   "type": "Mnemonic",
+   "translation": "mais, ou, et, donc, or, ni, car — the seven coordinating conjunctions",
+   "exampleFr": "Mais où est donc Ornicar ?",
+   "exampleEn": "But where on earth is Ornicar?",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "or",
+   "type": "Conjunction",
+   "translation": "yet / now — introduces a fact that changes the argument (never “or”)",
+   "exampleFr": "Il dit qu'il était chez lui ; or, je l'ai vu en ville.",
+   "exampleEn": "He says he was at home; yet I saw him in town.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "car",
+   "type": "Conjunction",
+   "translation": "because / for — more formal than parce que; never starts a sentence",
+   "exampleFr": "Je reste ici, car je suis fatigué.",
+   "exampleEn": "I am staying here, for I am tired.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ni … ni",
+   "type": "Conjunction",
+   "translation": "neither … nor (with ne before the verb)",
+   "exampleFr": "Je n'aime ni le thé ni le café.",
+   "exampleEn": "I like neither tea nor coffee.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est fatigué, ___ il continue.",
+   "answer": "mais",
+   "hint": "but",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu veux du thé ___ du café ?",
+   "answer": "ou",
+   "hint": "or",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il pleut, ___ je prends un parapluie.",
+   "answer": "donc",
+   "hint": "so",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je reste ici, ___ je suis malade.",
+   "answer": "car",
+   "hint": "for / because",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je n'aime ni le thé ___ le café.",
+   "answer": "ni",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai faim ___ j'ai soif.",
+   "answer": "et",
+   "hint": "and",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il disait être malade ; ___, je l'ai vu au cinéma.",
+   "answer": "or",
+   "hint": "yet",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ne boit ___ vin ni bière.",
+   "answer": "ni",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Dépêche-toi, ___ nous sommes en retard.",
+   "answer": "car",
+   "hint": "for / because",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je pense, ___ je suis.",
+   "answer": "donc",
+   "hint": "therefore",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Mais où est donc ___ ?",
+   "answer": "Ornicar",
+   "hint": "the mnemonic",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "The French conjunction “or” means…",
+   "options": [
+    "yet / now",
+    "or",
+    "gold",
+    "and"
+   ],
+   "answer": "yet / now",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which one cannot begin a sentence?",
+   "options": [
+    "car",
+    "mais",
+    "donc",
+    "et"
+   ],
+   "answer": "car",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Il ne mange ni viande ni poisson.",
+    "Il mange ni viande ni poisson pas.",
+    "Il ne mange pas ni viande ni poisson.",
+    "Il ne mange ni viande ou poisson."
+   ],
+   "answer": "Il ne mange ni viande ni poisson.",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I am tired, but I am happy.”",
+   "answer": "Je suis fatigué, mais je suis content",
+   "accept": [
+    "Je suis fatiguée, mais je suis contente",
+    "Je suis fatigué mais heureux",
+    "Je suis fatigué, mais je suis heureux",
+    "Je suis fatiguée, mais je suis heureuse"
+   ],
+   "id": "019"
+  }
+ ]
+}

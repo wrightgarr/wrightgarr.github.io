@@ -1,0 +1,262 @@
+{
+ "id": "b1-76-prepositions-with-countries-regions-cities",
+ "level": "B1",
+ "subject": 76,
+ "title": "Prepositions with Countries, Regions & Cities (en, au, aux, à, …)",
+ "description": "in, to and from places.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "en + pays féminin",
+   "type": "Rule",
+   "translation": "en before feminine countries, continents, and masculine countries starting with a vowel",
+   "exampleFr": "en France, en Italie, en Asie, en Iran.",
+   "exampleEn": "in France, in Italy, in Asia, in Iran.",
+   "hint": "Most countries ending in -e are feminine",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "au + pays masculin",
+   "type": "Rule",
+   "translation": "au before masculine countries starting with a consonant",
+   "exampleFr": "au Canada, au Japon, au Portugal, au Mexique.",
+   "exampleEn": "in Canada, in Japan, in Portugal, in Mexico.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "aux + pays pluriel",
+   "type": "Rule",
+   "translation": "aux before plural countries",
+   "exampleFr": "aux États-Unis, aux Pays-Bas.",
+   "exampleEn": "in the United States, in the Netherlands.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "à + ville",
+   "type": "Rule",
+   "translation": "à before cities",
+   "exampleFr": "à Paris, à Montréal, à Tokyo.",
+   "exampleEn": "in Paris, in Montreal, in Tokyo.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "de / du / des (origine)",
+   "type": "Rule",
+   "translation": "from: de (d') for cities and feminine countries, du for masculine, des for plural",
+   "exampleFr": "Je viens de France, du Canada, des États-Unis.",
+   "exampleEn": "I come from France, from Canada, from the United States.",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'habite ___ France.",
+   "answer": "en",
+   "hint": "in / to",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il travaille ___ Canada.",
+   "answer": "au",
+   "hint": "in / to",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous allons ___ États-Unis.",
+   "answer": "aux",
+   "hint": "in / to",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle vit ___ Tokyo.",
+   "answer": "à",
+   "hint": "in / to",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils voyagent ___ Italie.",
+   "answer": "en",
+   "hint": "in / to",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je vais ___ Japon.",
+   "answer": "au",
+   "hint": "in / to",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu es né ___ Portugal ?",
+   "answer": "au",
+   "hint": "in / to",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle étudie ___ Espagne.",
+   "answer": "en",
+   "hint": "in / to",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous habitons ___ Pays-Bas.",
+   "answer": "aux",
+   "hint": "in / to",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il travaille ___ Iran.",
+   "answer": "en",
+   "hint": "in / to",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On part ___ Mexique.",
+   "answer": "au",
+   "hint": "in / to",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle travaille ___ Bruxelles.",
+   "answer": "à",
+   "hint": "in / to",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils passent leurs vacances ___ Afrique.",
+   "answer": "en",
+   "hint": "in / to",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Mon frère habite ___ Brésil.",
+   "answer": "au",
+   "hint": "in / to",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je suis ___ Montréal.",
+   "answer": "à",
+   "hint": "in / to",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle est née ___ Allemagne.",
+   "answer": "en",
+   "hint": "in / to",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il étudie ___ Maroc.",
+   "answer": "au",
+   "hint": "in / to",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous vivons ___ Suisse.",
+   "answer": "en",
+   "hint": "in / to",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je viens ___ Canada.",
+   "answer": "du",
+   "hint": "from",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle vient ___ France.",
+   "answer": "de",
+   "hint": "from",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils viennent ___ États-Unis.",
+   "answer": "des",
+   "hint": "from",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu viens ___ Italie ?",
+   "answer": "d'",
+   "hint": "from",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je reviens ___ Londres.",
+   "answer": "de",
+   "hint": "from",
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il arrive ___ Japon.",
+   "answer": "du",
+   "hint": "from",
+   "id": "029"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Countries ending in -e are usually…",
+   "options": [
+    "feminine",
+    "masculine",
+    "plural",
+    "used without an article"
+   ],
+   "answer": "feminine",
+   "id": "030"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is an exception (masculine although it ends in -e)?",
+   "options": [
+    "le Mexique",
+    "la Chine",
+    "la Belgique",
+    "la Suisse"
+   ],
+   "answer": "le Mexique",
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I live in Canada.”",
+   "answer": "J'habite au Canada",
+   "accept": [
+    "Je vis au Canada"
+   ],
+   "id": "032"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “She comes from Spain.”",
+   "answer": "Elle vient d'Espagne",
+   "id": "033"
+  }
+ ]
+}

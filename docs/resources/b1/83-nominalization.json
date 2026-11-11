@@ -1,0 +1,348 @@
+{
+ "id": "b1-83-nominalization",
+ "level": "B1",
+ "subject": 83,
+ "title": "Nominalization",
+ "description": "Turning verbs and adjectives into nouns.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Verbe → nom",
+   "type": "Rule",
+   "translation": "Common suffixes: -tion, -ment, -age, -ure, or no suffix at all",
+   "exampleFr": "Créer → la création ; changer → le changement.",
+   "exampleEn": "To create → creation; to change → change.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Adjectif → nom",
+   "type": "Rule",
+   "translation": "Common suffixes: -té, -esse, -ance / -ence",
+   "exampleFr": "Beau → la beauté ; triste → la tristesse.",
+   "exampleEn": "Beautiful → beauty; sad → sadness.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Le style des titres",
+   "type": "Rule",
+   "translation": "Headlines prefer nouns to verbs",
+   "exampleFr": "Le musée ouvre demain. → Ouverture du musée demain.",
+   "exampleEn": "The museum opens tomorrow. → Museum opening tomorrow.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “arriver”",
+   "answer": "l'arrivée",
+   "accept": [
+    "arrivée"
+   ],
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “partir”",
+   "answer": "le départ",
+   "accept": [
+    "départ"
+   ],
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “ouvrir”",
+   "answer": "l'ouverture",
+   "accept": [
+    "ouverture"
+   ],
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “fermer”",
+   "answer": "la fermeture",
+   "accept": [
+    "fermeture"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “changer”",
+   "answer": "le changement",
+   "accept": [
+    "changement"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “augmenter”",
+   "answer": "l'augmentation",
+   "accept": [
+    "augmentation"
+   ],
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “construire”",
+   "answer": "la construction",
+   "accept": [
+    "construction"
+   ],
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “lire”",
+   "answer": "la lecture",
+   "accept": [
+    "lecture"
+   ],
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “vendre”",
+   "answer": "la vente",
+   "accept": [
+    "vente"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “acheter”",
+   "answer": "l'achat",
+   "accept": [
+    "achat"
+   ],
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “choisir”",
+   "answer": "le choix",
+   "accept": [
+    "choix"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “répondre”",
+   "answer": "la réponse",
+   "accept": [
+    "réponse"
+   ],
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “développer”",
+   "answer": "le développement",
+   "accept": [
+    "développement"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “créer”",
+   "answer": "la création",
+   "accept": [
+    "création"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “réussir”",
+   "answer": "la réussite",
+   "accept": [
+    "réussite"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “échouer”",
+   "answer": "l'échec",
+   "accept": [
+    "échec"
+   ],
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “naître”",
+   "answer": "la naissance",
+   "accept": [
+    "naissance"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “mourir”",
+   "answer": "la mort",
+   "accept": [
+    "mort"
+   ],
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “essayer”",
+   "answer": "l'essai",
+   "accept": [
+    "essai"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “voyager”",
+   "answer": "le voyage",
+   "accept": [
+    "voyage"
+   ],
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “beau”",
+   "answer": "la beauté",
+   "accept": [
+    "beauté"
+   ],
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “triste”",
+   "answer": "la tristesse",
+   "accept": [
+    "tristesse"
+   ],
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “libre”",
+   "answer": "la liberté",
+   "accept": [
+    "liberté"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “jeune”",
+   "answer": "la jeunesse",
+   "accept": [
+    "jeunesse"
+   ],
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “patient”",
+   "answer": "la patience",
+   "accept": [
+    "patience"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “difficile”",
+   "answer": "la difficulté",
+   "accept": [
+    "difficulté"
+   ],
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “gentil”",
+   "answer": "la gentillesse",
+   "accept": [
+    "gentillesse"
+   ],
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the noun, with its article, for “important”",
+   "answer": "l'importance",
+   "accept": [
+    "importance"
+   ],
+   "id": "031"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le président arrive à Paris. → ___ du président à Paris.",
+   "answer": "Arrivée",
+   "id": "032"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les prix augmentent. → ___ des prix.",
+   "answer": "Augmentation",
+   "id": "033"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le musée ouvre demain. → ___ du musée demain.",
+   "answer": "Ouverture",
+   "id": "034"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les routes ferment. → ___ des routes.",
+   "answer": "Fermeture",
+   "id": "035"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le train part à midi. → ___ du train à midi.",
+   "answer": "Départ",
+   "id": "036"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On construit un pont. → ___ d'un pont.",
+   "answer": "Construction",
+   "id": "037"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nouns ending in -tion are…",
+   "options": [
+    "feminine",
+    "masculine",
+    "either",
+    "plural only"
+   ],
+   "answer": "feminine",
+   "id": "038"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nouns ending in -ment are…",
+   "options": [
+    "masculine",
+    "feminine",
+    "either",
+    "invariable"
+   ],
+   "answer": "masculine",
+   "id": "039"
+  }
+ ]
+}

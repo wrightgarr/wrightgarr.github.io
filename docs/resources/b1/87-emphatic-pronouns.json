@@ -1,0 +1,182 @@
+{
+ "id": "b1-87-emphatic-pronouns",
+ "level": "B1",
+ "subject": 87,
+ "title": "Emphatic Pronouns (moi, toi, lui, elle, nous, vous, eux, elles)",
+ "description": "Stressed pronouns.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "moi, toi, lui, elle, nous, vous, eux, elles",
+   "type": "Stressed pronouns",
+   "translation": "me, you, him, her, us, you, them (m.), them (f.)",
+   "exampleFr": "Moi, je reste. Et toi ?",
+   "exampleEn": "Me, I am staying. And you?",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Après une préposition",
+   "type": "Rule",
+   "translation": "avec, pour, sans, chez, à, de… + stressed pronoun",
+   "exampleFr": "Je pars avec eux. C'est pour toi.",
+   "exampleEn": "I am leaving with them. It is for you.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "C'est… / comparaison / seul",
+   "type": "Rule",
+   "translation": "After c'est, after que in comparisons, and on their own",
+   "exampleFr": "C'est moi. Il est plus grand que toi. — Qui ? — Lui.",
+   "exampleEn": "It's me. He is taller than you. — Who? — Him.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je vais au cinéma avec ___.",
+   "answer": "lui",
+   "hint": "him",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___, je préfère le thé.",
+   "answer": "Moi",
+   "hint": "me",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est ___ qui as raison.",
+   "answer": "toi",
+   "hint": "you (tu)",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce cadeau est pour ___.",
+   "answer": "eux",
+   "hint": "them (m.)",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle est plus grande que ___.",
+   "answer": "moi",
+   "hint": "me",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous partons sans ___.",
+   "answer": "elles",
+   "hint": "them (f.)",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Paul et ___, nous sommes amis.",
+   "answer": "moi",
+   "hint": "me",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je pense souvent à ___.",
+   "answer": "elle",
+   "hint": "her",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Chez ___, on mange tard.",
+   "answer": "nous",
+   "hint": "us",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___, il ne dit jamais rien.",
+   "answer": "Lui",
+   "hint": "him",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est à ___ de jouer.",
+   "answer": "vous",
+   "hint": "you (vous)",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je me souviens d'___.",
+   "answer": "eux",
+   "hint": "them (m.)",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce sont ___ qui ont gagné.",
+   "answer": "elles",
+   "hint": "them (f.)",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ni ___ ni moi ne savons la réponse.",
+   "answer": "lui",
+   "hint": "him",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “It's me.”",
+   "answer": "C'est moi",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “with them”  (masculine)",
+   "answer": "avec eux",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “without you”  (tu)",
+   "answer": "sans toi",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “at her place”",
+   "answer": "chez elle",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "Lui et moi, nous partons.",
+    "Il et je, nous partons.",
+    "Lui et je partons.",
+    "Il et moi partons."
+   ],
+   "answer": "Lui et moi, nous partons.",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "The stressed form of “ils” is…",
+   "options": [
+    "eux",
+    "leur",
+    "les",
+    "ils"
+   ],
+   "answer": "eux",
+   "id": "023"
+  }
+ ]
+}

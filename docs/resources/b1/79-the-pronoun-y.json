@@ -1,0 +1,146 @@
+{
+ "id": "b1-79-the-pronoun-y",
+ "level": "B1",
+ "subject": 79,
+ "title": "The Pronoun \"y\"",
+ "description": "Replacing à + thing, or a place.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "y = lieu",
+   "type": "Rule",
+   "translation": "Replaces a place introduced by à, en, dans, sur, chez",
+   "exampleFr": "Tu vas à Paris ? — Oui, j'y vais.",
+   "exampleEn": "Are you going to Paris? — Yes, I am going there.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "y = à + chose",
+   "type": "Rule",
+   "translation": "Replaces à + a thing or an idea (penser à, répondre à, jouer à…)",
+   "exampleFr": "Tu penses à ton avenir ? — Oui, j'y pense.",
+   "exampleEn": "Do you think about your future? — Yes, I think about it.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "y et les personnes",
+   "type": "Rule",
+   "translation": "For people, use à + stressed pronoun or lui / leur, never y",
+   "exampleFr": "Je pense à Marie → Je pense à elle.",
+   "exampleEn": "I am thinking of Marie → I am thinking of her.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with y: “Je vais à Paris.”",
+   "answer": "J'y vais",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with y: “Elle pense à son travail.”",
+   "answer": "Elle y pense",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with y: “Nous habitons en France.”",
+   "answer": "Nous y habitons",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with y: “Tu réponds à la lettre.”",
+   "answer": "Tu y réponds",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with y: “Il est allé au marché.”",
+   "answer": "Il y est allé",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with y: “Je ne vais pas à la piscine.”",
+   "answer": "Je n'y vais pas",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with y: “Ils jouent au tennis.”",
+   "answer": "Ils y jouent",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with y: “Je vais aller à la banque.”",
+   "answer": "Je vais y aller",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with y: “Elle reste chez elle.”",
+   "answer": "Elle y reste",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu vas au cinéma ? — Oui, j'___ vais.",
+   "answer": "y",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Allons-___ !",
+   "answer": "y",
+   "translation": "Let's go!",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ça ___ est, j'ai fini !",
+   "answer": "y",
+   "translation": "That's it, I've finished!",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je pense à Marie. → Je pense à ___.",
+   "answer": "elle",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu t'intéresses à la politique ? — Oui, je m'___ intéresse.",
+   "answer": "y",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "J'y suis allé hier.",
+    "Je suis y allé hier.",
+    "Je suis allé y hier.",
+    "J'y allé suis hier."
+   ],
+   "answer": "J'y suis allé hier.",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“y” cannot replace…",
+   "options": [
+    "à + a person",
+    "à + a thing",
+    "a place",
+    "en + a country"
+   ],
+   "answer": "à + a person",
+   "id": "019"
+  }
+ ]
+}

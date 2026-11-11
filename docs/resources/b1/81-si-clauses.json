@@ -1,0 +1,192 @@
+{
+ "id": "b1-81-si-clauses",
+ "level": "B1",
+ "subject": 81,
+ "title": "\"Si\" Clauses",
+ "description": "Three patterns for if-sentences.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "si + présent → futur",
+   "type": "Rule",
+   "translation": "A real possibility (also présent or impératif in the result)",
+   "exampleFr": "Si tu viens, je serai content.",
+   "exampleEn": "If you come, I will be happy.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "si + imparfait → conditionnel présent",
+   "type": "Rule",
+   "translation": "An unreal or unlikely situation now",
+   "exampleFr": "Si j'avais de l'argent, j'achèterais une voiture.",
+   "exampleEn": "If I had money, I would buy a car.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "si + plus-que-parfait → conditionnel passé",
+   "type": "Rule",
+   "translation": "A regret or an unreal past",
+   "exampleFr": "Si tu étais venu, tu aurais vu le film.",
+   "exampleEn": "If you had come, you would have seen the film.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Jamais de futur après si",
+   "type": "Rule",
+   "translation": "No futur or conditionnel directly after si (if); si + il(s) = s'il(s)",
+   "exampleFr": "S'il pleut, je reste.",
+   "exampleEn": "If it rains, I am staying.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si tu viens, je ___ content.",
+   "answer": "serai",
+   "hint": "être",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si j'avais de l'argent, j'___ une voiture.",
+   "answer": "achèterais",
+   "hint": "acheter",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si tu ___ plus tôt, tu aurais vu le film.",
+   "answer": "étais arrivé",
+   "hint": "arriver",
+   "accept": [
+    "étais arrivée"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "S'il ___ demain, nous resterons ici.",
+   "answer": "pleut",
+   "hint": "pleuvoir",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si nous ___ plus de temps, nous voyagerions.",
+   "answer": "avions",
+   "hint": "avoir",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si j'avais su, je ne ___ pas venu.",
+   "answer": "serais",
+   "hint": "être",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si tu as faim, ___ quelque chose !",
+   "answer": "mange",
+   "hint": "manger · impératif",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si elle ___ français, elle comprendrait.",
+   "answer": "parlait",
+   "hint": "parler",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si vous aviez étudié, vous ___ réussi.",
+   "answer": "auriez",
+   "hint": "avoir",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si j'___ toi, je partirais.",
+   "answer": "étais",
+   "hint": "être",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si on ___ le train, on arrivera à l'heure.",
+   "answer": "prend",
+   "hint": "prendre",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si j'avais eu le temps, je t'___ aidé.",
+   "answer": "aurais",
+   "hint": "avoir",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Si j'avais le temps, je viendrais.",
+    "Si j'aurais le temps, je viendrais.",
+    "Si j'avais le temps, je viendrai.",
+    "Si j'aurai le temps, je viendrais."
+   ],
+   "answer": "Si j'avais le temps, je viendrais.",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "si + plus-que-parfait is followed by…",
+   "options": [
+    "the conditionnel passé",
+    "the futur simple",
+    "the conditionnel présent only",
+    "the subjonctif"
+   ],
+   "answer": "the conditionnel passé",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“si” + “il” becomes…",
+   "options": [
+    "s'il",
+    "si il",
+    "s'i",
+    "sil"
+   ],
+   "answer": "s'il",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “If I were rich, I would travel.”",
+   "answer": "Si j'étais riche, je voyagerais",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “If it rains, I will stay at home.”",
+   "answer": "S'il pleut, je resterai à la maison",
+   "accept": [
+    "S'il pleut, je reste à la maison"
+   ],
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “If I had known, I would have come.”",
+   "answer": "Si j'avais su, je serais venu",
+   "accept": [
+    "Si j'avais su, je serais venue"
+   ],
+   "id": "022"
+  }
+ ]
+}

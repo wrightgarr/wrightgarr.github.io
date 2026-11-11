@@ -1,0 +1,158 @@
+{
+ "id": "b1-88-emphatic-pronouns-with-meme",
+ "level": "B1",
+ "subject": 88,
+ "title": "Emphatic Pronouns with “Même” (moi-même, toi-même, lui-même, …)",
+ "description": "myself, yourself, themselves.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "moi-même, toi-même, lui-même, elle-même",
+   "type": "Pronoun",
+   "translation": "myself, yourself, himself, herself",
+   "exampleFr": "Je l'ai fait moi-même.",
+   "exampleEn": "I did it myself.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "nous-mêmes, vous-mêmes, eux-mêmes, elles-mêmes",
+   "type": "Pronoun",
+   "translation": "ourselves, yourselves, themselves — même takes an -s in the plural",
+   "exampleFr": "Ils ont tout construit eux-mêmes.",
+   "exampleEn": "They built everything themselves.",
+   "hint": "vous-même (no s) for one person addressed as vous",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "soi-même",
+   "type": "Pronoun",
+   "translation": "oneself — with on, chacun, il faut",
+   "exampleFr": "On n'est jamais mieux servi que par soi-même.",
+   "exampleEn": "If you want something done well, do it yourself.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai fait ce gâteau ___.",
+   "answer": "moi-même",
+   "hint": "myself",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu dois le faire ___.",
+   "answer": "toi-même",
+   "hint": "yourself",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il a réparé la voiture ___.",
+   "answer": "lui-même",
+   "hint": "himself",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a écrit la lettre ___.",
+   "answer": "elle-même",
+   "hint": "herself",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous avons construit la maison ___.",
+   "answer": "nous-mêmes",
+   "hint": "ourselves",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ont trouvé la solution ___.",
+   "answer": "eux-mêmes",
+   "hint": "themselves (m.)",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ont tout organisé ___.",
+   "answer": "elles-mêmes",
+   "hint": "themselves (f.)",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut avoir confiance en ___.",
+   "answer": "soi-même",
+   "hint": "oneself",
+   "accept": [
+    "soi"
+   ],
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les enfants, faites-le ___ !",
+   "answer": "vous-mêmes",
+   "hint": "yourselves",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Monsieur, vous l'avez dit ___.",
+   "answer": "vous-même",
+   "hint": "yourself (formal, one person)",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “myself”",
+   "answer": "moi-même",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “themselves”  (masculine)",
+   "answer": "eux-mêmes",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “ourselves”",
+   "answer": "nous-mêmes",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “herself”",
+   "answer": "elle-même",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which spelling is correct?",
+   "options": [
+    "eux-mêmes",
+    "eux-même",
+    "ils-mêmes",
+    "leur-mêmes"
+   ],
+   "answer": "eux-mêmes",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“soi-même” goes with…",
+   "options": [
+    "on, chacun, il faut",
+    "je",
+    "nous",
+    "ils"
+   ],
+   "answer": "on, chacun, il faut",
+   "id": "019"
+  }
+ ]
+}

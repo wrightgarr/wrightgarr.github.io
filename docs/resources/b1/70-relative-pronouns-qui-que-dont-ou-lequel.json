@@ -1,0 +1,194 @@
+{
+ "id": "b1-70-relative-pronouns-qui-que-dont-ou-lequel",
+ "level": "B1",
+ "subject": 70,
+ "title": "Relative Pronouns: qui, que, dont, où & lequel",
+ "description": "Choosing the right link.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "qui / que",
+   "type": "Relative pronouns",
+   "translation": "qui = subject; que = direct object",
+   "exampleFr": "L'homme qui parle ; le livre que je lis.",
+   "exampleEn": "The man who is speaking; the book that I am reading.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "dont",
+   "type": "Relative pronoun",
+   "translation": "whose / of which / about which — replaces de + noun",
+   "exampleFr": "C'est le film dont je t'ai parlé.",
+   "exampleEn": "It is the film I told you about.",
+   "hint": "parler de, avoir besoin de, se souvenir de, être fier de…",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "où",
+   "type": "Relative pronoun",
+   "translation": "where / when — a place or a moment",
+   "exampleFr": "La ville où j'habite ; le jour où je suis né.",
+   "exampleEn": "The city where I live; the day I was born.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "lequel / laquelle / lesquels / lesquelles",
+   "type": "Relative pronoun",
+   "translation": "which — after a preposition (sur, avec, pour, dans…)",
+   "exampleFr": "La table sur laquelle j'écris.",
+   "exampleEn": "The table on which I am writing.",
+   "hint": "For people, qui is usual: l'ami avec qui je voyage",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "L'homme ___ parle est mon père.",
+   "answer": "qui",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le livre ___ je lis est passionnant.",
+   "answer": "que",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est le film ___ je t'ai parlé.",
+   "answer": "dont",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La ville ___ j'habite est petite.",
+   "answer": "où",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le jour ___ je suis né, il neigeait.",
+   "answer": "où",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est l'ami avec ___ je voyage.",
+   "answer": "qui",
+   "accept": [
+    "lequel"
+   ],
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La table sur ___ j'écris est vieille.",
+   "answer": "laquelle",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Voici la raison pour ___ je pars.",
+   "answer": "laquelle",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est une chose ___ j'ai besoin.",
+   "answer": "dont",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les outils avec ___ il travaille sont neufs.",
+   "answer": "lesquels",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La fille ___ le père est médecin s'appelle Léa.",
+   "answer": "dont",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le restaurant ___ nous avons dîné était excellent.",
+   "answer": "où",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est un sujet ___ je ne connais pas.",
+   "answer": "que",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le stylo avec ___ j'écris est bleu.",
+   "answer": "lequel",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les amies avec ___ je sors sont drôles.",
+   "answer": "lesquelles",
+   "accept": [
+    "qui"
+   ],
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est le fils ___ elle est fière.",
+   "answer": "dont",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with a relative pronoun: “J'ai un ami. Son frère est acteur.”",
+   "answer": "J'ai un ami dont le frère est acteur",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with a relative pronoun: “Voici la maison. J'ai grandi dans cette maison.”",
+   "answer": "Voici la maison où j'ai grandi",
+   "accept": [
+    "Voici la maison dans laquelle j'ai grandi"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with a relative pronoun: “C'est un outil. J'ai besoin de cet outil.”",
+   "answer": "C'est un outil dont j'ai besoin",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“dont” replaces…",
+   "options": [
+    "de + a noun",
+    "à + a noun",
+    "a subject",
+    "a place"
+   ],
+   "answer": "de + a noun",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "After a preposition such as “sur” or “avec”, for a thing, use…",
+   "options": [
+    "lequel (and its forms)",
+    "que",
+    "dont",
+    "qui only"
+   ],
+   "answer": "lequel (and its forms)",
+   "id": "025"
+  }
+ ]
+}

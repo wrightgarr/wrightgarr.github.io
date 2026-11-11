@@ -1,0 +1,184 @@
+{
+ "id": "b1-85-advanced-negatives",
+ "level": "B1",
+ "subject": 85,
+ "title": "Advanced Negatives (ne…jamais, ne…plus, ne…rien)",
+ "description": "never, no longer, nothing, nobody, only.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "ne … jamais / ne … plus",
+   "type": "Negation",
+   "translation": "never / no longer",
+   "exampleFr": "Je ne fume plus. Je ne bois jamais.",
+   "exampleEn": "I no longer smoke. I never drink.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ne … rien / ne … personne",
+   "type": "Negation",
+   "translation": "nothing / nobody",
+   "exampleFr": "Je ne vois rien. Je ne connais personne.",
+   "exampleEn": "I see nothing. I know nobody.",
+   "hint": "Passé composé: je n'ai rien vu, but je n'ai vu personne",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ne … que",
+   "type": "Restriction",
+   "translation": "only (not a real negative)",
+   "exampleFr": "Je n'ai que dix euros.",
+   "exampleEn": "I only have ten euros.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ne … aucun(e) / ne … nulle part / ne … pas encore",
+   "type": "Negation",
+   "translation": "not a single / nowhere / not yet",
+   "exampleFr": "Je n'ai aucune idée. Je ne le trouve nulle part.",
+   "exampleEn": "I have no idea. I cannot find it anywhere.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Personne ne… / Rien ne…",
+   "type": "Negation",
+   "translation": "As subjects, they come first and keep ne",
+   "exampleFr": "Personne ne sait. Rien ne change.",
+   "exampleEn": "Nobody knows. Nothing changes.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Answer in the negative: “Tu fumes encore ?”",
+   "answer": "Non, je ne fume plus",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Answer in the negative: “Tu vois quelque chose ?”",
+   "answer": "Non, je ne vois rien",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Answer in the negative: “Tu connais quelqu'un ici ?”",
+   "answer": "Non, je ne connais personne",
+   "accept": [
+    "Non, je ne connais personne ici"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Answer in the negative: “Tu vas parfois à l'opéra ?”",
+   "answer": "Non, je ne vais jamais à l'opéra",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Answer in the negative: “Tu as déjà fini ?”",
+   "answer": "Non, je n'ai pas encore fini",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Answer in the negative: “Quelqu'un a téléphoné ?”",
+   "answer": "Non, personne n'a téléphoné",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Answer in the negative: “Tu as vu quelque chose ?”",
+   "answer": "Non, je n'ai rien vu",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Answer in the negative: “Tu as vu quelqu'un ?”",
+   "answer": "Non, je n'ai vu personne",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je n'ai ___ dix euros.",
+   "answer": "que",
+   "hint": "only",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il n'aime ni le thé ___ le café.",
+   "answer": "ni",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne trouve mes clés nulle ___.",
+   "answer": "part",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle n'a ___ ami ici.",
+   "answer": "aucun",
+   "hint": "not a single",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ ne me comprend.",
+   "answer": "Personne",
+   "hint": "nobody",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ n'est impossible.",
+   "answer": "Rien",
+   "hint": "nothing",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ne travaille ___.",
+   "answer": "plus",
+   "hint": "no longer",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je n'ai ___ fini.",
+   "answer": "pas encore",
+   "hint": "not yet",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Je n'ai que cinq minutes” means…",
+   "options": [
+    "I only have five minutes",
+    "I do not have five minutes",
+    "I never have five minutes",
+    "I no longer have five minutes"
+   ],
+   "answer": "I only have five minutes",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "Je n'ai rien compris.",
+    "Je n'ai compris rien.",
+    "J'ai rien ne compris.",
+    "Je n'ai pas rien compris."
+   ],
+   "answer": "Je n'ai rien compris.",
+   "id": "023"
+  }
+ ]
+}

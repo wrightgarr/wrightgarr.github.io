@@ -1,0 +1,201 @@
+{
+ "id": "b1-69-temporal-conjunctions",
+ "level": "B1",
+ "subject": 69,
+ "title": "Temporal Conjunctions (dès que, aussitôt que, avant que, …)",
+ "description": "Before, after, as soon as, until.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "dès que",
+   "type": "Conjunction",
+   "translation": "as soon as",
+   "exampleFr": "Dès qu'il arrivera, nous partirons.",
+   "exampleEn": "As soon as he arrives, we will leave.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “as soon as”",
+   "answer": "aussitôt que",
+   "explain": "Aussitôt qu'elle a su, elle a téléphoné. — As soon as she knew, she phoned.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “before”",
+   "answer": "avant que",
+   "explain": "Rentre avant qu'il pleuve. — Come home before it rains.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "après que",
+   "type": "Conjunction + indicatif",
+   "translation": "after",
+   "exampleFr": "Après qu'il est parti, j'ai rangé.",
+   "exampleEn": "After he left, I tidied up.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “until”",
+   "answer": "jusqu'à ce que",
+   "explain": "Reste ici jusqu'à ce que je revienne. — Stay here until I come back.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “depuis que” mean?",
+   "options": [
+    "since (time)",
+    "at the moment when",
+    "as soon as",
+    "until"
+   ],
+   "answer": "since (time)",
+   "explain": "Depuis que j'habite ici, je suis heureux. — Since I have lived here, I have been happy.",
+   "speak": "depuis que",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "une fois que",
+   "type": "Conjunction",
+   "translation": "once",
+   "exampleFr": "Une fois que tu auras fini, appelle-moi.",
+   "exampleEn": "Once you have finished, call me.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “as long as”",
+   "answer": "tant que",
+   "explain": "Tant qu'il y a de la vie, il y a de l'espoir. — As long as there is life, there is hope.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “at the moment when”",
+   "answer": "au moment où",
+   "explain": "Il est arrivé au moment où je partais. — He arrived just as I was leaving.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "en attendant que",
+   "type": "Conjunction + subjonctif",
+   "translation": "while waiting for",
+   "exampleFr": "Je lis en attendant que tu sois prêt.",
+   "exampleEn": "I am reading while I wait for you to be ready.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “every time”",
+   "answer": "chaque fois que",
+   "explain": "Chaque fois qu'il vient, il apporte des fleurs. — Every time he comes, he brings flowers.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “à peine … que” mean?",
+   "options": [
+    "hardly … when",
+    "before",
+    "once",
+    "every time"
+   ],
+   "answer": "hardly … when",
+   "explain": "À peine était-il arrivé qu'il a dû repartir. — He had hardly arrived when he had to leave again.",
+   "speak": "à peine … que",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Rentre ___ il pleuve.",
+   "answer": "avant qu'",
+   "hint": "before",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Reste ici ___ je revienne.",
+   "answer": "jusqu'à ce que",
+   "hint": "until",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ j'habite ici, je suis heureux.",
+   "answer": "Depuis que",
+   "hint": "since",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ il y a de la vie, il y a de l'espoir.",
+   "answer": "Tant qu'",
+   "hint": "as long as",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Dès qu'il ___, nous partirons.",
+   "answer": "arrivera",
+   "hint": "arriver",
+   "explain": "French uses the future after dès que, quand, lorsque when the main verb is future.",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand tu ___ grand, tu comprendras.",
+   "answer": "seras",
+   "hint": "être",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Appelle-moi dès que tu ___ fini.",
+   "answer": "auras",
+   "hint": "avoir · futur antérieur",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Avant que” is followed by…",
+   "options": [
+    "the subjonctif",
+    "the indicatif",
+    "the conditionnel",
+    "the infinitive only"
+   ],
+   "answer": "the subjonctif",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Après que” is followed by…",
+   "options": [
+    "the indicatif",
+    "the subjonctif",
+    "the conditionnel",
+    "the imperative"
+   ],
+   "answer": "the indicatif",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "Dès qu'il arrivera, je partirai.",
+    "Dès qu'il arrive, je partirai demain.",
+    "Dès qu'il arriverait, je partirai.",
+    "Dès qu'il arrivât, je partirai."
+   ],
+   "answer": "Dès qu'il arrivera, je partirai.",
+   "id": "022"
+  }
+ ]
+}

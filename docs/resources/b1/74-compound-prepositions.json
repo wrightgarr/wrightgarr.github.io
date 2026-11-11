@@ -1,0 +1,226 @@
+{
+ "id": "b1-74-compound-prepositions",
+ "level": "B1",
+ "subject": 74,
+ "title": "Compound Prepositions (à côté de, en face de, près de, …)",
+ "description": "Prepositions made of several words.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "à côté de",
+   "type": "Preposition",
+   "translation": "next to",
+   "exampleFr": "La banque est à côté de la poste.",
+   "exampleEn": "The bank is next to the post office.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “opposite”",
+   "answer": "en face de",
+   "explain": "J'habite en face du parc. — I live opposite the park.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “above”",
+   "answer": "au-dessus de",
+   "explain": "L'avion vole au-dessus des nuages. — The plane is flying above the clouds.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "au-dessous de",
+   "type": "Preposition",
+   "translation": "below",
+   "exampleFr": "Il fait cinq degrés au-dessous de zéro.",
+   "exampleEn": "It is five degrees below zero.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “in the middle of”",
+   "answer": "au milieu de",
+   "explain": "Il y a une fontaine au milieu de la place. — There is a fountain in the middle of the square.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “autour de” mean?",
+   "options": [
+    "around",
+    "instead of",
+    "inside",
+    "at the top of"
+   ],
+   "answer": "around",
+   "explain": "Nous sommes assis autour de la table. — We are sitting around the table.",
+   "speak": "autour de",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "à cause de",
+   "type": "Preposition",
+   "translation": "because of (negative cause)",
+   "exampleFr": "Je suis en retard à cause du trafic.",
+   "exampleEn": "I am late because of the traffic.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “thanks to (positive cause)”",
+   "answer": "grâce à",
+   "explain": "J'ai réussi grâce à toi. — I succeeded thanks to you.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “instead of”",
+   "answer": "au lieu de",
+   "explain": "Prends le train au lieu de la voiture. — Take the train instead of the car.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "à travers",
+   "type": "Preposition",
+   "translation": "through / across",
+   "exampleFr": "Nous marchons à travers la forêt.",
+   "exampleEn": "We are walking through the forest.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “along”",
+   "answer": "le long de",
+   "accept": [
+    "long de"
+   ],
+   "explain": "Ils se promènent le long de la rivière. — They are walking along the river.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “au bout de” mean?",
+   "options": [
+    "at the end of",
+    "up to / until",
+    "from (a starting point)",
+    "above"
+   ],
+   "answer": "at the end of",
+   "explain": "La pharmacie est au bout de la rue. — The pharmacy is at the end of the street.",
+   "speak": "au bout de",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "à l'intérieur de",
+   "type": "Preposition",
+   "translation": "inside",
+   "exampleFr": "Il fait chaud à l'intérieur de la maison.",
+   "exampleEn": "It is warm inside the house.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “outside of / apart from”",
+   "answer": "en dehors de",
+   "explain": "Il habite en dehors de la ville. — He lives outside the city.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “up to / until”",
+   "answer": "jusqu'à",
+   "explain": "Allez jusqu'au feu rouge. — Go as far as the traffic light.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "au bord de",
+   "type": "Preposition",
+   "translation": "at the edge of / beside",
+   "exampleFr": "Nous avons une maison au bord de la mer.",
+   "exampleEn": "We have a house by the sea.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “at the top of”",
+   "answer": "en haut de",
+   "explain": "Le restaurant est en haut de la tour. — The restaurant is at the top of the tower.",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “en bas de” mean?",
+   "options": [
+    "at the bottom of",
+    "next to",
+    "in the middle of",
+    "instead of"
+   ],
+   "answer": "at the bottom of",
+   "explain": "Je t'attends en bas de l'immeuble. — I am waiting for you at the bottom of the building.",
+   "speak": "en bas de",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "à partir de",
+   "type": "Preposition",
+   "translation": "from (a starting point)",
+   "exampleFr": "Le musée est ouvert à partir de dix heures.",
+   "exampleEn": "The museum is open from ten o'clock.",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “as for”",
+   "answer": "quant à",
+   "explain": "Quant à moi, je reste ici. — As for me, I am staying here.",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'habite près ___ musée.",
+   "answer": "du",
+   "explain": "de + le = du",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "L'arrêt est en face ___ école.",
+   "answer": "de l'",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La salle de bain est à côté ___ toilettes.",
+   "answer": "des",
+   "explain": "de + les = des",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai compris grâce ___ professeur.",
+   "answer": "au",
+   "explain": "à + le = au",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le match est annulé à cause ___ pluie.",
+   "answer": "de la",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Allez jusqu'___ carrefour.",
+   "answer": "au",
+   "id": "026"
+  }
+ ]
+}

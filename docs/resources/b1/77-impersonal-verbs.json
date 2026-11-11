@@ -1,0 +1,202 @@
+{
+ "id": "b1-77-impersonal-verbs",
+ "level": "B1",
+ "subject": 77,
+ "title": "Impersonal Verbs (falloir, pleuvoir, neiger, …)",
+ "description": "Verbs that only exist with il.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "il faut",
+   "type": "Impersonal verb (falloir)",
+   "translation": "it is necessary / one must",
+   "exampleFr": "Il faut partir maintenant.",
+   "exampleEn": "We must leave now.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “it is raining”",
+   "answer": "il pleut",
+   "explain": "Il pleut depuis ce matin. — It has been raining since this morning.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “it is snowing”",
+   "answer": "il neige",
+   "explain": "Il neige en montagne. — It is snowing in the mountains.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "il s'agit de",
+   "type": "Impersonal verb",
+   "translation": "it is about",
+   "exampleFr": "Dans ce livre, il s'agit d'un voyage.",
+   "exampleEn": "This book is about a journey.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “it is better to”",
+   "answer": "il vaut mieux",
+   "explain": "Il vaut mieux attendre. — It is better to wait.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “il suffit de” mean?",
+   "options": [
+    "all you need to do is",
+    "apparently / I hear that",
+    "it is necessary / one must",
+    "it is better to"
+   ],
+   "answer": "all you need to do is",
+   "explain": "Il suffit de cliquer ici. — All you need to do is click here.",
+   "speak": "il suffit de",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "il reste",
+   "type": "Impersonal verb (rester)",
+   "translation": "there is / are … left",
+   "exampleFr": "Il reste trois places.",
+   "exampleEn": "There are three seats left.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “it seems that”",
+   "answer": "il semble que",
+   "explain": "Il semble qu'il soit malade. — It seems that he is ill.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “apparently / I hear that”",
+   "answer": "il paraît que",
+   "explain": "Il paraît que tu déménages. — I hear that you are moving.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "il arrive que",
+   "type": "Impersonal verb (arriver)",
+   "translation": "it sometimes happens that",
+   "exampleFr": "Il arrive qu'il soit en retard.",
+   "exampleEn": "He is sometimes late.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “… is missing”",
+   "answer": "il manque",
+   "explain": "Il manque une chaise. — There is a chair missing.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “il est interdit de” mean?",
+   "options": [
+    "it is forbidden to",
+    "it is snowing",
+    "there is / are … left",
+    "… is missing"
+   ],
+   "answer": "it is forbidden to",
+   "explain": "Il est interdit de fumer. — Smoking is forbidden.",
+   "speak": "il est interdit de",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ partir maintenant.",
+   "answer": "faut",
+   "hint": "falloir · présent",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Hier, il a ___ toute la journée.",
+   "answer": "plu",
+   "hint": "pleuvoir · participe passé",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Demain, il ___.",
+   "answer": "neigera",
+   "hint": "neiger · futur",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ mieux attendre.",
+   "answer": "vaut",
+   "hint": "valoir · présent",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ que nous partions tôt.",
+   "answer": "fallait",
+   "hint": "falloir · imparfait",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ falloir attendre.",
+   "answer": "va",
+   "hint": "aller · futur proche",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand j'étais petit, il ___ souvent.",
+   "answer": "neigeait",
+   "hint": "neiger · imparfait",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ que tu viennes demain.",
+   "answer": "faudra",
+   "hint": "falloir · futur",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Dans ce film, il s'___ d'une famille.",
+   "answer": "agit",
+   "hint": "s'agir",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "The “il” of impersonal verbs…",
+   "options": [
+    "refers to nobody",
+    "means “he”",
+    "can become “elle”",
+    "can become “ils”"
+   ],
+   "answer": "refers to nobody",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Il faut que” is followed by…",
+   "options": [
+    "the subjonctif",
+    "the indicatif",
+    "the conditionnel",
+    "the futur"
+   ],
+   "answer": "the subjonctif",
+   "id": "023"
+  }
+ ]
+}

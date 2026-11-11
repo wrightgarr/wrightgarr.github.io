@@ -1,0 +1,156 @@
+{
+ "id": "b1-80-the-pronoun-en",
+ "level": "B1",
+ "subject": 80,
+ "title": "The Pronoun \"en\"",
+ "description": "Replacing de + thing, partitives and quantities.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "en = de + chose",
+   "type": "Rule",
+   "translation": "Replaces de + a thing or an idea (parler de, avoir besoin de, revenir de…)",
+   "exampleFr": "Tu parles de ce film ? — Oui, j'en parle.",
+   "exampleEn": "Are you talking about that film? — Yes, I am talking about it.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "en = du, de la, des",
+   "type": "Rule",
+   "translation": "Replaces a noun with a partitive or indefinite article",
+   "exampleFr": "Tu veux du café ? — Oui, j'en veux.",
+   "exampleEn": "Do you want some coffee? — Yes, I want some.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "en + quantité",
+   "type": "Rule",
+   "translation": "The quantity stays after the verb",
+   "exampleFr": "Tu as des frères ? — Oui, j'en ai deux.",
+   "exampleEn": "Do you have brothers? — Yes, I have two.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with en: “Je mange du pain.”",
+   "answer": "J'en mange",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with en: “Elle a trois frères.”",
+   "answer": "Elle en a trois",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with en: “Nous parlons de ce film.”",
+   "answer": "Nous en parlons",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with en: “Il boit beaucoup de café.”",
+   "answer": "Il en boit beaucoup",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with en: “Je n'ai pas de voiture.”",
+   "answer": "Je n'en ai pas",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with en: “Tu as besoin de ce livre.”",
+   "answer": "Tu en as besoin",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with en: “Il revient de Paris.”",
+   "answer": "Il en revient",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with en: “J'ai acheté des pommes.”",
+   "answer": "J'en ai acheté",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with en: “Je veux un café.”",
+   "answer": "J'en veux un",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace with en: “Elle est fière de son travail.”",
+   "answer": "Elle en est fière",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu as des enfants ? — Oui, j'___ ai deux.",
+   "answer": "en",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Du pain ? Il n'y ___ a plus.",
+   "answer": "en",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est tard, je m'___ vais.",
+   "answer": "en",
+   "translation": "It is late, I am leaving.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'en ai ___ de ce bruit !",
+   "answer": "marre",
+   "hint": "fed up",
+   "accept": [
+    "assez"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je parle de Paul. → Je parle de ___.",
+   "answer": "lui",
+   "explain": "For people, keep de + stressed pronoun.",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "J'en ai mangé trois.",
+    "J'ai en mangé trois.",
+    "J'ai mangé en trois.",
+    "J'en trois ai mangé."
+   ],
+   "answer": "J'en ai mangé trois.",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Je m'en souviens” means…",
+   "options": [
+    "I remember it",
+    "I am leaving",
+    "I am fed up",
+    "I need it"
+   ],
+   "answer": "I remember it",
+   "id": "020"
+  }
+ ]
+}

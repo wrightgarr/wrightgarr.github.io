@@ -1,0 +1,715 @@
+{
+ "id": "b1-65-le-subjonctif-present",
+ "level": "B1",
+ "subject": 65,
+ "title": "Le Subjonctif Présent",
+ "description": "The mood of necessity, will, emotion and doubt.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Formation du subjonctif",
+   "type": "Rule",
+   "translation": "ils stem of the present + -e, -es, -e, -ions, -iez, -ent (nous and vous look like the imparfait)",
+   "exampleFr": "Ils parlent → que je parle, que nous parlions.",
+   "exampleEn": "They speak → that I speak, that we speak.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Quand utiliser le subjonctif",
+   "type": "Rule",
+   "translation": "After il faut que, vouloir que, emotions, doubt, and bien que, pour que, avant que",
+   "exampleFr": "Il faut que tu viennes. Je veux que tu sois là.",
+   "exampleEn": "You must come. I want you to be there.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “être”",
+   "answer": "que je sois",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “avoir”",
+   "answer": "que j'aie",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “aller”",
+   "answer": "que j'aille",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “faire”",
+   "answer": "que je fasse",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “pouvoir”",
+   "answer": "que je puisse",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “savoir”",
+   "answer": "que je sache",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “vouloir”",
+   "answer": "que je veuille",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “venir”",
+   "answer": "que je vienne",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “prendre”",
+   "answer": "que je prenne",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “devoir”",
+   "answer": "que je doive",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “boire”",
+   "answer": "que je boive",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif: give the je form of “voir”",
+   "answer": "que je voie",
+   "id": "014"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Parler",
+   "type": "Subjonctif présent",
+   "translation": "que je parle — to speak",
+   "exampleFr": "Il faut que nous parlions avec le professeur.",
+   "exampleEn": "We have to speak with the teacher.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que tu ___ avec le professeur.",
+   "answer": "parles",
+   "hint": "parler · subjonctif présent",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'il ___ avec le professeur.",
+   "answer": "parle",
+   "hint": "parler · subjonctif présent",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut que vous ___ avec le professeur.  (parler, subjonctif présent)",
+   "options": [
+    "parliez",
+    "parle",
+    "parles",
+    "parlions"
+   ],
+   "answer": "parliez",
+   "explain": "parler → vous parliez",
+   "speak": "Il faut que vous parliez avec le professeur.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'ils ___ avec le professeur.",
+   "answer": "parlent",
+   "hint": "parler · subjonctif présent",
+   "id": "019"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Subjonctif présent",
+   "translation": "que je finisse — to finish",
+   "exampleFr": "Il faut que nous finissions le projet.",
+   "exampleEn": "We have to finish the project.",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que je ___ le projet.",
+   "answer": "finisse",
+   "hint": "finir · subjonctif présent",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'elle ___ le projet.",
+   "answer": "finisse",
+   "hint": "finir · subjonctif présent",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut que nous ___ le projet.  (finir, subjonctif présent)",
+   "options": [
+    "finissions",
+    "finissent",
+    "finisse",
+    "finisses"
+   ],
+   "answer": "finissions",
+   "explain": "finir → nous finissions",
+   "speak": "Il faut que nous finissions le projet.",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'elles ___ le projet.",
+   "answer": "finissent",
+   "hint": "finir · subjonctif présent",
+   "id": "024"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Subjonctif présent",
+   "translation": "que je prenne — to take",
+   "exampleFr": "Il faut que nous prenions le train.",
+   "exampleEn": "We have to take the train.",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que je ___ le train.",
+   "answer": "prenne",
+   "hint": "prendre · subjonctif présent",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que tu ___ le train.",
+   "answer": "prennes",
+   "hint": "prendre · subjonctif présent",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que nous ___ le train.",
+   "answer": "prenions",
+   "hint": "prendre · subjonctif présent",
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que vous ___ le train.",
+   "answer": "preniez",
+   "hint": "prendre · subjonctif présent",
+   "id": "029"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Être",
+   "type": "Subjonctif présent",
+   "translation": "que je sois — to be",
+   "exampleFr": "Il faut que nous soyons à l'heure.",
+   "exampleEn": "We have to be on time.",
+   "id": "030"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut que tu ___ à l'heure.  (être, subjonctif présent)",
+   "options": [
+    "sois",
+    "soyons",
+    "soyez",
+    "soient"
+   ],
+   "answer": "sois",
+   "explain": "être → tu sois",
+   "speak": "Il faut que tu sois à l'heure.",
+   "id": "031"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'elle ___ à l'heure.",
+   "answer": "soit",
+   "hint": "être · subjonctif présent",
+   "id": "032"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que vous ___ à l'heure.",
+   "answer": "soyez",
+   "hint": "être · subjonctif présent",
+   "id": "033"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut qu'elles ___ à l'heure.  (être, subjonctif présent)",
+   "options": [
+    "soient",
+    "soit",
+    "soyons",
+    "soyez"
+   ],
+   "answer": "soient",
+   "explain": "être → elles soient",
+   "speak": "Il faut qu'elles soient à l'heure.",
+   "id": "034"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir",
+   "type": "Subjonctif présent",
+   "translation": "que j'aie — to have",
+   "exampleFr": "Il faut que nous ayons du temps.",
+   "exampleEn": "We have to have time.",
+   "id": "035"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut que j'___ du temps.  (avoir, subjonctif présent)",
+   "options": [
+    "aie",
+    "aies",
+    "ait",
+    "ayons"
+   ],
+   "answer": "aie",
+   "explain": "avoir → j'aie",
+   "speak": "Il faut que j'aie du temps.",
+   "id": "036"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'il ___ du temps.",
+   "answer": "ait",
+   "hint": "avoir · subjonctif présent",
+   "id": "037"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que nous ___ du temps.",
+   "answer": "ayons",
+   "hint": "avoir · subjonctif présent",
+   "id": "038"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'ils ___ du temps.",
+   "answer": "aient",
+   "hint": "avoir · subjonctif présent",
+   "id": "039"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Aller",
+   "type": "Subjonctif présent",
+   "translation": "que j'aille — to go",
+   "exampleFr": "Il faut que nous allions au cinéma.",
+   "exampleEn": "We have to go to the cinema.",
+   "id": "040"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que j'___ au cinéma.",
+   "answer": "aille",
+   "hint": "aller · subjonctif présent",
+   "id": "041"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que tu ___ au cinéma.",
+   "answer": "ailles",
+   "hint": "aller · subjonctif présent",
+   "id": "042"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut que nous ___ au cinéma.  (aller, subjonctif présent)",
+   "options": [
+    "allions",
+    "aillent",
+    "aille",
+    "ailles"
+   ],
+   "answer": "allions",
+   "explain": "aller → nous allions",
+   "speak": "Il faut que nous allions au cinéma.",
+   "id": "043"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que vous ___ au cinéma.",
+   "answer": "alliez",
+   "hint": "aller · subjonctif présent",
+   "id": "044"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Subjonctif présent",
+   "translation": "que je fasse — to do",
+   "exampleFr": "Il faut que nous fassions les courses.",
+   "exampleEn": "We have to do the shopping.",
+   "id": "045"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que tu ___ les courses.",
+   "answer": "fasses",
+   "hint": "faire · subjonctif présent",
+   "id": "046"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut qu'il ___ les courses.  (faire, subjonctif présent)",
+   "options": [
+    "fasse",
+    "fassiez",
+    "fassent",
+    "fasses"
+   ],
+   "answer": "fasse",
+   "explain": "faire → il fasse",
+   "speak": "Il faut qu'il fasse les courses.",
+   "id": "047"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que vous ___ les courses.",
+   "answer": "fassiez",
+   "hint": "faire · subjonctif présent",
+   "id": "048"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'ils ___ les courses.",
+   "answer": "fassent",
+   "hint": "faire · subjonctif présent",
+   "id": "049"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Pouvoir",
+   "type": "Subjonctif présent",
+   "translation": "que je puisse — to be able to",
+   "exampleFr": "Il faut que nous puissions venir.",
+   "exampleEn": "We have to be able to come.",
+   "id": "050"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que je ___ venir.",
+   "answer": "puisse",
+   "hint": "pouvoir · subjonctif présent",
+   "id": "051"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'elle ___ venir.",
+   "answer": "puisse",
+   "hint": "pouvoir · subjonctif présent",
+   "id": "052"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que nous ___ venir.",
+   "answer": "puissions",
+   "hint": "pouvoir · subjonctif présent",
+   "id": "053"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut qu'elles ___ venir.  (pouvoir, subjonctif présent)",
+   "options": [
+    "puissent",
+    "puisses",
+    "puissions",
+    "puissiez"
+   ],
+   "answer": "puissent",
+   "explain": "pouvoir → elles puissent",
+   "speak": "Il faut qu'elles puissent venir.",
+   "id": "054"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Savoir",
+   "type": "Subjonctif présent",
+   "translation": "que je sache — to know",
+   "exampleFr": "Il faut que nous sachions la réponse.",
+   "exampleEn": "We have to know the answer.",
+   "id": "055"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut que je ___ la réponse.  (savoir, subjonctif présent)",
+   "options": [
+    "sache",
+    "saches",
+    "sachions",
+    "sachiez"
+   ],
+   "answer": "sache",
+   "explain": "savoir → je sache",
+   "speak": "Il faut que je sache la réponse.",
+   "id": "056"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que tu ___ la réponse.",
+   "answer": "saches",
+   "hint": "savoir · subjonctif présent",
+   "id": "057"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que nous ___ la réponse.",
+   "answer": "sachions",
+   "hint": "savoir · subjonctif présent",
+   "id": "058"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut que vous ___ la réponse.  (savoir, subjonctif présent)",
+   "options": [
+    "sachiez",
+    "sache",
+    "saches",
+    "sachions"
+   ],
+   "answer": "sachiez",
+   "explain": "savoir → vous sachiez",
+   "speak": "Il faut que vous sachiez la réponse.",
+   "id": "059"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Venir",
+   "type": "Subjonctif présent",
+   "translation": "que je vienne — to come",
+   "exampleFr": "Il faut que nous venions à la fête.",
+   "exampleEn": "We have to come to the party.",
+   "id": "060"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que tu ___ à la fête.",
+   "answer": "viennes",
+   "hint": "venir · subjonctif présent",
+   "id": "061"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'elle ___ à la fête.",
+   "answer": "vienne",
+   "hint": "venir · subjonctif présent",
+   "id": "062"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que vous ___ à la fête.",
+   "answer": "veniez",
+   "hint": "venir · subjonctif présent",
+   "id": "063"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'elles ___ à la fête.",
+   "answer": "viennent",
+   "hint": "venir · subjonctif présent",
+   "id": "064"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Dire",
+   "type": "Subjonctif présent",
+   "translation": "que je dise — to tell",
+   "exampleFr": "Il faut que nous disions la vérité.",
+   "exampleEn": "We have to tell the truth.",
+   "id": "065"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que je ___ la vérité.",
+   "answer": "dise",
+   "hint": "dire · subjonctif présent",
+   "id": "066"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut qu'il ___ la vérité.  (dire, subjonctif présent)",
+   "options": [
+    "dise",
+    "disiez",
+    "disent",
+    "dises"
+   ],
+   "answer": "dise",
+   "explain": "dire → il dise",
+   "speak": "Il faut qu'il dise la vérité.",
+   "id": "067"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que nous ___ la vérité.",
+   "answer": "disions",
+   "hint": "dire · subjonctif présent",
+   "id": "068"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'ils ___ la vérité.",
+   "answer": "disent",
+   "hint": "dire · subjonctif présent",
+   "id": "069"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Partir",
+   "type": "Subjonctif présent",
+   "translation": "que je parte — to leave",
+   "exampleFr": "Il faut que nous partions en vacances.",
+   "exampleEn": "We have to leave on holiday.",
+   "id": "070"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que je ___ en vacances.",
+   "answer": "parte",
+   "hint": "partir · subjonctif présent",
+   "id": "071"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut que tu ___ en vacances.  (partir, subjonctif présent)",
+   "options": [
+    "partes",
+    "partions",
+    "partiez",
+    "partent"
+   ],
+   "answer": "partes",
+   "explain": "partir → tu partes",
+   "speak": "Il faut que tu partes en vacances.",
+   "id": "072"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que nous ___ en vacances.",
+   "answer": "partions",
+   "hint": "partir · subjonctif présent",
+   "id": "073"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que vous ___ en vacances.",
+   "answer": "partiez",
+   "hint": "partir · subjonctif présent",
+   "id": "074"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Boire",
+   "type": "Subjonctif présent",
+   "translation": "que je boive — to drink",
+   "exampleFr": "Il faut que nous buvions un café.",
+   "exampleEn": "We have to drink a coffee.",
+   "id": "075"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que tu ___ un café.",
+   "answer": "boives",
+   "hint": "boire · subjonctif présent",
+   "id": "076"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'il ___ un café.",
+   "answer": "boive",
+   "hint": "boire · subjonctif présent",
+   "id": "077"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut que vous ___ un café.  (boire, subjonctif présent)",
+   "options": [
+    "buviez",
+    "boive",
+    "boives",
+    "buvions"
+   ],
+   "answer": "buviez",
+   "explain": "boire → vous buviez",
+   "speak": "Il faut que vous buviez un café.",
+   "id": "078"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'ils ___ un café.",
+   "answer": "boivent",
+   "hint": "boire · subjonctif présent",
+   "id": "079"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Attendre",
+   "type": "Subjonctif présent",
+   "translation": "que j'attende — to wait for",
+   "exampleFr": "Il faut que nous attendions le bus.",
+   "exampleEn": "We have to wait for the bus.",
+   "id": "080"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que j'___ le bus.",
+   "answer": "attende",
+   "hint": "attendre · subjonctif présent",
+   "id": "081"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'elle ___ le bus.",
+   "answer": "attende",
+   "hint": "attendre · subjonctif présent",
+   "id": "082"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut que nous ___ le bus.  (attendre, subjonctif présent)",
+   "options": [
+    "attendions",
+    "attendent",
+    "attende",
+    "attendes"
+   ],
+   "answer": "attendions",
+   "explain": "attendre → nous attendions",
+   "speak": "Il faut que nous attendions le bus.",
+   "id": "083"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut qu'elles ___ le bus.",
+   "answer": "attendent",
+   "hint": "attendre · subjonctif présent",
+   "id": "084"
+  }
+ ]
+}

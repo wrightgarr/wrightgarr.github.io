@@ -1,0 +1,205 @@
+{
+ "id": "b1-68-subordinating-conjunctions",
+ "level": "B1",
+ "subject": 68,
+ "title": "Subordinating Conjunctions (parce que, quand, si, comme, …)",
+ "description": "Words that attach a dependent clause.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "parce que",
+   "type": "Conjunction",
+   "translation": "because",
+   "exampleFr": "Je reste parce qu'il pleut.",
+   "exampleEn": "I am staying because it is raining.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “since (a reason already known)”",
+   "answer": "puisque",
+   "explain": "Puisque tu es là, aide-moi. — Since you are here, help me.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “as / since (at the start of a sentence)”",
+   "answer": "comme",
+   "explain": "Comme il pleuvait, nous sommes restés. — As it was raining, we stayed.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "quand",
+   "type": "Conjunction",
+   "translation": "when",
+   "exampleFr": "Appelle-moi quand tu arrives.",
+   "exampleEn": "Call me when you arrive.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “when (more formal)”",
+   "answer": "lorsque",
+   "explain": "Lorsque j'étais enfant, j'habitais ici. — When I was a child, I lived here.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “si” mean?",
+   "options": [
+    "if / whether",
+    "although",
+    "because",
+    "when (more formal)"
+   ],
+   "answer": "if / whether",
+   "explain": "Je ne sais pas s'il viendra. — I don't know whether he will come.",
+   "speak": "si",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "pendant que",
+   "type": "Conjunction",
+   "translation": "while (at the same time)",
+   "exampleFr": "Je lis pendant qu'elle cuisine.",
+   "exampleEn": "I read while she cooks.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “whereas / while (contrast)”",
+   "answer": "alors que",
+   "explain": "Il est grand, alors que son frère est petit. — He is tall, whereas his brother is short.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “although”",
+   "answer": "bien que",
+   "explain": "Bien qu'il soit tard, je travaille. — Although it is late, I am working.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "pour que",
+   "type": "Conjunction + subjonctif",
+   "translation": "so that",
+   "exampleFr": "Je t'explique pour que tu comprennes.",
+   "exampleEn": "I am explaining so that you understand.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “that”",
+   "answer": "que",
+   "explain": "Je pense que tu as raison. — I think that you are right.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “tandis que” mean?",
+   "options": [
+    "whereas / while",
+    "as / since (at the start of a sentence)",
+    "while (at the same time)",
+    "that"
+   ],
+   "answer": "whereas / while",
+   "explain": "Elle lit tandis que je dors. — She reads while I sleep.",
+   "speak": "tandis que",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je reste à la maison ___ il pleut.",
+   "answer": "parce qu'",
+   "hint": "because",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ il faisait beau, nous sommes sortis.",
+   "answer": "Comme",
+   "hint": "as / since",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne sais pas ___ il viendra.",
+   "answer": "s'",
+   "hint": "whether",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ tu es là, aide-moi !",
+   "answer": "Puisque",
+   "hint": "since",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je lis ___ elle cuisine.",
+   "answer": "pendant qu'",
+   "hint": "while",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est grand, ___ son frère est petit.",
+   "answer": "alors que",
+   "hint": "whereas",
+   "accept": [
+    "tandis que"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je pense ___ tu as raison.",
+   "answer": "que",
+   "hint": "that",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ il soit fatigué, il travaille.",
+   "answer": "Bien qu'",
+   "hint": "although",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je t'explique ___ tu comprennes.",
+   "answer": "pour que",
+   "hint": "so that",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Bien que” is followed by…",
+   "options": [
+    "the subjonctif",
+    "the indicatif",
+    "the infinitive",
+    "the conditionnel"
+   ],
+   "answer": "the subjonctif",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Comme” at the start of a sentence usually means…",
+   "options": [
+    "as / since",
+    "like",
+    "how",
+    "although"
+   ],
+   "answer": "as / since",
+   "id": "023"
+  }
+ ]
+}

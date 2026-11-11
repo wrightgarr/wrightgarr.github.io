@@ -1,0 +1,230 @@
+{
+ "id": "b1-66-l-indicatif-vs-le-subjonctif",
+ "level": "B1",
+ "subject": 66,
+ "title": "L’Indicatif vs Le Subjonctif",
+ "description": "Facts and certainty against will, feeling and doubt.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Indicatif",
+   "type": "Rule",
+   "translation": "After certainty and opinion: je pense que, je crois que, je sais que, il est évident que, espérer que",
+   "exampleFr": "Je pense qu'il a raison.",
+   "exampleEn": "I think he is right.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Subjonctif",
+   "type": "Rule",
+   "translation": "After necessity, will, emotion and doubt: il faut que, je veux que, je suis content que, je doute que",
+   "exampleFr": "Je doute qu'il ait raison.",
+   "exampleEn": "I doubt that he is right.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Opinion à la forme négative",
+   "type": "Rule",
+   "translation": "je ne pense pas que / je ne crois pas que → subjonctif",
+   "exampleFr": "Je ne pense pas qu'il vienne.",
+   "exampleEn": "I do not think he is coming.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Conjonctions",
+   "type": "Rule",
+   "translation": "bien que, pour que, avant que, à condition que → subjonctif; parce que, pendant que, après que → indicatif",
+   "exampleFr": "Bien qu'il pleuve, je sors parce que j'ai rendez-vous.",
+   "exampleEn": "Although it is raining, I am going out because I have an appointment.",
+   "id": "004"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je pense qu'il ___ raison.",
+   "options": [
+    "a",
+    "ait"
+   ],
+   "answer": "a",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ne pense pas qu'il ___ raison.",
+   "options": [
+    "ait",
+    "a"
+   ],
+   "answer": "ait",
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il faut que tu ___ ici.",
+   "options": [
+    "sois",
+    "es"
+   ],
+   "answer": "sois",
+   "id": "007"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'espère que tu ___ bien.",
+   "options": [
+    "vas",
+    "ailles"
+   ],
+   "answer": "vas",
+   "explain": "espérer que takes the indicatif.",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je veux que vous ___ la vérité.",
+   "options": [
+    "disiez",
+    "dites"
+   ],
+   "answer": "disiez",
+   "id": "009"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Bien qu'il ___ fatigué, il travaille.",
+   "options": [
+    "soit",
+    "est"
+   ],
+   "answer": "soit",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je sais qu'elle ___ demain.",
+   "options": [
+    "vient",
+    "vienne"
+   ],
+   "answer": "vient",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je suis content que tu ___ là.",
+   "options": [
+    "sois",
+    "es"
+   ],
+   "answer": "sois",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il reste au lit parce qu'il ___ malade.",
+   "options": [
+    "est",
+    "soit"
+   ],
+   "answer": "est",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je doute qu'il ___ le temps.",
+   "options": [
+    "ait",
+    "a"
+   ],
+   "answer": "ait",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que nous ___ à l'heure.",
+   "answer": "soyons",
+   "hint": "être",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je crois que tu ___ raison.",
+   "answer": "as",
+   "hint": "avoir",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle veut que je ___ avec elle.",
+   "answer": "vienne",
+   "hint": "venir",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est évident que tu ___ fatigué.",
+   "answer": "es",
+   "hint": "être",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je parle lentement pour que vous ___.",
+   "answer": "compreniez",
+   "hint": "comprendre",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Avant que tu ___, prends ce livre.",
+   "answer": "partes",
+   "hint": "partir",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai peur qu'il ___ trop tard.",
+   "answer": "soit",
+   "hint": "être",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est possible qu'il ___ demain.",
+   "answer": "pleuve",
+   "hint": "pleuvoir",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je trouve que ce film ___ excellent.",
+   "answer": "est",
+   "hint": "être",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne crois pas qu'elle ___ la réponse.",
+   "answer": "sache",
+   "hint": "savoir",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous sommes tristes que vous ___ déjà.",
+   "answer": "partiez",
+   "hint": "partir",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est certain qu'elle ___ le français.",
+   "answer": "comprend",
+   "hint": "comprendre",
+   "id": "026"
+  }
+ ]
+}

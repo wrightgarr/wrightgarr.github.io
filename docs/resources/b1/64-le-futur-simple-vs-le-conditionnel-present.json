@@ -1,0 +1,194 @@
+{
+ "id": "b1-64-le-futur-simple-vs-le-conditionnel-present",
+ "level": "B1",
+ "subject": 64,
+ "title": "Le Futur Simple vs Le Conditionnel Présent",
+ "description": "-rai or -rais? will or would?",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "je parlerai / je parlerais",
+   "type": "Rule",
+   "translation": "Futur: -rai (what will happen). Conditionnel: -rais (what would happen)",
+   "exampleFr": "Demain je viendrai. Si je pouvais, je viendrais.",
+   "exampleEn": "Tomorrow I will come. If I could, I would come.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "si + présent → futur",
+   "type": "Rule",
+   "translation": "A real, possible condition",
+   "exampleFr": "Si tu viens, nous mangerons ensemble.",
+   "exampleEn": "If you come, we will eat together.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "si + imparfait → conditionnel",
+   "type": "Rule",
+   "translation": "An unreal or unlikely condition",
+   "exampleFr": "Si tu venais, nous mangerions ensemble.",
+   "exampleEn": "If you came, we would eat together.",
+   "id": "003"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Demain, je ___ à Paris.",
+   "options": [
+    "irai",
+    "irais"
+   ],
+   "answer": "irai",
+   "id": "004"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Si j'avais le temps, je ___.",
+   "options": [
+    "voyagerais",
+    "voyagerai"
+   ],
+   "answer": "voyagerais",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Si tu viens, nous ___ ensemble.",
+   "options": [
+    "mangerons",
+    "mangerions"
+   ],
+   "answer": "mangerons",
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ bien un café, s'il vous plaît.",
+   "options": [
+    "prendrais",
+    "prendrai"
+   ],
+   "answer": "prendrais",
+   "explain": "Politeness uses the conditionnel.",
+   "id": "007"
+  },
+  {
+   "kind": "choice",
+   "prompt": "L'année prochaine, elle ___ trente ans.",
+   "options": [
+    "aura",
+    "aurait"
+   ],
+   "answer": "aura",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "À ta place, je ___ la vérité.",
+   "options": [
+    "dirais",
+    "dirai"
+   ],
+   "answer": "dirais",
+   "explain": "“À ta place” is a hypothesis.",
+   "id": "009"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand tu ___ grand, tu comprendras.",
+   "options": [
+    "seras",
+    "serais"
+   ],
+   "answer": "seras",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Si c'était possible, ils ___ plus tôt.",
+   "options": [
+    "partiraient",
+    "partiront"
+   ],
+   "answer": "partiraient",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "S'il fait beau demain, nous ___ au parc.",
+   "answer": "irons",
+   "hint": "aller",
+   "translation": "If the weather is nice tomorrow, we will go to the park.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si j'étais riche, j'___ une maison.",
+   "answer": "achèterais",
+   "hint": "acheter",
+   "translation": "If I were rich, I would buy a house.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ parler au directeur, s'il vous plaît.",
+   "answer": "voudrais",
+   "hint": "vouloir",
+   "translation": "I would like to speak to the manager, please.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Dans dix ans, tout ___ différent.",
+   "answer": "sera",
+   "hint": "être",
+   "translation": "In ten years, everything will be different.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si elle travaillait plus, elle ___.",
+   "answer": "réussirait",
+   "hint": "réussir",
+   "translation": "If she worked more, she would succeed.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ m'aider ? Ce serait gentil.",
+   "answer": "pourrais",
+   "hint": "pouvoir",
+   "translation": "Could you help me? That would be kind.",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si tu as faim, je te ___ un sandwich.",
+   "answer": "ferai",
+   "hint": "faire",
+   "translation": "If you are hungry, I will make you a sandwich.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Sans toi, je ne ___ pas quoi faire.",
+   "answer": "saurais",
+   "hint": "savoir",
+   "translation": "Without you, I would not know what to do.",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I will come tomorrow.”",
+   "answer": "Je viendrai demain",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I would come if I could.”",
+   "answer": "Je viendrais si je pouvais",
+   "id": "021"
+  }
+ ]
+}

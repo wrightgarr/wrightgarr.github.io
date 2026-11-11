@@ -1,0 +1,185 @@
+{
+ "id": "b1-75-indirect-speech",
+ "level": "B1",
+ "subject": 75,
+ "title": "Indirect Speech",
+ "description": "Reporting what someone said or asked.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "dire que / demander si",
+   "type": "Rule",
+   "translation": "Statements take que; yes / no questions take si",
+   "exampleFr": "Il dit qu'il vient. Elle demande si tu viens.",
+   "exampleEn": "He says he is coming. She asks whether you are coming.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ce que / ce qui",
+   "type": "Rule",
+   "translation": "qu'est-ce que → ce que; qu'est-ce qui → ce qui",
+   "exampleFr": "Il demande ce que tu fais.",
+   "exampleEn": "He asks what you are doing.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Concordance des temps",
+   "type": "Rule",
+   "translation": "After a past reporting verb: présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel",
+   "exampleFr": "« Je viendrai. » → Il a dit qu'il viendrait.",
+   "exampleEn": "“I will come.” → He said he would come.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Impératif → de + infinitif",
+   "type": "Rule",
+   "translation": "A reported order uses de + infinitive",
+   "exampleFr": "« Entre ! » → Il me dit d'entrer.",
+   "exampleEn": "“Come in!” → He tells me to come in.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Les marqueurs de temps",
+   "type": "Rule",
+   "translation": "demain → le lendemain; hier → la veille; aujourd'hui → ce jour-là",
+   "exampleFr": "Il a dit qu'il partirait le lendemain.",
+   "exampleEn": "He said he would leave the next day.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Report it: Il dit : « Je suis fatigué. »",
+   "answer": "Il dit qu'il est fatigué",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Report it: Elle demande : « Tu viens ? »",
+   "answer": "Elle demande si je viens",
+   "accept": [
+    "Elle demande si tu viens"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Report it: Il a dit : « Je suis malade. »",
+   "answer": "Il a dit qu'il était malade",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Report it: Elle a dit : « J'ai fini. »",
+   "answer": "Elle a dit qu'elle avait fini",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Report it: Il a dit : « Je viendrai. »",
+   "answer": "Il a dit qu'il viendrait",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Report it: Elle me dit : « Ferme la porte ! »",
+   "answer": "Elle me dit de fermer la porte",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Report it: Il demande : « Qu'est-ce que tu fais ? »",
+   "answer": "Il demande ce que je fais",
+   "accept": [
+    "Il demande ce que tu fais"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Report it: Elle demande : « Où habites-tu ? »",
+   "answer": "Elle demande où j'habite",
+   "accept": [
+    "Elle demande où tu habites"
+   ],
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il a dit qu'il ___ fatigué.",
+   "answer": "était",
+   "hint": "être",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a dit qu'elle ___ le lendemain.",
+   "answer": "partirait",
+   "hint": "partir",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je me demande ___ il viendra.",
+   "answer": "s'",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Dis-moi ce ___ tu veux.",
+   "answer": "que",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne sais pas ce ___ se passe.",
+   "answer": "qui",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il m'a demandé ___ venir.",
+   "answer": "de",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "« Demain » devient « le ___ ».",
+   "answer": "lendemain",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "« Hier » devient « la ___ ».",
+   "answer": "veille",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "« Je partirai. » → Il a dit qu'il…",
+   "options": [
+    "partirait",
+    "partira",
+    "partait",
+    "est parti"
+   ],
+   "answer": "partirait",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "« J'ai mangé. » → Elle a dit qu'elle…",
+   "options": [
+    "avait mangé",
+    "a mangé",
+    "mangeait",
+    "mangerait"
+   ],
+   "answer": "avait mangé",
+   "id": "023"
+  }
+ ]
+}
