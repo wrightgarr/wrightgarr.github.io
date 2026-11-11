@@ -1,0 +1,254 @@
+{
+ "id": "b2-104-advanced-prepositions",
+ "level": "B2",
+ "subject": 104,
+ "title": "Advanced Prepositions (à partir de, dès, en attendant, d'ici, …)",
+ "description": "Precise prepositions of time, relation and concession.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "à partir de",
+   "type": "Preposition",
+   "translation": "from … onwards",
+   "exampleFr": "À partir de lundi, je travaille à Lyon.",
+   "exampleEn": "From Monday onwards, I am working in Lyon.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “from / as early as”",
+   "answer": "dès",
+   "explain": "Dès demain, je commence le sport. — Starting tomorrow, I am taking up exercise.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “while waiting for / in the meantime”",
+   "answer": "en attendant",
+   "explain": "En attendant le train, je lis. — While waiting for the train, I read.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "d'ici",
+   "type": "Preposition",
+   "translation": "by / between now and",
+   "exampleFr": "Je reviens d'ici une heure.",
+   "exampleEn": "I will be back within the hour.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “in the course of”",
+   "answer": "au cours de",
+   "explain": "Au cours de la réunion, il a démissionné. — In the course of the meeting, he resigned.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “lors de” mean?",
+   "options": [
+    "at the time of / during",
+    "towards (attitude)",
+    "according to",
+    "for lack of"
+   ],
+   "answer": "at the time of / during",
+   "explain": "Lors de mon voyage, j'ai rencontré Paul. — During my trip, I met Paul.",
+   "speak": "lors de",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "au sein de",
+   "type": "Preposition",
+   "translation": "within",
+   "exampleFr": "Il travaille au sein de l'équipe.",
+   "exampleEn": "He works within the team.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “towards / with regard to”",
+   "answer": "à l'égard de",
+   "explain": "Il est sévère à l'égard de ses élèves. — He is strict towards his pupils.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “towards (attitude)”",
+   "answer": "envers",
+   "explain": "Elle est gentille envers tout le monde. — She is kind to everyone.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "auprès de",
+   "type": "Preposition",
+   "translation": "with / to (a person or authority)",
+   "exampleFr": "Renseignez-vous auprès de la mairie.",
+   "exampleEn": "Ask at the town hall.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “despite”",
+   "answer": "malgré",
+   "explain": "Malgré la pluie, nous sommes sortis. — Despite the rain, we went out.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “en dépit de” mean?",
+   "options": [
+    "in spite of",
+    "among",
+    "failing / for want of",
+    "from / as early as"
+   ],
+   "answer": "in spite of",
+   "explain": "En dépit de ses efforts, il a échoué. — In spite of his efforts, he failed.",
+   "speak": "en dépit de",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "selon",
+   "type": "Preposition",
+   "translation": "according to",
+   "exampleFr": "Selon la météo, il va neiger.",
+   "exampleEn": "According to the forecast, it is going to snow.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “according to”",
+   "answer": "d'après",
+   "explain": "D'après lui, c'est impossible. — According to him, it is impossible.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “among”",
+   "answer": "parmi",
+   "explain": "Parmi mes amis, deux sont médecins. — Among my friends, two are doctors.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "hormis",
+   "type": "Preposition",
+   "translation": "apart from",
+   "exampleFr": "Hormis Paul, tout le monde est venu.",
+   "exampleEn": "Apart from Paul, everyone came.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “for lack of”",
+   "answer": "faute de",
+   "explain": "Faute de temps, j'ai annulé. — For lack of time, I cancelled.",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “afin de” mean?",
+   "options": [
+    "in order to",
+    "beyond",
+    "by / between now and",
+    "towards / with regard to"
+   ],
+   "answer": "in order to",
+   "explain": "Il économise afin d'acheter une maison. — He is saving in order to buy a house.",
+   "speak": "afin de",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "à défaut de",
+   "type": "Preposition",
+   "translation": "failing / for want of",
+   "exampleFr": "À défaut de beurre, utilise de l'huile.",
+   "exampleEn": "Failing butter, use oil.",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “with respect to / towards”",
+   "answer": "vis-à-vis de",
+   "explain": "Sa position vis-à-vis du projet a changé. — His position on the project has changed.",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “beyond”",
+   "answer": "au-delà de",
+   "explain": "Au-delà de cette limite, le billet n'est plus valable. — Beyond this point, the ticket is no longer valid.",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ demain, je commence le sport.",
+   "answer": "Dès",
+   "hint": "starting",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je reviens ___ une heure.",
+   "answer": "d'ici",
+   "hint": "within",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ la pluie, nous sommes sortis.",
+   "answer": "Malgré",
+   "hint": "despite",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ de temps, j'ai annulé.",
+   "answer": "Faute",
+   "hint": "for lack",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Renseignez-vous ___ de la mairie.",
+   "answer": "auprès",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ la météo, il va neiger.",
+   "answer": "Selon",
+   "hint": "according to",
+   "accept": [
+    "D'après"
+   ],
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ de mon voyage, j'ai rencontré Paul.",
+   "answer": "Lors",
+   "hint": "during",
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“malgré” is followed by…",
+   "options": [
+    "a noun",
+    "the subjonctif",
+    "que + indicatif",
+    "an infinitive"
+   ],
+   "answer": "a noun",
+   "id": "029"
+  }
+ ]
+}

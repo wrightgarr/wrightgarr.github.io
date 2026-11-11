@@ -1,0 +1,161 @@
+{
+ "id": "b2-108-relative-pronoun-duquel",
+ "level": "B2",
+ "subject": 108,
+ "title": "Relative Pronoun: duquel",
+ "description": "de + lequel, after compound prepositions.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "duquel / de laquelle / desquels / desquelles",
+   "type": "Relative pronoun",
+   "translation": "of which / from which — after a compound preposition ending in de",
+   "exampleFr": "Le parc près duquel j'habite.",
+   "exampleEn": "The park near which I live.",
+   "hint": "de + lequel = duquel ; de + lesquels = desquels ; de + lesquelles = desquelles",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "dont ou duquel ?",
+   "type": "Rule",
+   "translation": "Verb + de → dont. Preposition + de (près de, à côté de, au sujet de, à cause de…) → duquel",
+   "exampleFr": "Le livre dont je parle. / Le lac au bord duquel je campe.",
+   "exampleEn": "The book I am talking about. / The lake beside which I am camping.",
+   "id": "002"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le parc près ___ j'habite est grand.",
+   "answer": "duquel",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La maison à côté ___ il vit est vide.",
+   "answer": "de laquelle",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les amis à cause ___ je suis en retard s'excusent.",
+   "answer": "desquels",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les montagnes au pied ___ se trouve le village sont hautes.",
+   "answer": "desquelles",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le sujet à propos ___ nous discutons est délicat.",
+   "answer": "duquel",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La table autour ___ nous sommes assis est ronde.",
+   "answer": "de laquelle",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le lac au bord ___ nous campons est calme.",
+   "answer": "duquel",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les années au cours ___ il a voyagé l'ont changé.",
+   "answer": "desquelles",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le bâtiment en face ___ je travaille est neuf.",
+   "answer": "duquel",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La rivière le long ___ nous marchons est belle.",
+   "answer": "de laquelle",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le film à la fin ___ tout le monde pleure est un classique.",
+   "answer": "duquel",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les arbres au milieu ___ se cache la maison sont vieux.",
+   "answer": "desquels",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est l'ami ___ je t'ai parlé.",
+   "answer": "dont",
+   "explain": "parler de is a verb + de, so dont.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est le livre ___ j'ai besoin.",
+   "answer": "dont",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Contract: de + lequel",
+   "answer": "duquel",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Contract: de + lesquels",
+   "answer": "desquels",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Contract: de + lesquelles",
+   "answer": "desquelles",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the form: de + laquelle",
+   "answer": "de laquelle",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "After “près de”, the relative pronoun for “le musée” is…",
+   "options": [
+    "duquel",
+    "dont",
+    "auquel",
+    "que"
+   ],
+   "answer": "duquel",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "La ville près de laquelle j'habite.",
+    "La ville près dont j'habite.",
+    "La ville dont près j'habite.",
+    "La ville près que j'habite."
+   ],
+   "answer": "La ville près de laquelle j'habite.",
+   "id": "022"
+  }
+ ]
+}

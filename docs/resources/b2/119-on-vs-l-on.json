@@ -1,0 +1,191 @@
+{
+ "id": "b2-119-on-vs-l-on",
+ "level": "B2",
+ "subject": 119,
+ "title": "On vs L'on",
+ "description": "When on becomes l'on.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "on",
+   "type": "Pronoun",
+   "translation": "we (informal), people in general, someone, one — always with a 3rd person singular verb",
+   "exampleFr": "On va au cinéma. En France, on dîne tard. On frappe à la porte.",
+   "exampleEn": "We are going to the cinema. In France, people dine late. Someone is knocking at the door.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "l'on",
+   "type": "Pronoun (formal)",
+   "translation": "The same pronoun with l' added for the sound, in careful writing",
+   "exampleFr": "C'est un pays où l'on mange bien.",
+   "exampleEn": "It is a country where one eats well.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Quand écrire l'on",
+   "type": "Rule",
+   "translation": "After et, ou, où, que, si, lorsque — to avoid two vowels meeting, or the sound of “qu'on”",
+   "exampleFr": "Si l'on veut. Ce que l'on dit.",
+   "exampleEn": "If one wishes. What people say.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Quand l'éviter",
+   "type": "Rule",
+   "translation": "Not at the start of a sentence in ordinary prose, and not before a word starting with l",
+   "exampleFr": "On le lit. (not “l'on le lit”)",
+   "exampleEn": "One reads it.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Accord avec on = nous",
+   "type": "Rule",
+   "translation": "When on means nous, the participle or adjective may take the plural",
+   "exampleFr": "On est arrivés hier.",
+   "exampleEn": "We arrived yesterday.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “On frappe à la porte”, on means…",
+   "options": [
+    "someone",
+    "we",
+    "you",
+    "they (women)"
+   ],
+   "answer": "someone",
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “En France, on dîne tard”, on means…",
+   "options": [
+    "people in general",
+    "I",
+    "someone",
+    "you two"
+   ],
+   "answer": "people in general",
+   "id": "007"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “On y va ?”, on means…",
+   "options": [
+    "we",
+    "someone",
+    "people in general",
+    "he"
+   ],
+   "answer": "we",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In formal writing, which is preferred?",
+   "options": [
+    "le pays où l'on vit",
+    "le pays où on vit",
+    "le pays où l'en vit",
+    "le pays où lon vit"
+   ],
+   "answer": "le pays où l'on vit",
+   "id": "009"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which should be avoided?",
+   "options": [
+    "et l'on le lit",
+    "et l'on dit",
+    "si l'on veut",
+    "ce que l'on sait"
+   ],
+   "answer": "et l'on le lit",
+   "explain": "Avoid l'on before a word that starts with l.",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "The verb after on is always…",
+   "options": [
+    "3rd person singular",
+    "1st person plural",
+    "3rd person plural",
+    "2nd person plural"
+   ],
+   "answer": "3rd person singular",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est un endroit où l'___ mange bien.",
+   "answer": "on",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ dit que le temps, c'est de l'argent.",
+   "answer": "On",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si ___ on savait tout, la vie serait ennuyeuse.",
+   "answer": "l'",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous, ___ adore le cinéma.",
+   "answer": "on",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Hier, on est ___ en retard.",
+   "answer": "arrivés",
+   "hint": "arriver · on = nous",
+   "accept": [
+    "arrivé",
+    "arrivées"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ partir maintenant.",
+   "answer": "doit",
+   "hint": "devoir",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Say it informally with on: “Nous allons au cinéma.”",
+   "answer": "On va au cinéma",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Say it informally with on: “Nous avons faim.”",
+   "answer": "On a faim",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Say it informally with on: “Nous sommes partis.”",
+   "answer": "On est partis",
+   "accept": [
+    "On est parti",
+    "On est parties"
+   ],
+   "id": "020"
+  }
+ ]
+}

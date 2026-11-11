@@ -1,0 +1,162 @@
+{
+ "id": "b2-99-causative-construction-with-faire",
+ "level": "B2",
+ "subject": 99,
+ "title": "Causative Construction With \"faire\"",
+ "description": "faire + infinitive: to have something done, to make someone do.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "faire + infinitif",
+   "type": "Rule",
+   "translation": "The subject causes the action but does not do it",
+   "exampleFr": "Je fais réparer ma voiture.",
+   "exampleEn": "I am having my car repaired.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Place des pronoms",
+   "type": "Rule",
+   "translation": "Pronouns go before faire, not before the infinitive",
+   "exampleFr": "Je la fais réparer. Il me fait rire.",
+   "exampleEn": "I am having it repaired. He makes me laugh.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "fait est invariable",
+   "type": "Rule",
+   "translation": "The participle fait never agrees when followed by an infinitive",
+   "exampleFr": "Les robes qu'elle a fait faire.",
+   "exampleEn": "The dresses she had made.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I am having my car repaired.”",
+   "answer": "Je fais réparer ma voiture",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “She had a house built.”",
+   "answer": "Elle a fait construire une maison",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “The teacher makes the pupils work.”",
+   "answer": "Le professeur fait travailler les élèves",
+   "accept": [
+    "Le professeur fait travailler les étudiants"
+   ],
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “He makes me laugh.”",
+   "answer": "Il me fait rire",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Je fais réparer la voiture.”",
+   "answer": "Je la fais réparer",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Elle a fait venir le médecin.”",
+   "answer": "Elle l'a fait venir",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “You make the children eat.”  (tu)",
+   "answer": "Tu fais manger les enfants",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Demain, je ___ couper mes cheveux.",
+   "answer": "ferai",
+   "hint": "faire · futur",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a ___ réparer son vélo.",
+   "answer": "fait",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce film me ___ pleurer.",
+   "answer": "fait",
+   "hint": "faire",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fait laver sa voiture ___ son fils.",
+   "answer": "par",
+   "accept": [
+    "à"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les robes ? Elle les a ___ faire à Paris.",
+   "answer": "fait",
+   "explain": "fait + infinitive never agrees.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ construire une piscine.",
+   "answer": "faisons",
+   "hint": "faire · présent",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il attend dehors. Fais-___ entrer !",
+   "answer": "le",
+   "hint": "him",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ne me ___ pas attendre !",
+   "answer": "fais",
+   "hint": "faire · tu",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Je fais faire un gâteau” means…",
+   "options": [
+    "I am having a cake made",
+    "I am making a cake",
+    "I make cakes often",
+    "I made a cake twice"
+   ],
+   "answer": "I am having a cake made",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "Je les ai fait venir.",
+    "Je les ai faits venir.",
+    "J'ai fait les venir.",
+    "J'ai les fait venir."
+   ],
+   "answer": "Je les ai fait venir.",
+   "id": "020"
+  }
+ ]
+}

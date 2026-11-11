@@ -1,0 +1,180 @@
+{
+ "id": "b2-100-advanced-causative-construction-with-se-faire",
+ "level": "B2",
+ "subject": 100,
+ "title": "Advanced Causative Construction With \"se faire\"",
+ "description": "se faire + infinitive: getting something done to yourself.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "se faire couper les cheveux",
+   "type": "Expression",
+   "translation": "to get one's hair cut",
+   "exampleFr": "Je me fais couper les cheveux demain.",
+   "exampleEn": "I am getting my hair cut tomorrow.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to get robbed”",
+   "answer": "se faire voler",
+   "explain": "Elle s'est fait voler son sac. — She had her bag stolen.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to get arrested”",
+   "answer": "se faire arrêter",
+   "explain": "Il s'est fait arrêter par la police. — He got arrested by the police.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "se faire comprendre",
+   "type": "Expression",
+   "translation": "to make oneself understood",
+   "exampleFr": "J'ai du mal à me faire comprendre.",
+   "exampleEn": "I have trouble making myself understood.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to have an operation”",
+   "answer": "se faire opérer",
+   "explain": "Elle se fait opérer lundi. — She is having an operation on Monday.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “se faire avoir” mean?",
+   "options": [
+    "to be had / tricked",
+    "to get told off",
+    "to get arrested",
+    "to get oneself noticed"
+   ],
+   "answer": "to be had / tricked",
+   "explain": "Je me suis fait avoir par ce vendeur. — I was tricked by that salesman.",
+   "speak": "se faire avoir",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "se faire remarquer",
+   "type": "Expression",
+   "translation": "to get oneself noticed",
+   "exampleFr": "Il aime se faire remarquer.",
+   "exampleEn": "He likes to get himself noticed.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to get fired / expelled”",
+   "answer": "se faire renvoyer",
+   "explain": "Il s'est fait renvoyer de l'école. — He got expelled from school.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to get told off”",
+   "answer": "se faire gronder",
+   "explain": "Tu vas te faire gronder ! — You are going to get told off!",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "se faire du souci",
+   "type": "Expression",
+   "translation": "to worry",
+   "exampleFr": "Ne te fais pas de souci pour moi.",
+   "exampleEn": "Do not worry about me.",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "se faire + infinitif",
+   "type": "Rule",
+   "translation": "The subject undergoes the action, often with some responsibility; auxiliary être, and fait stays invariable",
+   "exampleFr": "Elle s'est fait opérer.",
+   "exampleEn": "She had an operation.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I am getting my hair cut.”",
+   "answer": "Je me fais couper les cheveux",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “She got her bag stolen.”",
+   "answer": "Elle s'est fait voler son sac",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “He got arrested.”",
+   "answer": "Il s'est fait arrêter",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “We made ourselves understood.”",
+   "answer": "Nous nous sommes fait comprendre",
+   "accept": [
+    "On s'est fait comprendre"
+   ],
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle s'est ___ opérer hier.",
+   "answer": "fait",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je me ___ fait voler mon portefeuille.",
+   "answer": "suis",
+   "hint": "auxiliary",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu vas te ___ gronder !",
+   "answer": "faire",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils se sont ___ avoir.",
+   "answer": "fait",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il s'est fait ___ par la police.",
+   "answer": "arrêter",
+   "hint": "arrêter",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ fait couper les cheveux chaque mois.",
+   "answer": "se",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "Elle s'est fait opérer.",
+    "Elle s'est faite opérer.",
+    "Elle a se fait opérer.",
+    "Elle s'a fait opérer."
+   ],
+   "answer": "Elle s'est fait opérer.",
+   "id": "022"
+  }
+ ]
+}

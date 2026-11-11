@@ -1,0 +1,172 @@
+{
+ "id": "b2-101-advanced-causative-construction-with-se-laisser",
+ "level": "B2",
+ "subject": 101,
+ "title": "Advanced Causative Construction With \"se laisser\"",
+ "description": "se laisser + infinitive: letting something happen to yourself.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "se laisser faire",
+   "type": "Expression",
+   "translation": "to let people push you around / not to resist",
+   "exampleFr": "Ne te laisse pas faire !",
+   "exampleEn": "Don't let them push you around!",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to let oneself go”",
+   "answer": "se laisser aller",
+   "explain": "Depuis sa retraite, il se laisse aller. — Since he retired, he has let himself go.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to give in to temptation”",
+   "answer": "se laisser tenter",
+   "explain": "Je me suis laissé tenter par ce gâteau. — I gave in to that cake.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "se laisser convaincre",
+   "type": "Expression",
+   "translation": "to let oneself be persuaded",
+   "exampleFr": "Elle s'est laissé convaincre.",
+   "exampleEn": "She let herself be persuaded.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to get carried away”",
+   "answer": "se laisser emporter",
+   "explain": "Il s'est laissé emporter par la colère. — He got carried away by anger.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “se laisser surprendre” mean?",
+   "options": [
+    "to be caught off guard",
+    "to take life easy",
+    "to give in to temptation",
+    "to let oneself be influenced"
+   ],
+   "answer": "to be caught off guard",
+   "explain": "Nous nous sommes laissé surprendre par la pluie. — We were caught out by the rain.",
+   "speak": "se laisser surprendre",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "se laisser influencer",
+   "type": "Expression",
+   "translation": "to let oneself be influenced",
+   "exampleFr": "Elle se laisse influencer par ses amis.",
+   "exampleEn": "She lets herself be influenced by her friends.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to let oneself get discouraged”",
+   "answer": "se laisser abattre",
+   "explain": "Ne te laisse pas abattre ! — Don't let it get you down!",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to take life easy”",
+   "answer": "se laisser vivre",
+   "explain": "En vacances, je me laisse vivre. — On holiday, I take life easy.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "se laisser distraire",
+   "type": "Expression",
+   "translation": "to let oneself get distracted",
+   "exampleFr": "Il se laisse distraire par son téléphone.",
+   "exampleEn": "He lets his phone distract him.",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "se faire / se laisser",
+   "type": "Rule",
+   "translation": "se faire: the subject brings it about; se laisser: the subject passively allows it",
+   "exampleFr": "Il s'est fait convaincre. / Il s'est laissé convaincre.",
+   "exampleEn": "He got himself persuaded. / He let himself be persuaded.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “I gave in to temptation.”  (se laisser tenter)",
+   "answer": "Je me suis laissé tenter",
+   "accept": [
+    "Je me suis laissée tenter"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Don't let it get you down!”  (tu)",
+   "answer": "Ne te laisse pas abattre",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “She let herself be persuaded.”",
+   "answer": "Elle s'est laissé convaincre",
+   "accept": [
+    "Elle s'est laissée convaincre"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ne te ___ pas faire !",
+   "answer": "laisse",
+   "hint": "laisser · tu",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il s'est ___ emporter par la colère.",
+   "answer": "laissé",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je me suis laissé ___ par ce gâteau.",
+   "answer": "tenter",
+   "hint": "tenter",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle se ___ influencer par ses amis.",
+   "answer": "laisse",
+   "hint": "laisser · présent",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Laissez-___ tenter !",
+   "answer": "vous",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which one stresses passivity?",
+   "options": [
+    "se laisser + infinitive",
+    "se faire + infinitive",
+    "faire + infinitive",
+    "both equally"
+   ],
+   "answer": "se laisser + infinitive",
+   "id": "020"
+  }
+ ]
+}

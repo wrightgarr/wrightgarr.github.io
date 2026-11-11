@@ -1,0 +1,165 @@
+{
+ "id": "b2-103-complex-inversions",
+ "level": "B2",
+ "subject": 103,
+ "title": "Complex Inversions",
+ "description": "Inversion with a noun subject, and after certain adverbs.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "L'inversion complexe",
+   "type": "Rule",
+   "translation": "The noun subject stays in front, and a matching pronoun is added after the verb",
+   "exampleFr": "Marie vient-elle demain ?",
+   "exampleEn": "Is Marie coming tomorrow?",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-t- euphonique",
+   "type": "Rule",
+   "translation": "Insert -t- when the verb ends in a vowel before il, elle, on",
+   "exampleFr": "Paul a-t-il téléphoné ?",
+   "exampleEn": "Did Paul phone?",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Après peut-être, sans doute, ainsi, aussi, à peine",
+   "type": "Rule",
+   "translation": "In formal writing these adverbs at the start trigger inversion",
+   "exampleFr": "Peut-être viendra-t-il. À peine était-il arrivé que…",
+   "exampleEn": "Perhaps he will come. He had hardly arrived when…",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Les incises",
+   "type": "Rule",
+   "translation": "Reporting clauses inside or after a quotation are inverted",
+   "exampleFr": "« Je reviendrai », dit-elle.",
+   "exampleEn": "“I will come back,” she said.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avec je",
+   "type": "Rule",
+   "translation": "Inversion with je is rare; only a few forms are used",
+   "exampleFr": "Puis-je ? Suis-je ? Ai-je ? Dois-je ?",
+   "exampleEn": "May I? Am I? Have I? Must I?",
+   "hint": "“Peux-je” does not exist: say “puis-je”",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with complex inversion: “Marie vient demain.”",
+   "answer": "Marie vient-elle demain",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with complex inversion: “Les enfants ont mangé.”",
+   "answer": "Les enfants ont-ils mangé",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with complex inversion: “Ton frère habite à Lyon.”",
+   "answer": "Ton frère habite-t-il à Lyon",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with complex inversion: “Paul a téléphoné.”",
+   "answer": "Paul a-t-il téléphoné",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with complex inversion: “Cette voiture est chère.”",
+   "answer": "Cette voiture est-elle chère",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Ask with complex inversion: “Vos parents vont bien.”",
+   "answer": "Vos parents vont-ils bien",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Rewrite with inversion: “Peut-être qu'il viendra.”",
+   "answer": "Peut-être viendra-t-il",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Rewrite with inversion: “Sans doute qu'elle a raison.”",
+   "answer": "Sans doute a-t-elle raison",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Pourquoi Paul ___-il parti ?",
+   "answer": "est",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "À peine était-___ arrivé qu'il repartit.",
+   "answer": "il",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "« Je reviendrai », ___-elle.",
+   "answer": "dit",
+   "hint": "dire · passé simple",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Peut-être a-___-il oublié.",
+   "answer": "t",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___-je vous aider ?",
+   "answer": "Puis",
+   "hint": "pouvoir",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Où vos amis habitent-___ ?",
+   "answer": "ils",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "Puis-je entrer ?",
+    "Peux-je entrer ?",
+    "Pouvoir-je entrer ?",
+    "Peut-je entrer ?"
+   ],
+   "answer": "Puis-je entrer ?",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "Ta sœur parle-t-elle anglais ?",
+    "Parle ta sœur anglais ?",
+    "Ta sœur parle-elle anglais ?",
+    "Parle-t-ta sœur anglais ?"
+   ],
+   "answer": "Ta sœur parle-t-elle anglais ?",
+   "id": "021"
+  }
+ ]
+}

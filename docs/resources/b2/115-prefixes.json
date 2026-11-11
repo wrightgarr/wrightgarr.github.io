@@ -1,0 +1,279 @@
+{
+ "id": "b2-115-prefixes",
+ "level": "B2",
+ "subject": 115,
+ "title": "Prefixes",
+ "description": "Small additions that change a word's meaning.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "in- / im- / il- / ir-",
+   "type": "Prefix",
+   "translation": "not — im- before b, m, p; il- before l; ir- before r",
+   "exampleFr": "Impossible, illégal, irrégulier, inutile.",
+   "exampleEn": "Impossible, illegal, irregular, useless.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "dé- / dés-",
+   "type": "Prefix",
+   "translation": "undoing or the opposite — dés- before a vowel",
+   "exampleFr": "Défaire, désordre, désagréable.",
+   "exampleEn": "To undo, disorder, unpleasant.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "re- / ré- / r-",
+   "type": "Prefix",
+   "translation": "again or back",
+   "exampleFr": "Refaire, relire, revenir, rouvrir.",
+   "exampleEn": "To redo, to reread, to come back, to reopen.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "pré- / sur- / sous-",
+   "type": "Prefix",
+   "translation": "before / over, too much / under, too little",
+   "exampleFr": "Prévoir, surestimer, sous-estimer.",
+   "exampleEn": "To foresee, to overestimate, to underestimate.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "mal- / mé-",
+   "type": "Prefix",
+   "translation": "badly or wrongly",
+   "exampleFr": "Malheureux, malentendu, mécontent.",
+   "exampleEn": "Unhappy, misunderstanding, displeased.",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "para- / anti- / co-",
+   "type": "Prefix",
+   "translation": "protection against / against / together",
+   "exampleFr": "Parapluie, antivol, colocataire.",
+   "exampleEn": "Umbrella, anti-theft device, flatmate.",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “possible”",
+   "answer": "impossible",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “heureux”",
+   "answer": "malheureux",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “utile”",
+   "answer": "inutile",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “légal”",
+   "answer": "illégal",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “régulier”",
+   "answer": "irrégulier",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “faire”",
+   "answer": "défaire",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “accord”",
+   "answer": "désaccord",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “content”",
+   "answer": "mécontent",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “honnête”",
+   "answer": "malhonnête",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “connu”",
+   "answer": "inconnu",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “patient”",
+   "answer": "impatient",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “lisible”",
+   "answer": "illisible",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “responsable”",
+   "answer": "irresponsable",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “agréable”",
+   "answer": "désagréable",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “ordre”",
+   "answer": "désordre",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “normal”",
+   "answer": "anormal",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “boucher”",
+   "answer": "déboucher",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “espoir”",
+   "answer": "désespoir",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “capable”",
+   "answer": "incapable",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix to make the opposite of “monter”",
+   "answer": "démonter",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix: “to do again”  (faire)",
+   "answer": "refaire",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix: “to read again”  (lire)",
+   "answer": "relire",
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix: “to start again”  (commencer)",
+   "answer": "recommencer",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix: “to see again”  (voir)",
+   "answer": "revoir",
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix: “to foresee”  (voir)",
+   "answer": "prévoir",
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix: “to overestimate”  (estimer)",
+   "answer": "surestimer",
+   "id": "032"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix: “to underestimate”  (estimer)",
+   "answer": "sous-estimer",
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add a prefix: “to fly over”  (voler)",
+   "answer": "survoler",
+   "id": "034"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “parapluie”, the prefix para- means…",
+   "options": [
+    "protection against",
+    "beside",
+    "beyond",
+    "half"
+   ],
+   "answer": "protection against",
+   "id": "035"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “malentendu”, the prefix mal- means…",
+   "options": [
+    "badly / wrongly",
+    "not",
+    "again",
+    "before"
+   ],
+   "answer": "badly / wrongly",
+   "id": "036"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “prénom”, the prefix pré- means…",
+   "options": [
+    "before",
+    "near",
+    "for",
+    "small"
+   ],
+   "answer": "before",
+   "id": "037"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which prefix goes before “légal” to make its opposite?",
+   "options": [
+    "il-",
+    "in-",
+    "im-",
+    "ir-"
+   ],
+   "answer": "il-",
+   "id": "038"
+  }
+ ]
+}

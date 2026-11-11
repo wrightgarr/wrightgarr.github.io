@@ -1,0 +1,229 @@
+{
+ "id": "b2-110-all-articles-review",
+ "level": "B2",
+ "subject": 110,
+ "title": "All Articles Review",
+ "description": "Definite, indefinite, partitive, contracted, and no article at all.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Récapitulatif des articles",
+   "type": "Rule",
+   "translation": "Definite: le, la, l', les · Indefinite: un, une, des · Partitive: du, de la, de l' · Contracted: au, aux, du, des",
+   "exampleFr": "Le pain, un pain, du pain, au marché.",
+   "exampleEn": "The bread, a loaf, some bread, at the market.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "de au lieu de des",
+   "type": "Rule",
+   "translation": "des becomes de before a plural adjective and after a negative or a quantity",
+   "exampleFr": "De belles fleurs ; pas de fleurs ; beaucoup de fleurs.",
+   "exampleEn": "Beautiful flowers; no flowers; a lot of flowers.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Sans article",
+   "type": "Rule",
+   "translation": "No article with professions after être, after sans, after avec + abstract noun, and in many set phrases",
+   "exampleFr": "Elle est avocate. Sans sucre. Avec plaisir. Avoir faim.",
+   "exampleEn": "She is a lawyer. Without sugar. With pleasure. To be hungry.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'adore ___ musique classique.",
+   "answer": "la",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il boit ___ thé le matin.",
+   "answer": "du",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle n'a pas ___ frères.",
+   "answer": "de",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous avons acheté ___ belles fleurs.",
+   "answer": "de",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je vais ___ cinéma.",
+   "answer": "au",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il revient ___ marché.",
+   "answer": "du",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle parle ___ enfants.",
+   "answer": "aux",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai beaucoup ___ amis.",
+   "answer": "d'",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ lundi, je vais à la piscine.",
+   "answer": "Le",
+   "hint": "every Monday",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Passe-moi ___ sel, s'il te plaît.",
+   "answer": "le",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu veux ___ eau ?",
+   "answer": "de l'",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est ___ ami de Paul.",
+   "answer": "un",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ chiens sont des animaux fidèles.",
+   "answer": "Les",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il n'y a plus ___ lait.",
+   "answer": "de",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai mal à ___ tête.",
+   "answer": "la",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a ___ yeux bleus.",
+   "answer": "les",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je voudrais ___ baguette, s'il vous plaît.",
+   "answer": "une",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La plupart ___ gens pensent ça.",
+   "answer": "des",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut ___ patience.",
+   "answer": "de la",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est le livre ___ professeur.",
+   "answer": "du",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elle est ___ avocate.",
+   "options": [
+    "(nothing)",
+    "une",
+    "l'",
+    "de l'"
+   ],
+   "answer": "(nothing)",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il a agi avec ___ courage.",
+   "options": [
+    "(nothing)",
+    "du",
+    "le",
+    "un"
+   ],
+   "answer": "(nothing)",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il est sorti sans ___ argent.",
+   "options": [
+    "(nothing)",
+    "de l'",
+    "l'",
+    "un"
+   ],
+   "answer": "(nothing)",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "de grands arbres",
+    "des grands arbres verts de",
+    "de les grands arbres",
+    "du grands arbres"
+   ],
+   "answer": "de grands arbres",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I don't have any money.”",
+   "answer": "Je n'ai pas d'argent",
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “She is a doctor.”",
+   "answer": "Elle est médecin",
+   "accept": [
+    "C'est un médecin"
+   ],
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I like coffee, so I drink coffee.”",
+   "answer": "J'aime le café, donc je bois du café",
+   "accept": [
+    "J'aime le café alors je bois du café"
+   ],
+   "id": "030"
+  }
+ ]
+}

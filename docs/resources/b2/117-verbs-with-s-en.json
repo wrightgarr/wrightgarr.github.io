@@ -1,0 +1,215 @@
+{
+ "id": "b2-117-verbs-with-s-en",
+ "level": "B2",
+ "subject": 117,
+ "title": "Verbs With \"s'en\" (s'en aller, s'en sortir, s'en vouloir, …)",
+ "description": "Reflexive verbs with a built-in en.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "s'en aller",
+   "type": "Verb",
+   "translation": "to leave / to go away",
+   "exampleFr": "Il est tard, je m'en vais.",
+   "exampleEn": "It is late, I am leaving.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to cope / to pull through”",
+   "answer": "s'en sortir",
+   "explain": "Ne t'inquiète pas, elle s'en sortira. — Don't worry, she will pull through.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to feel guilty / to be angry with oneself”",
+   "answer": "s'en vouloir",
+   "explain": "Je m'en veux de l'avoir blessé. — I feel bad about having hurt him.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "s'en faire",
+   "type": "Verb",
+   "translation": "to worry",
+   "exampleFr": "Ne t'en fais pas, tout ira bien.",
+   "exampleEn": "Don't worry, everything will be fine.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “not to care”",
+   "answer": "s'en ficher",
+   "explain": "Il s'en fiche complètement. — He couldn't care less.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “s'en prendre à” mean?",
+   "options": [
+    "to lash out at / to blame",
+    "to take care of it",
+    "to use it",
+    "to cope / to pull through"
+   ],
+   "answer": "to lash out at / to blame",
+   "explain": "Il s'en est pris à moi sans raison. — He lashed out at me for no reason.",
+   "speak": "s'en prendre à",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "s'en tenir à",
+   "type": "Verb",
+   "translation": "to stick to",
+   "exampleFr": "Tenons-nous-en aux faits.",
+   "exampleEn": "Let us stick to the facts.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to leave it to / to rely on”",
+   "answer": "s'en remettre à",
+   "explain": "Je m'en remets à votre jugement. — I leave it to your judgment.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to take care of it”",
+   "answer": "s'en occuper",
+   "explain": "Laisse, je m'en occupe. — Leave it, I will take care of it.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "s'en rendre compte",
+   "type": "Verb",
+   "translation": "to realise it",
+   "exampleFr": "Je ne m'en étais pas rendu compte.",
+   "exampleEn": "I had not realised.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to remember it”",
+   "answer": "s'en souvenir",
+   "explain": "Je m'en souviens très bien. — I remember it very well.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “s'en passer” mean?",
+   "options": [
+    "to do without it",
+    "to get away with it / to manage",
+    "to worry",
+    "to leave it to / to rely on"
+   ],
+   "answer": "to do without it",
+   "explain": "Le café ? Je ne peux pas m'en passer. — Coffee? I cannot do without it.",
+   "speak": "s'en passer",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "s'en servir",
+   "type": "Verb",
+   "translation": "to use it",
+   "exampleFr": "Cet outil ? Je m'en sers tous les jours.",
+   "exampleEn": "This tool? I use it every day.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to suspect as much”",
+   "answer": "s'en douter",
+   "explain": "Je m'en doutais ! — I thought as much!",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to get away with it / to manage”",
+   "answer": "s'en tirer",
+   "explain": "Il s'en est tiré avec une amende. — He got away with a fine.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est tard, je m'___ vais.",
+   "answer": "en",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ne t'en ___ pas, tout ira bien.",
+   "answer": "fais",
+   "hint": "faire",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle s'en ___ très bien toute seule.",
+   "answer": "sort",
+   "hint": "sortir",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je m'en ___ de l'avoir blessé.",
+   "answer": "veux",
+   "hint": "vouloir",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Va-t'___ !",
+   "answer": "en",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tenons-nous-en ___ faits.",
+   "answer": "aux",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il s'en est ___ à moi sans raison.",
+   "answer": "pris",
+   "hint": "prendre",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je m'en ___ !",
+   "answer": "doutais",
+   "hint": "douter · imparfait",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I am leaving.”  (s'en aller)",
+   "answer": "Je m'en vais",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Don't worry!”  (tu · s'en faire)",
+   "answer": "Ne t'en fais pas",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Go away!”  (tu)",
+   "answer": "Va-t'en",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “He left.”  (s'en aller)",
+   "answer": "Il s'en est allé",
+   "id": "027"
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "id": "b2-113-indefinite-demonstrative-pronouns",
+ "level": "B2",
+ "subject": 113,
+ "title": "Indefinite Demonstrative Pronouns (ceci, cela, ça, ce, ceux-ci, ….)",
+ "description": "this, that, it — without naming a noun.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "ceci",
+   "type": "Pronoun",
+   "translation": "this — what is near or what is about to be said",
+   "exampleFr": "Écoutez bien ceci : je pars.",
+   "exampleEn": "Listen carefully to this: I am leaving.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "cela",
+   "type": "Pronoun",
+   "translation": "that — what is further away or what has just been said",
+   "exampleFr": "Il a menti, et cela me déçoit.",
+   "exampleEn": "He lied, and that disappoints me.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ça",
+   "type": "Pronoun (informal)",
+   "translation": "that / it — the everyday form of cela",
+   "exampleFr": "Ça va ? Je n'aime pas ça.",
+   "exampleEn": "How's it going? I don't like that.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ce / c'",
+   "type": "Pronoun",
+   "translation": "it / this / that — before être, or before a relative pronoun",
+   "exampleFr": "C'est vrai. Ce sont mes amis. Ce que je veux.",
+   "exampleEn": "It is true. These are my friends. What I want.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "celui-ci / celui-là",
+   "type": "Pronoun",
+   "translation": "this one / that one; in writing, the latter / the former",
+   "exampleFr": "Paul et Marc sont venus ; celui-ci semblait fatigué.",
+   "exampleEn": "Paul and Marc came; the latter seemed tired.",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Écoute bien ___ : je pars demain.",
+   "answer": "ceci",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il a menti, et ___ me déçoit.",
+   "answer": "cela",
+   "accept": [
+    "ça"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ va ?",
+   "answer": "Ça",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ est vrai.",
+   "answer": "C'",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ sont mes amis.",
+   "answer": "Ce",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je n'aime pas ___.",
+   "answer": "ça",
+   "accept": [
+    "cela"
+   ],
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ dit, je comprends ton choix.",
+   "answer": "Cela",
+   "translation": "That said, I understand your choice.",
+   "accept": [
+    "Ceci"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai deux stylos : ___-ci est bleu, celui-là est noir.",
+   "answer": "celui",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quelles chaussures ? ___-ci ou celles-là ?",
+   "answer": "Celles",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ces livres sont à moi ; ___-là sont à toi.",
+   "answer": "ceux",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ m'est égal.",
+   "answer": "Ça",
+   "translation": "I don't mind.",
+   "accept": [
+    "Cela"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Qu'est-ce que c'est que ___ ?",
+   "answer": "ça",
+   "accept": [
+    "cela"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Paul et Marc sont arrivés ; ___-ci semblait fatigué.",
+   "answer": "celui",
+   "hint": "the latter",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which pronoun announces what you are about to say?",
+   "options": [
+    "ceci",
+    "cela",
+    "celui-là",
+    "ce"
+   ],
+   "answer": "ceci",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“ça” is…",
+   "options": [
+    "the informal form of cela",
+    "the plural of ce",
+    "a formal form of ceci",
+    "only used in writing"
+   ],
+   "answer": "the informal form of cela",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In formal writing, “celui-ci” can mean…",
+   "options": [
+    "the latter",
+    "the former",
+    "the first",
+    "anyone"
+   ],
+   "answer": "the latter",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I don't like that.”  (informal)",
+   "answer": "Je n'aime pas ça",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “That said, …”",
+   "answer": "Cela dit",
+   "accept": [
+    "Ceci dit"
+   ],
+   "id": "023"
+  }
+ ]
+}

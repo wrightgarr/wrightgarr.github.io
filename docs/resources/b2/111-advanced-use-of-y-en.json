@@ -1,0 +1,215 @@
+{
+ "id": "b2-111-advanced-use-of-y-en",
+ "level": "B2",
+ "subject": 111,
+ "title": "Advanced Use of “y” & “en”",
+ "description": "Pronoun order and idioms built on y and en.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "s'y connaître",
+   "type": "Idiom with y",
+   "translation": "to know all about something",
+   "exampleFr": "Il s'y connaît en vin.",
+   "exampleEn": "He knows all about wine.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to go about something”",
+   "answer": "s'y prendre",
+   "explain": "Tu t'y prends mal. — You are going about it the wrong way.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to get used to it”",
+   "answer": "s'y faire",
+   "explain": "C'est dur au début, mais on s'y fait. — It is hard at first, but you get used to it.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "s'y attendre",
+   "type": "Idiom with y",
+   "translation": "to expect it",
+   "exampleFr": "Je m'y attendais.",
+   "exampleEn": "I was expecting it.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “including”",
+   "answer": "y compris",
+   "explain": "Tout le monde est venu, y compris Paul. — Everyone came, including Paul.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “y tenir” mean?",
+   "options": [
+    "to be attached to it / to insist",
+    "to be exhausted / unable to take any more",
+    "to know all about something",
+    "including"
+   ],
+   "answer": "to be attached to it / to insist",
+   "explain": "Cette montre ? J'y tiens beaucoup. — This watch? I am very attached to it.",
+   "speak": "y tenir",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "en vouloir à quelqu'un",
+   "type": "Idiom with en",
+   "translation": "to hold something against someone",
+   "exampleFr": "Je lui en veux encore.",
+   "exampleEn": "I am still angry with him.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to worry”",
+   "answer": "s'en faire",
+   "explain": "Ne t'en fais pas ! — Don't worry!",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to be exhausted / unable to take any more”",
+   "answer": "ne plus en pouvoir",
+   "explain": "Je n'en peux plus. — I can't take any more.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "en avoir assez",
+   "type": "Idiom with en",
+   "translation": "to have had enough",
+   "exampleFr": "J'en ai assez de ce bruit.",
+   "exampleEn": "I have had enough of this noise.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “not to care”",
+   "answer": "s'en ficher",
+   "explain": "Je m'en fiche complètement. — I couldn't care less.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “y être pour quelque chose” mean?",
+   "options": [
+    "to have something to do with it",
+    "to get used to it",
+    "to hold something against someone",
+    "not to care"
+   ],
+   "answer": "to have something to do with it",
+   "explain": "Je n'y suis pour rien. — I have nothing to do with it.",
+   "speak": "y être pour quelque chose",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Ordre des pronoms",
+   "type": "Rule",
+   "translation": "me, te, se, nous, vous → le, la, les → lui, leur → y → en",
+   "exampleFr": "Je lui en donne. Il les y met. Il y en a trois.",
+   "exampleEn": "I give him some. He puts them there. There are three of them.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace both nouns: “Je donne du pain à Paul.”",
+   "answer": "Je lui en donne",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace both nouns: “Il met les clés dans le sac.”",
+   "answer": "Il les y met",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace “pommes”: “Il y a trois pommes.”",
+   "answer": "Il y en a trois",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace both nouns: “Parle de ce problème à ta mère !”",
+   "answer": "Parle-lui-en",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the place: “Va à la boulangerie !”",
+   "answer": "Vas-y",
+   "explain": "The -s returns before y for pronunciation.",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace both nouns: “Elle envoie des fleurs à ses parents.”",
+   "answer": "Elle leur en envoie",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je m'___ attendais.",
+   "answer": "y",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ne t'___ fais pas !",
+   "answer": "en",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je n'___ peux plus.",
+   "answer": "en",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il s'___ connaît en informatique.",
+   "answer": "y",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je lui ___ veux encore.",
+   "answer": "en",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tout le monde est venu, ___ compris Paul.",
+   "answer": "y",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce cadeau ? J'___ tiens beaucoup.",
+   "answer": "y",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which order is correct?",
+   "options": [
+    "Il y en a.",
+    "Il en y a.",
+    "Il a y en.",
+    "Y il en a."
+   ],
+   "answer": "Il y en a.",
+   "id": "027"
+  }
+ ]
+}

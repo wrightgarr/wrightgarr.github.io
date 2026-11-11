@@ -1,0 +1,267 @@
+{
+ "id": "b2-118-punctuation",
+ "level": "B2",
+ "subject": 118,
+ "title": "Punctuation",
+ "description": "The names of the marks and the French rules for using them.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "le point",
+   "type": "Noun (m.)",
+   "translation": "the full stop / period",
+   "exampleFr": "Une phrase finit par un point.",
+   "exampleEn": "A sentence ends with a full stop.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the comma”",
+   "answer": "la virgule",
+   "accept": [
+    "virgule"
+   ],
+   "explain": "N'oublie pas la virgule. — Don't forget the comma.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the semicolon”",
+   "answer": "le point-virgule",
+   "accept": [
+    "point-virgule"
+   ],
+   "explain": "Le point-virgule sépare deux idées liées. — The semicolon separates two linked ideas.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "les deux-points",
+   "type": "Noun (m. pl.)",
+   "translation": "the colon",
+   "exampleFr": "Les deux-points annoncent une explication.",
+   "exampleEn": "The colon announces an explanation.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the question mark”",
+   "answer": "le point d'interrogation",
+   "accept": [
+    "point d'interrogation"
+   ],
+   "explain": "Une question finit par un point d'interrogation. — A question ends with a question mark.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le point d'exclamation” mean?",
+   "options": [
+    "the exclamation mark",
+    "brackets / parentheses",
+    "the capital letter",
+    "the full stop / period"
+   ],
+   "answer": "the exclamation mark",
+   "explain": "Quelle surprise, avec un point d'exclamation ! — What a surprise, with an exclamation mark!",
+   "speak": "le point d'exclamation",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "les points de suspension",
+   "type": "Noun (m. pl.)",
+   "translation": "the ellipsis",
+   "exampleFr": "Il hésite… d'où les points de suspension.",
+   "exampleEn": "He hesitates… hence the ellipsis.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “quotation marks « »”",
+   "answer": "les guillemets",
+   "accept": [
+    "guillemets"
+   ],
+   "explain": "On met une citation entre guillemets. — A quotation goes inside quotation marks.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “brackets / parentheses”",
+   "answer": "les parenthèses",
+   "accept": [
+    "parenthèses"
+   ],
+   "explain": "Mets cette remarque entre parenthèses. — Put that remark in brackets.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le tiret",
+   "type": "Noun (m.)",
+   "translation": "the dash",
+   "exampleFr": "Le tiret introduit une réplique dans un dialogue.",
+   "exampleEn": "The dash introduces a line of dialogue.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the hyphen”",
+   "answer": "le trait d'union",
+   "accept": [
+    "trait d'union"
+   ],
+   "explain": "« Grand-mère » s'écrit avec un trait d'union. — “Grand-mère” is written with a hyphen.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “l'apostrophe” mean?",
+   "options": [
+    "the apostrophe",
+    "the at sign @",
+    "the semicolon",
+    "the ellipsis"
+   ],
+   "answer": "the apostrophe",
+   "explain": "L'apostrophe remplace une voyelle. — The apostrophe replaces a vowel.",
+   "speak": "l'apostrophe",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la majuscule",
+   "type": "Noun (f.)",
+   "translation": "the capital letter",
+   "exampleFr": "Un nom propre prend une majuscule.",
+   "exampleEn": "A proper noun takes a capital letter.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the lower-case letter”",
+   "answer": "la minuscule",
+   "accept": [
+    "minuscule"
+   ],
+   "explain": "Les jours s'écrivent en minuscules. — Days are written in lower case.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the at sign @”",
+   "answer": "l'arobase",
+   "accept": [
+    "arobase"
+   ],
+   "explain": "Mon adresse contient une arobase. — My address contains an at sign.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "aller à la ligne",
+   "type": "Verb phrase",
+   "translation": "to start a new line",
+   "exampleFr": "Après le titre, va à la ligne.",
+   "exampleEn": "After the title, start a new line.",
+   "id": "016"
+  },
+  {
+   "kind": "flashcard",
+   "word": "L'espace avant ? ! : ;",
+   "type": "Rule",
+   "translation": "French puts a space before the four “double” marks and inside « guillemets »",
+   "exampleFr": "Comment vas-tu ? Très bien !",
+   "exampleEn": "How are you? Very well!",
+   "id": "017"
+  },
+  {
+   "kind": "flashcard",
+   "word": "La virgule décimale",
+   "type": "Rule",
+   "translation": "Decimals use a comma; thousands use a space",
+   "exampleFr": "3,5 kg ; 10 000 habitants.",
+   "exampleEn": "3.5 kg; 10,000 inhabitants.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "« 3,5 » se lit « trois ___ cinq ».",
+   "answer": "virgule",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le signe « @ » s'appelle une ___.",
+   "answer": "arobase",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le signe « ? » s'appelle le point d'___.",
+   "answer": "interrogation",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le signe « … » s'appelle les points de ___.",
+   "answer": "suspension",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Dans « grand-mère », il y a un trait d'___.",
+   "answer": "union",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correctly punctuated in French?",
+   "options": [
+    "Comment vas-tu ?",
+    "Comment vas-tu?",
+    "Comment, vas-tu ?",
+    "¿Comment vas-tu?"
+   ],
+   "answer": "Comment vas-tu ?",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "French quotation marks are…",
+   "options": [
+    "« … »",
+    "“ … ” only",
+    "‹ … › only",
+    "' … '"
+   ],
+   "answer": "« … »",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which words take a capital letter in French?",
+   "options": [
+    "proper nouns such as Paris",
+    "days of the week",
+    "months",
+    "names of languages"
+   ],
+   "answer": "proper nouns such as Paris",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How is ten thousand written in French?",
+   "options": [
+    "10 000",
+    "10,000",
+    "10.000,0",
+    "10'000"
+   ],
+   "answer": "10 000",
+   "id": "027"
+  }
+ ]
+}

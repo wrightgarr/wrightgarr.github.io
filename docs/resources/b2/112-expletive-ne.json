@@ -1,0 +1,183 @@
+{
+ "id": "b2-112-expletive-ne",
+ "level": "B2",
+ "subject": 112,
+ "title": "Expletive “ne”",
+ "description": "A ne that is not a negative.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Le ne explétif",
+   "type": "Rule",
+   "translation": "A formal, optional ne with no negative meaning; there is no pas",
+   "exampleFr": "Je crains qu'il ne vienne.",
+   "exampleEn": "I am afraid he will come.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Après la crainte et l'empêchement",
+   "type": "Rule",
+   "translation": "craindre que, avoir peur que, de peur que, de crainte que, empêcher que, éviter que",
+   "exampleFr": "Parle bas, de peur qu'on ne t'entende.",
+   "exampleEn": "Speak quietly, for fear of being heard.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Après avant que, à moins que",
+   "type": "Rule",
+   "translation": "These two conjunctions often take it",
+   "exampleFr": "Pars avant qu'il ne pleuve.",
+   "exampleEn": "Leave before it rains.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Dans les comparaisons d'inégalité",
+   "type": "Rule",
+   "translation": "plus / moins / autre … que + ne",
+   "exampleFr": "Il est plus riche que tu ne crois.",
+   "exampleEn": "He is richer than you think.",
+   "id": "004"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Je crains qu'il ne vienne”, the ne is…",
+   "options": [
+    "expletive: I am afraid he will come",
+    "negative: I am afraid he will not come",
+    "a mistake",
+    "a double negative"
+   ],
+   "answer": "expletive: I am afraid he will come",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Je crains qu'il ne vienne pas”, the sentence means…",
+   "options": [
+    "I am afraid he will not come",
+    "I am afraid he will come",
+    "I am not afraid he will come",
+    "He is not afraid to come"
+   ],
+   "answer": "I am afraid he will not come",
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Pars avant qu'il ne pleuve”, the ne is…",
+   "options": [
+    "expletive",
+    "negative",
+    "interrogative",
+    "reflexive"
+   ],
+   "answer": "expletive",
+   "id": "007"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In “Je ne sais pas”, the ne is…",
+   "options": [
+    "negative",
+    "expletive",
+    "optional in formal writing",
+    "a comparison marker"
+   ],
+   "answer": "negative",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“J'ai peur qu'elle ne se trompe” means…",
+   "options": [
+    "I am afraid she is making a mistake",
+    "I am afraid she is not making a mistake",
+    "I am not afraid of her mistake",
+    "She is afraid of being wrong"
+   ],
+   "answer": "I am afraid she is making a mistake",
+   "id": "009"
+  },
+  {
+   "kind": "choice",
+   "prompt": "If you remove an expletive ne, the meaning…",
+   "options": [
+    "stays the same",
+    "becomes negative",
+    "becomes a question",
+    "becomes past"
+   ],
+   "answer": "stays the same",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "The expletive ne belongs to…",
+   "options": [
+    "formal and written French",
+    "slang",
+    "spoken French only",
+    "legal French only"
+   ],
+   "answer": "formal and written French",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Partons avant qu'il ___ soit trop tard.",
+   "answer": "ne",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je crains qu'il ___ pleuve.",
+   "answer": "ne",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "À moins que tu ___ préfères rester.",
+   "answer": "ne",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est plus difficile que je ___ pensais.",
+   "answer": "ne",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il parle bas de peur qu'on ___ l'entende.",
+   "answer": "ne",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle est moins timide qu'elle ___ en a l'air.",
+   "answer": "n'",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut éviter qu'il ___ tombe.",
+   "answer": "ne",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add the expletive ne: “Je crains qu'il soit trop tard.”",
+   "answer": "Je crains qu'il ne soit trop tard",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Add the expletive ne: “Rentrons avant qu'il fasse nuit.”",
+   "answer": "Rentrons avant qu'il ne fasse nuit",
+   "id": "020"
+  }
+ ]
+}

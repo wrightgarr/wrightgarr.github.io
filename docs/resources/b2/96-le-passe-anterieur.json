@@ -1,0 +1,433 @@
+{
+ "id": "b2-96-le-passe-anterieur",
+ "level": "B2",
+ "subject": 96,
+ "title": "Le Passé Antérieur",
+ "description": "The literary “had done”, paired with the passé simple.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Formation du passé antérieur",
+   "type": "Rule",
+   "translation": "Passé simple of avoir or être + past participle",
+   "exampleFr": "Il eut fini ; elle fut partie.",
+   "exampleEn": "He had finished; she had left.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Emploi du passé antérieur",
+   "type": "Rule",
+   "translation": "After quand, lorsque, dès que, après que, à peine… que, for an action completed just before one in the passé simple",
+   "exampleFr": "Dès qu'il eut fini, il sortit.",
+   "exampleEn": "As soon as he had finished, he went out.",
+   "id": "002"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Dès qu'il ___ son repas, il sortit.",
+   "answer": "eut fini",
+   "hint": "finir",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Après qu'elle ___, il ferma la porte.",
+   "answer": "fut partie",
+   "hint": "partir",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Lorsqu'ils ___ la nouvelle, ils pleurèrent.",
+   "answer": "eurent appris",
+   "hint": "apprendre",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "À peine ___-il arrivé que la pluie commença.",
+   "answer": "fut",
+   "hint": "auxiliary",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand nous ___ le sommet, nous nous reposâmes.",
+   "answer": "eûmes atteint",
+   "hint": "atteindre",
+   "id": "007"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which form is the passé antérieur?",
+   "options": [
+    "il eut parlé",
+    "il avait parlé",
+    "il aura parlé",
+    "il aurait parlé"
+   ],
+   "answer": "il eut parlé",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In everyday French, “Dès qu'il eut fini, il sortit” becomes…",
+   "options": [
+    "Dès qu'il a eu fini, il est sorti",
+    "Dès qu'il aura fini, il sortit",
+    "Dès qu'il finirait, il est sorti",
+    "Dès qu'il eût fini, il sort"
+   ],
+   "answer": "Dès qu'il a eu fini, il est sorti",
+   "id": "009"
+  },
+  {
+   "kind": "choice",
+   "prompt": "The passé antérieur is used together with…",
+   "options": [
+    "the passé simple",
+    "the futur simple",
+    "the présent",
+    "the conditionnel"
+   ],
+   "answer": "the passé simple",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Passé antérieur",
+   "translation": "Quand j'eus fini — to finish",
+   "exampleFr": "Quand nous eûmes fini le projet, le téléphone sonna.",
+   "exampleEn": "When we had finished the project, the telephone rang.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand j'___ le projet, le téléphone sonna.  (finir, passé antérieur)",
+   "options": [
+    "eus fini",
+    "eut fini",
+    "eûmes fini",
+    "eûtes fini"
+   ],
+   "answer": "eus fini",
+   "explain": "finir → j'eus fini",
+   "speak": "Quand j'eus fini le projet, le téléphone sonna.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand il ___ le projet, le téléphone sonna.",
+   "answer": "eut fini",
+   "hint": "finir · passé antérieur",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand vous ___ le projet, le téléphone sonna.  (finir, passé antérieur)",
+   "options": [
+    "eûtes fini",
+    "eus fini",
+    "eut fini",
+    "eûmes fini"
+   ],
+   "answer": "eûtes fini",
+   "explain": "finir → vous eûtes fini",
+   "speak": "Quand vous eûtes fini le projet, le téléphone sonna.",
+   "id": "014"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Manger",
+   "type": "Passé antérieur",
+   "translation": "Quand j'eus mangé — to eat",
+   "exampleFr": "Quand nous eûmes mangé au restaurant, le téléphone sonna.",
+   "exampleEn": "When we had eaten at the restaurant, the telephone rang.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand tu ___ au restaurant, le téléphone sonna.",
+   "answer": "eus mangé",
+   "hint": "manger · passé antérieur",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand nous ___ au restaurant, le téléphone sonna.  (manger, passé antérieur)",
+   "options": [
+    "eûmes mangé",
+    "eurent mangé",
+    "eus mangé",
+    "eut mangé"
+   ],
+   "answer": "eûmes mangé",
+   "explain": "manger → nous eûmes mangé",
+   "speak": "Quand nous eûmes mangé au restaurant, le téléphone sonna.",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand elles ___ au restaurant, le téléphone sonna.",
+   "answer": "eurent mangé",
+   "hint": "manger · passé antérieur",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Dire",
+   "type": "Passé antérieur",
+   "translation": "Quand j'eus dit — to tell",
+   "exampleFr": "Quand nous eûmes dit la vérité, le téléphone sonna.",
+   "exampleEn": "When we had told the truth, the telephone rang.",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand j'___ la vérité, le téléphone sonna.",
+   "answer": "eus dit",
+   "hint": "dire · passé antérieur",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand il ___ la vérité, le téléphone sonna.  (dire, passé antérieur)",
+   "options": [
+    "eut dit",
+    "eûtes dit",
+    "eurent dit",
+    "eus dit"
+   ],
+   "answer": "eut dit",
+   "explain": "dire → il eut dit",
+   "speak": "Quand il eut dit la vérité, le téléphone sonna.",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand vous ___ la vérité, le téléphone sonna.",
+   "answer": "eûtes dit",
+   "hint": "dire · passé antérieur",
+   "id": "022"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Voir",
+   "type": "Passé antérieur",
+   "translation": "Quand j'eus vu — to see",
+   "exampleFr": "Quand nous eûmes vu ce film, le téléphone sonna.",
+   "exampleEn": "When we had seen that film, the telephone rang.",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand tu ___ ce film, le téléphone sonna.  (voir, passé antérieur)",
+   "options": [
+    "eus vu",
+    "eûmes vu",
+    "eûtes vu",
+    "eurent vu"
+   ],
+   "answer": "eus vu",
+   "explain": "voir → tu eus vu",
+   "speak": "Quand tu eus vu ce film, le téléphone sonna.",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand nous ___ ce film, le téléphone sonna.",
+   "answer": "eûmes vu",
+   "hint": "voir · passé antérieur",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand elles ___ ce film, le téléphone sonna.  (voir, passé antérieur)",
+   "options": [
+    "eurent vu",
+    "eut vu",
+    "eûmes vu",
+    "eûtes vu"
+   ],
+   "answer": "eurent vu",
+   "explain": "voir → elles eurent vu",
+   "speak": "Quand elles eurent vu ce film, le téléphone sonna.",
+   "id": "026"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Partir",
+   "type": "Passé antérieur",
+   "translation": "Quand je fus parti — to leave",
+   "exampleFr": "Quand nous fûmes partis en vacances, le téléphone sonna.",
+   "exampleEn": "When we had left on holiday, the telephone rang.",
+   "id": "027"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand je ___ en vacances, le téléphone sonna.  (partir, passé antérieur)",
+   "options": [
+    "fus parti",
+    "fut parti",
+    "fûmes partis",
+    "fûtes partis"
+   ],
+   "answer": "fus parti",
+   "explain": "partir → je fus parti",
+   "speak": "Quand je fus parti en vacances, le téléphone sonna.",
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand il ___ en vacances, le téléphone sonna.",
+   "answer": "fut parti",
+   "hint": "partir · passé antérieur",
+   "id": "029"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand vous ___ en vacances, le téléphone sonna.  (partir, passé antérieur)",
+   "options": [
+    "fûtes partis",
+    "fus parti",
+    "fut parti",
+    "fûmes partis"
+   ],
+   "answer": "fûtes partis",
+   "explain": "partir → vous fûtes partis",
+   "speak": "Quand vous fûtes partis en vacances, le téléphone sonna.",
+   "id": "030"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Arriver",
+   "type": "Passé antérieur",
+   "translation": "Quand je fus arrivé — to arrive",
+   "exampleFr": "Quand nous fûmes arrivés à la gare, le téléphone sonna.",
+   "exampleEn": "When we had arrived at the station, the telephone rang.",
+   "id": "031"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand tu ___ à la gare, le téléphone sonna.",
+   "answer": "fus arrivé",
+   "hint": "arriver · passé antérieur",
+   "accept": [
+    "fus arrivée"
+   ],
+   "id": "032"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand nous ___ à la gare, le téléphone sonna.  (arriver, passé antérieur)",
+   "options": [
+    "fûmes arrivés",
+    "furent arrivées",
+    "fus arrivé",
+    "fut arrivée"
+   ],
+   "answer": "fûmes arrivés",
+   "explain": "arriver → nous fûmes arrivés",
+   "speak": "Quand nous fûmes arrivés à la gare, le téléphone sonna.",
+   "id": "033"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand elles ___ à la gare, le téléphone sonna.",
+   "answer": "furent arrivées",
+   "hint": "arriver · passé antérieur",
+   "id": "034"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Rentrer",
+   "type": "Passé antérieur",
+   "translation": "Quand je fus rentré — to come home",
+   "exampleFr": "Quand nous fûmes rentrés tard, le téléphone sonna.",
+   "exampleEn": "When we had come home late, the telephone rang.",
+   "id": "035"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand je ___ tard, le téléphone sonna.",
+   "answer": "fus rentré",
+   "hint": "rentrer · passé antérieur",
+   "accept": [
+    "fus rentrée"
+   ],
+   "id": "036"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand il ___ tard, le téléphone sonna.  (rentrer, passé antérieur)",
+   "options": [
+    "fut rentré",
+    "fûtes rentrés",
+    "furent rentrés",
+    "fus rentré"
+   ],
+   "answer": "fut rentré",
+   "explain": "rentrer → il fut rentré",
+   "speak": "Quand il fut rentré tard, le téléphone sonna.",
+   "id": "037"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand vous ___ tard, le téléphone sonna.",
+   "answer": "fûtes rentrés",
+   "hint": "rentrer · passé antérieur",
+   "accept": [
+    "fûtes rentré",
+    "fûtes rentrée",
+    "fûtes rentrées"
+   ],
+   "id": "038"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Passé antérieur",
+   "translation": "Quand j'eus pris — to take",
+   "exampleFr": "Quand nous eûmes pris le train, le téléphone sonna.",
+   "exampleEn": "When we had taken the train, the telephone rang.",
+   "id": "039"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand tu ___ le train, le téléphone sonna.  (prendre, passé antérieur)",
+   "options": [
+    "eus pris",
+    "eûmes pris",
+    "eûtes pris",
+    "eurent pris"
+   ],
+   "answer": "eus pris",
+   "explain": "prendre → tu eus pris",
+   "speak": "Quand tu eus pris le train, le téléphone sonna.",
+   "id": "040"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand nous ___ le train, le téléphone sonna.",
+   "answer": "eûmes pris",
+   "hint": "prendre · passé antérieur",
+   "id": "041"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Quand elles ___ le train, le téléphone sonna.  (prendre, passé antérieur)",
+   "options": [
+    "eurent pris",
+    "eut pris",
+    "eûmes pris",
+    "eûtes pris"
+   ],
+   "answer": "eurent pris",
+   "explain": "prendre → elles eurent pris",
+   "speak": "Quand elles eurent pris le train, le téléphone sonna.",
+   "id": "042"
+  }
+ ]
+}

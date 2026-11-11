@@ -1,0 +1,196 @@
+{
+ "id": "b2-120-10-expressions-idioms",
+ "level": "B2",
+ "subject": 120,
+ "title": "10 Expressions & Idioms",
+ "description": "Ten idioms for fluent, natural French.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Mettre la charrue avant les bœufs",
+   "type": "Idiom",
+   "translation": "To put the cart before the horse",
+   "exampleFr": "Acheter les meubles avant la maison, c'est mettre la charrue avant les bœufs.",
+   "exampleEn": "Buying furniture before the house is putting the cart before the horse.",
+   "hint": "Literally: to put the plough before the oxen",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir un poil dans la main",
+   "type": "Idiom",
+   "translation": "To be bone idle",
+   "exampleFr": "Il ne fait jamais rien : il a un poil dans la main.",
+   "exampleEn": "He never does anything: he is bone idle.",
+   "hint": "Literally: to have a hair in one's hand",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Ne pas y aller par quatre chemins",
+   "type": "Idiom",
+   "translation": "To get straight to the point",
+   "exampleFr": "Elle n'y est pas allée par quatre chemins : elle a refusé.",
+   "exampleEn": "She did not beat about the bush: she refused.",
+   "hint": "Literally: not to go there by four roads",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Jeter l'éponge",
+   "type": "Idiom",
+   "translation": "To throw in the towel",
+   "exampleFr": "Après trois échecs, il a jeté l'éponge.",
+   "exampleEn": "After three failures, he threw in the towel.",
+   "hint": "Literally: to throw the sponge",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre la mouche",
+   "type": "Idiom",
+   "translation": "To take offence suddenly",
+   "exampleFr": "Il prend la mouche pour un rien.",
+   "exampleEn": "He takes offence at the slightest thing.",
+   "hint": "Literally: to take the fly",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir le bras long",
+   "type": "Idiom",
+   "translation": "To have influence / connections",
+   "exampleFr": "Son père a le bras long dans le milieu politique.",
+   "exampleEn": "Her father has a lot of pull in political circles.",
+   "hint": "Literally: to have a long arm",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Chercher midi à quatorze heures",
+   "type": "Idiom",
+   "translation": "To overcomplicate things",
+   "exampleFr": "C'est simple, ne cherche pas midi à quatorze heures.",
+   "exampleEn": "It is simple; don't overcomplicate it.",
+   "hint": "Literally: to look for noon at 2 p.m.",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Mettre son grain de sel",
+   "type": "Idiom",
+   "translation": "To stick one's oar in",
+   "exampleFr": "Il faut toujours qu'il mette son grain de sel.",
+   "exampleEn": "He always has to stick his oar in.",
+   "hint": "Literally: to add one's grain of salt",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Ne pas être dans son assiette",
+   "type": "Idiom",
+   "translation": "To feel out of sorts",
+   "exampleFr": "Je ne suis pas dans mon assiette aujourd'hui.",
+   "exampleEn": "I am not feeling myself today.",
+   "hint": "Literally: not to be in one's plate",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Passer du coq à l'âne",
+   "type": "Idiom",
+   "translation": "To jump from one subject to another",
+   "exampleFr": "Dans ses discours, il passe du coq à l'âne.",
+   "exampleEn": "In his speeches, he jumps from one subject to another.",
+   "hint": "Literally: to go from the rooster to the donkey",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Someone gives up after several attempts. He…",
+   "options": [
+    "jette l'éponge",
+    "prend la mouche",
+    "a le bras long",
+    "met son grain de sel"
+   ],
+   "answer": "jette l'éponge",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Avoir un poil dans la main” means…",
+   "options": [
+    "to be very lazy",
+    "to be very hairy",
+    "to be skilful",
+    "to be generous"
+   ],
+   "answer": "to be very lazy",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Someone always gives an opinion nobody asked for. He…",
+   "options": [
+    "met son grain de sel",
+    "passe du coq à l'âne",
+    "jette l'éponge",
+    "n'est pas dans son assiette"
+   ],
+   "answer": "met son grain de sel",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Chercher midi à quatorze heures” means…",
+   "options": [
+    "to make things more complicated than they are",
+    "to be late for lunch",
+    "to look for the time",
+    "to work in the afternoon"
+   ],
+   "answer": "to make things more complicated than they are",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle n'y est pas allée par quatre ___.",
+   "answer": "chemins",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne suis pas dans mon ___ aujourd'hui.",
+   "answer": "assiette",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il passe sans cesse du coq à l'___.",
+   "answer": "âne",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ne mets pas la charrue avant les ___.",
+   "answer": "bœufs",
+   "accept": [
+    "boeufs"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to throw in the towel”  (idiom)",
+   "answer": "jeter l'éponge",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to take offence”  (idiom)",
+   "answer": "prendre la mouche",
+   "id": "020"
+  }
+ ]
+}

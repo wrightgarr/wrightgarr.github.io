@@ -1,0 +1,468 @@
+{
+ "id": "b2-94-le-subjonctif-imparfait",
+ "level": "B2",
+ "subject": 94,
+ "title": "Le Subjonctif Imparfait",
+ "description": "A literary tense you need to recognise.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Un temps littéraire",
+   "type": "Rule",
+   "translation": "Found in classic literature and very formal writing; everyday French uses the subjonctif présent instead",
+   "exampleFr": "Il fallait qu'il vînt. (courant : qu'il vienne)",
+   "exampleEn": "He had to come.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Formation",
+   "type": "Rule",
+   "translation": "Passé simple stem + -sse, -sses, -^t, -ssions, -ssiez, -ssent",
+   "exampleFr": "il parla → qu'il parlât ; il fut → qu'il fût.",
+   "exampleEn": "he spoke → that he spoke; he was → that he was.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "La 3e personne du singulier",
+   "type": "Rule",
+   "translation": "The il form takes a circumflex and no -ss-: this is what tells it apart from the passé simple",
+   "exampleFr": "il fut (passé simple) / qu'il fût (subjonctif imparfait).",
+   "exampleEn": "he was / that he were.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif imparfait: give the il form of “être”",
+   "answer": "qu'il fût",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif imparfait: give the il form of “avoir”",
+   "answer": "qu'il eût",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif imparfait: give the il form of “faire”",
+   "answer": "qu'il fît",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif imparfait: give the il form of “parler”",
+   "answer": "qu'il parlât",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif imparfait: give the il form of “venir”",
+   "answer": "qu'il vînt",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif imparfait: give the il form of “pouvoir”",
+   "answer": "qu'il pût",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif imparfait: give the il form of “finir”",
+   "answer": "qu'il finît",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif imparfait: give the il form of “savoir”",
+   "answer": "qu'il sût",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif imparfait: give the il form of “voir”",
+   "answer": "qu'il vît",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Subjonctif imparfait: give the il form of “aller”",
+   "answer": "qu'il allât",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“qu'il fût” comes from…",
+   "options": [
+    "être",
+    "faire",
+    "falloir",
+    "finir"
+   ],
+   "answer": "être",
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“qu'ils eussent” comes from…",
+   "options": [
+    "avoir",
+    "être",
+    "user",
+    "savoir"
+   ],
+   "answer": "avoir",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which form is the subjonctif imparfait?",
+   "options": [
+    "qu'il chantât",
+    "qu'il chanta",
+    "qu'il chante",
+    "qu'il chantait"
+   ],
+   "answer": "qu'il chantât",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "In modern spoken French, “Je voulais qu'il vînt” becomes…",
+   "options": [
+    "Je voulais qu'il vienne",
+    "Je voulais qu'il venait",
+    "Je voulais qu'il viendrait",
+    "Je voulais qu'il vint"
+   ],
+   "answer": "Je voulais qu'il vienne",
+   "id": "017"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Parler",
+   "type": "Subjonctif imparfait",
+   "translation": "que je parlasse — to speak",
+   "exampleFr": "Il fallait que nous parlassions avec le professeur.",
+   "exampleEn": "We had to speak with the teacher.",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait que je ___ avec le professeur.  (parler, subjonctif imparfait)",
+   "options": [
+    "parlasse",
+    "parlasses",
+    "parlât",
+    "parlassions"
+   ],
+   "answer": "parlasse",
+   "explain": "parler → je parlasse",
+   "speak": "Il fallait que je parlasse avec le professeur.",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait qu'il ___ avec le professeur.",
+   "answer": "parlât",
+   "hint": "parler · subjonctif imparfait",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait que vous ___ avec le professeur.  (parler, subjonctif imparfait)",
+   "options": [
+    "parlassiez",
+    "parlassent",
+    "parlasse",
+    "parlasses"
+   ],
+   "answer": "parlassiez",
+   "explain": "parler → vous parlassiez",
+   "speak": "Il fallait que vous parlassiez avec le professeur.",
+   "id": "021"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Subjonctif imparfait",
+   "translation": "que je finisse — to finish",
+   "exampleFr": "Il fallait que nous finissions le projet.",
+   "exampleEn": "We had to finish the project.",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait que tu ___ le projet.",
+   "answer": "finisses",
+   "hint": "finir · subjonctif imparfait",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait que nous ___ le projet.  (finir, subjonctif imparfait)",
+   "options": [
+    "finissions",
+    "finissiez",
+    "finissent",
+    "finisse"
+   ],
+   "answer": "finissions",
+   "explain": "finir → nous finissions",
+   "speak": "Il fallait que nous finissions le projet.",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait qu'elles ___ le projet.",
+   "answer": "finissent",
+   "hint": "finir · subjonctif imparfait",
+   "id": "025"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Être",
+   "type": "Subjonctif imparfait",
+   "translation": "que je fusse — to be",
+   "exampleFr": "Il fallait que nous fussions à l'heure.",
+   "exampleEn": "We had to be on time.",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait que je ___ à l'heure.",
+   "answer": "fusse",
+   "hint": "être · subjonctif imparfait",
+   "id": "027"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait qu'il ___ à l'heure.  (être, subjonctif imparfait)",
+   "options": [
+    "fût",
+    "fussions",
+    "fussiez",
+    "fussent"
+   ],
+   "answer": "fût",
+   "explain": "être → il fût",
+   "speak": "Il fallait qu'il fût à l'heure.",
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait que vous ___ à l'heure.",
+   "answer": "fussiez",
+   "hint": "être · subjonctif imparfait",
+   "id": "029"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir",
+   "type": "Subjonctif imparfait",
+   "translation": "que j'eusse — to have",
+   "exampleFr": "Il fallait que nous eussions du temps.",
+   "exampleEn": "We had to have time.",
+   "id": "030"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait que tu ___ du temps.  (avoir, subjonctif imparfait)",
+   "options": [
+    "eusses",
+    "eût",
+    "eussions",
+    "eussiez"
+   ],
+   "answer": "eusses",
+   "explain": "avoir → tu eusses",
+   "speak": "Il fallait que tu eusses du temps.",
+   "id": "031"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait que nous ___ du temps.",
+   "answer": "eussions",
+   "hint": "avoir · subjonctif imparfait",
+   "id": "032"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait qu'elles ___ du temps.  (avoir, subjonctif imparfait)",
+   "options": [
+    "eussent",
+    "eusse",
+    "eusses",
+    "eût"
+   ],
+   "answer": "eussent",
+   "explain": "avoir → elles eussent",
+   "speak": "Il fallait qu'elles eussent du temps.",
+   "id": "033"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Subjonctif imparfait",
+   "translation": "que je fisse — to do",
+   "exampleFr": "Il fallait que nous fissions les courses.",
+   "exampleEn": "We had to do the shopping.",
+   "id": "034"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait que je ___ les courses.  (faire, subjonctif imparfait)",
+   "options": [
+    "fisse",
+    "fisses",
+    "fît",
+    "fissions"
+   ],
+   "answer": "fisse",
+   "explain": "faire → je fisse",
+   "speak": "Il fallait que je fisse les courses.",
+   "id": "035"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait qu'il ___ les courses.",
+   "answer": "fît",
+   "hint": "faire · subjonctif imparfait",
+   "id": "036"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait que vous ___ les courses.  (faire, subjonctif imparfait)",
+   "options": [
+    "fissiez",
+    "fissent",
+    "fisse",
+    "fisses"
+   ],
+   "answer": "fissiez",
+   "explain": "faire → vous fissiez",
+   "speak": "Il fallait que vous fissiez les courses.",
+   "id": "037"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Venir",
+   "type": "Subjonctif imparfait",
+   "translation": "que je vinsse — to come",
+   "exampleFr": "Il fallait que nous vinssions à la fête.",
+   "exampleEn": "We had to come to the party.",
+   "id": "038"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait que tu ___ à la fête.",
+   "answer": "vinsses",
+   "hint": "venir · subjonctif imparfait",
+   "id": "039"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait que nous ___ à la fête.  (venir, subjonctif imparfait)",
+   "options": [
+    "vinssions",
+    "vinssiez",
+    "vinssent",
+    "vinsse"
+   ],
+   "answer": "vinssions",
+   "explain": "venir → nous vinssions",
+   "speak": "Il fallait que nous vinssions à la fête.",
+   "id": "040"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait qu'elles ___ à la fête.",
+   "answer": "vinssent",
+   "hint": "venir · subjonctif imparfait",
+   "id": "041"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Pouvoir",
+   "type": "Subjonctif imparfait",
+   "translation": "que je pusse — to be able to",
+   "exampleFr": "Il fallait que nous pussions venir.",
+   "exampleEn": "We had to be able to come.",
+   "id": "042"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait que je ___ venir.",
+   "answer": "pusse",
+   "hint": "pouvoir · subjonctif imparfait",
+   "id": "043"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait qu'il ___ venir.  (pouvoir, subjonctif imparfait)",
+   "options": [
+    "pût",
+    "pussions",
+    "pussiez",
+    "pussent"
+   ],
+   "answer": "pût",
+   "explain": "pouvoir → il pût",
+   "speak": "Il fallait qu'il pût venir.",
+   "id": "044"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait que vous ___ venir.",
+   "answer": "pussiez",
+   "hint": "pouvoir · subjonctif imparfait",
+   "id": "045"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Voir",
+   "type": "Subjonctif imparfait",
+   "translation": "que je visse — to see",
+   "exampleFr": "Il fallait que nous vissions ce film.",
+   "exampleEn": "We had to see that film.",
+   "id": "046"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait que tu ___ ce film.  (voir, subjonctif imparfait)",
+   "options": [
+    "visses",
+    "vît",
+    "vissions",
+    "vissiez"
+   ],
+   "answer": "visses",
+   "explain": "voir → tu visses",
+   "speak": "Il fallait que tu visses ce film.",
+   "id": "047"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fallait que nous ___ ce film.",
+   "answer": "vissions",
+   "hint": "voir · subjonctif imparfait",
+   "id": "048"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il fallait qu'elles ___ ce film.  (voir, subjonctif imparfait)",
+   "options": [
+    "vissent",
+    "visse",
+    "visses",
+    "vît"
+   ],
+   "answer": "vissent",
+   "explain": "voir → elles vissent",
+   "speak": "Il fallait qu'elles vissent ce film.",
+   "id": "049"
+  }
+ ]
+}

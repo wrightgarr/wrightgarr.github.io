@@ -1,0 +1,293 @@
+{
+ "id": "b2-102-discourse-markers",
+ "level": "B2",
+ "subject": 102,
+ "title": "Discourse Markers (tout d'abord, ensuite, de plus, …)",
+ "description": "Organising what you say or write.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "tout d'abord",
+   "type": "Marker · order",
+   "translation": "first of all",
+   "exampleFr": "Tout d'abord, je voudrais vous remercier.",
+   "exampleEn": "First of all, I would like to thank you.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “then / next”",
+   "answer": "ensuite",
+   "explain": "Ensuite, nous examinerons les causes. — Next, we will examine the causes.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “moreover”",
+   "answer": "de plus",
+   "explain": "C'est cher ; de plus, c'est loin. — It is expensive; moreover, it is far.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "en outre",
+   "type": "Marker · addition",
+   "translation": "furthermore",
+   "exampleFr": "En outre, le projet crée des emplois.",
+   "exampleEn": "Furthermore, the project creates jobs.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “in addition / besides”",
+   "answer": "par ailleurs",
+   "explain": "Par ailleurs, les délais sont courts. — In addition, the deadlines are short.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “en effet” mean?",
+   "options": [
+    "indeed",
+    "nevertheless",
+    "on the one hand … on the other",
+    "in conclusion"
+   ],
+   "answer": "indeed",
+   "explain": "Il est fatigué ; en effet, il a peu dormi. — He is tired; indeed, he slept little.",
+   "speak": "en effet",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "en fait",
+   "type": "Marker · correction",
+   "translation": "in fact / actually",
+   "exampleFr": "Je pensais qu'il était médecin ; en fait, il est infirmier.",
+   "exampleEn": "I thought he was a doctor; in fact, he is a nurse.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “however”",
+   "answer": "cependant",
+   "explain": "Le film est long ; cependant, il est passionnant. — The film is long; however, it is gripping.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “nevertheless”",
+   "answer": "néanmoins",
+   "explain": "C'est risqué ; néanmoins, il faut essayer. — It is risky; nevertheless, we must try.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "pourtant",
+   "type": "Marker · opposition",
+   "translation": "yet",
+   "exampleFr": "Il a étudié ; pourtant, il a échoué.",
+   "exampleEn": "He studied; yet he failed.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “however (formal)”",
+   "answer": "toutefois",
+   "explain": "Le prix est élevé ; toutefois, la qualité est excellente. — The price is high; however, the quality is excellent.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “en revanche” mean?",
+   "options": [
+    "on the other hand",
+    "that is to say",
+    "in short",
+    "as regards"
+   ],
+   "answer": "on the other hand",
+   "explain": "Il parle peu ; en revanche, il écoute bien. — He says little; on the other hand, he listens well.",
+   "speak": "en revanche",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "d'une part … d'autre part",
+   "type": "Marker · balance",
+   "translation": "on the one hand … on the other",
+   "exampleFr": "D'une part c'est utile, d'autre part c'est cher.",
+   "exampleEn": "On the one hand it is useful; on the other, it is expensive.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “in other words”",
+   "answer": "en d'autres termes",
+   "explain": "En d'autres termes, nous devons agir. — In other words, we must act.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “that is to say”",
+   "answer": "c'est-à-dire",
+   "explain": "Il arrive demain, c'est-à-dire mardi. — He arrives tomorrow, that is to say Tuesday.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ainsi",
+   "type": "Marker · consequence",
+   "translation": "thus",
+   "exampleFr": "Ainsi, le problème est résolu.",
+   "exampleEn": "Thus, the problem is solved.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “in conclusion”",
+   "answer": "en conclusion",
+   "explain": "En conclusion, le bilan est positif. — In conclusion, the overall result is positive.",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “en somme” mean?",
+   "options": [
+    "in short / all in all",
+    "as for",
+    "first of all",
+    "in addition / besides"
+   ],
+   "answer": "in short / all in all",
+   "explain": "En somme, tout s'est bien passé. — All in all, everything went well.",
+   "speak": "en somme",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "bref",
+   "type": "Marker · conclusion",
+   "translation": "in short",
+   "exampleFr": "Bref, c'était une catastrophe.",
+   "exampleEn": "In short, it was a disaster.",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “besides / for that matter”",
+   "answer": "d'ailleurs",
+   "explain": "Je n'ai pas faim ; d'ailleurs, il est trop tôt. — I am not hungry; besides, it is too early.",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “as for”",
+   "answer": "quant à",
+   "explain": "Quant à moi, je préfère rester. — As for me, I prefer to stay.",
+   "id": "021"
+  },
+  {
+   "kind": "flashcard",
+   "word": "or",
+   "type": "Marker · argument",
+   "translation": "now / yet",
+   "exampleFr": "Il devait venir ; or, il est absent.",
+   "exampleEn": "He was supposed to come; yet he is absent.",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “as regards”",
+   "answer": "en ce qui concerne",
+   "explain": "En ce qui concerne le budget, tout est prêt. — As regards the budget, everything is ready.",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “somme toute” mean?",
+   "options": [
+    "all things considered",
+    "moreover",
+    "in fact / actually",
+    "however (formal)"
+   ],
+   "answer": "all things considered",
+   "explain": "Somme toute, le résultat est correct. — All things considered, the result is decent.",
+   "speak": "somme toute",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tout d'___, je voudrais vous remercier.",
+   "answer": "abord",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il parle peu ; en ___, il écoute beaucoup.",
+   "answer": "revanche",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "D'une part c'est utile, d'autre ___ c'est cher.",
+   "answer": "part",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il arrive demain, c'est-à-___ mardi.",
+   "answer": "dire",
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "En d'autres ___, nous devons agir.",
+   "answer": "termes",
+   "id": "029"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ à moi, je préfère rester.",
+   "answer": "Quant",
+   "id": "030"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which marker adds an argument?",
+   "options": [
+    "de plus",
+    "cependant",
+    "en revanche",
+    "bref"
+   ],
+   "answer": "de plus",
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which marker introduces an opposition?",
+   "options": [
+    "néanmoins",
+    "en outre",
+    "ainsi",
+    "tout d'abord"
+   ],
+   "answer": "néanmoins",
+   "id": "032"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which marker concludes?",
+   "options": [
+    "en somme",
+    "par ailleurs",
+    "en effet",
+    "ensuite"
+   ],
+   "answer": "en somme",
+   "id": "033"
+  }
+ ]
+}

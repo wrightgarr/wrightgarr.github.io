@@ -1,0 +1,209 @@
+{
+ "id": "b2-109-all-relative-pronouns-review",
+ "level": "B2",
+ "subject": 109,
+ "title": "All Relative Pronouns Review",
+ "description": "qui, que, dont, où, lequel, auquel, duquel, ce qui, ce que, ce dont.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Récapitulatif",
+   "type": "Rule",
+   "translation": "qui = subject · que = object · dont = de + noun · où = place or time · preposition + lequel · ce qui / ce que / ce dont = what",
+   "exampleFr": "L'ami qui vient, le livre que je lis, le film dont je parle, la ville où je vis.",
+   "exampleEn": "The friend who is coming, the book I am reading, the film I am talking about, the city where I live.",
+   "id": "001"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La femme ___ chante est ma tante.",
+   "answer": "qui",
+   "id": "002"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le gâteau ___ tu as fait est délicieux.",
+   "answer": "que",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le pays ___ je suis né est petit.",
+   "answer": "où",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "L'outil ___ je me sers est cassé.",
+   "answer": "dont",
+   "explain": "se servir de",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La chaise sur ___ tu es assis est fragile.",
+   "answer": "laquelle",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le collègue ___ j'ai écrit n'a pas répondu.",
+   "answer": "auquel",
+   "accept": [
+    "à qui"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le pont près ___ nous habitons est ancien.",
+   "answer": "duquel",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ m'étonne, c'est son silence.",
+   "answer": "Ce qui",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne comprends pas ___ tu veux dire.",
+   "answer": "ce que",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est ___ je rêve depuis toujours.",
+   "answer": "ce dont",
+   "explain": "rêver de",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "L'époque ___ il vivait était difficile.",
+   "answer": "où",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les gens avec ___ je travaille sont sympas.",
+   "answer": "qui",
+   "accept": [
+    "lesquels"
+   ],
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les raisons pour ___ il est parti restent inconnues.",
+   "answer": "lesquelles",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Voici l'artiste ___ j'admire le travail.",
+   "answer": "dont",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est un film ___ m'a beaucoup touché.",
+   "answer": "qui",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est la chanson ___ j'écoute en boucle.",
+   "answer": "que",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les réunions ___ je participe sont longues.",
+   "answer": "auxquelles",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La forêt au milieu ___ se trouve le château est immense.",
+   "answer": "de laquelle",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Prends ___ tu as besoin.",
+   "answer": "ce dont",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le moment ___ je préfère, c'est le matin.",
+   "answer": "que",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le jour ___ il est parti, il pleuvait.",
+   "answer": "où",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est une décision ___ je suis fier.",
+   "answer": "dont",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with a relative pronoun: “J'ai lu un livre. Tu m'avais parlé de ce livre.”",
+   "answer": "J'ai lu le livre dont tu m'avais parlé",
+   "accept": [
+    "J'ai lu un livre dont tu m'avais parlé"
+   ],
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with a relative pronoun: “C'est un problème. Je n'avais pas pensé à ce problème.”",
+   "answer": "C'est un problème auquel je n'avais pas pensé",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“La maison ___ j'ai grandi” takes…",
+   "options": [
+    "où",
+    "que",
+    "qui",
+    "dont"
+   ],
+   "answer": "où",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Le stylo avec ___ j'écris” takes…",
+   "options": [
+    "lequel",
+    "que",
+    "dont",
+    "où"
+   ],
+   "answer": "lequel",
+   "id": "027"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“___ je veux, c'est la paix” takes…",
+   "options": [
+    "Ce que",
+    "Ce qui",
+    "Ce dont",
+    "Lequel"
+   ],
+   "answer": "Ce que",
+   "id": "028"
+  }
+ ]
+}

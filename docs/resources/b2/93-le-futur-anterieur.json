@@ -1,0 +1,601 @@
+{
+ "id": "b2-93-le-futur-anterieur",
+ "level": "B2",
+ "subject": 93,
+ "title": "Le Futur Antérieur",
+ "description": "will have + past participle.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Formation du futur antérieur",
+   "type": "Rule",
+   "translation": "Futur simple of avoir or être + past participle",
+   "exampleFr": "J'aurai fini ; elle sera partie.",
+   "exampleEn": "I will have finished; she will have left.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Emplois du futur antérieur",
+   "type": "Rule",
+   "translation": "An action completed before another future action (after quand, dès que, une fois que), or a supposition",
+   "exampleFr": "Quand tu auras fini, nous sortirons. Il aura oublié.",
+   "exampleEn": "When you have finished, we will go out. He must have forgotten.",
+   "id": "002"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand tu ___, nous sortirons.",
+   "answer": "auras fini",
+   "hint": "finir",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Dès qu'elle ___, appelle-moi.",
+   "answer": "sera arrivée",
+   "hint": "arriver",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il n'est pas là : il ___ le rendez-vous.",
+   "answer": "aura oublié",
+   "hint": "oublier",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Dans un an, j'___ mes études.",
+   "answer": "aurai terminé",
+   "hint": "terminer",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Une fois que nous ___, nous ferons une promenade.",
+   "answer": "aurons mangé",
+   "hint": "manger",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ avant la nuit.",
+   "answer": "seront rentrés",
+   "hint": "rentrer",
+   "accept": [
+    "seront rentrées"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I will have finished before noon.”",
+   "answer": "J'aurai fini avant midi",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “She will have left.”",
+   "answer": "Elle sera partie",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Futur antérieur",
+   "translation": "j'aurai fini — I will have finished",
+   "exampleFr": "Nous aurons fini le projet.",
+   "exampleEn": "We will have finished the project.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “You (one friend) will have finished”  (finir)",
+   "answer": "tu auras fini",
+   "accept": [
+    "auras fini"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le projet.",
+   "answer": "aura fini",
+   "hint": "finir · futur antérieur",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le projet.  (finir, futur antérieur)",
+   "options": [
+    "aurez fini",
+    "auront fini",
+    "aurai fini",
+    "auras fini"
+   ],
+   "answer": "aurez fini",
+   "explain": "finir → vous aurez fini",
+   "speak": "Vous aurez fini le projet.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “They will have finished”  (finir)",
+   "answer": "ils auront fini",
+   "accept": [
+    "auront fini",
+    "ils auront fini",
+    "elles auront fini"
+   ],
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Manger",
+   "type": "Futur antérieur",
+   "translation": "j'aurai mangé — I will have eaten",
+   "exampleFr": "Nous aurons mangé au restaurant.",
+   "exampleEn": "We will have eaten at the restaurant.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “I will have eaten”  (manger)",
+   "answer": "j'aurai mangé",
+   "accept": [
+    "aurai mangé"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “She will have eaten”  (manger)",
+   "answer": "elle aura mangé",
+   "accept": [
+    "aura mangé",
+    "on aura mangé",
+    "il aura mangé",
+    "elle aura mangé"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ au restaurant.  (manger, futur antérieur)",
+   "options": [
+    "aurons mangé",
+    "aurez mangé",
+    "auront mangé",
+    "aurai mangé"
+   ],
+   "answer": "aurons mangé",
+   "explain": "manger → nous aurons mangé",
+   "speak": "Nous aurons mangé au restaurant.",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ au restaurant.",
+   "answer": "auront mangé",
+   "hint": "manger · futur antérieur",
+   "id": "020"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Futur antérieur",
+   "translation": "j'aurai fait — I will have done",
+   "exampleFr": "Nous aurons fait les courses.",
+   "exampleEn": "We will have done the shopping.",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ les courses.",
+   "answer": "aurai fait",
+   "hint": "faire · futur antérieur",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “You (one friend) will have done”  (faire)",
+   "answer": "tu auras fait",
+   "accept": [
+    "auras fait"
+   ],
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “We will have done”  (faire)",
+   "answer": "nous aurons fait",
+   "accept": [
+    "aurons fait"
+   ],
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ les courses.",
+   "answer": "aurez fait",
+   "hint": "faire · futur antérieur",
+   "id": "025"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Voir",
+   "type": "Futur antérieur",
+   "translation": "j'aurai vu — I will have seen",
+   "exampleFr": "Nous aurons vu ce film.",
+   "exampleEn": "We will have seen that film.",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ ce film.  (voir, futur antérieur)",
+   "options": [
+    "auras vu",
+    "aura vu",
+    "aurons vu",
+    "aurez vu"
+   ],
+   "answer": "auras vu",
+   "explain": "voir → tu auras vu",
+   "speak": "Tu auras vu ce film.",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “She will have seen”  (voir)",
+   "answer": "elle aura vu",
+   "accept": [
+    "aura vu",
+    "on aura vu",
+    "il aura vu",
+    "elle aura vu"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “You (formal or plural) will have seen”  (voir)",
+   "answer": "vous aurez vu",
+   "accept": [
+    "aurez vu"
+   ],
+   "id": "029"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ ce film.  (voir, futur antérieur)",
+   "options": [
+    "auront vu",
+    "aurai vu",
+    "auras vu",
+    "aura vu"
+   ],
+   "answer": "auront vu",
+   "explain": "voir → elles auront vu",
+   "speak": "Elles auront vu ce film.",
+   "id": "030"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Futur antérieur",
+   "translation": "j'aurai pris — I will have taken",
+   "exampleFr": "Nous aurons pris le train.",
+   "exampleEn": "We will have taken the train.",
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ le train.  (prendre, futur antérieur)",
+   "options": [
+    "aurai pris",
+    "auras pris",
+    "aura pris",
+    "aurons pris"
+   ],
+   "answer": "aurai pris",
+   "explain": "prendre → j'aurai pris",
+   "speak": "J'aurai pris le train.",
+   "id": "032"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le train.",
+   "answer": "aura pris",
+   "hint": "prendre · futur antérieur",
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “We will have taken”  (prendre)",
+   "answer": "nous aurons pris",
+   "accept": [
+    "aurons pris"
+   ],
+   "id": "034"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “They will have taken”  (prendre)",
+   "answer": "ils auront pris",
+   "accept": [
+    "auront pris",
+    "ils auront pris",
+    "elles auront pris"
+   ],
+   "id": "035"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Lire",
+   "type": "Futur antérieur",
+   "translation": "j'aurai lu — I will have read",
+   "exampleFr": "Nous aurons lu le journal.",
+   "exampleEn": "We will have read the newspaper.",
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “I will have read”  (lire)",
+   "answer": "j'aurai lu",
+   "accept": [
+    "aurai lu"
+   ],
+   "id": "037"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ le journal.",
+   "answer": "auras lu",
+   "hint": "lire · futur antérieur",
+   "id": "038"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ le journal.  (lire, futur antérieur)",
+   "options": [
+    "aurons lu",
+    "aurez lu",
+    "auront lu",
+    "aurai lu"
+   ],
+   "answer": "aurons lu",
+   "explain": "lire → nous aurons lu",
+   "speak": "Nous aurons lu le journal.",
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “You (formal or plural) will have read”  (lire)",
+   "answer": "vous aurez lu",
+   "accept": [
+    "aurez lu"
+   ],
+   "id": "040"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Aller",
+   "type": "Futur antérieur",
+   "translation": "je serai allé — I will have gone",
+   "exampleFr": "Nous serons allés au cinéma.",
+   "exampleEn": "We will have gone to the cinema.",
+   "id": "041"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “You (one friend) will have gone”  (aller)",
+   "answer": "tu seras allé",
+   "accept": [
+    "seras allé",
+    "seras allée",
+    "tu seras allée"
+   ],
+   "id": "042"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ au cinéma.  (aller, futur antérieur)",
+   "options": [
+    "sera allé",
+    "serons allés",
+    "serez allés",
+    "seront allés"
+   ],
+   "answer": "sera allé",
+   "explain": "aller → il sera allé",
+   "speak": "Il sera allé au cinéma.",
+   "id": "043"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ au cinéma.",
+   "answer": "serez allés",
+   "hint": "aller · futur antérieur",
+   "accept": [
+    "serez allé",
+    "serez allée",
+    "serez allées"
+   ],
+   "id": "044"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “They will have gone”  (aller)",
+   "answer": "ils seront allés",
+   "accept": [
+    "seront allés"
+   ],
+   "id": "045"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Partir",
+   "type": "Futur antérieur",
+   "translation": "je serai parti — I will have left",
+   "exampleFr": "Nous serons partis en vacances.",
+   "exampleEn": "We will have left on holiday.",
+   "id": "046"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “I will have left”  (partir)",
+   "answer": "je serai parti",
+   "accept": [
+    "serai parti",
+    "serai partie",
+    "je serai partie"
+   ],
+   "id": "047"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “She will have left”  (partir)",
+   "answer": "elle sera partie",
+   "accept": [
+    "sera partie",
+    "on sera partie"
+   ],
+   "id": "048"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ en vacances.",
+   "answer": "serons partis",
+   "hint": "partir · futur antérieur",
+   "accept": [
+    "serons parties"
+   ],
+   "id": "049"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ en vacances.  (partir, futur antérieur)",
+   "options": [
+    "seront parties",
+    "serai parti",
+    "seras parti",
+    "sera partie"
+   ],
+   "answer": "seront parties",
+   "explain": "partir → elles seront parties",
+   "speak": "Elles seront parties en vacances.",
+   "id": "050"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Arriver",
+   "type": "Futur antérieur",
+   "translation": "je serai arrivé — I will have arrived",
+   "exampleFr": "Nous serons arrivés à la gare.",
+   "exampleEn": "We will have arrived at the station.",
+   "id": "051"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ à la gare.  (arriver, futur antérieur)",
+   "options": [
+    "serai arrivé",
+    "seras arrivé",
+    "sera arrivé",
+    "serons arrivés"
+   ],
+   "answer": "serai arrivé",
+   "explain": "arriver → je serai arrivé",
+   "speak": "Je serai arrivé à la gare.",
+   "id": "052"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “You (one friend) will have arrived”  (arriver)",
+   "answer": "tu seras arrivé",
+   "accept": [
+    "seras arrivé",
+    "seras arrivée",
+    "tu seras arrivée"
+   ],
+   "id": "053"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “We will have arrived”  (arriver)",
+   "answer": "nous serons arrivés",
+   "accept": [
+    "serons arrivés",
+    "serons arrivées",
+    "nous serons arrivées"
+   ],
+   "id": "054"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ à la gare.  (arriver, futur antérieur)",
+   "options": [
+    "serez arrivés",
+    "seront arrivés",
+    "serai arrivé",
+    "seras arrivé"
+   ],
+   "answer": "serez arrivés",
+   "explain": "arriver → vous serez arrivés",
+   "speak": "Vous serez arrivés à la gare.",
+   "id": "055"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Rentrer",
+   "type": "Futur antérieur",
+   "translation": "je serai rentré — I will have come home",
+   "exampleFr": "Nous serons rentrés tard.",
+   "exampleEn": "We will have come home late.",
+   "id": "056"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ tard.",
+   "answer": "seras rentré",
+   "hint": "rentrer · futur antérieur",
+   "accept": [
+    "seras rentrée"
+   ],
+   "id": "057"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “She will have come home”  (rentrer)",
+   "answer": "elle sera rentrée",
+   "accept": [
+    "sera rentrée",
+    "on sera rentrée"
+   ],
+   "id": "058"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur antérieur): “You (formal or plural) will have come home”  (rentrer)",
+   "answer": "vous serez rentrés",
+   "accept": [
+    "serez rentrés",
+    "serez rentré",
+    "serez rentrée",
+    "serez rentrées",
+    "vous serez rentré",
+    "vous serez rentrée",
+    "vous serez rentrées"
+   ],
+   "id": "059"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ tard.",
+   "answer": "seront rentrées",
+   "hint": "rentrer · futur antérieur",
+   "id": "060"
+  }
+ ]
+}

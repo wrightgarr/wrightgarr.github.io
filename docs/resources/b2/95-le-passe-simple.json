@@ -1,0 +1,792 @@
+{
+ "id": "b2-95-le-passe-simple",
+ "level": "B2",
+ "subject": 95,
+ "title": "Le Passé Simple",
+ "description": "The narrative past of novels and history.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Un temps du récit écrit",
+   "type": "Rule",
+   "translation": "Replaces the passé composé in literature, history and fairy tales; mostly met in the il and ils forms",
+   "exampleFr": "Il ouvrit la porte et entra.",
+   "exampleEn": "He opened the door and went in.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Verbes en -er",
+   "type": "Rule",
+   "translation": "-ai, -as, -a, -âmes, -âtes, -èrent",
+   "exampleFr": "Il parla ; ils parlèrent.",
+   "exampleEn": "He spoke; they spoke.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Verbes en -ir / -re",
+   "type": "Rule",
+   "translation": "-is, -is, -it, -îmes, -îtes, -irent",
+   "exampleFr": "Il finit ; ils répondirent.",
+   "exampleEn": "He finished; they answered.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Verbes en -u-",
+   "type": "Rule",
+   "translation": "-us, -us, -ut, -ûmes, -ûtes, -urent",
+   "exampleFr": "Il fut, il eut, il put, il voulut.",
+   "exampleEn": "He was, he had, he could, he wanted.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “être”",
+   "answer": "il fut",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “avoir”",
+   "answer": "il eut",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “faire”",
+   "answer": "il fit",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “voir”",
+   "answer": "il vit",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “venir”",
+   "answer": "il vint",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “prendre”",
+   "answer": "il prit",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “dire”",
+   "answer": "il dit",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “mettre”",
+   "answer": "il mit",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “pouvoir”",
+   "answer": "il put",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “vouloir”",
+   "answer": "il voulut",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “savoir”",
+   "answer": "il sut",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “naître”",
+   "answer": "il naquit",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “mourir”",
+   "answer": "il mourut",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “vivre”",
+   "answer": "il vécut",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “écrire”",
+   "answer": "il écrivit",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “lire”",
+   "answer": "il lut",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “devoir”",
+   "answer": "il dut",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Passé simple: give the il form of “tenir”",
+   "answer": "il tint",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“ils furent” comes from…",
+   "options": [
+    "être",
+    "faire",
+    "fuir",
+    "falloir"
+   ],
+   "answer": "être",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“elle naquit” comes from…",
+   "options": [
+    "naître",
+    "nager",
+    "nier",
+    "nuire"
+   ],
+   "answer": "naître",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“il vécut” comes from…",
+   "options": [
+    "vivre",
+    "voir",
+    "vaincre",
+    "vouloir"
+   ],
+   "answer": "vivre",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“ils eurent” comes from…",
+   "options": [
+    "avoir",
+    "être",
+    "user",
+    "errer"
+   ],
+   "answer": "avoir",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“il vit” can be the passé simple of voir or the present of…",
+   "options": [
+    "vivre",
+    "venir",
+    "vouloir",
+    "vendre"
+   ],
+   "answer": "vivre",
+   "id": "027"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Ils vécurent heureux et eurent beaucoup d'enfants” is…",
+   "options": [
+    "the classic fairy-tale ending",
+    "a newspaper headline",
+    "a spoken greeting",
+    "a legal formula"
+   ],
+   "answer": "the classic fairy-tale ending",
+   "id": "028"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Parler",
+   "type": "Passé simple",
+   "translation": "je parlai — to speak",
+   "exampleFr": "Nous parlâmes avec le professeur.",
+   "exampleEn": "We spoke with the teacher.",
+   "id": "029"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ avec le professeur.  (parler, passé simple)",
+   "options": [
+    "parlai",
+    "parlas",
+    "parla",
+    "parlâmes"
+   ],
+   "answer": "parlai",
+   "explain": "parler → je parlai",
+   "speak": "Je parlai avec le professeur.",
+   "id": "030"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ avec le professeur.",
+   "answer": "parla",
+   "hint": "parler · passé simple",
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ avec le professeur.  (parler, passé simple)",
+   "options": [
+    "parlâtes",
+    "parlèrent",
+    "parlai",
+    "parlas"
+   ],
+   "answer": "parlâtes",
+   "explain": "parler → vous parlâtes",
+   "speak": "Vous parlâtes avec le professeur.",
+   "id": "032"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Trouver",
+   "type": "Passé simple",
+   "translation": "je trouvai — to find",
+   "exampleFr": "Nous trouvâmes la solution.",
+   "exampleEn": "We found the solution.",
+   "id": "033"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ la solution.",
+   "answer": "trouvas",
+   "hint": "trouver · passé simple",
+   "id": "034"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ la solution.  (trouver, passé simple)",
+   "options": [
+    "trouvâmes",
+    "trouvâtes",
+    "trouvèrent",
+    "trouvai"
+   ],
+   "answer": "trouvâmes",
+   "explain": "trouver → nous trouvâmes",
+   "speak": "Nous trouvâmes la solution.",
+   "id": "035"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ la solution.",
+   "answer": "trouvèrent",
+   "hint": "trouver · passé simple",
+   "id": "036"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Arriver",
+   "type": "Passé simple",
+   "translation": "j'arrivai — to arrive",
+   "exampleFr": "Nous arrivâmes à la gare.",
+   "exampleEn": "We arrived at the station.",
+   "id": "037"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ à la gare.",
+   "answer": "arrivai",
+   "hint": "arriver · passé simple",
+   "id": "038"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ à la gare.  (arriver, passé simple)",
+   "options": [
+    "arriva",
+    "arrivâmes",
+    "arrivâtes",
+    "arrivèrent"
+   ],
+   "answer": "arriva",
+   "explain": "arriver → il arriva",
+   "speak": "Il arriva à la gare.",
+   "id": "039"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ à la gare.",
+   "answer": "arrivâtes",
+   "hint": "arriver · passé simple",
+   "id": "040"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Passé simple",
+   "translation": "je finis — to finish",
+   "exampleFr": "Nous finîmes le projet.",
+   "exampleEn": "We finished the project.",
+   "id": "041"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ le projet.  (finir, passé simple)",
+   "options": [
+    "finis",
+    "finîmes",
+    "finîtes",
+    "finirent"
+   ],
+   "answer": "finis",
+   "explain": "finir → tu finis",
+   "speak": "Tu finis le projet.",
+   "id": "042"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ le projet.",
+   "answer": "finîmes",
+   "hint": "finir · passé simple",
+   "id": "043"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ le projet.  (finir, passé simple)",
+   "options": [
+    "finirent",
+    "finit",
+    "finîmes",
+    "finîtes"
+   ],
+   "answer": "finirent",
+   "explain": "finir → elles finirent",
+   "speak": "Elles finirent le projet.",
+   "id": "044"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Être",
+   "type": "Passé simple",
+   "translation": "je fus — to be",
+   "exampleFr": "Nous fûmes à l'heure.",
+   "exampleEn": "We were on time.",
+   "id": "045"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ à l'heure.  (être, passé simple)",
+   "options": [
+    "fus",
+    "fut",
+    "fûmes",
+    "fûtes"
+   ],
+   "answer": "fus",
+   "explain": "être → je fus",
+   "speak": "Je fus à l'heure.",
+   "id": "046"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ à l'heure.",
+   "answer": "fut",
+   "hint": "être · passé simple",
+   "id": "047"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ à l'heure.  (être, passé simple)",
+   "options": [
+    "fûtes",
+    "fus",
+    "fut",
+    "fûmes"
+   ],
+   "answer": "fûtes",
+   "explain": "être → vous fûtes",
+   "speak": "Vous fûtes à l'heure.",
+   "id": "048"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir",
+   "type": "Passé simple",
+   "translation": "j'eus — to have",
+   "exampleFr": "Nous eûmes du temps.",
+   "exampleEn": "We had time.",
+   "id": "049"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ du temps.",
+   "answer": "eus",
+   "hint": "avoir · passé simple",
+   "id": "050"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ du temps.  (avoir, passé simple)",
+   "options": [
+    "eûmes",
+    "eurent",
+    "eus",
+    "eut"
+   ],
+   "answer": "eûmes",
+   "explain": "avoir → nous eûmes",
+   "speak": "Nous eûmes du temps.",
+   "id": "051"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ du temps.",
+   "answer": "eurent",
+   "hint": "avoir · passé simple",
+   "id": "052"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Passé simple",
+   "translation": "je fis — to do",
+   "exampleFr": "Nous fîmes les courses.",
+   "exampleEn": "We did the shopping.",
+   "id": "053"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ les courses.",
+   "answer": "fis",
+   "hint": "faire · passé simple",
+   "id": "054"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ les courses.  (faire, passé simple)",
+   "options": [
+    "fit",
+    "fîtes",
+    "firent",
+    "fis"
+   ],
+   "answer": "fit",
+   "explain": "faire → il fit",
+   "speak": "Il fit les courses.",
+   "id": "055"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ les courses.",
+   "answer": "fîtes",
+   "hint": "faire · passé simple",
+   "id": "056"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Voir",
+   "type": "Passé simple",
+   "translation": "je vis — to see",
+   "exampleFr": "Nous vîmes ce film.",
+   "exampleEn": "We saw that film.",
+   "id": "057"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ ce film.  (voir, passé simple)",
+   "options": [
+    "vis",
+    "vîmes",
+    "vîtes",
+    "virent"
+   ],
+   "answer": "vis",
+   "explain": "voir → tu vis",
+   "speak": "Tu vis ce film.",
+   "id": "058"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ ce film.",
+   "answer": "vîmes",
+   "hint": "voir · passé simple",
+   "id": "059"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ ce film.  (voir, passé simple)",
+   "options": [
+    "virent",
+    "vit",
+    "vîmes",
+    "vîtes"
+   ],
+   "answer": "virent",
+   "explain": "voir → elles virent",
+   "speak": "Elles virent ce film.",
+   "id": "060"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Passé simple",
+   "translation": "je pris — to take",
+   "exampleFr": "Nous prîmes le train.",
+   "exampleEn": "We took the train.",
+   "id": "061"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ le train.  (prendre, passé simple)",
+   "options": [
+    "pris",
+    "prit",
+    "prîmes",
+    "prîtes"
+   ],
+   "answer": "pris",
+   "explain": "prendre → je pris",
+   "speak": "Je pris le train.",
+   "id": "062"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le train.",
+   "answer": "prit",
+   "hint": "prendre · passé simple",
+   "id": "063"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le train.  (prendre, passé simple)",
+   "options": [
+    "prîtes",
+    "pris",
+    "prit",
+    "prîmes"
+   ],
+   "answer": "prîtes",
+   "explain": "prendre → vous prîtes",
+   "speak": "Vous prîtes le train.",
+   "id": "064"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Venir",
+   "type": "Passé simple",
+   "translation": "je vins — to come",
+   "exampleFr": "Nous vînmes à la fête.",
+   "exampleEn": "We came to the party.",
+   "id": "065"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ à la fête.",
+   "answer": "vins",
+   "hint": "venir · passé simple",
+   "id": "066"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ à la fête.  (venir, passé simple)",
+   "options": [
+    "vînmes",
+    "vinrent",
+    "vins",
+    "vint"
+   ],
+   "answer": "vînmes",
+   "explain": "venir → nous vînmes",
+   "speak": "Nous vînmes à la fête.",
+   "id": "067"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ à la fête.",
+   "answer": "vinrent",
+   "hint": "venir · passé simple",
+   "id": "068"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Dire",
+   "type": "Passé simple",
+   "translation": "je dis — to tell",
+   "exampleFr": "Nous dîmes la vérité.",
+   "exampleEn": "We told the truth.",
+   "id": "069"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ la vérité.",
+   "answer": "dis",
+   "hint": "dire · passé simple",
+   "id": "070"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ la vérité.  (dire, passé simple)",
+   "options": [
+    "dit",
+    "dîtes",
+    "dirent",
+    "dis"
+   ],
+   "answer": "dit",
+   "explain": "dire → il dit",
+   "speak": "Il dit la vérité.",
+   "id": "071"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ la vérité.",
+   "answer": "dîtes",
+   "hint": "dire · passé simple",
+   "id": "072"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Pouvoir",
+   "type": "Passé simple",
+   "translation": "je pus — to be able to",
+   "exampleFr": "Nous pûmes venir.",
+   "exampleEn": "We was able to come.",
+   "id": "073"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ venir.  (pouvoir, passé simple)",
+   "options": [
+    "pus",
+    "pûmes",
+    "pûtes",
+    "purent"
+   ],
+   "answer": "pus",
+   "explain": "pouvoir → tu pus",
+   "speak": "Tu pus venir.",
+   "id": "074"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ venir.",
+   "answer": "pûmes",
+   "hint": "pouvoir · passé simple",
+   "id": "075"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ venir.  (pouvoir, passé simple)",
+   "options": [
+    "purent",
+    "put",
+    "pûmes",
+    "pûtes"
+   ],
+   "answer": "purent",
+   "explain": "pouvoir → elles purent",
+   "speak": "Elles purent venir.",
+   "id": "076"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Aller",
+   "type": "Passé simple",
+   "translation": "j'allai — to go",
+   "exampleFr": "Nous allâmes au cinéma.",
+   "exampleEn": "We went to the cinema.",
+   "id": "077"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ au cinéma.  (aller, passé simple)",
+   "options": [
+    "allai",
+    "allas",
+    "alla",
+    "allâmes"
+   ],
+   "answer": "allai",
+   "explain": "aller → j'allai",
+   "speak": "J'allai au cinéma.",
+   "id": "078"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ au cinéma.",
+   "answer": "alla",
+   "hint": "aller · passé simple",
+   "id": "079"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ au cinéma.  (aller, passé simple)",
+   "options": [
+    "allâtes",
+    "allèrent",
+    "allai",
+    "allas"
+   ],
+   "answer": "allâtes",
+   "explain": "aller → vous allâtes",
+   "speak": "Vous allâtes au cinéma.",
+   "id": "080"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Répondre",
+   "type": "Passé simple",
+   "translation": "je répondis — to answer",
+   "exampleFr": "Nous répondîmes au téléphone.",
+   "exampleEn": "We answered the phone.",
+   "id": "081"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ au téléphone.",
+   "answer": "répondis",
+   "hint": "répondre · passé simple",
+   "id": "082"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ au téléphone.  (répondre, passé simple)",
+   "options": [
+    "répondîmes",
+    "répondirent",
+    "répondis",
+    "répondit"
+   ],
+   "answer": "répondîmes",
+   "explain": "répondre → nous répondîmes",
+   "speak": "Nous répondîmes au téléphone.",
+   "id": "083"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ au téléphone.",
+   "answer": "répondirent",
+   "hint": "répondre · passé simple",
+   "id": "084"
+  }
+ ]
+}

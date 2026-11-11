@@ -1,0 +1,387 @@
+{
+ "id": "b2-106-irregular-plurals",
+ "level": "B2",
+ "subject": 106,
+ "title": "Irregular Plurals",
+ "description": "Plurals that do not simply add -s.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "-al → -aux",
+   "type": "Rule",
+   "translation": "Most nouns in -al take -aux; bal, carnaval, festival, récital take -s",
+   "exampleFr": "Un cheval, des chevaux ; un festival, des festivals.",
+   "exampleEn": "A horse, horses; a festival, festivals.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-eau, -au, -eu → -x",
+   "type": "Rule",
+   "translation": "Add -x; pneu and bleu take -s",
+   "exampleFr": "Un bateau, des bateaux ; un pneu, des pneus.",
+   "exampleEn": "A boat, boats; a tyre, tyres.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-ou → -s (sauf sept)",
+   "type": "Rule",
+   "translation": "Add -s, except bijou, caillou, chou, genou, hibou, joujou, pou, which take -x",
+   "exampleFr": "Un trou, des trous ; un bijou, des bijoux.",
+   "exampleEn": "A hole, holes; a jewel, jewels.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-ail → -s (sauf quelques-uns)",
+   "type": "Rule",
+   "translation": "Add -s, except travail, vitrail, corail, émail → -aux",
+   "exampleFr": "Un détail, des détails ; un travail, des travaux.",
+   "exampleEn": "A detail, details; a job, works.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-s, -x, -z",
+   "type": "Rule",
+   "translation": "No change in the plural",
+   "exampleFr": "Un prix, des prix ; un nez, des nez.",
+   "exampleEn": "A price, prices; a nose, noses.",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Pluriels très irréguliers",
+   "type": "Rule",
+   "translation": "œil → yeux; ciel → cieux; monsieur → messieurs; madame → mesdames",
+   "exampleFr": "Un œil bleu, des yeux bleus.",
+   "exampleEn": "A blue eye, blue eyes.",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un cheval”",
+   "answer": "des chevaux",
+   "accept": [
+    "chevaux"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un journal”",
+   "answer": "des journaux",
+   "accept": [
+    "journaux"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un animal”",
+   "answer": "des animaux",
+   "accept": [
+    "animaux"
+   ],
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un hôpital”",
+   "answer": "des hôpitaux",
+   "accept": [
+    "hôpitaux"
+   ],
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un festival”",
+   "answer": "des festivals",
+   "accept": [
+    "festivals"
+   ],
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un bal”",
+   "answer": "des bals",
+   "accept": [
+    "bals"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un carnaval”",
+   "answer": "des carnavals",
+   "accept": [
+    "carnavals"
+   ],
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un bateau”",
+   "answer": "des bateaux",
+   "accept": [
+    "bateaux"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un cadeau”",
+   "answer": "des cadeaux",
+   "accept": [
+    "cadeaux"
+   ],
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un jeu”",
+   "answer": "des jeux",
+   "accept": [
+    "jeux"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un cheveu”",
+   "answer": "des cheveux",
+   "accept": [
+    "cheveux"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un pneu”",
+   "answer": "des pneus",
+   "accept": [
+    "pneus"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un bijou”",
+   "answer": "des bijoux",
+   "accept": [
+    "bijoux"
+   ],
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un genou”",
+   "answer": "des genoux",
+   "accept": [
+    "genoux"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un chou”",
+   "answer": "des choux",
+   "accept": [
+    "choux"
+   ],
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un hibou”",
+   "answer": "des hiboux",
+   "accept": [
+    "hiboux"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un caillou”",
+   "answer": "des cailloux",
+   "accept": [
+    "cailloux"
+   ],
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un trou”",
+   "answer": "des trous",
+   "accept": [
+    "trous"
+   ],
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un clou”",
+   "answer": "des clous",
+   "accept": [
+    "clous"
+   ],
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un travail”",
+   "answer": "des travaux",
+   "accept": [
+    "travaux"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un vitrail”",
+   "answer": "des vitraux",
+   "accept": [
+    "vitraux"
+   ],
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un détail”",
+   "answer": "des détails",
+   "accept": [
+    "détails"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un œil”",
+   "answer": "des yeux",
+   "accept": [
+    "yeux"
+   ],
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un ciel”",
+   "answer": "des cieux",
+   "accept": [
+    "cieux"
+   ],
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un prix”",
+   "answer": "des prix",
+   "accept": [
+    "prix"
+   ],
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un nez”",
+   "answer": "des nez",
+   "accept": [
+    "nez"
+   ],
+   "id": "032"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un bras”",
+   "answer": "des bras",
+   "accept": [
+    "bras"
+   ],
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un pays”",
+   "answer": "des pays",
+   "accept": [
+    "pays"
+   ],
+   "id": "034"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “une grand-mère”",
+   "answer": "des grands-mères",
+   "accept": [
+    "grands-mères"
+   ],
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “un chef-d'œuvre”",
+   "answer": "des chefs-d'œuvre",
+   "accept": [
+    "chefs-d'œuvre"
+   ],
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “monsieur”",
+   "answer": "messieurs",
+   "id": "037"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “madame”",
+   "answer": "mesdames",
+   "id": "038"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Plural of “mademoiselle”",
+   "answer": "mesdemoiselles",
+   "id": "039"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which plural is correct?",
+   "options": [
+    "des festivals",
+    "des festivaux",
+    "des festival",
+    "des festivales"
+   ],
+   "answer": "des festivals",
+   "id": "040"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which plural is correct?",
+   "options": [
+    "des pneus",
+    "des pneux",
+    "des pneu",
+    "des pneaux"
+   ],
+   "answer": "des pneus",
+   "id": "041"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which plural is correct?",
+   "options": [
+    "des genoux",
+    "des genous",
+    "des genou",
+    "des geneaux"
+   ],
+   "answer": "des genoux",
+   "id": "042"
+  }
+ ]
+}

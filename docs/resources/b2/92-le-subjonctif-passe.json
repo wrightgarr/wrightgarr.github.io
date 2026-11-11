@@ -1,0 +1,557 @@
+{
+ "id": "b2-92-le-subjonctif-passe",
+ "level": "B2",
+ "subject": 92,
+ "title": "Le Subjonctif Passé",
+ "description": "The subjunctive for an action already completed.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Formation du subjonctif passé",
+   "type": "Rule",
+   "translation": "Subjonctif présent of avoir or être + past participle",
+   "exampleFr": "que j'aie fini ; qu'elle soit partie.",
+   "exampleEn": "that I (have) finished; that she (has) left.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Emploi du subjonctif passé",
+   "type": "Rule",
+   "translation": "The action in the subordinate clause happened before the main verb",
+   "exampleFr": "Je suis content que tu sois venu.",
+   "exampleEn": "I am glad that you came.",
+   "id": "002"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je suis content que tu ___ venu.",
+   "answer": "sois",
+   "hint": "auxiliary",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Bien qu'il ___ beaucoup travaillé, il a échoué.",
+   "answer": "ait",
+   "hint": "auxiliary",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je regrette qu'elle ___ partie.",
+   "answer": "soit",
+   "hint": "auxiliary",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je doute qu'ils ___ compris.",
+   "answer": "aient",
+   "hint": "auxiliary",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est le meilleur film que j'___ jamais vu.",
+   "answer": "aie",
+   "hint": "auxiliary",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est possible que nous nous ___ trompés.",
+   "answer": "soyons",
+   "hint": "auxiliary",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I am glad that you came.”  (tu)",
+   "answer": "Je suis content que tu sois venu",
+   "accept": [
+    "Je suis contente que tu sois venu",
+    "Je suis content que tu sois venue",
+    "Je suis contente que tu sois venue"
+   ],
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I doubt that he understood.”",
+   "answer": "Je doute qu'il ait compris",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Subjonctif passé",
+   "translation": "que j'aie fini — to finish",
+   "exampleFr": "C'est bien que nous ayons fini le projet.",
+   "exampleEn": "It is good that we finished the project.",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que tu ___ le projet.",
+   "answer": "aies fini",
+   "hint": "finir · subjonctif passé",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien qu'il ___ le projet.",
+   "answer": "ait fini",
+   "hint": "finir · subjonctif passé",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "C'est bien que vous ___ le projet.  (finir, subjonctif passé)",
+   "options": [
+    "ayez fini",
+    "aient fini",
+    "aie fini",
+    "aies fini"
+   ],
+   "answer": "ayez fini",
+   "explain": "finir → vous ayez fini",
+   "speak": "C'est bien que vous ayez fini le projet.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien qu'ils ___ le projet.",
+   "answer": "aient fini",
+   "hint": "finir · subjonctif passé",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Subjonctif passé",
+   "translation": "que j'aie fait — to do",
+   "exampleFr": "C'est bien que nous ayons fait les courses.",
+   "exampleEn": "It is good that we did the shopping.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que j'___ les courses.",
+   "answer": "aie fait",
+   "hint": "faire · subjonctif passé",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien qu'elle ___ les courses.",
+   "answer": "ait fait",
+   "hint": "faire · subjonctif passé",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "C'est bien que nous ___ les courses.  (faire, subjonctif passé)",
+   "options": [
+    "ayons fait",
+    "ayez fait",
+    "aient fait",
+    "aie fait"
+   ],
+   "answer": "ayons fait",
+   "explain": "faire → nous ayons fait",
+   "speak": "C'est bien que nous ayons fait les courses.",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien qu'elles ___ les courses.",
+   "answer": "aient fait",
+   "hint": "faire · subjonctif passé",
+   "id": "020"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Voir",
+   "type": "Subjonctif passé",
+   "translation": "que j'aie vu — to see",
+   "exampleFr": "C'est bien que nous ayons vu ce film.",
+   "exampleEn": "It is good that we saw that film.",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que j'___ ce film.",
+   "answer": "aie vu",
+   "hint": "voir · subjonctif passé",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que tu ___ ce film.",
+   "answer": "aies vu",
+   "hint": "voir · subjonctif passé",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que nous ___ ce film.",
+   "answer": "ayons vu",
+   "hint": "voir · subjonctif passé",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que vous ___ ce film.",
+   "answer": "ayez vu",
+   "hint": "voir · subjonctif passé",
+   "id": "025"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Subjonctif passé",
+   "translation": "que j'aie pris — to take",
+   "exampleFr": "C'est bien que nous ayons pris le train.",
+   "exampleEn": "It is good that we took the train.",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "C'est bien que tu ___ le train.  (prendre, subjonctif passé)",
+   "options": [
+    "aies pris",
+    "ait pris",
+    "ayons pris",
+    "ayez pris"
+   ],
+   "answer": "aies pris",
+   "explain": "prendre → tu aies pris",
+   "speak": "C'est bien que tu aies pris le train.",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien qu'elle ___ le train.",
+   "answer": "ait pris",
+   "hint": "prendre · subjonctif passé",
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que vous ___ le train.",
+   "answer": "ayez pris",
+   "hint": "prendre · subjonctif passé",
+   "id": "029"
+  },
+  {
+   "kind": "choice",
+   "prompt": "C'est bien qu'elles ___ le train.  (prendre, subjonctif passé)",
+   "options": [
+    "aient pris",
+    "aie pris",
+    "aies pris",
+    "ait pris"
+   ],
+   "answer": "aient pris",
+   "explain": "prendre → elles aient pris",
+   "speak": "C'est bien qu'elles aient pris le train.",
+   "id": "030"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Comprendre",
+   "type": "Subjonctif passé",
+   "translation": "que j'aie compris — to understand",
+   "exampleFr": "C'est bien que nous ayons compris la question.",
+   "exampleEn": "It is good that we understood the question.",
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "C'est bien que j'___ la question.  (comprendre, subjonctif passé)",
+   "options": [
+    "aie compris",
+    "aies compris",
+    "ait compris",
+    "ayons compris"
+   ],
+   "answer": "aie compris",
+   "explain": "comprendre → j'aie compris",
+   "speak": "C'est bien que j'aie compris la question.",
+   "id": "032"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien qu'il ___ la question.",
+   "answer": "ait compris",
+   "hint": "comprendre · subjonctif passé",
+   "id": "033"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que nous ___ la question.",
+   "answer": "ayons compris",
+   "hint": "comprendre · subjonctif passé",
+   "id": "034"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien qu'ils ___ la question.",
+   "answer": "aient compris",
+   "hint": "comprendre · subjonctif passé",
+   "id": "035"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Aller",
+   "type": "Subjonctif passé",
+   "translation": "que je sois allé — to go",
+   "exampleFr": "C'est bien que nous soyons allés au cinéma.",
+   "exampleEn": "It is good that we went to the cinema.",
+   "id": "036"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que je ___ au cinéma.",
+   "answer": "sois allé",
+   "hint": "aller · subjonctif passé",
+   "accept": [
+    "sois allée"
+   ],
+   "id": "037"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que tu ___ au cinéma.",
+   "answer": "sois allé",
+   "hint": "aller · subjonctif passé",
+   "accept": [
+    "sois allée"
+   ],
+   "id": "038"
+  },
+  {
+   "kind": "choice",
+   "prompt": "C'est bien que nous ___ au cinéma.  (aller, subjonctif passé)",
+   "options": [
+    "soyons allés",
+    "soient allées",
+    "sois allé",
+    "soit allée"
+   ],
+   "answer": "soyons allés",
+   "explain": "aller → nous soyons allés",
+   "speak": "C'est bien que nous soyons allés au cinéma.",
+   "id": "039"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que vous ___ au cinéma.",
+   "answer": "soyez allés",
+   "hint": "aller · subjonctif passé",
+   "accept": [
+    "soyez allé",
+    "soyez allée",
+    "soyez allées"
+   ],
+   "id": "040"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Venir",
+   "type": "Subjonctif passé",
+   "translation": "que je sois venu — to come",
+   "exampleFr": "C'est bien que nous soyons venus à la fête.",
+   "exampleEn": "It is good that we came to the party.",
+   "id": "041"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que tu ___ à la fête.",
+   "answer": "sois venu",
+   "hint": "venir · subjonctif passé",
+   "accept": [
+    "sois venue"
+   ],
+   "id": "042"
+  },
+  {
+   "kind": "choice",
+   "prompt": "C'est bien qu'il ___ à la fête.  (venir, subjonctif passé)",
+   "options": [
+    "soit venu",
+    "soyez venus",
+    "soient venus",
+    "sois venu"
+   ],
+   "answer": "soit venu",
+   "explain": "venir → il soit venu",
+   "speak": "C'est bien qu'il soit venu à la fête.",
+   "id": "043"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que vous ___ à la fête.",
+   "answer": "soyez venus",
+   "hint": "venir · subjonctif passé",
+   "accept": [
+    "soyez venu",
+    "soyez venue",
+    "soyez venues"
+   ],
+   "id": "044"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien qu'ils ___ à la fête.",
+   "answer": "soient venus",
+   "hint": "venir · subjonctif passé",
+   "id": "045"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Partir",
+   "type": "Subjonctif passé",
+   "translation": "que je sois parti — to leave",
+   "exampleFr": "C'est bien que nous soyons partis en vacances.",
+   "exampleEn": "It is good that we left on holiday.",
+   "id": "046"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que je ___ en vacances.",
+   "answer": "sois parti",
+   "hint": "partir · subjonctif passé",
+   "accept": [
+    "sois partie"
+   ],
+   "id": "047"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien qu'elle ___ en vacances.",
+   "answer": "soit partie",
+   "hint": "partir · subjonctif passé",
+   "id": "048"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que nous ___ en vacances.",
+   "answer": "soyons partis",
+   "hint": "partir · subjonctif passé",
+   "accept": [
+    "soyons parties"
+   ],
+   "id": "049"
+  },
+  {
+   "kind": "choice",
+   "prompt": "C'est bien qu'elles ___ en vacances.  (partir, subjonctif passé)",
+   "options": [
+    "soient parties",
+    "soit partie",
+    "soyons partis",
+    "soyez partis"
+   ],
+   "answer": "soient parties",
+   "explain": "partir → elles soient parties",
+   "speak": "C'est bien qu'elles soient parties en vacances.",
+   "id": "050"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Arriver",
+   "type": "Subjonctif passé",
+   "translation": "que je sois arrivé — to arrive",
+   "exampleFr": "C'est bien que nous soyons arrivés à la gare.",
+   "exampleEn": "It is good that we arrived at the station.",
+   "id": "051"
+  },
+  {
+   "kind": "choice",
+   "prompt": "C'est bien que je ___ à la gare.  (arriver, subjonctif passé)",
+   "options": [
+    "sois arrivé",
+    "soit arrivé",
+    "soyons arrivés",
+    "soyez arrivés"
+   ],
+   "answer": "sois arrivé",
+   "explain": "arriver → je sois arrivé",
+   "speak": "C'est bien que je sois arrivé à la gare.",
+   "id": "052"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que tu ___ à la gare.",
+   "answer": "sois arrivé",
+   "hint": "arriver · subjonctif passé",
+   "accept": [
+    "sois arrivée"
+   ],
+   "id": "053"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que nous ___ à la gare.",
+   "answer": "soyons arrivés",
+   "hint": "arriver · subjonctif passé",
+   "accept": [
+    "soyons arrivées"
+   ],
+   "id": "054"
+  },
+  {
+   "kind": "choice",
+   "prompt": "C'est bien que vous ___ à la gare.  (arriver, subjonctif passé)",
+   "options": [
+    "soyez arrivés",
+    "sois arrivé",
+    "soit arrivé",
+    "soyons arrivés"
+   ],
+   "answer": "soyez arrivés",
+   "explain": "arriver → vous soyez arrivés",
+   "speak": "C'est bien que vous soyez arrivés à la gare.",
+   "id": "055"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Réussir",
+   "type": "Subjonctif passé",
+   "translation": "que j'aie réussi — to pass",
+   "exampleFr": "C'est bien que nous ayons réussi l'examen.",
+   "exampleEn": "It is good that we passed the exam.",
+   "id": "056"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que tu ___ l'examen.",
+   "answer": "aies réussi",
+   "hint": "réussir · subjonctif passé",
+   "id": "057"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien qu'elle ___ l'examen.",
+   "answer": "ait réussi",
+   "hint": "réussir · subjonctif passé",
+   "id": "058"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien que vous ___ l'examen.",
+   "answer": "ayez réussi",
+   "hint": "réussir · subjonctif passé",
+   "id": "059"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est bien qu'elles ___ l'examen.",
+   "answer": "aient réussi",
+   "hint": "réussir · subjonctif passé",
+   "id": "060"
+  }
+ ]
+}

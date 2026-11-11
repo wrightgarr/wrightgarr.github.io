@@ -1,0 +1,192 @@
+{
+ "id": "b2-114-c-est-vs-il-est",
+ "level": "B2",
+ "subject": 114,
+ "title": "C’est vs Il est",
+ "description": "Two ways to say “he is / it is”.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "c'est + nom",
+   "type": "Rule",
+   "translation": "c'est / ce sont + article or possessive + noun, a name, or a stressed pronoun",
+   "exampleFr": "C'est un médecin. C'est Marie. C'est moi.",
+   "exampleEn": "He is a doctor. It's Marie. It's me.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "il est + adjectif / profession",
+   "type": "Rule",
+   "translation": "il / elle est + adjective alone, or a profession without an article",
+   "exampleFr": "Il est médecin. Elle est grande.",
+   "exampleEn": "He is a doctor. She is tall.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "c'est + adjectif",
+   "type": "Rule",
+   "translation": "c'est + adjective comments on a situation or an idea in general",
+   "exampleFr": "Paris ? C'est magnifique !",
+   "exampleEn": "Paris? It's magnificent!",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "il est + heure",
+   "type": "Rule",
+   "translation": "Time uses il est",
+   "exampleFr": "Il est trois heures.",
+   "exampleEn": "It is three o'clock.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ un médecin.",
+   "answer": "C'est",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ médecin.",
+   "answer": "Il est",
+   "accept": [
+    "Elle est"
+   ],
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ mon frère.",
+   "answer": "C'est",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Mon frère ? ___ grand et sympathique.",
+   "answer": "Il est",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Qui est-ce ? — ___ Marie.",
+   "answer": "C'est",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ trois heures.",
+   "answer": "Il est",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ une bonne idée.",
+   "answer": "C'est",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Qui a fait ça ? — ___ moi !",
+   "answer": "C'est",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Voici Julie. ___ française.",
+   "answer": "Elle est",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Voici Julie. ___ une Française.",
+   "answer": "C'est",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu aimes Paris ? — Oui, ___ magnifique !",
+   "answer": "c'est",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Apprendre le chinois ? ___ difficile à faire.",
+   "answer": "C'est",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ des étudiants.",
+   "answer": "Ce sont",
+   "accept": [
+    "C'est"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ tard, rentrons.",
+   "answer": "Il est",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Qui est-ce ? — ___ le nouveau directeur.",
+   "answer": "C'est",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Regarde cette maison : ___ très vieille.",
+   "answer": "elle est",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “He is a teacher.”",
+   "answer": "Il est professeur",
+   "accept": [
+    "C'est un professeur"
+   ],
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “It is a good film.”",
+   "answer": "C'est un bon film",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “They are my friends.”",
+   "answer": "Ce sont mes amis",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct?",
+   "options": [
+    "C'est un bon médecin.",
+    "Il est un bon médecin.",
+    "Il est bon un médecin.",
+    "C'est bon médecin."
+   ],
+   "answer": "C'est un bon médecin.",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Before an article + noun, use…",
+   "options": [
+    "c'est",
+    "il est",
+    "either",
+    "elle est"
+   ],
+   "answer": "c'est",
+   "id": "025"
+  }
+ ]
+}

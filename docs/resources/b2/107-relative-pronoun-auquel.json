@@ -1,0 +1,167 @@
+{
+ "id": "b2-107-relative-pronoun-auquel",
+ "level": "B2",
+ "subject": 107,
+ "title": "Relative Pronoun: auquel",
+ "description": "à + lequel, after verbs and expressions that take à.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "auquel / à laquelle / auxquels / auxquelles",
+   "type": "Relative pronoun",
+   "translation": "to which / at which / about which",
+   "exampleFr": "Le projet auquel je pense.",
+   "exampleEn": "The project I am thinking about.",
+   "hint": "à + lequel = auquel ; à + lesquels = auxquels ; à + lesquelles = auxquelles",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Verbes avec à",
+   "type": "Rule",
+   "translation": "penser à, s'intéresser à, participer à, répondre à, assister à, tenir à, faire face à, faire référence à, s'inscrire à",
+   "exampleFr": "La réunion à laquelle j'ai assisté.",
+   "exampleEn": "The meeting I attended.",
+   "hint": "For people, à qui is usual",
+   "id": "002"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le projet ___ je pense est ambitieux.",
+   "answer": "auquel",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La réunion ___ j'ai assisté était longue.",
+   "answer": "à laquelle",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les problèmes ___ nous faisons face sont graves.",
+   "answer": "auxquels",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les questions ___ il a répondu étaient difficiles.",
+   "answer": "auxquelles",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le film ___ tu fais référence est sorti en 2010.",
+   "answer": "auquel",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La personne ___ je parlais est partie.",
+   "answer": "à qui",
+   "accept": [
+    "à laquelle"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le sport ___ je m'intéresse est le tennis.",
+   "answer": "auquel",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les activités ___ elle participe sont variées.",
+   "answer": "auxquelles",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est un détail ___ je n'avais pas pensé.",
+   "answer": "auquel",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La lettre ___ je réponds est urgente.",
+   "answer": "à laquelle",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les amis grâce ___ j'ai réussi sont ici.",
+   "answer": "auxquels",
+   "accept": [
+    "à qui"
+   ],
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le concours ___ il s'est inscrit est difficile.",
+   "answer": "auquel",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les valeurs ___ je tiens sont simples.",
+   "answer": "auxquelles",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "L'entreprise ___ j'ai envoyé mon CV m'a répondu.",
+   "answer": "à laquelle",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Contract: à + lequel",
+   "answer": "auquel",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Contract: à + lesquels",
+   "answer": "auxquels",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Contract: à + lesquelles",
+   "answer": "auxquelles",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the form: à + laquelle",
+   "answer": "à laquelle",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "C'est le problème auquel je pense.",
+    "C'est le problème que je pense.",
+    "C'est le problème dont je pense.",
+    "C'est le problème à quel je pense."
+   ],
+   "answer": "C'est le problème auquel je pense.",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“auxquelles” refers to a noun that is…",
+   "options": [
+    "feminine plural",
+    "masculine plural",
+    "feminine singular",
+    "masculine singular"
+   ],
+   "answer": "feminine plural",
+   "id": "022"
+  }
+ ]
+}

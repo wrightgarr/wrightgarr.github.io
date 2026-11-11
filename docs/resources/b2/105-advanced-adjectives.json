@@ -1,0 +1,269 @@
+{
+ "id": "b2-105-advanced-adjectives",
+ "level": "B2",
+ "subject": 105,
+ "title": "Advanced Adjectives",
+ "description": "Adjectives for nuance and precision.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "redoutable",
+   "type": "Adjective",
+   "translation": "formidable / fearsome",
+   "exampleFr": "C'est un adversaire redoutable.",
+   "exampleEn": "He is a formidable opponent.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “meticulous”",
+   "answer": "méticuleux",
+   "explain": "Elle est méticuleuse dans son travail. — She is meticulous in her work.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “casual / offhand”",
+   "answer": "désinvolte",
+   "explain": "Il a répondu d'un ton désinvolte. — He answered in an offhand tone.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "perspicace",
+   "type": "Adjective",
+   "translation": "shrewd / perceptive",
+   "exampleFr": "Ta remarque est très perspicace.",
+   "exampleEn": "Your remark is very perceptive.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “warm / welcoming”",
+   "answer": "chaleureux",
+   "explain": "Nous avons reçu un accueil chaleureux. — We received a warm welcome.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “exigeant” mean?",
+   "options": [
+    "demanding",
+    "unprecedented / previously unseen",
+    "blatant",
+    "moving / poignant"
+   ],
+   "answer": "demanding",
+   "explain": "C'est un professeur exigeant. — He is a demanding teacher.",
+   "speak": "exigeant",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ambigu",
+   "type": "Adjective",
+   "translation": "ambiguous",
+   "exampleFr": "Sa réponse était ambiguë.",
+   "exampleEn": "His answer was ambiguous.",
+   "hint": "Feminine: ambiguë",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “predictable”",
+   "answer": "prévisible",
+   "explain": "La fin du film était prévisible. — The end of the film was predictable.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “unprecedented / previously unseen”",
+   "answer": "inédit",
+   "explain": "C'est une situation inédite. — It is an unprecedented situation.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "incontournable",
+   "type": "Adjective",
+   "translation": "unmissable / essential",
+   "exampleFr": "Ce musée est incontournable.",
+   "exampleEn": "This museum is a must-see.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “friendly / warm (atmosphere)”",
+   "answer": "convivial",
+   "explain": "L'ambiance était très conviviale. — The atmosphere was very friendly.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “dérisoire” mean?",
+   "options": [
+    "paltry / laughable",
+    "clear-sighted",
+    "tenacious / stubborn",
+    "striking"
+   ],
+   "answer": "paltry / laughable",
+   "explain": "Il a reçu une somme dérisoire. — He received a paltry sum.",
+   "speak": "dérisoire",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "flagrant",
+   "type": "Adjective",
+   "translation": "blatant",
+   "exampleFr": "C'est une injustice flagrante.",
+   "exampleEn": "It is a blatant injustice.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “tedious”",
+   "answer": "fastidieux",
+   "explain": "Ce travail est long et fastidieux. — This work is long and tedious.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “clear-sighted”",
+   "answer": "lucide",
+   "explain": "Elle est lucide sur ses chances. — She is clear-sighted about her chances.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "mitigé",
+   "type": "Adjective",
+   "translation": "mixed / lukewarm",
+   "exampleFr": "Le film a reçu un accueil mitigé.",
+   "exampleEn": "The film received a mixed reception.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “moving / poignant”",
+   "answer": "poignant",
+   "explain": "C'est un témoignage poignant. — It is a moving account.",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “sournois” mean?",
+   "options": [
+    "sly / underhand",
+    "harmless / trivial",
+    "formidable / fearsome",
+    "warm / welcoming"
+   ],
+   "answer": "sly / underhand",
+   "explain": "Méfie-toi, il est sournois. — Watch out, he is sly.",
+   "speak": "sournois",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "tenace",
+   "type": "Adjective",
+   "translation": "tenacious / stubborn",
+   "exampleFr": "Les préjugés sont tenaces.",
+   "exampleEn": "Prejudices die hard.",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “dilapidated”",
+   "answer": "vétuste",
+   "explain": "L'immeuble est vétuste. — The building is dilapidated.",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “harmless / trivial”",
+   "answer": "anodin",
+   "explain": "Ce n'était qu'une remarque anodine. — It was only a harmless remark.",
+   "id": "021"
+  },
+  {
+   "kind": "flashcard",
+   "word": "accablant",
+   "type": "Adjective",
+   "translation": "overwhelming / damning",
+   "exampleFr": "Les preuves sont accablantes.",
+   "exampleEn": "The evidence is damning.",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “striking”",
+   "answer": "saisissant",
+   "explain": "Le contraste est saisissant. — The contrast is striking.",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “éphémère” mean?",
+   "options": [
+    "fleeting",
+    "casual / offhand",
+    "ambiguous",
+    "friendly / warm (atmosphere)"
+   ],
+   "answer": "fleeting",
+   "explain": "Le succès est souvent éphémère. — Success is often fleeting.",
+   "speak": "éphémère",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Sa réponse était ___.",
+   "answer": "ambiguë",
+   "hint": "ambigu · feminine",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle est très ___ dans son travail.",
+   "answer": "méticuleuse",
+   "hint": "méticuleux · feminine",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous avons reçu un accueil ___.",
+   "answer": "chaleureux",
+   "hint": "warm",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les preuves sont ___.",
+   "answer": "accablantes",
+   "hint": "accablant · feminine plural",
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est une situation ___.",
+   "answer": "inédite",
+   "hint": "inédit · feminine",
+   "id": "029"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“fastidieux” means…",
+   "options": [
+    "tedious",
+    "fastidious",
+    "fast",
+    "festive"
+   ],
+   "answer": "tedious",
+   "id": "030"
+  }
+ ]
+}

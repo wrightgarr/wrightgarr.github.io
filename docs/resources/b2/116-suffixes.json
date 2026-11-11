@@ -1,0 +1,271 @@
+{
+ "id": "b2-116-suffixes",
+ "level": "B2",
+ "subject": 116,
+ "title": "Suffixes",
+ "description": "Endings that build new words.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "-eur / -euse, -iste, -ier / -ière",
+   "type": "Suffix",
+   "translation": "the person who does something",
+   "exampleFr": "Vendeur, pianiste, boulanger, infirmière.",
+   "exampleEn": "Salesman, pianist, baker, nurse.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-tion, -ment, -age",
+   "type": "Suffix",
+   "translation": "the action or its result",
+   "exampleFr": "Création, changement, lavage.",
+   "exampleEn": "Creation, change, washing.",
+   "hint": "-tion is feminine; -ment and -age are masculine",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-able / -ible",
+   "type": "Suffix",
+   "translation": "that can be done",
+   "exampleFr": "Mangeable, lisible, incroyable.",
+   "exampleEn": "Edible, legible, unbelievable.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-ette, -âtre, -aine",
+   "type": "Suffix",
+   "translation": "small / -ish / about (a number)",
+   "exampleFr": "Maisonnette, verdâtre, dizaine.",
+   "exampleEn": "Little house, greenish, about ten.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-erie, -ier (arbre), -té, -eux",
+   "type": "Suffix",
+   "translation": "shop / tree / quality / full of",
+   "exampleFr": "Boulangerie, pommier, beauté, courageux.",
+   "exampleEn": "Bakery, apple tree, beauty, brave.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: a small house (maison)",
+   "answer": "maisonnette",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: the shop of the boulanger",
+   "answer": "boulangerie",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: someone who sells (vendre)",
+   "answer": "vendeur",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: that can be eaten (manger)",
+   "answer": "mangeable",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: that can be read (lire)",
+   "answer": "lisible",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: about ten (dix)",
+   "answer": "dizaine",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: about a hundred (cent)",
+   "answer": "centaine",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: about twelve (douze)",
+   "answer": "douzaine",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: the tree that gives pommes",
+   "answer": "pommier",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: full of courage",
+   "answer": "courageux",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: full of danger",
+   "answer": "dangereux",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: greenish (vert)",
+   "answer": "verdâtre",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: the quality of being beau",
+   "answer": "beauté",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: someone who plays the piano",
+   "answer": "pianiste",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: someone who dances (danser)",
+   "answer": "danseur",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: a little girl (fille)",
+   "answer": "fillette",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: that can be drunk (boire)",
+   "answer": "buvable",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: that cannot be believed (croire)",
+   "answer": "incroyable",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: the action of washing (laver)",
+   "answer": "lavage",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: the shop of the boucher",
+   "answer": "boucherie",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: the tree that gives cerises",
+   "answer": "cerisier",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: the action of changing (changer)",
+   "answer": "changement",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: someone who sings (chanter)",
+   "answer": "chanteur",
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: whitish (blanc)",
+   "answer": "blanchâtre",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: the quality of being libre",
+   "answer": "liberté",
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "One word: someone who writes for a journal",
+   "answer": "journaliste",
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nouns ending in -ette are…",
+   "options": [
+    "feminine",
+    "masculine",
+    "either",
+    "always plural"
+   ],
+   "answer": "feminine",
+   "id": "032"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nouns ending in -age are usually…",
+   "options": [
+    "masculine",
+    "feminine",
+    "either",
+    "invariable"
+   ],
+   "answer": "masculine",
+   "id": "033"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nouns ending in -isme are…",
+   "options": [
+    "masculine",
+    "feminine",
+    "either",
+    "always plural"
+   ],
+   "answer": "masculine",
+   "id": "034"
+  },
+  {
+   "kind": "choice",
+   "prompt": "The suffix -âtre (rougeâtre, bleuâtre) means…",
+   "options": [
+    "-ish, often slightly negative",
+    "very",
+    "not",
+    "again"
+   ],
+   "answer": "-ish, often slightly negative",
+   "id": "035"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“une vingtaine de personnes” means…",
+   "options": [
+    "about twenty people",
+    "exactly twenty people",
+    "twenty-one people",
+    "the twentieth person"
+   ],
+   "answer": "about twenty people",
+   "id": "036"
+  }
+ ]
+}

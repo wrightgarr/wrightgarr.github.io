@@ -1,0 +1,171 @@
+{
+ "id": "b2-98-relative-pronouns-ce-qui-ce-que-ce-dont",
+ "level": "B2",
+ "subject": 98,
+ "title": "Relative Pronouns: ce qui, ce que & ce dont",
+ "description": "“what” as a relative pronoun.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "ce qui",
+   "type": "Relative pronoun",
+   "translation": "what (subject of the verb that follows)",
+   "exampleFr": "Ce qui me plaît, c'est la musique.",
+   "exampleEn": "What I like is music.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ce que / ce qu'",
+   "type": "Relative pronoun",
+   "translation": "what (object of the verb that follows)",
+   "exampleFr": "Je comprends ce que tu dis.",
+   "exampleEn": "I understand what you are saying.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ce dont",
+   "type": "Relative pronoun",
+   "translation": "what (with a verb that takes de)",
+   "exampleFr": "Ce dont j'ai besoin, c'est de repos.",
+   "exampleEn": "What I need is rest.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ce à quoi",
+   "type": "Relative pronoun",
+   "translation": "what (with a verb that takes à)",
+   "exampleFr": "Ce à quoi je pense, c'est à mon avenir.",
+   "exampleEn": "What I am thinking about is my future.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ me plaît, c'est la musique.",
+   "answer": "Ce qui",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ je veux, c'est partir.",
+   "answer": "Ce que",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ j'ai besoin, c'est de repos.",
+   "answer": "Ce dont",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Dis-moi ___ tu penses.",
+   "answer": "ce que",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne sais pas ___ s'est passé.",
+   "answer": "ce qui",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est exactement ___ je parlais.",
+   "answer": "ce dont",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ est important, c'est la santé.",
+   "answer": "Ce qui",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Voilà ___ j'ai peur.",
+   "answer": "ce dont",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il a oublié tout ___ il avait appris.",
+   "answer": "ce qu'",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tout ___ brille n'est pas or.",
+   "answer": "ce qui",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ je pense, c'est à mon avenir.",
+   "answer": "Ce à quoi",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Fais ___ tu veux.",
+   "answer": "ce que",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ elle se souvient est flou.",
+   "answer": "Ce dont",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je me demande ___ le rend si triste.",
+   "answer": "ce qui",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “What I like is the sea.”",
+   "answer": "Ce que j'aime, c'est la mer",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “what I need”",
+   "answer": "ce dont j'ai besoin",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I don't know what is happening.”",
+   "answer": "Je ne sais pas ce qui se passe",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Before a verb with no other subject, use…",
+   "options": [
+    "ce qui",
+    "ce que",
+    "ce dont",
+    "ce à quoi"
+   ],
+   "answer": "ce qui",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "With “avoir envie de”, use…",
+   "options": [
+    "ce dont",
+    "ce qui",
+    "ce que",
+    "ce à quoi"
+   ],
+   "answer": "ce dont",
+   "id": "023"
+  }
+ ]
+}

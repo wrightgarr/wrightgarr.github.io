@@ -1,0 +1,448 @@
+{
+ "id": "b2-97-all-tenses-review",
+ "level": "B2",
+ "subject": 97,
+ "title": "All Tenses Review",
+ "description": "Recognising and producing every tense so far.",
+ "items": [
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “je parlais”?",
+   "options": [
+    "imparfait",
+    "passé composé",
+    "conditionnel passé",
+    "passé simple"
+   ],
+   "answer": "imparfait",
+   "speak": "je parlais",
+   "id": "001"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “j'ai parlé”?",
+   "options": [
+    "passé composé",
+    "plus-que-parfait",
+    "futur antérieur",
+    "passé antérieur"
+   ],
+   "answer": "passé composé",
+   "speak": "j'ai parlé",
+   "id": "002"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “j'avais parlé”?",
+   "options": [
+    "plus-que-parfait",
+    "futur simple",
+    "subjonctif présent",
+    "subjonctif imparfait"
+   ],
+   "answer": "plus-que-parfait",
+   "speak": "j'avais parlé",
+   "id": "003"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “je parlerai”?",
+   "options": [
+    "futur simple",
+    "conditionnel présent",
+    "subjonctif passé",
+    "passé récent"
+   ],
+   "answer": "futur simple",
+   "speak": "je parlerai",
+   "id": "004"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “je parlerais”?",
+   "options": [
+    "conditionnel présent",
+    "conditionnel passé",
+    "passé simple",
+    "futur proche"
+   ],
+   "answer": "conditionnel présent",
+   "speak": "je parlerais",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “j'aurais parlé”?",
+   "options": [
+    "conditionnel passé",
+    "futur antérieur",
+    "passé antérieur",
+    "impératif"
+   ],
+   "answer": "conditionnel passé",
+   "speak": "j'aurais parlé",
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “j'aurai parlé”?",
+   "options": [
+    "futur antérieur",
+    "subjonctif présent",
+    "subjonctif imparfait",
+    "gérondif"
+   ],
+   "answer": "futur antérieur",
+   "speak": "j'aurai parlé",
+   "id": "007"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “que je parle”?",
+   "options": [
+    "subjonctif présent",
+    "subjonctif passé",
+    "passé récent",
+    "imparfait"
+   ],
+   "answer": "subjonctif présent",
+   "speak": "que je parle",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “que j'aie parlé”?",
+   "options": [
+    "subjonctif passé",
+    "passé simple",
+    "futur proche",
+    "passé composé"
+   ],
+   "answer": "subjonctif passé",
+   "speak": "que j'aie parlé",
+   "id": "009"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “il parla”?",
+   "options": [
+    "passé simple",
+    "passé antérieur",
+    "impératif",
+    "plus-que-parfait"
+   ],
+   "answer": "passé simple",
+   "speak": "il parla",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “il eut parlé”?",
+   "options": [
+    "passé antérieur",
+    "subjonctif imparfait",
+    "gérondif",
+    "futur simple"
+   ],
+   "answer": "passé antérieur",
+   "speak": "il eut parlé",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “qu'il parlât”?",
+   "options": [
+    "subjonctif imparfait",
+    "passé récent",
+    "imparfait",
+    "conditionnel présent"
+   ],
+   "answer": "subjonctif imparfait",
+   "speak": "qu'il parlât",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “je viens de parler”?",
+   "options": [
+    "passé récent",
+    "futur proche",
+    "passé composé",
+    "conditionnel passé"
+   ],
+   "answer": "passé récent",
+   "speak": "je viens de parler",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “je vais parler”?",
+   "options": [
+    "futur proche",
+    "impératif",
+    "plus-que-parfait",
+    "futur antérieur"
+   ],
+   "answer": "futur proche",
+   "speak": "je vais parler",
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “parlons !”?",
+   "options": [
+    "impératif",
+    "gérondif",
+    "futur simple",
+    "subjonctif présent"
+   ],
+   "answer": "impératif",
+   "speak": "parlons !",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense or mood is “en parlant”?",
+   "options": [
+    "gérondif",
+    "imparfait",
+    "conditionnel présent",
+    "subjonctif passé"
+   ],
+   "answer": "gérondif",
+   "speak": "en parlant",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “finir”: nous, imparfait",
+   "answer": "nous finissions",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “aller”: je, futur simple",
+   "answer": "j'irai",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “faire”: vous, présent",
+   "answer": "vous faites",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “prendre”: ils, passé composé",
+   "answer": "ils ont pris",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “être”: tu, subjonctif présent",
+   "answer": "que tu sois",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “avoir”: nous, conditionnel présent",
+   "answer": "nous aurions",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “venir”: il, plus-que-parfait",
+   "answer": "il était venu",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “voir”: ils, futur simple",
+   "answer": "ils verront",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “dire”: vous, présent",
+   "answer": "vous dites",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “pouvoir”: je, conditionnel présent",
+   "answer": "je pourrais",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “savoir”: nous, subjonctif présent",
+   "answer": "que nous sachions",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “partir”: il, futur antérieur",
+   "answer": "il sera parti",
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “écrire”: je, passé composé",
+   "answer": "j'ai écrit",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “boire”: nous, imparfait",
+   "answer": "nous buvions",
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “faire”: il, passé simple",
+   "answer": "il fit",
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “devoir”: tu, conditionnel passé",
+   "answer": "tu aurais dû",
+   "id": "032"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “aller”: ils, subjonctif présent",
+   "answer": "qu'ils aillent",
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “vouloir”: il, futur simple",
+   "answer": "il voudra",
+   "id": "034"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “recevoir”: je, passé composé",
+   "answer": "j'ai reçu",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “être”: ils, passé simple",
+   "answer": "ils furent",
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “mettre”: nous, présent",
+   "answer": "nous mettons",
+   "id": "037"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “lire”: il, plus-que-parfait",
+   "answer": "il avait lu",
+   "id": "038"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “venir”: nous, conditionnel présent",
+   "answer": "nous viendrions",
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Conjugate “avoir”: ils, subjonctif présent",
+   "answer": "qu'ils aient",
+   "id": "040"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Hier, nous ___ au cinéma.",
+   "answer": "sommes allés",
+   "hint": "aller",
+   "accept": [
+    "sommes allées"
+   ],
+   "id": "041"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Demain, il ___ beau.",
+   "answer": "fera",
+   "hint": "faire",
+   "id": "042"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand j'étais enfant, je ___ beaucoup.",
+   "answer": "lisais",
+   "hint": "lire",
+   "id": "043"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si j'avais le temps, je ___ plus.",
+   "answer": "voyagerais",
+   "hint": "voyager",
+   "id": "044"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut que tu ___ patient.",
+   "answer": "sois",
+   "hint": "être",
+   "id": "045"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand je suis arrivé, elle ___ depuis une heure.",
+   "answer": "était partie",
+   "hint": "partir",
+   "id": "046"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si tu étais venu, tu ___ Marie.",
+   "answer": "aurais vu",
+   "hint": "voir",
+   "id": "047"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand tu ___ ce livre, prête-le-moi.",
+   "answer": "auras fini",
+   "hint": "finir",
+   "id": "048"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Napoléon ___ en 1821.",
+   "answer": "mourut",
+   "hint": "mourir · passé simple",
+   "id": "049"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ de finir mon travail.",
+   "answer": "viens",
+   "hint": "passé récent",
+   "id": "050"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Bien qu'il ___, nous sortons.",
+   "answer": "pleuve",
+   "hint": "pleuvoir",
+   "id": "051"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle travaille ___ la radio.",
+   "answer": "en écoutant",
+   "hint": "écouter · gérondif",
+   "id": "052"
+  }
+ ]
+}
