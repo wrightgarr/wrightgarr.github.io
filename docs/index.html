@@ -124,7 +124,7 @@
 
     <!-- Loading / error -->
     <div id="loading" class="mt-6 flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-600">
-      <i data-lucide="loader-circle" class="spin h-5 w-5 text-indigo-600"></i> Loading decks from the resources folder…
+      <i data-lucide="loader-circle" class="spin h-5 w-5 text-indigo-600"></i> <span id="loading-text" class="tabular">Loading decks…</span>
     </div>
     <div id="load-error" class="mt-6 hidden rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">
       <p class="font-semibold">The decks could not be loaded.</p>
@@ -469,11 +469,38 @@
   let DECKS = [];          // [{ id, level, subject, title, description, items: [...] }]
   let ITEM_BY_KEY = {};    // "deckId/itemId" -> item
 
-  function fetchJson(path) {
+  const FETCH_CONCURRENCY = 6;      // hosts may refuse a burst of 100+ simultaneous requests
+  const FETCH_RETRIES = 3;
+
+  function wait(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
+
+  function fetchJson(path, attempt) {
+    attempt = attempt || 0;
     return fetch(RESOURCES_DIR + path, { cache: "no-cache" }).then(res => {
       if (!res.ok) throw new Error(path + " (" + res.status + ")");
       return res.json();
+    }).catch(err => {
+      if (attempt >= FETCH_RETRIES) throw err;
+      return wait(400 * Math.pow(2, attempt)).then(() => fetchJson(path, attempt + 1));
     });
+  }
+
+  // Runs task(item) for every item with at most `limit` in flight; keeps input order in the results.
+  function mapLimited(list, limit, task, onProgress) {
+    const results = new Array(list.length);
+    let next = 0, done = 0;
+    function worker() {
+      if (next >= list.length) return Promise.resolve();
+      const i = next++;
+      return task(list[i]).then(r => { results[i] = r; }).then(() => {
+        done++;
+        if (onProgress) onProgress(done, list.length);
+        return worker();
+      });
+    }
+    const workers = [];
+    for (let k = 0; k < Math.min(limit, list.length); k++) workers.push(worker());
+    return Promise.all(workers).then(() => results);
   }
 
   function validItem(it) {
@@ -512,9 +539,9 @@
     return fetchJson(MANIFEST_FILE).then(manifest => {
       const paths = Array.isArray(manifest) ? manifest : (manifest && manifest.decks) || [];
       const files = paths.map(p => (typeof p === "string") ? p : (p && p.file)).filter(Boolean);
-      return Promise.all(files.map(path =>
-        fetchJson(path).then(raw => normaliseDeck(raw, path)).catch(err => ({ failed: path, error: err }))
-      ));
+      return mapLimited(files, FETCH_CONCURRENCY,
+        path => fetchJson(path).then(raw => normaliseDeck(raw, path)).catch(err => ({ failed: path, error: err })),
+        (done, total) => { $("loading-text").textContent = "Loading decks… " + done + " of " + total; });
     }).then(results => {
       const failed = results.filter(r => r.failed);
       const seen = {};
@@ -526,7 +553,10 @@
         a.title.localeCompare(b.title));
       ITEM_BY_KEY = {};
       DECKS.forEach(d => d.items.forEach(it => { ITEM_BY_KEY[it.key] = it; }));
-      if (failed.length) toast(failed.length === 1 ? "1 deck could not be loaded" : failed.length + " decks could not be loaded");
+      if (failed.length) {
+        if (window.console) console.warn("Mémo: decks that failed to load", failed.map(f => f.failed + " — " + (f.error && f.error.message)));
+        toast(failed.length === 1 ? "1 deck could not be loaded — reload to retry" : failed.length + " decks could not be loaded — reload to retry");
+      }
       if (!DECKS.length) throw new Error("No decks were found in " + RESOURCES_DIR + MANIFEST_FILE);
     });
   }
