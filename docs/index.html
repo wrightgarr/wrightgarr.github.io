@@ -411,6 +411,11 @@
         <button id="toggle-autospeak" class="toggle relative h-7 w-12 shrink-0 rounded-full bg-slate-300 p-1" aria-pressed="false" aria-label="Auto-speak"><span class="block h-5 w-5 rounded-full bg-white shadow"></span></button>
       </div>
       <div class="py-3">
+        <label for="voice" class="text-sm font-medium text-slate-700">French voice</label>
+        <select id="voice" class="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-800 outline-none focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100"></select>
+        <p id="voice-note" class="mt-1 text-xs text-slate-400">Voices come from your device. Download better ones in your system settings, then reopen the browser.</p>
+      </div>
+      <div class="py-3">
         <div class="flex items-center justify-between">
           <label for="rate" class="text-sm font-medium text-slate-700">Speech speed</label>
           <span id="rate-label" class="tabular text-xs font-semibold text-indigo-600">0.9×</span>
@@ -574,7 +579,7 @@
     return {
       cards: {},                                            // item key -> { box, due, correct, wrong }
       streak: { count: 0, best: 0, last: null },
-      settings: { sessionSize: 10, shuffle: true, autoSpeak: false, rate: 0.9, lastLevel: null, lastDeck: null },
+      settings: { sessionSize: 10, shuffle: true, autoSpeak: false, rate: 0.9, voice: "", lastLevel: null, lastDeck: null },
       totals: { reviews: 0 }
     };
   }
@@ -723,14 +728,42 @@
      ========================================================= */
   const speechSupported = ("speechSynthesis" in window) && ("SpeechSynthesisUtterance" in window);
   let frenchVoice = null;
+  function frenchVoices() {
+    if (!speechSupported) return [];
+    return (window.speechSynthesis.getVoices() || []).filter(v => (v.lang || "").toLowerCase().indexOf("fr") === 0);
+  }
+  // Saved choice first; otherwise the best-sounding French voice the device offers.
   function pickFrenchVoice() {
-    if (!speechSupported) return;
-    const voices = window.speechSynthesis.getVoices() || [];
-    const lang = v => (v.lang || "").replace("_", "-").toLowerCase();
+    const voices = frenchVoices();
+    const saved = state.settings.voice && voices.find(v => v.voiceURI === state.settings.voice);
+    if (saved) { frenchVoice = saved; renderVoiceMenu(); return; }
+    const fr = v => (v.lang || "").replace("_", "-").toLowerCase() === "fr-fr";
+    const good = v => /premium|enhanced|natural|neural|google/i.test(v.name + " " + v.voiceURI);
     frenchVoice =
-      voices.find(v => lang(v) === "fr-fr" && v.localService) ||
-      voices.find(v => lang(v) === "fr-fr") ||
-      voices.find(v => lang(v).indexOf("fr") === 0) || null;
+      voices.find(v => fr(v) && good(v)) || voices.find(good) ||
+      voices.find(v => fr(v) && v.default) || voices.find(v => fr(v) && v.localService) ||
+      voices.find(fr) || voices[0] || null;
+    renderVoiceMenu();
+  }
+  function renderVoiceMenu() {
+    const sel = document.getElementById("voice");
+    if (!sel) return;
+    const voices = frenchVoices();
+    sel.innerHTML = "";
+    const auto = document.createElement("option");
+    auto.value = "";
+    auto.textContent = "Automatic" + (!state.settings.voice && frenchVoice ? " (" + frenchVoice.name + ")" : "");
+    sel.appendChild(auto);
+    voices.forEach(v => {
+      const o = document.createElement("option");
+      o.value = v.voiceURI;
+      o.textContent = v.name + " · " + v.lang + (v.localService ? "" : " · online");
+      sel.appendChild(o);
+    });
+    const saved = voices.some(v => v.voiceURI === state.settings.voice);
+    sel.value = saved ? state.settings.voice : "";
+    sel.disabled = !voices.length;
+    if (!voices.length) auto.textContent = speechSupported ? "No French voice found on this device" : "Speech isn't supported in this browser";
   }
   if (speechSupported) {
     pickFrenchVoice();
@@ -746,9 +779,9 @@
     try {
       const synth = window.speechSynthesis;
       synth.cancel();
-      if (!frenchVoice) pickFrenchVoice();
+      if (!frenchVoice || (state.settings.voice && frenchVoice.voiceURI !== state.settings.voice)) pickFrenchVoice();
       const u = new SpeechSynthesisUtterance(String(text).replace(/\s*\/\s*/g, ", "));
-      u.lang = "fr-FR";
+      u.lang = frenchVoice ? frenchVoice.lang : "fr-FR";
       if (frenchVoice) u.voice = frenchVoice;
       u.rate = Number(state.settings.rate) || 0.9;
       u.pitch = 1;
@@ -1265,6 +1298,7 @@
     });
     $("toggle-shuffle").setAttribute("aria-pressed", String(!!state.settings.shuffle));
     $("toggle-autospeak").setAttribute("aria-pressed", String(!!state.settings.autoSpeak));
+    pickFrenchVoice();
     $("rate").value = state.settings.rate;
     $("rate-label").textContent = Number(state.settings.rate).toFixed(1) + "×";
   }
@@ -1307,6 +1341,12 @@
     state.settings.rate = Number(e.target.value);
     $("rate-label").textContent = state.settings.rate.toFixed(1) + "×";
     saveState();
+  });
+  $("voice").addEventListener("change", e => {
+    state.settings.voice = e.target.value;
+    saveState();
+    pickFrenchVoice();
+    speak("Bonjour ! Voici ma voix.");
   });
   $("btn-test-voice").addEventListener("click", () => speak("Bonjour ! Bienvenue dans votre séance de français."));
   $("btn-reset").addEventListener("click", () => {
