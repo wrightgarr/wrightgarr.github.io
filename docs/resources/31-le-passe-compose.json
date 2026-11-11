@@ -1,0 +1,682 @@
+{
+ "id": "a2-31-le-passe-compose",
+ "level": "A2",
+ "subject": 31,
+ "title": "Le Passé Composé (1st Group Verbs)",
+ "description": "avoir + a past participle in -é.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Passé composé",
+   "type": "Rule",
+   "translation": "Present of avoir (or être) + past participle",
+   "exampleFr": "J'ai parlé, tu as parlé, il a parlé.",
+   "exampleEn": "I spoke, you spoke, he spoke.",
+   "hint": "It covers both “I spoke” and “I have spoken”",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Participe passé en -é",
+   "type": "Rule",
+   "translation": "-er verbs: replace -er with -é",
+   "exampleFr": "Parler → parlé ; manger → mangé.",
+   "exampleEn": "To speak → spoken; to eat → eaten.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ne … pas au passé composé",
+   "type": "Rule",
+   "translation": "ne and pas go around the auxiliary",
+   "exampleFr": "Je n'ai pas mangé.",
+   "exampleEn": "I did not eat.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “J'ai regardé le film.”",
+   "answer": "Je n'ai pas regardé le film",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Nous avons travaillé hier.”",
+   "answer": "Nous n'avons pas travaillé hier",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Parler",
+   "type": "Passé composé",
+   "translation": "j'ai parlé — I spoke",
+   "exampleFr": "Nous avons parlé avec le professeur.",
+   "exampleEn": "We spoke with the teacher.",
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ avec le professeur.  (parler, passé composé)",
+   "options": [
+    "ai parlé",
+    "as parlé",
+    "a parlé",
+    "avons parlé"
+   ],
+   "answer": "ai parlé",
+   "explain": "parler → j'ai parlé",
+   "speak": "J'ai parlé avec le professeur.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (one friend) spoke”  (parler)",
+   "answer": "tu as parlé",
+   "accept": [
+    "as parlé"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ avec le professeur.",
+   "answer": "a parlé",
+   "hint": "parler · passé composé",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “We spoke”  (parler)",
+   "answer": "nous avons parlé",
+   "accept": [
+    "avons parlé"
+   ],
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ avec le professeur.  (parler, passé composé)",
+   "options": [
+    "avez parlé",
+    "ont parlé",
+    "ai parlé",
+    "as parlé"
+   ],
+   "answer": "avez parlé",
+   "explain": "parler → vous avez parlé",
+   "speak": "Vous avez parlé avec le professeur.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “They spoke”  (parler)",
+   "answer": "ils ont parlé",
+   "accept": [
+    "ont parlé",
+    "ils ont parlé",
+    "elles ont parlé"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Regarder",
+   "type": "Passé composé",
+   "translation": "j'ai regardé — I watched",
+   "exampleFr": "Nous avons regardé un film.",
+   "exampleEn": "We watched a film.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “I watched”  (regarder)",
+   "answer": "j'ai regardé",
+   "accept": [
+    "ai regardé"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ un film.",
+   "answer": "as regardé",
+   "hint": "regarder · passé composé",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “She watched”  (regarder)",
+   "answer": "elle a regardé",
+   "accept": [
+    "a regardé",
+    "on a regardé",
+    "il a regardé",
+    "elle a regardé"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ un film.  (regarder, passé composé)",
+   "options": [
+    "avons regardé",
+    "avez regardé",
+    "ont regardé",
+    "ai regardé"
+   ],
+   "answer": "avons regardé",
+   "explain": "regarder → nous avons regardé",
+   "speak": "Nous avons regardé un film.",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (formal or plural) watched”  (regarder)",
+   "answer": "vous avez regardé",
+   "accept": [
+    "avez regardé"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ un film.",
+   "answer": "ont regardé",
+   "hint": "regarder · passé composé",
+   "id": "019"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Manger",
+   "type": "Passé composé",
+   "translation": "j'ai mangé — I ate",
+   "exampleFr": "Nous avons mangé au restaurant.",
+   "exampleEn": "We ate at the restaurant.",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ au restaurant.",
+   "answer": "ai mangé",
+   "hint": "manger · passé composé",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (one friend) ate”  (manger)",
+   "answer": "tu as mangé",
+   "accept": [
+    "as mangé"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ au restaurant.  (manger, passé composé)",
+   "options": [
+    "a mangé",
+    "avons mangé",
+    "avez mangé",
+    "ont mangé"
+   ],
+   "answer": "a mangé",
+   "explain": "manger → il a mangé",
+   "speak": "Il a mangé au restaurant.",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “We ate”  (manger)",
+   "answer": "nous avons mangé",
+   "accept": [
+    "avons mangé"
+   ],
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ au restaurant.",
+   "answer": "avez mangé",
+   "hint": "manger · passé composé",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “They ate”  (manger)",
+   "answer": "ils ont mangé",
+   "accept": [
+    "ont mangé",
+    "ils ont mangé",
+    "elles ont mangé"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Travailler",
+   "type": "Passé composé",
+   "translation": "j'ai travaillé — I worked",
+   "exampleFr": "Nous avons travaillé au bureau.",
+   "exampleEn": "We worked at the office.",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “I worked”  (travailler)",
+   "answer": "j'ai travaillé",
+   "accept": [
+    "ai travaillé"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ au bureau.  (travailler, passé composé)",
+   "options": [
+    "as travaillé",
+    "a travaillé",
+    "avons travaillé",
+    "avez travaillé"
+   ],
+   "answer": "as travaillé",
+   "explain": "travailler → tu as travaillé",
+   "speak": "Tu as travaillé au bureau.",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “She worked”  (travailler)",
+   "answer": "elle a travaillé",
+   "accept": [
+    "a travaillé",
+    "on a travaillé",
+    "il a travaillé",
+    "elle a travaillé"
+   ],
+   "id": "030"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ au bureau.",
+   "answer": "avons travaillé",
+   "hint": "travailler · passé composé",
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (formal or plural) worked”  (travailler)",
+   "answer": "vous avez travaillé",
+   "accept": [
+    "avez travaillé"
+   ],
+   "id": "032"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ au bureau.  (travailler, passé composé)",
+   "options": [
+    "ont travaillé",
+    "ai travaillé",
+    "as travaillé",
+    "a travaillé"
+   ],
+   "answer": "ont travaillé",
+   "explain": "travailler → elles ont travaillé",
+   "speak": "Elles ont travaillé au bureau.",
+   "id": "033"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Acheter",
+   "type": "Passé composé",
+   "translation": "j'ai acheté — I bought",
+   "exampleFr": "Nous avons acheté du pain.",
+   "exampleEn": "We bought some bread.",
+   "id": "034"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ du pain.  (acheter, passé composé)",
+   "options": [
+    "ai acheté",
+    "as acheté",
+    "a acheté",
+    "avons acheté"
+   ],
+   "answer": "ai acheté",
+   "explain": "acheter → j'ai acheté",
+   "speak": "J'ai acheté du pain.",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (one friend) bought”  (acheter)",
+   "answer": "tu as acheté",
+   "accept": [
+    "as acheté"
+   ],
+   "id": "036"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ du pain.",
+   "answer": "a acheté",
+   "hint": "acheter · passé composé",
+   "id": "037"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “We bought”  (acheter)",
+   "answer": "nous avons acheté",
+   "accept": [
+    "avons acheté"
+   ],
+   "id": "038"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ du pain.  (acheter, passé composé)",
+   "options": [
+    "avez acheté",
+    "ont acheté",
+    "ai acheté",
+    "as acheté"
+   ],
+   "answer": "avez acheté",
+   "explain": "acheter → vous avez acheté",
+   "speak": "Vous avez acheté du pain.",
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “They bought”  (acheter)",
+   "answer": "ils ont acheté",
+   "accept": [
+    "ont acheté",
+    "ils ont acheté",
+    "elles ont acheté"
+   ],
+   "id": "040"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Écouter",
+   "type": "Passé composé",
+   "translation": "j'ai écouté — I listened to",
+   "exampleFr": "Nous avons écouté la radio.",
+   "exampleEn": "We listened to the radio.",
+   "id": "041"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “I listened to”  (écouter)",
+   "answer": "j'ai écouté",
+   "accept": [
+    "ai écouté"
+   ],
+   "id": "042"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ la radio.",
+   "answer": "as écouté",
+   "hint": "écouter · passé composé",
+   "id": "043"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “She listened to”  (écouter)",
+   "answer": "elle a écouté",
+   "accept": [
+    "a écouté",
+    "on a écouté",
+    "il a écouté",
+    "elle a écouté"
+   ],
+   "id": "044"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ la radio.  (écouter, passé composé)",
+   "options": [
+    "avons écouté",
+    "avez écouté",
+    "ont écouté",
+    "ai écouté"
+   ],
+   "answer": "avons écouté",
+   "explain": "écouter → nous avons écouté",
+   "speak": "Nous avons écouté la radio.",
+   "id": "045"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (formal or plural) listened to”  (écouter)",
+   "answer": "vous avez écouté",
+   "accept": [
+    "avez écouté"
+   ],
+   "id": "046"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ la radio.",
+   "answer": "ont écouté",
+   "hint": "écouter · passé composé",
+   "id": "047"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Jouer",
+   "type": "Passé composé",
+   "translation": "j'ai joué — I played",
+   "exampleFr": "Nous avons joué au tennis.",
+   "exampleEn": "We played tennis.",
+   "id": "048"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ au tennis.",
+   "answer": "ai joué",
+   "hint": "jouer · passé composé",
+   "id": "049"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (one friend) played”  (jouer)",
+   "answer": "tu as joué",
+   "accept": [
+    "as joué"
+   ],
+   "id": "050"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ au tennis.  (jouer, passé composé)",
+   "options": [
+    "a joué",
+    "avons joué",
+    "avez joué",
+    "ont joué"
+   ],
+   "answer": "a joué",
+   "explain": "jouer → il a joué",
+   "speak": "Il a joué au tennis.",
+   "id": "051"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “We played”  (jouer)",
+   "answer": "nous avons joué",
+   "accept": [
+    "avons joué"
+   ],
+   "id": "052"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ au tennis.",
+   "answer": "avez joué",
+   "hint": "jouer · passé composé",
+   "id": "053"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “They played”  (jouer)",
+   "answer": "ils ont joué",
+   "accept": [
+    "ont joué",
+    "ils ont joué",
+    "elles ont joué"
+   ],
+   "id": "054"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Visiter",
+   "type": "Passé composé",
+   "translation": "j'ai visité — I visited",
+   "exampleFr": "Nous avons visité le musée.",
+   "exampleEn": "We visited the museum.",
+   "id": "055"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “I visited”  (visiter)",
+   "answer": "j'ai visité",
+   "accept": [
+    "ai visité"
+   ],
+   "id": "056"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ le musée.  (visiter, passé composé)",
+   "options": [
+    "as visité",
+    "a visité",
+    "avons visité",
+    "avez visité"
+   ],
+   "answer": "as visité",
+   "explain": "visiter → tu as visité",
+   "speak": "Tu as visité le musée.",
+   "id": "057"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “She visited”  (visiter)",
+   "answer": "elle a visité",
+   "accept": [
+    "a visité",
+    "on a visité",
+    "il a visité",
+    "elle a visité"
+   ],
+   "id": "058"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ le musée.",
+   "answer": "avons visité",
+   "hint": "visiter · passé composé",
+   "id": "059"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (formal or plural) visited”  (visiter)",
+   "answer": "vous avez visité",
+   "accept": [
+    "avez visité"
+   ],
+   "id": "060"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ le musée.  (visiter, passé composé)",
+   "options": [
+    "ont visité",
+    "ai visité",
+    "as visité",
+    "a visité"
+   ],
+   "answer": "ont visité",
+   "explain": "visiter → elles ont visité",
+   "speak": "Elles ont visité le musée.",
+   "id": "061"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Trouver",
+   "type": "Passé composé",
+   "translation": "j'ai trouvé — I found",
+   "exampleFr": "Nous avons trouvé la solution.",
+   "exampleEn": "We found the solution.",
+   "id": "062"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ la solution.  (trouver, passé composé)",
+   "options": [
+    "ai trouvé",
+    "as trouvé",
+    "a trouvé",
+    "avons trouvé"
+   ],
+   "answer": "ai trouvé",
+   "explain": "trouver → j'ai trouvé",
+   "speak": "J'ai trouvé la solution.",
+   "id": "063"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (one friend) found”  (trouver)",
+   "answer": "tu as trouvé",
+   "accept": [
+    "as trouvé"
+   ],
+   "id": "064"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ la solution.",
+   "answer": "a trouvé",
+   "hint": "trouver · passé composé",
+   "id": "065"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “We found”  (trouver)",
+   "answer": "nous avons trouvé",
+   "accept": [
+    "avons trouvé"
+   ],
+   "id": "066"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ la solution.  (trouver, passé composé)",
+   "options": [
+    "avez trouvé",
+    "ont trouvé",
+    "ai trouvé",
+    "as trouvé"
+   ],
+   "answer": "avez trouvé",
+   "explain": "trouver → vous avez trouvé",
+   "speak": "Vous avez trouvé la solution.",
+   "id": "067"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “They found”  (trouver)",
+   "answer": "ils ont trouvé",
+   "accept": [
+    "ont trouvé",
+    "ils ont trouvé",
+    "elles ont trouvé"
+   ],
+   "id": "068"
+  }
+ ]
+}
