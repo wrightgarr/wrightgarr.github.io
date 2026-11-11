@@ -1,0 +1,716 @@
+{
+ "id": "a2-47-reflexive-verbs",
+ "level": "A2",
+ "subject": 47,
+ "title": "Reflexive Verbs",
+ "description": "Verbs with me, te, se, nous, vous, se.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Verbes pronominaux",
+   "type": "Rule",
+   "translation": "The pronoun matches the subject: je me, tu te, il se, nous nous, vous vous, ils se",
+   "exampleFr": "Je me lave, tu te laves, nous nous lavons.",
+   "exampleEn": "I wash, you wash, we wash (ourselves).",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Négation",
+   "type": "Rule",
+   "translation": "ne goes before the pronoun, pas after the verb",
+   "exampleFr": "Je ne me lève pas tôt.",
+   "exampleEn": "I do not get up early.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Passé composé",
+   "type": "Rule",
+   "translation": "Reflexive verbs use être, and the participle usually agrees with the subject",
+   "exampleFr": "Elle s'est levée à six heures.",
+   "exampleEn": "She got up at six.",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Je me lève tôt.”",
+   "answer": "Je ne me lève pas tôt",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Nous nous couchons tard.”",
+   "answer": "Nous ne nous couchons pas tard",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “He got up.”  (se lever)",
+   "answer": "Il s'est levé",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “She woke up.”  (se réveiller)",
+   "answer": "Elle s'est réveillée",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Hier, elle s'___ couchée à minuit.",
+   "answer": "est",
+   "hint": "auxiliary",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous nous ___ promenés dans le parc.",
+   "answer": "sommes",
+   "hint": "auxiliary",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Se lever",
+   "type": "Reflexive verb",
+   "translation": "To get up",
+   "exampleFr": "Je me lève tôt le lundi.",
+   "exampleEn": "I get up early on Mondays.",
+   "hint": "je me lève · nous nous levons · ils se lèvent",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ à sept heures.  (se lever)",
+   "options": [
+    "me lève",
+    "te lèves",
+    "se lève",
+    "nous levons"
+   ],
+   "answer": "me lève",
+   "explain": "se lever → je me lève",
+   "speak": "Je me lève à sept heures.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) get up”  (se lever)",
+   "answer": "tu te lèves",
+   "accept": [
+    "te lèves"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ à sept heures.",
+   "answer": "se lève",
+   "hint": "verb: se lever",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we get up”  (se lever)",
+   "answer": "nous nous levons",
+   "accept": [
+    "nous levons"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ à sept heures.  (se lever)",
+   "options": [
+    "vous levez",
+    "se lèvent",
+    "me lève",
+    "te lèves"
+   ],
+   "answer": "vous levez",
+   "explain": "se lever → vous vous levez",
+   "speak": "Vous vous levez à sept heures.",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they get up”  (se lever)",
+   "answer": "ils se lèvent",
+   "accept": [
+    "se lèvent",
+    "ils se lèvent",
+    "elles se lèvent"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Se laver",
+   "type": "Reflexive verb",
+   "translation": "To wash",
+   "exampleFr": "Les enfants se lavent les mains.",
+   "exampleEn": "The children are washing their hands.",
+   "hint": "je me lave · nous nous lavons · ils se lavent",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I wash”  (se laver)",
+   "answer": "je me lave",
+   "accept": [
+    "me lave"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ les mains.",
+   "answer": "te laves",
+   "hint": "verb: se laver",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she washes”  (se laver)",
+   "answer": "elle se lave",
+   "accept": [
+    "se lave",
+    "il se lave",
+    "elle se lave",
+    "on se lave"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ les mains.  (se laver)",
+   "options": [
+    "nous lavons",
+    "vous lavez",
+    "se lavent",
+    "me lave"
+   ],
+   "answer": "nous lavons",
+   "explain": "se laver → nous nous lavons",
+   "speak": "Nous nous lavons les mains.",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) wash”  (se laver)",
+   "answer": "vous vous lavez",
+   "accept": [
+    "vous lavez"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ les mains.",
+   "answer": "se lavent",
+   "hint": "verb: se laver",
+   "id": "023"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Se réveiller",
+   "type": "Reflexive verb",
+   "translation": "To wake up",
+   "exampleFr": "Tu te réveilles à quelle heure ?",
+   "exampleEn": "What time do you wake up?",
+   "hint": "je me réveille · nous nous réveillons · ils se réveillent",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ tôt.",
+   "answer": "me réveille",
+   "hint": "verb: se réveiller",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) wake up”  (se réveiller)",
+   "answer": "tu te réveilles",
+   "accept": [
+    "te réveilles"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ tôt.  (se réveiller)",
+   "options": [
+    "se réveille",
+    "nous réveillons",
+    "vous réveillez",
+    "se réveillent"
+   ],
+   "answer": "se réveille",
+   "explain": "se réveiller → il se réveille",
+   "speak": "Il se réveille tôt.",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we wake up”  (se réveiller)",
+   "answer": "nous nous réveillons",
+   "accept": [
+    "nous réveillons"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ tôt.",
+   "answer": "vous réveillez",
+   "hint": "verb: se réveiller",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they wake up”  (se réveiller)",
+   "answer": "ils se réveillent",
+   "accept": [
+    "se réveillent",
+    "ils se réveillent",
+    "elles se réveillent"
+   ],
+   "id": "030"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Se coucher",
+   "type": "Reflexive verb",
+   "translation": "To go to bed",
+   "exampleFr": "Nous nous couchons vers onze heures.",
+   "exampleEn": "We go to bed around eleven.",
+   "hint": "je me couche · nous nous couchons · ils se couchent",
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I go to bed”  (se coucher)",
+   "answer": "je me couche",
+   "accept": [
+    "me couche"
+   ],
+   "id": "032"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ tard.  (se coucher)",
+   "options": [
+    "te couches",
+    "se couche",
+    "nous couchons",
+    "vous couchez"
+   ],
+   "answer": "te couches",
+   "explain": "se coucher → tu te couches",
+   "speak": "Tu te couches tard.",
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she goes to bed”  (se coucher)",
+   "answer": "elle se couche",
+   "accept": [
+    "se couche",
+    "il se couche",
+    "elle se couche",
+    "on se couche"
+   ],
+   "id": "034"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ tard.",
+   "answer": "nous couchons",
+   "hint": "verb: se coucher",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) go to bed”  (se coucher)",
+   "answer": "vous vous couchez",
+   "accept": [
+    "vous couchez"
+   ],
+   "id": "036"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ tard.  (se coucher)",
+   "options": [
+    "se couchent",
+    "me couche",
+    "te couches",
+    "se couche"
+   ],
+   "answer": "se couchent",
+   "explain": "se coucher → elles se couchent",
+   "speak": "Elles se couchent tard.",
+   "id": "037"
+  },
+  {
+   "kind": "flashcard",
+   "word": "S'habiller",
+   "type": "Reflexive verb",
+   "translation": "To get dressed",
+   "exampleFr": "Elle s'habille toujours en noir.",
+   "exampleEn": "She always dresses in black.",
+   "hint": "je m'habille · nous nous habillons · ils s'habillent",
+   "id": "038"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ vite.  (s'habiller)",
+   "options": [
+    "m'habille",
+    "t'habilles",
+    "s'habille",
+    "nous habillons"
+   ],
+   "answer": "m'habille",
+   "explain": "s'habiller → je m'habille",
+   "speak": "Je m'habille vite.",
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) get dressed”  (s'habiller)",
+   "answer": "tu t'habilles",
+   "accept": [
+    "t'habilles"
+   ],
+   "id": "040"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ vite.",
+   "answer": "s'habille",
+   "hint": "verb: s'habiller",
+   "id": "041"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we get dressed”  (s'habiller)",
+   "answer": "nous nous habillons",
+   "accept": [
+    "nous habillons"
+   ],
+   "id": "042"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ vite.  (s'habiller)",
+   "options": [
+    "vous habillez",
+    "s'habillent",
+    "m'habille",
+    "t'habilles"
+   ],
+   "answer": "vous habillez",
+   "explain": "s'habiller → vous vous habillez",
+   "speak": "Vous vous habillez vite.",
+   "id": "043"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they get dressed”  (s'habiller)",
+   "answer": "ils s'habillent",
+   "accept": [
+    "s'habillent",
+    "ils s'habillent",
+    "elles s'habillent"
+   ],
+   "id": "044"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Se dépêcher",
+   "type": "Reflexive verb",
+   "translation": "To hurry",
+   "exampleFr": "Dépêche-toi, on est en retard !",
+   "exampleEn": "Hurry up, we are late!",
+   "hint": "je me dépêche · nous nous dépêchons · ils se dépêchent",
+   "id": "045"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I hurry”  (se dépêcher)",
+   "answer": "je me dépêche",
+   "accept": [
+    "me dépêche"
+   ],
+   "id": "046"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ le matin.",
+   "answer": "te dépêches",
+   "hint": "verb: se dépêcher",
+   "id": "047"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she hurries”  (se dépêcher)",
+   "answer": "elle se dépêche",
+   "accept": [
+    "se dépêche",
+    "il se dépêche",
+    "elle se dépêche",
+    "on se dépêche"
+   ],
+   "id": "048"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ le matin.  (se dépêcher)",
+   "options": [
+    "nous dépêchons",
+    "vous dépêchez",
+    "se dépêchent",
+    "me dépêche"
+   ],
+   "answer": "nous dépêchons",
+   "explain": "se dépêcher → nous nous dépêchons",
+   "speak": "Nous nous dépêchons le matin.",
+   "id": "049"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) hurry”  (se dépêcher)",
+   "answer": "vous vous dépêchez",
+   "accept": [
+    "vous dépêchez"
+   ],
+   "id": "050"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ le matin.",
+   "answer": "se dépêchent",
+   "hint": "verb: se dépêcher",
+   "id": "051"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Se promener",
+   "type": "Reflexive verb",
+   "translation": "To go for a walk",
+   "exampleFr": "Ils se promènent au bord de la mer.",
+   "exampleEn": "They are walking by the sea.",
+   "hint": "je me promène · nous nous promenons · ils se promènent",
+   "id": "052"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ dans le parc.",
+   "answer": "me promène",
+   "hint": "verb: se promener",
+   "id": "053"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) go for a walk”  (se promener)",
+   "answer": "tu te promènes",
+   "accept": [
+    "te promènes"
+   ],
+   "id": "054"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ dans le parc.  (se promener)",
+   "options": [
+    "se promène",
+    "nous promenons",
+    "vous promenez",
+    "se promènent"
+   ],
+   "answer": "se promène",
+   "explain": "se promener → il se promène",
+   "speak": "Il se promène dans le parc.",
+   "id": "055"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we go for a walk”  (se promener)",
+   "answer": "nous nous promenons",
+   "accept": [
+    "nous promenons"
+   ],
+   "id": "056"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ dans le parc.",
+   "answer": "vous promenez",
+   "hint": "verb: se promener",
+   "id": "057"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they go for a walk”  (se promener)",
+   "answer": "ils se promènent",
+   "accept": [
+    "se promènent",
+    "ils se promènent",
+    "elles se promènent"
+   ],
+   "id": "058"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Se reposer",
+   "type": "Reflexive verb",
+   "translation": "To rest",
+   "exampleFr": "Je me repose après le travail.",
+   "exampleEn": "I rest after work.",
+   "hint": "je me repose · nous nous reposons · ils se reposent",
+   "id": "059"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I rest”  (se reposer)",
+   "answer": "je me repose",
+   "accept": [
+    "me repose"
+   ],
+   "id": "060"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ le dimanche.  (se reposer)",
+   "options": [
+    "te reposes",
+    "se repose",
+    "nous reposons",
+    "vous reposez"
+   ],
+   "answer": "te reposes",
+   "explain": "se reposer → tu te reposes",
+   "speak": "Tu te reposes le dimanche.",
+   "id": "061"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she rests”  (se reposer)",
+   "answer": "elle se repose",
+   "accept": [
+    "se repose",
+    "il se repose",
+    "elle se repose",
+    "on se repose"
+   ],
+   "id": "062"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ le dimanche.",
+   "answer": "nous reposons",
+   "hint": "verb: se reposer",
+   "id": "063"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (formal or plural) rest”  (se reposer)",
+   "answer": "vous vous reposez",
+   "accept": [
+    "vous reposez"
+   ],
+   "id": "064"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ le dimanche.  (se reposer)",
+   "options": [
+    "se reposent",
+    "me repose",
+    "te reposes",
+    "se repose"
+   ],
+   "answer": "se reposent",
+   "explain": "se reposer → elles se reposent",
+   "speak": "Elles se reposent le dimanche.",
+   "id": "065"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Se souvenir",
+   "type": "Reflexive verb",
+   "translation": "To remember",
+   "exampleFr": "Tu te souviens de moi ?",
+   "exampleEn": "Do you remember me?",
+   "hint": "je me souviens · nous nous souvenons · ils se souviennent",
+   "id": "066"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ de ce jour.  (se souvenir)",
+   "options": [
+    "me souviens",
+    "te souviens",
+    "se souvient",
+    "nous souvenons"
+   ],
+   "answer": "me souviens",
+   "explain": "se souvenir → je me souviens",
+   "speak": "Je me souviens de ce jour.",
+   "id": "067"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (one friend) remember”  (se souvenir)",
+   "answer": "tu te souviens",
+   "accept": [
+    "te souviens"
+   ],
+   "id": "068"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ de ce jour.",
+   "answer": "se souvient",
+   "hint": "verb: se souvenir",
+   "id": "069"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we remember”  (se souvenir)",
+   "answer": "nous nous souvenons",
+   "accept": [
+    "nous souvenons"
+   ],
+   "id": "070"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ de ce jour.  (se souvenir)",
+   "options": [
+    "vous souvenez",
+    "se souviennent",
+    "me souviens",
+    "te souviens"
+   ],
+   "answer": "vous souvenez",
+   "explain": "se souvenir → vous vous souvenez",
+   "speak": "Vous vous souvenez de ce jour.",
+   "id": "071"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they remember”  (se souvenir)",
+   "answer": "ils se souviennent",
+   "accept": [
+    "se souviennent",
+    "ils se souviennent",
+    "elles se souviennent"
+   ],
+   "id": "072"
+  }
+ ]
+}

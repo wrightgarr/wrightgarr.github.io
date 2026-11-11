@@ -1,0 +1,723 @@
+{
+ "id": "a2-34-le-passe-compose-etre-or-avoir",
+ "level": "A2",
+ "subject": 34,
+ "title": "Le Passé Composé: être or avoir",
+ "description": "Which auxiliary to use, and when the participle agrees.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Verbes avec être",
+   "type": "Rule",
+   "translation": "Verbs of movement and change of state use être: aller, venir, arriver, partir, entrer, sortir, monter, descendre, rester, tomber, naître, mourir, devenir, retourner",
+   "exampleFr": "Elle est arrivée hier.",
+   "exampleEn": "She arrived yesterday.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Accord avec être",
+   "type": "Rule",
+   "translation": "With être, the participle agrees with the subject: -e, -s, -es",
+   "exampleFr": "Ils sont partis ; elles sont parties.",
+   "exampleEn": "They left (m.); they left (f.).",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Verbes pronominaux",
+   "type": "Rule",
+   "translation": "All reflexive verbs use être",
+   "exampleFr": "Je me suis levé à sept heures.",
+   "exampleEn": "I got up at seven.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Naître → né",
+   "type": "Past participle",
+   "translation": "born",
+   "exampleFr": "Elle est née en 1995.",
+   "exampleEn": "She was born in 1995.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Mourir → mort",
+   "type": "Past participle",
+   "translation": "died",
+   "exampleFr": "Victor Hugo est mort en 1885.",
+   "exampleEn": "Victor Hugo died in 1885.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elle ___ allée au marché.",
+   "options": [
+    "est",
+    "a"
+   ],
+   "answer": "est",
+   "explain": "aller uses être.",
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ mangé ensemble.",
+   "options": [
+    "avons",
+    "sommes"
+   ],
+   "answer": "avons",
+   "explain": "manger uses avoir.",
+   "id": "007"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Ils ___ partis à huit heures.",
+   "options": [
+    "sont",
+    "ont"
+   ],
+   "answer": "sont",
+   "explain": "partir uses être.",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ vu ce film.",
+   "options": [
+    "ai",
+    "suis"
+   ],
+   "answer": "ai",
+   "explain": "voir uses avoir.",
+   "id": "009"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ né en quelle année ?",
+   "options": [
+    "es",
+    "as"
+   ],
+   "answer": "es",
+   "explain": "naître uses être.",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ fini ?",
+   "options": [
+    "avez",
+    "êtes"
+   ],
+   "answer": "avez",
+   "explain": "finir uses avoir.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elle s'___ levée tôt.",
+   "options": [
+    "est",
+    "a"
+   ],
+   "answer": "est",
+   "explain": "Reflexive verbs use être.",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ restées à la maison.",
+   "options": [
+    "sont",
+    "ont"
+   ],
+   "answer": "sont",
+   "explain": "rester uses être.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Marie est ___ à Paris en 2010.",
+   "answer": "arrivée",
+   "hint": "arriver — agree with Marie",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les garçons sont ___ au parc.",
+   "answer": "allés",
+   "hint": "aller — agree with les garçons",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Mes sœurs sont ___ hier.",
+   "answer": "venues",
+   "hint": "venir — agree with mes sœurs",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Paul est ___ dans la rue.",
+   "answer": "tombé",
+   "hint": "tomber",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous nous ___ promenés au bord de la mer.",
+   "answer": "sommes",
+   "hint": "auxiliary",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “She left.”  (partir)",
+   "answer": "Elle est partie",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “They (f.) arrived.”  (arriver)",
+   "answer": "Elles sont arrivées",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “He was born in 1990.”",
+   "answer": "Il est né en 1990",
+   "id": "021"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Aller",
+   "type": "Passé composé",
+   "translation": "je suis allé — I went",
+   "exampleFr": "Nous sommes allés au cinéma.",
+   "exampleEn": "We went to the cinema.",
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ au cinéma.  (aller, passé composé)",
+   "options": [
+    "suis allé",
+    "es allé",
+    "est allé",
+    "sommes allés"
+   ],
+   "answer": "suis allé",
+   "explain": "aller → je suis allé",
+   "speak": "Je suis allé au cinéma.",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ au cinéma.",
+   "answer": "est allé",
+   "hint": "aller · passé composé",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ au cinéma.  (aller, passé composé)",
+   "options": [
+    "êtes allés",
+    "sont allés",
+    "suis allé",
+    "es allé"
+   ],
+   "answer": "êtes allés",
+   "explain": "aller → vous êtes allés",
+   "speak": "Vous êtes allés au cinéma.",
+   "id": "025"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Venir",
+   "type": "Passé composé",
+   "translation": "je suis venu — I came",
+   "exampleFr": "Nous sommes venus à la fête.",
+   "exampleEn": "We came to the party.",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ à la fête.",
+   "answer": "es venu",
+   "hint": "venir · passé composé",
+   "accept": [
+    "es venue"
+   ],
+   "id": "027"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ à la fête.  (venir, passé composé)",
+   "options": [
+    "sommes venus",
+    "êtes venus",
+    "sont venues",
+    "suis venu"
+   ],
+   "answer": "sommes venus",
+   "explain": "venir → nous sommes venus",
+   "speak": "Nous sommes venus à la fête.",
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ à la fête.",
+   "answer": "sont venues",
+   "hint": "venir · passé composé",
+   "id": "029"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Partir",
+   "type": "Passé composé",
+   "translation": "je suis parti — I left",
+   "exampleFr": "Nous sommes partis en vacances.",
+   "exampleEn": "We left on holiday.",
+   "id": "030"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ en vacances.",
+   "answer": "suis parti",
+   "hint": "partir · passé composé",
+   "accept": [
+    "suis partie"
+   ],
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ en vacances.  (partir, passé composé)",
+   "options": [
+    "est parti",
+    "sommes partis",
+    "êtes partis",
+    "sont partis"
+   ],
+   "answer": "est parti",
+   "explain": "partir → il est parti",
+   "speak": "Il est parti en vacances.",
+   "id": "032"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ en vacances.",
+   "answer": "êtes partis",
+   "hint": "partir · passé composé",
+   "accept": [
+    "êtes parti",
+    "êtes partie",
+    "êtes parties"
+   ],
+   "id": "033"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Arriver",
+   "type": "Passé composé",
+   "translation": "je suis arrivé — I arrived",
+   "exampleFr": "Nous sommes arrivés à la gare.",
+   "exampleEn": "We arrived at the station.",
+   "id": "034"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ à la gare.  (arriver, passé composé)",
+   "options": [
+    "es arrivé",
+    "est arrivée",
+    "sommes arrivés",
+    "êtes arrivés"
+   ],
+   "answer": "es arrivé",
+   "explain": "arriver → tu es arrivé",
+   "speak": "Tu es arrivé à la gare.",
+   "id": "035"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ à la gare.",
+   "answer": "sommes arrivés",
+   "hint": "arriver · passé composé",
+   "accept": [
+    "sommes arrivées"
+   ],
+   "id": "036"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ à la gare.  (arriver, passé composé)",
+   "options": [
+    "sont arrivées",
+    "suis arrivé",
+    "es arrivé",
+    "est arrivée"
+   ],
+   "answer": "sont arrivées",
+   "explain": "arriver → elles sont arrivées",
+   "speak": "Elles sont arrivées à la gare.",
+   "id": "037"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Rester",
+   "type": "Passé composé",
+   "translation": "je suis resté — I stayed",
+   "exampleFr": "Nous sommes restés à la maison.",
+   "exampleEn": "We stayed at home.",
+   "id": "038"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ à la maison.  (rester, passé composé)",
+   "options": [
+    "suis resté",
+    "es resté",
+    "est resté",
+    "sommes restés"
+   ],
+   "answer": "suis resté",
+   "explain": "rester → je suis resté",
+   "speak": "Je suis resté à la maison.",
+   "id": "039"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ à la maison.",
+   "answer": "est resté",
+   "hint": "rester · passé composé",
+   "id": "040"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ à la maison.  (rester, passé composé)",
+   "options": [
+    "êtes restés",
+    "sont restés",
+    "suis resté",
+    "es resté"
+   ],
+   "answer": "êtes restés",
+   "explain": "rester → vous êtes restés",
+   "speak": "Vous êtes restés à la maison.",
+   "id": "041"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Sortir",
+   "type": "Passé composé",
+   "translation": "je suis sorti — I went out",
+   "exampleFr": "Nous sommes sortis avec des amis.",
+   "exampleEn": "We went out with friends.",
+   "id": "042"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ avec des amis.",
+   "answer": "es sorti",
+   "hint": "sortir · passé composé",
+   "accept": [
+    "es sortie"
+   ],
+   "id": "043"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ avec des amis.  (sortir, passé composé)",
+   "options": [
+    "sommes sortis",
+    "êtes sortis",
+    "sont sorties",
+    "suis sorti"
+   ],
+   "answer": "sommes sortis",
+   "explain": "sortir → nous sommes sortis",
+   "speak": "Nous sommes sortis avec des amis.",
+   "id": "044"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ avec des amis.",
+   "answer": "sont sorties",
+   "hint": "sortir · passé composé",
+   "id": "045"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Tomber",
+   "type": "Passé composé",
+   "translation": "je suis tombé — I fell",
+   "exampleFr": "Nous sommes tombés dans l'escalier.",
+   "exampleEn": "We fell on the stairs.",
+   "id": "046"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ dans l'escalier.",
+   "answer": "suis tombé",
+   "hint": "tomber · passé composé",
+   "accept": [
+    "suis tombée"
+   ],
+   "id": "047"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ dans l'escalier.  (tomber, passé composé)",
+   "options": [
+    "est tombé",
+    "sommes tombés",
+    "êtes tombés",
+    "sont tombés"
+   ],
+   "answer": "est tombé",
+   "explain": "tomber → il est tombé",
+   "speak": "Il est tombé dans l'escalier.",
+   "id": "048"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ dans l'escalier.",
+   "answer": "êtes tombés",
+   "hint": "tomber · passé composé",
+   "accept": [
+    "êtes tombé",
+    "êtes tombée",
+    "êtes tombées"
+   ],
+   "id": "049"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Entrer",
+   "type": "Passé composé",
+   "translation": "je suis entré — I went in",
+   "exampleFr": "Nous sommes entrés dans le magasin.",
+   "exampleEn": "We went in to the shop.",
+   "id": "050"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ dans le magasin.  (entrer, passé composé)",
+   "options": [
+    "es entré",
+    "est entrée",
+    "sommes entrés",
+    "êtes entrés"
+   ],
+   "answer": "es entré",
+   "explain": "entrer → tu es entré",
+   "speak": "Tu es entré dans le magasin.",
+   "id": "051"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ dans le magasin.",
+   "answer": "sommes entrés",
+   "hint": "entrer · passé composé",
+   "accept": [
+    "sommes entrées"
+   ],
+   "id": "052"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ dans le magasin.  (entrer, passé composé)",
+   "options": [
+    "sont entrées",
+    "suis entré",
+    "es entré",
+    "est entrée"
+   ],
+   "answer": "sont entrées",
+   "explain": "entrer → elles sont entrées",
+   "speak": "Elles sont entrées dans le magasin.",
+   "id": "053"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Monter",
+   "type": "Passé composé",
+   "translation": "je suis monté — I went up",
+   "exampleFr": "Nous sommes montés au premier étage.",
+   "exampleEn": "We went up to the first floor.",
+   "id": "054"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ au premier étage.  (monter, passé composé)",
+   "options": [
+    "suis monté",
+    "es monté",
+    "est monté",
+    "sommes montés"
+   ],
+   "answer": "suis monté",
+   "explain": "monter → je suis monté",
+   "speak": "Je suis monté au premier étage.",
+   "id": "055"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ au premier étage.",
+   "answer": "est monté",
+   "hint": "monter · passé composé",
+   "id": "056"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ au premier étage.  (monter, passé composé)",
+   "options": [
+    "êtes montés",
+    "sont montés",
+    "suis monté",
+    "es monté"
+   ],
+   "answer": "êtes montés",
+   "explain": "monter → vous êtes montés",
+   "speak": "Vous êtes montés au premier étage.",
+   "id": "057"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Devenir",
+   "type": "Passé composé",
+   "translation": "je suis devenu — I became",
+   "exampleFr": "Nous sommes devenus célèbre.",
+   "exampleEn": "We became famous.",
+   "id": "058"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ célèbre.",
+   "answer": "es devenu",
+   "hint": "devenir · passé composé",
+   "accept": [
+    "es devenue"
+   ],
+   "id": "059"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ célèbre.  (devenir, passé composé)",
+   "options": [
+    "sommes devenus",
+    "êtes devenus",
+    "sont devenues",
+    "suis devenu"
+   ],
+   "answer": "sommes devenus",
+   "explain": "devenir → nous sommes devenus",
+   "speak": "Nous sommes devenus célèbre.",
+   "id": "060"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ célèbre.",
+   "answer": "sont devenues",
+   "hint": "devenir · passé composé",
+   "id": "061"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Rentrer",
+   "type": "Passé composé",
+   "translation": "je suis rentré — I came home",
+   "exampleFr": "Nous sommes rentrés tard.",
+   "exampleEn": "We came home late.",
+   "id": "062"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ tard.",
+   "answer": "suis rentré",
+   "hint": "rentrer · passé composé",
+   "accept": [
+    "suis rentrée"
+   ],
+   "id": "063"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ tard.  (rentrer, passé composé)",
+   "options": [
+    "est rentré",
+    "sommes rentrés",
+    "êtes rentrés",
+    "sont rentrés"
+   ],
+   "answer": "est rentré",
+   "explain": "rentrer → il est rentré",
+   "speak": "Il est rentré tard.",
+   "id": "064"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ tard.",
+   "answer": "êtes rentrés",
+   "hint": "rentrer · passé composé",
+   "accept": [
+    "êtes rentré",
+    "êtes rentrée",
+    "êtes rentrées"
+   ],
+   "id": "065"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Retourner",
+   "type": "Passé composé",
+   "translation": "je suis retourné — I went back",
+   "exampleFr": "Nous sommes retournés en France.",
+   "exampleEn": "We went back to France.",
+   "id": "066"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ en France.  (retourner, passé composé)",
+   "options": [
+    "es retourné",
+    "est retournée",
+    "sommes retournés",
+    "êtes retournés"
+   ],
+   "answer": "es retourné",
+   "explain": "retourner → tu es retourné",
+   "speak": "Tu es retourné en France.",
+   "id": "067"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ en France.",
+   "answer": "sommes retournés",
+   "hint": "retourner · passé composé",
+   "accept": [
+    "sommes retournées"
+   ],
+   "id": "068"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ en France.  (retourner, passé composé)",
+   "options": [
+    "sont retournées",
+    "suis retourné",
+    "es retourné",
+    "est retournée"
+   ],
+   "answer": "sont retournées",
+   "explain": "retourner → elles sont retournées",
+   "speak": "Elles sont retournées en France.",
+   "id": "069"
+  }
+ ]
+}

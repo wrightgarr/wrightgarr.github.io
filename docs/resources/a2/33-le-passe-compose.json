@@ -1,0 +1,891 @@
+{
+ "id": "a2-33-le-passe-compose",
+ "level": "A2",
+ "subject": 33,
+ "title": "Le Passé Composé (3rd Group Verbs)",
+ "description": "Irregular past participles to learn by heart.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Participes passés irréguliers",
+   "type": "Rule",
+   "translation": "3rd-group verbs have participles in -u, -is, -it, -ert… learned one by one",
+   "exampleFr": "J'ai vu, j'ai pris, j'ai dit, j'ai ouvert.",
+   "exampleEn": "I saw, I took, I said, I opened.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “avoir”",
+   "answer": "eu",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “être”",
+   "answer": "été",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “faire”",
+   "answer": "fait",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “prendre”",
+   "answer": "pris",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “voir”",
+   "answer": "vu",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “dire”",
+   "answer": "dit",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “mettre”",
+   "answer": "mis",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “boire”",
+   "answer": "bu",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “lire”",
+   "answer": "lu",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “écrire”",
+   "answer": "écrit",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “pouvoir”",
+   "answer": "pu",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “vouloir”",
+   "answer": "voulu",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “devoir”",
+   "answer": "dû",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “savoir”",
+   "answer": "su",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “recevoir”",
+   "answer": "reçu",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “ouvrir”",
+   "answer": "ouvert",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “attendre”",
+   "answer": "attendu",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “comprendre”",
+   "answer": "compris",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “connaître”",
+   "answer": "connu",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “vivre”",
+   "answer": "vécu",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “offrir”",
+   "answer": "offert",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “croire”",
+   "answer": "cru",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “courir”",
+   "answer": "couru",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Past participle of “apprendre”",
+   "answer": "appris",
+   "id": "025"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir",
+   "type": "Passé composé",
+   "translation": "j'ai eu — I had",
+   "exampleFr": "Nous avons eu du temps.",
+   "exampleEn": "We had time.",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ du temps.  (avoir, passé composé)",
+   "options": [
+    "ai eu",
+    "as eu",
+    "a eu",
+    "avons eu"
+   ],
+   "answer": "ai eu",
+   "explain": "avoir → j'ai eu",
+   "speak": "J'ai eu du temps.",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ du temps.",
+   "answer": "a eu",
+   "hint": "avoir · passé composé",
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ du temps.  (avoir, passé composé)",
+   "options": [
+    "avez eu",
+    "ont eu",
+    "ai eu",
+    "as eu"
+   ],
+   "answer": "avez eu",
+   "explain": "avoir → vous avez eu",
+   "speak": "Vous avez eu du temps.",
+   "id": "029"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Être",
+   "type": "Passé composé",
+   "translation": "j'ai été — I was",
+   "exampleFr": "Nous avons été à l'heure.",
+   "exampleEn": "We were on time.",
+   "id": "030"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ à l'heure.",
+   "answer": "as été",
+   "hint": "être · passé composé",
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ à l'heure.  (être, passé composé)",
+   "options": [
+    "avons été",
+    "avez été",
+    "ont été",
+    "ai été"
+   ],
+   "answer": "avons été",
+   "explain": "être → nous avons été",
+   "speak": "Nous avons été à l'heure.",
+   "id": "032"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ à l'heure.",
+   "answer": "ont été",
+   "hint": "être · passé composé",
+   "id": "033"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Passé composé",
+   "translation": "j'ai fait — I did",
+   "exampleFr": "Nous avons fait les courses.",
+   "exampleEn": "We did the shopping.",
+   "id": "034"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ les courses.",
+   "answer": "ai fait",
+   "hint": "faire · passé composé",
+   "id": "035"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ les courses.  (faire, passé composé)",
+   "options": [
+    "a fait",
+    "avons fait",
+    "avez fait",
+    "ont fait"
+   ],
+   "answer": "a fait",
+   "explain": "faire → il a fait",
+   "speak": "Il a fait les courses.",
+   "id": "036"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ les courses.",
+   "answer": "avez fait",
+   "hint": "faire · passé composé",
+   "id": "037"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Passé composé",
+   "translation": "j'ai pris — I took",
+   "exampleFr": "Nous avons pris le train.",
+   "exampleEn": "We took the train.",
+   "id": "038"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ le train.  (prendre, passé composé)",
+   "options": [
+    "as pris",
+    "a pris",
+    "avons pris",
+    "avez pris"
+   ],
+   "answer": "as pris",
+   "explain": "prendre → tu as pris",
+   "speak": "Tu as pris le train.",
+   "id": "039"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ le train.",
+   "answer": "avons pris",
+   "hint": "prendre · passé composé",
+   "id": "040"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ le train.  (prendre, passé composé)",
+   "options": [
+    "ont pris",
+    "ai pris",
+    "as pris",
+    "a pris"
+   ],
+   "answer": "ont pris",
+   "explain": "prendre → elles ont pris",
+   "speak": "Elles ont pris le train.",
+   "id": "041"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Voir",
+   "type": "Passé composé",
+   "translation": "j'ai vu — I saw",
+   "exampleFr": "Nous avons vu ce film.",
+   "exampleEn": "We saw that film.",
+   "id": "042"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ ce film.  (voir, passé composé)",
+   "options": [
+    "ai vu",
+    "as vu",
+    "a vu",
+    "avons vu"
+   ],
+   "answer": "ai vu",
+   "explain": "voir → j'ai vu",
+   "speak": "J'ai vu ce film.",
+   "id": "043"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ ce film.",
+   "answer": "a vu",
+   "hint": "voir · passé composé",
+   "id": "044"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ ce film.  (voir, passé composé)",
+   "options": [
+    "avez vu",
+    "ont vu",
+    "ai vu",
+    "as vu"
+   ],
+   "answer": "avez vu",
+   "explain": "voir → vous avez vu",
+   "speak": "Vous avez vu ce film.",
+   "id": "045"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Dire",
+   "type": "Passé composé",
+   "translation": "j'ai dit — I told",
+   "exampleFr": "Nous avons dit la vérité.",
+   "exampleEn": "We told the truth.",
+   "id": "046"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ la vérité.",
+   "answer": "as dit",
+   "hint": "dire · passé composé",
+   "id": "047"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ la vérité.  (dire, passé composé)",
+   "options": [
+    "avons dit",
+    "avez dit",
+    "ont dit",
+    "ai dit"
+   ],
+   "answer": "avons dit",
+   "explain": "dire → nous avons dit",
+   "speak": "Nous avons dit la vérité.",
+   "id": "048"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ la vérité.",
+   "answer": "ont dit",
+   "hint": "dire · passé composé",
+   "id": "049"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Mettre",
+   "type": "Passé composé",
+   "translation": "j'ai mis — I put on",
+   "exampleFr": "Nous avons mis un manteau.",
+   "exampleEn": "We put on a coat.",
+   "id": "050"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ un manteau.",
+   "answer": "ai mis",
+   "hint": "mettre · passé composé",
+   "id": "051"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ un manteau.  (mettre, passé composé)",
+   "options": [
+    "a mis",
+    "avons mis",
+    "avez mis",
+    "ont mis"
+   ],
+   "answer": "a mis",
+   "explain": "mettre → il a mis",
+   "speak": "Il a mis un manteau.",
+   "id": "052"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ un manteau.",
+   "answer": "avez mis",
+   "hint": "mettre · passé composé",
+   "id": "053"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Boire",
+   "type": "Passé composé",
+   "translation": "j'ai bu — I drank",
+   "exampleFr": "Nous avons bu un café.",
+   "exampleEn": "We drank a coffee.",
+   "id": "054"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ un café.  (boire, passé composé)",
+   "options": [
+    "as bu",
+    "a bu",
+    "avons bu",
+    "avez bu"
+   ],
+   "answer": "as bu",
+   "explain": "boire → tu as bu",
+   "speak": "Tu as bu un café.",
+   "id": "055"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ un café.",
+   "answer": "avons bu",
+   "hint": "boire · passé composé",
+   "id": "056"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ un café.  (boire, passé composé)",
+   "options": [
+    "ont bu",
+    "ai bu",
+    "as bu",
+    "a bu"
+   ],
+   "answer": "ont bu",
+   "explain": "boire → elles ont bu",
+   "speak": "Elles ont bu un café.",
+   "id": "057"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Lire",
+   "type": "Passé composé",
+   "translation": "j'ai lu — I read",
+   "exampleFr": "Nous avons lu le journal.",
+   "exampleEn": "We read the newspaper.",
+   "id": "058"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ le journal.  (lire, passé composé)",
+   "options": [
+    "ai lu",
+    "as lu",
+    "a lu",
+    "avons lu"
+   ],
+   "answer": "ai lu",
+   "explain": "lire → j'ai lu",
+   "speak": "J'ai lu le journal.",
+   "id": "059"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le journal.",
+   "answer": "a lu",
+   "hint": "lire · passé composé",
+   "id": "060"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le journal.  (lire, passé composé)",
+   "options": [
+    "avez lu",
+    "ont lu",
+    "ai lu",
+    "as lu"
+   ],
+   "answer": "avez lu",
+   "explain": "lire → vous avez lu",
+   "speak": "Vous avez lu le journal.",
+   "id": "061"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Écrire",
+   "type": "Passé composé",
+   "translation": "j'ai écrit — I wrote",
+   "exampleFr": "Nous avons écrit une lettre.",
+   "exampleEn": "We wrote a letter.",
+   "id": "062"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ une lettre.",
+   "answer": "as écrit",
+   "hint": "écrire · passé composé",
+   "id": "063"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ une lettre.  (écrire, passé composé)",
+   "options": [
+    "avons écrit",
+    "avez écrit",
+    "ont écrit",
+    "ai écrit"
+   ],
+   "answer": "avons écrit",
+   "explain": "écrire → nous avons écrit",
+   "speak": "Nous avons écrit une lettre.",
+   "id": "064"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ une lettre.",
+   "answer": "ont écrit",
+   "hint": "écrire · passé composé",
+   "id": "065"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Pouvoir",
+   "type": "Passé composé",
+   "translation": "j'ai pu — I was able to",
+   "exampleFr": "Nous avons pu venir.",
+   "exampleEn": "We was able to come.",
+   "id": "066"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ venir.",
+   "answer": "ai pu",
+   "hint": "pouvoir · passé composé",
+   "id": "067"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ venir.  (pouvoir, passé composé)",
+   "options": [
+    "a pu",
+    "avons pu",
+    "avez pu",
+    "ont pu"
+   ],
+   "answer": "a pu",
+   "explain": "pouvoir → il a pu",
+   "speak": "Il a pu venir.",
+   "id": "068"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ venir.",
+   "answer": "avez pu",
+   "hint": "pouvoir · passé composé",
+   "id": "069"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Vouloir",
+   "type": "Passé composé",
+   "translation": "j'ai voulu — I wanted",
+   "exampleFr": "Nous avons voulu partir.",
+   "exampleEn": "We wanted to leave.",
+   "id": "070"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ partir.  (vouloir, passé composé)",
+   "options": [
+    "as voulu",
+    "a voulu",
+    "avons voulu",
+    "avez voulu"
+   ],
+   "answer": "as voulu",
+   "explain": "vouloir → tu as voulu",
+   "speak": "Tu as voulu partir.",
+   "id": "071"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ partir.",
+   "answer": "avons voulu",
+   "hint": "vouloir · passé composé",
+   "id": "072"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ partir.  (vouloir, passé composé)",
+   "options": [
+    "ont voulu",
+    "ai voulu",
+    "as voulu",
+    "a voulu"
+   ],
+   "answer": "ont voulu",
+   "explain": "vouloir → elles ont voulu",
+   "speak": "Elles ont voulu partir.",
+   "id": "073"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Devoir",
+   "type": "Passé composé",
+   "translation": "j'ai dû — I had to",
+   "exampleFr": "Nous avons dû travailler.",
+   "exampleEn": "We had to work.",
+   "id": "074"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ travailler.  (devoir, passé composé)",
+   "options": [
+    "ai dû",
+    "as dû",
+    "a dû",
+    "avons dû"
+   ],
+   "answer": "ai dû",
+   "explain": "devoir → j'ai dû",
+   "speak": "J'ai dû travailler.",
+   "id": "075"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ travailler.",
+   "answer": "a dû",
+   "hint": "devoir · passé composé",
+   "id": "076"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ travailler.  (devoir, passé composé)",
+   "options": [
+    "avez dû",
+    "ont dû",
+    "ai dû",
+    "as dû"
+   ],
+   "answer": "avez dû",
+   "explain": "devoir → vous avez dû",
+   "speak": "Vous avez dû travailler.",
+   "id": "077"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Savoir",
+   "type": "Passé composé",
+   "translation": "j'ai su — I knew",
+   "exampleFr": "Nous avons su la réponse.",
+   "exampleEn": "We knew the answer.",
+   "id": "078"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ la réponse.",
+   "answer": "as su",
+   "hint": "savoir · passé composé",
+   "id": "079"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ la réponse.  (savoir, passé composé)",
+   "options": [
+    "avons su",
+    "avez su",
+    "ont su",
+    "ai su"
+   ],
+   "answer": "avons su",
+   "explain": "savoir → nous avons su",
+   "speak": "Nous avons su la réponse.",
+   "id": "080"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ la réponse.",
+   "answer": "ont su",
+   "hint": "savoir · passé composé",
+   "id": "081"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Recevoir",
+   "type": "Passé composé",
+   "translation": "j'ai reçu — I received",
+   "exampleFr": "Nous avons reçu un message.",
+   "exampleEn": "We received a message.",
+   "id": "082"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ un message.",
+   "answer": "ai reçu",
+   "hint": "recevoir · passé composé",
+   "id": "083"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ un message.  (recevoir, passé composé)",
+   "options": [
+    "a reçu",
+    "avons reçu",
+    "avez reçu",
+    "ont reçu"
+   ],
+   "answer": "a reçu",
+   "explain": "recevoir → il a reçu",
+   "speak": "Il a reçu un message.",
+   "id": "084"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ un message.",
+   "answer": "avez reçu",
+   "hint": "recevoir · passé composé",
+   "id": "085"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Ouvrir",
+   "type": "Passé composé",
+   "translation": "j'ai ouvert — I opened",
+   "exampleFr": "Nous avons ouvert la porte.",
+   "exampleEn": "We opened the door.",
+   "id": "086"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ la porte.  (ouvrir, passé composé)",
+   "options": [
+    "as ouvert",
+    "a ouvert",
+    "avons ouvert",
+    "avez ouvert"
+   ],
+   "answer": "as ouvert",
+   "explain": "ouvrir → tu as ouvert",
+   "speak": "Tu as ouvert la porte.",
+   "id": "087"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ la porte.",
+   "answer": "avons ouvert",
+   "hint": "ouvrir · passé composé",
+   "id": "088"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ la porte.  (ouvrir, passé composé)",
+   "options": [
+    "ont ouvert",
+    "ai ouvert",
+    "as ouvert",
+    "a ouvert"
+   ],
+   "answer": "ont ouvert",
+   "explain": "ouvrir → elles ont ouvert",
+   "speak": "Elles ont ouvert la porte.",
+   "id": "089"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Attendre",
+   "type": "Passé composé",
+   "translation": "j'ai attendu — I waited for",
+   "exampleFr": "Nous avons attendu le bus.",
+   "exampleEn": "We waited for the bus.",
+   "id": "090"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ le bus.  (attendre, passé composé)",
+   "options": [
+    "ai attendu",
+    "as attendu",
+    "a attendu",
+    "avons attendu"
+   ],
+   "answer": "ai attendu",
+   "explain": "attendre → j'ai attendu",
+   "speak": "J'ai attendu le bus.",
+   "id": "091"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le bus.",
+   "answer": "a attendu",
+   "hint": "attendre · passé composé",
+   "id": "092"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le bus.  (attendre, passé composé)",
+   "options": [
+    "avez attendu",
+    "ont attendu",
+    "ai attendu",
+    "as attendu"
+   ],
+   "answer": "avez attendu",
+   "explain": "attendre → vous avez attendu",
+   "speak": "Vous avez attendu le bus.",
+   "id": "093"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Comprendre",
+   "type": "Passé composé",
+   "translation": "j'ai compris — I understood",
+   "exampleFr": "Nous avons compris la question.",
+   "exampleEn": "We understood the question.",
+   "id": "094"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ la question.",
+   "answer": "as compris",
+   "hint": "comprendre · passé composé",
+   "id": "095"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ la question.  (comprendre, passé composé)",
+   "options": [
+    "avons compris",
+    "avez compris",
+    "ont compris",
+    "ai compris"
+   ],
+   "answer": "avons compris",
+   "explain": "comprendre → nous avons compris",
+   "speak": "Nous avons compris la question.",
+   "id": "096"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ la question.",
+   "answer": "ont compris",
+   "hint": "comprendre · passé composé",
+   "id": "097"
+  }
+ ]
+}

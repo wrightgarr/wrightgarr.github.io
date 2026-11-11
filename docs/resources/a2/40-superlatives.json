@@ -1,0 +1,134 @@
+{
+ "id": "a2-40-superlatives",
+ "level": "A2",
+ "subject": 40,
+ "title": "Superlatives",
+ "description": "the most, the least, the best.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "le / la / les plus + adjectif",
+   "type": "Rule",
+   "translation": "the most …",
+   "exampleFr": "C'est la plus grande ville du pays.",
+   "exampleEn": "It is the biggest city in the country.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le / la / les moins + adjectif",
+   "type": "Rule",
+   "translation": "the least …",
+   "exampleFr": "C'est l'hôtel le moins cher.",
+   "exampleEn": "It is the least expensive hotel.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le meilleur / le mieux / le pire",
+   "type": "Irregular",
+   "translation": "the best (adjective) / the best (adverb) / the worst",
+   "exampleFr": "C'est le meilleur film de l'année.",
+   "exampleEn": "It is the best film of the year.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "de après un superlatif",
+   "type": "Rule",
+   "translation": "“in” after a superlative is de (du, de la, des)",
+   "exampleFr": "Le plus haut sommet du monde.",
+   "exampleEn": "The highest peak in the world.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est ___ plus grande ville du pays.",
+   "answer": "la",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est le restaurant le ___ cher de la ville.",
+   "answer": "plus",
+   "hint": "most",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est le ___ film de l'année.",
+   "answer": "meilleur",
+   "hint": "best",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est elle qui chante le ___.",
+   "answer": "mieux",
+   "hint": "best",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est la plus belle ville ___ monde.",
+   "answer": "du",
+   "hint": "in the",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce sont les étudiants ___ plus sérieux.",
+   "answer": "les",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est le jour le ___ long de l'année.",
+   "answer": "plus",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est la ___ idée de la journée !",
+   "answer": "pire",
+   "hint": "worst",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “the biggest city”",
+   "answer": "la plus grande ville",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “the best restaurant”",
+   "answer": "le meilleur restaurant",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “the most beautiful house in the world”",
+   "answer": "la plus belle maison du monde",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “the least expensive hotel”",
+   "answer": "l'hôtel le moins cher",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “the tallest student in the class”?",
+   "options": [
+    "l'étudiant le plus grand de la classe",
+    "l'étudiant le plus grand dans la classe",
+    "l'étudiant plus grand de la classe",
+    "le plus étudiant grand de la classe"
+   ],
+   "answer": "l'étudiant le plus grand de la classe",
+   "id": "017"
+  }
+ ]
+}

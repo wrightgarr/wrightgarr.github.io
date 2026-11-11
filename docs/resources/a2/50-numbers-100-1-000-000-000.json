@@ -1,0 +1,434 @@
+{
+ "id": "a2-50-numbers-100-1-000-000-000",
+ "level": "A2",
+ "subject": 50,
+ "title": "Numbers 100–1,000,000,000",
+ "description": "Hundreds, thousands, millions and billions.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "cent",
+   "type": "Number",
+   "translation": "100",
+   "exampleFr": "Ce livre a cent pages.",
+   "exampleEn": "This book has one hundred pages.",
+   "hint": "Never “un cent”",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "deux cents / deux cent un",
+   "type": "Rule",
+   "translation": "cent takes an -s in round hundreds only",
+   "exampleFr": "Deux cents euros ; deux cent cinquante euros.",
+   "exampleEn": "Two hundred euros; two hundred and fifty euros.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "mille",
+   "type": "Number",
+   "translation": "1,000 — it never takes an -s",
+   "exampleFr": "Trois mille personnes.",
+   "exampleEn": "Three thousand people.",
+   "hint": "Never “un mille”",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "un million / un milliard",
+   "type": "Number",
+   "translation": "1,000,000 / 1,000,000,000 — nouns: they take -s and de before a noun",
+   "exampleFr": "Deux millions d'habitants.",
+   "exampleEn": "Two million inhabitants.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Les espaces dans les nombres",
+   "type": "Rule",
+   "translation": "French uses a space (not a comma) between thousands, and a comma for decimals",
+   "exampleFr": "10 000 ; 3,5",
+   "exampleEn": "10,000; 3.5",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 100",
+   "answer": "cent",
+   "accept": [
+    "cent",
+    "cent"
+   ],
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 101",
+   "answer": "cent un",
+   "accept": [
+    "cent-un",
+    "cent un"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 110",
+   "answer": "cent dix",
+   "accept": [
+    "cent-dix",
+    "cent dix"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 150",
+   "answer": "cent cinquante",
+   "accept": [
+    "cent-cinquante",
+    "cent cinquante"
+   ],
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 200",
+   "answer": "deux cents",
+   "accept": [
+    "deux-cents",
+    "deux cents"
+   ],
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 201",
+   "answer": "deux cent un",
+   "accept": [
+    "deux-cent-un",
+    "deux cent un"
+   ],
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 250",
+   "answer": "deux cent cinquante",
+   "accept": [
+    "deux-cent-cinquante",
+    "deux cent cinquante"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 300",
+   "answer": "trois cents",
+   "accept": [
+    "trois-cents",
+    "trois cents"
+   ],
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 365",
+   "answer": "trois cent soixante-cinq",
+   "accept": [
+    "trois-cent-soixante-cinq",
+    "trois cent soixante-cinq"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 480",
+   "answer": "quatre cent quatre-vingts",
+   "accept": [
+    "quatre-cent-quatre-vingts",
+    "quatre cent quatre-vingts"
+   ],
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 500",
+   "answer": "cinq cents",
+   "accept": [
+    "cinq-cents",
+    "cinq cents"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 580",
+   "answer": "cinq cent quatre-vingts",
+   "accept": [
+    "cinq-cent-quatre-vingts",
+    "cinq cent quatre-vingts"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 700",
+   "answer": "sept cents",
+   "accept": [
+    "sept-cents",
+    "sept cents"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 999",
+   "answer": "neuf cent quatre-vingt-dix-neuf",
+   "accept": [
+    "neuf-cent-quatre-vingt-dix-neuf",
+    "neuf cent quatre-vingt-dix-neuf"
+   ],
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 1 000",
+   "answer": "mille",
+   "accept": [
+    "mille",
+    "mille"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 1 001",
+   "answer": "mille un",
+   "accept": [
+    "mille-un",
+    "mille un"
+   ],
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 1 500",
+   "answer": "mille cinq cents",
+   "accept": [
+    "mille-cinq-cents",
+    "mille cinq cents"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 1 789",
+   "answer": "mille sept cent quatre-vingt-neuf",
+   "accept": [
+    "mille-sept-cent-quatre-vingt-neuf",
+    "mille sept cent quatre-vingt-neuf"
+   ],
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 1 990",
+   "answer": "mille neuf cent quatre-vingt-dix",
+   "accept": [
+    "mille-neuf-cent-quatre-vingt-dix",
+    "mille neuf cent quatre-vingt-dix"
+   ],
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 2 000",
+   "answer": "deux mille",
+   "accept": [
+    "deux-mille",
+    "deux mille"
+   ],
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 2 026",
+   "answer": "deux mille vingt-six",
+   "accept": [
+    "deux-mille-vingt-six",
+    "deux mille vingt-six"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 5 000",
+   "answer": "cinq mille",
+   "accept": [
+    "cinq-mille",
+    "cinq mille"
+   ],
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 10 000",
+   "answer": "dix mille",
+   "accept": [
+    "dix-mille",
+    "dix mille"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 25 000",
+   "answer": "vingt-cinq mille",
+   "accept": [
+    "vingt-cinq-mille",
+    "vingt-cinq mille"
+   ],
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 75 000",
+   "answer": "soixante-quinze mille",
+   "accept": [
+    "soixante-quinze-mille",
+    "soixante-quinze mille"
+   ],
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 100 000",
+   "answer": "cent mille",
+   "accept": [
+    "cent-mille",
+    "cent mille"
+   ],
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 200 000",
+   "answer": "deux cent mille",
+   "accept": [
+    "deux-cent-mille",
+    "deux cent mille"
+   ],
+   "id": "032"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 500 000",
+   "answer": "cinq cent mille",
+   "accept": [
+    "cinq-cent-mille",
+    "cinq cent mille"
+   ],
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 1 000 000",
+   "answer": "un million",
+   "id": "034"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 3 000 000",
+   "answer": "trois millions",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 1 000 000 000",
+   "answer": "un milliard",
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write in French: 7 000 000 000",
+   "answer": "sept milliards",
+   "id": "037"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Deux millions ___ habitants.",
+   "answer": "d'",
+   "translation": "Two million inhabitants.",
+   "id": "038"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Cette ville a trois ___ mille habitants.",
+   "answer": "cent",
+   "hint": "300 000",
+   "id": "039"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct for 200?",
+   "options": [
+    "deux cents",
+    "deux cent",
+    "deux-cents-un",
+    "deux cente"
+   ],
+   "answer": "deux cents",
+   "id": "040"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is correct for 3 000?",
+   "options": [
+    "trois mille",
+    "trois milles",
+    "trois mil",
+    "trois de mille"
+   ],
+   "answer": "trois mille",
+   "id": "041"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “mille neuf cent quatre-vingt-quinze”?",
+   "options": [
+    "1995",
+    "1985",
+    "1975",
+    "1095"
+   ],
+   "answer": "1995",
+   "id": "042"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “deux cent soixante-dix”?",
+   "options": [
+    "270",
+    "260",
+    "217",
+    "290"
+   ],
+   "answer": "270",
+   "id": "043"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which number is “un milliard”?",
+   "options": [
+    "1 000 000 000",
+    "1 000 000",
+    "100 000 000",
+    "1 000 000 000 000"
+   ],
+   "answer": "1 000 000 000",
+   "id": "044"
+  }
+ ]
+}

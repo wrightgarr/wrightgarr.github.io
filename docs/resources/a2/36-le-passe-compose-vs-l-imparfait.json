@@ -1,0 +1,206 @@
+{
+ "id": "a2-36-le-passe-compose-vs-l-imparfait",
+ "level": "A2",
+ "subject": 36,
+ "title": "Le Passé Composé vs L'Imparfait",
+ "description": "Completed events against background and habits.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Passé composé",
+   "type": "Rule",
+   "translation": "A completed action or a single event",
+   "exampleFr": "Hier, j'ai vu Paul.",
+   "exampleEn": "Yesterday, I saw Paul.",
+   "hint": "Signals: hier, soudain, tout à coup, un jour, ce matin",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Imparfait",
+   "type": "Rule",
+   "translation": "Background, description, habit, or an action in progress",
+   "exampleFr": "Il pleuvait et j'étais fatigué.",
+   "exampleEn": "It was raining and I was tired.",
+   "hint": "Signals: d'habitude, souvent, tous les jours, autrefois, quand j'étais petit",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Les deux ensemble",
+   "type": "Rule",
+   "translation": "Imparfait sets the scene; passé composé interrupts it",
+   "exampleFr": "Je dormais quand le téléphone a sonné.",
+   "exampleEn": "I was sleeping when the phone rang.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand j'étais petit, je ___ au foot tous les jours.",
+   "answer": "jouais",
+   "hint": "jouer",
+   "translation": "When I was little, I played football every day.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Hier, j'___ un bon film.",
+   "answer": "ai vu",
+   "hint": "voir",
+   "translation": "Yesterday, I saw a good film.",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ quand je suis sorti.",
+   "answer": "pleuvait",
+   "hint": "pleuvoir",
+   "translation": "It was raining when I went out.",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Soudain, le téléphone ___.",
+   "answer": "a sonné",
+   "hint": "sonner",
+   "translation": "Suddenly, the phone rang.",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Avant, nous ___ à Lyon.",
+   "answer": "habitions",
+   "hint": "habiter",
+   "translation": "We used to live in Lyon.",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce matin, elle ___ à huit heures.",
+   "answer": "est partie",
+   "hint": "partir",
+   "translation": "This morning, she left at eight.",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ la télé quand tu as appelé.",
+   "answer": "regardais",
+   "hint": "regarder",
+   "translation": "I was watching TV when you called.",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "L'année dernière, ils ___ en Italie.",
+   "answer": "sont allés",
+   "hint": "aller",
+   "translation": "Last year, they went to Italy.",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ beau et les oiseaux chantaient.",
+   "answer": "faisait",
+   "hint": "faire",
+   "translation": "The weather was nice and the birds were singing.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "D'habitude, je ___ le bus, mais hier j'ai pris un taxi.",
+   "answer": "prenais",
+   "hint": "prendre",
+   "translation": "Usually I took the bus, but yesterday I took a taxi.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle lisait quand son frère ___.",
+   "answer": "est entré",
+   "hint": "entrer",
+   "translation": "She was reading when her brother came in.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quand il était jeune, il ___ beaucoup de sport.",
+   "answer": "faisait",
+   "hint": "faire",
+   "translation": "When he was young, he did a lot of sport.",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense describes a background scene in the past?",
+   "options": [
+    "l'imparfait",
+    "le passé composé",
+    "le futur proche",
+    "le présent"
+   ],
+   "answer": "l'imparfait",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense tells a completed, one-time action?",
+   "options": [
+    "le passé composé",
+    "l'imparfait",
+    "le présent",
+    "le futur simple"
+   ],
+   "answer": "le passé composé",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tous les étés, nous ___ à la mer.",
+   "options": [
+    "allions",
+    "sommes allés",
+    "allons aller",
+    "irons"
+   ],
+   "answer": "allions",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Un jour, j'___ un chien dans la rue.",
+   "options": [
+    "ai trouvé",
+    "trouvais",
+    "trouve",
+    "trouverai"
+   ],
+   "answer": "ai trouvé",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which expression usually signals the imparfait?",
+   "options": [
+    "d'habitude",
+    "soudain",
+    "tout à coup",
+    "hier à huit heures"
+   ],
+   "answer": "d'habitude",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which expression usually signals the passé composé?",
+   "options": [
+    "tout à coup",
+    "souvent",
+    "chaque jour",
+    "autrefois"
+   ],
+   "answer": "tout à coup",
+   "id": "021"
+  }
+ ]
+}

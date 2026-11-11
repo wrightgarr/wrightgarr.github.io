@@ -1,0 +1,632 @@
+{
+ "id": "a2-35-l-imparfait",
+ "level": "A2",
+ "subject": 35,
+ "title": "L'Imparfait",
+ "description": "The past tense for habits, descriptions and ongoing situations.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Formation de l'imparfait",
+   "type": "Rule",
+   "translation": "Take the nous form of the present, drop -ons, add -ais, -ais, -ait, -ions, -iez, -aient",
+   "exampleFr": "Nous parlons → je parlais, nous parlions.",
+   "exampleEn": "We speak → I was speaking, we were speaking.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Être à l'imparfait",
+   "type": "Rule",
+   "translation": "The only irregular stem: ét-",
+   "exampleFr": "J'étais fatigué.",
+   "exampleEn": "I was tired.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Emplois de l'imparfait",
+   "type": "Rule",
+   "translation": "Habits in the past, descriptions, and what was going on",
+   "exampleFr": "Quand j'étais petit, je jouais dehors.",
+   "exampleEn": "When I was little, I used to play outside.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Parler",
+   "type": "Imparfait",
+   "translation": "je parlais — I used to speak",
+   "exampleFr": "Nous parlions avec le professeur.",
+   "exampleEn": "We used to speak with the teacher.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “You (one friend) used to speak”  (parler)",
+   "answer": "tu parlais",
+   "accept": [
+    "parlais"
+   ],
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ avec le professeur.",
+   "answer": "parlait",
+   "hint": "parler · imparfait",
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ avec le professeur.  (parler, imparfait)",
+   "options": [
+    "parliez",
+    "parlais",
+    "parlait",
+    "parlions"
+   ],
+   "answer": "parliez",
+   "explain": "parler → vous parliez",
+   "speak": "Vous parliez avec le professeur.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “They used to speak”  (parler)",
+   "answer": "ils parlaient",
+   "accept": [
+    "parlaient",
+    "ils parlaient",
+    "elles parlaient"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Habiter",
+   "type": "Imparfait",
+   "translation": "j'habitais — I used to live",
+   "exampleFr": "Nous habitions à Paris.",
+   "exampleEn": "We used to live in Paris.",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “I used to live”  (habiter)",
+   "answer": "j'habitais",
+   "accept": [
+    "habitais"
+   ],
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “She used to live”  (habiter)",
+   "answer": "elle habitait",
+   "accept": [
+    "habitait",
+    "on habitait",
+    "il habitait",
+    "elle habitait"
+   ],
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ à Paris.  (habiter, imparfait)",
+   "options": [
+    "habitions",
+    "habitaient",
+    "habitais",
+    "habitait"
+   ],
+   "answer": "habitions",
+   "explain": "habiter → nous habitions",
+   "speak": "Nous habitions à Paris.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ à Paris.",
+   "answer": "habitaient",
+   "hint": "habiter · imparfait",
+   "id": "013"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Manger",
+   "type": "Imparfait",
+   "translation": "je mangeais — I used to eat",
+   "exampleFr": "Nous mangions au restaurant.",
+   "exampleEn": "We used to eat at the restaurant.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ au restaurant.",
+   "answer": "mangeais",
+   "hint": "manger · imparfait",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “You (one friend) used to eat”  (manger)",
+   "answer": "tu mangeais",
+   "accept": [
+    "mangeais"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “We used to eat”  (manger)",
+   "answer": "nous mangions",
+   "accept": [
+    "mangions"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ au restaurant.",
+   "answer": "mangiez",
+   "hint": "manger · imparfait",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Imparfait",
+   "translation": "je finissais — I used to finish",
+   "exampleFr": "Nous finissions le projet.",
+   "exampleEn": "We used to finish the project.",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ le projet.  (finir, imparfait)",
+   "options": [
+    "finissais",
+    "finissions",
+    "finissiez",
+    "finissaient"
+   ],
+   "answer": "finissais",
+   "explain": "finir → tu finissais",
+   "speak": "Tu finissais le projet.",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “She used to finish”  (finir)",
+   "answer": "elle finissait",
+   "accept": [
+    "finissait",
+    "on finissait",
+    "il finissait",
+    "elle finissait"
+   ],
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “You (formal or plural) used to finish”  (finir)",
+   "answer": "vous finissiez",
+   "accept": [
+    "finissiez"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ le projet.  (finir, imparfait)",
+   "options": [
+    "finissaient",
+    "finissait",
+    "finissions",
+    "finissiez"
+   ],
+   "answer": "finissaient",
+   "explain": "finir → elles finissaient",
+   "speak": "Elles finissaient le projet.",
+   "id": "023"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Être",
+   "type": "Imparfait",
+   "translation": "j'étais — I used to be",
+   "exampleFr": "Nous étions à l'heure.",
+   "exampleEn": "We used to be on time.",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ à l'heure.  (être, imparfait)",
+   "options": [
+    "étais",
+    "était",
+    "étions",
+    "étiez"
+   ],
+   "answer": "étais",
+   "explain": "être → j'étais",
+   "speak": "J'étais à l'heure.",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ à l'heure.",
+   "answer": "était",
+   "hint": "être · imparfait",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “We used to be”  (être)",
+   "answer": "nous étions",
+   "accept": [
+    "étions"
+   ],
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “They used to be”  (être)",
+   "answer": "ils étaient",
+   "accept": [
+    "étaient",
+    "ils étaient",
+    "elles étaient"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir",
+   "type": "Imparfait",
+   "translation": "j'avais — I used to have",
+   "exampleFr": "Nous avions du temps.",
+   "exampleEn": "We used to have time.",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “I used to have”  (avoir)",
+   "answer": "j'avais",
+   "accept": [
+    "avais"
+   ],
+   "id": "030"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ du temps.",
+   "answer": "avais",
+   "hint": "avoir · imparfait",
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ du temps.  (avoir, imparfait)",
+   "options": [
+    "avions",
+    "avaient",
+    "avais",
+    "avait"
+   ],
+   "answer": "avions",
+   "explain": "avoir → nous avions",
+   "speak": "Nous avions du temps.",
+   "id": "032"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “You (formal or plural) used to have”  (avoir)",
+   "answer": "vous aviez",
+   "accept": [
+    "aviez"
+   ],
+   "id": "033"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Imparfait",
+   "translation": "je faisais — I used to do",
+   "exampleFr": "Nous faisions les courses.",
+   "exampleEn": "We used to do the shopping.",
+   "id": "034"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “You (one friend) used to do”  (faire)",
+   "answer": "tu faisais",
+   "accept": [
+    "faisais"
+   ],
+   "id": "035"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ les courses.  (faire, imparfait)",
+   "options": [
+    "faisait",
+    "faisiez",
+    "faisaient",
+    "faisais"
+   ],
+   "answer": "faisait",
+   "explain": "faire → il faisait",
+   "speak": "Il faisait les courses.",
+   "id": "036"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ les courses.",
+   "answer": "faisiez",
+   "hint": "faire · imparfait",
+   "id": "037"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “They used to do”  (faire)",
+   "answer": "ils faisaient",
+   "accept": [
+    "faisaient",
+    "ils faisaient",
+    "elles faisaient"
+   ],
+   "id": "038"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Aller",
+   "type": "Imparfait",
+   "translation": "j'allais — I used to go",
+   "exampleFr": "Nous allions au cinéma.",
+   "exampleEn": "We used to go to the cinema.",
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “I used to go”  (aller)",
+   "answer": "j'allais",
+   "accept": [
+    "allais"
+   ],
+   "id": "040"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “She used to go”  (aller)",
+   "answer": "elle allait",
+   "accept": [
+    "allait",
+    "on allait",
+    "il allait",
+    "elle allait"
+   ],
+   "id": "041"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ au cinéma.",
+   "answer": "allions",
+   "hint": "aller · imparfait",
+   "id": "042"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ au cinéma.  (aller, imparfait)",
+   "options": [
+    "allaient",
+    "allait",
+    "allions",
+    "alliez"
+   ],
+   "answer": "allaient",
+   "explain": "aller → elles allaient",
+   "speak": "Elles allaient au cinéma.",
+   "id": "043"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Imparfait",
+   "translation": "je prenais — I used to take",
+   "exampleFr": "Nous prenions le train.",
+   "exampleEn": "We used to take the train.",
+   "id": "044"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ le train.  (prendre, imparfait)",
+   "options": [
+    "prenais",
+    "prenait",
+    "prenions",
+    "preniez"
+   ],
+   "answer": "prenais",
+   "explain": "prendre → je prenais",
+   "speak": "Je prenais le train.",
+   "id": "045"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “You (one friend) used to take”  (prendre)",
+   "answer": "tu prenais",
+   "accept": [
+    "prenais"
+   ],
+   "id": "046"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “We used to take”  (prendre)",
+   "answer": "nous prenions",
+   "accept": [
+    "prenions"
+   ],
+   "id": "047"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le train.  (prendre, imparfait)",
+   "options": [
+    "preniez",
+    "prenais",
+    "prenait",
+    "prenions"
+   ],
+   "answer": "preniez",
+   "explain": "prendre → vous preniez",
+   "speak": "Vous preniez le train.",
+   "id": "048"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Vouloir",
+   "type": "Imparfait",
+   "translation": "je voulais — I used to want",
+   "exampleFr": "Nous voulions partir.",
+   "exampleEn": "We used to want to leave.",
+   "id": "049"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ partir.",
+   "answer": "voulais",
+   "hint": "vouloir · imparfait",
+   "id": "050"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “She used to want”  (vouloir)",
+   "answer": "elle voulait",
+   "accept": [
+    "voulait",
+    "on voulait",
+    "il voulait",
+    "elle voulait"
+   ],
+   "id": "051"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “You (formal or plural) used to want”  (vouloir)",
+   "answer": "vous vouliez",
+   "accept": [
+    "vouliez"
+   ],
+   "id": "052"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ partir.",
+   "answer": "voulaient",
+   "hint": "vouloir · imparfait",
+   "id": "053"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Savoir",
+   "type": "Imparfait",
+   "translation": "je savais — I used to know",
+   "exampleFr": "Nous savions la réponse.",
+   "exampleEn": "We used to know the answer.",
+   "id": "054"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ la réponse.",
+   "answer": "savais",
+   "hint": "savoir · imparfait",
+   "id": "055"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ la réponse.  (savoir, imparfait)",
+   "options": [
+    "savait",
+    "saviez",
+    "savaient",
+    "savais"
+   ],
+   "answer": "savait",
+   "explain": "savoir → il savait",
+   "speak": "Il savait la réponse.",
+   "id": "056"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “We used to know”  (savoir)",
+   "answer": "nous savions",
+   "accept": [
+    "savions"
+   ],
+   "id": "057"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “They used to know”  (savoir)",
+   "answer": "ils savaient",
+   "accept": [
+    "savaient",
+    "ils savaient",
+    "elles savaient"
+   ],
+   "id": "058"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Lire",
+   "type": "Imparfait",
+   "translation": "je lisais — I used to read",
+   "exampleFr": "Nous lisions le journal.",
+   "exampleEn": "We used to read the newspaper.",
+   "id": "059"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “I used to read”  (lire)",
+   "answer": "je lisais",
+   "accept": [
+    "lisais"
+   ],
+   "id": "060"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ le journal.  (lire, imparfait)",
+   "options": [
+    "lisais",
+    "lisions",
+    "lisiez",
+    "lisaient"
+   ],
+   "answer": "lisais",
+   "explain": "lire → tu lisais",
+   "speak": "Tu lisais le journal.",
+   "id": "061"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ le journal.",
+   "answer": "lisions",
+   "hint": "lire · imparfait",
+   "id": "062"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (imparfait): “You (formal or plural) used to read”  (lire)",
+   "answer": "vous lisiez",
+   "accept": [
+    "lisiez"
+   ],
+   "id": "063"
+  }
+ ]
+}

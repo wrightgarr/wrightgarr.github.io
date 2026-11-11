@@ -1,0 +1,276 @@
+{
+ "id": "a2-56-clothing",
+ "level": "A2",
+ "subject": 56,
+ "title": "Clothing",
+ "description": "What you wear.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "le pantalon",
+   "type": "Noun (m.)",
+   "translation": "the trousers / pants",
+   "exampleFr": "Ce pantalon est trop long.",
+   "exampleEn": "These trousers are too long.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the shirt”",
+   "answer": "la chemise",
+   "accept": [
+    "chemise"
+   ],
+   "explain": "Il porte une chemise blanche. — He is wearing a white shirt.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the T-shirt”",
+   "answer": "le tee-shirt",
+   "accept": [
+    "tee-shirt"
+   ],
+   "explain": "J'ai acheté un tee-shirt bleu. — I bought a blue T-shirt.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la robe",
+   "type": "Noun (f.)",
+   "translation": "the dress",
+   "exampleFr": "Elle met une robe pour la fête.",
+   "exampleEn": "She is putting on a dress for the party.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the skirt”",
+   "answer": "la jupe",
+   "accept": [
+    "jupe"
+   ],
+   "explain": "Cette jupe est très jolie. — This skirt is very pretty.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le pull” mean?",
+   "options": [
+    "the sweater / jumper",
+    "the shoes",
+    "the gloves",
+    "the belt"
+   ],
+   "answer": "the sweater / jumper",
+   "explain": "Mets un pull, il fait froid. — Put on a sweater, it is cold.",
+   "speak": "le pull",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la veste",
+   "type": "Noun (f.)",
+   "translation": "the jacket",
+   "exampleFr": "Sa veste est en cuir.",
+   "exampleEn": "His jacket is made of leather.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the coat”",
+   "answer": "le manteau",
+   "accept": [
+    "manteau"
+   ],
+   "explain": "En hiver, je porte un manteau. — In winter, I wear a coat.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the shoes”",
+   "answer": "les chaussures",
+   "accept": [
+    "chaussures"
+   ],
+   "explain": "Ces chaussures sont confortables. — These shoes are comfortable.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "les chaussettes",
+   "type": "Noun (f. pl.)",
+   "translation": "the socks",
+   "exampleFr": "Je cherche mes chaussettes.",
+   "exampleEn": "I am looking for my socks.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the hat”",
+   "answer": "le chapeau",
+   "accept": [
+    "chapeau"
+   ],
+   "explain": "Il porte un chapeau de paille. — He is wearing a straw hat.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “l'écharpe” mean?",
+   "options": [
+    "the scarf",
+    "the shorts",
+    "the boots",
+    "the trousers / pants"
+   ],
+   "answer": "the scarf",
+   "explain": "Elle a une écharpe en laine. — She has a wool scarf.",
+   "speak": "l'écharpe",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "les gants",
+   "type": "Noun (m. pl.)",
+   "translation": "the gloves",
+   "exampleFr": "N'oublie pas tes gants.",
+   "exampleEn": "Don't forget your gloves.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the jeans”",
+   "answer": "le jean",
+   "accept": [
+    "jean"
+   ],
+   "explain": "Je porte un jean tous les jours. — I wear jeans every day.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the shorts”",
+   "answer": "le short",
+   "accept": [
+    "short"
+   ],
+   "explain": "En été, il porte un short. — In summer, he wears shorts.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le maillot de bain",
+   "type": "Noun (m.)",
+   "translation": "the swimsuit",
+   "exampleFr": "J'ai oublié mon maillot de bain.",
+   "exampleEn": "I forgot my swimsuit.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the belt”",
+   "answer": "la ceinture",
+   "accept": [
+    "ceinture"
+   ],
+   "explain": "Cette ceinture est trop petite. — This belt is too small.",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “la cravate” mean?",
+   "options": [
+    "the tie",
+    "the suit",
+    "the T-shirt",
+    "the jacket"
+   ],
+   "answer": "the tie",
+   "explain": "Il met une cravate pour le travail. — He puts on a tie for work.",
+   "speak": "la cravate",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "les bottes",
+   "type": "Noun (f. pl.)",
+   "translation": "the boots",
+   "exampleFr": "Elle porte des bottes en hiver.",
+   "exampleEn": "She wears boots in winter.",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the glasses”",
+   "answer": "les lunettes",
+   "accept": [
+    "lunettes"
+   ],
+   "explain": "Où sont mes lunettes ? — Where are my glasses?",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the suit”",
+   "answer": "le costume",
+   "accept": [
+    "costume"
+   ],
+   "explain": "Il porte un costume gris. — He is wearing a grey suit.",
+   "id": "021"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la taille",
+   "type": "Noun (f.)",
+   "translation": "the size (clothes)",
+   "exampleFr": "Quelle taille faites-vous ?",
+   "exampleEn": "What size are you?",
+   "id": "022"
+  },
+  {
+   "kind": "flashcard",
+   "word": "porter / mettre / essayer / enlever",
+   "type": "Verbs",
+   "translation": "to wear / to put on / to try on / to take off",
+   "exampleFr": "Je peux essayer cette veste ?",
+   "exampleEn": "May I try on this jacket?",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "En hiver, je ___ un manteau.",
+   "answer": "porte",
+   "hint": "porter",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je peux ___ cette robe ?",
+   "answer": "essayer",
+   "hint": "to try on",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il fait chaud : ___ ton pull !",
+   "answer": "enlève",
+   "hint": "enlever · tu",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce pantalon est trop ___.",
+   "answer": "petit",
+   "hint": "small",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “What size are you?”  (vous)",
+   "answer": "Quelle taille faites-vous",
+   "id": "028"
+  }
+ ]
+}

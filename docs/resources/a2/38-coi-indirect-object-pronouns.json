@@ -1,0 +1,165 @@
+{
+ "id": "a2-38-coi-indirect-object-pronouns",
+ "level": "A2",
+ "subject": 38,
+ "title": "COI & Indirect Object Pronouns (me, te, lui, nous, vous, leur)",
+ "description": "Replacing à + a person.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "me, te, lui, nous, vous, leur",
+   "type": "Indirect object pronouns",
+   "translation": "to me, to you, to him / her, to us, to you, to them",
+   "exampleFr": "Je lui parle. Il leur écrit.",
+   "exampleEn": "I speak to him (or her). He writes to them.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Verbes + à + personne",
+   "type": "Rule",
+   "translation": "parler à, téléphoner à, écrire à, répondre à, donner à, dire à, demander à, offrir à",
+   "exampleFr": "Je téléphone à Luc → Je lui téléphone.",
+   "exampleEn": "I phone Luc → I phone him.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "lui",
+   "type": "Pronoun",
+   "translation": "to him or to her — the same form for both",
+   "exampleFr": "Marie ? Je lui ai parlé hier.",
+   "exampleEn": "Marie? I spoke to her yesterday.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je parle à Marie. → Je ___ parle.",
+   "answer": "lui",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il téléphone à ses parents. → Il ___ téléphone.",
+   "answer": "leur",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ donnes ton numéro ?",
+   "answer": "me",
+   "hint": "to me",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ écris une lettre.",
+   "answer": "vous",
+   "hint": "to you (vous)",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ a dit la vérité.",
+   "answer": "nous",
+   "hint": "to us",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ offrons un cadeau.",
+   "answer": "lui",
+   "hint": "to him",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne ___ réponds pas.",
+   "answer": "leur",
+   "hint": "to them",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ a demandé son nom.",
+   "answer": "lui",
+   "hint": "her",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je vais ___ expliquer.",
+   "answer": "t'",
+   "hint": "to you (tu)",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Je téléphone à mon frère.”",
+   "answer": "Je lui téléphone",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Elle écrit à ses amis.”",
+   "answer": "Elle leur écrit",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Nous parlons au professeur.”",
+   "answer": "Nous lui parlons",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Tu as répondu à Paul.”",
+   "answer": "Tu lui as répondu",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the person with a pronoun: “Je donne le livre à Sophie.”",
+   "answer": "Je lui donne le livre",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ vois. (Paul)",
+   "options": [
+    "le",
+    "lui",
+    "leur",
+    "il"
+   ],
+   "answer": "le",
+   "explain": "voir takes a direct object.",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ parle. (Paul)",
+   "options": [
+    "lui",
+    "le",
+    "la",
+    "l'"
+   ],
+   "answer": "lui",
+   "explain": "parler à takes an indirect object.",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "As a pronoun, “leur” (to them)…",
+   "options": [
+    "never takes an -s",
+    "takes an -s in the plural",
+    "becomes leurs before a vowel",
+    "follows the verb"
+   ],
+   "answer": "never takes an -s",
+   "id": "020"
+  }
+ ]
+}

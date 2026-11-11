@@ -1,0 +1,299 @@
+{
+ "id": "a2-57-animals",
+ "level": "A2",
+ "subject": 57,
+ "title": "Animals",
+ "description": "Pets, farm animals and wild animals.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "le chien",
+   "type": "Noun (m.)",
+   "translation": "the dog",
+   "exampleFr": "Mon chien s'appelle Max.",
+   "exampleEn": "My dog is called Max.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the cat”",
+   "answer": "le chat",
+   "accept": [
+    "chat"
+   ],
+   "explain": "Le chat dort sur le canapé. — The cat is sleeping on the sofa.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the horse”",
+   "answer": "le cheval",
+   "accept": [
+    "cheval"
+   ],
+   "explain": "Elle monte à cheval. — She rides a horse.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la vache",
+   "type": "Noun (f.)",
+   "translation": "the cow",
+   "exampleFr": "La vache donne du lait.",
+   "exampleEn": "The cow gives milk.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the pig”",
+   "answer": "le cochon",
+   "accept": [
+    "cochon"
+   ],
+   "explain": "Le cochon est rose. — The pig is pink.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le mouton” mean?",
+   "options": [
+    "the sheep",
+    "the rabbit",
+    "the lion",
+    "the wolf"
+   ],
+   "answer": "the sheep",
+   "explain": "Les moutons sont dans le pré. — The sheep are in the meadow.",
+   "speak": "le mouton",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la poule",
+   "type": "Noun (f.)",
+   "translation": "the hen",
+   "exampleFr": "La poule pond des œufs.",
+   "exampleEn": "The hen lays eggs.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the duck”",
+   "answer": "le canard",
+   "accept": [
+    "canard"
+   ],
+   "explain": "Le canard nage sur le lac. — The duck is swimming on the lake.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the rabbit”",
+   "answer": "le lapin",
+   "accept": [
+    "lapin"
+   ],
+   "explain": "Le lapin mange une carotte. — The rabbit is eating a carrot.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la souris",
+   "type": "Noun (f.)",
+   "translation": "the mouse",
+   "exampleFr": "Le chat chasse la souris.",
+   "exampleEn": "The cat is chasing the mouse.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the bird”",
+   "answer": "l'oiseau",
+   "accept": [
+    "oiseau"
+   ],
+   "explain": "L'oiseau chante le matin. — The bird sings in the morning.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le poisson” mean?",
+   "options": [
+    "the fish",
+    "the monkey",
+    "the frog",
+    "the tortoise / turtle"
+   ],
+   "answer": "the fish",
+   "explain": "J'ai un poisson rouge. — I have a goldfish.",
+   "speak": "le poisson",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le lion",
+   "type": "Noun (m.)",
+   "translation": "the lion",
+   "exampleFr": "Le lion est le roi des animaux.",
+   "exampleEn": "The lion is the king of the animals.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the elephant”",
+   "answer": "l'éléphant",
+   "accept": [
+    "éléphant"
+   ],
+   "explain": "L'éléphant est énorme. — The elephant is enormous.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the monkey”",
+   "answer": "le singe",
+   "accept": [
+    "singe"
+   ],
+   "explain": "Le singe grimpe dans l'arbre. — The monkey climbs the tree.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "l'ours",
+   "type": "Noun (m.)",
+   "translation": "the bear",
+   "exampleFr": "L'ours dort tout l'hiver.",
+   "exampleEn": "The bear sleeps all winter.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the wolf”",
+   "answer": "le loup",
+   "accept": [
+    "loup"
+   ],
+   "explain": "Le loup vit dans la forêt. — The wolf lives in the forest.",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le renard” mean?",
+   "options": [
+    "the fox",
+    "the bee",
+    "the dog",
+    "the pig"
+   ],
+   "answer": "the fox",
+   "explain": "Le renard est rusé. — The fox is cunning.",
+   "speak": "le renard",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la grenouille",
+   "type": "Noun (f.)",
+   "translation": "the frog",
+   "exampleFr": "La grenouille saute dans l'eau.",
+   "exampleEn": "The frog jumps into the water.",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the snake”",
+   "answer": "le serpent",
+   "accept": [
+    "serpent"
+   ],
+   "explain": "J'ai peur des serpents. — I am afraid of snakes.",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the bee”",
+   "answer": "l'abeille",
+   "accept": [
+    "abeille"
+   ],
+   "explain": "L'abeille fait du miel. — The bee makes honey.",
+   "id": "021"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le papillon",
+   "type": "Noun (m.)",
+   "translation": "the butterfly",
+   "exampleFr": "Un papillon vole dans le jardin.",
+   "exampleEn": "A butterfly is flying in the garden.",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the tortoise / turtle”",
+   "answer": "la tortue",
+   "accept": [
+    "tortue"
+   ],
+   "explain": "La tortue marche lentement. — The tortoise walks slowly.",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “l'animal de compagnie” mean?",
+   "options": [
+    "the pet",
+    "the horse",
+    "the hen",
+    "the bird"
+   ],
+   "answer": "the pet",
+   "explain": "Tu as un animal de compagnie ? — Do you have a pet?",
+   "speak": "l'animal de compagnie",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Un cheval, deux ___.",
+   "answer": "chevaux",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Un animal, des ___.",
+   "answer": "animaux",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Un oiseau, des ___.",
+   "answer": "oiseaux",
+   "id": "027"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which animal says “miaou”?",
+   "options": [
+    "le chat",
+    "le chien",
+    "la vache",
+    "le canard"
+   ],
+   "answer": "le chat",
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which animal gives milk?",
+   "options": [
+    "la vache",
+    "la poule",
+    "le lapin",
+    "le renard"
+   ],
+   "answer": "la vache",
+   "id": "029"
+  }
+ ]
+}

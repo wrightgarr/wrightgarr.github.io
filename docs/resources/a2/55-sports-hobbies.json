@@ -1,0 +1,265 @@
+{
+ "id": "a2-55-sports-hobbies",
+ "level": "A2",
+ "subject": 55,
+ "title": "Sports & Hobbies",
+ "description": "What you do in your free time.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "le football",
+   "type": "Noun (m.)",
+   "translation": "football / soccer",
+   "exampleFr": "Je joue au football le samedi.",
+   "exampleEn": "I play football on Saturdays.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “tennis”",
+   "answer": "le tennis",
+   "accept": [
+    "tennis"
+   ],
+   "explain": "Elle joue au tennis avec son frère. — She plays tennis with her brother.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “swimming”",
+   "answer": "la natation",
+   "accept": [
+    "natation"
+   ],
+   "explain": "Je fais de la natation deux fois par semaine. — I swim twice a week.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le vélo",
+   "type": "Noun (m.)",
+   "translation": "cycling / the bike",
+   "exampleFr": "Nous faisons du vélo le dimanche.",
+   "exampleEn": "We go cycling on Sundays.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “running”",
+   "answer": "la course à pied",
+   "accept": [
+    "course à pied"
+   ],
+   "explain": "Il fait de la course à pied le matin. — He goes running in the morning.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le ski” mean?",
+   "options": [
+    "skiing",
+    "dance",
+    "gardening",
+    "fishing"
+   ],
+   "answer": "skiing",
+   "explain": "En hiver, on fait du ski. — In winter, we go skiing.",
+   "speak": "le ski",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la randonnée",
+   "type": "Noun (f.)",
+   "translation": "hiking",
+   "exampleFr": "J'adore la randonnée en montagne.",
+   "exampleEn": "I love hiking in the mountains.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “basketball”",
+   "answer": "le basket",
+   "accept": [
+    "basket"
+   ],
+   "explain": "Ils jouent au basket après l'école. — They play basketball after school.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “dance”",
+   "answer": "la danse",
+   "accept": [
+    "danse"
+   ],
+   "explain": "Elle fait de la danse depuis dix ans. — She has been dancing for ten years.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "la musique",
+   "type": "Noun (f.)",
+   "translation": "music",
+   "exampleFr": "J'écoute de la musique tous les jours.",
+   "exampleEn": "I listen to music every day.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “reading”",
+   "answer": "la lecture",
+   "accept": [
+    "lecture"
+   ],
+   "explain": "La lecture est mon passe-temps préféré. — Reading is my favourite pastime.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “la cuisine” mean?",
+   "options": [
+    "cooking",
+    "painting",
+    "the hobby",
+    "swimming"
+   ],
+   "answer": "cooking",
+   "explain": "Il aime faire la cuisine. — He likes cooking.",
+   "speak": "la cuisine",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le jardinage",
+   "type": "Noun (m.)",
+   "translation": "gardening",
+   "exampleFr": "Mon père fait du jardinage.",
+   "exampleEn": "My father does gardening.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “photography”",
+   "answer": "la photographie",
+   "accept": [
+    "photographie"
+   ],
+   "explain": "La photographie est sa passion. — Photography is his passion.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “painting”",
+   "answer": "la peinture",
+   "accept": [
+    "peinture"
+   ],
+   "explain": "Elle fait de la peinture. — She paints.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "les jeux vidéo",
+   "type": "Noun (m. pl.)",
+   "translation": "video games",
+   "exampleFr": "Il joue aux jeux vidéo le soir.",
+   "exampleEn": "He plays video games in the evening.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “fishing”",
+   "answer": "la pêche",
+   "accept": [
+    "pêche"
+   ],
+   "explain": "Mon oncle va à la pêche. — My uncle goes fishing.",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “les échecs” mean?",
+   "options": [
+    "chess",
+    "football / soccer",
+    "running",
+    "dance"
+   ],
+   "answer": "chess",
+   "explain": "Tu sais jouer aux échecs ? — Do you know how to play chess?",
+   "speak": "les échecs",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le passe-temps",
+   "type": "Noun (m.)",
+   "translation": "the hobby",
+   "exampleFr": "Quel est ton passe-temps préféré ?",
+   "exampleEn": "What is your favourite hobby?",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the team”",
+   "answer": "l'équipe",
+   "accept": [
+    "équipe"
+   ],
+   "explain": "Notre équipe a gagné le match. — Our team won the match.",
+   "id": "020"
+  },
+  {
+   "kind": "flashcard",
+   "word": "jouer à / jouer de / faire de",
+   "type": "Rule",
+   "translation": "jouer à + sport or game; jouer de + instrument; faire de + activity",
+   "exampleFr": "Je joue au tennis, je joue du piano, je fais du yoga.",
+   "exampleEn": "I play tennis, I play the piano, I do yoga.",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je joue ___ tennis.",
+   "answer": "au",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle joue ___ piano.",
+   "answer": "du",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous faisons ___ natation.",
+   "answer": "de la",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils jouent ___ échecs.",
+   "answer": "aux",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu fais ___ vélo ?",
+   "answer": "du",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il joue ___ guitare.",
+   "answer": "de la",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je fais ___ équitation.",
+   "answer": "de l'",
+   "id": "028"
+  }
+ ]
+}

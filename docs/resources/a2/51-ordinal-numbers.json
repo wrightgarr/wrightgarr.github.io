@@ -1,0 +1,304 @@
+{
+ "id": "a2-51-ordinal-numbers",
+ "level": "A2",
+ "subject": 51,
+ "title": "Ordinal Numbers (1er, 2ème, 3ème, ...)",
+ "description": "first, second, third…",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "-ième",
+   "type": "Rule",
+   "translation": "Number + -ième; a final -e is dropped (quatre → quatrième)",
+   "exampleFr": "Le troisième étage.",
+   "exampleEn": "The third floor.",
+   "hint": "cinq → cinquième ; neuf → neuvième",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "premier / première",
+   "type": "Ordinal",
+   "translation": "first",
+   "exampleFr": "C'est la première fois.",
+   "exampleEn": "It is the first time.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "second / seconde",
+   "type": "Ordinal",
+   "translation": "second (when there are only two)",
+   "exampleFr": "La Seconde Guerre mondiale.",
+   "exampleEn": "The Second World War.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "dernier / dernière",
+   "type": "Adjective",
+   "translation": "last",
+   "exampleFr": "C'est le dernier jour des vacances.",
+   "exampleEn": "It is the last day of the holidays.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "1er, 1re, 2e, 3e",
+   "type": "Abbreviations",
+   "translation": "1st (m.), 1st (f.), 2nd, 3rd",
+   "exampleFr": "Le 1er étage ; la 2e rue.",
+   "exampleEn": "The 1st floor; the 2nd street.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 2nd",
+   "answer": "deuxième",
+   "accept": [
+    "deuxième",
+    "second",
+    "seconde"
+   ],
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 3rd",
+   "answer": "troisième",
+   "accept": [
+    "troisième"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 4th",
+   "answer": "quatrième",
+   "accept": [
+    "quatrième"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 5th",
+   "answer": "cinquième",
+   "accept": [
+    "cinquième"
+   ],
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 6th",
+   "answer": "sixième",
+   "accept": [
+    "sixième"
+   ],
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 7th",
+   "answer": "septième",
+   "accept": [
+    "septième"
+   ],
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 8th",
+   "answer": "huitième",
+   "accept": [
+    "huitième"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 9th",
+   "answer": "neuvième",
+   "accept": [
+    "neuvième"
+   ],
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 10th",
+   "answer": "dixième",
+   "accept": [
+    "dixième"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 11th",
+   "answer": "onzième",
+   "accept": [
+    "onzième"
+   ],
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 12th",
+   "answer": "douzième",
+   "accept": [
+    "douzième"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 15th",
+   "answer": "quinzième",
+   "accept": [
+    "quinzième"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 20th",
+   "answer": "vingtième",
+   "accept": [
+    "vingtième"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 21st",
+   "answer": "vingt et unième",
+   "accept": [
+    "vingt-et-unième"
+   ],
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 30th",
+   "answer": "trentième",
+   "accept": [
+    "trentième"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 50th",
+   "answer": "cinquantième",
+   "accept": [
+    "cinquantième"
+   ],
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 100th",
+   "answer": "centième",
+   "accept": [
+    "centième"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Write the ordinal in French: 1000th",
+   "answer": "millième",
+   "accept": [
+    "millième"
+   ],
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est la ___ fois que je viens ici.",
+   "answer": "première",
+   "hint": "1st",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'habite au ___ étage.",
+   "answer": "troisième",
+   "hint": "3rd",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous sommes au ___ siècle.",
+   "answer": "vingt et unième",
+   "hint": "21st",
+   "accept": [
+    "vingt-et-unième",
+    "21e"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est son ___ anniversaire.",
+   "answer": "dixième",
+   "hint": "10th",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Prenez la ___ rue à gauche.",
+   "answer": "deuxième",
+   "hint": "2nd",
+   "accept": [
+    "seconde"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est arrivé ___.",
+   "answer": "premier",
+   "hint": "1st",
+   "id": "029"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How is “premier” abbreviated?",
+   "options": [
+    "1er",
+    "1e",
+    "1ème",
+    "1ier"
+   ],
+   "answer": "1er",
+   "id": "030"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do you say “May 1st”?",
+   "options": [
+    "le premier mai",
+    "le unième mai",
+    "le un mai",
+    "le première mai"
+   ],
+   "answer": "le premier mai",
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which spelling is correct for “9th”?",
+   "options": [
+    "neuvième",
+    "neufième",
+    "neuvème",
+    "neufvième"
+   ],
+   "answer": "neuvième",
+   "id": "032"
+  }
+ ]
+}

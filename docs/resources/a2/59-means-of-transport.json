@@ -1,0 +1,250 @@
+{
+ "id": "a2-59-means-of-transport",
+ "level": "A2",
+ "subject": 59,
+ "title": "Means of Transport",
+ "description": "Getting around.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "la voiture",
+   "type": "Noun (f.)",
+   "translation": "the car",
+   "exampleFr": "Je vais au travail en voiture.",
+   "exampleEn": "I go to work by car.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the bus”",
+   "answer": "le bus",
+   "accept": [
+    "bus"
+   ],
+   "explain": "Le bus arrive dans cinq minutes. — The bus arrives in five minutes.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the train”",
+   "answer": "le train",
+   "accept": [
+    "train"
+   ],
+   "explain": "Le train pour Lyon part à midi. — The train to Lyon leaves at noon.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le métro",
+   "type": "Noun (m.)",
+   "translation": "the underground / subway",
+   "exampleFr": "Je prends le métro tous les jours.",
+   "exampleEn": "I take the metro every day.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the tram”",
+   "answer": "le tramway",
+   "accept": [
+    "tramway"
+   ],
+   "explain": "Le tramway traverse la ville. — The tram crosses the city.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “l'avion” mean?",
+   "options": [
+    "the plane",
+    "the motorbike",
+    "the bus stop",
+    "the return ticket / round trip"
+   ],
+   "answer": "the plane",
+   "explain": "L'avion décolle à dix heures. — The plane takes off at ten.",
+   "speak": "l'avion",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le bateau",
+   "type": "Noun (m.)",
+   "translation": "the boat",
+   "exampleFr": "Nous prenons le bateau pour la Corse.",
+   "exampleEn": "We are taking the boat to Corsica.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the bike”",
+   "answer": "le vélo",
+   "accept": [
+    "vélo"
+   ],
+   "explain": "Elle va à l'école à vélo. — She goes to school by bike.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the motorbike”",
+   "answer": "la moto",
+   "accept": [
+    "moto"
+   ],
+   "explain": "Il a une moto rouge. — He has a red motorbike.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le camion",
+   "type": "Noun (m.)",
+   "translation": "the lorry / truck",
+   "exampleFr": "Le camion transporte des meubles.",
+   "exampleEn": "The lorry is carrying furniture.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the train station”",
+   "answer": "la gare",
+   "accept": [
+    "gare"
+   ],
+   "explain": "La gare est au centre-ville. — The station is in the town centre.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “l'aéroport” mean?",
+   "options": [
+    "the airport",
+    "the platform",
+    "the car",
+    "the tram"
+   ],
+   "answer": "the airport",
+   "explain": "L'aéroport est loin de la ville. — The airport is far from the city.",
+   "speak": "l'aéroport",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "l'arrêt de bus",
+   "type": "Noun (m.)",
+   "translation": "the bus stop",
+   "exampleFr": "L'arrêt de bus est devant l'école.",
+   "exampleEn": "The bus stop is in front of the school.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the ticket (train, plane)”",
+   "answer": "le billet",
+   "accept": [
+    "billet"
+   ],
+   "explain": "J'ai acheté mon billet en ligne. — I bought my ticket online.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the platform”",
+   "answer": "le quai",
+   "accept": [
+    "quai"
+   ],
+   "explain": "Le train part du quai numéro trois. — The train leaves from platform three.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le trajet",
+   "type": "Noun (m.)",
+   "translation": "the journey / trip",
+   "exampleFr": "Le trajet dure deux heures.",
+   "exampleEn": "The journey takes two hours.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the return ticket / round trip”",
+   "answer": "l'aller-retour",
+   "accept": [
+    "aller-retour"
+   ],
+   "explain": "Un aller-retour pour Nice, s'il vous plaît. — A return ticket to Nice, please.",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le permis de conduire” mean?",
+   "options": [
+    "the driving licence",
+    "the train",
+    "the boat",
+    "the train station"
+   ],
+   "answer": "the driving licence",
+   "explain": "Elle a son permis de conduire. — She has her driving licence.",
+   "speak": "le permis de conduire",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "en / à",
+   "type": "Rule",
+   "translation": "en + vehicle you sit inside (en voiture, en train, en avion); à + pied, vélo, moto, cheval",
+   "exampleFr": "Je viens en bus, lui vient à pied.",
+   "exampleEn": "I come by bus; he comes on foot.",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je vais au travail ___ métro.",
+   "answer": "en",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle vient ___ pied.",
+   "answer": "à",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous voyageons ___ avion.",
+   "answer": "en",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il va à l'école ___ vélo.",
+   "answer": "à",
+   "accept": [
+    "en"
+   ],
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ le train à huit heures.",
+   "answer": "prends",
+   "hint": "prendre",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I go to work by car.”",
+   "answer": "Je vais au travail en voiture",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “A return ticket, please.”",
+   "answer": "Un aller-retour, s'il vous plaît",
+   "id": "026"
+  }
+ ]
+}

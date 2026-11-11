@@ -1,0 +1,132 @@
+{
+ "id": "a2-41-demonstrative-adjectives",
+ "level": "A2",
+ "subject": 41,
+ "title": "Demonstrative Adjectives",
+ "description": "ce, cet, cette, ces.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "ce / cet / cette / ces",
+   "type": "Demonstrative adjectives",
+   "translation": "this, that / these, those",
+   "exampleFr": "Ce livre, cet ami, cette maison, ces enfants.",
+   "exampleEn": "This book, this friend, this house, these children.",
+   "hint": "cet is used before a masculine noun starting with a vowel sound",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-ci / -là",
+   "type": "Rule",
+   "translation": "Add -ci (here) or -là (there) after the noun to be precise",
+   "exampleFr": "Je préfère cette robe-ci.",
+   "exampleEn": "I prefer this dress (here).",
+   "id": "002"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ livre est intéressant.",
+   "answer": "Ce",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ homme est mon voisin.",
+   "answer": "Cet",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ maison est belle.",
+   "answer": "Cette",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ enfants sont sages.",
+   "answer": "Ces",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ hôtel est cher.",
+   "answer": "Cet",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ année, je vais en France.",
+   "answer": "Cette",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ après-midi, je travaille.",
+   "answer": "Cet",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ chaussures sont trop petites.",
+   "answer": "Ces",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ soir, on sort.",
+   "answer": "Ce",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ arbre est très vieux.",
+   "answer": "Cet",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je préfère cette robe-___.",
+   "answer": "ci",
+   "hint": "this one, here",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu vois ce bâtiment-___ ?",
+   "answer": "là",
+   "hint": "that one, over there",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “this car”",
+   "answer": "cette voiture",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “these books”",
+   "answer": "ces livres",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “this friend”  (masculine)",
+   "answer": "cet ami",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "When do you use “cet”?",
+   "options": [
+    "Before a masculine noun starting with a vowel sound",
+    "Before any feminine noun",
+    "Before any plural noun",
+    "Before any masculine noun"
+   ],
+   "answer": "Before a masculine noun starting with a vowel sound",
+   "id": "018"
+  }
+ ]
+}

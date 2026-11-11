@@ -1,0 +1,157 @@
+{
+ "id": "a2-49-depuis-pendant-pour",
+ "level": "A2",
+ "subject": 49,
+ "title": "Depuis, Pendant & Pour",
+ "description": "Talking about duration.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "depuis",
+   "type": "Preposition",
+   "translation": "for / since — the action is still going on (present tense)",
+   "exampleFr": "J'habite ici depuis cinq ans.",
+   "exampleEn": "I have lived here for five years.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "pendant",
+   "type": "Preposition",
+   "translation": "for / during — a finished or bounded duration",
+   "exampleFr": "J'ai étudié pendant deux heures.",
+   "exampleEn": "I studied for two hours.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "pour",
+   "type": "Preposition",
+   "translation": "for — a planned duration in the future",
+   "exampleFr": "Je pars pour trois semaines.",
+   "exampleEn": "I am leaving for three weeks.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "il y a",
+   "type": "Expression",
+   "translation": "… ago",
+   "exampleFr": "Je suis arrivé il y a dix minutes.",
+   "exampleEn": "I arrived ten minutes ago.",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "en",
+   "type": "Preposition",
+   "translation": "in — the time needed to finish something",
+   "exampleFr": "J'ai lu ce livre en deux jours.",
+   "exampleEn": "I read this book in two days.",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'habite ici ___ cinq ans.",
+   "answer": "depuis",
+   "translation": "I have lived here for five years.",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Hier, j'ai étudié ___ deux heures.",
+   "answer": "pendant",
+   "translation": "Yesterday, I studied for two hours.",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Demain, je pars en France ___ trois semaines.",
+   "answer": "pour",
+   "translation": "Tomorrow, I leave for France for three weeks.",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il pleut ___ ce matin.",
+   "answer": "depuis",
+   "translation": "It has been raining since this morning.",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a dormi ___ tout le voyage.",
+   "answer": "pendant",
+   "translation": "She slept during the whole trip.",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous sommes mariés ___ 2015.",
+   "answer": "depuis",
+   "translation": "We have been married since 2015.",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je suis arrivé ___ dix minutes.",
+   "answer": "il y a",
+   "translation": "I arrived ten minutes ago.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai lu ce livre ___ deux jours.",
+   "answer": "en",
+   "translation": "I read this book in two days.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ les vacances, j'ai beaucoup lu.",
+   "answer": "Pendant",
+   "translation": "During the holidays, I read a lot.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu apprends le français ___ quand ?",
+   "answer": "depuis",
+   "translation": "Since when have you been learning French?",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I have lived here for two years.”",
+   "answer": "J'habite ici depuis deux ans",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I worked for three hours.”",
+   "answer": "J'ai travaillé pendant trois heures",
+   "accept": [
+    "J'ai travaillé trois heures"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “She arrived two days ago.”",
+   "answer": "Elle est arrivée il y a deux jours",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which tense goes with “depuis” for an action that continues now?",
+   "options": [
+    "the present",
+    "the passé composé",
+    "the futur simple",
+    "the imparfait"
+   ],
+   "answer": "the present",
+   "id": "019"
+  }
+ ]
+}

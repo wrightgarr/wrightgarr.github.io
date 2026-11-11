@@ -1,0 +1,241 @@
+{
+ "id": "a2-52-adverbs-of-manner",
+ "level": "A2",
+ "subject": 52,
+ "title": "Adverbs of Manner",
+ "description": "Turning adjectives into adverbs in -ment.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Adjectif féminin + -ment",
+   "type": "Rule",
+   "translation": "Most adverbs: feminine adjective + -ment",
+   "exampleFr": "Lent → lente → lentement.",
+   "exampleEn": "Slow → slowly.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Adjectif en voyelle + -ment",
+   "type": "Rule",
+   "translation": "If the masculine ends in a vowel, add -ment directly",
+   "exampleFr": "Vrai → vraiment ; poli → poliment.",
+   "exampleEn": "True → truly; polite → politely.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "-ant → -amment / -ent → -emment",
+   "type": "Rule",
+   "translation": "Both endings are pronounced “a-man”",
+   "exampleFr": "Courant → couramment ; évident → évidemment.",
+   "exampleEn": "Fluent → fluently; obvious → obviously.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "bien / mal / vite",
+   "type": "Irregular adverbs",
+   "translation": "well / badly / quickly",
+   "exampleFr": "Elle chante bien, mais elle danse mal.",
+   "exampleEn": "She sings well, but she dances badly.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “lent”",
+   "answer": "lentement",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “rapide”",
+   "answer": "rapidement",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “heureux”",
+   "answer": "heureusement",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “sérieux”",
+   "answer": "sérieusement",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “doux”",
+   "answer": "doucement",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “facile”",
+   "answer": "facilement",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “vrai”",
+   "answer": "vraiment",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “poli”",
+   "answer": "poliment",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “absolu”",
+   "answer": "absolument",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “constant”",
+   "answer": "constamment",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “courant”",
+   "answer": "couramment",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “évident”",
+   "answer": "évidemment",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “patient”",
+   "answer": "patiemment",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “récent”",
+   "answer": "récemment",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “prudent”",
+   "answer": "prudemment",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “gentil”",
+   "answer": "gentiment",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “bref”",
+   "answer": "brièvement",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “bon”",
+   "answer": "bien",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “mauvais”",
+   "answer": "mal",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “certain”",
+   "answer": "certainement",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “complet”",
+   "answer": "complètement",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Form the adverb from “franc”",
+   "answer": "franchement",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle parle ___ français.",
+   "answer": "couramment",
+   "hint": "courant",
+   "translation": "She speaks French fluently.",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il conduit ___.",
+   "answer": "prudemment",
+   "hint": "prudent",
+   "translation": "He drives carefully.",
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Parle plus ___, s'il te plaît.",
+   "answer": "lentement",
+   "hint": "lent",
+   "translation": "Speak more slowly, please.",
+   "id": "029"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle chante ___.",
+   "answer": "bien",
+   "hint": "bon",
+   "translation": "She sings well.",
+   "id": "030"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il a répondu ___.",
+   "answer": "poliment",
+   "hint": "poli",
+   "translation": "He answered politely.",
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "How are -amment and -emment pronounced?",
+   "options": [
+    "both like “a-man”",
+    "“a-man” and “eh-man”",
+    "both like “eh-man”",
+    "the ending is silent"
+   ],
+   "answer": "both like “a-man”",
+   "id": "032"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Elle parle doucement.",
+    "Elle parle douxment.",
+    "Elle doucement parle.",
+    "Elle parle douce."
+   ],
+   "answer": "Elle parle doucement.",
+   "id": "033"
+  }
+ ]
+}

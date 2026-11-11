@@ -1,0 +1,161 @@
+{
+ "id": "a2-54-possessive-pronouns",
+ "level": "A2",
+ "subject": 54,
+ "title": "Possessive Pronouns (le mien, le tien, le sien, …)",
+ "description": "mine, yours, his, hers, ours, theirs.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "le mien / la mienne / les miens / les miennes",
+   "type": "Possessive pronoun",
+   "translation": "mine",
+   "exampleFr": "Ce livre est le mien.",
+   "exampleEn": "This book is mine.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le tien / le sien",
+   "type": "Possessive pronoun",
+   "translation": "yours (tu) / his, hers — they follow the same four forms",
+   "exampleFr": "Ma voiture et la tienne ; mon frère et le sien.",
+   "exampleEn": "My car and yours; my brother and his (hers).",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le nôtre / le vôtre / le leur",
+   "type": "Possessive pronoun",
+   "translation": "ours / yours (vous) / theirs",
+   "exampleFr": "Leur maison est grande ; la nôtre est petite.",
+   "exampleEn": "Their house is big; ours is small.",
+   "hint": "nôtre and vôtre take a circumflex as pronouns",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est ton livre ? — Oui, c'est ___.",
+   "answer": "le mien",
+   "hint": "mine",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ma voiture est rouge. Et ___ ?",
+   "answer": "la tienne",
+   "hint": "yours (tu)",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ses enfants sont grands ; ___ sont petits.",
+   "answer": "les miens",
+   "hint": "mine",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Notre maison est vieille ; ___ est neuve.",
+   "answer": "la leur",
+   "hint": "theirs",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Voici mes clés. Où sont ___ ?",
+   "answer": "les vôtres",
+   "hint": "yours (vous)",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce stylo est à Paul ? — Oui, c'est ___.",
+   "answer": "le sien",
+   "hint": "his",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vos idées sont bonnes, mais ___ sont meilleures.",
+   "answer": "les nôtres",
+   "hint": "ours",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ta sœur et ___ sont amies.",
+   "answer": "la mienne",
+   "hint": "mine",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Mon chien est plus grand que ___.",
+   "answer": "le sien",
+   "hint": "his",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Leurs chaussures sont propres ; ___ sont sales.",
+   "answer": "les siennes",
+   "hint": "hers",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “mine”  (masculine singular)",
+   "answer": "le mien",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “yours”  (vous, feminine singular)",
+   "answer": "la vôtre",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “theirs”  (plural)",
+   "answer": "les leurs",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “ours”  (masculine singular)",
+   "answer": "le nôtre",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “hers”  (feminine singular thing)",
+   "answer": "la sienne",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which is the pronoun (not the adjective)?",
+   "options": [
+    "le nôtre",
+    "notre",
+    "nos",
+    "nous"
+   ],
+   "answer": "le nôtre",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“C'est à moi” can also be said…",
+   "options": [
+    "C'est le mien",
+    "C'est mon",
+    "C'est moi",
+    "C'est mes"
+   ],
+   "answer": "C'est le mien",
+   "id": "020"
+  }
+ ]
+}

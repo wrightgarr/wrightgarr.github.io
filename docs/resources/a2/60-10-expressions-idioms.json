@@ -1,0 +1,193 @@
+{
+ "id": "a2-60-10-expressions-idioms",
+ "level": "A2",
+ "subject": 60,
+ "title": "10 Expressions & Idioms",
+ "description": "Ten colourful everyday idioms.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Avoir le cafard",
+   "type": "Idiom",
+   "translation": "To feel down",
+   "exampleFr": "Il pleut depuis une semaine, j'ai le cafard.",
+   "exampleEn": "It has been raining for a week; I feel down.",
+   "hint": "Literally: to have the cockroach",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Coûter les yeux de la tête",
+   "type": "Idiom",
+   "translation": "To cost a fortune",
+   "exampleFr": "Cette voiture coûte les yeux de la tête.",
+   "exampleEn": "This car costs a fortune.",
+   "hint": "Literally: to cost the eyes of the head",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Poser un lapin",
+   "type": "Idiom",
+   "translation": "To stand someone up",
+   "exampleFr": "Je l'ai attendu une heure : il m'a posé un lapin.",
+   "exampleEn": "I waited an hour for him: he stood me up.",
+   "hint": "Literally: to put down a rabbit",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir un chat dans la gorge",
+   "type": "Idiom",
+   "translation": "To have a frog in one's throat",
+   "exampleFr": "Excusez-moi, j'ai un chat dans la gorge.",
+   "exampleEn": "Excuse me, I have a frog in my throat.",
+   "hint": "Literally: to have a cat in the throat",
+   "id": "004"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Il pleut des cordes",
+   "type": "Idiom",
+   "translation": "It is pouring with rain",
+   "exampleFr": "Prends un parapluie, il pleut des cordes.",
+   "exampleEn": "Take an umbrella, it is pouring.",
+   "hint": "Literally: it is raining ropes",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Être dans la lune",
+   "type": "Idiom",
+   "translation": "To be daydreaming",
+   "exampleFr": "Tu m'écoutes ? Tu es dans la lune !",
+   "exampleEn": "Are you listening? You are miles away!",
+   "hint": "Literally: to be in the moon",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Donner sa langue au chat",
+   "type": "Idiom",
+   "translation": "To give up guessing",
+   "exampleFr": "Je ne sais pas, je donne ma langue au chat.",
+   "exampleEn": "I don't know, I give up.",
+   "hint": "Literally: to give one's tongue to the cat",
+   "id": "007"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire la grasse matinée",
+   "type": "Idiom",
+   "translation": "To have a lie-in / sleep in",
+   "exampleFr": "Le dimanche, je fais la grasse matinée.",
+   "exampleEn": "On Sundays, I sleep in.",
+   "hint": "Literally: to do the fat morning",
+   "id": "008"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir un coup de foudre",
+   "type": "Idiom",
+   "translation": "To fall in love at first sight",
+   "exampleFr": "Ils ont eu un coup de foudre à Paris.",
+   "exampleEn": "They fell in love at first sight in Paris.",
+   "hint": "Literally: to have a lightning strike",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Ce n'est pas la mer à boire",
+   "type": "Idiom",
+   "translation": "It is not that hard",
+   "exampleFr": "Dix pages à lire ? Ce n'est pas la mer à boire.",
+   "exampleEn": "Ten pages to read? It's not that hard.",
+   "hint": "Literally: it is not the sea to drink",
+   "id": "010"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Your friend never showed up for your date. He…",
+   "options": [
+    "t'a posé un lapin",
+    "a le cafard",
+    "est dans la lune",
+    "a un chat dans la gorge"
+   ],
+   "answer": "t'a posé un lapin",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Il pleut des cordes” means…",
+   "options": [
+    "It is raining heavily",
+    "It is very windy",
+    "It is snowing",
+    "The rain has stopped"
+   ],
+   "answer": "It is raining heavily",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "You stay in bed until 11 on Sunday. You…",
+   "options": [
+    "fais la grasse matinée",
+    "donnes ta langue au chat",
+    "as un coup de foudre",
+    "as le cafard"
+   ],
+   "answer": "fais la grasse matinée",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“Coûter les yeux de la tête” means…",
+   "options": [
+    "to be very expensive",
+    "to be very ugly",
+    "to hurt a lot",
+    "to be very cheap"
+   ],
+   "answer": "to be very expensive",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne trouve pas la réponse : je donne ma ___ au chat.",
+   "answer": "langue",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce sac coûte les ___ de la tête.",
+   "answer": "yeux",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle est triste aujourd'hui, elle a le ___.",
+   "answer": "cafard",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ne m'écoute pas, il est dans la ___.",
+   "answer": "lune",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “It is pouring with rain.”  (idiom)",
+   "answer": "Il pleut des cordes",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “to sleep in”  (idiom)",
+   "answer": "faire la grasse matinée",
+   "id": "020"
+  }
+ ]
+}

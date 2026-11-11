@@ -1,0 +1,157 @@
+{
+ "id": "a2-53-partitive-articles",
+ "level": "A2",
+ "subject": 53,
+ "title": "Partitive Articles (du, de la, de l', des)",
+ "description": "some / any, for things you cannot count.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "du / de la / de l' / des",
+   "type": "Partitive articles",
+   "translation": "some / any (often not translated)",
+   "exampleFr": "Je mange du pain, de la salade et des fruits.",
+   "exampleEn": "I eat bread, salad and fruit.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "pas de / pas d'",
+   "type": "Rule",
+   "translation": "After a negative, every partitive becomes de",
+   "exampleFr": "Je ne bois pas de lait.",
+   "exampleEn": "I do not drink milk.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Quantité + de",
+   "type": "Rule",
+   "translation": "After a quantity, use de alone: beaucoup de, un peu de, un kilo de, un verre de",
+   "exampleFr": "Un verre d'eau et beaucoup de sucre.",
+   "exampleEn": "A glass of water and a lot of sugar.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "aimer + le, la, les",
+   "type": "Rule",
+   "translation": "Verbs of liking take the definite article, not the partitive",
+   "exampleFr": "J'aime le chocolat, donc je mange du chocolat.",
+   "exampleEn": "I like chocolate, so I eat chocolate.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je bois ___ café.",
+   "answer": "du",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle mange ___ salade.",
+   "answer": "de la",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu veux ___ eau ?",
+   "answer": "de l'",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous achetons ___ fruits.",
+   "answer": "des",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne bois pas ___ lait.",
+   "answer": "de",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il a beaucoup ___ travail.",
+   "answer": "de",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Un kilo ___ tomates, s'il vous plaît.",
+   "answer": "de",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il faut ___ courage.",
+   "answer": "du",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a ___ chance.",
+   "answer": "de la",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je voudrais ___ huile.",
+   "answer": "de l'",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il n'y a plus ___ pain.",
+   "answer": "de",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'adore ___ chocolat.",
+   "answer": "le",
+   "explain": "adorer, aimer, détester take le, la, les.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu as ___ argent ?",
+   "answer": "de l'",
+   "id": "017"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Un verre ___ eau, s'il vous plaît.",
+   "answer": "d'",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I eat bread.”",
+   "answer": "Je mange du pain",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I don't eat meat.”",
+   "answer": "Je ne mange pas de viande",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “She drinks water.”",
+   "answer": "Elle boit de l'eau",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “We have a lot of friends.”",
+   "answer": "Nous avons beaucoup d'amis",
+   "accept": [
+    "On a beaucoup d'amis"
+   ],
+   "id": "022"
+  }
+ ]
+}

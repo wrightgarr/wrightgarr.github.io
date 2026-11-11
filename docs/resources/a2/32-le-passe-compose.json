@@ -1,0 +1,516 @@
+{
+ "id": "a2-32-le-passe-compose",
+ "level": "A2",
+ "subject": 32,
+ "title": "Le Passé Composé (2nd Group Verbs)",
+ "description": "avoir + a past participle in -i.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Participe passé en -i",
+   "type": "Rule",
+   "translation": "Regular -ir verbs: replace -ir with -i",
+   "exampleFr": "Finir → fini ; choisir → choisi.",
+   "exampleEn": "To finish → finished; to choose → chosen.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Elle a fini son travail.”",
+   "answer": "Elle n'a pas fini son travail",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it a question with est-ce que: “Tu as choisi.”",
+   "answer": "Est-ce que tu as choisi",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Passé composé",
+   "translation": "j'ai fini — I finished",
+   "exampleFr": "Nous avons fini le projet.",
+   "exampleEn": "We finished the project.",
+   "id": "004"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ le projet.  (finir, passé composé)",
+   "options": [
+    "ai fini",
+    "as fini",
+    "a fini",
+    "avons fini"
+   ],
+   "answer": "ai fini",
+   "explain": "finir → j'ai fini",
+   "speak": "J'ai fini le projet.",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (one friend) finished”  (finir)",
+   "answer": "tu as fini",
+   "accept": [
+    "as fini"
+   ],
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le projet.",
+   "answer": "a fini",
+   "hint": "finir · passé composé",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “We finished”  (finir)",
+   "answer": "nous avons fini",
+   "accept": [
+    "avons fini"
+   ],
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le projet.  (finir, passé composé)",
+   "options": [
+    "avez fini",
+    "ont fini",
+    "ai fini",
+    "as fini"
+   ],
+   "answer": "avez fini",
+   "explain": "finir → vous avez fini",
+   "speak": "Vous avez fini le projet.",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “They finished”  (finir)",
+   "answer": "ils ont fini",
+   "accept": [
+    "ont fini",
+    "ils ont fini",
+    "elles ont fini"
+   ],
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Choisir",
+   "type": "Passé composé",
+   "translation": "j'ai choisi — I chose",
+   "exampleFr": "Nous avons choisi un cadeau.",
+   "exampleEn": "We chose a gift.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “I chose”  (choisir)",
+   "answer": "j'ai choisi",
+   "accept": [
+    "ai choisi"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ un cadeau.",
+   "answer": "as choisi",
+   "hint": "choisir · passé composé",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “She chose”  (choisir)",
+   "answer": "elle a choisi",
+   "accept": [
+    "a choisi",
+    "on a choisi",
+    "il a choisi",
+    "elle a choisi"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ un cadeau.  (choisir, passé composé)",
+   "options": [
+    "avons choisi",
+    "avez choisi",
+    "ont choisi",
+    "ai choisi"
+   ],
+   "answer": "avons choisi",
+   "explain": "choisir → nous avons choisi",
+   "speak": "Nous avons choisi un cadeau.",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (formal or plural) chose”  (choisir)",
+   "answer": "vous avez choisi",
+   "accept": [
+    "avez choisi"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ un cadeau.",
+   "answer": "ont choisi",
+   "hint": "choisir · passé composé",
+   "id": "017"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Réussir",
+   "type": "Passé composé",
+   "translation": "j'ai réussi — I passed",
+   "exampleFr": "Nous avons réussi l'examen.",
+   "exampleEn": "We passed the exam.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ l'examen.",
+   "answer": "ai réussi",
+   "hint": "réussir · passé composé",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (one friend) passed”  (réussir)",
+   "answer": "tu as réussi",
+   "accept": [
+    "as réussi"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ l'examen.  (réussir, passé composé)",
+   "options": [
+    "a réussi",
+    "avons réussi",
+    "avez réussi",
+    "ont réussi"
+   ],
+   "answer": "a réussi",
+   "explain": "réussir → il a réussi",
+   "speak": "Il a réussi l'examen.",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “We passed”  (réussir)",
+   "answer": "nous avons réussi",
+   "accept": [
+    "avons réussi"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ l'examen.",
+   "answer": "avez réussi",
+   "hint": "réussir · passé composé",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “They passed”  (réussir)",
+   "answer": "ils ont réussi",
+   "accept": [
+    "ont réussi",
+    "ils ont réussi",
+    "elles ont réussi"
+   ],
+   "id": "024"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Réfléchir",
+   "type": "Passé composé",
+   "translation": "j'ai réfléchi — I thought",
+   "exampleFr": "Nous avons réfléchi à la question.",
+   "exampleEn": "We thought about the question.",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “I thought”  (réfléchir)",
+   "answer": "j'ai réfléchi",
+   "accept": [
+    "ai réfléchi"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ à la question.  (réfléchir, passé composé)",
+   "options": [
+    "as réfléchi",
+    "a réfléchi",
+    "avons réfléchi",
+    "avez réfléchi"
+   ],
+   "answer": "as réfléchi",
+   "explain": "réfléchir → tu as réfléchi",
+   "speak": "Tu as réfléchi à la question.",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “She thought”  (réfléchir)",
+   "answer": "elle a réfléchi",
+   "accept": [
+    "a réfléchi",
+    "on a réfléchi",
+    "il a réfléchi",
+    "elle a réfléchi"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ à la question.",
+   "answer": "avons réfléchi",
+   "hint": "réfléchir · passé composé",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (formal or plural) thought”  (réfléchir)",
+   "answer": "vous avez réfléchi",
+   "accept": [
+    "avez réfléchi"
+   ],
+   "id": "030"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ à la question.  (réfléchir, passé composé)",
+   "options": [
+    "ont réfléchi",
+    "ai réfléchi",
+    "as réfléchi",
+    "a réfléchi"
+   ],
+   "answer": "ont réfléchi",
+   "explain": "réfléchir → elles ont réfléchi",
+   "speak": "Elles ont réfléchi à la question.",
+   "id": "031"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Remplir",
+   "type": "Passé composé",
+   "translation": "j'ai rempli — I filled in",
+   "exampleFr": "Nous avons rempli le formulaire.",
+   "exampleEn": "We filled in the form.",
+   "id": "032"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ le formulaire.  (remplir, passé composé)",
+   "options": [
+    "ai rempli",
+    "as rempli",
+    "a rempli",
+    "avons rempli"
+   ],
+   "answer": "ai rempli",
+   "explain": "remplir → j'ai rempli",
+   "speak": "J'ai rempli le formulaire.",
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (one friend) filled in”  (remplir)",
+   "answer": "tu as rempli",
+   "accept": [
+    "as rempli"
+   ],
+   "id": "034"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le formulaire.",
+   "answer": "a rempli",
+   "hint": "remplir · passé composé",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “We filled in”  (remplir)",
+   "answer": "nous avons rempli",
+   "accept": [
+    "avons rempli"
+   ],
+   "id": "036"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le formulaire.  (remplir, passé composé)",
+   "options": [
+    "avez rempli",
+    "ont rempli",
+    "ai rempli",
+    "as rempli"
+   ],
+   "answer": "avez rempli",
+   "explain": "remplir → vous avez rempli",
+   "speak": "Vous avez rempli le formulaire.",
+   "id": "037"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “They filled in”  (remplir)",
+   "answer": "ils ont rempli",
+   "accept": [
+    "ont rempli",
+    "ils ont rempli",
+    "elles ont rempli"
+   ],
+   "id": "038"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Grandir",
+   "type": "Passé composé",
+   "translation": "j'ai grandi — I grew up",
+   "exampleFr": "Nous avons grandi à la campagne.",
+   "exampleEn": "We grew up in the countryside.",
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “I grew up”  (grandir)",
+   "answer": "j'ai grandi",
+   "accept": [
+    "ai grandi"
+   ],
+   "id": "040"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ à la campagne.",
+   "answer": "as grandi",
+   "hint": "grandir · passé composé",
+   "id": "041"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “She grew up”  (grandir)",
+   "answer": "elle a grandi",
+   "accept": [
+    "a grandi",
+    "on a grandi",
+    "il a grandi",
+    "elle a grandi"
+   ],
+   "id": "042"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ à la campagne.  (grandir, passé composé)",
+   "options": [
+    "avons grandi",
+    "avez grandi",
+    "ont grandi",
+    "ai grandi"
+   ],
+   "answer": "avons grandi",
+   "explain": "grandir → nous avons grandi",
+   "speak": "Nous avons grandi à la campagne.",
+   "id": "043"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (formal or plural) grew up”  (grandir)",
+   "answer": "vous avez grandi",
+   "accept": [
+    "avez grandi"
+   ],
+   "id": "044"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ à la campagne.",
+   "answer": "ont grandi",
+   "hint": "grandir · passé composé",
+   "id": "045"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Obéir",
+   "type": "Passé composé",
+   "translation": "j'ai obéi — I obeyed",
+   "exampleFr": "Nous avons obéi aux règles.",
+   "exampleEn": "We obeyed the rules.",
+   "id": "046"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ aux règles.",
+   "answer": "ai obéi",
+   "hint": "obéir · passé composé",
+   "id": "047"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “You (one friend) obeyed”  (obéir)",
+   "answer": "tu as obéi",
+   "accept": [
+    "as obéi"
+   ],
+   "id": "048"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ aux règles.  (obéir, passé composé)",
+   "options": [
+    "a obéi",
+    "avons obéi",
+    "avez obéi",
+    "ont obéi"
+   ],
+   "answer": "a obéi",
+   "explain": "obéir → il a obéi",
+   "speak": "Il a obéi aux règles.",
+   "id": "049"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “We obeyed”  (obéir)",
+   "answer": "nous avons obéi",
+   "accept": [
+    "avons obéi"
+   ],
+   "id": "050"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ aux règles.",
+   "answer": "avez obéi",
+   "hint": "obéir · passé composé",
+   "id": "051"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (passé composé): “They obeyed”  (obéir)",
+   "answer": "ils ont obéi",
+   "accept": [
+    "ont obéi",
+    "ils ont obéi",
+    "elles ont obéi"
+   ],
+   "id": "052"
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "id": "a2-46-le-gerondif",
+ "level": "A2",
+ "subject": 46,
+ "title": "Le Gérondif",
+ "description": "en + -ant: while doing, by doing.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Formation du gérondif",
+   "type": "Rule",
+   "translation": "en + the nous stem of the present + -ant",
+   "exampleFr": "Nous parlons → en parlant.",
+   "exampleEn": "We speak → while speaking.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Emplois du gérondif",
+   "type": "Rule",
+   "translation": "Two actions at the same time, or the way something is done",
+   "exampleFr": "Il chante en travaillant. On apprend en pratiquant.",
+   "exampleEn": "He sings while working. You learn by practising.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Gérondifs irréguliers",
+   "type": "Rule",
+   "translation": "être → en étant, avoir → en ayant, savoir → en sachant",
+   "exampleFr": "En sachant cela, j'ai changé d'avis.",
+   "exampleEn": "Knowing that, I changed my mind.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il travaille ___ de la musique.",
+   "answer": "en écoutant",
+   "hint": "écouter",
+   "translation": "He works while listening to music.",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle est tombée ___ l'escalier.",
+   "answer": "en descendant",
+   "hint": "descendre",
+   "translation": "She fell while going down the stairs.",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'apprends le français ___ des films.",
+   "answer": "en regardant",
+   "hint": "regarder",
+   "translation": "I learn French by watching films.",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ne parle pas ___.",
+   "answer": "en mangeant",
+   "hint": "manger",
+   "translation": "Don't talk while eating.",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il s'est blessé ___ au football.",
+   "answer": "en jouant",
+   "hint": "jouer",
+   "translation": "He hurt himself playing football.",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On apprend ___ des erreurs.",
+   "answer": "en faisant",
+   "hint": "faire",
+   "translation": "You learn by making mistakes.",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a pleuré ___ la nouvelle.",
+   "answer": "en apprenant",
+   "hint": "apprendre",
+   "translation": "She cried on hearing the news.",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je me détends ___ un bain.",
+   "answer": "en prenant",
+   "hint": "prendre",
+   "translation": "I relax by taking a bath.",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il est parti ___ au revoir.",
+   "answer": "en disant",
+   "hint": "dire",
+   "translation": "He left saying goodbye.",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ plus tôt, tu arriveras à l'heure.",
+   "answer": "En partant",
+   "hint": "partir",
+   "translation": "By leaving earlier, you will arrive on time.",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle a réussi ___ beaucoup.",
+   "answer": "en travaillant",
+   "hint": "travailler",
+   "translation": "She succeeded by working hard.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il lit le journal ___ son café.",
+   "answer": "en buvant",
+   "hint": "boire",
+   "translation": "He reads the paper while drinking his coffee.",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai trouvé ce livre ___ ma chambre.",
+   "answer": "en rangeant",
+   "hint": "ranger",
+   "translation": "I found this book while tidying my room.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the gérondif of “finir”",
+   "answer": "en finissant",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the gérondif of “avoir”",
+   "answer": "en ayant",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the gérondif of “être”",
+   "answer": "en étant",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the gérondif of “savoir”",
+   "answer": "en sachant",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the gérondif of “manger”",
+   "answer": "en mangeant",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the gérondif of “commencer”",
+   "answer": "en commençant",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the gérondif of “voir”",
+   "answer": "en voyant",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the gérondif of “lire”",
+   "answer": "en lisant",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the gérondif of “attendre”",
+   "answer": "en attendant",
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Give the gérondif of “choisir”",
+   "answer": "en choisissant",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "The gérondif stem comes from…",
+   "options": [
+    "the nous form of the present",
+    "the infinitive",
+    "the je form of the present",
+    "the past participle"
+   ],
+   "answer": "the nous form of the present",
+   "id": "027"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“En marchant” can mean…",
+   "options": [
+    "while walking / by walking",
+    "after walking",
+    "before walking",
+    "without walking"
+   ],
+   "answer": "while walking / by walking",
+   "id": "028"
+  }
+ ]
+}

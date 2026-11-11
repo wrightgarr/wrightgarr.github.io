@@ -1,0 +1,153 @@
+{
+ "id": "a2-39-comparatives",
+ "level": "A2",
+ "subject": 39,
+ "title": "Comparatives",
+ "description": "more than, less than, as … as.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "plus / moins / aussi + adjectif + que",
+   "type": "Rule",
+   "translation": "more / less / as … than (as)",
+   "exampleFr": "Paul est plus grand que Marc.",
+   "exampleEn": "Paul is taller than Marc.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "plus de / moins de / autant de + nom",
+   "type": "Rule",
+   "translation": "more / fewer / as much (many) + noun",
+   "exampleFr": "J'ai autant de livres que toi.",
+   "exampleEn": "I have as many books as you.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "meilleur / mieux",
+   "type": "Irregular",
+   "translation": "better — meilleur is the adjective, mieux the adverb",
+   "exampleFr": "Ce café est meilleur. Elle chante mieux.",
+   "exampleEn": "This coffee is better. She sings better.",
+   "hint": "Never “plus bon” or “plus bien”",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Paul est ___ grand que Marc.",
+   "answer": "plus",
+   "hint": "more",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce livre est ___ intéressant que le film.",
+   "answer": "moins",
+   "hint": "less",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle est ___ sympa que sa sœur.",
+   "answer": "aussi",
+   "hint": "as",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il a ___ de travail que moi.",
+   "answer": "autant",
+   "hint": "as much",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce gâteau est ___ que l'autre.",
+   "answer": "meilleur",
+   "hint": "better",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle chante ___ que moi.",
+   "answer": "mieux",
+   "hint": "better",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai plus ___ livres que toi.",
+   "answer": "de",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le train est plus rapide ___ le bus.",
+   "answer": "que",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Cette pizza est ___ que l'autre.",
+   "answer": "meilleure",
+   "hint": "better (feminine)",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il travaille ___ que son frère.",
+   "answer": "plus",
+   "hint": "more",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “Marie is taller than Paul.”",
+   "answer": "Marie est plus grande que Paul",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “He is as intelligent as you.”  (toi)",
+   "answer": "Il est aussi intelligent que toi",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I have more books than you.”  (toi)",
+   "answer": "J'ai plus de livres que toi",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “This film is less interesting.”",
+   "answer": "Ce film est moins intéressant",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What is the comparative of “bon”?",
+   "options": [
+    "meilleur",
+    "plus bon",
+    "mieux",
+    "bien"
+   ],
+   "answer": "meilleur",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What is the comparative of “bien”?",
+   "options": [
+    "mieux",
+    "meilleur",
+    "plus bien",
+    "bon"
+   ],
+   "answer": "mieux",
+   "id": "019"
+  }
+ ]
+}

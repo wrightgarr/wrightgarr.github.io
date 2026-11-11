@@ -1,0 +1,190 @@
+{
+ "id": "a2-44-adverbs-of-frequency",
+ "level": "A2",
+ "subject": 44,
+ "title": "Adverbs of Frequency (toujours, souvent, parfois, …)",
+ "description": "Saying how often.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "toujours",
+   "type": "Adverb",
+   "translation": "always",
+   "exampleFr": "Elle est toujours à l'heure.",
+   "exampleEn": "She is always on time.",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “often”",
+   "answer": "souvent",
+   "explain": "Nous allons souvent au cinéma. — We often go to the cinema.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “sometimes”",
+   "answer": "parfois",
+   "explain": "Parfois, je travaille le samedi. — Sometimes, I work on Saturdays.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "quelquefois",
+   "type": "Adverb",
+   "translation": "sometimes (synonym of parfois)",
+   "exampleFr": "Il vient quelquefois nous voir.",
+   "exampleEn": "He sometimes comes to see us.",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “from time to time”",
+   "answer": "de temps en temps",
+   "explain": "Je cuisine de temps en temps. — I cook from time to time.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “rarement” mean?",
+   "options": [
+    "rarely",
+    "once a week",
+    "always",
+    "from time to time"
+   ],
+   "answer": "rarely",
+   "explain": "Il pleut rarement ici. — It rarely rains here.",
+   "speak": "rarement",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "ne … jamais",
+   "type": "Adverb",
+   "translation": "never",
+   "exampleFr": "Je ne bois jamais de café.",
+   "exampleEn": "I never drink coffee.",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “every day”",
+   "answer": "tous les jours",
+   "explain": "Je marche tous les jours. — I walk every day.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “once a week”",
+   "answer": "une fois par semaine",
+   "accept": [
+    "fois par semaine"
+   ],
+   "explain": "Je fais du sport une fois par semaine. — I exercise once a week.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "d'habitude",
+   "type": "Adverb",
+   "translation": "usually",
+   "exampleFr": "D'habitude, je me lève à sept heures.",
+   "exampleEn": "Usually, I get up at seven.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “generally”",
+   "answer": "généralement",
+   "explain": "Généralement, il déjeune à midi. — Generally, he has lunch at noon.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “encore” mean?",
+   "options": [
+    "again / still",
+    "sometimes",
+    "never",
+    "generally"
+   ],
+   "answer": "again / still",
+   "explain": "Tu es encore en retard ! — You are late again!",
+   "speak": "encore",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne mange ___ de viande.",
+   "answer": "jamais",
+   "hint": "never",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle est ___ en retard.",
+   "answer": "toujours",
+   "hint": "always",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il pleut ___ ici.",
+   "answer": "rarement",
+   "hint": "rarely",
+   "id": "015"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je vais à la piscine deux fois ___ semaine.",
+   "answer": "par",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ les matins, je bois un café.",
+   "answer": "Tous",
+   "hint": "every",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I never drink coffee.”",
+   "answer": "Je ne bois jamais de café",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “She often works on Saturdays.”",
+   "answer": "Elle travaille souvent le samedi",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Je mange souvent ici.",
+    "Je souvent mange ici.",
+    "Souvent je mange ici pas.",
+    "Je mange ici souvent pas."
+   ],
+   "answer": "Je mange souvent ici.",
+   "explain": "Short adverbs go right after the verb.",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "J'ai toujours aimé ce film.",
+    "J'ai aimé toujours ce film.",
+    "Je toujours ai aimé ce film.",
+    "Toujours j'ai aimé ce film."
+   ],
+   "answer": "J'ai toujours aimé ce film.",
+   "explain": "In the passé composé they go between the auxiliary and the participle.",
+   "id": "021"
+  }
+ ]
+}

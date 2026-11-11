@@ -1,0 +1,132 @@
+{
+ "id": "a2-42-demonstrative-pronouns",
+ "level": "A2",
+ "subject": 42,
+ "title": "Demonstrative Pronouns (celui, celle, ceux, celles)",
+ "description": "the one, the ones.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "celui / celle / ceux / celles",
+   "type": "Demonstrative pronouns",
+   "translation": "the one (m.), the one (f.), the ones (m.), the ones (f.)",
+   "exampleFr": "Ce livre est celui de Paul.",
+   "exampleEn": "This book is Paul's.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "celui-ci / celui-là",
+   "type": "Rule",
+   "translation": "this one / that one",
+   "exampleFr": "Quel gâteau ? — Celui-ci.",
+   "exampleEn": "Which cake? — This one.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "celui de… / celui qui… / celui que…",
+   "type": "Rule",
+   "translation": "It never stands alone: it needs -ci, -là, de, or a relative clause",
+   "exampleFr": "Je prends celui qui est à gauche.",
+   "exampleEn": "I'll take the one on the left.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quel livre ? — ___ de Paul.",
+   "answer": "Celui",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quelle robe préfères-tu ? — ___-ci.",
+   "answer": "Celle",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quels gâteaux ? — ___ qui sont sur la table.",
+   "answer": "Ceux",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Quelles chaussures ? — ___ que j'ai achetées hier.",
+   "answer": "Celles",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ma voiture est rouge ; ___ de Marie est bleue.",
+   "answer": "celle",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce stylo est à moi ; ___-là est à toi.",
+   "answer": "celui",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Mes enfants et ___ de ma sœur jouent ensemble.",
+   "answer": "ceux",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Cette maison est plus grande que ___ de mes parents.",
+   "answer": "celle",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'aime ces fleurs, mais je préfère ___-là.",
+   "answer": "celles",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ton vélo est plus rapide que ___ de Luc.",
+   "answer": "celui",
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which pronoun replaces “les maisons”?",
+   "options": [
+    "celles",
+    "ceux",
+    "celle",
+    "celui"
+   ],
+   "answer": "celles",
+   "id": "014"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which pronoun replaces “le livre”?",
+   "options": [
+    "celui",
+    "celle",
+    "ceux",
+    "ce"
+   ],
+   "answer": "celui",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Je préfère celui-ci.",
+    "Je préfère celui.",
+    "Je préfère ce-ci.",
+    "Je préfère cet-ci."
+   ],
+   "answer": "Je préfère celui-ci.",
+   "id": "016"
+  }
+ ]
+}

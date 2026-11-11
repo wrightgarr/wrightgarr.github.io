@@ -1,0 +1,308 @@
+{
+ "id": "a2-58-jobs-professions",
+ "level": "A2",
+ "subject": 58,
+ "title": "Jobs & Professions",
+ "description": "Talking about work.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "le médecin",
+   "type": "Noun (m.)",
+   "translation": "the doctor",
+   "exampleFr": "Le médecin examine le patient.",
+   "exampleEn": "The doctor is examining the patient.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "l'infirmier / l'infirmière",
+   "type": "Noun",
+   "translation": "the nurse",
+   "exampleFr": "L'infirmière travaille à l'hôpital.",
+   "exampleEn": "The nurse works at the hospital.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the teacher”",
+   "answer": "le professeur",
+   "accept": [
+    "professeur"
+   ],
+   "explain": "Notre professeur est très patient. — Our teacher is very patient.",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "l'avocat",
+   "type": "Noun (m.)",
+   "translation": "the lawyer",
+   "exampleFr": "L'avocat défend son client.",
+   "exampleEn": "The lawyer defends his client.",
+   "hint": "Feminine: l'avocate",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the engineer”",
+   "answer": "l'ingénieur",
+   "accept": [
+    "ingénieur"
+   ],
+   "explain": "Elle est ingénieure chez Airbus. — She is an engineer at Airbus.",
+   "id": "005"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le boulanger” mean?",
+   "options": [
+    "the baker",
+    "the salesperson",
+    "the hairdresser",
+    "the dentist"
+   ],
+   "answer": "the baker",
+   "explain": "Le boulanger fait du pain. — The baker makes bread.",
+   "speak": "le boulanger",
+   "id": "006"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le cuisinier",
+   "type": "Noun (m.)",
+   "translation": "the cook",
+   "exampleFr": "Le cuisinier prépare le dîner.",
+   "exampleEn": "The cook is preparing dinner.",
+   "hint": "Feminine: la cuisinière",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the waiter”",
+   "answer": "le serveur",
+   "accept": [
+    "serveur"
+   ],
+   "explain": "Le serveur apporte l'addition. — The waiter brings the bill.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the salesperson”",
+   "answer": "le vendeur",
+   "accept": [
+    "vendeur"
+   ],
+   "explain": "Le vendeur est très aimable. — The salesperson is very friendly.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le policier",
+   "type": "Noun (m.)",
+   "translation": "the police officer",
+   "exampleFr": "Le policier dirige la circulation.",
+   "exampleEn": "The police officer is directing traffic.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the firefighter”",
+   "answer": "le pompier",
+   "accept": [
+    "pompier"
+   ],
+   "explain": "Les pompiers arrivent vite. — The firefighters arrive quickly.",
+   "id": "011"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le facteur” mean?",
+   "options": [
+    "the postman",
+    "the farmer",
+    "the architect",
+    "the colleague"
+   ],
+   "answer": "the postman",
+   "explain": "Le facteur apporte le courrier. — The postman brings the mail.",
+   "speak": "le facteur",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le coiffeur",
+   "type": "Noun (m.)",
+   "translation": "the hairdresser",
+   "exampleFr": "J'ai rendez-vous chez le coiffeur.",
+   "exampleEn": "I have an appointment at the hairdresser's.",
+   "hint": "Feminine: la coiffeuse",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the journalist”",
+   "answer": "le journaliste",
+   "accept": [
+    "journaliste"
+   ],
+   "explain": "Le journaliste écrit un article. — The journalist is writing an article.",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the farmer”",
+   "answer": "l'agriculteur",
+   "accept": [
+    "agriculteur"
+   ],
+   "explain": "L'agriculteur travaille dans les champs. — The farmer works in the fields.",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le chauffeur",
+   "type": "Noun (m.)",
+   "translation": "the driver",
+   "exampleFr": "Le chauffeur de bus est en retard.",
+   "exampleEn": "The bus driver is late.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the dentist”",
+   "answer": "le dentiste",
+   "accept": [
+    "dentiste"
+   ],
+   "explain": "Je vais chez le dentiste demain. — I am going to the dentist tomorrow.",
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le comptable” mean?",
+   "options": [
+    "the accountant",
+    "the pharmacist",
+    "the doctor",
+    "the engineer"
+   ],
+   "answer": "the accountant",
+   "explain": "Le comptable vérifie les chiffres. — The accountant checks the figures.",
+   "speak": "le comptable",
+   "id": "018"
+  },
+  {
+   "kind": "flashcard",
+   "word": "l'architecte",
+   "type": "Noun (m.)",
+   "translation": "the architect",
+   "exampleFr": "L'architecte dessine une maison.",
+   "exampleEn": "The architect is designing a house.",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the plumber”",
+   "answer": "le plombier",
+   "accept": [
+    "plombier"
+   ],
+   "explain": "Il faut appeler le plombier. — We need to call the plumber.",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the pharmacist”",
+   "answer": "le pharmacien",
+   "accept": [
+    "pharmacien"
+   ],
+   "explain": "Le pharmacien donne des conseils. — The pharmacist gives advice.",
+   "id": "021"
+  },
+  {
+   "kind": "flashcard",
+   "word": "le métier",
+   "type": "Noun (m.)",
+   "translation": "the job / trade",
+   "exampleFr": "Quel est votre métier ?",
+   "exampleEn": "What is your job?",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French, with the article: “the colleague”",
+   "answer": "le collègue",
+   "accept": [
+    "collègue"
+   ],
+   "explain": "Mes collègues sont sympas. — My colleagues are nice.",
+   "id": "023"
+  },
+  {
+   "kind": "choice",
+   "prompt": "What does “le salaire” mean?",
+   "options": [
+    "the salary",
+    "the teacher",
+    "the cook",
+    "the firefighter"
+   ],
+   "answer": "the salary",
+   "explain": "Il a un bon salaire. — He has a good salary.",
+   "speak": "le salaire",
+   "id": "024"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle est ___.",
+   "answer": "médecin",
+   "hint": "a doctor",
+   "explain": "No article before a profession after être.",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il travaille ___ serveur dans un café.",
+   "answer": "comme",
+   "hint": "as",
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Qu'est-ce que vous ___ dans la vie ?",
+   "answer": "faites",
+   "hint": "faire",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Feminine of “un vendeur”",
+   "answer": "une vendeuse",
+   "accept": [
+    "vendeuse"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Feminine of “un boulanger”",
+   "answer": "une boulangère",
+   "accept": [
+    "boulangère"
+   ],
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Feminine of “un pharmacien”",
+   "answer": "une pharmacienne",
+   "accept": [
+    "pharmacienne"
+   ],
+   "id": "030"
+  }
+ ]
+}

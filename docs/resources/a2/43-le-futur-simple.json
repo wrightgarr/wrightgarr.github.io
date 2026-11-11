@@ -1,0 +1,733 @@
+{
+ "id": "a2-43-le-futur-simple",
+ "level": "A2",
+ "subject": 43,
+ "title": "Le Futur Simple",
+ "description": "will + verb.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Formation du futur simple",
+   "type": "Rule",
+   "translation": "Infinitive + -ai, -as, -a, -ons, -ez, -ont (drop the final -e of -re verbs)",
+   "exampleFr": "Je parlerai, tu finiras, il prendra.",
+   "exampleEn": "I will speak, you will finish, he will take.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Radicaux irréguliers",
+   "type": "Rule",
+   "translation": "être → ser-, avoir → aur-, aller → ir-, faire → fer-, venir → viendr-, voir → verr-, pouvoir → pourr-, vouloir → voudr-, devoir → devr-, savoir → saur-",
+   "exampleFr": "Demain, j'irai à Paris et je verrai mes amis.",
+   "exampleEn": "Tomorrow, I will go to Paris and see my friends.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Futur stem: give the je form of “être”",
+   "answer": "je serai",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Futur stem: give the je form of “avoir”",
+   "answer": "j'aurai",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Futur stem: give the je form of “aller”",
+   "answer": "j'irai",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Futur stem: give the je form of “faire”",
+   "answer": "je ferai",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Futur stem: give the je form of “venir”",
+   "answer": "je viendrai",
+   "id": "007"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Futur stem: give the je form of “voir”",
+   "answer": "je verrai",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Futur stem: give the je form of “pouvoir”",
+   "answer": "je pourrai",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Futur stem: give the je form of “vouloir”",
+   "answer": "je voudrai",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Futur stem: give the je form of “devoir”",
+   "answer": "je devrai",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Futur stem: give the je form of “savoir”",
+   "answer": "je saurai",
+   "id": "012"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Parler",
+   "type": "Futur simple",
+   "translation": "je parlerai — I will speak",
+   "exampleFr": "Nous parlerons avec le professeur.",
+   "exampleEn": "We will speak with the teacher.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “You (one friend) will speak”  (parler)",
+   "answer": "tu parleras",
+   "accept": [
+    "parleras"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ avec le professeur.",
+   "answer": "parlera",
+   "hint": "parler · futur simple",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ avec le professeur.  (parler, futur simple)",
+   "options": [
+    "parlerez",
+    "parleront",
+    "parlerai",
+    "parleras"
+   ],
+   "answer": "parlerez",
+   "explain": "parler → vous parlerez",
+   "speak": "Vous parlerez avec le professeur.",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “They will speak”  (parler)",
+   "answer": "ils parleront",
+   "accept": [
+    "parleront",
+    "ils parleront",
+    "elles parleront"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Futur simple",
+   "translation": "je finirai — I will finish",
+   "exampleFr": "Nous finirons le projet.",
+   "exampleEn": "We will finish the project.",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “I will finish”  (finir)",
+   "answer": "je finirai",
+   "accept": [
+    "finirai"
+   ],
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “She will finish”  (finir)",
+   "answer": "elle finira",
+   "accept": [
+    "finira",
+    "on finira",
+    "il finira",
+    "elle finira"
+   ],
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ le projet.  (finir, futur simple)",
+   "options": [
+    "finirons",
+    "finirez",
+    "finiront",
+    "finirai"
+   ],
+   "answer": "finirons",
+   "explain": "finir → nous finirons",
+   "speak": "Nous finirons le projet.",
+   "id": "021"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ le projet.",
+   "answer": "finiront",
+   "hint": "finir · futur simple",
+   "id": "022"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Futur simple",
+   "translation": "je prendrai — I will take",
+   "exampleFr": "Nous prendrons le train.",
+   "exampleEn": "We will take the train.",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ le train.",
+   "answer": "prendrai",
+   "hint": "prendre · futur simple",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “You (one friend) will take”  (prendre)",
+   "answer": "tu prendras",
+   "accept": [
+    "prendras"
+   ],
+   "id": "025"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “We will take”  (prendre)",
+   "answer": "nous prendrons",
+   "accept": [
+    "prendrons"
+   ],
+   "id": "026"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ le train.",
+   "answer": "prendrez",
+   "hint": "prendre · futur simple",
+   "id": "027"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Être",
+   "type": "Futur simple",
+   "translation": "je serai — I will be",
+   "exampleFr": "Nous serons à l'heure.",
+   "exampleEn": "We will be on time.",
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ à l'heure.  (être, futur simple)",
+   "options": [
+    "seras",
+    "sera",
+    "serons",
+    "serez"
+   ],
+   "answer": "seras",
+   "explain": "être → tu seras",
+   "speak": "Tu seras à l'heure.",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “She will be”  (être)",
+   "answer": "elle sera",
+   "accept": [
+    "sera",
+    "on sera",
+    "il sera",
+    "elle sera"
+   ],
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “You (formal or plural) will be”  (être)",
+   "answer": "vous serez",
+   "accept": [
+    "serez"
+   ],
+   "id": "031"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ à l'heure.  (être, futur simple)",
+   "options": [
+    "seront",
+    "serai",
+    "seras",
+    "sera"
+   ],
+   "answer": "seront",
+   "explain": "être → elles seront",
+   "speak": "Elles seront à l'heure.",
+   "id": "032"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir",
+   "type": "Futur simple",
+   "translation": "j'aurai — I will have",
+   "exampleFr": "Nous aurons du temps.",
+   "exampleEn": "We will have time.",
+   "id": "033"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ du temps.  (avoir, futur simple)",
+   "options": [
+    "aurai",
+    "auras",
+    "aura",
+    "aurons"
+   ],
+   "answer": "aurai",
+   "explain": "avoir → j'aurai",
+   "speak": "J'aurai du temps.",
+   "id": "034"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ du temps.",
+   "answer": "aura",
+   "hint": "avoir · futur simple",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “We will have”  (avoir)",
+   "answer": "nous aurons",
+   "accept": [
+    "aurons"
+   ],
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “They will have”  (avoir)",
+   "answer": "ils auront",
+   "accept": [
+    "auront",
+    "ils auront",
+    "elles auront"
+   ],
+   "id": "037"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Aller",
+   "type": "Futur simple",
+   "translation": "j'irai — I will go",
+   "exampleFr": "Nous irons au cinéma.",
+   "exampleEn": "We will go to the cinema.",
+   "id": "038"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “I will go”  (aller)",
+   "answer": "j'irai",
+   "accept": [
+    "irai"
+   ],
+   "id": "039"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ au cinéma.",
+   "answer": "iras",
+   "hint": "aller · futur simple",
+   "id": "040"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ au cinéma.  (aller, futur simple)",
+   "options": [
+    "irons",
+    "irez",
+    "iront",
+    "irai"
+   ],
+   "answer": "irons",
+   "explain": "aller → nous irons",
+   "speak": "Nous irons au cinéma.",
+   "id": "041"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “You (formal or plural) will go”  (aller)",
+   "answer": "vous irez",
+   "accept": [
+    "irez"
+   ],
+   "id": "042"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Futur simple",
+   "translation": "je ferai — I will do",
+   "exampleFr": "Nous ferons les courses.",
+   "exampleEn": "We will do the shopping.",
+   "id": "043"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “You (one friend) will do”  (faire)",
+   "answer": "tu feras",
+   "accept": [
+    "feras"
+   ],
+   "id": "044"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ les courses.  (faire, futur simple)",
+   "options": [
+    "fera",
+    "ferons",
+    "ferez",
+    "feront"
+   ],
+   "answer": "fera",
+   "explain": "faire → il fera",
+   "speak": "Il fera les courses.",
+   "id": "045"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ les courses.",
+   "answer": "ferez",
+   "hint": "faire · futur simple",
+   "id": "046"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “They will do”  (faire)",
+   "answer": "ils feront",
+   "accept": [
+    "feront",
+    "ils feront",
+    "elles feront"
+   ],
+   "id": "047"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Venir",
+   "type": "Futur simple",
+   "translation": "je viendrai — I will come",
+   "exampleFr": "Nous viendrons à la fête.",
+   "exampleEn": "We will come to the party.",
+   "id": "048"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “I will come”  (venir)",
+   "answer": "je viendrai",
+   "accept": [
+    "viendrai"
+   ],
+   "id": "049"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “She will come”  (venir)",
+   "answer": "elle viendra",
+   "accept": [
+    "viendra",
+    "on viendra",
+    "il viendra",
+    "elle viendra"
+   ],
+   "id": "050"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ à la fête.",
+   "answer": "viendrons",
+   "hint": "venir · futur simple",
+   "id": "051"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ à la fête.  (venir, futur simple)",
+   "options": [
+    "viendront",
+    "viendrai",
+    "viendras",
+    "viendra"
+   ],
+   "answer": "viendront",
+   "explain": "venir → elles viendront",
+   "speak": "Elles viendront à la fête.",
+   "id": "052"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Pouvoir",
+   "type": "Futur simple",
+   "translation": "je pourrai — I will be able to",
+   "exampleFr": "Nous pourrons venir.",
+   "exampleEn": "We will be able to come.",
+   "id": "053"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ venir.  (pouvoir, futur simple)",
+   "options": [
+    "pourrai",
+    "pourras",
+    "pourra",
+    "pourrons"
+   ],
+   "answer": "pourrai",
+   "explain": "pouvoir → je pourrai",
+   "speak": "Je pourrai venir.",
+   "id": "054"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “You (one friend) will be able to”  (pouvoir)",
+   "answer": "tu pourras",
+   "accept": [
+    "pourras"
+   ],
+   "id": "055"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “We will be able to”  (pouvoir)",
+   "answer": "nous pourrons",
+   "accept": [
+    "pourrons"
+   ],
+   "id": "056"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ venir.  (pouvoir, futur simple)",
+   "options": [
+    "pourrez",
+    "pourront",
+    "pourrai",
+    "pourras"
+   ],
+   "answer": "pourrez",
+   "explain": "pouvoir → vous pourrez",
+   "speak": "Vous pourrez venir.",
+   "id": "057"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Vouloir",
+   "type": "Futur simple",
+   "translation": "je voudrai — I will want",
+   "exampleFr": "Nous voudrons partir.",
+   "exampleEn": "We will want to leave.",
+   "id": "058"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ partir.",
+   "answer": "voudras",
+   "hint": "vouloir · futur simple",
+   "id": "059"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “She will want”  (vouloir)",
+   "answer": "elle voudra",
+   "accept": [
+    "voudra",
+    "on voudra",
+    "il voudra",
+    "elle voudra"
+   ],
+   "id": "060"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “You (formal or plural) will want”  (vouloir)",
+   "answer": "vous voudrez",
+   "accept": [
+    "voudrez"
+   ],
+   "id": "061"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ partir.",
+   "answer": "voudront",
+   "hint": "vouloir · futur simple",
+   "id": "062"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Devoir",
+   "type": "Futur simple",
+   "translation": "je devrai — I will have to",
+   "exampleFr": "Nous devrons travailler.",
+   "exampleEn": "We will have to work.",
+   "id": "063"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ travailler.",
+   "answer": "devrai",
+   "hint": "devoir · futur simple",
+   "id": "064"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ travailler.  (devoir, futur simple)",
+   "options": [
+    "devra",
+    "devrons",
+    "devrez",
+    "devront"
+   ],
+   "answer": "devra",
+   "explain": "devoir → il devra",
+   "speak": "Il devra travailler.",
+   "id": "065"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “We will have to”  (devoir)",
+   "answer": "nous devrons",
+   "accept": [
+    "devrons"
+   ],
+   "id": "066"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “They will have to”  (devoir)",
+   "answer": "ils devront",
+   "accept": [
+    "devront",
+    "ils devront",
+    "elles devront"
+   ],
+   "id": "067"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Savoir",
+   "type": "Futur simple",
+   "translation": "je saurai — I will know",
+   "exampleFr": "Nous saurons la réponse.",
+   "exampleEn": "We will know the answer.",
+   "id": "068"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “I will know”  (savoir)",
+   "answer": "je saurai",
+   "accept": [
+    "saurai"
+   ],
+   "id": "069"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ la réponse.  (savoir, futur simple)",
+   "options": [
+    "sauras",
+    "saura",
+    "saurons",
+    "saurez"
+   ],
+   "answer": "sauras",
+   "explain": "savoir → tu sauras",
+   "speak": "Tu sauras la réponse.",
+   "id": "070"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ la réponse.",
+   "answer": "saurons",
+   "hint": "savoir · futur simple",
+   "id": "071"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “You (formal or plural) will know”  (savoir)",
+   "answer": "vous saurez",
+   "accept": [
+    "saurez"
+   ],
+   "id": "072"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Voir",
+   "type": "Futur simple",
+   "translation": "je verrai — I will see",
+   "exampleFr": "Nous verrons ce film.",
+   "exampleEn": "We will see that film.",
+   "id": "073"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “You (one friend) will see”  (voir)",
+   "answer": "tu verras",
+   "accept": [
+    "verras"
+   ],
+   "id": "074"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ ce film.",
+   "answer": "verra",
+   "hint": "voir · futur simple",
+   "id": "075"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ ce film.  (voir, futur simple)",
+   "options": [
+    "verrez",
+    "verront",
+    "verrai",
+    "verras"
+   ],
+   "answer": "verrez",
+   "explain": "voir → vous verrez",
+   "speak": "Vous verrez ce film.",
+   "id": "076"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (futur simple): “They will see”  (voir)",
+   "answer": "ils verront",
+   "accept": [
+    "verront",
+    "ils verront",
+    "elles verront"
+   ],
+   "id": "077"
+  }
+ ]
+}

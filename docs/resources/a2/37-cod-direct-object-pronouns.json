@@ -1,0 +1,168 @@
+{
+ "id": "a2-37-cod-direct-object-pronouns",
+ "level": "A2",
+ "subject": 37,
+ "title": "COD & Direct Object Pronouns (me, te, le, la, nous, vous, les)",
+ "description": "Replacing the direct object.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "me, te, le, la, nous, vous, les",
+   "type": "Direct object pronouns",
+   "translation": "me, you, him / it, her / it, us, you, them",
+   "exampleFr": "Je le vois. Elle nous invite.",
+   "exampleEn": "I see him. She invites us.",
+   "hint": "me, te, le, la become m', t', l' before a vowel sound",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Place du pronom",
+   "type": "Rule",
+   "translation": "Before the conjugated verb, or before the infinitive",
+   "exampleFr": "Je la regarde. Je vais la regarder.",
+   "exampleEn": "I watch it. I am going to watch it.",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Accord au passé composé",
+   "type": "Rule",
+   "translation": "With avoir, the participle agrees with a direct object placed before it",
+   "exampleFr": "Marie ? Je l'ai vue hier.",
+   "exampleEn": "Marie? I saw her yesterday.",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu regardes la télé ? — Oui, je ___ regarde.",
+   "answer": "la",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous connaissez Paul ? — Oui, nous ___ connaissons.",
+   "answer": "le",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu aimes les fraises ? — Oui, je ___ adore.",
+   "answer": "les",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ écoute.",
+   "answer": "m'",
+   "hint": "me",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ aime.",
+   "answer": "t'",
+   "hint": "you (tu)",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ invite à sa fête.",
+   "answer": "nous",
+   "hint": "us",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ne ___ comprends pas.",
+   "answer": "le",
+   "hint": "him",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu as ton passeport ? — Oui, je ___ ai.",
+   "answer": "l'",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ce sont mes amis. Je vais ___ appeler demain.",
+   "answer": "les",
+   "hint": "them",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Regarde-___ !",
+   "answer": "moi",
+   "hint": "me",
+   "explain": "In a positive command the pronoun follows the verb, and me becomes moi.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Je mange la pomme.”",
+   "answer": "Je la mange",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Nous voyons les enfants.”",
+   "answer": "Nous les voyons",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Elle lit le livre.”",
+   "answer": "Elle le lit",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Je n'aime pas ce film.”",
+   "answer": "Je ne l'aime pas",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Il a vu Marie.”",
+   "answer": "Il l'a vue",
+   "accept": [
+    "Il l'a vu"
+   ],
+   "explain": "vue agrees with Marie.",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Replace the noun with a pronoun: “Tu vas acheter le pain.”",
+   "answer": "Tu vas l'acheter",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Where does the pronoun go in “Je veux voir ce film”?",
+   "options": [
+    "Je veux le voir",
+    "Je le veux voir",
+    "Je veux voir le",
+    "Le je veux voir"
+   ],
+   "answer": "Je veux le voir",
+   "id": "020"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which pronoun replaces “mes parents”?",
+   "options": [
+    "les",
+    "leur",
+    "ils",
+    "eux"
+   ],
+   "answer": "les",
+   "id": "021"
+  }
+ ]
+}

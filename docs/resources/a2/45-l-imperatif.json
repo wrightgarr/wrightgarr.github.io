@@ -1,0 +1,440 @@
+{
+ "id": "a2-45-l-imperatif",
+ "level": "A2",
+ "subject": 45,
+ "title": "L’Impératif",
+ "description": "Giving orders, advice and instructions.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "L'impératif",
+   "type": "Rule",
+   "translation": "Three forms only (tu, nous, vous), with no subject pronoun",
+   "exampleFr": "Regarde ! Regardons ! Regardez !",
+   "exampleEn": "Look! Let's look! Look!",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Tu : pas de -s pour les verbes en -er",
+   "type": "Rule",
+   "translation": "-er verbs (and aller) drop the -s of the tu form",
+   "exampleFr": "Tu parles → Parle ! Tu vas → Va !",
+   "exampleEn": "You speak → Speak! You go → Go!",
+   "id": "002"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Impératif négatif",
+   "type": "Rule",
+   "translation": "ne + verb + pas",
+   "exampleFr": "Ne parle pas ! Ne mangez pas ça !",
+   "exampleEn": "Don't speak! Don't eat that!",
+   "id": "003"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Verbes pronominaux à l'impératif",
+   "type": "Rule",
+   "translation": "The pronoun follows with a hyphen (te → toi); in the negative it goes back in front",
+   "exampleFr": "Lève-toi ! Ne te lève pas !",
+   "exampleEn": "Get up! Don't get up!",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ la porte !",
+   "answer": "Ferme",
+   "hint": "fermer · tu",
+   "translation": "Close the door!",
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's close the door!”",
+   "answer": "Fermons la porte",
+   "id": "006"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ la porte !  (fermer · vous)",
+   "options": [
+    "Fermez",
+    "Ferme",
+    "Fermons",
+    "Fermer"
+   ],
+   "answer": "Fermez",
+   "speak": "Fermez la porte !",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ le professeur !",
+   "answer": "Écoute",
+   "hint": "écouter · tu",
+   "translation": "Listen to the teacher!",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's listen to the teacher!”",
+   "answer": "Écoutons le professeur",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (vous): “Listen to the teacher!”",
+   "answer": "Écoutez le professeur",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ cette photo !",
+   "answer": "Regarde",
+   "hint": "regarder · tu",
+   "translation": "Look at this photo!",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's look at this photo!”",
+   "answer": "Regardons cette photo",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (vous): “Look at this photo!”",
+   "answer": "Regardez cette photo",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ plus fort !",
+   "answer": "Parle",
+   "hint": "parler · tu",
+   "translation": "Speak louder!",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's speak louder!”",
+   "answer": "Parlons plus fort",
+   "id": "015"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ plus fort !  (parler · vous)",
+   "options": [
+    "Parlez",
+    "Parle",
+    "Parlons",
+    "Parler"
+   ],
+   "answer": "Parlez",
+   "speak": "Parlez plus fort !",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ des légumes !",
+   "answer": "Mange",
+   "hint": "manger · tu",
+   "translation": "Eat vegetables!",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's eat vegetables!”",
+   "answer": "Mangeons des légumes",
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (vous): “Eat vegetables!”",
+   "answer": "Mangez des légumes",
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ le travail !",
+   "answer": "Finis",
+   "hint": "finir · tu",
+   "translation": "Finish the work!",
+   "id": "020"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's finish the work!”",
+   "answer": "Finissons le travail",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (vous): “Finish the work!”",
+   "answer": "Finissez le travail",
+   "id": "022"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ un dessert !",
+   "answer": "Choisis",
+   "hint": "choisir · tu",
+   "translation": "Choose a dessert!",
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's choose a dessert!”",
+   "answer": "Choisissons un dessert",
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ un dessert !  (choisir · vous)",
+   "options": [
+    "Choisissez",
+    "Choisis",
+    "Choisissons",
+    "Choisir"
+   ],
+   "answer": "Choisissez",
+   "speak": "Choisissez un dessert !",
+   "id": "025"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ un parapluie !",
+   "answer": "Prends",
+   "hint": "prendre · tu",
+   "translation": "Take an umbrella!",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's take an umbrella!”",
+   "answer": "Prenons un parapluie",
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (vous): “Take an umbrella!”",
+   "answer": "Prenez un parapluie",
+   "id": "028"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ ici !",
+   "answer": "Attends",
+   "hint": "attendre · tu",
+   "translation": "Wait here!",
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's wait here!”",
+   "answer": "Attendons ici",
+   "id": "030"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (vous): “Wait here!”",
+   "answer": "Attendez ici",
+   "id": "031"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ vite !",
+   "answer": "Viens",
+   "hint": "venir · tu",
+   "translation": "Come quickly!",
+   "id": "032"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's come quickly!”",
+   "answer": "Venons vite",
+   "id": "033"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ vite !  (venir · vous)",
+   "options": [
+    "Venez",
+    "Viens",
+    "Venons",
+    "Venir"
+   ],
+   "answer": "Venez",
+   "speak": "Venez vite !",
+   "id": "034"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ au marché !",
+   "answer": "Va",
+   "hint": "aller · tu",
+   "translation": "Go to the market!",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's go to the market!”",
+   "answer": "Allons au marché",
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (vous): “Go to the market!”",
+   "answer": "Allez au marché",
+   "id": "037"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ attention !",
+   "answer": "Fais",
+   "hint": "faire · tu",
+   "translation": "Be careful!",
+   "id": "038"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's be careful!”",
+   "answer": "Faisons attention",
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (vous): “Be careful!”",
+   "answer": "Faites attention",
+   "id": "040"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ à l'heure !",
+   "answer": "Sois",
+   "hint": "être · tu",
+   "translation": "Be on time!",
+   "id": "041"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's be on time!”",
+   "answer": "Soyons à l'heure",
+   "id": "042"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ à l'heure !  (être · vous)",
+   "options": [
+    "Soyez",
+    "Sois",
+    "Soyons",
+    "Être"
+   ],
+   "answer": "Soyez",
+   "speak": "Soyez à l'heure !",
+   "id": "043"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ confiance !",
+   "answer": "Aie",
+   "hint": "avoir · tu",
+   "translation": "Have confidence!",
+   "id": "044"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's have confidence!”",
+   "answer": "Ayons confiance",
+   "id": "045"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (vous): “Have confidence!”",
+   "answer": "Ayez confiance",
+   "id": "046"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ la vérité !",
+   "answer": "Dis",
+   "hint": "dire · tu",
+   "translation": "Tell the truth!",
+   "id": "047"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's tell the truth!”",
+   "answer": "Disons la vérité",
+   "id": "048"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (vous): “Tell the truth!”",
+   "answer": "Dites la vérité",
+   "id": "049"
+  },
+  {
+   "kind": "fill",
+   "prompt": "___ la leçon !",
+   "answer": "Sache",
+   "hint": "savoir · tu",
+   "translation": "Know the lesson!",
+   "id": "050"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (nous): “Let's know the lesson!”",
+   "answer": "Sachons la leçon",
+   "id": "051"
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ la leçon !  (savoir · vous)",
+   "options": [
+    "Sachez",
+    "Sache",
+    "Sachons",
+    "Savoir"
+   ],
+   "answer": "Sachez",
+   "speak": "Sachez la leçon !",
+   "id": "052"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Ferme la porte !”",
+   "answer": "Ne ferme pas la porte",
+   "id": "053"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Mangez ce gâteau !”",
+   "answer": "Ne mangez pas ce gâteau",
+   "id": "054"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Lève-___ !",
+   "answer": "toi",
+   "hint": "se lever · tu",
+   "id": "055"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Dépêchez-___ !",
+   "answer": "vous",
+   "hint": "se dépêcher · vous",
+   "id": "056"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ne ___ inquiète pas !",
+   "answer": "t'",
+   "hint": "s'inquiéter · tu",
+   "id": "057"
+  }
+ ]
+}

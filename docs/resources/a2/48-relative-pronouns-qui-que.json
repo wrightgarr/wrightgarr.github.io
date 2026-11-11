@@ -1,0 +1,149 @@
+{
+ "id": "a2-48-relative-pronouns-qui-que",
+ "level": "A2",
+ "subject": 48,
+ "title": "Relative Pronouns: qui & que",
+ "description": "Joining two sentences.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "qui",
+   "type": "Relative pronoun",
+   "translation": "who / which / that — the subject of the next verb",
+   "exampleFr": "J'ai un ami qui habite à Lyon.",
+   "exampleEn": "I have a friend who lives in Lyon.",
+   "hint": "qui is followed by a verb; it never becomes qu'",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "que / qu'",
+   "type": "Relative pronoun",
+   "translation": "whom / which / that — the object of the next verb",
+   "exampleFr": "C'est le livre que j'ai acheté.",
+   "exampleEn": "It is the book that I bought.",
+   "hint": "que is followed by a subject",
+   "id": "002"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est un ami ___ habite à Lyon.",
+   "answer": "qui",
+   "id": "003"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est le livre ___ j'ai acheté.",
+   "answer": "que",
+   "id": "004"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La femme ___ parle est ma mère.",
+   "answer": "qui",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le film ___ nous regardons est drôle.",
+   "answer": "que",
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est la ville ___ je préfère.",
+   "answer": "que",
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'ai un chien ___ s'appelle Max.",
+   "answer": "qui",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Voici le gâteau ___ elle a fait.",
+   "answer": "qu'",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Les étudiants ___ travaillent réussissent.",
+   "answer": "qui",
+   "id": "010"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est une chanson ___ j'adore.",
+   "answer": "que",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Le train ___ arrive vient de Paris.",
+   "answer": "qui",
+   "id": "012"
+  },
+  {
+   "kind": "fill",
+   "prompt": "C'est toi ___ as raison.",
+   "answer": "qui",
+   "id": "013"
+  },
+  {
+   "kind": "fill",
+   "prompt": "La robe ___ il a choisie est rouge.",
+   "answer": "qu'",
+   "id": "014"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with qui or que: “J'ai un frère. Il est médecin.”",
+   "answer": "J'ai un frère qui est médecin",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with qui or que: “C'est un film. J'aime ce film.”",
+   "answer": "C'est un film que j'aime",
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with qui or que: “Je connais une fille. Elle parle chinois.”",
+   "answer": "Je connais une fille qui parle chinois",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Join with qui or que: “Voici le pain. J'ai acheté ce pain.”",
+   "answer": "Voici le pain que j'ai acheté",
+   "id": "018"
+  },
+  {
+   "kind": "choice",
+   "prompt": "“qui” replaces…",
+   "options": [
+    "the subject",
+    "the direct object",
+    "a place",
+    "a time"
+   ],
+   "answer": "the subject",
+   "id": "019"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Which one can become qu' before a vowel?",
+   "options": [
+    "que",
+    "qui",
+    "both",
+    "neither"
+   ],
+   "answer": "que",
+   "id": "020"
+  }
+ ]
+}
