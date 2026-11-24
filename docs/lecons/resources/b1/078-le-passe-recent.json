@@ -1,0 +1,66 @@
+{
+ "id": "s78",
+ "subject": 78,
+ "level": "B1",
+ "title": "Le Passé Récent",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>passé récent</strong> expresses an action that <strong>just</strong> happened: \"have just done\".</p>"
+  },
+  {
+   "heading": "Formation: venir (present) + de + infinitive",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>venir</th>\n<th>+ de + infinitive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td>viens</td>\n<td><strong>de</strong> manger</td>\n</tr>\n<tr>\n<td>tu</td>\n<td>viens</td>\n<td><strong>de</strong> partir</td>\n</tr>\n<tr>\n<td>il / elle / on</td>\n<td>vient</td>\n<td><strong>d'</strong>arriver</td>\n</tr>\n<tr>\n<td>nous</td>\n<td>venons</td>\n<td><strong>de</strong> finir</td>\n</tr>\n<tr>\n<td>vous</td>\n<td>venez</td>\n<td><strong>de</strong> voir</td>\n</tr>\n<tr>\n<td>ils / elles</td>\n<td>viennent</td>\n<td><strong>de</strong> sortir</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Je </em><em>viens de</em><em> manger.</em> — I've just eaten.</li>\n<li><em>Le train </em><em>vient de</em><em> partir.</em> — The train has just left.</li>\n<li><em>Nous </em><em>venons d'</em><em>apprendre la nouvelle.</em> — We've just heard the news.</li>\n</ul>"
+  },
+  {
+   "heading": "In the past: venir (imparfait) + de + infinitive = \"had just\"",
+   "html": "<p><em>Je </em><em>venais de</em><em> rentrer quand il a appelé.</em> — I had just got home when he called.\n<em>Il </em><em>venait de</em><em> partir.</em> — He had just left.</p>"
+  },
+  {
+   "heading": "Pronouns",
+   "html": "<p>Object/reflexive pronouns go before the infinitive:\n- <em>Je viens </em><em>de le</em><em> voir.</em> — I just saw him.\n- <em>Elle vient </em><em>de se</em><em> lever.</em> — She just got up.\n- <em>Je viens </em><em>d'en</em><em> acheter.</em> — I just bought some.</p>"
+  },
+  {
+   "heading": "Negative (rare)",
+   "html": "<p>Usually expressed with <em>ne… pas encore</em> in the passé composé instead: <em>Il n'est pas encore arrivé.</em></p>"
+  },
+  {
+   "heading": "The three \"near\" tenses",
+   "html": "<table>\n<thead>\n<tr>\n<th>Passé récent</th>\n<th>Présent</th>\n<th>Futur proche</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Je viens de manger.</em></td>\n<td><em>Je mange.</em></td>\n<td><em>Je vais manger.</em></td>\n</tr>\n<tr>\n<td>I just ate.</td>\n<td>I'm eating.</td>\n<td>I'm going to eat.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Don't confuse:</strong>\n- <em>Je viens </em><em>de</em><em> Paris.</em> — I come <strong>from</strong> Paris. (venir de + place)\n- <em>Je viens </em><em>de</em><em> parler.</em> — I <strong>just</strong> spoke. (venir de + infinitive)\n- <em>Je viens parler.</em> — I'm coming to talk. (venir + infinitive, no de)</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "J'ai fini mon travail.",
+   "instruction": "Put into the passé récent:",
+   "answer": "*Je viens de finir mon travail.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Ils sont partis.",
+   "answer": "*Ils viennent de partir.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Elle s'est réveillée.",
+   "answer": "*Elle vient de se réveiller.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Nous avons vu ce film.",
+   "answer": "*Nous venons de voir ce film.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"The movie has just started.\"",
+   "answer": "*Le film vient de commencer.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I had just gone to bed when the phone rang.\"",
+   "answer": "*Je venais de me coucher quand le téléphone a sonné.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

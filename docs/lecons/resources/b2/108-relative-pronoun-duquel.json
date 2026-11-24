@@ -1,0 +1,66 @@
+{
+ "id": "s108",
+ "subject": 108,
+ "level": "B2",
+ "title": "Relative Pronoun: duquel",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Duquel</strong> = <strong>de + lequel</strong>. It's used mainly after <strong>compound prepositions ending in \"de\"</strong> (à côté de, près de, au milieu de, à cause de, au sujet de, lors de…).</p>"
+  },
+  {
+   "heading": "Forms",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Masculine</th>\n<th>Feminine</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Singular</td>\n<td><strong>duquel</strong> (de + lequel)</td>\n<td><strong>de laquelle</strong> (no contraction)</td>\n</tr>\n<tr>\n<td>Plural</td>\n<td><strong>desquels</strong> (de + lesquels)</td>\n<td><strong>desquelles</strong> (de + lesquelles)</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Duquel vs dont",
+   "html": "<ul>\n<li><strong>Dont</strong> replaces <strong>de + noun</strong> when <em>de</em> is attached directly to the <strong>verb</strong> or <strong>adjective</strong> (<em>parler de, avoir besoin de, être fier de</em>) or for possession.</li>\n<li><em>Le livre </em><em>dont</em><em> je parle.</em></li>\n<li><strong>Duquel</strong> is required after a <strong>compound preposition</strong> (the <em>de</em> belongs to a preposition like <em>près de</em>, <em>à côté de</em>):</li>\n<li><em>Le parc </em><em>près duquel</em><em> j'habite.</em> — The park near which I live. (not ~~dont~~)</li>\n<li><em>La maison </em><em>à côté de laquelle</em><em> il y a un café.</em></li>\n<li><em>Les arbres </em><em>au pied desquels</em><em> ils ont pique-niqué.</em></li>\n<li><strong>Dont can't be used after a preposition + noun</strong> in the relative clause either:</li>\n<li><em>L'entreprise </em><em>dans les bureaux de laquelle</em><em> je travaille.</em> — The company in whose offices I work. (not ~~dont je travaille dans les bureaux~~)</li>\n</ul>"
+  },
+  {
+   "heading": "Examples",
+   "html": "<ul>\n<li><em>C'est le restaurant </em><em>en face duquel</em><em> nous avons garé la voiture.</em> — It's the restaurant opposite which we parked the car.</li>\n<li><em>La réunion </em><em>au cours de laquelle</em><em> il a démissionné.</em> — The meeting during which he resigned.</li>\n<li><em>Les raisons </em><em>à cause desquelles</em><em> il est parti.</em></li>\n<li><em>Le lac </em><em>autour duquel</em><em> nous avons marché.</em></li>\n<li><em>La fenêtre </em><em>au-dessus de laquelle</em><em> il y a un balcon.</em></li>\n</ul>"
+  },
+  {
+   "heading": "For people: de qui (often preferred)",
+   "html": "<p><em>La femme </em><em>à côté de qui</em><em> j'étais assis.</em> (or <em>à côté de laquelle</em>)</p>"
+  },
+  {
+   "heading": "Interrogative duquel",
+   "html": "<p><em>Je parle d'un de tes amis. — </em><em>Duquel</em><em> ?</em> — Which one?</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "C'est le musée. J'habite près de ce musée.",
+   "instruction": "Combine using *duquel, de laquelle, desquels, desquelles*:",
+   "answer": "*C'est le musée près duquel j'habite.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Voici la place. Au milieu de cette place, il y a une fontaine.",
+   "answer": "*Voici la place au milieu de laquelle il y a une fontaine.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Ce sont les montagnes. Nous avons fait du ski au pied de ces montagnes.",
+   "answer": "*Ce sont les montagnes au pied desquelles nous avons fait du ski.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "C'est la conférence. Lors de cette conférence, il a présenté son livre.",
+   "answer": "*C'est la conférence lors de laquelle il a présenté son livre.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "*Dont* or *duquel*? (a) Le projet ___ je suis responsable. (b) Le bâtiment à côté ___ je travaille.",
+   "answer": "(a) dont (b) duquel",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"The bridge under which the river flows.\" (le pont, sous… = au-dessous de)",
+   "answer": "*Le pont au-dessous duquel coule la rivière.* (or simply *Le pont sous lequel coule la rivière.*)",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

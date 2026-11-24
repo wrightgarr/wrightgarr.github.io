@@ -1,0 +1,178 @@
+{
+  "id": "b2-14",
+  "level": "B2",
+  "number": 14,
+  "title": "Les mémoires de Mourad",
+  "grammar": "compound relative pronouns, *ce à quoi*, *ce sur quoi*",
+  "theme": "an immigrant's testimony",
+  "wordCount": 510,
+  "primer": [
+    "**lequel / laquelle / lesquels / lesquelles** after any preposition: *sans laquelle, dans lesquelles, pendant lesquelles*",
+    "**de + lequel = duquel**: *au pied duquel, au cours duquel, à bord duquel*",
+    "**people**: *grâce à qui, avec qui*; but **parmi lesquels**",
+    "**ce à quoi / ce sur quoi**: what (with verbs + *à* / *sur*)",
+    "**un témoignage**: a testimony",
+    "**une vague d'immigration**: a wave of immigration"
+  ],
+  "passage": [
+    [
+      "Au printemps, le musée d'Histoire de Marseille a préparé une exposition sur les grandes vagues d'immigration dans la ville : Italiens, Arméniens, Espagnols, Maghrébins, Comoriens, et tant d'autres. Le commissaire de l'exposition, ayant lu la chronique de Léa sur le tourisme, lui a demandé de photographier des témoins. Le premier qu'elle a choisi, c'était Mourad, le père de Karim."
+    ],
+    [
+      "Il a accepté à une condition : que ce soit Karim qui pose les questions."
+    ],
+    [
+      "Ils se sont installés dans le salon de Saint-Louis, autour d'un thé. Léa faisait des photos pendant que Karim enregistrait. Voici un extrait du témoignage, tel qu'il a été affiché au musée."
+    ],
+    [
+      "« Je suis arrivé à Marseille en octobre 1975, sur un bateau en provenance d'Alger, à bord duquel nous étions des centaines. J'avais vingt et un ans, une valise en carton et l'adresse d'un cousin, sans laquelle je ne serais allé nulle part."
+    ],
+    [
+      "Le cousin habitait dans une cité au nord de la ville, un immeuble au pied duquel il n'y avait que des terrains vagues. Les premiers mois, j'ai travaillé sur des chantiers. Le chef d'équipe, grâce à qui j'ai appris à parler correctement le français, était un vieil Italien arrivé lui-même quarante ans plus tôt. Il me disait : \"Ici, on est tous venus d'ailleurs. Il y a juste ceux qui l'ont oublié.\""
+    ],
+    [
+      "Ce à quoi je pensais le plus, à l'époque, c'était ma mère. Je lui écrivais chaque semaine des lettres dans lesquelles je mentais un peu : je disais que tout allait bien, que j'avais un bel appartement, que les Français étaient gentils. Certains l'étaient. D'autres ne l'étaient pas. Il y a eu des années difficiles, pendant lesquelles on ne sortait pas le soir."
+    ],
+    [
+      "Puis j'ai rencontré Fatima, au mariage d'un ami, au cours duquel j'ai joué de l'oud toute la nuit. C'est la seule fois où ma musique m'a servi à quelque chose. Nous nous sommes mariés quelques années plus tard. Nous avons eu deux enfants, parmi lesquels un journaliste qui pose trop de questions."
+    ],
+    [
+      "Ce sur quoi je voudrais insister, c'est que cette ville m'a donné une vie. Pas facilement. Pas gratuitement. Mais elle me l'a donnée. »"
+    ],
+    [
+      "Karim a éteint l'enregistreur. Il y a eu un silence."
+    ],
+    [
+      "— Papa, tu ne m'avais jamais raconté l'histoire du chef d'équipe italien.",
+      "— Tu ne me l'avais jamais demandée."
+    ],
+    [
+      "Léa a pensé à Jean et à Marcel, sur le quai, en 1962. Les mêmes silences, les mêmes questions qu'on finit par poser trop tard, ou juste à temps."
+    ],
+    [
+      "Le portrait qu'elle a pris ce jour-là a été choisi pour l'affiche de l'exposition : Mourad, l'oud sur les genoux, regardant par la fenêtre, derrière laquelle on devinait les grues du port. En dessous, une seule phrase, la sienne : « Ici, on est tous venus d'ailleurs. »"
+    ],
+    [
+      "Le jour de l'inauguration, Madame Ferrand s'est arrêtée longtemps devant l'affiche."
+    ],
+    [
+      "— Jean a travaillé avec des centaines d'hommes comme vous, a-t-elle dit à Mourad. Il en parle dans ses carnets.",
+      "— Vraiment ? Il y a des noms ?",
+      "— Des dizaines. Si vous voulez, nous chercherons ensemble."
+    ],
+    [
+      "Mourad a souri."
+    ],
+    [
+      "— Avec plaisir, madame. On n'a jamais trop de témoins."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "le commissaire de l'exposition",
+      "en": "the exhibition curator"
+    },
+    {
+      "fr": "en provenance d'Alger",
+      "en": "coming from Algiers"
+    },
+    {
+      "fr": "une valise en carton",
+      "en": "a cardboard suitcase"
+    },
+    {
+      "fr": "une cité",
+      "en": "a housing estate"
+    },
+    {
+      "fr": "des terrains vagues",
+      "en": "wasteland"
+    },
+    {
+      "fr": "des chantiers",
+      "en": "building sites"
+    },
+    {
+      "fr": "le chef d'équipe",
+      "en": "the foreman"
+    },
+    {
+      "fr": "gratuitement",
+      "en": "for free"
+    },
+    {
+      "fr": "juste à temps",
+      "en": "just in time"
+    },
+    {
+      "fr": "l'affiche",
+      "en": "the poster"
+    },
+    {
+      "fr": "on devinait",
+      "en": "you could make out"
+    },
+    {
+      "fr": "l'inauguration",
+      "en": "the opening"
+    }
+  ],
+  "spotlight": [
+    "**Compound relatives after complex prepositions:** *un bateau à bord duquel nous étions des centaines; un immeuble au pied duquel il n'y avait que des terrains vagues; le mariage d'un ami, au cours duquel j'ai joué de l'oud*. Prepositions that end in *de* (*à bord de, au pied de, au cours de*) combine into *duquel, de laquelle, desquels, desquelles*.",
+    "**People vs. things:** after a preposition, *qui* is preferred for people (*le chef d'équipe, grâce à qui j'ai appris le français*), but *parmi* always takes *lesquels* (*deux enfants, parmi lesquels un journaliste*). For a whole idea, use *ce à quoi* (*Ce à quoi je pensais le plus*, from *penser à*) or *ce sur quoi* (*Ce sur quoi je voudrais insister*, from *insister sur*)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Dans quelles conditions Mourad est-il arrivé à Marseille ?",
+      "answer": "En bateau depuis Alger, à 21 ans, avec une valise en carton et l'adresse d'un cousin",
+      "options": [
+        "En bateau depuis Alger, à 21 ans, avec une valise en carton et l'adresse d'un cousin",
+        "En avion depuis Paris, avec un contrat de travail",
+        "En train depuis l'Italie, avec sa famille",
+        "En voiture, avec Fatima"
+      ],
+      "evidence": "Je suis arrivé à Marseille en octobre 1975, sur un bateau en provenance d'Alger, à bord duquel nous étions des centaines."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quel rôle le chef d'équipe italien a-t-il joué dans sa vie ?",
+      "answer": "Il lui a appris le français et lui a rappelé que tout le monde vient d'ailleurs",
+      "options": [
+        "Il lui a appris le français et lui a rappelé que tout le monde vient d'ailleurs",
+        "Il l'a renvoyé du chantier",
+        "Il lui a présenté Fatima",
+        "Il lui a appris à jouer de l'oud"
+      ],
+      "evidence": "Le chef d'équipe, grâce à qui j'ai appris à parler correctement le français, était un vieil Italien arrivé lui-même quarante ans plus tôt."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi cette conversation fait-elle penser Léa à Jean et Marcel ?",
+      "answer": "Comme Marcel avec Jean, Mourad n'avait jamais raconté cette histoire à son fils avant qu'il pose la question",
+      "options": [
+        "Comme Marcel avec Jean, Mourad n'avait jamais raconté cette histoire à son fils avant qu'il pose la question",
+        "Mourad a travaillé avec Jean",
+        "Mourad a connu Marcel en 1943",
+        "Karim veut écrire un livre"
+      ],
+      "evidence": "Les mêmes silences, les mêmes questions qu'on finit par poser trop tard, ou juste à temps."
+    }
+  ],
+  "writing": {
+    "prompt": "Racontez l'arrivée de quelqu'un (vous, un proche) dans une nouvelle ville en 4–5 phrases, avec au moins trois relatifs composés (*dans lequel, grâce à qui, au cours duquel, ce à quoi…*).",
+    "model": "Ma grand-mère est arrivée à Montréal en 1960, sur un bateau à bord duquel il y avait trois cents Italiens. Elle a trouvé un travail grâce à une voisine avec qui elle est restée amie toute sa vie. L'hiver, pendant lequel il faisait moins trente, l'a beaucoup surprise. Ce à quoi elle pensait le plus, c'était sa mère.",
+    "targets": [
+      {
+        "label": "compound relatives (lequel, duquel, auquel, à bord duquel, pendant lequel…)",
+        "pattern": "\\b(lequel|laquelle|lesquels|lesquelles|duquel|desquels|desquelles|auquel|auxquels|auxquelles)\\b",
+        "min": 2
+      },
+      {
+        "label": "preposition + qui / ce à quoi / ce sur quoi",
+        "pattern": "\\b(avec|grâce à|pour|chez|sans|à côté de|auprès de)\\s+qui\\b|ce à quoi|ce sur quoi|ce dont",
+        "min": 1
+      }
+    ]
+  }
+}

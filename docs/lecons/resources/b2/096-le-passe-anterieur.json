@@ -1,0 +1,56 @@
+{
+ "id": "s96",
+ "subject": 96,
+ "level": "B2",
+ "title": "Le Passé Antérieur",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>passé antérieur</strong> is the literary partner of the passé simple. It expresses an action completed <strong>just before</strong> another action in the passé simple. It's the literary equivalent of the plus-que-parfait in specific time clauses.</p>"
+  },
+  {
+   "heading": "Formation: auxiliary in the PASSÉ SIMPLE + past participle",
+   "html": "<table>\n<thead>\n<tr>\n<th>avoir</th>\n<th>être</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>j'<strong>eus</strong> fini</td>\n<td>je <strong>fus</strong> parti(e)</td>\n</tr>\n<tr>\n<td>tu <strong>eus</strong> fini</td>\n<td>tu <strong>fus</strong> parti(e)</td>\n</tr>\n<tr>\n<td>il/elle <strong>eut</strong> fini</td>\n<td>il <strong>fut</strong> parti / elle <strong>fut</strong> partie</td>\n</tr>\n<tr>\n<td>nous <strong>eûmes</strong> fini</td>\n<td>nous <strong>fûmes</strong> parti(e)s</td>\n</tr>\n<tr>\n<td>vous <strong>eûtes</strong> fini</td>\n<td>vous <strong>fûtes</strong> parti(e)(s)</td>\n</tr>\n<tr>\n<td>ils/elles <strong>eurent</strong> fini</td>\n<td>ils <strong>furent</strong> partis / elles <strong>furent</strong> parties</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Use",
+   "html": "<p>Almost always in a <strong>time clause</strong> introduced by <strong>quand, lorsque, dès que, aussitôt que, après que, à peine… que</strong>, with the main clause in the <strong>passé simple</strong>:\n- <strong><em>Dès qu'il eut fini</em>* son repas, il </strong>sortit<strong>.<em> — As soon as he had finished his meal, he went out.\n- </em></strong>Quand elle fut partie<strong>, il </strong>éclata<strong> en sanglots.<em> — When she had left, he burst into tears.\n- </em></strong>À peine fut-il arrivé qu'<strong>il </strong>s'endormit<strong>.<em> — Hardly had he arrived when he fell asleep. (note the inversion after <em>à peine</em>)\n- </em></strong>Après qu'ils eurent mangé<strong>, ils </strong>partirent*<em>.</em></p>\n<p>It can also express a quickly completed action in a main clause with <em>bientôt, vite, en un instant</em>: <em>Il </em><em>eut</em><em> vite </em><em>compris</em><em>.</em> — He soon understood.</p>"
+  },
+  {
+   "heading": "Equivalents in modern / spoken French",
+   "html": "<table>\n<thead>\n<tr>\n<th>Literary</th>\n<th>Modern</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Dès qu'il </em><em>eut fini</em><em>, il </em><em>sortit</em><em>.</em></td>\n<td><em>Dès qu'il </em><em>a eu fini</em><em>, il </em><em>est sorti</em><em>.</em> (passé surcomposé) or <em>Une fois qu'il </em><em>avait fini</em><em>, il </em><em>est sorti</em><em>.</em></td>\n</tr>\n<tr>\n<td><em>Quand elle </em><em>fut partie</em><em>, il </em><em>pleura</em><em>.</em></td>\n<td><em>Quand elle </em><em>est partie</em><em>, il </em><em>a pleuré</em><em>.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Passé antérieur vs plus-que-parfait",
+   "html": "<table>\n<thead>\n<tr>\n<th>Plus-que-parfait</th>\n<th>Passé antérieur</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Any earlier action, often habitual or background</td>\n<td>One specific action <strong>immediately</strong> before another (passé simple)</td>\n</tr>\n<tr>\n<td>Used in speech and writing</td>\n<td>Literary only</td>\n</tr>\n<tr>\n<td><em>Il était fatigué parce qu'il </em><em>avait travaillé</em><em>.</em></td>\n<td><em>Lorsqu'il </em><em>eut terminé</em><em>, il partit.</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Conjugate *arriver* in the passé antérieur.",
+   "answer": "je fus arrivé(e), tu fus arrivé(e), il fut arrivé / elle fut arrivée, nous fûmes arrivé(e)s, vous fûtes arrivé(e)(s), ils furent arrivés / elles furent arrivées.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Put the verb in the passé antérieur: *Quand il (finir) ___ de parler, tout le monde applaudit.*",
+   "answer": "eut fini",
+   "id": "e2"
+  },
+  {
+   "prompt": "Put the verb in the passé antérieur: *Dès qu'elle (sortir) ___, il ferma la porte.*",
+   "answer": "fut sortie",
+   "id": "e3"
+  },
+  {
+   "prompt": "Modernize: *Aussitôt qu'il eut reçu la lettre, il l'ouvrit.*",
+   "answer": "*Dès qu'il a reçu la lettre, il l'a ouverte.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate (literary style): \"As soon as they had left, she started crying.\"",
+   "answer": "*Dès qu'ils furent partis, elle se mit à pleurer.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

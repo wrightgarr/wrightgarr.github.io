@@ -1,0 +1,68 @@
+{
+ "id": "s18",
+ "subject": 18,
+ "level": "A1",
+ "title": "Descriptive Adjectives",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Adjectives in French <strong>agree</strong> in gender and number with the noun they describe, and most come <strong>after</strong> the noun.</p>"
+  },
+  {
+   "heading": "Agreement: the basic rule",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Singular</th>\n<th>Plural</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Masculine</td>\n<td>petit</td>\n<td>petit<strong>s</strong></td>\n</tr>\n<tr>\n<td>Feminine</td>\n<td>petit<strong>e</strong></td>\n<td>petit<strong>es</strong></td>\n</tr>\n</tbody>\n</table>\n<p><em>un garçon intelligent / une fille intelligente / des garçons intelligents / des filles intelligentes</em></p>\n<ul>\n<li>If the masculine already ends in <strong>-e</strong>, no change for feminine: <em>un homme jeune / une femme jeune</em>.</li>\n<li>If the masculine ends in <strong>-s</strong> or <strong>-x</strong>, no change for masculine plural: <em>un homme heureux / des hommes heureux</em>.</li>\n<li>Mixed group = masculine plural: <em>Paul et Marie sont contents.</em></li>\n</ul>"
+  },
+  {
+   "heading": "Feminine patterns",
+   "html": "<table>\n<thead>\n<tr>\n<th>Masculine ending</th>\n<th>Feminine</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>-e</td>\n<td>-e (no change)</td>\n<td>rouge → rouge</td>\n</tr>\n<tr>\n<td>-er</td>\n<td><strong>-ère</strong></td>\n<td>cher → chère, premier → première</td>\n</tr>\n<tr>\n<td>-eux</td>\n<td><strong>-euse</strong></td>\n<td>heureux → heureuse</td>\n</tr>\n<tr>\n<td>-if</td>\n<td><strong>-ive</strong></td>\n<td>sportif → sportive</td>\n</tr>\n<tr>\n<td>-el, -il</td>\n<td><strong>-elle, -ille</strong></td>\n<td>naturel → naturelle, gentil → gentille</td>\n</tr>\n<tr>\n<td>-en, -on</td>\n<td><strong>-enne, -onne</strong></td>\n<td>canadien → canadienne, bon → bonne</td>\n</tr>\n<tr>\n<td>-et</td>\n<td><strong>-ette</strong> (or -ète)</td>\n<td>muet → muette (complet → complète)</td>\n</tr>\n<tr>\n<td>-eur</td>\n<td><strong>-euse</strong></td>\n<td>travailleur → travailleuse</td>\n</tr>\n<tr>\n<td>-teur</td>\n<td><strong>-trice</strong></td>\n<td>créateur → créatrice</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Irregular feminines:</strong> <em>blanc → blanche</em>, <em>long → longue</em>, <em>frais → fraîche</em>, <em>doux → douce</em>, <em>faux → fausse</em>, <em>sec → sèche</em>.</p>"
+  },
+  {
+   "heading": "Plural patterns",
+   "html": "<ul>\n<li>Most add <strong>-s</strong>.</li>\n<li><strong>-al → -aux</strong>: <em>un ami loyal → des amis loyaux</em> (feminine: <em>loyales</em>).</li>\n<li><strong>-eau → -eaux</strong>: <em>beau → beaux</em>, <em>nouveau → nouveaux</em>.</li>\n</ul>"
+  },
+  {
+   "heading": "Position: after the noun (default)",
+   "html": "<p>Colors, nationalities, shapes, most adjectives: <em>une voiture rouge</em>, <em>un film français</em>, <em>une table ronde</em>.</p>"
+  },
+  {
+   "heading": "Before the noun: the BAGS adjectives",
+   "html": "<p>Short, common adjectives of <strong>B</strong>eauty, <strong>A</strong>ge, <strong>G</strong>oodness, <strong>S</strong>ize go before:\n| Category | Adjectives |\n|---|---|\n| Beauty | beau, joli |\n| Age | jeune, vieux, nouveau |\n| Goodness | bon, mauvais, gentil |\n| Size | grand, petit, gros, long |</p>\n<p><em>un </em><em>petit</em><em> chien</em>, <em>une </em><em>jolie</em><em> maison</em>, <em>un </em><em>bon</em><em> repas</em>, <em>une </em><em>nouvelle</em><em> voiture</em>.\nIn the plural, <strong>des → de</strong> before an adjective: <em>de </em><em>belles</em><em> fleurs</em> (formal; <em>des belles fleurs</em> is common in speech).</p>"
+  },
+  {
+   "heading": "The three special adjectives: beau, nouveau, vieux",
+   "html": "<table>\n<thead>\n<tr>\n<th>Masc.</th>\n<th>Masc. before vowel</th>\n<th>Fem.</th>\n<th>Masc. pl.</th>\n<th>Fem. pl.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>beau</td>\n<td><strong>bel</strong></td>\n<td>belle</td>\n<td>beaux</td>\n<td>belles</td>\n</tr>\n<tr>\n<td>nouveau</td>\n<td><strong>nouvel</strong></td>\n<td>nouvelle</td>\n<td>nouveaux</td>\n<td>nouvelles</td>\n</tr>\n<tr>\n<td>vieux</td>\n<td><strong>vieil</strong></td>\n<td>vieille</td>\n<td>vieux</td>\n<td>vieilles</td>\n</tr>\n</tbody>\n</table>\n<p><em>un bel homme</em>, <em>un nouvel ami</em>, <em>un vieil arbre</em>.</p>"
+  },
+  {
+   "heading": "Meaning changes with position (preview)",
+   "html": "<p><em>un </em><em>grand</em><em> homme</em> = a great man / <em>un homme </em><em>grand</em><strong> = a tall man\n<em>mon <strong>ancien</strong> professeur<em> = my former teacher / </em>un bâtiment **ancien</em></strong> = an old building</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Make feminine: *grand*, *heureux*, *sportif*, *italien*, *blanc*, *cher*, *gentil*.",
+   "answer": "*grande*, *heureuse*, *sportive*, *italienne*, *blanche*, *chère*, *gentille*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Make plural: *un livre intéressant*, *un journal local*, *un beau cadeau*.",
+   "answer": "*des livres intéressants*, *des journaux locaux*, *de beaux cadeaux*.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Put the adjective in the right place and agree it: (a) une maison (grand) (b) une robe (bleu) (c) des chaussures (nouveau) (d) un ami (vieux).",
+   "answer": "(a) une grande maison (b) une robe bleue (c) de nouvelles chaussures (d) un vieil ami",
+   "id": "e3"
+  },
+  {
+   "prompt": "Correct: *un beau appartement*.",
+   "answer": "*un bel appartement*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"She has a pretty little red car.\"",
+   "answer": "*Elle a une jolie petite voiture rouge.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

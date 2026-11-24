@@ -1,0 +1,131 @@
+{
+  "id": "a1-23",
+  "level": "A1",
+  "number": 23,
+  "title": "À la gare",
+  "grammar": "*partir*, regular *-ir* verbs",
+  "theme": "taking the train",
+  "wordCount": 101,
+  "primer": [
+    "**partir**: to leave (*je pars, tu pars, il part, nous partons, ils partent*)",
+    "**finir / choisir**: to finish / to choose (*je finis, il choisit, nous finissons*)",
+    "**la gare**: the train station",
+    "**le TGV**: France's high-speed train",
+    "**la voie / le quai**: the track / the platform",
+    "**Dépêchez-vous !**: Hurry up!",
+    "**attendre**: to wait (for)"
+  ],
+  "passage": [
+    [
+      "Vendredi, Léa part à Lyon pour voir ses parents. Elle va à la gare de Lyon, à Paris. Son train part à dix heures vingt."
+    ],
+    [
+      "Dans la gare, il y a beaucoup de monde. Léa regarde le grand panneau : « TGV pour Lyon, voie 11 »."
+    ],
+    [
+      "— Pardon, monsieur, le train pour Lyon part de quelle voie ?",
+      "— De la voie 11, madame. Dépêchez-vous !"
+    ],
+    [
+      "Dans le train, Léa choisit une place près de la fenêtre. Elle finit son café et ouvre son livre. Le train part à l'heure. Le voyage dure deux heures."
+    ],
+    [
+      "À Lyon, sa mère, Sophie, attend sur le quai."
+    ],
+    [
+      "— Bienvenue, ma chérie !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "pour voir",
+      "en": "(in order) to see"
+    },
+    {
+      "fr": "beaucoup de monde",
+      "en": "lots of people"
+    },
+    {
+      "fr": "le panneau",
+      "en": "the departures board"
+    },
+    {
+      "fr": "quelle",
+      "en": "which"
+    },
+    {
+      "fr": "une place",
+      "en": "a seat"
+    },
+    {
+      "fr": "à l'heure",
+      "en": "on time"
+    },
+    {
+      "fr": "dure",
+      "en": "lasts"
+    },
+    {
+      "fr": "Bienvenue, ma chérie !",
+      "en": "Welcome, sweetheart!"
+    }
+  ],
+  "spotlight": [
+    "**Two -ir patterns:** *partir* drops a consonant in the singular (*je pars, il part*); regular *-ir* verbs add *-iss-* in the plural (*je finis, nous finissons*).",
+    "**Fun fact:** Paris has a station called *gare de Lyon*, named for its destination. Léa leaves from the *gare de Lyon* to go to Lyon."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why is Léa going to Lyon?",
+      "answer": "To see her parents",
+      "options": [
+        "To see her parents",
+        "For a work trip",
+        "To visit Hugo",
+        "To buy cheese"
+      ],
+      "evidence": "Vendredi, Léa part à Lyon pour voir ses parents."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which track does her train leave from, and at what time?",
+      "answer": "Track 11, at 10:20",
+      "options": [
+        "Track 11, at 10:20",
+        "Track 6, at 10:00",
+        "Track 11, at 12:20",
+        "Track 1, at 10:20"
+      ],
+      "evidence": "Son train part à dix heures vingt. … De la voie 11, madame."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Léa do on the train?",
+      "answer": "She picks a window seat, finishes her coffee and opens her book",
+      "options": [
+        "She picks a window seat, finishes her coffee and opens her book",
+        "She sleeps the whole way",
+        "She calls her mother and eats lunch",
+        "She takes photos of the countryside"
+      ],
+      "evidence": "Léa choisit une place près de la fenêtre. Elle finit son café et ouvre son livre."
+    }
+  ],
+  "writing": {
+    "prompt": "Write two sentences about a trip: when you leave and what you choose to do on the way.",
+    "model": "Je pars à huit heures. Dans le train, je choisis une place près de la fenêtre.",
+    "targets": [
+      {
+        "label": "partir (pars, part…)",
+        "pattern": "\\b(pars|part|partons|partez|partent)\\b",
+        "min": 1
+      },
+      {
+        "label": "an -ir verb (choisis, finis…)",
+        "pattern": "\\b(chois|fin|réfléch|rempl|grand)(is|it|issons|issez|issent)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

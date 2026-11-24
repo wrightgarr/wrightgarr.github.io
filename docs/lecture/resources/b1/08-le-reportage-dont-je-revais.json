@@ -1,0 +1,158 @@
+{
+  "id": "b1-08",
+  "level": "B1",
+  "number": 8,
+  "title": "Le reportage dont je rêvais",
+  "grammar": "the relative pronoun *dont*",
+  "theme": "a lighthouse story in Brittany",
+  "wordCount": 342,
+  "primer": [
+    "**dont**: of which, about which, whose (replaces *de* + noun)",
+    "**parler de → le sujet dont on parle**: the subject people are talking about",
+    "**avoir besoin de → ce dont j'ai besoin**: what I need",
+    "**dont = whose**: *une femme dont le mari…* (a woman whose husband…)",
+    "**un phare**: a lighthouse",
+    "**un gardien de phare**: a lighthouse keeper"
+  ],
+  "passage": [
+    [
+      "La soirée du 17 janvier a été un succès dont tout Marseille a parlé. Deux cents personnes, un quatuor magnifique, et Madame Ferrand au premier rang, qui pleurait pendant le Schubert. Le Mistral a gagné trois cents nouveaux abonnés."
+    ],
+    [
+      "Parmi les invités, il y avait une femme dont Léa avait oublié le nom mais pas le visage : Claire Dumas, directrice photo du magazine national Horizons. Le lendemain, elle a appelé Léa."
+    ],
+    [
+      "— J'ai vu vos photos de Marseille. C'est exactement le regard dont nous avons besoin. Nous préparons un numéro sur les phares de Bretagne. Ça vous intéresserait ?"
+    ],
+    [
+      "Léa a failli lâcher son téléphone. Un reportage pour Horizons, c'était le genre de projet dont elle rêvait depuis l'école de photographie."
+    ],
+    [
+      "Deux semaines plus tard, elle était à Brest, sous une pluie fine et froide. Son guide s'appelait Yann Le Goff, un ancien gardien de phare dont le père et le grand-père avaient fait le même métier."
+    ],
+    [
+      "— Le phare dont je vais vous parler, c'est Ar-Men, a-t-il dit en montrant la mer grise. On l'appelle « l'Enfer des enfers ». Les gardiens y restaient des semaines sans voir personne.",
+      "— De quoi avaient-ils peur, surtout ?",
+      "— Des tempêtes. Il y a des vagues dont la hauteur dépasse quinze mètres. Mon père racontait des nuits dont il ne parlait jamais devant ma mère."
+    ],
+    [
+      "Pendant cinq jours, Léa a photographié des phares, des falaises, des ports et des visages. Yann lui montrait des endroits dont seuls les gens du pays connaissent l'existence : une crique secrète, une chapelle perdue dans la lande, un café où les pêcheurs chantaient en breton le samedi."
+    ],
+    [
+      "Le dernier soir, dans ce café, Yann a levé sa bolée de cidre."
+    ],
+    [
+      "— Vous savez ce dont la Bretagne a besoin ? De gens qui la regardent vraiment. Vous, vous regardez."
+    ],
+    [
+      "Dans le train du retour, Léa a trié ses photos. Elle en avait plus de deux mille. Mais celle dont elle était la plus fière, c'était un portrait de Yann, de dos, face à la tempête, la main levée vers le phare où son père avait passé sa vie."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "le regard",
+      "en": "the eye, way of seeing"
+    },
+    {
+      "fr": "a failli lâcher",
+      "en": "nearly dropped"
+    },
+    {
+      "fr": "une pluie fine",
+      "en": "a fine drizzle"
+    },
+    {
+      "fr": "le même métier",
+      "en": "the same job"
+    },
+    {
+      "fr": "l'Enfer des enfers",
+      "en": "the Hell of Hells"
+    },
+    {
+      "fr": "des vagues",
+      "en": "waves"
+    },
+    {
+      "fr": "dépasse",
+      "en": "exceeds"
+    },
+    {
+      "fr": "une crique",
+      "en": "a cove"
+    },
+    {
+      "fr": "la lande",
+      "en": "the moor"
+    },
+    {
+      "fr": "en breton",
+      "en": "in Breton"
+    },
+    {
+      "fr": "sa bolée de cidre",
+      "en": "his bowl of cider"
+    },
+    {
+      "fr": "a trié",
+      "en": "sorted"
+    },
+    {
+      "fr": "de dos",
+      "en": "from behind"
+    }
+  ],
+  "spotlight": [
+    "**Dont replaces de + noun:** *un succès dont tout Marseille a parlé* (parler de), *le regard dont nous avons besoin* (avoir besoin de), *le genre de projet dont elle rêvait* (rêver de). *Ce dont* means \"what\" with these verbs: *Vous savez ce dont la Bretagne a besoin ?*",
+    "**Dont for possession = whose:** *une femme dont Léa avait oublié le nom* (a woman whose name…), *un ancien gardien dont le père et le grand-père avaient fait le même métier*, *des vagues dont la hauteur dépasse quinze mètres*. After *dont*, the word order stays normal: subject, verb, object."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Quel a été le résultat de la soirée du 17 janvier pour Le Mistral ?",
+      "answer": "Le magazine a gagné trois cents nouveaux abonnés",
+      "options": [
+        "Le magazine a gagné trois cents nouveaux abonnés",
+        "Le magazine a été vendu",
+        "Nadia a démissionné",
+        "Amina a gagné un concours"
+      ],
+      "evidence": "Le Mistral a gagné trois cents nouveaux abonnés."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi les gardiens d'Ar-Men avaient-ils peur ?",
+      "answer": "Des tempêtes, avec des vagues de plus de quinze mètres",
+      "options": [
+        "Des tempêtes, avec des vagues de plus de quinze mètres",
+        "Des requins",
+        "Du silence et de la solitude seulement",
+        "Des pirates"
+      ],
+      "evidence": "Des tempêtes. Il y a des vagues dont la hauteur dépasse quinze mètres."
+    },
+    {
+      "id": "q3",
+      "prompt": "De quelle photo Léa est-elle la plus fière, et pourquoi est-elle importante ?",
+      "answer": "Un portrait de Yann de dos, face à la tempête, la main levée vers le phare de son père",
+      "options": [
+        "Un portrait de Yann de dos, face à la tempête, la main levée vers le phare de son père",
+        "Une photo du café breton",
+        "Une photo d'Ar-Men au coucher du soleil",
+        "Un selfie avec Claire Dumas"
+      ],
+      "evidence": "c'était un portrait de Yann, de dos, face à la tempête, la main levée vers le phare où son père avait passé sa vie."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez trois phrases avec *dont* : une chose dont vous avez besoin, une personne dont vous êtes fier/fière, un projet dont vous rêvez.",
+    "model": "Un bon dictionnaire est la chose dont j'ai le plus besoin. Ma sœur est la personne dont je suis le plus fier. Le voyage dont je rêve, c'est un tour du Japon.",
+    "targets": [
+      {
+        "label": "dont (×3)",
+        "pattern": "\\bdont\\b",
+        "min": 3
+      }
+    ]
+  }
+}

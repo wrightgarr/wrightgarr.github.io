@@ -1,0 +1,74 @@
+{
+ "id": "s52",
+ "subject": 52,
+ "level": "A2",
+ "title": "Adverbs of Manner",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Adverbs of manner describe <strong>how</strong> something is done (\"-ly\" in English).</p>"
+  },
+  {
+   "heading": "Basic rule: feminine adjective + -ment",
+   "html": "<table>\n<thead>\n<tr>\n<th>Masculine</th>\n<th>Feminine</th>\n<th>Adverb</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>lent</td>\n<td>lente</td>\n<td><strong>lentement</strong> (slowly)</td>\n</tr>\n<tr>\n<td>heureux</td>\n<td>heureuse</td>\n<td><strong>heureusement</strong> (fortunately)</td>\n</tr>\n<tr>\n<td>doux</td>\n<td>douce</td>\n<td><strong>doucement</strong> (gently / softly)</td>\n</tr>\n<tr>\n<td>sérieux</td>\n<td>sérieuse</td>\n<td><strong>sérieusement</strong></td>\n</tr>\n<tr>\n<td>actif</td>\n<td>active</td>\n<td><strong>activement</strong></td>\n</tr>\n<tr>\n<td>léger</td>\n<td>légère</td>\n<td><strong>légèrement</strong> (slightly)</td>\n</tr>\n<tr>\n<td>final</td>\n<td>finale</td>\n<td><strong>finalement</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Adjectives ending in a vowel: masculine + -ment",
+   "html": "<table>\n<thead>\n<tr>\n<th>Adjective</th>\n<th>Adverb</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>vrai</td>\n<td><strong>vraiment</strong> (really)</td>\n</tr>\n<tr>\n<td>poli</td>\n<td><strong>poliment</strong></td>\n</tr>\n<tr>\n<td>absolu</td>\n<td><strong>absolument</strong></td>\n</tr>\n<tr>\n<td>facile</td>\n<td><strong>facilement</strong></td>\n</tr>\n<tr>\n<td>rapide</td>\n<td><strong>rapidement</strong></td>\n</tr>\n<tr>\n<td>simple</td>\n<td><strong>simplement</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "-ant → -amment, -ent → -emment",
+   "html": "<p>Both are pronounced \"-amment\" (\"ah-mahn\"):\n| Adjective | Adverb |\n|---|---|\n| constant | <strong>constamment</strong> |\n| courant | <strong>couramment</strong> (fluently) |\n| suffisant | <strong>suffisamment</strong> (enough) |\n| évident | <strong>évidemment</strong> (obviously) |\n| récent | <strong>récemment</strong> (recently) |\n| patient | <strong>patiemment</strong> |\n| prudent | <strong>prudemment</strong> (carefully) |\n| <em>Exception:</em> lent | <strong>lentement</strong> |</p>"
+  },
+  {
+   "heading": "-ément adverbs",
+   "html": "<p><em>précis → précisément</em>, <em>énorme → énormément</em>, <em>profond → profondément</em>, <em>aveugle → aveuglément</em>, <em>commun → communément</em>.</p>"
+  },
+  {
+   "heading": "Irregular adverbs",
+   "html": "<table>\n<thead>\n<tr>\n<th>Adjective</th>\n<th>Adverb</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>bon</td>\n<td><strong>bien</strong> (well)</td>\n</tr>\n<tr>\n<td>mauvais</td>\n<td><strong>mal</strong> (badly)</td>\n</tr>\n<tr>\n<td>meilleur</td>\n<td><strong>mieux</strong> (better)</td>\n</tr>\n<tr>\n<td>gentil</td>\n<td><strong>gentiment</strong></td>\n</tr>\n<tr>\n<td>bref</td>\n<td><strong>brièvement</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Adjectives used as adverbs (invariable)",
+   "html": "<p><em>parler </em><em>fort</em><strong> (loudly), <em>parler **bas</em></strong> (quietly), <em>coûter </em><em>cher</em><strong> (be expensive), <em>travailler **dur</em></strong> (work hard), <em>sentir </em><em>bon</em><em> / </em><em>mauvais</em><strong> (smell good / bad), <em>chanter **faux</em></strong> (sing out of tune), <em>voir </em><em>clair</em><strong> (see clearly).\n→ *Ces chaussures coûtent </strong>cher*<em>.</em> (no s on <em>cher</em>)</p>"
+  },
+  {
+   "heading": "Position",
+   "html": "<ul>\n<li>After the verb in simple tenses: <em>Il parle </em><em>lentement</em><em>.</em></li>\n<li>In compound tenses, short adverbs go between auxiliary and participle: <em>J'ai </em><em>bien</em><em> dormi.</em> Long <em>-ment</em> adverbs usually go after the participle: <em>Il a parlé </em><em>lentement</em><em>.</em></li>\n<li>Sentence adverbs can go first: <em><strong>Heureusement</strong>, il est arrivé.</em></li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "lent, heureux, rapide, vrai, attentif.",
+   "instruction": "Form the adverb:",
+   "answer": "*lentement*, *heureusement*, *rapidement*, *vraiment*, *attentivement*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "évident, constant, courant, patient.",
+   "answer": "*évidemment*, *constamment*, *couramment*, *patiemment*.",
+   "id": "e2"
+  },
+  {
+   "prompt": "bon, mauvais, gentil, précis.",
+   "answer": "*bien*, *mal*, *gentiment*, *précisément*.",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"She speaks French fluently.\"",
+   "answer": "*Elle parle couramment français.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"Fortunately, it is not expensive.\" (use *coûter cher*)",
+   "answer": "*Heureusement, ça ne coûte pas cher.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"Drive carefully!\"",
+   "answer": "*Conduis prudemment !* / *Conduisez prudemment !*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

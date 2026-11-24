@@ -1,0 +1,56 @@
+{
+ "id": "s10",
+ "subject": 10,
+ "level": "A1",
+ "title": "Le Présent Simple (1st Group Verbs)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The French present tense (<em>le présent</em>) covers three English forms: <em>je parle</em> = I speak / I am speaking / I do speak.</p>\n<p>French verbs are sorted into three groups. The <strong>1st group</strong> contains verbs ending in <strong>-er</strong> (except <em>aller</em>). About 90% of French verbs belong here, and they are all regular.</p>"
+  },
+  {
+   "heading": "How to conjugate",
+   "html": "<ol>\n<li>Remove <strong>-er</strong> from the infinitive to get the stem: <em>parler</em> → <strong>parl-</strong></li>\n<li>Add the endings:</li>\n</ol>\n<table>\n<thead>\n<tr>\n<th>Pronoun</th>\n<th>Ending</th>\n<th>parler (to speak)</th>\n<th>aimer (to like/love)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td><strong>-e</strong></td>\n<td>je parl<strong>e</strong></td>\n<td>j'aim<strong>e</strong></td>\n</tr>\n<tr>\n<td>tu</td>\n<td><strong>-es</strong></td>\n<td>tu parl<strong>es</strong></td>\n<td>tu aim<strong>es</strong></td>\n</tr>\n<tr>\n<td>il / elle / on</td>\n<td><strong>-e</strong></td>\n<td>il parl<strong>e</strong></td>\n<td>elle aim<strong>e</strong></td>\n</tr>\n<tr>\n<td>nous</td>\n<td><strong>-ons</strong></td>\n<td>nous parl<strong>ons</strong></td>\n<td>nous aim<strong>ons</strong></td>\n</tr>\n<tr>\n<td>vous</td>\n<td><strong>-ez</strong></td>\n<td>vous parl<strong>ez</strong></td>\n<td>vous aim<strong>ez</strong></td>\n</tr>\n<tr>\n<td>ils / elles</td>\n<td><strong>-ent</strong></td>\n<td>ils parl<strong>ent</strong></td>\n<td>elles aim<strong>ent</strong></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Pronunciation:</strong> <em>parle, parles, parle, parlent</em> all sound <strong>identical</strong> (the endings -e, -es, -ent are silent). Only <em>nous</em> (-ons) and <em>vous</em> (-ez = \"ay\") sound different.</p>"
+  },
+  {
+   "heading": "Common 1st group verbs",
+   "html": "<p><em>habiter</em> (live), <em>travailler</em> (work), <em>manger</em> (eat), <em>regarder</em> (watch), <em>écouter</em> (listen), <em>jouer</em> (play), <em>chercher</em> (look for), <em>donner</em> (give), <em>étudier</em> (study), <em>aimer</em> (like), <em>détester</em> (hate), <em>penser</em> (think), <em>arriver</em> (arrive), <em>rester</em> (stay), <em>acheter</em> (buy), <em>préférer</em> (prefer), <em>appeler</em> (call), <em>commencer</em> (start).</p>"
+  },
+  {
+   "heading": "Spelling changes (still regular endings)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Type</th>\n<th>Change</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>-ger</strong> verbs</td>\n<td>add <strong>e</strong> before -ons to keep the soft g</td>\n<td>nous mang<strong>e</strong>ons, nous voyag<strong>e</strong>ons</td>\n</tr>\n<tr>\n<td><strong>-cer</strong> verbs</td>\n<td><strong>c → ç</strong> before -ons</td>\n<td>nous commen<strong>ç</strong>ons</td>\n</tr>\n<tr>\n<td><strong>e + consonant + er</strong> (acheter, lever)</td>\n<td>e → <strong>è</strong> except nous/vous</td>\n<td>j'ach<strong>è</strong>te, tu ach<strong>è</strong>tes, ils ach<strong>è</strong>tent, <em>but</em> nous achetons</td>\n</tr>\n<tr>\n<td><strong>é + consonant + er</strong> (préférer, espérer)</td>\n<td>é → <strong>è</strong> except nous/vous</td>\n<td>je préf<strong>è</strong>re, <em>but</em> vous préférez</td>\n</tr>\n<tr>\n<td><strong>-eler / -eter</strong> (appeler, jeter)</td>\n<td>double the consonant except nous/vous</td>\n<td>j'appe<strong>ll</strong>e, il je<strong>tt</strong>e, <em>but</em> nous appelons</td>\n</tr>\n<tr>\n<td><strong>-yer</strong> (payer, envoyer, nettoyer)</td>\n<td>y → <strong>i</strong> except nous/vous</td>\n<td>je pa<strong>i</strong>e, tu envo<strong>i</strong>es, <em>but</em> nous payons</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Examples",
+   "html": "<ul>\n<li><em>J'habite à Toronto et je travaille dans une banque.</em></li>\n<li><em>Nous mangeons au restaurant ce soir.</em> — We're eating at the restaurant tonight.</li>\n<li><em>Vous parlez très bien français !</em></li>\n<li><em>Mes enfants regardent la télé.</em></li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Conjugate *travailler* for all pronouns.",
+   "answer": "je travaille, tu travailles, il travaille, nous travaillons, vous travaillez, ils travaillent.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Fill in: (a) Tu ___ (écouter) la radio. (b) Nous ___ (manger) une pizza. (c) Ils ___ (jouer) au tennis. (d) Je ___ (acheter) du pain. (e) Vous ___ (préférer) le thé ?",
+   "answer": "(a) écoutes (b) mangeons (c) jouent (d) achète (e) préférez",
+   "id": "e2"
+  },
+  {
+   "prompt": "Which forms of *chanter* sound the same?",
+   "answer": "*chante, chantes, chante, chantent*.",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"We are starting the lesson.\" (commencer)",
+   "answer": "*Nous commençons la leçon.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"She calls her mother every day.\" (appeler)",
+   "answer": "*Elle appelle sa mère tous les jours.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

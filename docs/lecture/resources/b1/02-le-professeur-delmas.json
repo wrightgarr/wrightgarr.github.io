@@ -1,0 +1,175 @@
+{
+  "id": "b1-02",
+  "level": "B1",
+  "number": 2,
+  "title": "Le professeur Delmas",
+  "grammar": "subjunctive after wishes and demands",
+  "theme": "a strict teacher",
+  "wordCount": 317,
+  "primer": [
+    "**vouloir que / souhaiter que + subj.**: to want / to wish (that someone does)",
+    "**exiger que / préférer que + subj.**: to demand / to prefer that",
+    "**same subject → infinitive**: *Je veux jouer* (never *je veux que je joue*)",
+    "**une partition**: a musical score",
+    "**le trac**: stage fright",
+    "**par cœur**: by heart"
+  ],
+  "passage": [
+    [
+      "Au conservatoire, le professeur de violon d'Amina s'appelait Arnaud Delmas. Il avait soixante ans, des cheveux blancs en désordre et la réputation d'être le professeur le plus sévère de la ville."
+    ],
+    [
+      "Le premier jour, il a réuni ses six nouveaux élèves dans une salle froide qui sentait le vieux bois."
+    ],
+    [
+      "— Je veux que vous soyez là à huit heures, chaque matin, sans exception, a-t-il dit. J'exige que vous connaissiez vos partitions par cœur avant chaque cours. Et je préfère que vous ne parliez pas pendant que quelqu'un joue."
+    ],
+    [
+      "Un étudiant a levé la main."
+    ],
+    [
+      "— Et si on est malade ?",
+      "— Alors je souhaite que vous guérissiez vite, a répondu Delmas sans sourire."
+    ],
+    [
+      "Amina est rentrée chez elle découragée. Le soir, elle a raconté sa journée à Léa et à Karim, sur la terrasse d'un café du cours Julien."
+    ],
+    [
+      "— Il veut qu'on travaille six heures par jour. Il veut que je change ma façon de tenir l'archet. Et il exige qu'on joue devant toute la classe vendredi !",
+      "— Tu veux que je vienne t'écouter ? a proposé Karim.",
+      "— Surtout pas ! Je ne veux pas que tu me voies trembler.",
+      "— Moi, je voudrais que tu te reposes un peu, a dit Léa. Tu as l'air épuisée."
+    ],
+    [
+      "Le vendredi, Amina avait un trac terrible. Elle a joué une sonate de Bach devant ses camarades. Ses mains tremblaient au début, puis la musique l'a emportée. Quand elle a fini, il y a eu un long silence."
+    ],
+    [
+      "Delmas s'est approché."
+    ],
+    [
+      "— Mademoiselle Benhaddou, je voudrais que vous rejouiez le deuxième mouvement."
+    ],
+    [
+      "Amina a obéi. Cette fois, elle a fermé les yeux."
+    ],
+    [
+      "— Bien, a dit Delmas. Très bien, même. Mais je ne veux pas que ça vous monte à la tête. Lundi, huit heures."
+    ],
+    [
+      "En sortant, une étudiante a murmuré à Amina :"
+    ],
+    [
+      "— Il ne dit jamais « très bien ». Jamais. Tu sais ce que ça veut dire ?",
+      "— Non…",
+      "— Ça veut dire qu'il attend beaucoup de toi. Bon courage !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "des cheveux blancs en désordre",
+      "en": "messy white hair"
+    },
+    {
+      "fr": "sévère",
+      "en": "strict"
+    },
+    {
+      "fr": "a réuni",
+      "en": "gathered"
+    },
+    {
+      "fr": "guérissiez",
+      "en": "(that) you get better"
+    },
+    {
+      "fr": "découragée",
+      "en": "discouraged"
+    },
+    {
+      "fr": "l'archet",
+      "en": "the (violin) bow"
+    },
+    {
+      "fr": "Surtout pas !",
+      "en": "Absolutely not!"
+    },
+    {
+      "fr": "trembler",
+      "en": "to shake"
+    },
+    {
+      "fr": "épuisée",
+      "en": "exhausted"
+    },
+    {
+      "fr": "l'a emportée",
+      "en": "carried her away"
+    },
+    {
+      "fr": "a obéi",
+      "en": "obeyed"
+    },
+    {
+      "fr": "monte à la tête",
+      "en": "go to your head"
+    }
+  ],
+  "spotlight": [
+    "**When you want someone else to act, use que + subjunctive:** *Je veux que vous soyez là. J'exige que vous connaissiez vos partitions. Je préfère que vous ne parliez pas.* The conditional makes it softer: *je voudrais que vous rejouiez le deuxième mouvement*.",
+    "**Same person → infinitive:** *Je veux jouer*, but *Je veux que tu joues*. Compare *Je ne veux pas que tu me voies trembler* (two people) with *Amina veut réussir* (one person)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Quelles règles le professeur Delmas impose-t-il le premier jour ?",
+      "answer": "Être là à huit heures, connaître ses partitions par cœur et ne pas parler quand quelqu'un joue",
+      "options": [
+        "Être là à huit heures, connaître ses partitions par cœur et ne pas parler quand quelqu'un joue",
+        "Jouer six heures par jour et acheter un nouveau violon",
+        "Arriver à neuf heures et travailler en groupe",
+        "Ne jamais jouer de Bach"
+      ],
+      "evidence": "Je veux que vous soyez là à huit heures, chaque matin, sans exception, a-t-il dit. J'exige que vous connaissiez vos partitions par cœur avant chaque cours."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi Amina ne veut-elle pas que Karim vienne l'écouter ?",
+      "answer": "Elle ne veut pas qu'il la voie trembler",
+      "options": [
+        "Elle ne veut pas qu'il la voie trembler",
+        "Elle ne l'aime plus",
+        "Delmas interdit les visiteurs",
+        "Karim arrive toujours en retard"
+      ],
+      "evidence": "Je ne veux pas que tu me voies trembler."
+    },
+    {
+      "id": "q3",
+      "prompt": "Que signifie la réaction de Delmas, selon l'autre étudiante ?",
+      "answer": "Il attend beaucoup d'Amina",
+      "options": [
+        "Il attend beaucoup d'Amina",
+        "Il va renvoyer Amina",
+        "Il est malade",
+        "Il préfère une autre étudiante"
+      ],
+      "evidence": "Ça veut dire qu'il attend beaucoup de toi."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez trois phrases sur ce que vous voulez, souhaitez ou exigez des autres (au travail, en famille…), avec *que* + subjonctif.",
+    "model": "Je veux que mes collègues soient à l'heure. Je souhaite que mon frère vienne me voir cet été. Ma mère exige que nous mangions ensemble le dimanche.",
+    "targets": [
+      {
+        "label": "vouloir / souhaiter / exiger / préférer que",
+        "pattern": "\\b(veux|veut|voulons|voulez|veulent|voudrais|voudrait|souhaite|souhaites|souhaitons|souhaitez|souhaitent|exige|exiges|exigeons|exigez|exigent|préfère|préfères|préférons|préférez|préfèrent|aimerais|aimerait)\\s+qu",
+        "min": 2
+      },
+      {
+        "label": "subjunctive verbs",
+        "pattern": "\\bqu(e|')\\s*(je|j'|tu|il|elle|on|nous|vous|ils|elles)\\s*[a-zà-ÿ]+(e|es|ent|ions|iez)\\b|\\b(sois|soit|soyons|soyez|soient|aie|aies|ait|ayons|ayez|fasse|fasses|fassions|fassiez|fassent|aille|ailles|aillent|puisse|puisses|puissions|puissiez|puissent|sache|saches|sachent|veuille|veuillent|vienne|viennes|viennent|prenne|prennes|prennent)\\b",
+        "min": 2
+      }
+    ]
+  }
+}

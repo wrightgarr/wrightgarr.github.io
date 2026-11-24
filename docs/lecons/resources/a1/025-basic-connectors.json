@@ -1,0 +1,54 @@
+{
+ "id": "s25",
+ "subject": 25,
+ "level": "A1",
+ "title": "Basic Connectors",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Connectors (<em>les connecteurs</em>) link ideas and make your French sound natural.</p>\n<table>\n<thead>\n<tr>\n<th>Connector</th>\n<th>Meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>et</strong></td>\n<td>and</td>\n<td><em>J'aime le thé </em><em>et</em><em> le café.</em></td>\n</tr>\n<tr>\n<td><strong>mais</strong></td>\n<td>but</td>\n<td><em>Il est riche </em><em>mais</em><em> il n'est pas heureux.</em></td>\n</tr>\n<tr>\n<td><strong>ou</strong></td>\n<td>or</td>\n<td><em>Tu veux du thé </em><em>ou</em><em> du café ?</em></td>\n</tr>\n<tr>\n<td><strong>ou bien</strong></td>\n<td>or else</td>\n<td><em>On reste ici </em><em>ou bien</em><em> on sort ?</em></td>\n</tr>\n<tr>\n<td><strong>parce que</strong></td>\n<td>because</td>\n<td><em>Je reste à la maison </em><em>parce que</em><em> je suis malade.</em></td>\n</tr>\n<tr>\n<td><strong>car</strong></td>\n<td>because (more formal/written)</td>\n<td><em>Il est parti, </em><em>car</em><em> il était fatigué.</em></td>\n</tr>\n<tr>\n<td><strong>donc</strong></td>\n<td>so, therefore</td>\n<td><em>Il pleut, </em><em>donc</em><em> je prends un parapluie.</em></td>\n</tr>\n<tr>\n<td><strong>alors</strong></td>\n<td>so, then</td>\n<td><em>J'ai faim, </em><em>alors</em><em> je mange.</em></td>\n</tr>\n<tr>\n<td><strong>aussi</strong></td>\n<td>also, too</td>\n<td><em>Je parle </em><em>aussi</em><em> espagnol.</em></td>\n</tr>\n<tr>\n<td><strong>puis</strong></td>\n<td>then</td>\n<td><em>Je mange, </em><em>puis</em><em> je sors.</em></td>\n</tr>\n<tr>\n<td><strong>ensuite</strong></td>\n<td>next, then</td>\n<td><em>D'abord, je me lève. </em><em>Ensuite</em><em>, je me douche.</em></td>\n</tr>\n<tr>\n<td><strong>d'abord</strong></td>\n<td>first</td>\n<td></td>\n</tr>\n<tr>\n<td><strong>enfin</strong> / <strong>finalement</strong></td>\n<td>finally</td>\n<td></td>\n</tr>\n<tr>\n<td><strong>quand</strong></td>\n<td>when</td>\n<td><em><strong>Quand</strong> il pleut, je reste chez moi.</em></td>\n</tr>\n<tr>\n<td><strong>avec</strong></td>\n<td>with</td>\n<td><em>Je viens </em><em>avec</em><em> mon mari.</em></td>\n</tr>\n<tr>\n<td><strong>sans</strong></td>\n<td>without</td>\n<td><em>Un café </em><em>sans</em><em> sucre.</em></td>\n</tr>\n<tr>\n<td><strong>par exemple</strong></td>\n<td>for example</td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Tips",
+   "html": "<ul>\n<li><strong>parce que → parce qu'</strong> before a vowel: <em>parce qu'il pleut</em>.</li>\n<li><strong>Parce que</strong> answers <em>pourquoi</em> in conversation: <em>Pourquoi tu ris ? — Parce que c'est drôle !</em></li>\n<li><strong>Aussi</strong> goes after the verb: <em>Je parle </em><em>aussi</em><em> italien.</em> \"Me too\" = <strong><em>Moi aussi.</em></strong></li>\n<li>\"Me neither\" = <strong><em>Moi non plus.</em></strong></li>\n<li><strong>Alors</strong> is used a lot in speech as a filler, like \"so…\" in English: <em>Alors, on y va ?</em> — So, shall we go?</li>\n</ul>"
+  },
+  {
+   "heading": "Sequencing a story",
+   "html": "<p><em>D'abord, je me réveille à 7 h. Ensuite, je prends un café. Puis, je vais au travail. Enfin, je rentre à 18 h.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je suis fatigué ___ je vais me coucher.",
+   "instruction": "Choose: *et, mais, ou, parce que, donc*",
+   "answer": "donc",
+   "id": "e1"
+  },
+  {
+   "prompt": "Il est gentil ___ un peu timide.",
+   "answer": "mais",
+   "id": "e2"
+  },
+  {
+   "prompt": "Tu préfères la plage ___ la montagne ?",
+   "answer": "ou",
+   "id": "e3"
+  },
+  {
+   "prompt": "J'apprends le français ___ j'aime le Québec.",
+   "answer": "parce que",
+   "id": "e4"
+  },
+  {
+   "prompt": "J'ai un chien ___ un chat.",
+   "answer": "et",
+   "id": "e5"
+  },
+  {
+   "prompt": "Write 4 sentences describing your morning with *d'abord, ensuite, puis, enfin*.",
+   "answer": "Example: *D'abord, je me lève. Ensuite, je prends une douche. Puis, je mange. Enfin, je pars au travail.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

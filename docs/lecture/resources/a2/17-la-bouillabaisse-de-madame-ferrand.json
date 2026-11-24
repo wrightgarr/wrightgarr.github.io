@@ -1,0 +1,161 @@
+{
+  "id": "a2-17",
+  "level": "A2",
+  "number": 17,
+  "title": "La bouillabaisse de Madame Ferrand",
+  "grammar": "the imperative and quantities",
+  "theme": "a family recipe",
+  "wordCount": 190,
+  "primer": [
+    "**the imperative (vous)**: *coupez, ajoutez, mettez* (cut, add, put)",
+    "**quantity + de**: *un kilo de poisson, deux litres d'eau*",
+    "**un peu de / assez de / trop de**: a little / enough / too much",
+    "**faire cuire**: to cook (something)",
+    "**une marmite**: a big cooking pot",
+    "**le safran**: saffron"
+  ],
+  "passage": [
+    [
+      "Pendant la visite d'Hugo, Madame Ferrand a tenu sa promesse : elle lui a appris sa bouillabaisse. Hugo a tout écrit dans son carnet. Voici ses notes."
+    ],
+    [
+      "« La bouillabaisse de Madame Ferrand (pour six personnes)"
+    ],
+    [
+      "Achetez deux kilos de poissons de roche au port, le matin même. \"Pas au supermarché, jamais !\" dit Madame F."
+    ],
+    [
+      "Coupez deux oignons, quatre tomates et trois gousses d'ail. Mettez un peu d'huile d'olive dans une grande marmite et faites cuire les légumes pendant dix minutes."
+    ],
+    [
+      "Ajoutez deux litres d'eau, une pincée de safran, du fenouil et un peu de zeste d'orange. Ne mettez pas trop de sel !"
+    ],
+    [
+      "Mettez les poissons dans la marmite. Faites cuire à feu vif pendant quinze minutes. \"Le feu doit être fort : c'est le secret !\""
+    ],
+    [
+      "Servez le bouillon d'abord, avec du pain grillé et de la rouille, puis les poissons. »"
+    ],
+    [
+      "À table, Hugo a goûté."
+    ],
+    [
+      "— Madame Ferrand, c'est la meilleure soupe de poisson de ma vie.",
+      "— Bien sûr ! Mais tu as mis assez de safran, toi ?",
+      "— Euh… je n'ai rien mis. Vous avez tout fait !",
+      "— Alors, la prochaine fois, c'est toi qui cuisines. Et ne dis pas à Léa que c'est facile !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "a tenu sa promesse",
+      "en": "kept her promise"
+    },
+    {
+      "fr": "lui a appris",
+      "en": "taught him"
+    },
+    {
+      "fr": "son carnet",
+      "en": "his notebook"
+    },
+    {
+      "fr": "poissons de roche",
+      "en": "rockfish"
+    },
+    {
+      "fr": "le matin même",
+      "en": "that same morning"
+    },
+    {
+      "fr": "gousses d'ail",
+      "en": "cloves of garlic"
+    },
+    {
+      "fr": "une pincée",
+      "en": "a pinch"
+    },
+    {
+      "fr": "le fenouil",
+      "en": "fennel"
+    },
+    {
+      "fr": "le zeste",
+      "en": "zest"
+    },
+    {
+      "fr": "à feu vif",
+      "en": "on high heat"
+    },
+    {
+      "fr": "le bouillon",
+      "en": "the broth"
+    },
+    {
+      "fr": "la rouille",
+      "en": "garlic and saffron mayonnaise"
+    },
+    {
+      "fr": "la prochaine fois",
+      "en": "next time"
+    }
+  ],
+  "spotlight": [
+    "**Recipes use the imperative:** the *vous* form without *vous*: *Achetez, Coupez, Mettez, Ajoutez, Servez.* Negative: *Ne mettez pas trop de sel !* Speaking to Hugo as a friend, Madame Ferrand switches to *tu*: *ne dis pas à Léa…*",
+    "**Quantity + de, with no article:** *deux kilos de poissons, un peu d'huile, une pincée de safran, trop de sel, assez de safran.* It's *de*, never *des*, even before a plural noun."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Where and when should you buy the fish, according to Madame Ferrand?",
+      "answer": "At the port, that same morning — never at the supermarket",
+      "options": [
+        "At the port, that same morning — never at the supermarket",
+        "At the supermarket, the day before",
+        "At Noailles market, in the afternoon",
+        "From a restaurant, frozen"
+      ],
+      "evidence": "Achetez deux kilos de poissons de roche au port, le matin même. \"Pas au supermarché, jamais !\""
+    },
+    {
+      "id": "q2",
+      "prompt": "What is her \"secret\"?",
+      "answer": "Cooking on high heat — the fire must be strong",
+      "options": [
+        "Cooking on high heat — the fire must be strong",
+        "Adding lots of salt",
+        "Using only one kind of fish",
+        "Cooking it slowly for three hours"
+      ],
+      "evidence": "Faites cuire à feu vif pendant quinze minutes. \"Le feu doit être fort : c'est le secret !\""
+    },
+    {
+      "id": "q3",
+      "prompt": "Why is Hugo's compliment a little funny?",
+      "answer": "He didn't actually cook anything — she did it all",
+      "options": [
+        "He didn't actually cook anything — she did it all",
+        "He's a cook who hates fish",
+        "He added too much saffron",
+        "He said Léa's soup is better"
+      ],
+      "evidence": "Euh… je n'ai rien mis. Vous avez tout fait !"
+    }
+  ],
+  "writing": {
+    "prompt": "Write a mini-recipe (3–4 steps) for something you can make, using imperatives and quantities.",
+    "model": "Mettez deux tasses de farine dans un bol. Ajoutez un peu de sucre et trois œufs. Faites cuire vingt minutes. Ne mettez pas trop de beurre !",
+    "targets": [
+      {
+        "label": "imperatives (mettez, ajoutez, coupez…)",
+        "pattern": "\\b[a-zà-ÿ]+(ez)\\b",
+        "min": 3
+      },
+      {
+        "label": "quantity + de (un peu de, deux kilos de…)",
+        "pattern": "\\b(kilos?|litres?|grammes?|tasses?|cuillères?|pincées?|bouteilles?|morceaux?|tranches?|peu|beaucoup|assez|trop)\\s+d(e\\b|')",
+        "min": 1
+      }
+    ]
+  }
+}

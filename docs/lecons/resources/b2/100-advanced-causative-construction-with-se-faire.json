@@ -1,0 +1,66 @@
+{
+ "id": "s100",
+ "subject": 100,
+ "level": "B2",
+ "title": "Advanced Causative Construction With \"se faire\"",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Se faire + infinitive</strong> expresses that something is done <strong>to the subject</strong> (or for the subject) by someone else. It often replaces the passive.</p>"
+  },
+  {
+   "heading": "Formation: se faire (conjugated) + infinitive",
+   "html": "<p>Passé composé with <strong>être</strong>: <em>je me suis fait…</em> (no agreement of <em>fait</em>).</p>"
+  },
+  {
+   "heading": "Two meanings",
+   "html": "<p><strong>1. Getting something done for oneself (voluntary):</strong>\n- <em>Je </em><em>me fais couper</em><em> les cheveux.</em> — I'm getting my hair cut.\n- <em>Elle </em><em>s'est fait faire</em><em> une robe.</em> — She had a dress made (for herself).\n- <em>Il </em><em>se fait livrer</em><em> ses courses.</em> — He gets his groceries delivered.\n- <em>Je </em><em>me suis fait opérer</em><em> du genou.</em> — I had knee surgery.</p>\n<p><strong>2. Undergoing something (often negative, involuntary) — passive meaning:</strong>\n- <em>Il </em><em>s'est fait voler</em><em> son portefeuille.</em> — He had his wallet stolen.\n- <em>Je </em><em>me suis fait arrêter</em><em> par la police.</em> — I got stopped by the police.\n- <em>Elle </em><em>s'est fait renverser</em><em> par une voiture.</em> — She got hit by a car.\n- <em>Tu vas </em><em>te faire gronder</em><em> !</em> — You're going to get told off!\n- <em>Il </em><em>s'est fait virer</em><em>.</em> (informal) — He got fired.</p>"
+  },
+  {
+   "heading": "With an agent: par",
+   "html": "<p><em>Il s'est fait mordre </em><em>par</em><em> un chien.</em> — He got bitten by a dog.</p>"
+  },
+  {
+   "heading": "Se faire + noun / adjective (other meanings)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>se faire des amis</strong></td>\n<td>to make friends</td>\n</tr>\n<tr>\n<td><strong>se faire du souci</strong></td>\n<td>to worry</td>\n</tr>\n<tr>\n<td><strong>s'en faire</strong></td>\n<td>to worry (<em>Ne t'en fais pas !</em>)</td>\n</tr>\n<tr>\n<td><strong>se faire à</strong></td>\n<td>to get used to (<em>Je me fais à la vie ici.</em>)</td>\n</tr>\n<tr>\n<td><strong>se faire tard</strong></td>\n<td>to be getting late (<em>Il se fait tard.</em>)</td>\n</tr>\n<tr>\n<td><strong>se faire comprendre</strong></td>\n<td>to make oneself understood</td>\n</tr>\n<tr>\n<td><strong>se faire remarquer</strong></td>\n<td>to draw attention to oneself</td>\n</tr>\n<tr>\n<td><strong>se faire avoir</strong></td>\n<td>to be fooled, scammed</td>\n</tr>\n<tr>\n<td><strong>se faire plaisir</strong></td>\n<td>to treat oneself</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Se faire vs passive",
+   "html": "<table>\n<thead>\n<tr>\n<th>Passive</th>\n<th>Se faire</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Il a été licencié.</em> (neutral)</td>\n<td><em>Il s'est fait licencier.</em> (stresses what happened to him; more natural in speech)</td>\n</tr>\n<tr>\n<td><em>Mon vélo a été volé.</em> (focus on the bike)</td>\n<td><em>Je me suis fait voler mon vélo.</em> (focus on me as the victim)</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Un dentiste m'a soigné les dents.",
+   "instruction": "Rewrite using *se faire*:",
+   "answer": "*Je me suis fait soigner les dents.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "On lui a volé son téléphone.",
+   "answer": "*Il / Elle s'est fait voler son téléphone.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Un photographe professionnel l'a photographiée. (she)",
+   "answer": "*Elle s'est fait photographier par un photographe professionnel.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"I'm going to get my hair cut tomorrow.\"",
+   "answer": "*Je vais me faire couper les cheveux demain.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"He got bitten by a mosquito.\"",
+   "answer": "*Il s'est fait piquer par un moustique (un maringouin).*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I got scammed!\"",
+   "answer": "*Je me suis fait avoir !*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

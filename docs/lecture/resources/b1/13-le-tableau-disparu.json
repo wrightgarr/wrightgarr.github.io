@@ -1,0 +1,188 @@
+{
+  "id": "b1-13",
+  "level": "B1",
+  "number": 13,
+  "title": "Le tableau disparu",
+  "grammar": "*devoir* and *pouvoir* for deduction",
+  "theme": "a mystery at the gallery",
+  "wordCount": 369,
+  "primer": [
+    "**devoir (deduction)**: must (= probably): *Il doit être tard.*",
+    "**il a dû + infinitif**: he must have…",
+    "**pouvoir**: may, might, could",
+    "**ça ne peut pas être…**: it can't be…",
+    "**un tableau**: a painting",
+    "**une effraction**: a break-in"
+  ],
+  "passage": [
+    [
+      "Un matin d'avril, Sylvie Roux, la propriétaire de la galerie du Panier, a appelé Léa en pleurs."
+    ],
+    [
+      "— Le petit tableau du Vieux-Port a disparu ! Celui de 1932, dans la vitrine. Il était là hier soir après le vernissage, et ce matin, plus rien !"
+    ],
+    [
+      "Léa et Karim sont arrivés une demi-heure plus tard. La police était déjà passée."
+    ],
+    [
+      "— Il n'y a aucune trace d'effraction, a expliqué Sylvie. La porte était fermée à clé. Le voleur a dû entrer avec une clé.",
+      "— Qui a une clé ? a demandé Karim.",
+      "— Trois personnes seulement : moi, mon assistant Bastien et Madame Ortiz, la femme de ménage."
+    ],
+    [
+      "Karim a sorti son carnet."
+    ],
+    [
+      "— Ce tableau, il a de la valeur ?",
+      "— Pas beaucoup, normalement. Le peintre est inconnu. On l'appelle « le peintre du port ». J'en demandais huit cents euros.",
+      "— Alors, ça ne doit pas être un professionnel, a dit Karim. Un professionnel prendrait les grandes toiles."
+    ],
+    [
+      "Léa, elle, observait la vitrine."
+    ],
+    [
+      "— Regardez : le crochet n'est pas arraché. Quelqu'un a dû décrocher le tableau calmement, sans se presser. Cette personne doit bien connaître la galerie.",
+      "— Ça ne peut pas être Madame Ortiz, a dit Sylvie. Elle travaille ici depuis vingt ans. Elle est d'une honnêteté totale.",
+      "— Et Bastien ?"
+    ],
+    [
+      "Sylvie a hésité."
+    ],
+    [
+      "— Bastien… il est jeune, il a toujours besoin d'argent. Mais il adore ce tableau. Il passait des heures à le regarder. Il disait qu'il y avait quelque chose de bizarre dans la signature.",
+      "— Il est où, Bastien, ce matin ?",
+      "— Il a téléphoné à huit heures. Il a dit qu'il était malade."
+    ],
+    [
+      "Karim et Léa ont échangé un regard."
+    ],
+    [
+      "— Il doit être très malade, a dit Karim, pour ne pas venir le jour où son tableau préféré disparaît."
+    ],
+    [
+      "Avant de partir, Léa a demandé à Sylvie si elle pouvait revoir les photos qu'elle avait prises pendant le vernissage. Elle en avait fait plus de trois cents."
+    ],
+    [
+      "— Si le tableau était là à vingt-deux heures, il a dû partir entre vingt-deux heures et ce matin. Mes photos peuvent peut-être nous aider."
+    ],
+    [
+      "Le soir, chez elle, Léa a ouvert son ordinateur. Sur la photo numéro 287, prise à vingt-deux heures quinze, quelqu'un se tenait devant la vitrine, de dos, une main sur le cadre du tableau. Ce n'était pas Bastien."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "en pleurs",
+      "en": "in tears"
+    },
+    {
+      "fr": "la vitrine",
+      "en": "the shop window"
+    },
+    {
+      "fr": "aucune trace",
+      "en": "no trace"
+    },
+    {
+      "fr": "fermée à clé",
+      "en": "locked"
+    },
+    {
+      "fr": "le voleur",
+      "en": "the thief"
+    },
+    {
+      "fr": "la femme de ménage",
+      "en": "the cleaner"
+    },
+    {
+      "fr": "il a de la valeur ?",
+      "en": "is it worth much?"
+    },
+    {
+      "fr": "les grandes toiles",
+      "en": "the large canvases"
+    },
+    {
+      "fr": "le crochet",
+      "en": "the hook"
+    },
+    {
+      "fr": "arraché",
+      "en": "torn out"
+    },
+    {
+      "fr": "décrocher",
+      "en": "to take down"
+    },
+    {
+      "fr": "sans se presser",
+      "en": "without hurrying"
+    },
+    {
+      "fr": "ont échangé un regard",
+      "en": "exchanged a look"
+    },
+    {
+      "fr": "le cadre",
+      "en": "the frame"
+    }
+  ],
+  "spotlight": [
+    "**Devoir for deduction (must = probably):** *Le voleur a dû entrer avec une clé* (must have come in with a key). *Cette personne doit bien connaître la galerie* (must know). Karim's *Il doit être très malade* is ironic: he doesn't believe it.",
+    "**Pouvoir for possibility, ne pas pouvoir for impossibility:** *Mes photos peuvent peut-être nous aider. Ça ne peut pas être Madame Ortiz.* Compare *ça ne doit pas être un professionnel* (probably not) with *ça ne peut pas être Madame Ortiz* (impossible)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi Sylvie pense-t-elle que le voleur avait une clé ?",
+      "answer": "Il n'y a aucune trace d'effraction et la porte était fermée à clé",
+      "options": [
+        "Il n'y a aucune trace d'effraction et la porte était fermée à clé",
+        "Elle a vu le voleur",
+        "Une fenêtre est cassée",
+        "Bastien a perdu sa clé"
+      ],
+      "evidence": "Il n'y a aucune trace d'effraction, a expliqué Sylvie. La porte était fermée à clé."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi Karim pense-t-il que ce n'est pas un professionnel ?",
+      "answer": "Le tableau ne vaut pas grand-chose : un professionnel prendrait les grandes toiles",
+      "options": [
+        "Le tableau ne vaut pas grand-chose : un professionnel prendrait les grandes toiles",
+        "Le voleur a laissé des empreintes",
+        "Un professionnel aurait cassé la vitrine",
+        "Le tableau était trop lourd"
+      ],
+      "evidence": "Alors, ça ne doit pas être un professionnel, a dit Karim. Un professionnel prendrait les grandes toiles."
+    },
+    {
+      "id": "q3",
+      "prompt": "Qu'est-ce que Léa découvre sur la photo numéro 287 ?",
+      "answer": "Une personne de dos, la main sur le cadre — et ce n'est pas Bastien",
+      "options": [
+        "Une personne de dos, la main sur le cadre — et ce n'est pas Bastien",
+        "Bastien qui emporte le tableau",
+        "Sylvie qui cache le tableau",
+        "La vitrine vide à 22 h 15"
+      ],
+      "evidence": "Sur la photo numéro 287, prise à vingt-deux heures quinze, quelqu'un se tenait devant la vitrine, de dos, une main sur le cadre du tableau. Ce n'était pas Bastien."
+    }
+  ],
+  "writing": {
+    "prompt": "Vous rentrez chez vous et la cuisine est en désordre. Faites trois déductions avec *devoir* et *pouvoir* (*quelqu'un a dû…, ça ne peut pas être…*).",
+    "model": "Quelqu'un a dû faire la cuisine pendant mon absence. Ça doit être mon frère, il adore les pâtes. Ça ne peut pas être ma mère : elle est en vacances.",
+    "targets": [
+      {
+        "label": "devoir for deduction (a dû…, doit être…)",
+        "pattern": "\\b(a dû|ont dû|doit|doivent|devait)\\b",
+        "min": 2
+      },
+      {
+        "label": "pouvoir / ne peut pas",
+        "pattern": "\\b(peut|peuvent|pouvait)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

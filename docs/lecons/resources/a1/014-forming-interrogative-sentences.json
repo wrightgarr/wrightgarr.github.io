@@ -1,0 +1,57 @@
+{
+ "id": "s14",
+ "subject": 14,
+ "level": "A1",
+ "title": "Forming Interrogative Sentences",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>There are three ways to ask a yes/no question. They range from informal to formal.</p>"
+  },
+  {
+   "heading": "1. Intonation (informal, most common in speech)",
+   "html": "<p>Keep the normal sentence and raise your voice at the end.\n- <em>Tu parles anglais ?</em> ↗\n- <em>Vous habitez ici ?</em> ↗</p>"
+  },
+  {
+   "heading": "2. Est-ce que (neutral, works everywhere)",
+   "html": "<p>Put <strong>est-ce que</strong> (literally \"is it that\") at the start. Becomes <strong>est-ce qu'</strong> before a vowel.\n- <strong><em>Est-ce que</em><em> tu parles anglais ?</em>\n- </strong><em>Est-ce qu'</em><em>il travaille aujourd'hui ?</em></p>"
+  },
+  {
+   "heading": "3. Inversion (formal, written)",
+   "html": "<p>Swap the subject pronoun and verb, and join them with a hyphen.\n- <em>Parles-tu anglais ?</em>\n- <em>Habitez-vous ici ?</em>\n- <em>Est-elle prête ?</em></p>\n<p><strong>Rules for inversion:</strong>\n- If the verb ends in a vowel and the pronoun is <em>il, elle, on</em>, add <strong>-t-</strong> for pronunciation: <em>Parle-</em><em>t</em><em>-il français ?</em> <em>A-</em><em>t</em><em>-elle un chien ?</em> <em>Va-</em><em>t</em><em>-on au parc ?</em>\n- With a noun subject, keep the noun and add a pronoun: <em>Marie parle-t-elle anglais ?</em> <em>Les enfants sont-ils prêts ?</em>\n- Avoid inversion with <em>je</em> (except fixed forms: <em>Puis-je… ?</em> \"May I…?\", <em>Suis-je… ?</em>).\n- Negative inversion: <em>Ne parles-tu pas anglais ?</em></p>"
+  },
+  {
+   "heading": "Comparison table",
+   "html": "<table>\n<thead>\n<tr>\n<th>Intonation</th>\n<th>Est-ce que</th>\n<th>Inversion</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Tu viens ?</em></td>\n<td><em>Est-ce que tu viens ?</em></td>\n<td><em>Viens-tu ?</em></td>\n</tr>\n<tr>\n<td><em>Il a faim ?</em></td>\n<td><em>Est-ce qu'il a faim ?</em></td>\n<td><em>A-t-il faim ?</em></td>\n</tr>\n<tr>\n<td><em>Vous êtes prêts ?</em></td>\n<td><em>Est-ce que vous êtes prêts ?</em></td>\n<td><em>Êtes-vous prêts ?</em></td>\n</tr>\n<tr>\n<td><em>Paul aime le jazz ?</em></td>\n<td><em>Est-ce que Paul aime le jazz ?</em></td>\n<td><em>Paul aime-t-il le jazz ?</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "*Tu aimes le chocolat.*",
+   "instruction": "Turn into questions in all three forms:",
+   "answer": "*Tu aimes le chocolat ?* / *Est-ce que tu aimes le chocolat ?* / *Aimes-tu le chocolat ?*",
+   "id": "e1"
+  },
+  {
+   "prompt": "*Vous allez à Paris.*",
+   "answer": "*Vous allez à Paris ?* / *Est-ce que vous allez à Paris ?* / *Allez-vous à Paris ?*",
+   "id": "e2"
+  },
+  {
+   "prompt": "*Il mange ici.*",
+   "answer": "*Il mange ici ?* / *Est-ce qu'il mange ici ?* / *Mange-t-il ici ?*",
+   "id": "e3"
+  },
+  {
+   "prompt": "*Elle a une sœur.*",
+   "answer": "*Elle a une sœur ?* / *Est-ce qu'elle a une sœur ?* / *A-t-elle une sœur ?*",
+   "id": "e4"
+  },
+  {
+   "prompt": "*Sophie habite à Lyon.*",
+   "answer": "*Sophie habite à Lyon ?* / *Est-ce que Sophie habite à Lyon ?* / *Sophie habite-t-elle à Lyon ?*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

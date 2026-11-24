@@ -1,0 +1,176 @@
+{
+  "id": "b1-10",
+  "level": "B1",
+  "number": 10,
+  "title": "Le violon de Crémone",
+  "grammar": "*lequel, auquel, duquel* after prepositions",
+  "theme": "the story of an instrument",
+  "wordCount": 337,
+  "primer": [
+    "**lequel / laquelle / lesquels / lesquelles**: which (after a preposition, for things)",
+    "**avec qui / à qui**: with whom / to whom (for people)",
+    "**auquel / à laquelle / auxquels**: à + lequel",
+    "**grâce auquel**: thanks to which",
+    "**un luthier**: a violin maker",
+    "**un concours**: a competition"
+  ],
+  "passage": [
+    [
+      "Un matin de mars, le professeur Delmas a arrêté Amina au milieu d'un exercice."
+    ],
+    [
+      "— Votre violon. D'où vient-il ?"
+    ],
+    [
+      "Amina a hésité. Personne ne lui avait jamais posé la question."
+    ],
+    [
+      "— C'est le violon de mon grand-père. Il l'a acheté à Fès, dans les années soixante, chez un luthier dont le nom est effacé. C'est l'instrument avec lequel il jouait dans les mariages. Quand il est parti au Canada, c'est la seule chose qu'il a emportée.",
+      "— Montrez-moi."
+    ],
+    [
+      "Delmas a examiné l'instrument longuement, comme un médecin. Il a regardé à l'intérieur, à travers les ouïes, avec une petite lampe."
+    ],
+    [
+      "— Il y a une étiquette, a-t-il murmuré. Presque illisible. Je vois une date… et un nom italien."
+    ],
+    [
+      "Le soir, Amina a raconté la scène à Léa et à Karim, dans le petit restaurant de Mehdi."
+    ],
+    [
+      "— Delmas pense que mon violon pourrait venir d'un atelier italien du dix-neuvième siècle. Il connaît un luthier à Crémone auquel il envoie souvent des photos d'instruments. Il veut que Léa photographie l'étiquette.",
+      "— Moi ? Avec plaisir. C'est le genre de mystère pour lequel je ferais n'importe quoi, a dit Léa."
+    ],
+    [
+      "Le lendemain, Léa a installé un petit studio dans la salle de Delmas. Elle a utilisé un objectif macro grâce auquel on voyait chaque fibre du bois. Sous la lumière, des lettres sont apparues : « …ini, Cremona, 18.. »."
+    ],
+    [
+      "Trois semaines plus tard, la réponse est arrivée d'Italie. Le violon avait été fabriqué vers 1850 dans un petit atelier de Crémone, un atelier oublié, mais sérieux. L'instrument n'était pas célèbre, mais il était précieux."
+    ],
+    [
+      "— Combien il vaut ? a demandé Karim, toujours pratique.",
+      "— Ça n'a pas d'importance, a répondu Amina. C'est le violon sur lequel mon grand-père a appris la musique à ma mère, et ma mère à moi. C'est l'histoire à laquelle je pense chaque fois que je joue."
+    ],
+    [
+      "Delmas, lui, a simplement dit :"
+    ],
+    [
+      "— Maintenant, vous comprenez pourquoi je vous demande de mieux tenir l'archet. Cet instrument mérite une violoniste à sa hauteur. Le concours du printemps, auquel je vous ai inscrite ce matin, sera l'occasion de le prouver."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "au milieu d'un exercice",
+      "en": "in the middle of an exercise"
+    },
+    {
+      "fr": "effacé",
+      "en": "faded, worn away"
+    },
+    {
+      "fr": "dans les mariages",
+      "en": "at weddings"
+    },
+    {
+      "fr": "emportée",
+      "en": "taken (with him)"
+    },
+    {
+      "fr": "à travers les ouïes",
+      "en": "through the f-holes"
+    },
+    {
+      "fr": "une étiquette",
+      "en": "a label"
+    },
+    {
+      "fr": "illisible",
+      "en": "illegible"
+    },
+    {
+      "fr": "un atelier",
+      "en": "a workshop"
+    },
+    {
+      "fr": "Crémone",
+      "en": "Cremona, Italy's violin-making capital"
+    },
+    {
+      "fr": "un objectif macro",
+      "en": "a macro lens"
+    },
+    {
+      "fr": "avait été fabriqué",
+      "en": "had been made"
+    },
+    {
+      "fr": "vaut",
+      "en": "is worth"
+    },
+    {
+      "fr": "mérite",
+      "en": "deserves"
+    },
+    {
+      "fr": "à sa hauteur",
+      "en": "worthy of it"
+    },
+    {
+      "fr": "inscrite",
+      "en": "registered"
+    }
+  ],
+  "spotlight": [
+    "**After a preposition, use lequel for things:** *l'instrument avec lequel il jouait, le genre de mystère pour lequel je ferais n'importe quoi, un objectif macro grâce auquel on voyait chaque fibre, le violon sur lequel mon grand-père a appris la musique*. It agrees with the noun: *lequel, laquelle, lesquels, lesquelles*.",
+    "**À and de combine with it:** *à + lequel = auquel* (*un luthier auquel il envoie des photos, le concours auquel je vous ai inscrite*), and *à + laquelle* stays as two words (*l'histoire à laquelle je pense*). For people, *qui* also works after a preposition: *le luthier à qui il écrit*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Comment le violon est-il arrivé au Canada ?",
+      "answer": "Son grand-père l'a emporté quand il est parti au Canada",
+      "options": [
+        "Son grand-père l'a emporté quand il est parti au Canada",
+        "Amina l'a acheté à Montréal",
+        "Delmas l'a prêté à Amina",
+        "Sa mère l'a trouvé à Crémone"
+      ],
+      "evidence": "Quand il est parti au Canada, c'est la seule chose qu'il a emportée."
+    },
+    {
+      "id": "q2",
+      "prompt": "Qu'est-ce que Léa a découvert grâce à son objectif macro ?",
+      "answer": "Une étiquette avec des lettres : « …ini, Cremona, 18.. »",
+      "options": [
+        "Une étiquette avec des lettres : « …ini, Cremona, 18.. »",
+        "La signature de son grand-père",
+        "Une fissure dans le bois",
+        "Un prix écrit au crayon"
+      ],
+      "evidence": "Sous la lumière, des lettres sont apparues : « …ini, Cremona, 18.. »."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi la valeur du violon n'a-t-elle pas d'importance pour Amina ?",
+      "answer": "Le violon porte l'histoire de sa famille",
+      "options": [
+        "Le violon porte l'histoire de sa famille",
+        "Elle va le vendre de toute façon",
+        "Il ne vaut rien",
+        "Delmas lui en donnera un autre"
+      ],
+      "evidence": "C'est le violon sur lequel mon grand-père a appris la musique à ma mère, et ma mère à moi."
+    }
+  ],
+  "writing": {
+    "prompt": "Parlez d'un objet précieux pour vous en trois phrases, avec *avec lequel*, *auquel* ou *grâce auquel*.",
+    "model": "Mon vélo est l'objet avec lequel je vais partout. C'est un cadeau auquel je tiens beaucoup. C'est grâce à lui que je connais si bien ma ville.",
+    "targets": [
+      {
+        "label": "lequel / laquelle / auquel / duquel… (after a preposition)",
+        "pattern": "\\b(avec|pour|sur|dans|sans|par|grâce|à|près|autour)\\s*(lequel|laquelle|lesquels|lesquelles|auquel|auxquels|auxquelles|duquel|desquels)\\b|\\b(auquel|auxquels|auxquelles|duquel|desquels)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "a2-29",
+  "level": "A2",
+  "number": 29,
+  "title": "Les bonnes résolutions",
+  "grammar": "*ne… plus, ne… jamais, ne… que, ne… ni… ni*",
+  "theme": "New Year's resolutions",
+  "wordCount": 216,
+  "primer": [
+    "**ne… plus**: no longer, not anymore",
+    "**ne… jamais**: never",
+    "**ne… que**: only (*Je n'ai que dix euros.*)",
+    "**ne… ni… ni…**: neither… nor…",
+    "**les bonnes résolutions**: New Year's resolutions",
+    "**tenir bon**: to hold out, to stick with it"
+  ],
+  "passage": [
+    [
+      "À la mi-janvier, Léa, Karim, Amina et Marco ont fait un appel vidéo pour parler de leurs bonnes résolutions."
+    ],
+    [
+      "— Alors, après deux semaines, vous tenez bon ? a demandé Léa.",
+      "— Moi, oui ! a dit Marco. Je ne mange plus de chocolat après dix heures du soir. Et je ne me couche plus à deux heures du matin !",
+      "— Tu dis ça chaque année, a dit Amina en riant. Moi, j'ai décidé de ne jamais regarder mon téléphone au lit.",
+      "— Jamais ? C'est difficile !",
+      "— Je sais. Mais je ne dormais que cinq heures par nuit à cause de ça.",
+      "— Et toi, Karim ?",
+      "— Moi, je ne prends plus la voiture pour aller au travail. Je vais à vélo. Ce n'est qu'à quatre kilomètres.",
+      "— À vélo, à Marseille ? Avec les scooters ? a dit Léa. Tu es courageux !",
+      "— Et toi, Léa, ta résolution ?"
+    ],
+    [
+      "Léa a réfléchi."
+    ],
+    [
+      "— Je n'ai ni le temps ni l'énergie pour un grand changement. Alors, je n'ai qu'une résolution : prendre une photo par jour, juste pour moi.",
+      "— C'est joli, a dit Amina.",
+      "— Et toi, Amina… tu ne nous as pas encore dit ta vraie nouvelle, a dit Karim avec un sourire."
+    ],
+    [
+      "Amina a rougi."
+    ],
+    [
+      "— D'accord… En septembre, je n'habiterai plus à Paris. Je viens étudier au conservatoire de Marseille !"
+    ],
+    [
+      "Léa a crié si fort que Minou est tombé du canapé."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "à la mi-janvier",
+      "en": "in mid-January"
+    },
+    {
+      "fr": "un appel vidéo",
+      "en": "a video call"
+    },
+    {
+      "fr": "au lit",
+      "en": "in bed"
+    },
+    {
+      "fr": "à cause de ça",
+      "en": "because of that"
+    },
+    {
+      "fr": "par nuit",
+      "en": "per night"
+    },
+    {
+      "fr": "courageux",
+      "en": "brave"
+    },
+    {
+      "fr": "a réfléchi",
+      "en": "thought about it"
+    },
+    {
+      "fr": "l'énergie",
+      "en": "energy"
+    },
+    {
+      "fr": "un changement",
+      "en": "a change"
+    },
+    {
+      "fr": "ta vraie nouvelle",
+      "en": "your real news"
+    },
+    {
+      "fr": "a rougi",
+      "en": "blushed"
+    },
+    {
+      "fr": "si fort que",
+      "en": "so loudly that"
+    }
+  ],
+  "spotlight": [
+    "**More negatives, same shape as ne… pas:** *Je ne mange plus de chocolat* (no longer). *Ne jamais regarder mon téléphone* (never). *Je ne dormais que cinq heures* (only). With an infinitive, both parts go in front: *de ne jamais regarder*.",
+    "**Ne… que isn't really negative.** It means \"only\", so the article stays: *je n'ai qu'une résolution*. **Ne… ni… ni** means neither… nor: *Je n'ai ni le temps ni l'énergie.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What are Marco's two resolutions?",
+      "answer": "No more chocolate after 10 p.m., and no more going to bed at 2 a.m.",
+      "options": [
+        "No more chocolate after 10 p.m., and no more going to bed at 2 a.m.",
+        "No more coffee, and no more video games",
+        "Never watching TV, and only eating vegetables",
+        "Running every day, and reading more"
+      ],
+      "evidence": "Je ne mange plus de chocolat après dix heures du soir. Et je ne me couche plus à deux heures du matin !"
+    },
+    {
+      "id": "q2",
+      "prompt": "Why does Karim's plan worry Léa?",
+      "answer": "He'll cycle to work among Marseille's scooters",
+      "options": [
+        "He'll cycle to work among Marseille's scooters",
+        "He'll walk four kilometres every day",
+        "He'll stop driving and take taxis",
+        "He'll work from home"
+      ],
+      "evidence": "Je vais à vélo. … À vélo, à Marseille ? Avec les scooters ?"
+    },
+    {
+      "id": "q3",
+      "prompt": "What is Amina's big news?",
+      "answer": "She's moving to Marseille in September to study at the conservatoire",
+      "options": [
+        "She's moving to Marseille in September to study at the conservatoire",
+        "She's getting married",
+        "She's moving back to Montréal",
+        "She's giving up music"
+      ],
+      "evidence": "En septembre, je n'habiterai plus à Paris. Je viens étudier au conservatoire de Marseille !"
+    }
+  ],
+  "writing": {
+    "prompt": "Write three New Year's resolutions using *ne… plus*, *ne… jamais* and *ne… que*.",
+    "model": "Cette année, je ne bois plus de soda. Je ne regarde jamais mon téléphone pendant le dîner. Je ne mange que des fruits au goûter.",
+    "targets": [
+      {
+        "label": "ne… plus",
+        "pattern": "\\bn(e\\s|')[^.!?]*\\bplus\\b",
+        "min": 1
+      },
+      {
+        "label": "ne… jamais",
+        "pattern": "\\bn(e\\s|')[^.!?]*\\bjamais\\b",
+        "min": 1
+      },
+      {
+        "label": "ne… que",
+        "pattern": "\\bn(e\\s|')[^.!?]*\\bqu(e\\b|')",
+        "min": 1
+      }
+    ]
+  }
+}

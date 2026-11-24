@@ -1,0 +1,207 @@
+{
+  "id": "b2-28",
+  "level": "B2",
+  "number": 28,
+  "title": "La critique",
+  "grammar": "evaluating and nuancing",
+  "theme": "a book review",
+  "wordCount": 511,
+  "primer": [
+    "**force est de constater que**: one has to admit that",
+    "**loin de + infinitif**: far from",
+    "**on regrettera que + subj.**: it's a pity that (a critic's reservation)",
+    "**aurait gagné à + infinitif**: would have benefited from",
+    "**il n'en reste pas moins que**: the fact remains that",
+    "**à défaut de**: for lack of, failing"
+  ],
+  "passage": [
+    [
+      "Une semaine après la sortie, une critique est parue dans un grand quotidien national. Léa l'a lue à voix haute dans la cuisine de Madame Ferrand, le cœur battant."
+    ],
+    [
+      "« Les Carnets du Vieux-Port : la mémoire d'un docker"
+    ],
+    [
+      "Il est rare qu'un livre venu d'une petite maison d'édition marseillaise retienne l'attention au-delà de la Provence. Les Carnets du Vieux-Port, de Jean Ferrand, édités par Simone Ferrand et Léa Moreau, mérite pourtant qu'on s'y arrête."
+    ],
+    [
+      "De 1960 à sa mort, Jean Ferrand, docker sur le port de Marseille, a rempli quarante carnets. Il y consignait tout : la météo, les disputes de voisins, les grèves, les chansons et, de manière plus inattendue, l'histoire oubliée du quartier Saint-Jean, détruit en 1943. Loin d'être un simple document, ce journal révèle un véritable écrivain, à la langue précise, souvent drôle, parfois bouleversante. Le récit d'une tempête de 1962, écrit à seize ans au passé simple, est un petit chef-d'œuvre de maladresse et de grâce."
+    ],
+    [
+      "Force est de constater que le choix des textes est remarquable. Les deux éditrices ont su éviter le piège de l'hommage pieux : Jean apparaît avec ses contradictions, ses colères, ses silences, et même ses mensonges amoureux. Les photographies de Léa Moreau, placées en regard de celles de Ferrand lui-même, créent un dialogue saisissant entre deux époques."
+    ],
+    [
+      "On regrettera toutefois que certains chapitres, notamment ceux consacrés aux années quatre-vingt-dix, souffrent de longueurs. Le livre aurait sans doute gagné à être resserré d'une cinquantaine de pages. De même, on aurait aimé en savoir davantage sur les dockers étrangers, italiens ou maghrébins, dont Ferrand cite les noms sans toujours raconter l'histoire."
+    ],
+    [
+      "Il n'en reste pas moins qu'il s'agit d'un livre rare, à la fois document historique et œuvre littéraire, sans pour autant être tout à fait l'un ou l'autre. À défaut d'avoir été publié de son vivant, Jean Ferrand trouve enfin, à titre posthume, la place qu'il méritait : celle d'un écrivain de Marseille. »"
+    ],
+    [
+      "Léa a posé le journal. Ses mains tremblaient un peu."
+    ],
+    [
+      "— C'est… c'est une très bonne critique.",
+      "— « Souffrent de longueurs », a répété Madame Ferrand, les sourcils froncés. Ce monsieur n'a jamais vécu les années quatre-vingt-dix à Marseille. Rien que la grève de 1987, ça valait trois chapitres.",
+      "— Il dit « un véritable écrivain ».",
+      "— Ça, il a bien fait de le dire."
+    ],
+    [
+      "Madame Ferrand a pris le journal, l'a plié soigneusement en quatre et l'a glissé entre les pages de son exemplaire du livre."
+    ],
+    [
+      "— Et « ses mensonges amoureux », qu'est-ce qu'il en sait ? a-t-elle grommelé.",
+      "— Le bal du 14 juillet, a rappelé Léa avec un sourire. La photo de 1971.",
+      "— Ah. Oui. Bon."
+    ],
+    [
+      "Elle a rougi, ce qui, à soixante-dix-huit ans, ne lui arrivait pas souvent. Léa a fait semblant de ne rien remarquer."
+    ],
+    [
+      "Le soir même, le livre est entré dans la liste des meilleures ventes régionales. La semaine suivante, Hélène a appelé : il fallait réimprimer. Le premier tirage, trois mille exemplaires, était épuisé."
+    ],
+    [
+      "— Et pour la deuxième édition, a-t-elle ajouté, vous voulez toujours ajouter le carnet 40 ?"
+    ],
+    [
+      "Léa a regardé Madame Ferrand, qui avait tout entendu."
+    ],
+    [
+      "— Demain, a dit la vieille dame. Demain, on l'ouvre."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "retienne l'attention",
+      "en": "catches people's attention"
+    },
+    {
+      "fr": "au-delà de",
+      "en": "beyond"
+    },
+    {
+      "fr": "mérite qu'on s'y arrête",
+      "en": "deserves a closer look",
+      "match": [
+        "mérite pourtant qu'on s'y arrête"
+      ]
+    },
+    {
+      "fr": "bouleversante",
+      "en": "deeply moving"
+    },
+    {
+      "fr": "un chef-d'œuvre",
+      "en": "a masterpiece"
+    },
+    {
+      "fr": "la maladresse",
+      "en": "clumsiness"
+    },
+    {
+      "fr": "le piège",
+      "en": "the trap"
+    },
+    {
+      "fr": "pieux",
+      "en": "reverent, pious"
+    },
+    {
+      "fr": "en regard de",
+      "en": "facing, opposite"
+    },
+    {
+      "fr": "saisissant",
+      "en": "striking"
+    },
+    {
+      "fr": "des longueurs",
+      "en": "slow passages"
+    },
+    {
+      "fr": "resserré",
+      "en": "tightened"
+    },
+    {
+      "fr": "à titre posthume",
+      "en": "posthumously"
+    },
+    {
+      "fr": "a grommelé",
+      "en": "grumbled",
+      "match": [
+        "a-t-elle grommelé"
+      ]
+    },
+    {
+      "fr": "le premier tirage",
+      "en": "the first print run"
+    },
+    {
+      "fr": "épuisé",
+      "en": "sold out"
+    }
+  ],
+  "spotlight": [
+    "**Praising with precision:** *Loin d'être un simple document, ce journal révèle un véritable écrivain. Force est de constater que le choix des textes est remarquable.* Criticism uses softening formulas: *On regrettera toutefois que certains chapitres souffrent de longueurs* (+ subjunctive), *Le livre aurait sans doute gagné à être resserré* (conditional past), *on aurait aimé en savoir davantage*.",
+    "**Balancing the verdict:** *Il n'en reste pas moins qu'il s'agit d'un livre rare* (the fact remains), *sans pour autant être tout à fait l'un ou l'autre* (without being entirely either), *À défaut d'avoir été publié de son vivant…* (not having been published in his lifetime). A good review shows its reservations and still reaches a clear conclusion."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Quelles qualités le critique reconnaît-il au livre ?",
+      "answer": "Un véritable écrivain, un choix de textes remarquable et un dialogue saisissant entre les photos",
+      "options": [
+        "Un véritable écrivain, un choix de textes remarquable et un dialogue saisissant entre les photos",
+        "Un livre très court et facile à lire",
+        "Une enquête policière passionnante",
+        "Un livre de cuisine marseillaise"
+      ],
+      "evidence": "Loin d'être un simple document, ce journal révèle un véritable écrivain"
+    },
+    {
+      "id": "q2",
+      "prompt": "Quelles réserves exprime-t-il ?",
+      "answer": "Des longueurs dans les années 90 et pas assez sur les dockers étrangers",
+      "options": [
+        "Des longueurs dans les années 90 et pas assez sur les dockers étrangers",
+        "Trop de photos et pas assez de texte",
+        "Une couverture laide",
+        "Des erreurs historiques"
+      ],
+      "evidence": "On regrettera toutefois que certains chapitres, notamment ceux consacrés aux années quatre-vingt-dix, souffrent de longueurs."
+    },
+    {
+      "id": "q3",
+      "prompt": "Comment Madame Ferrand réagit-elle à la critique ?",
+      "answer": "Elle conteste les « longueurs », apprécie « véritable écrivain » et garde l'article dans son livre",
+      "options": [
+        "Elle conteste les « longueurs », apprécie « véritable écrivain » et garde l'article dans son livre",
+        "Elle jette le journal",
+        "Elle écrit une lettre de protestation",
+        "Elle pleure toute la nuit"
+      ],
+      "evidence": "Madame Ferrand a pris le journal, l'a plié soigneusement en quatre et l'a glissé entre les pages de son exemplaire du livre."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez une courte critique (5–6 phrases) d'un livre, d'un film ou d'une série que vous connaissez, avec au moins un éloge, une réserve et une conclusion nuancée (*force est de constater, on regrettera que, aurait gagné à, il n'en reste pas moins…*).",
+    "model": "Ce film est une réussite. Force est de constater que les acteurs sont excellents. On regrettera toutefois que la fin soit un peu longue. Le scénario aurait gagné à être plus simple. Il n'en reste pas moins que c'est un film à voir.",
+    "targets": [
+      {
+        "label": "praise formulas (force est de constater, loin d'être, remarquable…)",
+        "pattern": "force est de constater|loin d'(être|avoir)|remarquable|réussite|excellent|saisissant",
+        "min": 1
+      },
+      {
+        "label": "reservation (on regrettera que, aurait gagné à, on aurait aimé)",
+        "pattern": "on regrettera qu|aurai(t|ent) gagné à|on aurait aimé|dommage qu",
+        "min": 1
+      },
+      {
+        "label": "balanced conclusion (il n'en reste pas moins, à défaut de, sans pour autant)",
+        "pattern": "il n'en reste pas moins|à défaut d|sans pour autant|toujours est-il",
+        "min": 1
+      }
+    ]
+  }
+}

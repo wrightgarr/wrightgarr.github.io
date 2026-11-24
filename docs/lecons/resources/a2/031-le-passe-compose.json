@@ -1,0 +1,68 @@
+{
+ "id": "s31",
+ "subject": 31,
+ "level": "A2",
+ "title": "Le Passé Composé (1st Group Verbs)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>passé composé</strong> is the main past tense of spoken French. It describes <strong>completed actions</strong> in the past: <em>J'ai mangé</em> = I ate / I have eaten.</p>"
+  },
+  {
+   "heading": "Formation: auxiliary (avoir or être) in the present + past participle",
+   "html": "<p>Most verbs use <strong>avoir</strong>. (Verbs using <em>être</em> are covered in Subject 34.)</p>\n<table>\n<thead>\n<tr>\n<th>avoir</th>\n<th>+ participle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>j'ai</td>\n<td>parlé</td>\n</tr>\n<tr>\n<td>tu as</td>\n<td>parlé</td>\n</tr>\n<tr>\n<td>il / elle / on a</td>\n<td>parlé</td>\n</tr>\n<tr>\n<td>nous avons</td>\n<td>parlé</td>\n</tr>\n<tr>\n<td>vous avez</td>\n<td>parlé</td>\n</tr>\n<tr>\n<td>ils / elles ont</td>\n<td>parlé</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Past participle of 1st group (-er) verbs: -er → **-é**",
+   "html": "<table>\n<thead>\n<tr>\n<th>Infinitive</th>\n<th>Participle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>parler</td>\n<td>parl<strong>é</strong></td>\n</tr>\n<tr>\n<td>manger</td>\n<td>mang<strong>é</strong></td>\n</tr>\n<tr>\n<td>travailler</td>\n<td>travaill<strong>é</strong></td>\n</tr>\n<tr>\n<td>acheter</td>\n<td>achet<strong>é</strong></td>\n</tr>\n<tr>\n<td>regarder</td>\n<td>regard<strong>é</strong></td>\n</tr>\n<tr>\n<td>aller</td>\n<td>allé (but uses <em>être</em>: <em>je suis allé</em>)</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Pronunciation:</strong> <em>parlé</em> sounds exactly like <em>parler</em> and <em>parlez</em>. Context and the auxiliary tell you it's past.</p>"
+  },
+  {
+   "heading": "Examples",
+   "html": "<ul>\n<li><em>Hier, j'</em><em>ai travaillé</em><em> jusqu'à 19 h.</em> — Yesterday I worked until 7 pm.</li>\n<li><em>Nous </em><em>avons mangé</em><em> au restaurant.</em> — We ate at the restaurant.</li>\n<li><em>Tu </em><em>as regardé</em><em> le match ?</em> — Did you watch the game?</li>\n<li><em>Ils </em><em>ont acheté</em><em> une maison.</em> — They bought a house.</li>\n</ul>"
+  },
+  {
+   "heading": "Negative: ne … pas around the auxiliary",
+   "html": "<p><em>Je </em><em>n'</em><em>ai </em><em>pas</em><em> mangé.</em> — I didn't eat.\n<em>Elle </em><em>n'</em><em>a </em><em>pas</em><em> téléphoné.</em></p>"
+  },
+  {
+   "heading": "Questions",
+   "html": "<p><em>Tu as mangé ?</em> / <em>Est-ce que tu as mangé ?</em> / <em>As-tu mangé ?</em> / <em>A-t-il mangé ?</em></p>"
+  },
+  {
+   "heading": "Adverbs: short adverbs go between auxiliary and participle",
+   "html": "<p><em>J'ai </em><em>bien</em><em> mangé.</em> / <em>Il a </em><em>déjà</em><em> payé.</em> — He has already paid. / <em>Tu as </em><em>beaucoup</em><em> travaillé.</em> / <em>Je n'ai </em><em>jamais</em><em> voyagé en Asie.</em></p>"
+  },
+  {
+   "heading": "Common time markers",
+   "html": "<p><em>hier</em> (yesterday), <em>hier soir</em> (last night), <em>la semaine dernière</em>, <em>l'année dernière</em>, <em>il y a deux jours</em> (two days ago), <em>ce matin</em>, <em>déjà</em> (already), <em>une fois</em> (once).</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Put into the passé composé: (a) Je parle. (b) Tu chantes. (c) Nous jouons. (d) Ils écoutent. (e) Vous achetez.",
+   "answer": "(a) J'ai parlé. (b) Tu as chanté. (c) Nous avons joué. (d) Ils ont écouté. (e) Vous avez acheté.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Make negative: *Elle a regardé la télé.*",
+   "answer": "*Elle n'a pas regardé la télé.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Turn into a question with inversion: *Vous avez trouvé la clé.*",
+   "answer": "*Avez-vous trouvé la clé ?*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"Yesterday, we ate pizza and watched a movie.\"",
+   "answer": "*Hier, nous avons mangé de la pizza et nous avons regardé un film.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Place the adverb: *J'ai mangé. (déjà)*",
+   "answer": "*J'ai déjà mangé.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

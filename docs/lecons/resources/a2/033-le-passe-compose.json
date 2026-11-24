@@ -1,0 +1,61 @@
+{
+ "id": "s33",
+ "subject": 33,
+ "level": "A2",
+ "title": "Le Passé Composé (3rd Group Verbs)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Irregular verbs have irregular past participles. They fall into groups by their ending.</p>"
+  },
+  {
+   "heading": "Participles ending in -u",
+   "html": "<table>\n<thead>\n<tr>\n<th>Infinitive</th>\n<th>Participle</th>\n<th>Infinitive</th>\n<th>Participle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>avoir</td>\n<td><strong>eu</strong> (pronounced \"ü\")</td>\n<td>voir</td>\n<td><strong>vu</strong></td>\n</tr>\n<tr>\n<td>boire</td>\n<td><strong>bu</strong></td>\n<td>lire</td>\n<td><strong>lu</strong></td>\n</tr>\n<tr>\n<td>pouvoir</td>\n<td><strong>pu</strong></td>\n<td>vouloir</td>\n<td><strong>voulu</strong></td>\n</tr>\n<tr>\n<td>devoir</td>\n<td><strong>dû</strong></td>\n<td>savoir</td>\n<td><strong>su</strong></td>\n</tr>\n<tr>\n<td>croire</td>\n<td><strong>cru</strong></td>\n<td>connaître</td>\n<td><strong>connu</strong></td>\n</tr>\n<tr>\n<td>venir</td>\n<td><strong>venu</strong></td>\n<td>tenir</td>\n<td><strong>tenu</strong></td>\n</tr>\n<tr>\n<td>vivre</td>\n<td><strong>vécu</strong></td>\n<td>recevoir</td>\n<td><strong>reçu</strong></td>\n</tr>\n<tr>\n<td>attendre</td>\n<td><strong>attendu</strong></td>\n<td>vendre</td>\n<td><strong>vendu</strong></td>\n</tr>\n<tr>\n<td>répondre</td>\n<td><strong>répondu</strong></td>\n<td>entendre</td>\n<td><strong>entendu</strong></td>\n</tr>\n<tr>\n<td>perdre</td>\n<td><strong>perdu</strong></td>\n<td>courir</td>\n<td><strong>couru</strong></td>\n</tr>\n<tr>\n<td>pleuvoir</td>\n<td><strong>plu</strong></td>\n<td>falloir</td>\n<td><strong>fallu</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Participles ending in -i / -is / -it",
+   "html": "<table>\n<thead>\n<tr>\n<th>Infinitive</th>\n<th>Participle</th>\n<th>Infinitive</th>\n<th>Participle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>dormir</td>\n<td><strong>dormi</strong></td>\n<td>partir</td>\n<td><strong>parti</strong></td>\n</tr>\n<tr>\n<td>sortir</td>\n<td><strong>sorti</strong></td>\n<td>servir</td>\n<td><strong>servi</strong></td>\n</tr>\n<tr>\n<td>rire</td>\n<td><strong>ri</strong></td>\n<td>suivre</td>\n<td><strong>suivi</strong></td>\n</tr>\n<tr>\n<td>prendre</td>\n<td><strong>pris</strong></td>\n<td>mettre</td>\n<td><strong>mis</strong></td>\n</tr>\n<tr>\n<td>apprendre</td>\n<td><strong>appris</strong></td>\n<td>comprendre</td>\n<td><strong>compris</strong></td>\n</tr>\n<tr>\n<td>dire</td>\n<td><strong>dit</strong></td>\n<td>écrire</td>\n<td><strong>écrit</strong></td>\n</tr>\n<tr>\n<td>conduire</td>\n<td><strong>conduit</strong></td>\n<td>traduire</td>\n<td><strong>traduit</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Participles ending in -ert / -int / other",
+   "html": "<table>\n<thead>\n<tr>\n<th>Infinitive</th>\n<th>Participle</th>\n<th>Infinitive</th>\n<th>Participle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ouvrir</td>\n<td><strong>ouvert</strong></td>\n<td>offrir</td>\n<td><strong>offert</strong></td>\n</tr>\n<tr>\n<td>découvrir</td>\n<td><strong>découvert</strong></td>\n<td>souffrir</td>\n<td><strong>souffert</strong></td>\n</tr>\n<tr>\n<td>peindre</td>\n<td><strong>peint</strong></td>\n<td>craindre</td>\n<td><strong>craint</strong></td>\n</tr>\n<tr>\n<td>être</td>\n<td><strong>été</strong></td>\n<td>faire</td>\n<td><strong>fait</strong></td>\n</tr>\n<tr>\n<td>naître</td>\n<td><strong>né</strong></td>\n<td>mourir</td>\n<td><strong>mort</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Examples",
+   "html": "<ul>\n<li><em>J'</em><em>ai eu</em><em> de la chance.</em> — I was lucky.</li>\n<li><em>Nous </em><em>avons été</em><em> surpris.</em> — We were surprised.</li>\n<li><em>Il </em><em>a fait</em><em> beau hier.</em> — The weather was nice yesterday.</li>\n<li><em>Tu </em><em>as vu</em><em> ce film ?</em> — Have you seen this movie?</li>\n<li><em>J'</em><em>ai pris</em><em> le train de 8 h.</em> — I took the 8 o'clock train.</li>\n<li><em>Elle m'</em><em>a dit</em><em> la vérité.</em> — She told me the truth.</li>\n<li><em>Ils </em><em>ont ouvert</em><em> un restaurant.</em> — They opened a restaurant.</li>\n<li><em>Je n'</em><em>ai</em><em> pas </em><em>pu</em><em> venir.</em> — I couldn't come.</li>\n</ul>"
+  },
+  {
+   "heading": "Tip",
+   "html": "<p><em>Être</em> (to be) uses <strong>avoir</strong> as its auxiliary: <em>j'ai été</em>. Never ~~je suis été~~.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "faire, prendre, voir, mettre, être, avoir, ouvrir, écrire.",
+   "instruction": "Give the past participle:",
+   "answer": "fait, pris, vu, mis, été, eu, ouvert, écrit.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Put into the passé composé: (a) Je bois un café. (b) Nous lisons le journal. (c) Il dit bonjour. (d) Vous faites la cuisine. (e) Ils attendent le bus.",
+   "answer": "(a) J'ai bu un café. (b) Nous avons lu le journal. (c) Il a dit bonjour. (d) Vous avez fait la cuisine. (e) Ils ont attendu le bus.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"I couldn't sleep.\"",
+   "answer": "*Je n'ai pas pu dormir.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"Did you (tu) understand the lesson?\"",
+   "answer": "*Tu as compris la leçon ?* / *As-tu compris la leçon ?*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"We received a letter and we answered.\"",
+   "answer": "*Nous avons reçu une lettre et nous avons répondu.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

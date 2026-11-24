@@ -1,0 +1,164 @@
+{
+  "id": "a2-24",
+  "level": "A2",
+  "number": 24,
+  "title": "Ce n'est pas la mienne !",
+  "grammar": "possessive pronouns",
+  "theme": "a suitcase mix-up",
+  "wordCount": 223,
+  "primer": [
+    "**le mien / la mienne / les miens / les miennes**: mine",
+    "**le tien / la tienne**: yours (to a friend)",
+    "**le sien / la sienne**: his / hers",
+    "**le nôtre / le vôtre / le leur**: ours / yours (formal or plural) / theirs",
+    "**une valise**: a suitcase",
+    "**se tromper de**: to take the wrong (*se tromper de valise*)"
+  ],
+  "passage": [
+    [
+      "Pour les vacances de la Toussaint, Léa est allée à Lyon chez ses parents. Dans le TGV, il y avait beaucoup de monde et toutes les valises étaient sur le même porte-bagages."
+    ],
+    [
+      "À Lyon, Léa a pris une valise rouge et elle est descendue. Chez ses parents, elle l'a ouverte… et elle a trouvé des chemises d'homme, une cravate et des livres en allemand !"
+    ],
+    [
+      "— Ce n'est pas la mienne ! Je me suis trompée de valise !",
+      "— Tu es sûre ? a demandé sa mère. Elle ressemble beaucoup à la tienne.",
+      "— Sûre. La mienne a un ruban vert sur la poignée. Cette valise n'a pas de ruban."
+    ],
+    [
+      "Heureusement, il y avait une étiquette avec un numéro de téléphone. Léa a appelé."
+    ],
+    [
+      "— Allô ? Bonjour, monsieur. Je crois que j'ai votre valise. Elle est rouge…",
+      "— Ah ! Et moi, j'ai la vôtre ! Je m'appelle Thomas. Je suis à Lyon aussi."
+    ],
+    [
+      "Une heure plus tard, ils se sont retrouvés dans un café de la place Bellecour."
+    ],
+    [
+      "— Voici la vôtre, a dit Thomas en souriant. Les miennes sont toujours rouges : c'est plus facile à trouver… normalement !",
+      "— La mienne aussi ! Mais maintenant, je vais acheter une valise jaune."
+    ],
+    [
+      "Ils ont ri. Thomas était sympa. Il était professeur d'allemand et il venait de Strasbourg."
+    ],
+    [
+      "Le soir, Léa a raconté l'histoire à Amina."
+    ],
+    [
+      "— Il était mignon, le propriétaire de la valise ?",
+      "— Amina !… Un peu."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "la Toussaint",
+      "en": "the All Saints' holiday (early November)"
+    },
+    {
+      "fr": "le porte-bagages",
+      "en": "the luggage rack"
+    },
+    {
+      "fr": "en allemand",
+      "en": "in German"
+    },
+    {
+      "fr": "ressemble à",
+      "en": "looks like",
+      "match": [
+        "ressemble beaucoup à"
+      ]
+    },
+    {
+      "fr": "un ruban",
+      "en": "a ribbon"
+    },
+    {
+      "fr": "la poignée",
+      "en": "the handle"
+    },
+    {
+      "fr": "une étiquette",
+      "en": "a luggage tag"
+    },
+    {
+      "fr": "la place Bellecour",
+      "en": "Lyon's main square"
+    },
+    {
+      "fr": "en souriant",
+      "en": "smiling"
+    },
+    {
+      "fr": "normalement",
+      "en": "normally"
+    },
+    {
+      "fr": "professeur d'allemand",
+      "en": "German teacher"
+    },
+    {
+      "fr": "mignon",
+      "en": "cute"
+    },
+    {
+      "fr": "le propriétaire",
+      "en": "the owner"
+    }
+  ],
+  "spotlight": [
+    "**Possessive pronouns replace a possessive + noun** and agree with the thing owned, not the owner: *ma valise → la mienne; mes valises → les miennes; ta valise → la tienne; votre valise → la vôtre.*",
+    "**The article is part of the pronoun:** *le mien, la nôtre, les leurs.* Compare *notre valise* (our suitcase, no accent) with *la nôtre* (ours, with an accent and an article)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "How did Léa know the suitcase wasn't hers?",
+      "answer": "Hers has a green ribbon on the handle",
+      "options": [
+        "Hers has a green ribbon on the handle",
+        "Hers is yellow",
+        "Hers has her name on it",
+        "Hers is much bigger"
+      ],
+      "evidence": "La mienne a un ruban vert sur la poignée. Cette valise n'a pas de ruban."
+    },
+    {
+      "id": "q2",
+      "prompt": "How did she contact the owner?",
+      "answer": "She called the number on the luggage tag",
+      "options": [
+        "She called the number on the luggage tag",
+        "She went back to the station",
+        "She posted on social media",
+        "She asked the TGV staff"
+      ],
+      "evidence": "Heureusement, il y avait une étiquette avec un numéro de téléphone. Léa a appelé."
+    },
+    {
+      "id": "q3",
+      "prompt": "Who is Thomas? Give two facts about him.",
+      "answer": "A German teacher from Strasbourg",
+      "options": [
+        "A German teacher from Strasbourg",
+        "A doctor from Lyon",
+        "A journalist from Marseille",
+        "A student from Paris"
+      ],
+      "evidence": "Il était professeur d'allemand et il venait de Strasbourg."
+    }
+  ],
+  "writing": {
+    "prompt": "Compare your things with a friend's in three sentences using possessive pronouns (*le mien, la tienne…*).",
+    "model": "Mon téléphone est noir, mais le tien est blanc. Ta voiture est grande ; la mienne est petite. Nos chats sont gris, mais les leurs sont roux.",
+    "targets": [
+      {
+        "label": "possessive pronouns (le mien, la tienne, les leurs…)",
+        "pattern": "\\b(le|la|les)\\s+(mien|mienne|miens|miennes|tien|tienne|tiens|tiennes|sien|sienne|siens|siennes|nôtre|nôtres|vôtre|vôtres|leur|leurs)\\b",
+        "min": 2
+      }
+    ]
+  }
+}

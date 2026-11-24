@@ -1,0 +1,66 @@
+{
+ "id": "s105",
+ "subject": 105,
+ "level": "B2",
+ "title": "Advanced Adjectives",
+ "sections": [
+  {
+   "heading": "1. Adjectives that change meaning with position",
+   "html": "<p>Before the noun = figurative / subjective. After = literal / objective.</p>\n<table>\n<thead>\n<tr>\n<th>Adjective</th>\n<th>Before the noun</th>\n<th>After the noun</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>ancien</strong></td>\n<td><em>mon ancien professeur</em> — former</td>\n<td><em>un meuble ancien</em> — antique, old</td>\n</tr>\n<tr>\n<td><strong>grand</strong></td>\n<td><em>un grand homme</em> — great</td>\n<td><em>un homme grand</em> — tall</td>\n</tr>\n<tr>\n<td><strong>cher</strong></td>\n<td><em>ma chère amie</em> — dear</td>\n<td><em>un restaurant cher</em> — expensive</td>\n</tr>\n<tr>\n<td><strong>pauvre</strong></td>\n<td><em>le pauvre homme</em> — unfortunate</td>\n<td><em>un homme pauvre</em> — poor (no money)</td>\n</tr>\n<tr>\n<td><strong>propre</strong></td>\n<td><em>ma propre voiture</em> — own</td>\n<td><em>une voiture propre</em> — clean</td>\n</tr>\n<tr>\n<td><strong>seul</strong></td>\n<td><em>le seul problème</em> — only</td>\n<td><em>une femme seule</em> — alone, lonely</td>\n</tr>\n<tr>\n<td><strong>même</strong></td>\n<td><em>la même chose</em> — same</td>\n<td><em>le jour même</em> — very</td>\n</tr>\n<tr>\n<td><strong>dernier</strong></td>\n<td><em>la dernière semaine</em> — final (of a series)</td>\n<td><em>la semaine dernière</em> — last (previous)</td>\n</tr>\n<tr>\n<td><strong>prochain</strong></td>\n<td><em>la prochaine fois</em> — next (in a series)</td>\n<td><em>la semaine prochaine</em> — next (coming)</td>\n</tr>\n<tr>\n<td><strong>certain</strong></td>\n<td><em>un certain charme</em> — a certain</td>\n<td><em>un succès certain</em> — sure, definite</td>\n</tr>\n<tr>\n<td><strong>brave</strong></td>\n<td><em>un brave homme</em> — good, decent</td>\n<td><em>un homme brave</em> — brave</td>\n</tr>\n<tr>\n<td><strong>curieux</strong></td>\n<td><em>une curieuse histoire</em> — strange</td>\n<td><em>un enfant curieux</em> — inquisitive</td>\n</tr>\n<tr>\n<td><strong>sale</strong></td>\n<td><em>un sale type</em> — nasty</td>\n<td><em>un tee-shirt sale</em> — dirty</td>\n</tr>\n<tr>\n<td><strong>simple</strong></td>\n<td><em>un simple employé</em> — mere</td>\n<td><em>une solution simple</em> — easy</td>\n</tr>\n<tr>\n<td><strong>vrai</strong></td>\n<td><em>un vrai ami</em> — real, true</td>\n<td><em>une histoire vraie</em> — true (not fiction)</td>\n</tr>\n<tr>\n<td><strong>unique</strong></td>\n<td><em>son unique enfant</em> — only</td>\n<td><em>une occasion unique</em> — unique</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "2. Multiple adjectives",
+   "html": "<ul>\n<li>Each in its normal position: <em>une </em><em>jolie</em><em> robe </em><em>rouge</em><strong>, <em>une <strong>belle</strong> maison **ancienne</em></strong>.</li>\n<li>Two after the noun: joined with <strong>et</strong>: <em>un homme </em><em>intelligent et sympathique</em>**.</li>\n<li>Two before: <em>une </em><em>belle petite</em><em> maison</em>.</li>\n</ul>"
+  },
+  {
+   "heading": "3. Compound adjectives (agreement)",
+   "html": "<ul>\n<li>Two adjectives: both agree: <em>des filles </em><em>sourdes-muettes</em>**.</li>\n<li>Adverb / invariable word + adjective: only the adjective agrees: <em>des enfants </em><em>bien-aimés</em><strong>, <em>des personnes **haut placées</em></strong>.</li>\n<li>Exception: <em>nouveau-né</em> → <em>des nouveau-nés</em>; <em>frais cueilli</em> → <em>des fleurs fraîches cueillies</em>.</li>\n<li>Colors (Subject 26): compound colors are invariable: <em>des yeux </em><em>bleu-vert</em>**.</li>\n</ul>"
+  },
+  {
+   "heading": "4. Adjectives used as nouns",
+   "html": "<p><em>les riches</em> (the rich), <em>un aveugle</em> (a blind person), <em>le nouveau</em> (the new guy), <em>l'essentiel</em> (the essential thing), <em>le pire</em> (the worst).</p>"
+  },
+  {
+   "heading": "5. Adjective + preposition + complement",
+   "html": "<table>\n<thead>\n<tr>\n<th>+ de</th>\n<th>+ à</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>capable de, content de, fier de, sûr de, plein de, digne de (worthy of), responsable de, conscient de (aware of)</td>\n<td>prêt à, facile à, difficile à, utile à, semblable à, fidèle à, habitué à, enclin à (inclined to)</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "6. Demi, nu, ci-joint, possible",
+   "html": "<ul>\n<li><em>une demi-heure</em> (before + hyphen = invariable) / <em>une heure et demie</em> (after = agrees in gender)</li>\n<li><em>nu-pieds</em> (invariable before) / <em>pieds nus</em> (agrees after)</li>\n<li><em>Ci-joint la facture</em> (invariable at start) / <em>la facture ci-jointe</em></li>\n<li><em>le plus de gens </em><em>possible</em>*<em> (invariable after </em>le plus / le moins*)</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "\"My former boss is a very tall man.\"",
+   "instruction": "Translate (watch the position!):",
+   "answer": "*Mon ancien patron est un homme très grand.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "\"It's my own house, and it's clean.\"",
+   "answer": "*C'est ma propre maison, et elle est propre.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "\"The poor guy lost his job.\" / \"They're a poor family.\"",
+   "answer": "*Le pauvre a perdu son travail.* / *C'est une famille pauvre.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "\"Next time, we'll go to an expensive restaurant.\"",
+   "answer": "*La prochaine fois, nous irons dans un restaurant cher.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "\"Last week, my dear friend arrived.\"",
+   "answer": "*La semaine dernière, ma chère amie est arrivée.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Agree: *une demi-___ (heure)* / *deux heures et ___ (demi)*.",
+   "answer": "*une demi-heure* / *deux heures et demie*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

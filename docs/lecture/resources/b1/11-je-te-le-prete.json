@@ -1,0 +1,174 @@
+{
+  "id": "b1-11",
+  "level": "B1",
+  "number": 11,
+  "title": "Je te le prête",
+  "grammar": "double object pronouns",
+  "theme": "a borrowed camera",
+  "wordCount": 356,
+  "primer": [
+    "**pronoun order**: *me / te / nous / vous* → *le / la / les* → *lui / leur* → *y* → *en*",
+    "**Tu me le prêtes ?**: Will you lend it to me?",
+    "**Je le lui ai donné.**: I gave it to him / her.",
+    "**imperative: Prête-le-moi !**: Lend it to me!",
+    "**prêter / rendre**: to lend / to give back",
+    "**un objectif**: a camera lens"
+  ],
+  "passage": [
+    [
+      "Fin mars, Nadia a confié à Lucas son premier vrai reportage : la fermeture de la dernière poissonnerie du quartier de l'Estaque. Lucas était ravi, mais il avait un problème : il n'avait pas d'appareil photo digne de ce nom."
+    ],
+    [
+      "— Léa, ton vieux Leica… tu me le prêtes ? a-t-il demandé d'une voix timide."
+    ],
+    [
+      "Léa a hésité. Ce Leica était le premier appareil qu'elle s'était acheté, à vingt ans, avec l'argent de son premier été de travail."
+    ],
+    [
+      "— Je te le prête, a-t-elle fini par dire. Mais tu me le rends vendredi, et en parfait état. Promets-le-moi.",
+      "— Je te le promets !",
+      "— Et l'objectif de 35 millimètres, tu en as besoin aussi ?",
+      "— Oui… tu me le donnes aussi ?",
+      "— Je te le prête, Lucas. Je ne te le donne pas !"
+    ],
+    [
+      "Karim, qui écoutait, a sorti un carnet de son sac."
+    ],
+    [
+      "— Tiens, prends aussi mon carnet d'adresses de l'Estaque. Les pêcheurs ne parlent pas aux inconnus, mais si tu leur dis que tu viens de ma part, ils te parleront.",
+      "— Tu me le laisses jusqu'à quand ?",
+      "— Garde-le. Mais ne le montre à personne : il y a des numéros que je ne donne jamais."
+    ],
+    [
+      "Le vendredi, Lucas est revenu à la rédaction avec des photos superbes et un article émouvant. Mais il avait l'air inquiet."
+    ],
+    [
+      "— Léa… pour ton Leica…",
+      "— Quoi ? Tu l'as cassé ?",
+      "— Non, non ! Mais le vieux poissonnier, Monsieur Garcia, l'a vu et il a pleuré. Il avait exactement le même quand il était jeune, et il l'avait perdu en mer. Il m'a demandé si je pouvais le lui vendre.",
+      "— Et tu lui as dit quoi ?",
+      "— Que ce n'était pas à moi. Que je devais te le demander."
+    ],
+    [
+      "Léa a réfléchi un long moment. Puis elle a pris le Leica et l'a mis dans les mains de Lucas."
+    ],
+    [
+      "— Apporte-le-lui. Ne le lui vends pas : offre-le-lui. Dis-lui que c'est un cadeau du Mistral pour sa dernière journée.",
+      "— Tu es sûre ?",
+      "— Sûre. Moi, j'ai mes souvenirs. Lui, il va perdre les siens avec sa boutique."
+    ],
+    [
+      "Le lendemain, Monsieur Garcia a envoyé une photo à la rédaction : lui, devant sa poissonnerie fermée, le Leica autour du cou. En dessous, il avait écrit : « Je vous la dédie. »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "a confié à",
+      "en": "entrusted to"
+    },
+    {
+      "fr": "la fermeture",
+      "en": "the closing down"
+    },
+    {
+      "fr": "une poissonnerie",
+      "en": "a fishmonger's"
+    },
+    {
+      "fr": "digne de ce nom",
+      "en": "worthy of the name"
+    },
+    {
+      "fr": "a fini par dire",
+      "en": "finally said",
+      "match": [
+        "a-t-elle fini par dire"
+      ]
+    },
+    {
+      "fr": "en parfait état",
+      "en": "in perfect condition"
+    },
+    {
+      "fr": "un carnet d'adresses",
+      "en": "an address book"
+    },
+    {
+      "fr": "les inconnus",
+      "en": "strangers"
+    },
+    {
+      "fr": "de ma part",
+      "en": "from me, on my behalf"
+    },
+    {
+      "fr": "émouvant",
+      "en": "moving"
+    },
+    {
+      "fr": "le poissonnier",
+      "en": "the fishmonger"
+    },
+    {
+      "fr": "autour du cou",
+      "en": "around his neck"
+    },
+    {
+      "fr": "Je vous la dédie",
+      "en": "I dedicate it to you"
+    }
+  ],
+  "spotlight": [
+    "**Two pronouns together follow a fixed order:** *me / te / nous / vous* first, then *le / la / les*: *Tu me le prêtes ? Je te le promets. Je ne te le donne pas. Je devais te le demander.* With *lui / leur*, the order flips and *le / la / les* comes first: *le lui vendre*.",
+    "**Affirmative imperative:** both pronouns go after the verb with hyphens, direct object first: *Promets-le-moi. Apporte-le-lui. Offre-le-lui.* In the negative, they go back in front of the verb in the usual order: *Ne le lui vends pas.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi Lucas a-t-il besoin du Leica de Léa ?",
+      "answer": "Pour son premier reportage, il n'a pas d'appareil digne de ce nom",
+      "options": [
+        "Pour son premier reportage, il n'a pas d'appareil digne de ce nom",
+        "Son appareil est cassé",
+        "Nadia le lui a demandé",
+        "Il veut le vendre"
+      ],
+      "evidence": "Lucas était ravi, mais il avait un problème : il n'avait pas d'appareil photo digne de ce nom."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi Karim donne-t-il son carnet d'adresses à Lucas ?",
+      "answer": "Les pêcheurs ne parlent pas aux inconnus",
+      "options": [
+        "Les pêcheurs ne parlent pas aux inconnus",
+        "Lucas a perdu le sien",
+        "Karim part en vacances",
+        "Il veut que Lucas appelle sa famille"
+      ],
+      "evidence": "Les pêcheurs ne parlent pas aux inconnus, mais si tu leur dis que tu viens de ma part, ils te parleront."
+    },
+    {
+      "id": "q3",
+      "prompt": "Que décide Léa à la fin, et pourquoi ?",
+      "answer": "Elle offre le Leica au poissonnier, qui va perdre sa boutique",
+      "options": [
+        "Elle offre le Leica au poissonnier, qui va perdre sa boutique",
+        "Elle vend le Leica pour aider le magazine",
+        "Elle garde le Leica et en achète un autre à Lucas",
+        "Elle donne le Leica à Lucas"
+      ],
+      "evidence": "Ne le lui vends pas : offre-le-lui."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez trois phrases avec deux pronoms (par exemple : *je te le prête, je le lui ai donné, rends-le-moi*).",
+    "model": "Mon frère m'a demandé ma voiture, alors je la lui ai prêtée. Ce livre, je te le donne. Rends-le-moi quand tu veux !",
+    "targets": [
+      {
+        "label": "two pronouns together (je te le, je la lui, rends-le-moi…)",
+        "pattern": "\\b(me|te|nous|vous|se|m'|t')\\s*(le|la|les|l')\\b|\\b(le|la|les|l')\\s*(lui|leur)\\b|-(le|la|les)-(moi|toi|lui|leur|nous)\\b",
+        "min": 2
+      }
+    ]
+  }
+}

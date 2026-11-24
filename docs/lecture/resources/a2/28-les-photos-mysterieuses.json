@@ -1,0 +1,172 @@
+{
+  "id": "a2-28",
+  "level": "A2",
+  "number": 28,
+  "title": "Les photos mystérieuses",
+  "grammar": "*quelqu'un, personne, quelque chose, rien*",
+  "theme": "a small mystery",
+  "wordCount": 217,
+  "primer": [
+    "**quelqu'un / personne (ne)**: someone / no one",
+    "**quelque chose / rien (ne)**: something / nothing",
+    "**Je n'ai rien vu.**: I didn't see anything. (*rien* goes before the participle)",
+    "**Je n'ai vu personne.**: I didn't see anyone. (*personne* goes after the participle)",
+    "**Personne n'est venu.**: No one came. (as a subject)",
+    "**un indice**: a clue",
+    "**une enquête**: an investigation"
+  ],
+  "passage": [
+    [
+      "Depuis trois semaines, il se passe quelque chose de bizarre. Chaque lundi matin, Léa trouve une enveloppe devant sa porte. Dans l'enveloppe, il y a une vieille photo de Marseille en noir et blanc : le Vieux-Port en 1960, une plage, un bateau de pêche… Mais il n'y a rien d'autre : pas de lettre, pas de nom."
+    ],
+    [
+      "— Quelqu'un te les apporte la nuit, a dit Karim. Tu n'as rien entendu ?",
+      "— Non, rien. Et je n'ai vu personne."
+    ],
+    [
+      "Léa a mené l'enquête. Elle a interrogé tous les voisins."
+    ],
+    [
+      "— Vous avez vu quelqu'un dans l'escalier lundi ?",
+      "— Non, personne, a répondu le monsieur du rez-de-chaussée.",
+      "— Moi, j'ai entendu quelque chose vers six heures, a dit l'étudiante du premier. Mais je n'ai rien vu."
+    ],
+    [
+      "Léa a regardé les photos attentivement. Au dos de la quatrième, elle a trouvé un indice : quelques lettres au crayon, « J.F. 1962 »."
+    ],
+    [
+      "J.F.… Personne dans l'immeuble ne s'appelle comme ça. Puis Léa a compris. Elle est descendue au deuxième étage et elle a frappé."
+    ],
+    [
+      "— Madame Ferrand… J.F., c'est Jean Ferrand, votre mari ?"
+    ],
+    [
+      "Madame Ferrand a baissé les yeux, puis elle a souri."
+    ],
+    [
+      "— Il prenait des photos partout. Ses photos dormaient dans une boîte et personne ne les regardait. Je voulais les donner à quelqu'un qui les aime. Pas à n'importe qui : à une vraie photographe."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "il se passe quelque chose de bizarre",
+      "en": "something strange is happening"
+    },
+    {
+      "fr": "une enveloppe",
+      "en": "an envelope"
+    },
+    {
+      "fr": "en noir et blanc",
+      "en": "in black and white"
+    },
+    {
+      "fr": "un bateau de pêche",
+      "en": "a fishing boat"
+    },
+    {
+      "fr": "rien d'autre",
+      "en": "nothing else"
+    },
+    {
+      "fr": "la nuit",
+      "en": "at night"
+    },
+    {
+      "fr": "a mené l'enquête",
+      "en": "investigated"
+    },
+    {
+      "fr": "a interrogé",
+      "en": "questioned"
+    },
+    {
+      "fr": "le rez-de-chaussée",
+      "en": "the ground floor"
+    },
+    {
+      "fr": "Au dos de",
+      "en": "On the back of"
+    },
+    {
+      "fr": "au crayon",
+      "en": "in pencil"
+    },
+    {
+      "fr": "a baissé les yeux",
+      "en": "looked down"
+    },
+    {
+      "fr": "n'importe qui",
+      "en": "just anyone"
+    }
+  ],
+  "spotlight": [
+    "**Negative words need ne:** *Je n'ai rien vu. Je n'ai vu personne.* Watch the position in the passé composé: *rien* goes before the participle, *personne* goes after it.",
+    "**As subjects, they come first:** *Personne dans l'immeuble ne s'appelle comme ça. Personne ne les regardait.* Their positive partners are *quelqu'un* and *quelque chose*. To add an adjective, use *de*: *quelque chose de bizarre, rien d'autre*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does Léa find every Monday?",
+      "answer": "An envelope with an old black-and-white photo of Marseille",
+      "options": [
+        "An envelope with an old black-and-white photo of Marseille",
+        "A letter from a secret admirer",
+        "A croissant and a coffee",
+        "A key to another apartment"
+      ],
+      "evidence": "Chaque lundi matin, Léa trouve une enveloppe devant sa porte. Dans l'enveloppe, il y a une vieille photo de Marseille en noir et blanc"
+    },
+    {
+      "id": "q2",
+      "prompt": "What clue does she find on the fourth photo?",
+      "answer": "The letters \"J.F. 1962\" in pencil on the back",
+      "options": [
+        "The letters \"J.F. 1962\" in pencil on the back",
+        "A phone number",
+        "Madame Ferrand's fingerprint",
+        "A drawing of the building"
+      ],
+      "evidence": "Au dos de la quatrième, elle a trouvé un indice : quelques lettres au crayon, « J.F. 1962 »."
+    },
+    {
+      "id": "q3",
+      "prompt": "Why did Madame Ferrand leave the photos?",
+      "answer": "They were her late husband's, and she wanted a real photographer to have them",
+      "options": [
+        "They were her late husband's, and she wanted a real photographer to have them",
+        "She wanted to sell them",
+        "She was playing a joke on Léa",
+        "She wanted Léa to frame them for her"
+      ],
+      "evidence": "Je voulais les donner à quelqu'un qui les aime. Pas à n'importe qui : à une vraie photographe."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about a mysterious event using *quelqu'un*, *personne*, *quelque chose* and *rien*.",
+    "model": "Hier soir, quelqu'un a sonné à ma porte. J'ai ouvert, mais il n'y avait personne. Sur le paillasson, il y avait quelque chose : une petite boîte. Je n'ai rien compris !",
+    "targets": [
+      {
+        "label": "quelqu'un",
+        "pattern": "quelqu'un",
+        "min": 1
+      },
+      {
+        "label": "personne",
+        "pattern": "\\bpersonne\\b",
+        "min": 1
+      },
+      {
+        "label": "quelque chose",
+        "pattern": "quelque chose",
+        "min": 1
+      },
+      {
+        "label": "rien",
+        "pattern": "\\brien\\b",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "s56",
+ "subject": 56,
+ "level": "A2",
+ "title": "Clothing",
+ "sections": [
+  {
+   "heading": "Clothes (les vêtements)",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>le pantalon</td>\n<td>pants / trousers (singular!)</td>\n<td>le jean</td>\n<td>jeans</td>\n</tr>\n<tr>\n<td>la chemise</td>\n<td>shirt (men's)</td>\n<td>le chemisier</td>\n<td>blouse</td>\n</tr>\n<tr>\n<td>le t-shirt / le chandail (Qc)</td>\n<td>t-shirt / sweater (Qc)</td>\n<td>le pull / le chandail</td>\n<td>sweater</td>\n</tr>\n<tr>\n<td>la robe</td>\n<td>dress</td>\n<td>la jupe</td>\n<td>skirt</td>\n</tr>\n<tr>\n<td>le short</td>\n<td>shorts</td>\n<td>le costume / le complet (Qc)</td>\n<td>suit (men's)</td>\n</tr>\n<tr>\n<td>la veste</td>\n<td>jacket / blazer</td>\n<td>le manteau</td>\n<td>coat</td>\n</tr>\n<tr>\n<td>l'imperméable (m)</td>\n<td>raincoat</td>\n<td>le blouson</td>\n<td>casual jacket</td>\n</tr>\n<tr>\n<td>le maillot de bain</td>\n<td>swimsuit</td>\n<td>le pyjama</td>\n<td>pajamas</td>\n</tr>\n<tr>\n<td>les sous-vêtements</td>\n<td>underwear</td>\n<td>les chaussettes (f) / les bas (Qc)</td>\n<td>socks</td>\n</tr>\n<tr>\n<td>le survêtement / le kangourou (Qc, hoodie)</td>\n<td>tracksuit / hoodie</td>\n<td>le gilet</td>\n<td>cardigan / vest</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Shoes and accessories",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>les chaussures (f)</td>\n<td>shoes</td>\n<td>les bottes (f)</td>\n<td>boots</td>\n</tr>\n<tr>\n<td>les baskets (Fr) / les espadrilles (Qc)</td>\n<td>sneakers</td>\n<td>les sandales (f)</td>\n<td>sandals</td>\n</tr>\n<tr>\n<td>le chapeau</td>\n<td>hat</td>\n<td>la casquette</td>\n<td>cap</td>\n</tr>\n<tr>\n<td>la tuque (Qc) / le bonnet (Fr)</td>\n<td>winter hat</td>\n<td>l'écharpe (f) / le foulard</td>\n<td>scarf</td>\n</tr>\n<tr>\n<td>les gants (m)</td>\n<td>gloves</td>\n<td>les mitaines (f) (Qc) / les moufles</td>\n<td>mittens</td>\n</tr>\n<tr>\n<td>la ceinture</td>\n<td>belt</td>\n<td>la cravate</td>\n<td>tie</td>\n</tr>\n<tr>\n<td>le sac à main</td>\n<td>handbag</td>\n<td>les lunettes (f)</td>\n<td>glasses</td>\n</tr>\n<tr>\n<td>la montre</td>\n<td>watch</td>\n<td>les bijoux (m)</td>\n<td>jewelry</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Key verbs",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verb</th>\n<th>Meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>porter</strong></td>\n<td>to wear</td>\n<td><em>Elle porte une robe rouge.</em></td>\n</tr>\n<tr>\n<td><strong>mettre</strong></td>\n<td>to put on</td>\n<td><em>Mets ton manteau, il fait froid !</em></td>\n</tr>\n<tr>\n<td><strong>enlever</strong> / <strong>retirer</strong></td>\n<td>to take off</td>\n<td><em>Enlève tes chaussures.</em></td>\n</tr>\n<tr>\n<td><strong>s'habiller</strong></td>\n<td>to get dressed</td>\n<td><em>Je m'habille vite.</em></td>\n</tr>\n<tr>\n<td><strong>essayer</strong></td>\n<td>to try on</td>\n<td><em>Je peux essayer ce pantalon ?</em></td>\n</tr>\n<tr>\n<td><strong>aller à quelqu'un</strong></td>\n<td>to suit / fit someone</td>\n<td><em>Cette robe te va bien !</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Describing clothes",
+   "html": "<ul>\n<li><em>C'est trop grand / petit / large / serré.</em> — It's too big / small / loose / tight.</li>\n<li><em>en coton / en laine / en soie / en cuir</em> — made of cotton / wool / silk / leather</li>\n<li><em>à rayures</em> (striped), <em>à carreaux</em> (checked), <em>à fleurs</em> (floral), <em>uni</em> (plain)</li>\n<li><em>à la mode</em> (fashionable), <em>démodé</em> (out of fashion), <em>élégant</em>, <em>décontracté</em> (casual)</li>\n</ul>"
+  },
+  {
+   "heading": "At the shop (au magasin)",
+   "html": "<ul>\n<li><em>Je cherche un pull.</em> — I'm looking for a sweater.</li>\n<li><em>Vous faites quelle taille ?</em> — What size are you? → <em>Je fais du M / du 40.</em></li>\n<li><em>Quelle est votre pointure ?</em> — What's your shoe size? → <em>Je fais du 42.</em></li>\n<li><em>Où sont les cabines d'essayage ?</em> — Where are the fitting rooms?</li>\n<li><em>Vous l'avez en bleu ?</em> — Do you have it in blue?</li>\n<li><em>Je le prends.</em> — I'll take it.</li>\n<li><em>C'est en solde ?</em> — Is it on sale?</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Translate: \"I'm wearing jeans and a white shirt.\"",
+   "answer": "*Je porte un jean et une chemise blanche.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Translate: \"Put on your gloves, it's cold!\"",
+   "answer": "*Mets tes gants, il fait froid !*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"Can I try on these shoes?\"",
+   "answer": "*Je peux essayer ces chaussures ?*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"This dress suits you well.\" (tu)",
+   "answer": "*Cette robe te va bien.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Describe what you're wearing today in 3 sentences.",
+   "answer": "Example: *Aujourd'hui, je porte un pantalon noir et un pull gris. J'ai des baskets blanches. Je porte aussi une montre.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

@@ -1,0 +1,48 @@
+{
+ "id": "s9",
+ "subject": 9,
+ "level": "A1",
+ "title": "Subject Pronouns (je, tu, il, elle, on, nous, vous, ils, elles)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Subject pronouns replace the person or thing doing the action.</p>\n<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>Notes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>je</strong> (j' before vowel/mute h)</td>\n<td>I</td>\n<td><em>j'aime</em>, <em>j'habite</em>; no capital unless it starts a sentence</td>\n</tr>\n<tr>\n<td><strong>tu</strong></td>\n<td>you (informal, one person)</td>\n<td>Never shortened in writing (<em>tu as</em>, not ~~t'as~~ except in slang)</td>\n</tr>\n<tr>\n<td><strong>il</strong></td>\n<td>he / it (masc.)</td>\n<td>Also used for masculine things: <em>Le livre ? Il est rouge.</em></td>\n</tr>\n<tr>\n<td><strong>elle</strong></td>\n<td>she / it (fem.)</td>\n<td><em>La voiture ? Elle est neuve.</em></td>\n</tr>\n<tr>\n<td><strong>on</strong></td>\n<td>one / we / people / someone</td>\n<td>Very common; always uses the <strong>il/elle</strong> verb form</td>\n</tr>\n<tr>\n<td><strong>nous</strong></td>\n<td>we</td>\n<td>More formal or written than <em>on</em></td>\n</tr>\n<tr>\n<td><strong>vous</strong></td>\n<td>you (formal singular <strong>or</strong> any plural)</td>\n<td><em>Vous êtes prêts ?</em> — Are you (all) ready?</td>\n</tr>\n<tr>\n<td><strong>ils</strong></td>\n<td>they (masc. or mixed group)</td>\n<td>Even 1 man + 99 women = <em>ils</em></td>\n</tr>\n<tr>\n<td><strong>elles</strong></td>\n<td>they (all feminine)</td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "The pronoun \"on\"",
+   "html": "<p><em>On</em> is used constantly in spoken French and means:\n1. <strong>we</strong> (informal): <em>On va au cinéma ?</em> — Shall we go to the movies?\n2. <strong>people in general / one</strong>: <em>En France, on mange tard.</em> — In France, people eat late.\n3. <strong>someone</strong>: <em>On frappe à la porte.</em> — Someone is knocking at the door.</p>\n<p>The verb is always conjugated like <em>il/elle</em>: <em>on parle</em>, <em>on est</em>, <em>on a</em>.</p>"
+  },
+  {
+   "heading": "\"It\" in French",
+   "html": "<p>English \"it\" becomes <strong>il</strong> or <strong>elle</strong> depending on the noun's gender:\n- <em>J'aime ce film. </em><em>Il</em><em> est génial.</em> (le film)\n- <em>Regarde la maison. </em><em>Elle</em><em> est grande.</em> (la maison)\n- For a general idea, use <strong>c'est</strong>: <em>C'est intéressant.</em> — It's interesting.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Replace the subject with a pronoun: (a) *Marie et Sophie* (b) *Paul et Marie* (c) *le chien* (d) *la lampe* (e) *mon frère et moi*.",
+   "answer": "(a) elles (b) ils (c) il (d) elle (e) nous / on",
+   "id": "e1"
+  },
+  {
+   "prompt": "Tu or vous? Talking to: (a) your three children (b) a police officer (c) your best friend.",
+   "answer": "(a) vous (b) vous (c) tu",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate using *on*: \"We are going to the beach.\"",
+   "answer": "*On va à la plage.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"In Québec, people speak French.\"",
+   "answer": "*Au Québec, on parle français.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Which verb form goes with *on*: *parle*, *parlons*, or *parlent*?",
+   "answer": "*parle*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

@@ -1,0 +1,48 @@
+{
+ "id": "s17",
+ "subject": 17,
+ "level": "A1",
+ "title": "Prepositions of Location",
+ "sections": [
+  {
+   "heading": "Simple prepositions",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>dans</strong></td>\n<td>in, inside</td>\n<td><em>Le chat est dans la boîte.</em></td>\n</tr>\n<tr>\n<td><strong>sur</strong></td>\n<td>on</td>\n<td><em>Le livre est sur la table.</em></td>\n</tr>\n<tr>\n<td><strong>sous</strong></td>\n<td>under</td>\n<td><em>Le chien est sous le lit.</em></td>\n</tr>\n<tr>\n<td><strong>devant</strong></td>\n<td>in front of</td>\n<td><em>Il attend devant l'école.</em></td>\n</tr>\n<tr>\n<td><strong>derrière</strong></td>\n<td>behind</td>\n<td><em>Le jardin est derrière la maison.</em></td>\n</tr>\n<tr>\n<td><strong>entre</strong></td>\n<td>between</td>\n<td><em>La banque est entre la poste et le café.</em></td>\n</tr>\n<tr>\n<td><strong>chez</strong></td>\n<td>at / to someone's place</td>\n<td><em>Je suis chez moi.</em> / <em>Je vais chez le médecin.</em></td>\n</tr>\n<tr>\n<td><strong>à</strong></td>\n<td>at / in (cities)</td>\n<td><em>Je suis à la maison.</em> / <em>à Montréal</em></td>\n</tr>\n<tr>\n<td><strong>en</strong></td>\n<td>in (feminine countries, materials)</td>\n<td><em>en France</em>, <em>en ville</em></td>\n</tr>\n<tr>\n<td><strong>contre</strong></td>\n<td>against</td>\n<td><em>Le vélo est contre le mur.</em></td>\n</tr>\n<tr>\n<td><strong>vers</strong></td>\n<td>towards</td>\n<td><em>Il marche vers la gare.</em></td>\n</tr>\n<tr>\n<td><strong>parmi</strong></td>\n<td>among</td>\n<td><em>parmi les invités</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Prepositions with \"de\" (de changes with the article!)",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>à côté de</strong></td>\n<td>next to</td>\n</tr>\n<tr>\n<td><strong>près de</strong></td>\n<td>near</td>\n</tr>\n<tr>\n<td><strong>loin de</strong></td>\n<td>far from</td>\n</tr>\n<tr>\n<td><strong>en face de</strong></td>\n<td>opposite, across from</td>\n</tr>\n<tr>\n<td><strong>au-dessus de</strong></td>\n<td>above</td>\n</tr>\n<tr>\n<td><strong>au-dessous de</strong></td>\n<td>below</td>\n</tr>\n<tr>\n<td><strong>à gauche de</strong></td>\n<td>to the left of</td>\n</tr>\n<tr>\n<td><strong>à droite de</strong></td>\n<td>to the right of</td>\n</tr>\n<tr>\n<td><strong>au milieu de</strong></td>\n<td>in the middle of</td>\n</tr>\n<tr>\n<td><strong>autour de</strong></td>\n<td>around</td>\n</tr>\n</tbody>\n</table>\n<p><strong>de + le = du, de + les = des:</strong>\n- <em>La pharmacie est à côté </em><em>du</em><em> supermarché.</em> (de + le)\n- <em>J'habite près </em><em>de la</em><em> gare.</em>\n- <em>Le parc est en face </em><em>de l'</em><em>hôpital.</em>\n- <em>Il est loin </em><em>des</em><em> magasins.</em> (de + les)</p>"
+  },
+  {
+   "heading": "Chez",
+   "html": "<p><em>Chez</em> + person (or pronoun) = at/to that person's home or business.\n- <em>chez moi</em> (at my place), <em>chez toi</em>, <em>chez lui</em>, <em>chez nous</em>\n- <em>chez Marie</em>, <em>chez mes parents</em>\n- <em>chez le dentiste</em>, <em>chez le coiffeur</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Translate: \"The keys are on the table, under the newspaper.\"",
+   "answer": "*Les clés sont sur la table, sous le journal.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Fill in with *du, de la, de l', des*: (a) près ___ banque (b) à côté ___ cinéma (c) en face ___ hôtel (d) loin ___ montagnes.",
+   "answer": "(a) de la (b) du (c) de l' (d) des",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"I'm going to my friend's place tonight.\" (use chez)",
+   "answer": "*Je vais chez mon ami(e) ce soir.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Opposite of: *devant*, *sur*, *près de*, *à gauche de*.",
+   "answer": "*derrière*, *sous*, *loin de*, *à droite de*.",
+   "id": "e4"
+  },
+  {
+   "prompt": "Describe your living room in 3 sentences using prepositions.",
+   "answer": "Example: *Le canapé est devant la télé. La lampe est à côté du canapé. Il y a un tapis sous la table.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

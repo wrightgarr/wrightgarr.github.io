@@ -1,0 +1,51 @@
+{
+ "id": "s120",
+ "subject": 120,
+ "level": "B2",
+ "title": "10 Expressions & Idioms (B2)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<table>\n<thead>\n<tr>\n<th>#</th>\n<th>Expression</th>\n<th>Literal meaning</th>\n<th>Real meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><strong>Avoir le bras long</strong></td>\n<td>To have a long arm</td>\n<td>To have influence, connections</td>\n<td><em>Son père a le bras long, il lui a trouvé un poste.</em></td>\n</tr>\n<tr>\n<td>2</td>\n<td><strong>Se mettre le doigt dans l'œil</strong></td>\n<td>To put one's finger in one's eye</td>\n<td>To be completely wrong</td>\n<td><em>Si tu crois que je vais accepter, tu te mets le doigt dans l'œil !</em></td>\n</tr>\n<tr>\n<td>3</td>\n<td><strong>Tourner autour du pot</strong></td>\n<td>To turn around the pot</td>\n<td>To beat around the bush</td>\n<td><em>Arrête de tourner autour du pot et dis-moi la vérité.</em></td>\n</tr>\n<tr>\n<td>4</td>\n<td><strong>Avoir du pain sur la planche</strong></td>\n<td>To have bread on the board</td>\n<td>To have a lot of work to do</td>\n<td><em>Avec ce nouveau projet, on a du pain sur la planche.</em></td>\n</tr>\n<tr>\n<td>5</td>\n<td><strong>Mettre la main à la pâte</strong></td>\n<td>To put one's hand in the dough</td>\n<td>To pitch in, lend a hand</td>\n<td><em>Tout le monde a mis la main à la pâte pour la fête.</em></td>\n</tr>\n<tr>\n<td>6</td>\n<td><strong>Être au bout du rouleau</strong></td>\n<td>To be at the end of the roll</td>\n<td>To be exhausted, at the end of one's rope</td>\n<td><em>Après six mois sans vacances, elle est au bout du rouleau.</em></td>\n</tr>\n<tr>\n<td>7</td>\n<td><strong>Jeter l'éponge</strong></td>\n<td>To throw the sponge</td>\n<td>To throw in the towel, give up</td>\n<td><em>Après trois échecs, il a jeté l'éponge.</em></td>\n</tr>\n<tr>\n<td>8</td>\n<td><strong>Ne pas être dans son assiette</strong></td>\n<td>To not be in one's plate</td>\n<td>To feel under the weather, off</td>\n<td><em>Je ne suis pas dans mon assiette aujourd'hui.</em></td>\n</tr>\n<tr>\n<td>9</td>\n<td><strong>Faire d'une pierre deux coups</strong></td>\n<td>To make two hits with one stone</td>\n<td>To kill two birds with one stone</td>\n<td><em>En allant à Montréal, je fais d'une pierre deux coups : je visite ma sœur et je vais au salon.</em></td>\n</tr>\n<tr>\n<td>10</td>\n<td><strong>Il ne faut pas vendre la peau de l'ours avant de l'avoir tué</strong></td>\n<td>Don't sell the bear's skin before killing it</td>\n<td>Don't count your chickens before they hatch</td>\n<td><em>On n'a pas encore signé le contrat : il ne faut pas vendre la peau de l'ours avant de l'avoir tué.</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Your colleague doesn't get to the point.",
+   "instruction": "Which expression fits?",
+   "answer": "*Il / Elle tourne autour du pot.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "You have a huge amount of work this week.",
+   "answer": "*J'ai du pain sur la planche.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "You're feeling a bit unwell today.",
+   "answer": "*Je ne suis pas dans mon assiette.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Your friend gave up after many attempts.",
+   "answer": "*Il / Elle a jeté l'éponge.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "You're completely exhausted after a long project.",
+   "answer": "*Je suis au bout du rouleau.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "You did two errands in one trip.",
+   "answer": "*J'ai fait d'une pierre deux coups.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Use *se mettre le doigt dans l'œil* in a sentence.",
+   "answer": "Example: *S'il pense que je vais payer pour lui, il se met le doigt dans l'œil.*",
+   "id": "e7"
+  }
+ ],
+ "outro": "<p><em>Félicitations ! You've completed the A1–B2 course. Keep practicing with French podcasts, books, films and conversation. Bonne continuation !</em></p>"
+}

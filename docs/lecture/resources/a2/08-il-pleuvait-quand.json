@@ -1,0 +1,148 @@
+{
+  "id": "a2-08",
+  "level": "A2",
+  "number": 8,
+  "title": "Il pleuvait quand…",
+  "grammar": "passé composé vs. imparfait",
+  "theme": "a stormy night",
+  "wordCount": 184,
+  "primer": [
+    "**imparfait = the scene**: what was going on (*il pleuvait* = it was raining)",
+    "**passé composé = the event**: what happened (*quelqu'un a frappé*)",
+    "**tout à coup / soudain**: suddenly",
+    "**pendant que**: while",
+    "**un orage**: a thunderstorm",
+    "**une panne de courant**: a power cut",
+    "**une bougie**: a candle"
+  ],
+  "passage": [
+    [
+      "Un mardi soir de mars, il pleuvait très fort sur Marseille. Il y avait un gros orage. Léa était seule chez elle. Elle lisait un roman sur le canapé et Minou dormait à côté d'elle."
+    ],
+    [
+      "Tout à coup, la lumière s'est éteinte. Une panne de courant ! Léa a cherché une bougie dans la cuisine. Pendant qu'elle cherchait, quelqu'un a frappé à la porte."
+    ],
+    [
+      "Léa avait un peu peur. Elle a ouvert doucement. C'était Madame Ferrand, avec une lampe de poche."
+    ],
+    [
+      "— Tout va bien, ma belle ? Je viens voir si tu as des bougies.",
+      "— Non, je n'ai pas de bougies !",
+      "— Alors, viens chez moi. J'ai des bougies, du thé et des biscuits."
+    ],
+    [
+      "Chez Madame Ferrand, il faisait bon. Il y avait des bougies partout. Les deux femmes ont bu du thé et elles ont joué aux cartes. Dehors, le vent soufflait et la pluie tombait toujours. Madame Ferrand a raconté une histoire : en 1978, pendant un orage, la mer est montée jusqu'à sa porte !"
+    ],
+    [
+      "À minuit, la lumière est revenue. Léa est rentrée chez elle. Minou dormait toujours sur le canapé. Il n'a rien remarqué !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "très fort",
+      "en": "very hard"
+    },
+    {
+      "fr": "seule",
+      "en": "alone"
+    },
+    {
+      "fr": "un roman",
+      "en": "a novel"
+    },
+    {
+      "fr": "la lumière s'est éteinte",
+      "en": "the lights went out"
+    },
+    {
+      "fr": "a frappé à la porte",
+      "en": "knocked on the door"
+    },
+    {
+      "fr": "doucement",
+      "en": "gently, slowly"
+    },
+    {
+      "fr": "une lampe de poche",
+      "en": "a flashlight"
+    },
+    {
+      "fr": "des biscuits",
+      "en": "cookies"
+    },
+    {
+      "fr": "il faisait bon",
+      "en": "it was nice and warm"
+    },
+    {
+      "fr": "dehors",
+      "en": "outside"
+    },
+    {
+      "fr": "le vent soufflait",
+      "en": "the wind was blowing"
+    },
+    {
+      "fr": "Il n'a rien remarqué",
+      "en": "He didn't notice a thing"
+    }
+  ],
+  "spotlight": [
+    "**Background vs. event:** the imparfait sets the scene and the passé composé moves the story forward. *Il pleuvait très fort… Léa était seule… (scene). Tout à coup, la lumière s'est éteinte. (event)*",
+    "**Interrupted action:** *Pendant qu'elle cherchait, quelqu'un a frappé à la porte.* The longer action in progress takes the imparfait. The short action that cuts in takes the passé composé."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What was Léa doing when the lights went out?",
+      "answer": "Reading a novel on the sofa",
+      "options": [
+        "Reading a novel on the sofa",
+        "Cooking dinner",
+        "Taking a shower",
+        "Talking on the phone"
+      ],
+      "evidence": "Elle lisait un roman sur le canapé et Minou dormait à côté d'elle."
+    },
+    {
+      "id": "q2",
+      "prompt": "Who knocked on the door, and what did she offer?",
+      "answer": "Madame Ferrand — candles, tea and cookies at her place",
+      "options": [
+        "Madame Ferrand — candles, tea and cookies at her place",
+        "Karim — a lift to his apartment",
+        "The baker — fresh bread",
+        "A neighbour — a flashlight to keep"
+      ],
+      "evidence": "C'était Madame Ferrand, avec une lampe de poche. … J'ai des bougies, du thé et des biscuits."
+    },
+    {
+      "id": "q3",
+      "prompt": "What story did Madame Ferrand tell?",
+      "answer": "In 1978, during a storm, the sea came up to her door",
+      "options": [
+        "In 1978, during a storm, the sea came up to her door",
+        "Her husband once got lost in a storm",
+        "The lights went out for a whole week in 1978",
+        "Her cat disappeared during a storm"
+      ],
+      "evidence": "en 1978, pendant un orage, la mer est montée jusqu'à sa porte !"
+    }
+  ],
+  "writing": {
+    "prompt": "Write two sentences that combine both tenses, following the pattern \"I was … when …\" (*Je … quand …*).",
+    "model": "Je dormais quand le téléphone a sonné. Il neigeait quand nous sommes arrivés à Montréal.",
+    "targets": [
+      {
+        "label": "an imparfait verb (the scene)",
+        "pattern": "\\b(?!(?:mais|jamais|français|anglais|frais|vrais|mauvais|fait|parfait|lait|souhait)\\b)(?![a-zà-ÿ]*tions\\b)[a-zà-ÿ]+(ais|ait|ions|iez|aient)\\b",
+        "min": 1
+      },
+      {
+        "label": "quand + passé composé (the event)",
+        "pattern": "quand\\s+[^.!?]*\\b(ai|as|a|avons|avez|ont|suis|es|est|sommes|êtes|sont)\\s+[a-zà-ÿ]+",
+        "min": 1
+      }
+    ]
+  }
+}

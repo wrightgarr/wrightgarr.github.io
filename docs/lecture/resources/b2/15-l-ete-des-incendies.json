@@ -1,0 +1,195 @@
+{
+  "id": "b2-15",
+  "level": "B2",
+  "number": 15,
+  "title": "L'été des incendies",
+  "grammar": "the expletive *ne* and conjunctions",
+  "theme": "a wildfire",
+  "wordCount": 514,
+  "primer": [
+    "**le ne explétif**: a *ne* with no negative meaning, used in formal French",
+    "**avant que… ne + subj.**: before",
+    "**à moins que… ne + subj.**: unless",
+    "**de peur que… ne / craindre que… ne + subj.**: for fear that / to fear that",
+    "**plus… que ne + indicatif**: more… than",
+    "**un incendie**: a large fire"
+  ],
+  "passage": [
+    [
+      "En juillet, il n'avait pas plu depuis deux mois. Le mistral soufflait depuis trois jours quand, un mardi à quatorze heures, une colonne de fumée noire s'est élevée au-dessus du massif de l'Étoile, au nord de la ville."
+    ],
+    [
+      "Léa était à la rédaction. Nadia a seulement dit : « Vas-y. » Vingt minutes plus tard, elle était sur une route de colline avec Lucas, son appareil autour du cou et un masque sur le visage."
+    ],
+    [
+      "Le feu avançait plus vite qu'on ne l'aurait cru. Poussées par le vent, les flammes sautaient d'une crête à l'autre, dévorant les pins et la garrigue. Les marins-pompiers de Marseille, qui sont des militaires de la Marine, avaient installé leur poste de commandement à l'entrée d'un village. Un officier a arrêté Léa."
+    ],
+    [
+      "— Vous pouvez rester ici, mais pas plus loin. Je ne veux pas avoir à venir vous chercher avant que la nuit ne tombe.",
+      "— Vous pensez pouvoir l'arrêter ?",
+      "— À moins que le vent ne tourne, non. Pas aujourd'hui. On protège les maisons, c'est tout."
+    ],
+    [
+      "Au-dessus d'eux, les Canadair passaient en grondant, larguant des tonnes d'eau de mer qu'ils allaient chercher dans la rade. Léa photographiait sans s'arrêter : les visages noirs de suie, un vieil homme arrosant son toit avec un tuyau d'arrosage, une femme qui sortait ses chats dans des cages, une petite fille serrant un lapin en peluche contre elle."
+    ],
+    [
+      "Vers dix-huit heures, les gendarmes ont ordonné l'évacuation du village. Les habitants partaient en silence, de peur que les flammes n'atteignent leurs voitures. Certains refusaient. Un homme d'au moins quatre-vingts ans s'était assis devant sa porte."
+    ],
+    [
+      "— J'ai déjà vu brûler cette colline, il y a quarante ans, a-t-il dit à Lucas. Je ne partirai pas avant qu'on ne m'y oblige."
+    ],
+    [
+      "On l'y a obligé, gentiment, vingt minutes plus tard."
+    ],
+    [
+      "La nuit est tombée. Le ciel était rouge. De la ville, on voyait la ligne de feu dessiner une couronne sur les collines. Thomas a appelé trois fois, Madame Ferrand cinq."
+    ],
+    [
+      "— Rentre, ma belle. Je crains que tu ne fasses une bêtise.",
+      "— Je rentre bientôt. Je vous le promets."
+    ],
+    [
+      "Le vent a enfin faibli vers deux heures du matin. À l'aube, le feu était « fixé », comme disent les pompiers. Il avait brûlé plus de mille hectares, trois maisons et une bergerie. Personne n'était mort."
+    ],
+    [
+      "Dans l'après-midi, les habitants ont pu revenir. Certains ont retrouvé leur maison intacte, au milieu d'un paysage noir. Le vieil homme, lui, a trouvé son jardin brûlé, mais sa maison était encore debout. Il s'est assis devant sa porte, exactement comme la veille."
+    ],
+    [
+      "Le lendemain, Léa a trié ses photos. Elle en a envoyé six à Nadia et six à Horizons. Puis elle a ouvert le carnet de l'été 1979. Jean y avait décrit le même massif en feu, la même peur, les mêmes avions jaunes et rouges."
+    ],
+    [
+      "« On dit que le feu est un accident. Ce n'est pas tout à fait vrai. Le feu est une conséquence. Il arrive quand on a oublié la forêt. »"
+    ],
+    [
+      "Elle a recopié la phrase sous sa meilleure photo : le vieil homme, assis devant sa porte, la colline rouge derrière lui."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "une colonne de fumée",
+      "en": "a column of smoke"
+    },
+    {
+      "fr": "le massif de l'Étoile",
+      "en": "the hills north of Marseille"
+    },
+    {
+      "fr": "une crête",
+      "en": "a ridge"
+    },
+    {
+      "fr": "dévorant",
+      "en": "devouring"
+    },
+    {
+      "fr": "la garrigue",
+      "en": "Mediterranean scrubland"
+    },
+    {
+      "fr": "le poste de commandement",
+      "en": "the command post"
+    },
+    {
+      "fr": "en grondant",
+      "en": "roaring"
+    },
+    {
+      "fr": "larguant",
+      "en": "dropping"
+    },
+    {
+      "fr": "la rade",
+      "en": "the bay"
+    },
+    {
+      "fr": "la suie",
+      "en": "soot"
+    },
+    {
+      "fr": "un tuyau d'arrosage",
+      "en": "a garden hose"
+    },
+    {
+      "fr": "un lapin en peluche",
+      "en": "a stuffed toy rabbit"
+    },
+    {
+      "fr": "une bêtise",
+      "en": "something stupid"
+    },
+    {
+      "fr": "a faibli",
+      "en": "weakened",
+      "match": [
+        "a enfin faibli"
+      ]
+    },
+    {
+      "fr": "une bergerie",
+      "en": "a sheepfold"
+    }
+  ],
+  "spotlight": [
+    "**The expletive ne isn't negative:** *avant que la nuit ne tombe* = before night falls. *À moins que le vent ne tourne* = unless the wind turns. *de peur que les flammes n'atteignent leurs voitures* = for fear the flames might reach their cars. *Je crains que tu ne fasses une bêtise* = I'm afraid you'll do something silly. It's optional in everyday speech but common in careful writing.",
+    "**It also appears after comparisons:** *Le feu avançait plus vite qu'on ne l'aurait cru* (faster than anyone would have thought). Don't mistake it for real negation, which needs *pas, plus, jamais*: *Je ne partirai pas* is negative, but *avant qu'on ne m'y oblige* is not."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi l'officier pense-t-il qu'il ne pourra pas arrêter le feu ce jour-là ?",
+      "answer": "Il pense que c'est impossible à moins que le vent ne tourne",
+      "options": [
+        "Il pense que c'est impossible à moins que le vent ne tourne",
+        "Il manque de pompiers",
+        "Les Canadair sont en panne",
+        "La route est coupée"
+      ],
+      "evidence": "À moins que le vent ne tourne, non. Pas aujourd'hui."
+    },
+    {
+      "id": "q2",
+      "prompt": "Comment les habitants réagissent-ils à l'ordre d'évacuation ?",
+      "answer": "La plupart partent en silence, d'autres refusent comme un vieil homme assis devant sa porte",
+      "options": [
+        "La plupart partent en silence, d'autres refusent comme un vieil homme assis devant sa porte",
+        "Tout le monde panique et crie",
+        "Personne ne veut partir",
+        "Ils restent pour aider les pompiers"
+      ],
+      "evidence": "Les habitants partaient en silence, de peur que les flammes n'atteignent leurs voitures. Certains refusaient."
+    },
+    {
+      "id": "q3",
+      "prompt": "Que dit Jean sur le feu dans son carnet de 1979 ?",
+      "answer": "Le feu n'est pas un accident mais une conséquence de l'oubli de la forêt",
+      "options": [
+        "Le feu n'est pas un accident mais une conséquence de l'oubli de la forêt",
+        "Le feu est une punition du ciel",
+        "Le feu est toujours causé par les touristes",
+        "Le feu est utile à la forêt"
+      ],
+      "evidence": "On dit que le feu est un accident. Ce n'est pas tout à fait vrai. Le feu est une conséquence. Il arrive quand on a oublié la forêt."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez quatre phrases sur une situation d'urgence (réelle ou imaginaire) avec *avant que… ne, à moins que… ne, de peur que… ne* et *craindre que… ne*.",
+    "model": "Il faut évacuer la ville avant que la tempête n'arrive. À moins que le vent ne change de direction, les vagues atteindront le port. Les habitants ferment leurs volets de peur que les fenêtres ne se brisent. Je crains que les secours ne puissent pas venir à temps.",
+    "targets": [
+      {
+        "label": "avant que… ne",
+        "pattern": "avant qu(e|')[^.!?]*\\bn(e\\b|')",
+        "min": 1
+      },
+      {
+        "label": "à moins que… ne",
+        "pattern": "à moins qu(e|')[^.!?]*\\bn(e\\b|')",
+        "min": 1
+      },
+      {
+        "label": "de peur que / craindre que… ne",
+        "pattern": "(de peur|crains|craint|craignons|craignez|craignent|craignais|craignait)\\s+qu(e|')[^.!?]*\\bn(e\\b|')",
+        "min": 1
+      }
+    ]
+  }
+}

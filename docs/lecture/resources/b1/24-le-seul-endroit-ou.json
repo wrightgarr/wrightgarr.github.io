@@ -1,0 +1,167 @@
+{
+  "id": "b1-24",
+  "level": "B1",
+  "number": 24,
+  "title": "Le seul endroit où…",
+  "grammar": "subjunctive after superlatives and in relative clauses",
+  "theme": "a birthday surprise",
+  "wordCount": 369,
+  "primer": [
+    "**le / la plus… que + subj.**: the most… that (*la personne la plus têtue que je connaisse*)",
+    "**le seul / le premier… qui + subj.**: the only / the first… who",
+    "**je cherche quelqu'un qui + subj.**: I'm looking for someone who (may or may not exist)",
+    "**il n'y a personne qui + subj.**: there's no one who",
+    "**subjonctif passé = avoir / être (subj.) + participe**: *qu'il ait écrit*",
+    "**un discours**: a speech"
+  ],
+  "passage": [
+    [
+      "Le 14 décembre, Madame Ferrand a eu soixante-dix-sept ans. Elle avait dit à tout le monde qu'elle ne voulait pas de fête. Évidemment, personne ne l'a écoutée."
+    ],
+    [
+      "Léa avait tout organisé avec la complicité de son fils, Pierre. À sept heures du soir, quand la vieille dame est rentrée du marché, son appartement était plein : ses voisins, ses anciens élèves, quelques pêcheurs, toute l'équipe du Mistral, Josette aux cheveux violets, et même le professeur Delmas, qu'Amina avait réussi à inviter. Sur l'écran de l'ordinateur, sa fille et ses petits-enfants lui faisaient signe depuis Québec."
+    ],
+    [
+      "— Vous êtes fous, a-t-elle dit, les larmes aux yeux. Complètement fous."
+    ],
+    [
+      "Après le gâteau, Pierre a frappé sur son verre."
+    ],
+    [
+      "— Maman, tu es la personne la plus têtue que je connaisse. Tu es aussi la plus généreuse. Papa disait que tu étais la seule femme qui puisse le supporter. Je crois qu'il avait raison."
+    ],
+    [
+      "Tout le monde a ri. Puis Karim s'est levé."
+    ],
+    [
+      "— Madame Ferrand, vous êtes la première lectrice du Mistral qui nous ait écrit pour nous engueuler… et la seule qui ait eu raison à chaque fois."
+    ],
+    [
+      "Enfin, Léa s'est levée à son tour. Elle avait préparé un petit texte."
+    ],
+    [
+      "— Quand je suis arrivée à Marseille, je cherchais un appartement qui soit lumineux, pas trop cher, avec une vue sur la mer. Je l'ai trouvé. Mais je ne savais pas que je cherchais aussi quelqu'un qui me fasse une place dans cette ville. Vous êtes la seule personne qui m'ait ouvert sa porte le premier soir. Votre appartement est le seul endroit où je me sente vraiment chez moi. C'est le plus beau cadeau qu'on m'ait jamais fait."
+    ],
+    [
+      "Le silence était total. Madame Ferrand s'est essuyé les yeux avec sa serviette."
+    ],
+    [
+      "— Bon, a-t-elle dit enfin. Puisque tout le monde fait des discours… Moi, je cherche quelqu'un qui sache faire la bouillabaisse quand je ne serai plus là. Il n'y a personne ici qui en soit capable. Alors, ma belle, à partir de janvier, tous les samedis, tu viens en cuisine avec moi. C'est mon cadeau d'anniversaire. Pour moi.",
+      "— C'est le cadeau le plus difficile qu'on m'ait jamais demandé, a dit Léa.",
+      "— Je sais. C'est pour ça que je te le demande à toi."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "la complicité",
+      "en": "the (secret) help"
+    },
+    {
+      "fr": "lui faisaient signe",
+      "en": "were waving to her"
+    },
+    {
+      "fr": "têtue",
+      "en": "stubborn"
+    },
+    {
+      "fr": "supporter",
+      "en": "to put up with"
+    },
+    {
+      "fr": "nous engueuler",
+      "en": "to tell us off (familiar)"
+    },
+    {
+      "fr": "à chaque fois",
+      "en": "every time"
+    },
+    {
+      "fr": "à son tour",
+      "en": "in turn"
+    },
+    {
+      "fr": "me fasse une place",
+      "en": "would make room for me"
+    },
+    {
+      "fr": "s'est essuyé les yeux",
+      "en": "wiped her eyes"
+    },
+    {
+      "fr": "sa serviette",
+      "en": "her napkin"
+    },
+    {
+      "fr": "des discours",
+      "en": "speeches"
+    },
+    {
+      "fr": "capable",
+      "en": "able"
+    }
+  ],
+  "spotlight": [
+    "**After a superlative, le seul or le premier, the relative clause usually takes the subjunctive:** *la personne la plus têtue que je connaisse; la seule femme qui puisse le supporter; le seul endroit où je me sente vraiment chez moi*. For the past, use *ait* + participle: *la première lectrice qui nous ait écrit; le plus beau cadeau qu'on m'ait jamais fait*.",
+    "**When the thing you're looking for may not exist:** *Je cherchais un appartement qui soit lumineux. Je cherche quelqu'un qui sache faire la bouillabaisse. Il n'y a personne ici qui en soit capable.* Compare *J'ai trouvé un appartement qui est lumineux*: it exists, so the indicative."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Qui est venu à la fête de Madame Ferrand ?",
+      "answer": "Ses voisins, ses anciens élèves, des pêcheurs, l'équipe du Mistral, Josette et même Delmas",
+      "options": [
+        "Ses voisins, ses anciens élèves, des pêcheurs, l'équipe du Mistral, Josette et même Delmas",
+        "Seulement sa famille",
+        "Seulement Léa et Amina",
+        "Les journalistes de La Gazette"
+      ],
+      "evidence": "son appartement était plein : ses voisins, ses anciens élèves, quelques pêcheurs, toute l'équipe du Mistral, Josette aux cheveux violets, et même le professeur Delmas"
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi Karim parle-t-il de lettres de Madame Ferrand ?",
+      "answer": "Elle leur écrit pour les critiquer, et elle a toujours eu raison",
+      "options": [
+        "Elle leur écrit pour les critiquer, et elle a toujours eu raison",
+        "Elle écrit tous les articles",
+        "Elle est abonnée depuis le début",
+        "Elle a donné de l'argent au magazine"
+      ],
+      "evidence": "vous êtes la première lectrice du Mistral qui nous ait écrit pour nous engueuler… et la seule qui ait eu raison à chaque fois."
+    },
+    {
+      "id": "q3",
+      "prompt": "Quel cadeau Madame Ferrand demande-t-elle à Léa, et pourquoi ?",
+      "answer": "Venir apprendre la bouillabaisse tous les samedis, pour que quelqu'un sache la faire après elle",
+      "options": [
+        "Venir apprendre la bouillabaisse tous les samedis, pour que quelqu'un sache la faire après elle",
+        "Organiser une autre fête l'année prochaine",
+        "Faire des photos de ses petits-enfants",
+        "Écrire un article sur elle"
+      ],
+      "evidence": "Moi, je cherche quelqu'un qui sache faire la bouillabaisse quand je ne serai plus là."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez trois phrases sur une personne importante pour vous avec *la personne la plus… que je connaisse*, *la seule qui…* et *je cherche quelqu'un qui…*",
+    "model": "Ma grand-mère est la personne la plus patiente que je connaisse. C'est la seule qui puisse calmer mon frère. Je cherche quelqu'un qui soit aussi gentil qu'elle.",
+    "targets": [
+      {
+        "label": "superlative + que",
+        "pattern": "\\b(le|la|les) (plus|moins|meilleure?s?)\\b[^.!?]*\\bqu(e|')",
+        "min": 1
+      },
+      {
+        "label": "le seul / la seule / le premier… qui",
+        "pattern": "\\b(le seul|la seule|les seuls|les seules|le premier|la première|l'unique)\\b[^.!?]*\\bqu(i|e|')",
+        "min": 1
+      },
+      {
+        "label": "je cherche quelqu'un qui…",
+        "pattern": "cherche[^.!?]*\\bqui\\b",
+        "min": 1
+      }
+    ]
+  }
+}

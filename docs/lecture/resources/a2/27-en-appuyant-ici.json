@@ -1,0 +1,153 @@
+{
+  "id": "a2-27",
+  "level": "A2",
+  "number": 27,
+  "title": "En appuyant ici…",
+  "grammar": "the gérondif (*en* + *-ant*)",
+  "theme": "a smartphone lesson",
+  "wordCount": 199,
+  "primer": [
+    "**en + -ant**: while doing / by doing (*en marchant* = while walking)",
+    "**formation**: *nous* form minus *-ons* + *-ant*: *nous appuyons → en appuyant*",
+    "**irregular**: *être → en étant, avoir → en ayant, savoir → en sachant*",
+    "**tout en…**: while (at the very same time)",
+    "**apprendre à + infinitive**: to learn to",
+    "**allumer**: to switch on"
+  ],
+  "passage": [
+    [
+      "Pour Noël, le fils de Madame Ferrand lui a offert un smartphone. Mais Madame Ferrand le regardait comme un animal dangereux. Alors, en janvier, Léa lui a donné des leçons."
+    ],
+    [
+      "— C'est facile. Vous allumez le téléphone en appuyant sur ce bouton.",
+      "— Comme ça ? Oh ! Il s'allume !",
+      "— Voilà. Et vous appelez quelqu'un en touchant sa photo."
+    ],
+    [
+      "Madame Ferrand a touché la photo de sa fille, à Québec. Une minute plus tard, elle parlait à sa fille en vidéo, tout en pleurant de joie."
+    ],
+    [
+      "— Je la vois ! Je la vois en parlant !"
+    ],
+    [
+      "La semaine suivante, elle a appris à envoyer des photos. Elle a photographié Minou en train de dormir, la mer, le marché… En se promenant au Vieux-Port, elle a même pris un selfie avec un pêcheur."
+    ],
+    [
+      "— Attention, a dit Léa en riant. Vous allez devenir photographe !"
+    ],
+    [
+      "Mais il y a un problème : maintenant, Madame Ferrand écrit des messages en marchant dans la rue. Hier, en traversant la place, elle est presque tombée dans une fontaine."
+    ],
+    [
+      "— Madame Ferrand ! On ne marche pas en regardant son téléphone !",
+      "— Je sais, ma belle. Mais ma petite-fille venait de m'envoyer une vidéo… Tu sais, à mon âge, on apprend beaucoup en regardant les jeunes !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "dangereux",
+      "en": "dangerous"
+    },
+    {
+      "fr": "appuyant sur",
+      "en": "pressing"
+    },
+    {
+      "fr": "le bouton",
+      "en": "the button"
+    },
+    {
+      "fr": "Il s'allume",
+      "en": "It's turning on"
+    },
+    {
+      "fr": "touchant",
+      "en": "touching"
+    },
+    {
+      "fr": "pleurant de joie",
+      "en": "crying with joy"
+    },
+    {
+      "fr": "la semaine suivante",
+      "en": "the following week"
+    },
+    {
+      "fr": "un selfie",
+      "en": "a selfie"
+    },
+    {
+      "fr": "en riant",
+      "en": "laughing"
+    },
+    {
+      "fr": "presque",
+      "en": "almost"
+    },
+    {
+      "fr": "une fontaine",
+      "en": "a fountain"
+    },
+    {
+      "fr": "ma petite-fille",
+      "en": "my granddaughter"
+    },
+    {
+      "fr": "les jeunes",
+      "en": "young people"
+    }
+  ],
+  "spotlight": [
+    "**The gérondif (en + -ant)** shows how something is done, or what happens at the same time: *Vous appelez quelqu'un en touchant sa photo* (by touching). *Elle écrit des messages en marchant* (while walking). Both actions belong to the same person.",
+    "**Forming it:** take the *nous* form, drop *-ons* and add *-ant*: *nous touchons → en touchant, nous traversons → en traversant*. *Tout en* stresses \"at the very same time\": *tout en pleurant de joie*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Who gave Madame Ferrand the smartphone, and how did she feel about it at first?",
+      "answer": "Her son — at first she looked at it like a dangerous animal",
+      "options": [
+        "Her son — at first she looked at it like a dangerous animal",
+        "Léa — she loved it right away",
+        "Her daughter — she wanted to sell it",
+        "Karim — she was very excited"
+      ],
+      "evidence": "Pour Noël, le fils de Madame Ferrand lui a offert un smartphone. Mais Madame Ferrand le regardait comme un animal dangereux."
+    },
+    {
+      "id": "q2",
+      "prompt": "Whom did she call first?",
+      "answer": "Her daughter in Québec",
+      "options": [
+        "Her daughter in Québec",
+        "Léa",
+        "Her son",
+        "A fisherman at the port"
+      ],
+      "evidence": "Madame Ferrand a touché la photo de sa fille, à Québec."
+    },
+    {
+      "id": "q3",
+      "prompt": "What almost happened yesterday, and why?",
+      "answer": "She almost fell into a fountain, because she was texting while walking",
+      "options": [
+        "She almost fell into a fountain, because she was texting while walking",
+        "She almost lost her phone in the sea",
+        "She almost missed her bus",
+        "She almost dropped Minou"
+      ],
+      "evidence": "Hier, en traversant la place, elle est presque tombée dans une fontaine."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about how you learn things, or things you do at the same time, using the gérondif.",
+    "model": "J'apprends le français en lisant des histoires. J'écoute de la musique en faisant la cuisine. Je me détends en marchant au parc.",
+    "targets": [
+      {
+        "label": "gérondif: en + -ant (×3)",
+        "pattern": "\\ben\\s+[a-zà-ÿ]+ant\\b",
+        "min": 3
+      }
+    ]
+  }
+}

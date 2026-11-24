@@ -1,0 +1,57 @@
+{
+ "id": "s77",
+ "subject": 77,
+ "level": "B1",
+ "title": "Impersonal Verbs (falloir, pleuvoir, neiger, …)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Impersonal verbs</strong> are only used with <strong>il</strong>, and that <em>il</em> doesn't refer to anyone (like English \"it\" in \"it's raining\").</p>"
+  },
+  {
+   "heading": "Weather verbs",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verb</th>\n<th>Present</th>\n<th>Passé composé</th>\n<th>Imparfait</th>\n<th>Futur</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>pleuvoir (rain)</td>\n<td>il pleut</td>\n<td>il a plu</td>\n<td>il pleuvait</td>\n<td>il pleuvra</td>\n</tr>\n<tr>\n<td>neiger (snow)</td>\n<td>il neige</td>\n<td>il a neigé</td>\n<td>il neigeait</td>\n<td>il neigera</td>\n</tr>\n<tr>\n<td>geler (freeze)</td>\n<td>il gèle</td>\n<td>il a gelé</td>\n<td>il gelait</td>\n<td>il gèlera</td>\n</tr>\n<tr>\n<td>grêler (hail)</td>\n<td>il grêle</td>\n<td>il a grêlé</td>\n<td>il grêlait</td>\n<td>il grêlera</td>\n</tr>\n<tr>\n<td>tonner (thunder)</td>\n<td>il tonne</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>faire (+ adj.)</td>\n<td>il fait beau / froid</td>\n<td>il a fait</td>\n<td>il faisait</td>\n<td>il fera</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Falloir: \"to be necessary / must / need\"",
+   "html": "<table>\n<thead>\n<tr>\n<th>Tense</th>\n<th>Form</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Présent</td>\n<td><strong>il faut</strong></td>\n</tr>\n<tr>\n<td>Passé composé</td>\n<td>il a fallu</td>\n</tr>\n<tr>\n<td>Imparfait</td>\n<td>il fallait</td>\n</tr>\n<tr>\n<td>Futur</td>\n<td>il faudra</td>\n</tr>\n<tr>\n<td>Conditionnel</td>\n<td>il faudrait</td>\n</tr>\n<tr>\n<td>Subjonctif</td>\n<td>qu'il faille</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Constructions:</strong>\n1. <strong>Il faut + infinitive</strong> (general obligation): <em>Il faut manger pour vivre.</em> / <em>Il faut partir.</em>\n2. <strong>Il faut que + subjonctif</strong> (specific person): <em>Il faut que </em><em>tu</em><em> partes.</em>\n3. <strong>Il (me/te/lui…) faut + noun</strong> (need): <em>Il </em><em>me</em><em> faut un stylo.</em> — I need a pen. / <em>Il </em><em>lui</em><em> faut du temps.</em>\n4. <strong>Negative:</strong> <em>Il </em><em>ne faut pas</em><em> fumer ici.</em> = You <strong>must not</strong> smoke here (prohibition). \"You don't have to\" = <em>Ce </em><em>n'est pas nécessaire</em><em> / Tu </em><em>n'es pas obligé</em><em> de…</em>\n5. <em>Il faudrait</em> = it would be necessary, you/we should: <em>Il faudrait appeler le médecin.</em>\n6. <em>Comme il faut</em> = properly: <em>Fais ton travail comme il faut.</em></p>"
+  },
+  {
+   "heading": "Other impersonal expressions",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>il y a</strong></td>\n<td>there is/are</td>\n<td><em>Il y a du monde.</em></td>\n</tr>\n<tr>\n<td><strong>il s'agit de</strong></td>\n<td>it's about, it's a matter of</td>\n<td><em>Dans ce livre, </em><em>il s'agit d'</em><em>une famille.</em> / <em><strong>Il s'agit de</strong> trouver une solution.</em></td>\n</tr>\n<tr>\n<td><strong>il vaut mieux</strong></td>\n<td>it's better</td>\n<td><em><strong>Il vaut mieux</strong> partir tôt.</em> / <em>Il vaut mieux que tu partes.</em></td>\n</tr>\n<tr>\n<td><strong>il reste</strong></td>\n<td>there remains / is left</td>\n<td><em><strong>Il reste</strong> du gâteau.</em> / <em>Il me reste 10 $.</em></td>\n</tr>\n<tr>\n<td><strong>il manque</strong></td>\n<td>there is missing</td>\n<td><em><strong>Il manque</strong> une chaise.</em> / <em>Tu me manques.</em> (I miss you — personal)</td>\n</tr>\n<tr>\n<td><strong>il paraît que</strong></td>\n<td>apparently</td>\n<td><em><strong>Il paraît qu'</strong>il va se marier.</em></td>\n</tr>\n<tr>\n<td><strong>il semble que</strong></td>\n<td>it seems that</td>\n<td></td>\n</tr>\n<tr>\n<td><strong>il arrive que</strong></td>\n<td>it happens that</td>\n<td><em><strong>Il arrive que</strong> je me trompe.</em> (+ subjonctif)</td>\n</tr>\n<tr>\n<td><strong>il est + adj. + de / que</strong></td>\n<td>it is… to / that</td>\n<td><strong><em>Il est</em>* important </strong>de*<em> dormir.</em></td>\n</tr>\n<tr>\n<td><strong>il suffit de</strong></td>\n<td>all you need is / it's enough</td>\n<td><em><strong>Il suffit de</strong> demander.</em> — You just have to ask.</td>\n</tr>\n<tr>\n<td><strong>il se passe</strong></td>\n<td>is happening</td>\n<td><em>Qu'est-ce qu'</em><em>il se passe</em><em> ?</em></td>\n</tr>\n<tr>\n<td><strong>il est + time</strong></td>\n<td>it is</td>\n<td><em><strong>Il est</strong> 8 heures.</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Conjugate *pleuvoir* in the passé composé, imparfait and futur.",
+   "answer": "*il a plu*, *il pleuvait*, *il pleuvra*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Translate: \"I need a new computer.\" (use *il me faut*)",
+   "answer": "*Il me faut un nouvel ordinateur.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"You must not touch that!\"",
+   "answer": "*Il ne faut pas toucher ça !*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"It's better to call before coming.\"",
+   "answer": "*Il vaut mieux appeler avant de venir.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"There are two pieces of cake left.\"",
+   "answer": "*Il reste deux morceaux de gâteau.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Rewrite with *il faut que*: *Nous devons partir.*",
+   "answer": "*Il faut que nous partions.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

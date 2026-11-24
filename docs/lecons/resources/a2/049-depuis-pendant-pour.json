@@ -1,0 +1,67 @@
+{
+ "id": "s49",
+ "subject": 49,
+ "level": "A2",
+ "title": "Depuis, Pendant & Pour",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>These three prepositions all relate to duration, but they're used very differently.</p>"
+  },
+  {
+   "heading": "Depuis = since / for (action still going on)",
+   "html": "<p>Use <strong>depuis</strong> with the <strong>present tense</strong> for an action that started in the past and <strong>continues now</strong>. English uses the present perfect (\"have been doing\").\n- <em>J'habite à Toronto </em><em>depuis</em><em> 10 ans.</em> — I <strong>have lived</strong> in Toronto for 10 years. (still living there)\n- <em>J'apprends le français </em><em>depuis</em><em> janvier.</em> — I've been learning French since January.\n- <em>Il pleut </em><em>depuis</em><em> ce matin.</em> — It's been raining since this morning.</p>\n<p><strong>Questions:</strong>\n- <em>Depuis quand… ?</em> — Since when? → <em>Depuis 2020.</em>\n- <em>Depuis combien de temps… ?</em> — How long…? → <em>Depuis trois mois.</em></p>\n<p><strong>Equivalents:</strong> <em>Il y a … que</em> / <em>Ça fait … que</em> + present: <em>Ça fait 10 ans que j'habite ici.</em> = <em>Il y a 10 ans que j'habite ici.</em></p>\n<p><strong>Negative + passé composé:</strong> <em>Je ne l'ai pas vu </em><em>depuis</em><em> des mois.</em> — I haven't seen him for months.</p>"
+  },
+  {
+   "heading": "Pendant = during / for (completed duration)",
+   "html": "<p>Use <strong>pendant</strong> for a <strong>defined period</strong>, usually finished (past) or in the future. Often with the passé composé.\n- <em>J'ai habité à Paris </em><em>pendant</em><em> deux ans.</em> — I lived in Paris for two years. (not anymore)\n- <em>J'ai dormi </em><em>pendant</em><em> le film.</em> — I slept during the movie.\n- <em>Je vais travailler </em><em>pendant</em><em> les vacances.</em>\n- <em>Pendant</em> is often optional: <em>J'ai attendu (pendant) une heure.</em></p>\n<p><strong>Question:</strong> <em>Pendant combien de temps… ?</em> — For how long?</p>"
+  },
+  {
+   "heading": "Pour = for (intended future duration)",
+   "html": "<p>Use <strong>pour</strong> for a <strong>planned duration</strong>, mostly with verbs of movement (<em>partir, aller, venir, être là</em>).\n- <em>Je pars en France </em><em>pour</em><em> une semaine.</em> — I'm going to France for a week.\n- <em>Il est venu </em><em>pour</em><em> trois jours.</em> — He came for three days (that was the plan).</p>"
+  },
+  {
+   "heading": "Summary",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Meaning</th>\n<th>Tense</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>depuis</strong></td>\n<td>since / for (ongoing)</td>\n<td>present</td>\n<td><em>J'attends </em><em>depuis</em><em> 20 minutes.</em></td>\n</tr>\n<tr>\n<td><strong>pendant</strong></td>\n<td>for / during (completed or defined)</td>\n<td>any, often passé composé</td>\n<td><em>J'ai attendu </em><em>pendant</em><em> 20 minutes.</em></td>\n</tr>\n<tr>\n<td><strong>pour</strong></td>\n<td>for (intended duration)</td>\n<td>with partir, aller, venir</td>\n<td><em>Je pars </em><em>pour</em><em> 20 minutes.</em></td>\n</tr>\n<tr>\n<td><strong>il y a</strong></td>\n<td>ago</td>\n<td>passé composé</td>\n<td><em>Je suis arrivé </em><em>il y a</em><em> 20 minutes.</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je suis marié ___ 15 ans.",
+   "instruction": "Choose *depuis*, *pendant*, *pour* or *il y a*:",
+   "answer": "depuis",
+   "id": "e1"
+  },
+  {
+   "prompt": "Nous avons voyagé ___ un mois.",
+   "answer": "pendant",
+   "id": "e2"
+  },
+  {
+   "prompt": "Elle part à Londres ___ le week-end.",
+   "answer": "pour",
+   "id": "e3"
+  },
+  {
+   "prompt": "J'ai commencé ce travail ___ trois ans.",
+   "answer": "il y a",
+   "id": "e4"
+  },
+  {
+   "prompt": "Il a plu ___ toute la nuit.",
+   "answer": "pendant",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"How long have you been waiting?\"",
+   "answer": "*Depuis combien de temps tu attends ?* / *Depuis combien de temps attendez-vous ?*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"I haven't eaten since yesterday.\"",
+   "answer": "*Je n'ai pas mangé depuis hier.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

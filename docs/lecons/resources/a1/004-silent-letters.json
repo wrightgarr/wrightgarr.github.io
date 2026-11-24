@@ -1,0 +1,64 @@
+{
+ "id": "s4",
+ "subject": 4,
+ "level": "A1",
+ "title": "Silent Letters (d, e, g, h, p, s, t, x)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Many French letters are written but not pronounced, especially at the <strong>end</strong> of words.</p>"
+  },
+  {
+   "heading": "General rule: final consonants are usually silent",
+   "html": "<table>\n<thead>\n<tr>\n<th>Letter</th>\n<th>Examples (final letter silent)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>d</strong></td>\n<td><em>grand</em>, <em>froid</em>, <em>pied</em></td>\n</tr>\n<tr>\n<td><strong>g</strong></td>\n<td><em>long</em>, <em>sang</em></td>\n</tr>\n<tr>\n<td><strong>p</strong></td>\n<td><em>beaucoup</em>, <em>trop</em>, <em>loup</em></td>\n</tr>\n<tr>\n<td><strong>s</strong></td>\n<td><em>Paris</em>, <em>vous</em>, <em>les</em>, <em>amis</em></td>\n</tr>\n<tr>\n<td><strong>t</strong></td>\n<td><em>petit</em>, <em>chat</em>, <em>salut</em>, <em>et</em></td>\n</tr>\n<tr>\n<td><strong>x</strong></td>\n<td><em>deux</em>, <em>prix</em>, <em>heureux</em></td>\n</tr>\n<tr>\n<td><strong>z</strong></td>\n<td><em>nez</em>, <em>chez</em>, <em>parlez</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "The \"CaReFuL\" exception",
+   "html": "<p>Final <strong>C, R, F, L</strong> are usually <strong>pronounced</strong>:\n- <strong>c</strong>: <em>avec</em>, <em>sac</em>, <em>parc</em>\n- <strong>r</strong>: <em>bonjour</em>, <em>hiver</em>, <em>car</em>\n- <strong>f</strong>: <em>neuf</em>, <em>chef</em>, <em>actif</em>\n- <strong>l</strong>: <em>avril</em>, <em>sel</em>, <em>journal</em></p>\n<p>Exceptions: the <strong>-er</strong> of infinitives is pronounced \"ay\" with a silent r (<em>parler</em>, <em>manger</em>); <em>blanc</em>, <em>estomac</em> (silent c); <em>gentil</em> (silent l).</p>"
+  },
+  {
+   "heading": "Silent **e**",
+   "html": "<ul>\n<li>A final <strong>e</strong> without an accent is silent: <em>table</em>, <em>rouge</em>, <em>France</em>.</li>\n<li>But it makes the consonant before it pronounced: <em>petit</em> (silent t) vs <em>petite</em> (t pronounced). This is how you hear the feminine of many adjectives.</li>\n</ul>"
+  },
+  {
+   "heading": "Silent **h**",
+   "html": "<p>The <strong>h</strong> is never pronounced in French. There are two kinds:\n- <strong>h muet</strong> (mute h): the word behaves as if it starts with a vowel. You use <em>l'</em> and make liaisons: <em>l'homme</em>, <em>l'hôtel</em>, <em>les‿hommes</em> (lez-om).\n- <strong>h aspiré</strong> (aspirated h): still silent, but it blocks elision and liaison: <em>le héros</em>, <em>la haine</em>, <em>les | haricots</em> (lay ah-ree-ko, no z). Dictionaries mark these with an asterisk or apostrophe.</p>"
+  },
+  {
+   "heading": "Silent endings of verbs",
+   "html": "<ul>\n<li><strong>-ent</strong> in the 3rd person plural of verbs is silent: <em>ils parlent</em> sounds exactly like <em>il parle</em>.</li>\n<li><strong>-es</strong>, <strong>-e</strong> also silent: <em>tu parles</em>, <em>je parle</em> all sound the same.</li>\n</ul>"
+  },
+  {
+   "heading": "Liaison: when a silent consonant wakes up",
+   "html": "<p>When a word ending in a silent consonant is followed by a word starting with a vowel or mute h, the consonant is often pronounced and linked:\n- <em>les‿amis</em> (lay-z-ah-mee) — s sounds like <strong>z</strong>\n- <em>vous‿avez</em> (voo-z-ah-vay)\n- <em>petit‿enfant</em> (puh-tee-t-ahn-fahn)\n- <em>deux‿heures</em> (duh-z-uhr) — x sounds like <strong>z</strong></p>\n<p>Liaison is <strong>required</strong> after articles (<em>les, des, un</em>), pronouns (<em>nous, vous, ils</em>), and short adjectives before nouns. It is <strong>forbidden</strong> after <em>et</em> (<em>et | elle</em>).</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Which final letters are pronounced? *sac*, *grand*, *mer*, *vingt*, *chef*, *trop*.",
+   "answer": "Pronounced: *sac* (c), *mer* (r), *chef* (f). Silent: *grand*, *vingt*, *trop*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Do these two sound the same or different? *il mange* / *ils mangent*.",
+   "answer": "The same.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Is there a liaison? (a) *les enfants* (b) *et alors* (c) *vous habitez*.",
+   "answer": "(a) yes: *les‿enfants* (b) no (never after *et*) (c) yes: *vous‿habitez*.",
+   "id": "e3"
+  },
+  {
+   "prompt": "Which is correct: *l'héros* or *le héros*?",
+   "answer": "*le héros* (aspirated h).",
+   "id": "e4"
+  },
+  {
+   "prompt": "Why is the *t* pronounced in *petite* but not *petit*?",
+   "answer": "The final silent **e** makes the preceding consonant pronounced.",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

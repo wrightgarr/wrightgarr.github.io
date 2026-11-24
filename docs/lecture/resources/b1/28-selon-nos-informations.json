@@ -1,0 +1,177 @@
+{
+  "id": "b1-28",
+  "level": "B1",
+  "number": 28,
+  "title": "Selon nos informations…",
+  "grammar": "the journalistic conditional",
+  "theme": "a fake story in the press",
+  "wordCount": 366,
+  "primer": [
+    "**le conditionnel journalistique**: marks unconfirmed information (*il serait* = he is said to be)",
+    "**conditionnel passé = avoir / être (cond.) + participe**: *il aurait perdu* (he has reportedly lost)",
+    "**selon / d'après + source**: according to",
+    "**la faillite**: bankruptcy",
+    "**une source**: a source",
+    "**des preuves**: evidence"
+  ],
+  "passage": [
+    [
+      "Un matin d'avril, Théo est arrivé à la rédaction avec un journal à la main, l'air furieux."
+    ],
+    [
+      "— Vous avez vu ça ? La Gazette du Sud parle de nous !"
+    ],
+    [
+      "Il a lu l'article à voix haute :"
+    ],
+    [
+      "« Selon nos informations, le magazine Le Mistral serait au bord de la faillite. La coopérative, créée il y a seulement sept mois, aurait déjà perdu plus de cent mille euros. Plusieurs journalistes chercheraient un nouvel emploi. D'après une source proche du dossier, le groupe parisien Médias Plus serait prêt à racheter le titre pour un euro symbolique. »"
+    ],
+    [
+      "— C'est complètement faux ! a crié Lucas. Nous avons gagné quatre cents abonnés depuis janvier !",
+      "— Le conditionnel, a soupiré Nadia. Le meilleur ami des journalistes paresseux. On écrit « serait », « aurait », et on n'a rien à prouver.",
+      "— Qui est la « source proche du dossier » ? a demandé Léa."
+    ],
+    [
+      "Karim a pris sa veste."
+    ],
+    [
+      "— Je vais le découvrir."
+    ],
+    [
+      "Pendant trois jours, Karim a mené l'enquête. Il a appelé d'anciens collègues, des banquiers, des avocats. Il a découvert que l'auteur de l'article, un certain Fabien Rocher, avait déjeuné deux fois en mars avec un directeur de Médias Plus. Il a aussi découvert que La Gazette du Sud elle-même appartenait… à une filiale de Médias Plus."
+    ],
+    [
+      "— Tout est clair, a-t-il annoncé en réunion. Médias Plus n'a pas réussi à nous racheter. Alors ils essaient de faire peur à nos lecteurs et à notre banque. Si les gens croient que nous allons fermer, ils arrêteront leur abonnement, et nous fermerons vraiment.",
+      "— Qu'est-ce qu'on fait ? a demandé Théo. On porte plainte ?",
+      "— Non, a dit Nadia. On fait notre métier. On publie la vérité, avec des preuves."
+    ],
+    [
+      "Le numéro de mai est sorti avec une couverture noire et une seule phrase en blanc : « Nous serions en faillite. » En dessous, en petit : « Nous ne le sommes pas. Voici nos comptes. » À l'intérieur, Le Mistral publiait tout : ses chiffres, ses dettes, ses nouveaux abonnés, et l'enquête de Karim sur les liens entre La Gazette et Médias Plus."
+    ],
+    [
+      "L'effet a été immédiat. En une semaine, le magazine a gagné mille abonnés de plus. La Gazette du Sud a dû publier un rectificatif. Quant à Fabien Rocher, selon des informations non confirmées, il chercherait un nouvel emploi."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "l'air furieux",
+      "en": "looking furious"
+    },
+    {
+      "fr": "à voix haute",
+      "en": "aloud"
+    },
+    {
+      "fr": "au bord de la faillite",
+      "en": "on the brink of bankruptcy"
+    },
+    {
+      "fr": "une source proche du dossier",
+      "en": "a source close to the matter"
+    },
+    {
+      "fr": "un euro symbolique",
+      "en": "a token euro"
+    },
+    {
+      "fr": "paresseux",
+      "en": "lazy"
+    },
+    {
+      "fr": "a mené l'enquête",
+      "en": "investigated"
+    },
+    {
+      "fr": "une filiale",
+      "en": "a subsidiary"
+    },
+    {
+      "fr": "On porte plainte ?",
+      "en": "Do we take legal action?"
+    },
+    {
+      "fr": "nos comptes",
+      "en": "our accounts"
+    },
+    {
+      "fr": "les liens",
+      "en": "the links"
+    },
+    {
+      "fr": "un rectificatif",
+      "en": "a correction"
+    },
+    {
+      "fr": "Quant à",
+      "en": "As for"
+    },
+    {
+      "fr": "non confirmées",
+      "en": "unconfirmed"
+    }
+  ],
+  "spotlight": [
+    "**The journalistic conditional marks information that hasn't been confirmed:** *Le Mistral serait au bord de la faillite* (is said to be). *Plusieurs journalistes chercheraient un nouvel emploi* (are reportedly looking). The past form is the conditional of *avoir / être* + participle: *La coopérative aurait déjà perdu plus de cent mille euros* (has reportedly lost).",
+    "**It usually comes with a source:** *Selon nos informations, D'après une source proche du dossier*. Le Mistral turns it into irony twice: the cover line *« Nous serions en faillite »* and the final line about Fabien Rocher."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Que dit l'article de La Gazette du Sud sur Le Mistral ?",
+      "answer": "Qu'il serait au bord de la faillite et que Médias Plus serait prêt à le racheter",
+      "options": [
+        "Qu'il serait au bord de la faillite et que Médias Plus serait prêt à le racheter",
+        "Qu'il serait le meilleur magazine du Sud",
+        "Qu'il aurait gagné un prix",
+        "Que Nadia aurait démissionné"
+      ],
+      "evidence": "Selon nos informations, le magazine Le Mistral serait au bord de la faillite."
+    },
+    {
+      "id": "q2",
+      "prompt": "Qu'est-ce que Karim a découvert pendant son enquête ?",
+      "answer": "Que La Gazette appartient à une filiale de Médias Plus",
+      "options": [
+        "Que La Gazette appartient à une filiale de Médias Plus",
+        "Que Fabien Rocher est le cousin de Lucas",
+        "Que la banque veut fermer Le Mistral",
+        "Que Nadia a vraiment des dettes énormes"
+      ],
+      "evidence": "Il a aussi découvert que La Gazette du Sud elle-même appartenait… à une filiale de Médias Plus."
+    },
+    {
+      "id": "q3",
+      "prompt": "Comment Le Mistral a-t-il répondu, et avec quel résultat ?",
+      "answer": "En publiant ses comptes et l'enquête : mille abonnés de plus et un rectificatif",
+      "options": [
+        "En publiant ses comptes et l'enquête : mille abonnés de plus et un rectificatif",
+        "En portant plainte : un procès de deux ans",
+        "En ne disant rien : la rumeur a disparu",
+        "En rachetant La Gazette"
+      ],
+      "evidence": "En une semaine, le magazine a gagné mille abonnés de plus. La Gazette du Sud a dû publier un rectificatif."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez une courte brève (trois phrases) sur une rumeur inventée, avec *selon*, un conditionnel présent et un conditionnel passé.",
+    "model": "Selon une source proche de la mairie, le maire démissionnerait bientôt. Il aurait reçu une offre d'une grande entreprise. D'après nos informations, il partirait vivre à Lyon.",
+    "targets": [
+      {
+        "label": "selon / d'après",
+        "pattern": "\\b(selon|d'après)\\b",
+        "min": 1
+      },
+      {
+        "label": "conditional present",
+        "pattern": "\\b(?!(?:courais|courait|mourait)\\b)[a-zà-ÿ]+r(ais|ait|ions|iez|aient)\\b",
+        "min": 1
+      },
+      {
+        "label": "conditional past (aurait / serait + participle)",
+        "pattern": "\\b(aurait|auraient|serait|seraient)\\s+[a-zà-ÿ]+(é|ée|és|ées|i|is|it|u|us|ue|ert|ort|eint)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

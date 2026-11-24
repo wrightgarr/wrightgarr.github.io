@@ -1,0 +1,60 @@
+{
+ "id": "s73",
+ "subject": 73,
+ "level": "B1",
+ "title": "Indefinite Pronouns (quelqu'un, quelque chose, personne, …)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Indefinite pronouns refer to people or things in a vague, non-specific way.</p>"
+  },
+  {
+   "heading": "Affirmative and negative pairs",
+   "html": "<table>\n<thead>\n<tr>\n<th>Affirmative</th>\n<th>Negative (ne… + pronoun)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>quelqu'un</strong> (someone)</td>\n<td><strong>personne</strong> (no one)</td>\n</tr>\n<tr>\n<td><strong>quelque chose</strong> (something)</td>\n<td><strong>rien</strong> (nothing)</td>\n</tr>\n<tr>\n<td><strong>quelque part</strong> (somewhere) — adverb</td>\n<td><strong>nulle part</strong> (nowhere)</td>\n</tr>\n<tr>\n<td><strong>tout</strong> (everything)</td>\n<td><strong>rien</strong></td>\n</tr>\n<tr>\n<td><strong>tout le monde</strong> (everyone)</td>\n<td><strong>personne</strong></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Il y a </em><em>quelqu'un</em><em> ?</em> — Is anyone there? → <em>Non, il n'y a </em><em>personne</em><em>.</em></li>\n<li><em>Tu veux </em><em>quelque chose</em><em> ?</em> → <em>Non, je ne veux </em><em>rien</em><em>.</em></li>\n<li><em>J'ai laissé mes clés </em><em>quelque part</em><em>.</em> → <em>Je ne les trouve </em><em>nulle part</em><em>.</em></li>\n</ul>"
+  },
+  {
+   "heading": "Personne and rien as subjects",
+   "html": "<ul>\n<li><em><strong>Personne</strong> n'est venu.</em> — No one came. (<em>ne</em> still required, no <em>pas</em>)</li>\n<li><em><strong>Rien</strong> n'est impossible.</em> — Nothing is impossible.</li>\n</ul>"
+  },
+  {
+   "heading": "Position in the passé composé",
+   "html": "<ul>\n<li><strong>Rien</strong> goes between auxiliary and participle: <em>Je n'ai </em><em>rien</em><em> vu.</em></li>\n<li><strong>Personne</strong> goes after the participle: <em>Je n'ai vu </em><em>personne</em><em>.</em></li>\n</ul>"
+  },
+  {
+   "heading": "Adding an adjective: + de",
+   "html": "<p><em>quelque chose / quelqu'un / rien / personne</em> + <strong>de</strong> + <strong>masculine</strong> adjective:\n- <em>quelque chose </em><em>d'intéressant</em><strong> — something interesting\n- <em>quelqu'un **de gentil</em></strong> — someone nice\n- <em>rien </em><em>de grave</em><strong> — nothing serious\n- <em>personne **d'autre</em></strong> — no one else</p>"
+  },
+  {
+   "heading": "Other indefinite pronouns",
+   "html": "<table>\n<thead>\n<tr>\n<th>Pronoun</th>\n<th>Meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>chacun / chacune</strong></td>\n<td>each one</td>\n<td><em><strong>Chacun</strong> a son opinion.</em></td>\n</tr>\n<tr>\n<td><strong>quelques-uns / quelques-unes</strong></td>\n<td>some, a few</td>\n<td><em>J'ai lu </em><em>quelques-uns</em><em> de ses livres.</em></td>\n</tr>\n<tr>\n<td><strong>plusieurs</strong></td>\n<td>several</td>\n<td><em><strong>Plusieurs</strong> sont venus.</em></td>\n</tr>\n<tr>\n<td><strong>certains / certaines</strong></td>\n<td>some (people)</td>\n<td><em><strong>Certains</strong> pensent que…</em></td>\n</tr>\n<tr>\n<td><strong>aucun / aucune</strong> (ne…)</td>\n<td>none, not any</td>\n<td><em>Je n'en ai </em><em>aucun</em><em>.</em> / <em><strong>Aucun</strong> n'est venu.</em></td>\n</tr>\n<tr>\n<td><strong>l'un… l'autre</strong></td>\n<td>one… the other</td>\n<td><strong><em>L'un</em>* est grand, </strong>l'autre*<em> est petit.</em></td>\n</tr>\n<tr>\n<td><strong>les uns… les autres</strong></td>\n<td>some… others</td>\n<td></td>\n</tr>\n<tr>\n<td><strong>n'importe qui / quoi / où</strong></td>\n<td>anyone / anything / anywhere (at all)</td>\n<td><em>Ne dis pas </em><em>n'importe quoi</em><em> !</em> — Don't talk nonsense!</td>\n</tr>\n<tr>\n<td><strong>autre chose</strong></td>\n<td>something else</td>\n<td><em>Tu veux </em><em>autre chose</em><em> ?</em></td>\n</tr>\n<tr>\n<td><strong>on</strong></td>\n<td>one, people</td>\n<td><em><strong>On</strong> ne sait jamais.</em> — You never know.</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Answer negatively: (a) Tu as vu quelqu'un ? (b) Tu as mangé quelque chose ? (c) Tu vas quelque part ce soir ?",
+   "answer": "(a) *Non, je n'ai vu personne.* (b) *Non, je n'ai rien mangé.* (c) *Non, je ne vais nulle part.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Translate: \"Nobody understands me.\"",
+   "answer": "*Personne ne me comprend.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"I'd like something cold to drink.\"",
+   "answer": "*Je voudrais quelque chose de froid à boire.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"Each one has their own room.\"",
+   "answer": "*Chacun a sa (propre) chambre.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "What does *Il dit n'importe quoi* mean?",
+   "answer": "He's talking nonsense.",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

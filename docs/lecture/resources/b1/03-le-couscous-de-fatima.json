@@ -1,0 +1,172 @@
+{
+  "id": "b1-03",
+  "level": "B1",
+  "number": 3,
+  "title": "Le couscous de Fatima",
+  "grammar": "subjunctive after emotions",
+  "theme": "meeting the family",
+  "wordCount": 331,
+  "primer": [
+    "**être content(e) / heureux(-se) que + subj.**: to be happy that",
+    "**avoir peur que + subj.**: to be afraid that",
+    "**regretter que / c'est dommage que + subj.**: to be sorry that / it's a pity that",
+    "**être surpris(e) / touché(e) que + subj.**: to be surprised / touched that",
+    "**same subject → de + infinitive**: *Je suis content de te voir.*",
+    "**le thé à la menthe**: mint tea"
+  ],
+  "passage": [
+    [
+      "Un dimanche d'octobre, Karim a invité Amina à déjeuner chez ses parents, dans le quartier de Saint-Louis, au nord de la ville. C'était la première fois qu'elle rencontrait sa famille, et elle était nerveuse depuis le matin."
+    ],
+    [
+      "— J'ai peur que ta mère me trouve trop timide, a-t-elle avoué dans le bus.",
+      "— Ma mère ? Elle est tellement contente que je lui présente enfin quelqu'un ! Elle va t'adorer. Mon père, c'est autre chose : il a peur que je quitte Marseille un jour."
+    ],
+    [
+      "La mère de Karim, Fatima, les attendait sur le pas de la porte. Elle a embrassé Amina comme si elle la connaissait depuis toujours."
+    ],
+    [
+      "— Entrez, entrez ! Je suis si heureuse que vous soyez là. Karim parle de vous tout le temps… enfin, quand il parle !"
+    ],
+    [
+      "Dans le salon, la table était déjà couverte de plats : un couscous aux sept légumes, une salade de carottes au cumin, du pain fait maison. Le père de Karim, Mourad, a serré la main d'Amina avec un sourire timide."
+    ],
+    [
+      "— Karim nous a dit que vous étiez musicienne. C'est dommage que vous ne jouiez pas de l'oud, a-t-il plaisanté. Moi, j'en jouais quand j'étais jeune.",
+      "— Vraiment ? Je suis surprise que Karim ne parle jamais de ça !"
+    ],
+    [
+      "Pendant le repas, Amina a découvert un autre Karim : plus jeune, plus détendu, qui se disputait avec sa sœur Nora pour la dernière cuillère de sauce. Fatima racontait l'arrivée de la famille à Marseille, Mourad sortait de vieilles photos. Amina, elle, mangeait et écoutait, émue."
+    ],
+    [
+      "Au moment du thé à la menthe, Fatima a posé une assiette de cornes de gazelle devant elle."
+    ],
+    [
+      "— Je regrette que votre mère habite si loin, a-t-elle dit doucement. Mais ici, vous aurez toujours une famille, d'accord ?"
+    ],
+    [
+      "Amina a senti les larmes monter."
+    ],
+    [
+      "— Merci. Je suis vraiment touchée que vous m'accueilliez comme ça."
+    ],
+    [
+      "Dans le bus du retour, Karim a pris sa main."
+    ],
+    [
+      "— Alors ? Tu as encore peur que ma mère te trouve timide ?",
+      "— Non. Maintenant, j'ai peur qu'elle me donne trop à manger chaque dimanche !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "a-t-elle avoué",
+      "en": "she admitted"
+    },
+    {
+      "fr": "c'est autre chose",
+      "en": "that's another story"
+    },
+    {
+      "fr": "sur le pas de la porte",
+      "en": "on the doorstep"
+    },
+    {
+      "fr": "a embrassé",
+      "en": "kissed (on the cheeks)"
+    },
+    {
+      "fr": "fait maison",
+      "en": "homemade"
+    },
+    {
+      "fr": "a serré la main",
+      "en": "shook hands"
+    },
+    {
+      "fr": "l'oud",
+      "en": "the oud (Arabic lute)"
+    },
+    {
+      "fr": "a plaisanté",
+      "en": "joked",
+      "match": [
+        "a-t-il plaisanté"
+      ]
+    },
+    {
+      "fr": "détendu",
+      "en": "relaxed"
+    },
+    {
+      "fr": "la dernière cuillère",
+      "en": "the last spoonful"
+    },
+    {
+      "fr": "cornes de gazelle",
+      "en": "almond crescent pastries"
+    },
+    {
+      "fr": "les larmes",
+      "en": "tears"
+    }
+  ],
+  "spotlight": [
+    "**Emotion + que + subjunctive:** *J'ai peur que ta mère me trouve trop timide. Je suis si heureuse que vous soyez là. C'est dommage que vous ne jouiez pas de l'oud. Je regrette que votre mère habite si loin.*",
+    "**The feeling and the action must belong to different people.** If they belong to the same person, use *de* + infinitive: *Je suis contente de vous rencontrer* (I'm glad to meet you) vs. *Je suis contente que vous soyez là* (I'm glad you're here)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "De quoi Amina a-t-elle peur avant le déjeuner ?",
+      "answer": "Que la mère de Karim la trouve trop timide",
+      "options": [
+        "Que la mère de Karim la trouve trop timide",
+        "Que le couscous soit trop épicé",
+        "Que Karim la quitte",
+        "Que le bus soit en retard"
+      ],
+      "evidence": "J'ai peur que ta mère me trouve trop timide, a-t-elle avoué dans le bus."
+    },
+    {
+      "id": "q2",
+      "prompt": "Qu'est-ce qu'Amina découvre sur Karim pendant le repas ?",
+      "answer": "Un Karim plus jeune et plus détendu, qui se dispute avec sa sœur",
+      "options": [
+        "Un Karim plus jeune et plus détendu, qui se dispute avec sa sœur",
+        "Un Karim très sérieux et silencieux",
+        "Un Karim qui joue de l'oud",
+        "Un Karim qui cuisine pour toute la famille"
+      ],
+      "evidence": "Pendant le repas, Amina a découvert un autre Karim : plus jeune, plus détendu, qui se disputait avec sa sœur Nora pour la dernière cuillère de sauce."
+    },
+    {
+      "id": "q3",
+      "prompt": "Que promet Fatima à Amina ?",
+      "answer": "Qu'Amina aura toujours une famille à Marseille",
+      "options": [
+        "Qu'Amina aura toujours une famille à Marseille",
+        "De lui apprendre à faire le couscous",
+        "De lui trouver un appartement",
+        "De venir à tous ses concerts"
+      ],
+      "evidence": "Mais ici, vous aurez toujours une famille, d'accord ?"
+    }
+  ],
+  "writing": {
+    "prompt": "Réagissez à trois nouvelles récentes de votre vie avec *je suis content(e) que, j'ai peur que* et *c'est dommage que*.",
+    "model": "Je suis contente que ma sœur vienne à Noël. J'ai peur que mon chef soit en colère. C'est dommage que le concert soit annulé.",
+    "targets": [
+      {
+        "label": "emotion + que",
+        "pattern": "(content|contente|heureux|heureuse|ravi|ravie|triste|surpris|surprise|déçu|déçue)s?\\s+qu|j'ai peur qu|dommage qu|je regrette qu",
+        "min": 3
+      },
+      {
+        "label": "subjunctive verbs",
+        "pattern": "\\bqu(e|')\\s*(je|j'|tu|il|elle|on|nous|vous|ils|elles)\\s*[a-zà-ÿ]+(e|es|ent|ions|iez)\\b|\\b(sois|soit|soyons|soyez|soient|aie|aies|ait|ayons|ayez|fasse|fasses|fassions|fassiez|fassent|aille|ailles|aillent|puisse|puisses|puissions|puissiez|puissent|sache|saches|sachent|veuille|veuillent|vienne|viennes|viennent|prenne|prennes|prennent)\\b",
+        "min": 2
+      }
+    ]
+  }
+}

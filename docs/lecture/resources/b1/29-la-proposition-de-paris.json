@@ -1,0 +1,195 @@
+{
+  "id": "b1-29",
+  "level": "B1",
+  "number": 29,
+  "title": "La proposition de Paris",
+  "grammar": "weighing a decision (*si* + imparfait, conditional + *que* + subjunctive)",
+  "theme": "a job offer",
+  "wordCount": 416,
+  "primer": [
+    "**si + imparfait → conditionnel** (review): *Si elle acceptait, elle voyagerait.*",
+    "**il faudrait que + subj.**: it would be necessary that",
+    "**je voudrais que + subj.**: I'd like (someone to)",
+    "**si j'étais toi / à ta place**: if I were you",
+    "**un chef photo**: a head of photography",
+    "**une mutation**: a job transfer"
+  ],
+  "passage": [
+    [
+      "En mai, Claire Dumas a invité Léa à déjeuner à Paris. Entre le fromage et le dessert, elle a posé sa question :"
+    ],
+    [
+      "— Notre chef photo part à la retraite en septembre. Je voudrais que ce soit vous qui le remplaciez."
+    ],
+    [
+      "Léa a failli renverser son verre."
+    ],
+    [
+      "— Moi ? Chef photo d'Horizons ?",
+      "— Vous auriez une équipe de six photographes, des reportages dans le monde entier, et un salaire deux fois plus élevé qu'aujourd'hui. Il faudrait seulement que vous habitiez à Paris. Réfléchissez. J'ai besoin d'une réponse dans un mois."
+    ],
+    [
+      "Dans le train du retour, Léa a ouvert son carnet et elle a fait deux colonnes."
+    ],
+    [
+      "Si elle acceptait, elle réaliserait le rêve de toute sa vie. Elle voyagerait partout. Ses photos seraient vues par des millions de lecteurs. Elle gagnerait enfin bien sa vie. Elle retrouverait Hugo et ses vieux cafés."
+    ],
+    [
+      "Si elle refusait, elle resterait dans la ville qu'elle aimait, avec les gens qu'elle aimait. Elle continuerait à se battre pour Le Mistral. Elle ferait vivre son studio. Elle apprendrait la bouillabaisse avec Madame Ferrand, tous les samedis."
+    ],
+    [
+      "Elle a regardé les deux colonnes jusqu'à Marseille. Aucune n'était plus longue que l'autre."
+    ],
+    [
+      "Le soir, elle a appelé ses parents."
+    ],
+    [
+      "— Si j'étais toi, je ne réfléchirais pas une seconde, a dit son père. Horizons !",
+      "— Moi, a dit sa mère, je voudrais seulement que tu sois heureuse. Où tu veux."
+    ],
+    [
+      "Puis elle a appelé Thomas. Il a écouté sans l'interrompre, puis il a ri doucement."
+    ],
+    [
+      "— C'est drôle. Moi aussi, j'ai une nouvelle à t'annoncer. J'ai demandé ma mutation. À Marseille. J'ai reçu la réponse ce matin : un lycée du centre-ville, à la rentrée.",
+      "— Tu… Quoi ? Tu viens habiter à Marseille ?",
+      "— C'était une surprise. Mais si tu pars à Paris, ce sera une drôle de surprise."
+    ],
+    [
+      "Le lendemain, elle est descendue chez Madame Ferrand. La vieille dame épluchait des légumes."
+    ],
+    [
+      "— Ne me dites pas ce que vous feriez à ma place. Dites-moi ce que vous me conseilleriez.",
+      "— Rien, ma belle. Ce serait trop facile. Je te dirais de rester, parce que je suis égoïste et que je t'aime. Mais ce n'est pas à moi de choisir."
+    ],
+    [
+      "Elle a posé son couteau."
+    ],
+    [
+      "— Je vais te dire une seule chose. Quand Jean est mort, j'ai pensé que tout était fini. Et puis un soir, une petite Parisienne est arrivée avec un chat et des cartons. Il faut que tu saches ce que tu cherches vraiment, Léa. Pas ce que les autres trouveraient bien pour toi."
+    ],
+    [
+      "Léa n'a pas dormi de la nuit."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "part à la retraite",
+      "en": "is retiring"
+    },
+    {
+      "fr": "remplaciez",
+      "en": "(that) you replace"
+    },
+    {
+      "fr": "a failli renverser",
+      "en": "almost knocked over"
+    },
+    {
+      "fr": "deux fois plus élevé",
+      "en": "twice as high"
+    },
+    {
+      "fr": "réaliserait le rêve",
+      "en": "would fulfil the dream"
+    },
+    {
+      "fr": "gagnerait bien sa vie",
+      "en": "would earn a good living",
+      "match": [
+        "gagnerait enfin bien sa vie"
+      ]
+    },
+    {
+      "fr": "Elle ferait vivre son studio",
+      "en": "She would keep her studio going"
+    },
+    {
+      "fr": "sans l'interrompre",
+      "en": "without interrupting her"
+    },
+    {
+      "fr": "un lycée",
+      "en": "a secondary school"
+    },
+    {
+      "fr": "à la rentrée",
+      "en": "in September (start of the school year)"
+    },
+    {
+      "fr": "une drôle de surprise",
+      "en": "an odd kind of surprise"
+    },
+    {
+      "fr": "épluchait",
+      "en": "was peeling"
+    },
+    {
+      "fr": "égoïste",
+      "en": "selfish"
+    }
+  ],
+  "spotlight": [
+    "**Weighing two possible futures:** *Si elle acceptait, elle réaliserait le rêve de toute sa vie… Si elle refusait, elle resterait dans la ville qu'elle aimait.* The *si* clause is in the imparfait and the results are in the conditional, sentence after sentence. *Si j'étais toi* and *à ta place* introduce advice.",
+    "**Conditional + que + subjunctive** for polite wishes and conditions: *Je voudrais que ce soit vous qui le remplaciez. Il faudrait seulement que vous habitiez à Paris. Je voudrais seulement que tu sois heureuse.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Qu'est-ce que Claire Dumas propose à Léa, et à quelle condition ?",
+      "answer": "Le poste de chef photo d'Horizons, à condition d'habiter à Paris",
+      "options": [
+        "Le poste de chef photo d'Horizons, à condition d'habiter à Paris",
+        "Un livre de photos sur Marseille",
+        "Un reportage d'un an en Asie",
+        "Le poste de rédactrice en chef du Mistral"
+      ],
+      "evidence": "Il faudrait seulement que vous habitiez à Paris."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quelle nouvelle Thomas annonce-t-il à Léa ?",
+      "answer": "Il a obtenu sa mutation dans un lycée de Marseille",
+      "options": [
+        "Il a obtenu sa mutation dans un lycée de Marseille",
+        "Il part travailler en Allemagne",
+        "Il veut se marier",
+        "Il a perdu son travail"
+      ],
+      "evidence": "J'ai demandé ma mutation. À Marseille."
+    },
+    {
+      "id": "q3",
+      "prompt": "Quel conseil Madame Ferrand donne-t-elle finalement ?",
+      "answer": "Savoir ce qu'elle cherche vraiment, pas ce que les autres trouveraient bien pour elle",
+      "options": [
+        "Savoir ce qu'elle cherche vraiment, pas ce que les autres trouveraient bien pour elle",
+        "Partir à Paris tout de suite",
+        "Rester pour lui faire plaisir",
+        "Demander conseil à son père"
+      ],
+      "evidence": "Il faut que tu saches ce que tu cherches vraiment, Léa. Pas ce que les autres trouveraient bien pour toi."
+    }
+  ],
+  "writing": {
+    "prompt": "Vous hésitez entre deux choix. Écrivez quatre phrases : deux avec *si* + imparfait → conditionnel, une avec *il faudrait que* et une avec *je voudrais que*.",
+    "model": "Si je partais au Japon, je découvrirais une nouvelle culture. Si je restais ici, je garderais mes amis. Il faudrait que j'apprenne le japonais. Je voudrais que ma famille vienne me voir.",
+    "targets": [
+      {
+        "label": "si + imparfait → conditional (×2)",
+        "pattern": "\\bs(i|')\\s*[^.!?]*\\b[a-zà-ÿ]+(ais|ait|ions|iez|aient)\\b[^.!?]*\\b[a-zà-ÿ]+r(ais|ait|ions|iez|aient)\\b",
+        "min": 2
+      },
+      {
+        "label": "il faudrait que",
+        "pattern": "il faudrait qu",
+        "min": 1
+      },
+      {
+        "label": "je voudrais que / j'aimerais que",
+        "pattern": "(voudrais|aimerais)\\s+qu",
+        "min": 1
+      }
+    ]
+  }
+}

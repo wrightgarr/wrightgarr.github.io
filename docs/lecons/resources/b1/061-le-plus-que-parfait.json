@@ -1,0 +1,66 @@
+{
+ "id": "s61",
+ "subject": 61,
+ "level": "B1",
+ "title": "Le Plus-Que-Parfait",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>plus-que-parfait</strong> (pluperfect) expresses an action that happened <strong>before another past action</strong>: \"had done\".</p>"
+  },
+  {
+   "heading": "Formation: auxiliary in the IMPARFAIT + past participle",
+   "html": "<p>Same choice of auxiliary and same agreement rules as the passé composé.</p>\n<table>\n<thead>\n<tr>\n<th>avoir (imparfait) + participle</th>\n<th>être (imparfait) + participle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>j'<strong>avais</strong> mangé</td>\n<td>j'<strong>étais</strong> parti(e)</td>\n</tr>\n<tr>\n<td>tu <strong>avais</strong> mangé</td>\n<td>tu <strong>étais</strong> parti(e)</td>\n</tr>\n<tr>\n<td>il/elle <strong>avait</strong> mangé</td>\n<td>il <strong>était</strong> parti / elle <strong>était</strong> partie</td>\n</tr>\n<tr>\n<td>nous <strong>avions</strong> mangé</td>\n<td>nous <strong>étions</strong> parti(e)s</td>\n</tr>\n<tr>\n<td>vous <strong>aviez</strong> mangé</td>\n<td>vous <strong>étiez</strong> parti(e)(s)</td>\n</tr>\n<tr>\n<td>ils/elles <strong>avaient</strong> mangé</td>\n<td>ils <strong>étaient</strong> partis / elles <strong>étaient</strong> parties</td>\n</tr>\n</tbody>\n</table>\n<p>Reflexive: <em>je m'étais levé(e)</em>, <em>elle s'était couchée</em>.</p>"
+  },
+  {
+   "heading": "Uses",
+   "html": "<ol>\n<li><strong>An earlier past action:</strong> <em>Quand je suis arrivé à la gare, le train </em><em>était</em><em> déjà </em><em>parti</em><em>.</em> — When I arrived at the station, the train had already left.</li>\n<li><strong>Explaining a past situation:</strong> <em>Il était fatigué parce qu'il </em><em>n'avait pas dormi</em><em>.</em> — He was tired because he hadn't slept.</li>\n<li><strong>Regret (with si):</strong> <em>Si seulement j'</em><em>avais su</em><em> !</em> — If only I had known!</li>\n<li><strong>Hypothesis in the past</strong> (with conditionnel passé, B2): <em>Si tu </em><em>avais travaillé</em><em>, tu aurais réussi.</em></li>\n<li><strong>Indirect speech</strong> (shifting the passé composé back): <em>Il a dit qu'il </em><em>avait fini</em><em>.</em> — He said he had finished.</li>\n</ol>"
+  },
+  {
+   "heading": "Signal words",
+   "html": "<p><em>déjà</em> (already), <em>avant</em> (before), <em>auparavant</em> (previously), <em>la veille</em> (the day before), <em>jamais</em> (never before), <em>ne… pas encore</em> (not yet).</p>"
+  },
+  {
+   "heading": "Timeline",
+   "html": "<pre><code>  plus-que-parfait        passé composé / imparfait        now\n  ───────●──────────────────────●──────────────────────────●\n   J'avais mangé          quand il est arrivé.\n</code></pre>"
+  },
+  {
+   "heading": "Examples",
+   "html": "<ul>\n<li><em>Elle m'a rendu le livre que je lui </em><em>avais prêté</em><em>.</em> — She returned the book I had lent her.</li>\n<li><em>Nous </em><em>n'avions jamais vu</em><em> la mer avant ce voyage.</em> — We had never seen the sea before this trip.</li>\n<li><em>Ils </em><em>s'étaient rencontrés</em><em> à l'université.</em> — They had met at university.</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Quand nous sommes arrivés, le film (commencer) ___.",
+   "instruction": "Put the verb in the plus-que-parfait:",
+   "answer": "avait (déjà) commencé",
+   "id": "e1"
+  },
+  {
+   "prompt": "Elle était contente parce qu'elle (réussir) ___ son examen.",
+   "answer": "avait réussi",
+   "id": "e2"
+  },
+  {
+   "prompt": "Je ne savais pas qu'ils (partir) ___.",
+   "answer": "étaient partis",
+   "id": "e3"
+  },
+  {
+   "prompt": "Il a perdu le stylo que je lui (donner) ___.",
+   "answer": "avais donné",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"I had already eaten when you called.\"",
+   "answer": "*J'avais déjà mangé quand tu as appelé.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"If only I had listened!\"",
+   "answer": "*Si seulement j'avais écouté !*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

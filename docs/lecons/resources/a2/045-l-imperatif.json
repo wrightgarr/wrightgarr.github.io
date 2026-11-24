@@ -1,0 +1,64 @@
+{
+ "id": "s45",
+ "subject": 45,
+ "level": "A2",
+ "title": "L'Impératif",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>impératif</strong> is used for commands, instructions, advice and invitations. It exists in only three forms: <strong>tu, nous, vous</strong>, and has <strong>no subject pronoun</strong>.</p>"
+  },
+  {
+   "heading": "Formation: present tense without the subject",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verb</th>\n<th>tu</th>\n<th>nous (let's…)</th>\n<th>vous</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>parler</td>\n<td><strong>parle</strong> !</td>\n<td>parlons !</td>\n<td>parlez !</td>\n</tr>\n<tr>\n<td>finir</td>\n<td>finis !</td>\n<td>finissons !</td>\n<td>finissez !</td>\n</tr>\n<tr>\n<td>prendre</td>\n<td>prends !</td>\n<td>prenons !</td>\n<td>prenez !</td>\n</tr>\n<tr>\n<td>aller</td>\n<td><strong>va</strong> !</td>\n<td>allons !</td>\n<td>allez !</td>\n</tr>\n<tr>\n<td>faire</td>\n<td>fais !</td>\n<td>faisons !</td>\n<td>faites !</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Rule for -er verbs (and aller, ouvrir, offrir…):</strong> the <strong>tu</strong> form drops its <strong>-s</strong>: <em>tu parles → </em><em>Parle</em><em> !</em>, <em>tu vas → </em><em>Va</em><em> !</em>, <em>tu ouvres → </em><em>Ouvre</em><em> !</em>\nException: the s returns before <strong>y</strong> and <strong>en</strong> for sound: <strong><em>Vas-y</em><em> !</em> (Go on!), </strong><em>Manges-en</em><em> !</em> (Eat some!)</p>"
+  },
+  {
+   "heading": "Irregular imperatives",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verb</th>\n<th>tu</th>\n<th>nous</th>\n<th>vous</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>être</td>\n<td><strong>sois</strong></td>\n<td><strong>soyons</strong></td>\n<td><strong>soyez</strong></td>\n</tr>\n<tr>\n<td>avoir</td>\n<td><strong>aie</strong></td>\n<td><strong>ayons</strong></td>\n<td><strong>ayez</strong></td>\n</tr>\n<tr>\n<td>savoir</td>\n<td><strong>sache</strong></td>\n<td><strong>sachons</strong></td>\n<td><strong>sachez</strong></td>\n</tr>\n<tr>\n<td>vouloir</td>\n<td><strong>veuille</strong></td>\n<td>—</td>\n<td><strong>veuillez</strong> (formal: \"please…\")</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Sois sage !</em> — Be good!</li>\n<li><em>N'aie pas peur !</em> — Don't be afraid!</li>\n<li><em>Veuillez patienter.</em> — Please wait. (formal)</li>\n</ul>"
+  },
+  {
+   "heading": "Negative imperative: ne … pas around the verb",
+   "html": "<p><em>Ne parle pas !</em> / <em>Ne partez pas !</em> / <em>Ne soyons pas en retard !</em></p>"
+  },
+  {
+   "heading": "With pronouns",
+   "html": "<p><strong>Affirmative:</strong> pronoun goes <strong>after</strong> the verb with a hyphen; <em>me/te</em> become <em>moi/toi</em>:\n- <em>Regarde-</em><em>moi</em><em> !</em> / <em>Donne-</em><em>le-moi</em><em> !</em> / <em>Écoutez-</em><em>les</em><em> !</em> / <em>Dis-</em><em>lui</em><em> !</em></p>\n<p><strong>Negative:</strong> pronoun stays <strong>before</strong> the verb:\n- <em>Ne </em><em>me</em><em> regarde pas !</em> / <em>Ne </em><em>le</em><em> fais pas !</em></p>"
+  },
+  {
+   "heading": "Reflexive verbs",
+   "html": "<ul>\n<li>Affirmative: <em>Lève-</em><em>toi</em><em> !</em> / <em>Asseyez-</em><em>vous</em><em> !</em> / <em>Dépêchons-</em><em>nous</em><em> !</em></li>\n<li>Negative: <em>Ne </em><em>te</em><em> lève pas !</em> / <em>Ne </em><em>vous</em><em> inquiétez pas !</em></li>\n</ul>"
+  },
+  {
+   "heading": "Softening commands",
+   "html": "<p>Add <em>s'il te plaît / s'il vous plaît</em>, or use a question: <em>Tu peux fermer la porte ?</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Give the 3 imperative forms of: *manger*, *venir*, *être*.",
+   "answer": "*mange, mangeons, mangez*; *viens, venons, venez*; *sois, soyons, soyez*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Make into a command (tu): (a) Tu fermes la porte. (b) Tu vas au lit. (c) Tu as de la patience.",
+   "answer": "(a) *Ferme la porte !* (b) *Va au lit !* (c) *Aie de la patience !*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Make negative: (a) Mange ! (b) Allez-y !",
+   "answer": "(a) *Ne mange pas !* (b) *N'y allez pas !*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Replace with a pronoun: (a) Regarde le tableau ! (b) Ne regarde pas le tableau !",
+   "answer": "(a) *Regarde-le !* (b) *Ne le regarde pas !*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"Sit down, please!\" (vous) / \"Don't worry!\" (tu)",
+   "answer": "*Asseyez-vous, s'il vous plaît !* / *Ne t'inquiète pas !*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

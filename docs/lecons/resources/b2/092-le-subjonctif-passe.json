@@ -1,0 +1,67 @@
+{
+ "id": "s92",
+ "subject": 92,
+ "level": "B2",
+ "title": "Le Subjonctif Passé",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>subjonctif passé</strong> is used after the same triggers as the subjonctif présent, but for an action that is <strong>completed</strong> (before the main verb, or before a future point).</p>"
+  },
+  {
+   "heading": "Formation: auxiliary in the SUBJONCTIF PRÉSENT + past participle",
+   "html": "<table>\n<thead>\n<tr>\n<th>avoir</th>\n<th>être</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>que j'<strong>aie</strong> fini</td>\n<td>que je <strong>sois</strong> parti(e)</td>\n</tr>\n<tr>\n<td>que tu <strong>aies</strong> fini</td>\n<td>que tu <strong>sois</strong> parti(e)</td>\n</tr>\n<tr>\n<td>qu'il/elle <strong>ait</strong> fini</td>\n<td>qu'il <strong>soit</strong> parti / qu'elle <strong>soit</strong> partie</td>\n</tr>\n<tr>\n<td>que nous <strong>ayons</strong> fini</td>\n<td>que nous <strong>soyons</strong> parti(e)s</td>\n</tr>\n<tr>\n<td>que vous <strong>ayez</strong> fini</td>\n<td>que vous <strong>soyez</strong> parti(e)(s)</td>\n</tr>\n<tr>\n<td>qu'ils/elles <strong>aient</strong> fini</td>\n<td>qu'ils <strong>soient</strong> partis / qu'elles <strong>soient</strong> parties</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Présent vs passé",
+   "html": "<p>The choice depends on <strong>time relationship</strong> with the main verb:\n| Subjonctif présent (same time / later) | Subjonctif passé (before / completed) |\n|---|---|\n| <em>Je suis content que tu </em><em>viennes</em><em>.</em> — I'm happy you're coming. | <em>Je suis content que tu </em><em>sois venu</em><em>.</em> — I'm happy you came. |\n| <em>Je doute qu'il </em><em>comprenne</em><em>.</em> — I doubt he understands. | <em>Je doute qu'il </em><em>ait compris</em><em>.</em> — I doubt he understood. |\n| <em>Il faut que tu </em><em>finisses</em><em> ce soir.</em> | <em>Il faut que tu </em><em>aies fini</em><em> avant 18 h.</em> — You must have finished by 6 pm. |</p>"
+  },
+  {
+   "heading": "Common contexts",
+   "html": "<ul>\n<li><strong>Emotions about past events:</strong> <em>Je regrette que vous </em><em>ayez dû</em><em> attendre.</em> — I'm sorry you had to wait.</li>\n<li><strong>Doubt about past events:</strong> <em>Je ne crois pas qu'il </em><em>ait dit</em><em> ça.</em> — I don't think he said that.</li>\n<li><strong>After a superlative / unique:</strong> <em>C'est le meilleur film que j'</em><em>aie</em><em> jamais </em><em>vu</em><em>.</em> — It's the best film I've ever seen.</li>\n<li><strong>Bien que / avant que / jusqu'à ce que:</strong> <em>Bien qu'il </em><em>ait étudié</em><em>, il a échoué.</em> — Although he studied, he failed.</li>\n<li><strong>Deadline:</strong> <em>Il faut que le rapport </em><em>soit terminé</em><em> avant lundi.</em></li>\n</ul>"
+  },
+  {
+   "heading": "Same subject → past infinitive",
+   "html": "<p><em>Je suis content </em><em>d'avoir réussi</em><em>.</em> (not ~~que j'aie réussi~~) / <em>Je regrette </em><em>d'être parti</em><em>.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je suis désolé que tu (être) ___ malade la semaine dernière.",
+   "instruction": "Present or past subjunctive?",
+   "answer": "aies été",
+   "id": "e1"
+  },
+  {
+   "prompt": "Il faut que vous (partir) ___ demain.",
+   "answer": "partiez",
+   "id": "e2"
+  },
+  {
+   "prompt": "C'est la plus belle ville que j'(visiter) ___.",
+   "answer": "aie visitée",
+   "id": "e3"
+  },
+  {
+   "prompt": "Bien qu'elle (travailler) ___ toute la nuit, elle n'a pas fini.",
+   "answer": "ait travaillé",
+   "id": "e4"
+  },
+  {
+   "prompt": "Je ne pense pas qu'ils (arriver) ___ déjà.",
+   "answer": "soient (déjà) arrivés",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I'm glad you liked the gift.\" (que)",
+   "answer": "*Je suis content(e) que le cadeau t'ait plu.* (or *…que tu aies aimé le cadeau.*)",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"I'm glad I came.\" (same subject)",
+   "answer": "*Je suis content(e) d'être venu(e).*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

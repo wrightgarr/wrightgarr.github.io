@@ -1,0 +1,64 @@
+{
+ "id": "s57",
+ "subject": 57,
+ "level": "A2",
+ "title": "Animals",
+ "sections": [
+  {
+   "heading": "Pets (les animaux de compagnie)",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>le chien / la chienne</td>\n<td>dog</td>\n<td>le chat / la chatte</td>\n<td>cat</td>\n</tr>\n<tr>\n<td>le chiot</td>\n<td>puppy</td>\n<td>le chaton</td>\n<td>kitten</td>\n</tr>\n<tr>\n<td>le lapin</td>\n<td>rabbit</td>\n<td>le hamster</td>\n<td>hamster</td>\n</tr>\n<tr>\n<td>le poisson rouge</td>\n<td>goldfish</td>\n<td>l'oiseau (m)</td>\n<td>bird</td>\n</tr>\n<tr>\n<td>le perroquet</td>\n<td>parrot</td>\n<td>la tortue</td>\n<td>turtle</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Farm animals (les animaux de la ferme)",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>la vache</td>\n<td>cow</td>\n<td>le taureau</td>\n<td>bull</td>\n</tr>\n<tr>\n<td>le cheval</td>\n<td>horse</td>\n<td>le cochon</td>\n<td>pig</td>\n</tr>\n<tr>\n<td>le mouton</td>\n<td>sheep</td>\n<td>la chèvre</td>\n<td>goat</td>\n</tr>\n<tr>\n<td>la poule</td>\n<td>hen</td>\n<td>le coq</td>\n<td>rooster</td>\n</tr>\n<tr>\n<td>le canard</td>\n<td>duck</td>\n<td>l'âne (m)</td>\n<td>donkey</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Wild animals (les animaux sauvages)",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>l'ours (m)</td>\n<td>bear</td>\n<td>le loup</td>\n<td>wolf</td>\n</tr>\n<tr>\n<td>le renard</td>\n<td>fox</td>\n<td>le cerf / le chevreuil</td>\n<td>deer</td>\n</tr>\n<tr>\n<td>l'orignal (m) (Qc) / l'élan</td>\n<td>moose</td>\n<td>le castor</td>\n<td>beaver</td>\n</tr>\n<tr>\n<td>le raton laveur</td>\n<td>raccoon</td>\n<td>l'écureuil (m)</td>\n<td>squirrel</td>\n</tr>\n<tr>\n<td>le lion</td>\n<td>lion</td>\n<td>le tigre</td>\n<td>tiger</td>\n</tr>\n<tr>\n<td>l'éléphant (m)</td>\n<td>elephant</td>\n<td>la girafe</td>\n<td>giraffe</td>\n</tr>\n<tr>\n<td>le singe</td>\n<td>monkey</td>\n<td>le serpent</td>\n<td>snake</td>\n</tr>\n<tr>\n<td>la baleine</td>\n<td>whale</td>\n<td>le requin</td>\n<td>shark</td>\n</tr>\n<tr>\n<td>la souris</td>\n<td>mouse</td>\n<td>le rat</td>\n<td>rat</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Insects (les insectes)",
+   "html": "<p><em>la mouche</em> (fly), <em>le moustique</em> / <em>le maringouin</em> (Qc) (mosquito), <em>l'abeille</em> (f) (bee), <em>la fourmi</em> (ant), <em>l'araignée</em> (f) (spider — not an insect, but!), <em>le papillon</em> (butterfly).</p>"
+  },
+  {
+   "heading": "Irregular plurals",
+   "html": "<ul>\n<li><em>le cheval → les chevaux</em></li>\n<li><em>l'oiseau → les oiseaux</em></li>\n<li><em>l'animal → les animaux</em></li>\n<li><em>le chameau → les chameaux</em></li>\n</ul>"
+  },
+  {
+   "heading": "Useful phrases",
+   "html": "<ul>\n<li><em>Tu as des animaux ?</em> — Do you have pets?</li>\n<li><em>J'ai un chien qui s'appelle Max.</em></li>\n<li><em>Je suis allergique aux chats.</em></li>\n<li><em>promener le chien</em> — to walk the dog</li>\n<li><em>nourrir</em> — to feed</li>\n<li>Sounds: <em>le chien aboie</em> (barks), <em>le chat miaule</em> (meows), <em>la vache meugle</em> (moos)</li>\n</ul>"
+  },
+  {
+   "heading": "Animal expressions",
+   "html": "<ul>\n<li><em>avoir un chat dans la gorge</em> — to have a frog in one's throat</li>\n<li><em>quand les poules auront des dents</em> — when pigs fly (lit. \"when hens have teeth\")</li>\n<li><em>poser un lapin à quelqu'un</em> — to stand someone up</li>\n<li><em>il fait un froid de canard</em> — it's freezing cold</li>\n<li><em>être une poule mouillée</em> — to be a chicken (coward)</li>\n<li><em>avoir une faim de loup</em> — to be starving</li>\n<li><em>myope comme une taupe</em> — blind as a bat (lit. \"a mole\")</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Give the French with article: horse, bear, beaver, bird, sheep.",
+   "answer": "*le cheval*, *l'ours*, *le castor*, *l'oiseau*, *le mouton*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Plural: *le cheval*, *l'oiseau*, *l'animal*.",
+   "answer": "*les chevaux*, *les oiseaux*, *les animaux*.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"I have two cats and a dog.\"",
+   "answer": "*J'ai deux chats et un chien.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "What does *poser un lapin* mean?",
+   "answer": "To stand someone up (not show up to a date/meeting).",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"I'm starving!\" (use an animal expression)",
+   "answer": "*J'ai une faim de loup !*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

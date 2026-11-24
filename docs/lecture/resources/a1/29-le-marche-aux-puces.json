@@ -1,0 +1,117 @@
+{
+  "id": "a1-29",
+  "level": "A1",
+  "number": 29,
+  "title": "Le marché aux puces",
+  "grammar": "direct object pronouns *le / la / les*",
+  "theme": "bargain hunting",
+  "wordCount": 96,
+  "primer": [
+    "**le / la / l' / les**: it, him / it, her / them (before the verb)",
+    "**le marché aux puces**: the flea market",
+    "**vieux / vieil / vieille**: old",
+    "**voir**: to see (*elle voit*)",
+    "**trop**: too",
+    "**un vendeur**: a seller",
+    "**penser**: to think"
+  ],
+  "passage": [
+    [
+      "Le dimanche matin, Léa va au marché aux puces de Saint-Ouen. Elle adore les vieilles choses."
+    ],
+    [
+      "Elle voit un vieil appareil photo. Elle le regarde. Elle le prend dans les mains."
+    ],
+    [
+      "— Il est beau ! Il coûte combien ?",
+      "— Quarante euros, dit le vendeur.",
+      "— C'est cher… Trente euros ?",
+      "— Trente-cinq.",
+      "— D'accord, je le prends !"
+    ],
+    [
+      "Elle voit aussi une lampe verte. Elle la trouve jolie, mais elle ne la prend pas : elle est trop grande pour l'appartement."
+    ],
+    [
+      "Ensuite, elle trouve des vieilles cartes postales de Paris. Elle les adore. Elle les achète pour Amina."
+    ],
+    [
+      "« Amina va les aimer », pense Léa."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "les vieilles choses",
+      "en": "old things"
+    },
+    {
+      "fr": "dans les mains",
+      "en": "in her hands"
+    },
+    {
+      "fr": "une lampe",
+      "en": "a lamp"
+    },
+    {
+      "fr": "elle la trouve jolie",
+      "en": "she finds it pretty"
+    },
+    {
+      "fr": "ensuite",
+      "en": "next, then"
+    }
+  ],
+  "spotlight": [
+    "**Object pronouns go before the verb:** *Elle le regarde* (the camera). *Elle les adore* (the postcards). In the negative: *Elle ne la prend pas.*",
+    "**With two verbs, the pronoun goes before the infinitive:** *Amina va les aimer.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "How much does Léa finally pay for the camera?",
+      "answer": "€35",
+      "options": [
+        "€35",
+        "€40",
+        "€30",
+        "€25"
+      ],
+      "evidence": "Trente-cinq. — D'accord, je le prends !"
+    },
+    {
+      "id": "q2",
+      "prompt": "Why doesn't she buy the lamp?",
+      "answer": "It's too big for her apartment",
+      "options": [
+        "It's too big for her apartment",
+        "It's too expensive",
+        "She doesn't like green",
+        "It's broken"
+      ],
+      "evidence": "Elle la trouve jolie, mais elle ne la prend pas : elle est trop grande pour l'appartement."
+    },
+    {
+      "id": "q3",
+      "prompt": "Who are the postcards for?",
+      "answer": "Amina",
+      "options": [
+        "Amina",
+        "Marco",
+        "Her mother",
+        "Herself"
+      ],
+      "evidence": "Elle les adore. Elle les achète pour Amina."
+    }
+  ],
+  "writing": {
+    "prompt": "Write two sentences about objects you own, replacing the noun with *le*, *la*, or *les* in the second sentence.",
+    "model": "J'ai un vieux vélo. Je le prends tous les jours pour aller au travail.",
+    "targets": [
+      {
+        "label": "le / la / les / l' before a verb",
+        "pattern": "\\b(je|tu|il|elle|on|nous|vous|ils|elles)\\s+(ne\\s+|n')?(le\\s|la\\s|les\\s|l')",
+        "min": 1
+      }
+    ]
+  }
+}

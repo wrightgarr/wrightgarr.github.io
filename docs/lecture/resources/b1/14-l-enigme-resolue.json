@@ -1,0 +1,164 @@
+{
+  "id": "b1-14",
+  "level": "B1",
+  "number": 14,
+  "title": "L'énigme résolue",
+  "grammar": "expressing cause",
+  "theme": "solving the mystery",
+  "wordCount": 393,
+  "primer": [
+    "**parce que**: because (answers *pourquoi ?*)",
+    "**comme**: as, since (at the start of a sentence)",
+    "**puisque**: since (the reason is already known)",
+    "**car**: for, because (mostly written)",
+    "**grâce à / à cause de + nom**: thanks to / because of",
+    "**emprunter / prêter**: to borrow / to lend"
+  ],
+  "passage": [
+    [
+      "Le lendemain matin, Léa a montré la photo 287 à Karim. On y voyait une petite femme de dos, et surtout des cheveux violets impossibles à oublier."
+    ],
+    [
+      "— Josette ! a crié Karim. La propriétaire d'Amina !"
+    ],
+    [
+      "Comme Josette habitait à deux rues de la galerie, ils y sont allés à pied. Elle a ouvert la porte en robe de chambre et, en voyant leur tête, elle a compris tout de suite."
+    ],
+    [
+      "— Entrez. Puisque vous êtes là, autant vous expliquer."
+    ],
+    [
+      "Le tableau était posé sur sa table de cuisine, à côté d'une boîte de vieilles lettres."
+    ],
+    [
+      "— Je ne l'ai pas volé, a-t-elle commencé. Je l'ai emprunté. C'est différent. Le « peintre du port », c'était Antoine Vidal, le grand-père de mon mari. Personne ne connaissait son nom parce qu'il signait seulement « A.V. », en tout petit. Bastien l'avait remarqué, car il regarde les tableaux mieux que tout le monde.",
+      "— Et comment le tableau est-il arrivé chez vous ?",
+      "— Grâce à Bastien. Pendant le vernissage, je lui ai montré une lettre de 1932 dans laquelle Antoine décrivait ce tableau. Bastien était si ému qu'il me l'a prêté pour la nuit, pour que je compare. Il voulait le remettre en place à huit heures, avant l'arrivée de Sylvie. Mais à cause de ma tension, je me suis réveillée tard… et à huit heures, le tableau était encore ici.",
+      "— Et Bastien a dit qu'il était malade parce qu'il avait peur, a compris Léa.",
+      "— Le pauvre garçon. Il est terrifié."
+    ],
+    [
+      "Une heure plus tard, tout le monde était à la galerie : Josette, Bastien très pâle, Léa, Karim et Sylvie. Sylvie a écouté l'histoire, a lu la lettre d'Antoine Vidal, puis elle est restée longtemps silencieuse."
+    ],
+    [
+      "— Bastien, la prochaine fois, tu me demandes, d'accord ?"
+    ],
+    [
+      "Bastien a hoché la tête, rouge de honte."
+    ],
+    [
+      "— Comme ce tableau appartient à votre famille, a continué Sylvie en se tournant vers Josette, je ne peux pas le vendre à un inconnu. Je vous le rends.",
+      "— Non, a dit Josette. Puisque mon mari n'est plus là, ce tableau doit rester là où les gens peuvent le voir. Gardez-le. Mais écrivez enfin son nom à côté : Antoine Vidal, peintre du port."
+    ],
+    [
+      "Grâce à l'article de Karim, publié dans le numéro de mai, le peintre oublié est devenu une petite célébrité locale. Et à cause de cet article, Sylvie a reçu une dizaine d'offres pour le tableau. Elle les a toutes refusées."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "en robe de chambre",
+      "en": "in her dressing gown"
+    },
+    {
+      "fr": "en voyant leur tête",
+      "en": "when she saw their faces"
+    },
+    {
+      "fr": "autant vous expliquer",
+      "en": "I might as well explain"
+    },
+    {
+      "fr": "emprunté",
+      "en": "borrowed"
+    },
+    {
+      "fr": "en tout petit",
+      "en": "in tiny letters"
+    },
+    {
+      "fr": "remettre en place",
+      "en": "to put back"
+    },
+    {
+      "fr": "ma tension",
+      "en": "my blood pressure"
+    },
+    {
+      "fr": "pâle",
+      "en": "pale"
+    },
+    {
+      "fr": "a hoché la tête",
+      "en": "nodded"
+    },
+    {
+      "fr": "rouge de honte",
+      "en": "red with shame"
+    },
+    {
+      "fr": "appartient à",
+      "en": "belongs to"
+    },
+    {
+      "fr": "une célébrité",
+      "en": "a celebrity"
+    },
+    {
+      "fr": "une dizaine",
+      "en": "about ten"
+    }
+  ],
+  "spotlight": [
+    "**Conjunctions of cause:** *parce que* answers \"why?\" (*Personne ne connaissait son nom parce qu'il signait seulement « A.V. »*). *Comme* usually opens the sentence (*Comme Josette habitait à deux rues de la galerie…*). *Puisque* gives a reason that both people already know (*Puisque vous êtes là…*). *Car* is a written \"because\" (*car il regarde les tableaux mieux que tout le monde*).",
+    "**Before a noun:** *grâce à* for a positive cause (*Grâce à Bastien, grâce à l'article de Karim*), *à cause de* for a negative one (*à cause de ma tension*). The final *à cause de cet article* is ironic: from Sylvie's point of view, a dozen offers she has to refuse are a nuisance."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Comment Léa et Karim ont-ils reconnu Josette sur la photo ?",
+      "answer": "Grâce à ses cheveux violets",
+      "options": [
+        "Grâce à ses cheveux violets",
+        "Grâce à sa robe de chambre",
+        "Grâce à sa voix",
+        "Grâce à sa signature"
+      ],
+      "evidence": "On y voyait une petite femme de dos, et surtout des cheveux violets impossibles à oublier."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi Josette avait-elle le tableau chez elle ?",
+      "answer": "Bastien le lui a prêté pour la nuit, pour qu'elle le compare avec une lettre de famille",
+      "options": [
+        "Bastien le lui a prêté pour la nuit, pour qu'elle le compare avec une lettre de famille",
+        "Elle l'a volé pour le vendre",
+        "Sylvie le lui a donné",
+        "Elle l'a acheté pendant le vernissage"
+      ],
+      "evidence": "Bastien était si ému qu'il me l'a prêté pour la nuit, pour que je compare."
+    },
+    {
+      "id": "q3",
+      "prompt": "Que demande Josette à Sylvie à la fin ?",
+      "answer": "Garder le tableau et écrire enfin le nom du peintre à côté",
+      "options": [
+        "Garder le tableau et écrire enfin le nom du peintre à côté",
+        "Lui rendre le tableau",
+        "Vendre le tableau très cher",
+        "Renvoyer Bastien"
+      ],
+      "evidence": "Gardez-le. Mais écrivez enfin son nom à côté : Antoine Vidal, peintre du port."
+    }
+  ],
+  "writing": {
+    "prompt": "Expliquez une décision importante de votre vie en trois phrases, avec trois expressions de cause différentes.",
+    "model": "J'ai quitté mon travail parce que je voulais voyager. Comme j'avais un peu d'argent, je suis partie en Asie. Grâce à ce voyage, j'ai rencontré mon mari.",
+    "targets": [
+      {
+        "label": "three cause expressions (parce que, comme, puisque, car, grâce à, à cause de)",
+        "pattern": "parce qu|\\bcomme\\b|puisqu|\\bcar\\b|grâce à|grâce au|à cause d",
+        "min": 3
+      }
+    ]
+  }
+}

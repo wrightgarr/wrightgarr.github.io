@@ -1,0 +1,127 @@
+{
+  "id": "a1-19",
+  "level": "A1",
+  "number": 19,
+  "title": "Pardon, où est… ?",
+  "grammar": "the imperative",
+  "theme": "giving directions",
+  "wordCount": 88,
+  "primer": [
+    "**Pardon**: Excuse me",
+    "**tournez à droite / à gauche**: turn right / left",
+    "**continuez tout droit**: keep going straight",
+    "**traversez**: cross",
+    "**prenez / descendez**: take / get off",
+    "**loin**: far",
+    "**De rien**: You're welcome"
+  ],
+  "passage": [
+    [
+      "Un touriste arrête Léa dans la rue."
+    ],
+    [
+      "— Pardon, madame. Où est la tour Eiffel, s'il vous plaît ?",
+      "— C'est un peu loin. Prenez le métro, ligne 6, et descendez à Bir-Hakeim.",
+      "— Et à pied ?",
+      "— Alors, continuez tout droit jusqu'à la Seine. Puis tournez à droite. Marchez le long du fleuve, traversez le pont et voilà !",
+      "— C'est long ?",
+      "— Trente minutes. Mais regardez : il fait beau ! Profitez de la promenade.",
+      "— Merci beaucoup, madame !",
+      "— De rien. Bonne visite !"
+    ],
+    [
+      "Léa sourit. Elle pense : « Moi aussi, je vais visiter la tour Eiffel un jour ! »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "arrête",
+      "en": "stops"
+    },
+    {
+      "fr": "la ligne",
+      "en": "the (metro) line"
+    },
+    {
+      "fr": "jusqu'à",
+      "en": "until, as far as"
+    },
+    {
+      "fr": "puis",
+      "en": "then"
+    },
+    {
+      "fr": "le long du fleuve",
+      "en": "along the river"
+    },
+    {
+      "fr": "le pont",
+      "en": "the bridge"
+    },
+    {
+      "fr": "Profitez de…",
+      "en": "Enjoy…"
+    },
+    {
+      "fr": "elle pense",
+      "en": "she thinks"
+    },
+    {
+      "fr": "un jour",
+      "en": "one day"
+    }
+  ],
+  "spotlight": [
+    "**Imperative (vous form):** use the *vous* form without *vous*: *vous prenez* → *Prenez !*, *vous tournez* → *Tournez !*",
+    "**Imperative (tu form):** for *-er* verbs, drop the *-s*: *tu tournes* → *Tourne !* Others keep the tu form: *Prends le métro !*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What metro line and stop does Léa suggest?",
+      "answer": "Line 6, and get off at Bir-Hakeim",
+      "options": [
+        "Line 6, and get off at Bir-Hakeim",
+        "Line 1, and get off at Concorde",
+        "Line 6, and get off at Montmartre",
+        "Line 4, and get off at Bir-Hakeim"
+      ],
+      "evidence": "Prenez le métro, ligne 6, et descendez à Bir-Hakeim."
+    },
+    {
+      "id": "q2",
+      "prompt": "List the walking directions in order.",
+      "answer": "Straight to the Seine, turn right, walk along the river, cross the bridge",
+      "options": [
+        "Straight to the Seine, turn right, walk along the river, cross the bridge",
+        "Turn left, cross the bridge, then go straight",
+        "Turn right, turn left, then take the metro",
+        "Cross the bridge, then turn left and walk for an hour"
+      ],
+      "evidence": "Continuez tout droit jusqu'à la Seine. Puis tournez à droite. Marchez le long du fleuve, traversez le pont et voilà !"
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Léa realize at the end?",
+      "answer": "She wants to visit the Eiffel Tower herself one day",
+      "options": [
+        "She wants to visit the Eiffel Tower herself one day",
+        "She's lost too",
+        "She's late for work",
+        "She has never seen the Seine"
+      ],
+      "evidence": "Moi aussi, je vais visiter la tour Eiffel un jour !"
+    }
+  ],
+  "writing": {
+    "prompt": "Give directions from your home to a nearby place in 3 imperative sentences.",
+    "model": "Sortez de la maison et tournez à gauche. Continuez tout droit. Traversez la rue : le parc est là !",
+    "targets": [
+      {
+        "label": "three imperatives (tournez, continuez, prenez…)",
+        "pattern": "\\b(tournez|continuez|prenez|traversez|marchez|descendez|allez|sortez|montez|tourne|continue|prends|traverse|marche|descends|va|sors)\\b",
+        "min": 3
+      }
+    ]
+  }
+}

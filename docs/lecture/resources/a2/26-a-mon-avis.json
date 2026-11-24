@@ -1,0 +1,145 @@
+{
+  "id": "a2-26",
+  "level": "A2",
+  "number": 26,
+  "title": "À mon avis…",
+  "grammar": "giving opinions",
+  "theme": "a debate at the magazine",
+  "wordCount": 224,
+  "primer": [
+    "**je pense que / je crois que**: I think that / I believe that",
+    "**je trouve que**: I think, I find that",
+    "**à mon avis**: in my opinion",
+    "**d'un côté… de l'autre…**: on the one hand… on the other…",
+    "**je suis d'accord / je ne suis pas d'accord**: I agree / I disagree",
+    "**tu as raison / tu as tort**: you're right / you're wrong",
+    "**limiter**: to limit"
+  ],
+  "passage": [
+    [
+      "En décembre, à la réunion du lundi, Nadia a proposé un sujet difficile pour le numéro de janvier : « Faut-il limiter les touristes dans les calanques ? »"
+    ],
+    [
+      "— Depuis quelques années, il faut réserver pour aller à Sugiton en été, a expliqué Nadia. Qu'est-ce que vous en pensez ?"
+    ],
+    [
+      "Karim a parlé le premier."
+    ],
+    [
+      "— À mon avis, c'est une très bonne idée. L'été dernier, il y avait des milliers de personnes chaque jour. Les plantes meurent, la terre disparaît. Je pense qu'on doit protéger la nature.",
+      "— Je ne suis pas d'accord, a répondu Lucas, le stagiaire. Je trouve que les calanques appartiennent à tout le monde. Les jeunes de Marseille n'ont pas toujours d'argent pour partir en vacances. Pour eux, c'est la plage la plus proche !",
+      "— D'un côté, tu as raison, a dit Léa. Mais de l'autre, si on ne fait rien, dans vingt ans, il n'y aura plus de calanques. Je crois qu'il faut trouver un équilibre. Par exemple, on pourrait garder des places pour les Marseillais.",
+      "— Et le tourisme ? a demandé Lucas. Les restaurants et les hôtels ont besoin des touristes.",
+      "— C'est vrai, a dit Nadia. C'est exactement pour ça que c'est un bon sujet. Il n'y a pas une seule bonne réponse."
+    ],
+    [
+      "Elle a souri."
+    ],
+    [
+      "— Parfait. Karim, tu écris le pour. Lucas, tu écris le contre. Et Léa, tu fais les photos des deux côtés !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "la réunion",
+      "en": "the meeting"
+    },
+    {
+      "fr": "un sujet",
+      "en": "a topic"
+    },
+    {
+      "fr": "Faut-il… ?",
+      "en": "Should we…?"
+    },
+    {
+      "fr": "Qu'est-ce que vous en pensez ?",
+      "en": "What do you think about it?"
+    },
+    {
+      "fr": "des milliers",
+      "en": "thousands"
+    },
+    {
+      "fr": "la terre",
+      "en": "the soil"
+    },
+    {
+      "fr": "protéger",
+      "en": "to protect"
+    },
+    {
+      "fr": "appartiennent à",
+      "en": "belong to"
+    },
+    {
+      "fr": "la plus proche",
+      "en": "the closest"
+    },
+    {
+      "fr": "un équilibre",
+      "en": "a balance"
+    },
+    {
+      "fr": "ont besoin des touristes",
+      "en": "need the tourists"
+    },
+    {
+      "fr": "le pour / le contre",
+      "en": "the case for / the case against"
+    }
+  ],
+  "spotlight": [
+    "**Opinion verbs + que + indicative:** *Je pense qu'on doit protéger la nature. Je trouve que les calanques appartiennent à tout le monde. Je crois qu'il faut trouver un équilibre.* (In the negative, *je ne pense pas que* takes the subjunctive, which you'll learn at B1.)",
+    "**Building an argument:** open with *À mon avis…*, weigh it up with *D'un côté… mais de l'autre…*, and react with *Je suis d'accord*, *Je ne suis pas d'accord*, *Tu as raison* or *C'est vrai, mais…*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What topic does Nadia propose?",
+      "answer": "Should tourists be limited in the calanques?",
+      "options": [
+        "Should tourists be limited in the calanques?",
+        "Should the magazine move to Paris?",
+        "Should Marseille build a new beach?",
+        "Should the calanques become a ski area?"
+      ],
+      "evidence": "Faut-il limiter les touristes dans les calanques ?"
+    },
+    {
+      "id": "q2",
+      "prompt": "What are Karim's and Lucas's opinions?",
+      "answer": "Karim wants to protect nature; Lucas says the calanques belong to everyone",
+      "options": [
+        "Karim wants to protect nature; Lucas says the calanques belong to everyone",
+        "Karim wants more tourists; Lucas wants fewer",
+        "Both agree the limits are bad",
+        "Karim wants to close them; Lucas wants a hotel there"
+      ],
+      "evidence": "Je pense qu'on doit protéger la nature. — Je ne suis pas d'accord… Je trouve que les calanques appartiennent à tout le monde."
+    },
+    {
+      "id": "q3",
+      "prompt": "What compromise does Léa suggest?",
+      "answer": "Find a balance, for example by keeping places for locals",
+      "options": [
+        "Find a balance, for example by keeping places for locals",
+        "Close the calanques completely",
+        "Charge every visitor a high price",
+        "Do nothing and wait"
+      ],
+      "evidence": "Je crois qu'il faut trouver un équilibre. Par exemple, on pourrait garder des places pour les Marseillais."
+    }
+  ],
+  "writing": {
+    "prompt": "Give your opinion on an issue in your town in 3–4 sentences, using at least three opinion phrases.",
+    "model": "À mon avis, il faut plus de pistes cyclables dans ma ville. Je pense que les voitures sont dangereuses. D'un côté, c'est cher, mais de l'autre, c'est bon pour la santé.",
+    "targets": [
+      {
+        "label": "opinion phrases (à mon avis, je pense que, je trouve que, je crois que, d'un côté…)",
+        "pattern": "à mon avis|je pense qu|je trouve qu|je crois qu|d'un côté|de l'autre|je (ne )?suis (pas )?d'accord|tu as raison",
+        "min": 3
+      }
+    ]
+  }
+}

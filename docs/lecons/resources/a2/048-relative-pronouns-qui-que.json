@@ -1,0 +1,75 @@
+{
+ "id": "s48",
+ "subject": 48,
+ "level": "A2",
+ "title": "Relative Pronouns: qui & que",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Relative pronouns link two clauses and avoid repetition: \"who\", \"which\", \"that\".</p>"
+  },
+  {
+   "heading": "Qui = subject",
+   "html": "<p><strong>Qui</strong> replaces the <strong>subject</strong> of the second clause. It's followed by a <strong>verb</strong>.\n- <em>J'ai un ami. </em><em>Mon ami</em><em> habite à Paris.</em> → <em>J'ai un ami </em><em>qui</em><em> habite à Paris.</em>\n- <em>C'est le train </em><em>qui</em><em> va à Montréal.</em>\n- <strong>Qui</strong> never becomes <em>qu'</em>: <em>l'homme </em><em>qui</em><em> arrive</em>.</p>"
+  },
+  {
+   "heading": "Que = direct object",
+   "html": "<p><strong>Que</strong> replaces the <strong>direct object</strong> of the second clause. It's followed by a <strong>subject + verb</strong>.\n- <em>J'ai lu un livre. Tu m'as donné </em><em>ce livre</em><em>.</em> → <em>J'ai lu le livre </em><em>que</em><em> tu m'as donné.</em>\n- <em>La femme </em><em>que</em><em> je connais est médecin.</em>\n- <strong>Que → qu'</strong> before a vowel: <em>le film </em><em>qu'</em><em>il préfère</em>.</p>"
+  },
+  {
+   "heading": "The test",
+   "html": "<p>Look at what comes right after:\n| Next word | Pronoun |\n|---|---|\n| a verb | <strong>qui</strong> — <em>la fille </em><em>qui</em><em> chante</em> |\n| a subject (noun/pronoun) | <strong>que</strong> — <em>la fille </em><em>que</em><em> j'aime</em> |</p>"
+  },
+  {
+   "heading": "Both people and things",
+   "html": "<p>Unlike English (who vs which), <em>qui</em> and <em>que</em> are used for both people and things:\n- <em>l'homme </em><em>qui</em><em> parle</em> / <em>la voiture </em><em>qui</em><em> roule</em>\n- <em>l'homme </em><em>que</em><em> je vois</em> / <em>la voiture </em><em>que</em><em> j'achète</em></p>"
+  },
+  {
+   "heading": "Agreement",
+   "html": "<ul>\n<li>After <strong>qui</strong>, the verb agrees with the antecedent: <em>C'est moi </em><em>qui suis</em><em> responsable.</em> / <em>C'est toi </em><em>qui as</em><em> raison.</em></li>\n<li>After <strong>que</strong>, in the passé composé with <em>avoir</em>, the participle agrees with the antecedent (preceding direct object): <em>Les photos </em><em>que</em><em> j'ai pris</em><em>es</em><em>.</em></li>\n</ul>"
+  },
+  {
+   "heading": "Can't be dropped",
+   "html": "<p>English often drops \"that\" (the book I read). French <strong>never</strong> drops <em>que</em>: <em>le livre </em><em>que</em><em> j'ai lu</em>.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Le garçon ___ joue au foot est mon fils.",
+   "instruction": "Qui or que?",
+   "answer": "qui",
+   "id": "e1"
+  },
+  {
+   "prompt": "Le gâteau ___ tu as fait est délicieux.",
+   "answer": "que",
+   "id": "e2"
+  },
+  {
+   "prompt": "La ville ___ je préfère est Québec.",
+   "answer": "que",
+   "id": "e3"
+  },
+  {
+   "prompt": "C'est un film ___ parle de la guerre.",
+   "answer": "qui",
+   "id": "e4"
+  },
+  {
+   "prompt": "Combine: *J'ai acheté une voiture. La voiture est rouge.*",
+   "answer": "*J'ai acheté une voiture qui est rouge.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Combine: *Voici la maison. Mes parents ont acheté la maison.*",
+   "answer": "*Voici la maison que mes parents ont achetée.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"The woman I met yesterday is a lawyer.\"",
+   "answer": "*La femme que j'ai rencontrée hier est avocate.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

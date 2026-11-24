@@ -1,0 +1,69 @@
+{
+ "id": "s99",
+ "subject": 99,
+ "level": "B2",
+ "title": "Causative Construction With \"faire\"",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>causative</strong> (<em>faire causatif</em>) expresses that the subject <strong>causes someone else to do</strong> something, or <strong>has something done</strong>: \"to have / make / get something done\".</p>"
+  },
+  {
+   "heading": "Formation: faire (conjugated) + infinitive",
+   "html": "<ul>\n<li><em>Je </em><em>fais réparer</em><em> ma voiture.</em> — I'm having my car repaired.</li>\n<li><em>Elle </em><em>fait construire</em><em> une maison.</em> — She's having a house built.</li>\n<li><em>Le prof </em><em>fait lire</em><em> les élèves.</em> — The teacher makes the students read.</li>\n<li><em>Ce film m'</em><em>a fait rire</em><em>.</em> — This film made me laugh.</li>\n</ul>\n<p><strong>Faire</strong> + infinitive stay together: nothing comes between them (except adverbs in compound tenses).</p>"
+  },
+  {
+   "heading": "Who does the action?",
+   "html": "<ol>\n<li><strong>One object only (the person or the thing):</strong> direct object.\n   - <em>Je fais </em><em>chanter les enfants</em><em>.</em> → <em>Je </em><em>les</em><em> fais chanter.</em>\n   - <em>Je fais </em><em>réparer la voiture</em><em>.</em> → <em>Je </em><em>la</em><em> fais réparer.</em></li>\n<li><strong>Two objects (thing + person):</strong> the thing is the direct object, the person becomes <strong>indirect</strong> (introduced by <strong>à</strong> or <strong>par</strong>):\n   - <em>Je fais réparer </em><em>la voiture</em><em> </em><em>au</em><em> mécanicien / </em><em>par</em><em> le mécanicien.</em>\n   - <em>Je fais lire </em><em>ce livre</em><em> </em><em>aux</em><em> élèves.</em> → <em>Je </em><em>le leur</em><em> fais lire.</em></li>\n</ol>"
+  },
+  {
+   "heading": "Pronoun position: before faire",
+   "html": "<ul>\n<li><em>Je </em><em>le</em><em> fais réparer.</em> (not ~~je fais le réparer~~)</li>\n<li><em>Il </em><em>m'a</em><em> fait attendre.</em> — He made me wait.</li>\n<li><em>Ne </em><em>me</em><em> fais pas rire !</em> — Don't make me laugh!</li>\n<li>Affirmative imperative: <em>Fais-</em><em>le</em><em> entrer !</em> — Show him in!</li>\n</ul>"
+  },
+  {
+   "heading": "No agreement in the passé composé",
+   "html": "<p>The past participle <em>fait</em> <strong>never agrees</strong> in the causative: <em>Les maisons qu'il a </em><em>fait</em><em> construire.</em> / <em>Je les ai </em><em>fait</em><em> venir.</em></p>"
+  },
+  {
+   "heading": "Common causative expressions",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>faire faire</strong></td>\n<td>to have (something) done</td>\n</tr>\n<tr>\n<td><strong>faire venir</strong></td>\n<td>to send for, call (a doctor, plumber)</td>\n</tr>\n<tr>\n<td><strong>faire entrer / sortir</strong></td>\n<td>to show in / out</td>\n</tr>\n<tr>\n<td><strong>faire attendre</strong></td>\n<td>to keep waiting</td>\n</tr>\n<tr>\n<td><strong>faire rire / pleurer</strong></td>\n<td>to make laugh / cry</td>\n</tr>\n<tr>\n<td><strong>faire savoir</strong></td>\n<td>to let know, inform</td>\n</tr>\n<tr>\n<td><strong>faire remarquer</strong></td>\n<td>to point out</td>\n</tr>\n<tr>\n<td><strong>faire visiter</strong></td>\n<td>to show around</td>\n</tr>\n<tr>\n<td><strong>faire cuire</strong></td>\n<td>to cook (something)</td>\n</tr>\n<tr>\n<td><strong>faire tomber</strong></td>\n<td>to drop</td>\n</tr>\n<tr>\n<td><strong>faire peur à</strong></td>\n<td>to scare</td>\n</tr>\n<tr>\n<td><strong>faire croire</strong></td>\n<td>to make believe</td>\n</tr>\n<tr>\n<td><strong>faire voir</strong></td>\n<td>to show</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Laisser + infinitive (allowing)",
+   "html": "<p>Similar structure, but means \"let\": <em>Laisse-</em><em>moi</em><em> parler !</em> / <em>Il </em><em>a laissé</em><em> tomber son verre.</em> — He dropped his glass. / <em>Je </em><em>les</em><em> laisse jouer.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Translate: \"I'm having the car washed.\"",
+   "answer": "*Je fais laver la voiture.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Replace with pronouns: *Je fais réparer mon ordinateur.*",
+   "answer": "*Je le fais réparer.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Replace with pronouns: *Le guide fait visiter le château aux touristes.*",
+   "answer": "*Le guide le leur fait visiter.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"Don't keep me waiting!\"",
+   "answer": "*Ne me fais pas attendre !* / *Ne me faites pas attendre !*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"This story made me cry.\"",
+   "answer": "*Cette histoire m'a fait pleurer.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Correct: *Les fleurs que j'ai faites livrer.*",
+   "answer": "*Les fleurs que j'ai fait livrer.* (no agreement)",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

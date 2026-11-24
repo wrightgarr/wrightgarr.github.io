@@ -1,0 +1,167 @@
+{
+  "id": "b1-22",
+  "level": "B1",
+  "number": 22,
+  "title": "La mer monte",
+  "grammar": "*de plus en plus*, *plus… plus…*, *d'autant plus que*",
+  "theme": "the Mediterranean in danger",
+  "wordCount": 370,
+  "primer": [
+    "**de plus en plus / de moins en moins**: more and more / less and less",
+    "**plus… plus… / moins… moins…**: the more… the more… / the less… the less…",
+    "**d'autant plus que**: all the more because",
+    "**se réchauffer**: to get warmer",
+    "**une espèce**: a species",
+    "**une biologiste marine**: a marine biologist"
+  ],
+  "passage": [
+    [
+      "En octobre, Le Mistral, désormais une coopérative, a publié son premier grand dossier : « La Méditerranée en danger ». Karim avait passé deux mois à interroger des scientifiques, des pêcheurs et des plongeurs. Léa était descendue sous l'eau pour la première fois de sa vie."
+    ],
+    [
+      "Voici un extrait de l'article."
+    ],
+    [
+      "« La Méditerranée se réchauffe de plus en plus vite. Selon les scientifiques, elle se réchauffe même plus rapidement que la moyenne des océans. L'été dernier, près des côtes de Provence, la température de l'eau a approché les trente degrés pendant plusieurs jours."
+    ],
+    [
+      "\"Plus l'eau est chaude, plus les espèces locales souffrent\", explique Hélène Marchetti, biologiste marine à Marseille. \"Les herbiers de posidonie, qui sont les poumons de notre mer, disparaissent peu à peu. Et moins il y a d'herbiers, moins il y a de poissons.\""
+    ],
+    [
+      "Les pêcheurs le constatent chaque jour. \"Il y a de moins en moins de rougets et de plus en plus de poissons tropicaux que nous ne connaissions pas\", raconte Joseph, pêcheur au Vieux-Port depuis l'âge de quinze ans. \"Mon père ne reconnaîtrait plus sa mer.\""
+    ],
+    [
+      "Le problème est d'autant plus grave que la Méditerranée est une mer presque fermée : l'eau s'y renouvelle très lentement. La pollution, le trafic maritime et le tourisme de masse s'ajoutent au réchauffement. Plus il y a de bateaux, plus les ancres arrachent les herbiers."
+    ],
+    [
+      "Pourtant, tout n'est pas perdu. Dans le parc national des Calanques, les zones protégées montrent des résultats encourageants : là où la pêche est interdite, les poissons reviennent de plus en plus nombreux. \"Plus vite nous agirons, plus nous aurons de chances de sauver ce qui peut encore l'être\", conclut Hélène Marchetti. »"
+    ],
+    [
+      "Le dossier a eu un succès immense. En trois jours, Le Mistral a reçu plus de lettres de lecteurs qu'en un an. Certains remerciaient l'équipe, d'autres racontaient leurs souvenirs de la mer d'autrefois. Une institutrice a même écrit que sa classe allait parrainer un petit morceau d'herbier dans le parc."
+    ],
+    [
+      "— Plus on écrit sur les vrais sujets, plus les gens nous lisent, a remarqué Nadia pendant la réunion. Je commence à croire que nous allons survivre.",
+      "— Et plus nous survivons, plus nous aurons de dossiers à faire, a soupiré Karim. Je n'ai pas dormi depuis deux mois."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "désormais",
+      "en": "now, from now on"
+    },
+    {
+      "fr": "des plongeurs",
+      "en": "divers"
+    },
+    {
+      "fr": "la moyenne",
+      "en": "the average"
+    },
+    {
+      "fr": "les herbiers de posidonie",
+      "en": "seagrass meadows"
+    },
+    {
+      "fr": "les poumons",
+      "en": "the lungs"
+    },
+    {
+      "fr": "peu à peu",
+      "en": "little by little"
+    },
+    {
+      "fr": "le constatent",
+      "en": "see it happening"
+    },
+    {
+      "fr": "des rougets",
+      "en": "red mullet"
+    },
+    {
+      "fr": "s'y renouvelle",
+      "en": "is renewed there"
+    },
+    {
+      "fr": "s'ajoutent au",
+      "en": "add to the"
+    },
+    {
+      "fr": "les ancres",
+      "en": "anchors"
+    },
+    {
+      "fr": "arrachent",
+      "en": "tear up"
+    },
+    {
+      "fr": "encourageants",
+      "en": "encouraging"
+    },
+    {
+      "fr": "d'autrefois",
+      "en": "of the past"
+    },
+    {
+      "fr": "parrainer",
+      "en": "to sponsor"
+    }
+  ],
+  "spotlight": [
+    "**Gradual change:** *La Méditerranée se réchauffe de plus en plus vite. Il y a de moins en moins de rougets et de plus en plus de poissons tropicaux.* With a noun, add *de*: *de plus en plus de poissons*.",
+    "**The more… the more…:** *Plus l'eau est chaude, plus les espèces locales souffrent. Moins il y a d'herbiers, moins il y a de poissons. Plus vite nous agirons, plus nous aurons de chances.* There's no article before *plus* here (never *le plus… le plus*). *D'autant plus que* gives a reason that makes things worse: *Le problème est d'autant plus grave que la Méditerranée est une mer presque fermée.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi la disparition des herbiers de posidonie est-elle grave ?",
+      "answer": "Ils sont les poumons de la mer, et sans eux il y a moins de poissons",
+      "options": [
+        "Ils sont les poumons de la mer, et sans eux il y a moins de poissons",
+        "Ils bloquent les bateaux",
+        "Ils attirent les requins",
+        "Ils rendent l'eau plus chaude"
+      ],
+      "evidence": "Les herbiers de posidonie, qui sont les poumons de notre mer, disparaissent peu à peu. Et moins il y a d'herbiers, moins il y a de poissons."
+    },
+    {
+      "id": "q2",
+      "prompt": "Qu'est-ce qui a changé pour le pêcheur Joseph ?",
+      "answer": "Il y a moins de rougets et plus de poissons tropicaux inconnus",
+      "options": [
+        "Il y a moins de rougets et plus de poissons tropicaux inconnus",
+        "Il n'y a plus aucun poisson",
+        "Il pêche maintenant en Corse",
+        "Il y a plus de rougets qu'avant"
+      ],
+      "evidence": "Il y a de moins en moins de rougets et de plus en plus de poissons tropicaux que nous ne connaissions pas"
+    },
+    {
+      "id": "q3",
+      "prompt": "Quelle bonne nouvelle l'article donne-t-il ?",
+      "answer": "Dans les zones protégées, les poissons reviennent",
+      "options": [
+        "Dans les zones protégées, les poissons reviennent",
+        "La mer se refroidit",
+        "Le tourisme diminue",
+        "Les herbiers poussent plus vite qu'avant"
+      ],
+      "evidence": "là où la pêche est interdite, les poissons reviennent de plus en plus nombreux."
+    }
+  ],
+  "writing": {
+    "prompt": "Décrivez un changement dans votre ville ou dans votre vie en trois phrases avec *de plus en plus, de moins en moins* et *plus… plus…*",
+    "model": "Dans ma ville, il y a de plus en plus de pistes cyclables. Il y a de moins en moins de voitures au centre. Plus il y a de vélos, plus l'air est propre.",
+    "targets": [
+      {
+        "label": "de plus en plus / de moins en moins",
+        "pattern": "de (plus|moins) en (plus|moins)",
+        "min": 2
+      },
+      {
+        "label": "plus… plus… / moins… moins…",
+        "pattern": "\\b(plus|moins)\\b[^.!?]*,\\s*(plus|moins)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

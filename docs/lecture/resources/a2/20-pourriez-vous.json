@@ -1,0 +1,145 @@
+{
+  "id": "a2-20",
+  "level": "A2",
+  "number": 20,
+  "title": "Pourriez-vous… ?",
+  "grammar": "the polite conditional",
+  "theme": "booking a guesthouse",
+  "wordCount": 185,
+  "primer": [
+    "**je voudrais**: I would like",
+    "**j'aimerais**: I would like, I'd love",
+    "**Pourriez-vous… ?**: Could you…?",
+    "**Est-ce que vous auriez… ?**: Would you have…?",
+    "**Ce serait possible de… ?**: Would it be possible to…?",
+    "**une chambre double**: a double room",
+    "**réserver**: to book"
+  ],
+  "passage": [
+    [
+      "En septembre, les parents de Léa viennent à Marseille pour leur anniversaire de mariage. Léa a décidé de leur offrir deux nuits dans une jolie maison d'hôtes à Cassis. Elle téléphone."
+    ],
+    [
+      "— Bonjour, madame. Je voudrais réserver une chambre double pour deux nuits, le 20 et le 21 septembre.",
+      "— Bonjour ! Un instant… Oui, nous avons encore deux chambres. Vous préférez une chambre avec vue sur la mer ou sur le jardin ?",
+      "— Avec vue sur la mer, si possible. C'est pour l'anniversaire de mariage de mes parents.",
+      "— Oh, c'est charmant !",
+      "— Est-ce que vous auriez un petit cadeau pour eux ? Je pourrais payer un supplément.",
+      "— Bien sûr. Nous pourrions mettre une bouteille de vin de Cassis dans la chambre.",
+      "— Ce serait parfait ! Et ce serait possible de prendre le petit-déjeuner sur la terrasse ?",
+      "— Oui, de huit heures à dix heures.",
+      "— Super. Pourriez-vous m'envoyer une confirmation par e-mail ?",
+      "— Avec plaisir. Votre nom, s'il vous plaît ?",
+      "— Léa Moreau. Ah, une dernière chose : j'aimerais garder la surprise. Si mon père vous téléphone, pourriez-vous ne rien dire ?"
+    ],
+    [
+      "La dame a ri."
+    ],
+    [
+      "— Ne vous inquiétez pas, madame Moreau. Ici, nous sommes très discrets !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "leur anniversaire de mariage",
+      "en": "their wedding anniversary"
+    },
+    {
+      "fr": "a décidé de",
+      "en": "decided to"
+    },
+    {
+      "fr": "une maison d'hôtes",
+      "en": "a guesthouse, a B&B"
+    },
+    {
+      "fr": "Un instant",
+      "en": "One moment"
+    },
+    {
+      "fr": "avec vue sur la mer",
+      "en": "with a sea view"
+    },
+    {
+      "fr": "si possible",
+      "en": "if possible"
+    },
+    {
+      "fr": "charmant",
+      "en": "lovely"
+    },
+    {
+      "fr": "un supplément",
+      "en": "an extra charge"
+    },
+    {
+      "fr": "le vin de Cassis",
+      "en": "Cassis wine"
+    },
+    {
+      "fr": "une confirmation",
+      "en": "a confirmation"
+    },
+    {
+      "fr": "garder la surprise",
+      "en": "to keep it a surprise"
+    },
+    {
+      "fr": "discrets",
+      "en": "discreet"
+    }
+  ],
+  "spotlight": [
+    "**The conditional softens requests**, like \"would\" and \"could\" in English: *je voudrais, j'aimerais, pourriez-vous, vous auriez, ce serait*. It's formed with the future stem plus the imperfect endings: *pouvoir → pourr- + -ais → je pourrais, nous pourrions*.",
+    "**Blunt vs. polite:** *Je veux une chambre* → *Je voudrais une chambre*. *Vous pouvez m'envoyer… ?* → *Pourriez-vous m'envoyer… ?*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why are Léa's parents coming to the South?",
+      "answer": "For their wedding anniversary",
+      "options": [
+        "For their wedding anniversary",
+        "For Léa's birthday",
+        "For a holiday by the sea",
+        "To help Léa move"
+      ],
+      "evidence": "En septembre, les parents de Léa viennent à Marseille pour leur anniversaire de mariage."
+    },
+    {
+      "id": "q2",
+      "prompt": "What extra will the guesthouse provide, and at what cost?",
+      "answer": "A bottle of Cassis wine in the room, for an extra charge",
+      "options": [
+        "A bottle of Cassis wine in the room, for an extra charge",
+        "A free dinner on the terrace",
+        "A cake, at no cost",
+        "Flowers and chocolates, for free"
+      ],
+      "evidence": "Je pourrais payer un supplément. — Bien sûr. Nous pourrions mettre une bouteille de vin de Cassis dans la chambre."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Léa ask the woman to do if her father calls?",
+      "answer": "Say nothing, to keep the surprise",
+      "options": [
+        "Say nothing, to keep the surprise",
+        "Give him the room number",
+        "Call Léa back",
+        "Send him the confirmation"
+      ],
+      "evidence": "j'aimerais garder la surprise. Si mon père vous téléphone, pourriez-vous ne rien dire ?"
+    }
+  ],
+  "writing": {
+    "prompt": "Write three polite requests you might make at a hotel or restaurant, using the conditional.",
+    "model": "Je voudrais une table pour deux, s'il vous plaît. Pourriez-vous m'apporter la carte ? J'aimerais goûter le dessert du jour.",
+    "targets": [
+      {
+        "label": "polite conditional (×3)",
+        "pattern": "\\b(voudrais|voudrions|aimerais|aimerions|pourriez|pourrais|pourrions|auriez|aurais|serait|préférerais)\\b",
+        "min": 3
+      }
+    ]
+  }
+}

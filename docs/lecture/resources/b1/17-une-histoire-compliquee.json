@@ -1,0 +1,174 @@
+{
+  "id": "b1-17",
+  "level": "B1",
+  "number": 17,
+  "title": "Une histoire compliquée",
+  "grammar": "concession and contrast",
+  "theme": "a long-distance relationship",
+  "wordCount": 372,
+  "primer": [
+    "**bien que + subj.**: although",
+    "**même si + indicatif**: even if",
+    "**pourtant / cependant**: yet / however",
+    "**alors que**: whereas",
+    "**malgré + nom**: despite",
+    "**quand même**: still, anyway",
+    "**avoir beau + infinitif**: no matter how much…"
+  ],
+  "passage": [
+    [
+      "Depuis son retour d'Alsace, Léa écrivait à Thomas tous les soirs. Pourtant, elle refusait de parler d'« histoire d'amour »."
+    ],
+    [
+      "— Bien qu'il soit charmant, il habite à huit cents kilomètres, a-t-elle expliqué à Amina, un soir, sur la plage des Catalans. Ce n'est pas réaliste.",
+      "— Malgré la distance, vous vous écrivez tous les jours. Ça veut dire quelque chose, non ?",
+      "— Ça veut dire que nous aimons écrire."
+    ],
+    [
+      "Amina a éclaté de rire."
+    ],
+    [
+      "— Léa, tu as beau inventer des excuses, je te connais. Quand tu parles de lui, tu souris comme une adolescente."
+    ],
+    [
+      "Léa a regardé la mer. Amina avait raison, même si elle ne voulait pas l'admettre. Thomas était drôle, cultivé, attentif. Il lui envoyait des photos de Strasbourg prises avec son téléphone, des photos horribles qu'il commentait avec beaucoup d'humour. Alors que les autres hommes qu'elle avait rencontrés parlaient toujours d'eux-mêmes, lui posait des questions et écoutait les réponses."
+    ],
+    [
+      "— Mais il a sa vie là-bas, a-t-elle insisté. Ses élèves, sa famille, sa région. Il adore l'Alsace. Et moi, j'ai enfin trouvé ma place ici. Même s'il vient à Marseille cet été, après, quoi ? On se verra trois fois par an ?",
+      "— Karim et moi, on a vécu à huit cents kilomètres l'un de l'autre pendant trois mois, l'année dernière. C'était difficile, mais on a réussi quand même.",
+      "— Ce n'est pas pareil. Toi, tu as déménagé.",
+      "— Exactement. Les gens déménagent, Léa. Pas toujours, mais parfois."
+    ],
+    [
+      "Le lendemain, Léa a raconté la conversation à Madame Ferrand, qui arrosait ses tomates sur son balcon."
+    ],
+    [
+      "— Cette petite est intelligente, a dit la vieille dame. Moi, quand j'ai rencontré Jean, mes parents étaient contre. Il était pauvre, il n'avait pas de métier stable, et pourtant je l'ai épousé. Cinquante ans de mariage, malgré tout ce qu'on m'avait dit.",
+      "— Mais vous habitiez la même ville.",
+      "— Oui. Cependant, nous ne parlions pas le même langage. Lui, c'était un rêveur ; moi, une institutrice très sérieuse. La distance, ce n'est pas toujours des kilomètres, ma belle."
+    ],
+    [
+      "Le soir, Léa a ouvert son ordinateur pour écrire à Thomas. Elle a hésité longtemps. Puis, au lieu de lui raconter sa journée comme d'habitude, elle a écrit seulement trois mots : « Viens en juillet. »"
+    ],
+    [
+      "La réponse est arrivée une minute plus tard : « J'ai déjà mon billet. »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "la plage des Catalans",
+      "en": "a city beach in Marseille"
+    },
+    {
+      "fr": "réaliste",
+      "en": "realistic"
+    },
+    {
+      "fr": "a éclaté de rire",
+      "en": "burst out laughing"
+    },
+    {
+      "fr": "tu as beau inventer",
+      "en": "no matter how many … you invent"
+    },
+    {
+      "fr": "une adolescente",
+      "en": "a teenage girl"
+    },
+    {
+      "fr": "l'admettre",
+      "en": "to admit it"
+    },
+    {
+      "fr": "cultivé",
+      "en": "cultured, well-read"
+    },
+    {
+      "fr": "attentif",
+      "en": "attentive"
+    },
+    {
+      "fr": "eux-mêmes",
+      "en": "themselves"
+    },
+    {
+      "fr": "pareil",
+      "en": "the same"
+    },
+    {
+      "fr": "arrosait",
+      "en": "was watering"
+    },
+    {
+      "fr": "je l'ai épousé",
+      "en": "I married him"
+    },
+    {
+      "fr": "un rêveur",
+      "en": "a dreamer"
+    }
+  ],
+  "spotlight": [
+    "**Concession = although / despite:** *Bien qu'il soit charmant* (+ subjunctive), *même si elle ne voulait pas l'admettre* (+ indicative), *Malgré la distance* (+ noun), *on a réussi quand même*. *Pourtant* and *cependant* link two separate ideas: *il était pauvre… et pourtant je l'ai épousé.*",
+    "**Contrast:** *Alors que les autres hommes parlaient toujours d'eux-mêmes, lui posait des questions.* *Avoir beau* + infinitive means \"no matter how much\": *tu as beau inventer des excuses* (however many excuses you come up with)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi Léa pense-t-elle que son histoire avec Thomas n'est pas réaliste ?",
+      "answer": "Thomas habite à huit cents kilomètres",
+      "options": [
+        "Thomas habite à huit cents kilomètres",
+        "Thomas ne parle pas français",
+        "Thomas est marié",
+        "Léa veut retourner à Paris"
+      ],
+      "evidence": "Bien qu'il soit charmant, il habite à huit cents kilomètres, a-t-elle expliqué à Amina"
+    },
+    {
+      "id": "q2",
+      "prompt": "Qu'est-ce que Léa apprécie chez Thomas, par rapport aux autres hommes ?",
+      "answer": "Il pose des questions et écoute les réponses",
+      "options": [
+        "Il pose des questions et écoute les réponses",
+        "Il parle beaucoup de lui",
+        "Il prend de belles photos",
+        "Il est très riche"
+      ],
+      "evidence": "Alors que les autres hommes qu'elle avait rencontrés parlaient toujours d'eux-mêmes, lui posait des questions et écoutait les réponses."
+    },
+    {
+      "id": "q3",
+      "prompt": "Que veut dire Madame Ferrand avec « La distance, ce n'est pas toujours des kilomètres » ?",
+      "answer": "Les différences entre deux personnes comptent plus que la distance géographique",
+      "options": [
+        "Les différences entre deux personnes comptent plus que la distance géographique",
+        "Jean habitait loin de Marseille",
+        "Elle n'aime pas les longs voyages",
+        "Thomas devrait rester en Alsace"
+      ],
+      "evidence": "La distance, ce n'est pas toujours des kilomètres, ma belle."
+    }
+  ],
+  "writing": {
+    "prompt": "Décrivez une décision difficile en trois phrases avec *bien que, même si* et *malgré*.",
+    "model": "Bien que le salaire soit bas, j'ai accepté ce travail. Même si c'était risqué, je voulais changer de vie. Malgré mes doutes, je suis content de ma décision.",
+    "targets": [
+      {
+        "label": "bien que",
+        "pattern": "bien qu",
+        "min": 1
+      },
+      {
+        "label": "même si",
+        "pattern": "même s(i|')",
+        "min": 1
+      },
+      {
+        "label": "malgré",
+        "pattern": "\\bmalgré\\b",
+        "min": 1
+      }
+    ]
+  }
+}

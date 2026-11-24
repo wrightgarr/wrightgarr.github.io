@@ -1,0 +1,60 @@
+{
+ "id": "s43",
+ "subject": 43,
+ "level": "A2",
+ "title": "Le Futur Simple",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>futur simple</strong> expresses the future: \"will\". It's more formal and more certain than the futur proche, and is used for predictions, promises and plans further ahead.</p>"
+  },
+  {
+   "heading": "Formation: infinitive + endings",
+   "html": "<p>The endings come from <em>avoir</em>:</p>\n<table>\n<thead>\n<tr>\n<th>Pronoun</th>\n<th>Ending</th>\n<th>parler</th>\n<th>finir</th>\n<th>prendre (drop -e)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td><strong>-ai</strong></td>\n<td>parlerai</td>\n<td>finirai</td>\n<td>prendrai</td>\n</tr>\n<tr>\n<td>tu</td>\n<td><strong>-as</strong></td>\n<td>parleras</td>\n<td>finiras</td>\n<td>prendras</td>\n</tr>\n<tr>\n<td>il/elle/on</td>\n<td><strong>-a</strong></td>\n<td>parlera</td>\n<td>finira</td>\n<td>prendra</td>\n</tr>\n<tr>\n<td>nous</td>\n<td><strong>-ons</strong></td>\n<td>parlerons</td>\n<td>finirons</td>\n<td>prendrons</td>\n</tr>\n<tr>\n<td>vous</td>\n<td><strong>-ez</strong></td>\n<td>parlerez</td>\n<td>finirez</td>\n<td>prendrez</td>\n</tr>\n<tr>\n<td>ils/elles</td>\n<td><strong>-ont</strong></td>\n<td>parleront</td>\n<td>finiront</td>\n<td>prendront</td>\n</tr>\n</tbody>\n</table>\n<p>Verbs ending in <strong>-re</strong> drop the final <strong>e</strong>: <em>prendre → prendr-</em>, <em>boire → boir-</em>, <em>écrire → écrir-</em>.\nThe future stem always ends in <strong>r</strong>.</p>"
+  },
+  {
+   "heading": "Irregular stems (endings stay the same)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verb</th>\n<th>Stem</th>\n<th>Verb</th>\n<th>Stem</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>être</td>\n<td><strong>ser-</strong> (je serai)</td>\n<td>avoir</td>\n<td><strong>aur-</strong> (j'aurai)</td>\n</tr>\n<tr>\n<td>aller</td>\n<td><strong>ir-</strong> (j'irai)</td>\n<td>faire</td>\n<td><strong>fer-</strong> (je ferai)</td>\n</tr>\n<tr>\n<td>venir</td>\n<td><strong>viendr-</strong></td>\n<td>tenir</td>\n<td><strong>tiendr-</strong></td>\n</tr>\n<tr>\n<td>voir</td>\n<td><strong>verr-</strong></td>\n<td>envoyer</td>\n<td><strong>enverr-</strong></td>\n</tr>\n<tr>\n<td>pouvoir</td>\n<td><strong>pourr-</strong></td>\n<td>vouloir</td>\n<td><strong>voudr-</strong></td>\n</tr>\n<tr>\n<td>devoir</td>\n<td><strong>devr-</strong></td>\n<td>savoir</td>\n<td><strong>saur-</strong></td>\n</tr>\n<tr>\n<td>recevoir</td>\n<td><strong>recevr-</strong></td>\n<td>courir</td>\n<td><strong>courr-</strong></td>\n</tr>\n<tr>\n<td>mourir</td>\n<td><strong>mourr-</strong></td>\n<td>falloir</td>\n<td><strong>il faudra</strong></td>\n</tr>\n<tr>\n<td>pleuvoir</td>\n<td><strong>il pleuvra</strong></td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Spelling-change -er verbs",
+   "html": "<p>Use the <em>je</em> present form + r: <em>acheter → j'achèterai</em>; <em>appeler → j'appellerai</em>; <em>payer → je paierai</em>; <em>jeter → je jetterai</em>. But <em>préférer → je préférerai</em> (keeps é).</p>"
+  },
+  {
+   "heading": "When to use it",
+   "html": "<ol>\n<li>Future events, predictions: <em>Demain, il </em><em>fera</em><em> beau.</em></li>\n<li>Promises: <em>Je t'</em><em>appellerai</em><em> ce soir.</em></li>\n<li>After <strong>quand / lorsque / dès que</strong> with a future meaning (unlike English!):\n   <em>Quand je </em><em>serai</em><em> grand, je </em><em>serai</em><em> pilote.</em> — When I grow up (lit. \"will be big\"), I'll be a pilot.\n   <em>Je t'appellerai </em><em>quand</em><em> j'</em><em>arriverai</em><em>.</em> — I'll call you when I arrive.</li>\n<li>Polite commands / instructions: <em>Vous </em><em>prendrez</em><em> la deuxième rue à gauche.</em></li>\n</ol>"
+  },
+  {
+   "heading": "Futur simple vs futur proche",
+   "html": "<table>\n<thead>\n<tr>\n<th>Futur proche</th>\n<th>Futur simple</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Near, planned, certain</td>\n<td>More distant, formal, predictions, promises</td>\n</tr>\n<tr>\n<td><em>Je vais partir dans 5 minutes.</em></td>\n<td><em>Un jour, je partirai vivre en France.</em></td>\n</tr>\n<tr>\n<td>Spoken French</td>\n<td>Both spoken and written</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Conjugate *être* and *avoir* in the futur simple.",
+   "answer": "je serai, tu seras, il sera, nous serons, vous serez, ils seront. / j'aurai, tu auras, il aura, nous aurons, vous aurez, ils auront.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Put into the futur simple: (a) Je mange. (b) Nous finissons. (c) Ils prennent. (d) Tu vas. (e) Vous faites. (f) Elle peut.",
+   "answer": "(a) Je mangerai. (b) Nous finirons. (c) Ils prendront. (d) Tu iras. (e) Vous ferez. (f) Elle pourra.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"When I am in Paris, I will visit the Louvre.\"",
+   "answer": "*Quand je serai à Paris, je visiterai le Louvre.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"It will rain tomorrow.\"",
+   "answer": "*Il pleuvra demain.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Write 3 predictions about your life in 10 years.",
+   "answer": "Example: *Dans dix ans, je parlerai couramment français. J'habiterai à la campagne. J'aurai un chien.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

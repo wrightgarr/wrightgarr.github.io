@@ -1,0 +1,60 @@
+{
+ "id": "s28",
+ "subject": 28,
+ "level": "A1",
+ "title": "Weather & Seasons",
+ "sections": [
+  {
+   "heading": "Asking about the weather",
+   "html": "<ul>\n<li><em>Quel temps fait-il ?</em> / <em>Il fait quel temps ?</em> — What's the weather like?</li>\n<li><em>Quel temps va-t-il faire demain ?</em> — What will the weather be tomorrow?</li>\n</ul>"
+  },
+  {
+   "heading": "Weather with \"il fait\"",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Il fait beau.</td>\n<td>It's nice out.</td>\n</tr>\n<tr>\n<td>Il fait mauvais.</td>\n<td>The weather is bad.</td>\n</tr>\n<tr>\n<td>Il fait chaud.</td>\n<td>It's hot.</td>\n</tr>\n<tr>\n<td>Il fait froid.</td>\n<td>It's cold.</td>\n</tr>\n<tr>\n<td>Il fait frais.</td>\n<td>It's cool / chilly.</td>\n</tr>\n<tr>\n<td>Il fait doux.</td>\n<td>It's mild.</td>\n</tr>\n<tr>\n<td>Il fait soleil. (Québec) / Il y a du soleil.</td>\n<td>It's sunny.</td>\n</tr>\n<tr>\n<td>Il fait 20 degrés.</td>\n<td>It's 20 degrees.</td>\n</tr>\n<tr>\n<td>Il fait moins 10.</td>\n<td>It's minus 10.</td>\n</tr>\n<tr>\n<td>Il fait humide.</td>\n<td>It's humid.</td>\n</tr>\n<tr>\n<td>Il fait nuit / jour.</td>\n<td>It's dark / light.</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Weather with \"il y a\"",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Il y a du soleil.</td>\n<td>It's sunny.</td>\n</tr>\n<tr>\n<td>Il y a du vent.</td>\n<td>It's windy.</td>\n</tr>\n<tr>\n<td>Il y a des nuages.</td>\n<td>It's cloudy.</td>\n</tr>\n<tr>\n<td>Il y a du brouillard.</td>\n<td>It's foggy.</td>\n</tr>\n<tr>\n<td>Il y a un orage.</td>\n<td>There's a storm.</td>\n</tr>\n<tr>\n<td>Il y a de la neige.</td>\n<td>There's snow.</td>\n</tr>\n<tr>\n<td>Il y a du verglas.</td>\n<td>There's black ice.</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Weather verbs",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Il pleut. (pleuvoir)</td>\n<td>It's raining.</td>\n</tr>\n<tr>\n<td>Il neige. (neiger)</td>\n<td>It's snowing.</td>\n</tr>\n<tr>\n<td>Il grêle.</td>\n<td>It's hailing.</td>\n</tr>\n<tr>\n<td>Il gèle. (geler)</td>\n<td>It's freezing.</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Other descriptions",
+   "html": "<ul>\n<li><em>Le temps est nuageux / ensoleillé / pluvieux.</em> — The weather is cloudy / sunny / rainy.</li>\n<li><em>Le ciel est gris / bleu.</em></li>\n<li><em>Il pleut à verse.</em> — It's pouring.</li>\n<li><em>Une tempête de neige</em> — a snowstorm (Québec: <em>une tempête</em>, <em>la poudrerie</em> = blowing snow).</li>\n</ul>"
+  },
+  {
+   "heading": "Seasons (les saisons) — all masculine",
+   "html": "<table>\n<thead>\n<tr>\n<th>Season</th>\n<th>\"In the …\"</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>le printemps (spring)</td>\n<td><strong>au</strong> printemps</td>\n</tr>\n<tr>\n<td>l'été (summer)</td>\n<td><strong>en</strong> été</td>\n</tr>\n<tr>\n<td>l'automne (autumn/fall)</td>\n<td><strong>en</strong> automne</td>\n</tr>\n<tr>\n<td>l'hiver (winter)</td>\n<td><strong>en</strong> hiver</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Au</strong> printemps because <em>printemps</em> starts with a consonant; the others start with a vowel and use <strong>en</strong>.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Translate: \"It's cold and it's snowing.\"",
+   "answer": "*Il fait froid et il neige.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Translate: \"In summer, it's hot and sunny.\"",
+   "answer": "*En été, il fait chaud et il y a du soleil.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Fill in *au* or *en*: ___ hiver, ___ printemps, ___ automne, ___ été.",
+   "answer": "*en* hiver, *au* printemps, *en* automne, *en* été.",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"It's windy and cloudy.\"",
+   "answer": "*Il y a du vent et il y a des nuages.* / *Il fait du vent et le temps est nuageux.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Describe the weather in your city today in 3 sentences.",
+   "answer": "Example: *Aujourd'hui, à Toronto, il fait froid. Il fait 2 degrés. Il y a des nuages et du vent.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

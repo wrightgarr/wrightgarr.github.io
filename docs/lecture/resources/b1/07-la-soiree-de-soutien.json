@@ -1,0 +1,166 @@
+{
+  "id": "b1-07",
+  "level": "B1",
+  "number": 7,
+  "title": "La soirée de soutien",
+  "grammar": "*si* clauses",
+  "theme": "organizing a fundraiser",
+  "wordCount": 329,
+  "primer": [
+    "**si + présent → futur (or présent / impératif)**: a real condition (*Si tu viens, je serai content.*)",
+    "**si + imparfait → conditionnel**: an imaginary condition (*Si j'avais le temps, je viendrais.*)",
+    "**never si + conditionnel**: not *si j'aurais*",
+    "**même si**: even if",
+    "**sinon**: otherwise",
+    "**une soirée de soutien**: a fundraising evening"
+  ],
+  "passage": [
+    [
+      "Nadia a accepté l'idée d'Amina : la première soirée de soutien du Mistral aura lieu le 17 janvier, dans les bureaux du magazine. Il restait trois semaines pour tout organiser."
+    ],
+    [
+      "— Si on vend cent billets, on pourra payer les musiciens et le buffet, a calculé Théo. Si on en vend deux cents, on gagnera assez pour imprimer le numéro de février.",
+      "— Et si on n'en vend que cinquante ? a demandé Lucas.",
+      "— Alors on mangera beaucoup de petits fours, a répondu Karim."
+    ],
+    [
+      "Chacun avait une mission. Léa préparait une exposition de ses photos de Marseille. Karim écrivait des invitations à toutes les personnalités du quartier. Amina répétait avec un quatuor d'étudiants du conservatoire."
+    ],
+    [
+      "— Si Delmas apprend que je joue dans un bureau au lieu de réviser, il me tuera, a-t-elle dit à Léa.",
+      "— S'il l'apprend, tu lui diras que c'est pour la culture. Et s'il n'est pas content, invite-le !",
+      "— Inviter Delmas ? Si je faisais ça, il viendrait juste pour critiquer mon archet."
+    ],
+    [
+      "Une semaine avant la soirée, Théo est arrivé à la rédaction avec une mauvaise nouvelle : seulement quarante billets vendus."
+    ],
+    [
+      "— Si on avait plus de temps, on pourrait faire une vraie campagne, a-t-il soupiré. Si j'étais un influenceur, je posterais une vidéo et tout serait vendu en une heure.",
+      "— Tu n'es pas influenceur, mais Madame Ferrand, si, a dit Léa en souriant."
+    ],
+    [
+      "Depuis qu'elle avait son smartphone, Madame Ferrand avait des centaines d'amis sur les réseaux : des anciens élèves, des pêcheurs, des commerçants, toute sa famille de Québec. Léa est descendue lui expliquer la situation."
+    ],
+    [
+      "— Si je partage l'invitation, les gens viendront ? a demandé la vieille dame.",
+      "— Si c'est vous qui la partagez, ils viendront, c'est sûr.",
+      "— Bon. Mais si je fais ça, je veux une place au premier rang pour écouter Amina.",
+      "— Marché conclu !"
+    ],
+    [
+      "Le lendemain matin, quatre-vingts billets étaient vendus. Le surlendemain, cent cinquante. Même si le mistral soufflait le soir du 17 janvier, la salle serait pleine. Et si quelqu'un ne venait pas, Madame Ferrand saurait qui…"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "aura lieu",
+      "en": "will take place"
+    },
+    {
+      "fr": "Il restait",
+      "en": "there were … left"
+    },
+    {
+      "fr": "des billets",
+      "en": "tickets"
+    },
+    {
+      "fr": "imprimer",
+      "en": "to print"
+    },
+    {
+      "fr": "un quatuor",
+      "en": "a string quartet"
+    },
+    {
+      "fr": "au lieu de réviser",
+      "en": "instead of studying"
+    },
+    {
+      "fr": "un influenceur",
+      "en": "an influencer"
+    },
+    {
+      "fr": "les réseaux",
+      "en": "social media"
+    },
+    {
+      "fr": "des anciens élèves",
+      "en": "former pupils"
+    },
+    {
+      "fr": "des commerçants",
+      "en": "shopkeepers"
+    },
+    {
+      "fr": "au premier rang",
+      "en": "in the front row"
+    },
+    {
+      "fr": "Marché conclu !",
+      "en": "It's a deal!"
+    },
+    {
+      "fr": "Le surlendemain",
+      "en": "Two days later"
+    }
+  ],
+  "spotlight": [
+    "**Real conditions: si + present → future (or imperative):** *Si on vend cent billets, on pourra payer les musiciens. S'il l'apprend, tu lui diras… Et s'il n'est pas content, invite-le !*",
+    "**Imaginary conditions: si + imparfait → conditional:** *Si je faisais ça, il viendrait juste pour critiquer. Si on avait plus de temps, on pourrait faire une vraie campagne.* The conditional never goes directly after *si*. *Même si* means \"even if\": *même si le mistral soufflait*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Combien de billets faut-il vendre pour imprimer le numéro de février ?",
+      "answer": "Deux cents",
+      "options": [
+        "Deux cents",
+        "Cent",
+        "Cinquante",
+        "Quarante"
+      ],
+      "evidence": "Si on en vend deux cents, on gagnera assez pour imprimer le numéro de février."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi Amina a-t-elle peur que Delmas apprenne qu'elle joue à la soirée ?",
+      "answer": "Elle joue dans un bureau au lieu de réviser",
+      "options": [
+        "Elle joue dans un bureau au lieu de réviser",
+        "Delmas n'aime pas Schubert",
+        "Elle a promis de ne jamais jouer en public",
+        "Delmas veut jouer à sa place"
+      ],
+      "evidence": "Si Delmas apprend que je joue dans un bureau au lieu de réviser, il me tuera, a-t-elle dit à Léa."
+    },
+    {
+      "id": "q3",
+      "prompt": "Comment Madame Ferrand aide-t-elle à vendre les billets, et que demande-t-elle en échange ?",
+      "answer": "Elle partage l'invitation sur les réseaux, en échange d'une place au premier rang",
+      "options": [
+        "Elle partage l'invitation sur les réseaux, en échange d'une place au premier rang",
+        "Elle achète cent billets, en échange d'un article",
+        "Elle prépare le buffet, en échange d'une photo",
+        "Elle appelle le maire, en échange d'un concert privé"
+      ],
+      "evidence": "Mais si je fais ça, je veux une place au premier rang pour écouter Amina."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez deux phrases avec *si* + présent (une condition réelle) et deux phrases avec *si* + imparfait (une situation imaginaire).",
+    "model": "Si je finis tôt ce soir, j'irai au cinéma. S'il fait beau demain, nous mangerons dehors. Si j'habitais à Paris, je visiterais un musée chaque semaine. Si j'avais un chien, je me promènerais plus souvent.",
+    "targets": [
+      {
+        "label": "si + present → future",
+        "pattern": "\\bs(i|')\\s*[^.!?]*\\b[a-zà-ÿ]+r(ai|as|a|ons|ez|ont)\\b",
+        "min": 2
+      },
+      {
+        "label": "si + imparfait → conditional",
+        "pattern": "\\bs(i|')\\s*[^.!?]*\\b[a-zà-ÿ]+(ais|ait|ions|iez|aient)\\b[^.!?]*\\b[a-zà-ÿ]+r(ais|ait|ions|iez|aient)\\b",
+        "min": 2
+      }
+    ]
+  }
+}

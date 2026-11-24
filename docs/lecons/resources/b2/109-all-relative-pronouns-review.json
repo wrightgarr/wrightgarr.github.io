@@ -1,0 +1,74 @@
+{
+ "id": "s109",
+ "subject": 109,
+ "level": "B2",
+ "title": "All Relative Pronouns Review",
+ "sections": [
+  {
+   "heading": "Complete table",
+   "html": "<table>\n<thead>\n<tr>\n<th>Pronoun</th>\n<th>Function / when</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>qui</strong></td>\n<td>subject (people &amp; things)</td>\n<td><em>L'homme </em><em>qui</em><em> parle.</em></td>\n</tr>\n<tr>\n<td><strong>que (qu')</strong></td>\n<td>direct object</td>\n<td><em>Le livre </em><em>que</em><em> je lis.</em></td>\n</tr>\n<tr>\n<td><strong>dont</strong></td>\n<td>verb/adjective + de; possession (whose)</td>\n<td><em>Le film </em><em>dont</em><em> je parle.</em> / <em>L'ami </em><em>dont</em><em> le père est médecin.</em></td>\n</tr>\n<tr>\n<td><strong>où</strong></td>\n<td>place or time</td>\n<td><em>La ville </em><em>où</em><em> j'habite.</em> / <em>Le jour </em><em>où</em><em> il est né.</em></td>\n</tr>\n<tr>\n<td><strong>lequel, laquelle, lesquels, lesquelles</strong></td>\n<td>after a preposition (things; people possible)</td>\n<td><em>Le stylo </em><em>avec lequel</em><em> j'écris.</em></td>\n</tr>\n<tr>\n<td><strong>auquel, à laquelle, auxquels, auxquelles</strong></td>\n<td>à + lequel</td>\n<td><em>Le projet </em><em>auquel</em><em> je pense.</em></td>\n</tr>\n<tr>\n<td><strong>duquel, de laquelle, desquels, desquelles</strong></td>\n<td>compound preposition with de + lequel</td>\n<td><em>Le parc </em><em>près duquel</em><em> j'habite.</em></td>\n</tr>\n<tr>\n<td><strong>preposition + qui</strong></td>\n<td>after a preposition (people)</td>\n<td><em>La fille </em><em>avec qui</em><em> je travaille.</em></td>\n</tr>\n<tr>\n<td><strong>ce qui</strong></td>\n<td>\"what\" (subject)</td>\n<td><em><strong>Ce qui</strong> est important…</em></td>\n</tr>\n<tr>\n<td><strong>ce que</strong></td>\n<td>\"what\" (object)</td>\n<td><em>Je sais </em><em>ce que</em><em> tu veux.</em></td>\n</tr>\n<tr>\n<td><strong>ce dont</strong></td>\n<td>\"what\" (verb + de)</td>\n<td><em><strong>Ce dont</strong> j'ai besoin…</em></td>\n</tr>\n<tr>\n<td><strong>ce à quoi</strong></td>\n<td>\"what\" (verb + à)</td>\n<td><em><strong>Ce à quoi</strong> je pense…</em></td>\n</tr>\n<tr>\n<td><strong>preposition + quoi</strong></td>\n<td>after a preposition, no specific antecedent</td>\n<td><em>Il n'a rien </em><em>sur quoi</em><em> compter.</em> / <em>C'est </em><em>ce sur quoi</em><em> je travaille.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Decision flowchart",
+   "html": "<ol>\n<li><strong>Is there a specific noun antecedent?</strong>\n   - <strong>No</strong> → <em>ce qui / ce que / ce dont / ce à quoi</em> (or prep. + <em>quoi</em>)\n   - <strong>Yes</strong> → continue</li>\n<li><strong>What's its role in the relative clause?</strong>\n   - Subject → <strong>qui</strong>\n   - Direct object → <strong>que</strong>\n   - Place / time → <strong>où</strong>\n   - Object of <em>de</em> (verb, adjective, possession) → <strong>dont</strong>\n   - After <em>à</em> → <strong>auquel</strong> (things) / <strong>à qui</strong> (people)\n   - After a compound preposition with <em>de</em> → <strong>duquel</strong> (things) / <strong>de qui</strong> (people)\n   - After any other preposition → <strong>lequel</strong> (things) / <strong>qui</strong> (people)</li>\n</ol>"
+  },
+  {
+   "heading": "Common mistakes",
+   "html": "<table>\n<thead>\n<tr>\n<th>✗ Wrong</th>\n<th>✓ Correct</th>\n<th>Why</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>~~le jour quand~~</td>\n<td>le jour <strong>où</strong></td>\n<td>time → où</td>\n</tr>\n<tr>\n<td>~~la chose que j'ai besoin~~</td>\n<td>la chose <strong>dont</strong> j'ai besoin</td>\n<td>avoir besoin <strong>de</strong></td>\n</tr>\n<tr>\n<td>~~ce que se passe~~</td>\n<td>ce <strong>qui</strong> se passe</td>\n<td>subject</td>\n</tr>\n<tr>\n<td>~~le parc dont j'habite près~~</td>\n<td>le parc <strong>près duquel</strong> j'habite</td>\n<td>compound preposition</td>\n</tr>\n<tr>\n<td>~~l'ami avec lequel~~ (acceptable but…)</td>\n<td>l'ami <strong>avec qui</strong></td>\n<td>people → qui preferred</td>\n</tr>\n<tr>\n<td>~~la raison pour quoi~~</td>\n<td>la raison <strong>pour laquelle</strong></td>\n<td>specific noun → lequel</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Le pays ___ je viens est le Canada. (venir de + place)",
+   "instruction": "Fill in with the correct relative pronoun:",
+   "answer": "d'où (for a place: *le pays d'où je viens*)",
+   "id": "e1"
+  },
+  {
+   "prompt": "Je ne comprends pas ___ il dit.",
+   "answer": "ce qu'",
+   "id": "e2"
+  },
+  {
+   "prompt": "La table sur ___ j'ai posé mes clés.",
+   "answer": "laquelle",
+   "id": "e3"
+  },
+  {
+   "prompt": "L'ami ___ je t'ai parlé arrive demain.",
+   "answer": "dont",
+   "id": "e4"
+  },
+  {
+   "prompt": "Le collègue avec ___ je déjeune est sympa.",
+   "answer": "qui",
+   "id": "e5"
+  },
+  {
+   "prompt": "La réunion ___ j'ai assisté était longue.",
+   "answer": "à laquelle",
+   "id": "e6"
+  },
+  {
+   "prompt": "___ me plaît, c'est sa gentillesse.",
+   "answer": "Ce qui",
+   "id": "e7"
+  },
+  {
+   "prompt": "L'arbre au pied ___ nous nous sommes assis.",
+   "answer": "duquel",
+   "id": "e8"
+  },
+  {
+   "prompt": "L'année ___ je suis né.",
+   "answer": "où",
+   "id": "e9"
+  },
+  {
+   "prompt": "Les gens ___ tu vois là-bas sont mes voisins.",
+   "answer": "que",
+   "id": "e10"
+  }
+ ],
+ "outro": ""
+}

@@ -1,0 +1,166 @@
+{
+  "id": "a2-13",
+  "level": "A2",
+  "number": 13,
+  "title": "Paris ou Marseille ?",
+  "grammar": "comparatives",
+  "theme": "comparing two cities",
+  "wordCount": 204,
+  "primer": [
+    "**plus… que**: more… than",
+    "**moins… que**: less… than",
+    "**aussi… que**: as… as",
+    "**plus de / moins de / autant de + noun**: more / less / as much (as many)",
+    "**meilleur(e)**: better (adjective: *une meilleure pizza*)",
+    "**mieux**: better (adverb: *je cuisine mieux*)",
+    "**le loyer**: the rent"
+  ],
+  "passage": [
+    [
+      "Début juin, Marco a appelé Léa en vidéo."
+    ],
+    [
+      "— Alors, après cinq mois, tu préfères Marseille ou Paris ?",
+      "— C'est difficile ! Marseille est plus petite que Paris, mais elle est plus variée. Ici, il y a la mer, les collines, les calanques… Et il fait plus chaud ! Il y a plus de soleil et moins de pluie.",
+      "— D'accord, mais il y a plus de vent !",
+      "— C'est vrai. Le mistral est terrible.",
+      "— Et la vie, elle est plus chère ?",
+      "— Non, elle est moins chère. Mon loyer est moins cher qu'à Paris, et mon appartement est plus grand. J'ai même un balcon !",
+      "— Et les gens ?",
+      "— Les Marseillais sont aussi sympas que les Parisiens… peut-être plus ! Ils parlent plus fort et ils parlent avec les mains. Madame Ferrand parle plus vite que toi !",
+      "— Impossible ! Et la cuisine ?",
+      "— La bouillabaisse est meilleure qu'une pizza parisienne…",
+      "— Une pizza parisienne ? Je suis italien, Léa. Les pizzas de Naples sont meilleures que tout !",
+      "— Bon. Mais ici, je cuisine mieux qu'à Paris, parce que les légumes du marché sont plus frais.",
+      "— Et Paris, il ne te manque pas ?",
+      "— Si, un peu. Je n'ai pas autant d'amis ici. Et surtout, vous me manquez, toi, Amina et Hugo."
+    ],
+    [
+      "Marco a souri."
+    ],
+    [
+      "— Toi aussi, tu nous manques."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "en vidéo",
+      "en": "on a video call"
+    },
+    {
+      "fr": "variée",
+      "en": "varied"
+    },
+    {
+      "fr": "les calanques",
+      "en": "rocky inlets along the coast"
+    },
+    {
+      "fr": "la vie",
+      "en": "life, the cost of living"
+    },
+    {
+      "fr": "même",
+      "en": "even"
+    },
+    {
+      "fr": "les gens",
+      "en": "people"
+    },
+    {
+      "fr": "plus fort",
+      "en": "louder"
+    },
+    {
+      "fr": "avec les mains",
+      "en": "with their hands"
+    },
+    {
+      "fr": "plus vite",
+      "en": "faster"
+    },
+    {
+      "fr": "frais",
+      "en": "fresh"
+    },
+    {
+      "fr": "il ne te manque pas ?",
+      "en": "don't you miss it?"
+    },
+    {
+      "fr": "Si",
+      "en": "Yes (answering a negative question)"
+    },
+    {
+      "fr": "vous me manquez",
+      "en": "I miss you all"
+    },
+    {
+      "fr": "tu nous manques",
+      "en": "we miss you"
+    }
+  ],
+  "spotlight": [
+    "**Comparing adjectives:** *plus / moins / aussi* + adjective + *que*: *Marseille est plus petite que Paris. Mon loyer est moins cher. Les Marseillais sont aussi sympas que les Parisiens.* The adjective still agrees with its noun.",
+    "**Better:** *bon → meilleur* (adjective): *La bouillabaisse est meilleure*. *Bien → mieux* (adverb): *je cuisine mieux*. With nouns, use *plus de / moins de / autant de*: *plus de soleil, moins de pluie, pas autant d'amis*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Name two advantages of Marseille that Léa mentions.",
+      "answer": "More sun and less rain, plus the sea and the hills",
+      "options": [
+        "More sun and less rain, plus the sea and the hills",
+        "More museums and more theatres",
+        "Less wind and fewer tourists",
+        "More friends and better pizza"
+      ],
+      "evidence": "Ici, il y a la mer, les collines, les calanques… Et il fait plus chaud ! Il y a plus de soleil et moins de pluie."
+    },
+    {
+      "id": "q2",
+      "prompt": "How does Léa's Marseille apartment compare with her Paris one?",
+      "answer": "The rent is lower, and the apartment is bigger with a balcony",
+      "options": [
+        "The rent is lower, and the apartment is bigger with a balcony",
+        "The rent is higher, but it's closer to work",
+        "It's smaller but much cheaper",
+        "It's the same size and the same price"
+      ],
+      "evidence": "Mon loyer est moins cher qu'à Paris, et mon appartement est plus grand. J'ai même un balcon !"
+    },
+    {
+      "id": "q3",
+      "prompt": "Why does Marco disagree about pizza?",
+      "answer": "He's Italian, and says Naples pizzas are better than anything",
+      "options": [
+        "He's Italian, and says Naples pizzas are better than anything",
+        "He hates bouillabaisse",
+        "He prefers Parisian food",
+        "He thinks Marseille pizza is the best"
+      ],
+      "evidence": "Je suis italien, Léa. Les pizzas de Naples sont meilleures que tout !"
+    }
+  ],
+  "writing": {
+    "prompt": "Compare two cities you know in three sentences, using *plus*, *moins* and *aussi*.",
+    "model": "Toronto est plus grande que Montréal. Montréal est moins chère que Toronto. Les gens sont aussi sympas à Toronto qu'à Montréal.",
+    "targets": [
+      {
+        "label": "plus … que",
+        "pattern": "\\bplus\\b[^.!?]*\\bque\\b|\\bplus\\b[^.!?]*\\bqu'",
+        "min": 1
+      },
+      {
+        "label": "moins",
+        "pattern": "\\bmoins\\b",
+        "min": 1
+      },
+      {
+        "label": "aussi … que",
+        "pattern": "\\baussi\\b[^.!?]*\\bqu(e|')",
+        "min": 1
+      }
+    ]
+  }
+}

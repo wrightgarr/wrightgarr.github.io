@@ -1,0 +1,78 @@
+{
+ "id": "s75",
+ "subject": 75,
+ "level": "B1",
+ "title": "Indirect Speech",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Direct speech</strong> quotes exact words: <em>Il dit : « Je suis fatigué. »</em>\n<strong>Indirect speech</strong> (<em>le discours indirect</em>) reports them: <em>Il dit </em><em>qu'il est</em><em> fatigué.</em></p>"
+  },
+  {
+   "heading": "1. Statements: que",
+   "html": "<p><em>Elle dit : « J'aime ce film. »</em> → <em>Elle dit </em><em>qu'elle aime</em><em> ce film.</em>\nChange pronouns and possessives logically (<em>je → il/elle</em>, <em>mon → son</em>).</p>"
+  },
+  {
+   "heading": "2. Yes/no questions: si",
+   "html": "<p><em>Il demande : « Tu viens ? »</em> → <em>Il demande </em><em>si</em><em> je viens.</em>\n<em>si + il</em> → <em>s'il</em>.</p>"
+  },
+  {
+   "heading": "3. Questions with question words: keep the word",
+   "html": "<p><em>« Où habites-tu ? »</em> → <em>Il me demande </em><em>où</em><em> j'habite.</em> (no inversion)\n<em>« Quand pars-tu ? »</em> → <em>Elle demande </em><em>quand</em><em> je pars.</em></p>\n<p><strong>Que / Qu'est-ce que → ce que</strong> / <strong>Qu'est-ce qui → ce qui</strong>:\n- <em>« Qu'est-ce que tu fais ? »</em> → <em>Il demande </em><em>ce que</em><em> je fais.</em>\n- <em>« Qu'est-ce qui se passe ? »</em> → <em>Il demande </em><em>ce qui</em><em> se passe.</em></p>"
+  },
+  {
+   "heading": "4. Commands: de + infinitive",
+   "html": "<p><em>« Ferme la porte ! »</em> → <em>Il me dit </em><em>de fermer</em><em> la porte.</em>\n<em>« Ne pars pas ! »</em> → <em>Elle me demande </em><em>de ne pas partir</em><em>.</em></p>"
+  },
+  {
+   "heading": "Tense changes (when the reporting verb is in the past)",
+   "html": "<p>If the reporting verb is in the <strong>present</strong> (<em>il dit</em>), no tense change. If it's in the <strong>past</strong> (<em>il a dit, il disait</em>), tenses shift back:</p>\n<table>\n<thead>\n<tr>\n<th>Direct speech</th>\n<th>Indirect speech (past)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>présent: <em>« Je suis malade. »</em></td>\n<td><strong>imparfait</strong>: <em>Il a dit qu'il </em><em>était</em><em> malade.</em></td>\n</tr>\n<tr>\n<td>passé composé: <em>« J'ai fini. »</em></td>\n<td><strong>plus-que-parfait</strong>: <em>Il a dit qu'il </em><em>avait fini</em><em>.</em></td>\n</tr>\n<tr>\n<td>futur: <em>« Je viendrai. »</em></td>\n<td><strong>conditionnel</strong>: <em>Il a dit qu'il </em><em>viendrait</em><em>.</em></td>\n</tr>\n<tr>\n<td>futur proche: <em>« Je vais partir. »</em></td>\n<td><em>allait</em> + inf.: <em>Il a dit qu'il </em><em>allait partir</em><em>.</em></td>\n</tr>\n<tr>\n<td>imparfait, plus-que-parfait, conditionnel</td>\n<td><strong>no change</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Time and place expressions also change",
+   "html": "<table>\n<thead>\n<tr>\n<th>Direct</th>\n<th>Indirect (past)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>aujourd'hui</td>\n<td>ce jour-là</td>\n</tr>\n<tr>\n<td>hier</td>\n<td>la veille</td>\n</tr>\n<tr>\n<td>demain</td>\n<td>le lendemain</td>\n</tr>\n<tr>\n<td>la semaine prochaine</td>\n<td>la semaine suivante</td>\n</tr>\n<tr>\n<td>la semaine dernière</td>\n<td>la semaine précédente</td>\n</tr>\n<tr>\n<td>maintenant</td>\n<td>à ce moment-là</td>\n</tr>\n<tr>\n<td>ici</td>\n<td>là</td>\n</tr>\n<tr>\n<td>dans deux jours</td>\n<td>deux jours plus tard</td>\n</tr>\n<tr>\n<td>il y a deux jours</td>\n<td>deux jours plus tôt / avant</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Example",
+   "html": "<p><em>Marie a dit : « Je partirai demain parce que j'ai perdu mon travail. »</em>\n→ <em>Marie a dit qu'elle </em><em>partirait le lendemain</em><em> parce qu'elle </em><em>avait perdu</em><em> son travail.</em></p>"
+  },
+  {
+   "heading": "Reporting verbs",
+   "html": "<p><em>dire, demander, répondre, expliquer, ajouter, affirmer, annoncer, promettre, raconter, avouer (admit), se demander (wonder).</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Paul dit : « Je suis content. »",
+   "instruction": "Change to indirect speech:",
+   "answer": "*Paul dit qu'il est content.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Elle m'a demandé : « Tu as faim ? »",
+   "answer": "*Elle m'a demandé si j'avais faim.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Il m'a demandé : « Qu'est-ce que tu veux ? »",
+   "answer": "*Il m'a demandé ce que je voulais.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Le prof nous a dit : « Faites vos devoirs ! »",
+   "answer": "*Le prof nous a dit de faire nos devoirs.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Elle a dit : « Je viendrai demain. »",
+   "answer": "*Elle a dit qu'elle viendrait le lendemain.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Il a dit : « J'ai vu ce film hier. »",
+   "answer": "*Il a dit qu'il avait vu ce film la veille.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

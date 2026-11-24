@@ -1,0 +1,123 @@
+{
+  "id": "a1-26",
+  "level": "A1",
+  "number": 26,
+  "title": "Joyeux anniversaire !",
+  "grammar": "*devoir*, *il faut*",
+  "theme": "planning a surprise party",
+  "wordCount": 104,
+  "primer": [
+    "**devoir**: must, to have to (*je dois, tu dois, il doit, nous devons*)",
+    "**il faut**: it's necessary, we need (+ noun or infinitive)",
+    "**un gâteau**: a cake",
+    "**un cadeau**: a gift",
+    "**des ballons**: balloons",
+    "**crier**: to shout",
+    "**Joyeux anniversaire !**: Happy birthday!"
+  ],
+  "passage": [
+    [
+      "Le 3 octobre, c'est l'anniversaire de Léa. Marco, Amina et Hugo préparent une surprise."
+    ],
+    [
+      "— Il faut un gâteau, dit Marco.",
+      "— Je dois faire le gâteau, bien sûr, dit Hugo. Un gâteau au chocolat !",
+      "— Et il faut des ballons et de la musique, dit Amina. Je dois apporter ma guitare.",
+      "— Moi, je dois acheter un cadeau, dit Marco. Qu'est-ce que Léa aime ?",
+      "— Elle aime la photo et les livres. Tu peux acheter un livre de photos de Paris.",
+      "— Bonne idée !"
+    ],
+    [
+      "Le soir, Léa ouvre la porte. Ses amis crient :"
+    ],
+    [
+      "— Surprise ! Joyeux anniversaire !"
+    ],
+    [
+      "Léa a les larmes aux yeux."
+    ],
+    [
+      "— Vous êtes les meilleurs amis du monde !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "une surprise",
+      "en": "a surprise"
+    },
+    {
+      "fr": "au chocolat",
+      "en": "chocolate (flavoured)"
+    },
+    {
+      "fr": "la porte",
+      "en": "the door"
+    },
+    {
+      "fr": "les larmes aux yeux",
+      "en": "tears in her eyes"
+    },
+    {
+      "fr": "les meilleurs amis du monde",
+      "en": "the best friends in the world"
+    }
+  ],
+  "spotlight": [
+    "**Devoir + infinitive** = personal obligation: *Je dois faire le gâteau.*",
+    "**Il faut** = general need, never changes: *Il faut un gâteau* (+ noun). *Il faut acheter un cadeau* (+ infinitive)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What kind of cake will Hugo make?",
+      "answer": "Chocolate",
+      "options": [
+        "Chocolate",
+        "Strawberry",
+        "Lemon",
+        "Apple"
+      ],
+      "evidence": "Un gâteau au chocolat !"
+    },
+    {
+      "id": "q2",
+      "prompt": "What will Amina bring?",
+      "answer": "Her guitar",
+      "options": [
+        "Her guitar",
+        "Balloons",
+        "The cake",
+        "A book"
+      ],
+      "evidence": "Je dois apporter ma guitare."
+    },
+    {
+      "id": "q3",
+      "prompt": "What gift does Marco plan to buy, and why?",
+      "answer": "A book of photos of Paris — Léa loves photography and books",
+      "options": [
+        "A book of photos of Paris — Léa loves photography and books",
+        "A camera — Léa's is broken",
+        "Flowers — Léa loves them",
+        "A scarf — it's cold in October"
+      ],
+      "evidence": "Elle aime la photo et les livres. Tu peux acheter un livre de photos de Paris."
+    }
+  ],
+  "writing": {
+    "prompt": "Plan a party in two sentences, one with *il faut* and one with *je dois*.",
+    "model": "Pour la fête, il faut de la musique et un gâteau. Je dois inviter mes amis.",
+    "targets": [
+      {
+        "label": "il faut",
+        "pattern": "il faut",
+        "min": 1
+      },
+      {
+        "label": "devoir (dois, doit…)",
+        "pattern": "\\b(dois|doit|devons|devez|doivent)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

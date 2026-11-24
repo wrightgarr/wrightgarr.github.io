@@ -1,0 +1,61 @@
+{
+ "id": "s115",
+ "subject": 115,
+ "level": "B2",
+ "title": "Prefixes",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Prefixes</strong> (<em>les préfixes</em>) are added to the <strong>beginning</strong> of a word to change its meaning. Knowing them lets you understand hundreds of new words.</p>"
+  },
+  {
+   "heading": "Negation / opposite",
+   "html": "<table>\n<thead>\n<tr>\n<th>Prefix</th>\n<th>Meaning</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>in- / im- / il- / ir-</strong></td>\n<td>not</td>\n<td><em>inutile, impossible, illégal, irrégulier, inconnu</em></td>\n</tr>\n<tr>\n<td><strong>dé- / dés- / dis-</strong></td>\n<td>undo, opposite</td>\n<td><em>défaire</em> (undo), <em>désagréable, désordre, déshabiller, disparaître</em></td>\n</tr>\n<tr>\n<td><strong>mal- / mé- / més-</strong></td>\n<td>badly</td>\n<td><em>malheureux, malhonnête, mécontent, mésentente</em></td>\n</tr>\n<tr>\n<td><strong>a- / an-</strong></td>\n<td>without</td>\n<td><em>anormal, apolitique, analphabète</em></td>\n</tr>\n<tr>\n<td><strong>non-</strong></td>\n<td>non-</td>\n<td><em>non-fumeur, non-violence</em></td>\n</tr>\n<tr>\n<td><strong>anti-</strong></td>\n<td>against</td>\n<td><em>antivirus, antidépresseur</em></td>\n</tr>\n<tr>\n<td><strong>contre-</strong></td>\n<td>counter</td>\n<td><em>contredire, contrepartie</em></td>\n</tr>\n</tbody>\n</table>\n<p>(<em>im-</em> before b, m, p; <em>il-</em> before l; <em>ir-</em> before r.)</p>"
+  },
+  {
+   "heading": "Repetition / return",
+   "html": "<table>\n<thead>\n<tr>\n<th>Prefix</th>\n<th>Meaning</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>re- / ré- / r-</strong></td>\n<td>again, back</td>\n<td><em>refaire, relire, réécrire, revenir, rentrer, rappeler</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Time / order",
+   "html": "<table>\n<thead>\n<tr>\n<th>Prefix</th>\n<th>Meaning</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>pré-</strong></td>\n<td>before</td>\n<td><em>prévoir, préhistoire, prédire</em></td>\n</tr>\n<tr>\n<td><strong>post-</strong></td>\n<td>after</td>\n<td><em>postdater, post-scriptum</em></td>\n</tr>\n<tr>\n<td><strong>avant-</strong></td>\n<td>before</td>\n<td><em>avant-hier, avant-garde</em></td>\n</tr>\n<tr>\n<td><strong>après-</strong></td>\n<td>after</td>\n<td><em>après-demain, après-midi</em></td>\n</tr>\n<tr>\n<td><strong>ex-</strong></td>\n<td>former</td>\n<td><em>ex-mari, ex-président</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Quantity / degree",
+   "html": "<table>\n<thead>\n<tr>\n<th>Prefix</th>\n<th>Meaning</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>sur- / super- / hyper- / ultra-</strong></td>\n<td>over, above, very</td>\n<td><em>surpoids, surprendre, supermarché, hypersensible, ultrarapide</em></td>\n</tr>\n<tr>\n<td><strong>sous- / hypo-</strong></td>\n<td>under</td>\n<td><em>sous-sol, sous-estimer, hypothermie</em></td>\n</tr>\n<tr>\n<td><strong>extra-</strong></td>\n<td>outside / extremely</td>\n<td><em>extraordinaire, extraterrestre</em></td>\n</tr>\n<tr>\n<td><strong>mono- / uni-</strong></td>\n<td>one</td>\n<td><em>monologue, uniforme</em></td>\n</tr>\n<tr>\n<td><strong>bi- / di-</strong></td>\n<td>two</td>\n<td><em>bilingue, bicyclette</em></td>\n</tr>\n<tr>\n<td><strong>tri-</strong></td>\n<td>three</td>\n<td><em>triangle, trimestre</em></td>\n</tr>\n<tr>\n<td><strong>multi- / poly-</strong></td>\n<td>many</td>\n<td><em>multinational, polyglotte</em></td>\n</tr>\n<tr>\n<td><strong>demi- / semi- / mi-</strong></td>\n<td>half</td>\n<td><em>demi-heure, semi-finale, mi-temps</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Place / direction",
+   "html": "<table>\n<thead>\n<tr>\n<th>Prefix</th>\n<th>Meaning</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>inter-</strong></td>\n<td>between</td>\n<td><em>international, interdire</em></td>\n</tr>\n<tr>\n<td><strong>trans-</strong></td>\n<td>across</td>\n<td><em>transport, transatlantique</em></td>\n</tr>\n<tr>\n<td><strong>en- / em-</strong></td>\n<td>into, put in</td>\n<td><em>emporter, emballer</em> (wrap), <em>enterrer</em> (bury)</td>\n</tr>\n<tr>\n<td><strong>ex- / é-</strong></td>\n<td>out</td>\n<td><em>exporter, émigrer</em></td>\n</tr>\n<tr>\n<td><strong>co- / con- / com-</strong></td>\n<td>with, together</td>\n<td><em>coopérer, colocataire</em> (roommate), <em>compatriote</em></td>\n</tr>\n<tr>\n<td><strong>auto-</strong></td>\n<td>self</td>\n<td><em>automobile, autobiographie, autodidacte</em></td>\n</tr>\n<tr>\n<td><strong>télé-</strong></td>\n<td>far</td>\n<td><em>téléphone, télétravail</em></td>\n</tr>\n<tr>\n<td><strong>para-</strong></td>\n<td>protection against</td>\n<td><em>parapluie, parachute</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "possible, légal, content, honnête, agréable.",
+   "instruction": "Give the opposite or new word using a prefix:",
+   "answer": "*impossible, illégal, mécontent, malhonnête, désagréable.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "\"to read again\", \"to come back\", \"to undo\".",
+   "answer": "*relire, revenir, défaire.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "What do these mean? *sous-estimer, bilingue, colocataire, avant-hier, surpoids.*",
+   "answer": "to underestimate, bilingual, roommate, the day before yesterday, overweight.",
+   "id": "e3"
+  },
+  {
+   "prompt": "Which prefix: ___régulier, ___mature (premature, in French), ___visible.",
+   "answer": "*irrégulier, prématuré, invisible.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Build a word meaning \"self-taught\".",
+   "answer": "*autodidacte.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

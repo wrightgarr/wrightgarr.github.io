@@ -1,0 +1,164 @@
+{
+  "id": "a2-21",
+  "level": "A2",
+  "number": 21,
+  "title": "Le vernissage",
+  "grammar": "*venir de*, *être en train de*, *être sur le point de*",
+  "theme": "an exhibition opening",
+  "wordCount": 208,
+  "primer": [
+    "**venir de + infinitive**: to have just done (*Je viens d'arriver.*)",
+    "**être en train de + infinitive**: to be in the middle of doing",
+    "**être sur le point de + infinitive**: to be about to",
+    "**aller + infinitive**: to be going to (review)",
+    "**le vernissage**: the opening night of an exhibition",
+    "**accrocher**: to hang (pictures)"
+  ],
+  "passage": [
+    [
+      "Un vendredi d'octobre, à six heures du soir, Léa est en train d'accrocher ses photos dans la galerie du Panier. Le vernissage commence à sept heures ! Son téléphone sonne. C'est Amina."
+    ],
+    [
+      "— Léa ! Ça y est, je viens d'arriver à la gare Saint-Charles avec Marco !",
+      "— Quoi ? Vous êtes à Marseille ?",
+      "— Surprise ! Hugo vient de prendre un taxi avec nous. On va arriver dans vingt minutes."
+    ],
+    [
+      "Léa est sur le point de pleurer de joie. Mais elle n'a pas le temps : Nadia vient d'entrer avec deux bouteilles de champagne."
+    ],
+    [
+      "— Léa, un journaliste de La Provence vient de m'appeler. Il va venir ce soir !",
+      "— Un journaliste ? Je vais mourir de stress !",
+      "— Mais non. Tu vas être géniale."
+    ],
+    [
+      "À sept heures, la galerie est pleine. Madame Ferrand vient d'arriver dans sa plus belle robe. Karim est en train de parler avec Amina, et il rougit. Marco et Hugo sont en train de goûter tous les petits fours."
+    ],
+    [
+      "Soudain, Léa entend une voix derrière elle."
+    ],
+    [
+      "— Bonsoir, ma chérie. Nous venons d'arriver de Lyon. Tu croyais vraiment qu'on allait rater ça ?"
+    ],
+    [
+      "C'est sa mère, avec son père. Léa regarde la salle : tous les gens qu'elle aime sont là, devant ses photos. Elle vient de comprendre une chose : à Marseille, elle est vraiment chez elle."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "Ça y est",
+      "en": "We made it"
+    },
+    {
+      "fr": "pleurer de joie",
+      "en": "to cry with joy"
+    },
+    {
+      "fr": "elle n'a pas le temps",
+      "en": "she doesn't have time"
+    },
+    {
+      "fr": "La Provence",
+      "en": "Marseille's daily newspaper"
+    },
+    {
+      "fr": "mourir de stress",
+      "en": "to die of stress"
+    },
+    {
+      "fr": "géniale",
+      "en": "brilliant"
+    },
+    {
+      "fr": "pleine",
+      "en": "full"
+    },
+    {
+      "fr": "il rougit",
+      "en": "he blushes"
+    },
+    {
+      "fr": "les petits fours",
+      "en": "bite-sized pastries"
+    },
+    {
+      "fr": "une voix",
+      "en": "a voice"
+    },
+    {
+      "fr": "rater",
+      "en": "to miss"
+    },
+    {
+      "fr": "la salle",
+      "en": "the room"
+    },
+    {
+      "fr": "chez elle",
+      "en": "at home"
+    }
+  ],
+  "spotlight": [
+    "**Three moments, three structures:** *venir de* for what has just happened (*je viens d'arriver*), *être en train de* for what's happening right now (*Karim est en train de parler*), and *aller* for what's about to happen (*On va arriver dans vingt minutes*). All three are followed by an infinitive.",
+    "**Être sur le point de** means right on the edge of something: *Léa est sur le point de pleurer.* It's closer than *aller*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is Léa doing when Amina calls?",
+      "answer": "Hanging her photos in the gallery",
+      "options": [
+        "Hanging her photos in the gallery",
+        "Getting dressed at home",
+        "Driving to the station",
+        "Writing a speech"
+      ],
+      "evidence": "Un vendredi d'octobre, à six heures du soir, Léa est en train d'accrocher ses photos dans la galerie du Panier."
+    },
+    {
+      "id": "q2",
+      "prompt": "Who comes to the opening? Name four people.",
+      "answer": "Amina, Marco, Hugo and Madame Ferrand (and her parents)",
+      "options": [
+        "Amina, Marco, Hugo and Madame Ferrand (and her parents)",
+        "Only Nadia and Karim",
+        "Lucas, Thomas and Mehdi",
+        "Her grandmother and Hugo"
+      ],
+      "evidence": "Madame Ferrand vient d'arriver dans sa plus belle robe. Karim est en train de parler avec Amina… Marco et Hugo sont en train de goûter tous les petits fours."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Léa realize at the end?",
+      "answer": "That Marseille is now really her home",
+      "options": [
+        "That Marseille is now really her home",
+        "That she wants to move back to Paris",
+        "That she forgot to invite Karim",
+        "That she prefers painting to photography"
+      ],
+      "evidence": "Elle vient de comprendre une chose : à Marseille, elle est vraiment chez elle."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about right now: something you've just done, something you're in the middle of doing, and something you're going to do.",
+    "model": "Je viens de manger. Je suis en train d'étudier le français. Ce soir, je vais regarder un film.",
+    "targets": [
+      {
+        "label": "venir de",
+        "pattern": "\\b(viens|vient|venons|venez|viennent)\\s+d(e\\b|')",
+        "min": 1
+      },
+      {
+        "label": "être en train de",
+        "pattern": "en train d(e\\b|')",
+        "min": 1
+      },
+      {
+        "label": "aller + infinitive",
+        "pattern": "\\b(vais|vas|va|allons|allez|vont)\\s+[a-zà-ÿ]+(er|ir|re)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

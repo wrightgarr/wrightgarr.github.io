@@ -1,0 +1,74 @@
+{
+ "id": "s103",
+ "subject": 103,
+ "level": "B2",
+ "title": "Complex Inversions",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>At B2 level, inversion goes beyond simple questions. You'll find it in <strong>complex questions</strong>, <strong>formal writing</strong>, and after certain <strong>adverbs</strong>.</p>"
+  },
+  {
+   "heading": "1. Complex inversion in questions (noun subject)",
+   "html": "<p>With a <strong>noun</strong> subject, keep the noun first, then invert with a pronoun:\n- <em>Marie est-elle arrivée ?</em> — Has Marie arrived?\n- <em>Pourquoi tes parents sont-ils partis ?</em> — Why did your parents leave?\n- <em>Où ce train va-t-il ?</em>\n- <em>Le directeur a-t-il signé le contrat ?</em></p>"
+  },
+  {
+   "heading": "2. Simple inversion with question words (noun subject)",
+   "html": "<p>With <em>où, quand, comment, combien, que</em> + short verb (no object), you can invert the noun directly:\n- <em>Où habite </em><em>ton frère</em><em> ?</em> — Where does your brother live?\n- <em>Que fait </em><em>Paul</em><em> ?</em>\n- <em>Comment s'appelle </em><em>ce restaurant</em><em> ?</em>\n- <em>Quand arrive </em><em>le train</em><em> ?</em>\n(<strong>Not</strong> with <em>pourquoi</em>: ~~Pourquoi pleure Marie ?~~ → <em>Pourquoi Marie pleure-t-elle ?</em>)</p>"
+  },
+  {
+   "heading": "3. Inversion in compound tenses",
+   "html": "<p>The pronoun goes after the auxiliary:\n- <em>As-</em><em>tu</em><em> fini ?</em> / <em>Paul </em><em>a-t-il</em><em> compris ?</em> / <em>Ne </em><em>s'est-elle</em><em> pas trompée ?</em></p>"
+  },
+  {
+   "heading": "4. After certain adverbs at the start of a sentence (formal)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Adverb</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>peut-être</strong></td>\n<td><em>Peut-être </em><em>viendra-t-il</em><em>.</em> (= <em>Il viendra peut-être.</em> / <em>Peut-être qu'il viendra.</em>)</td>\n</tr>\n<tr>\n<td><strong>sans doute</strong></td>\n<td><em>Sans doute </em><em>a-t-il</em><em> raison.</em></td>\n</tr>\n<tr>\n<td><strong>aussi</strong> (= therefore)</td>\n<td><em>Il pleuvait ; aussi </em><em>sommes-nous</em><em> restés.</em></td>\n</tr>\n<tr>\n<td><strong>à peine</strong></td>\n<td><em>À peine </em><em>était-il</em><em> arrivé qu'il est reparti.</em> — Hardly had he arrived when he left again.</td>\n</tr>\n<tr>\n<td><strong>ainsi</strong></td>\n<td><em>Ainsi </em><em>commença</em><em> l'aventure.</em></td>\n</tr>\n<tr>\n<td><strong>du moins / tout au plus / encore</strong></td>\n<td><em>Encore </em><em>faut-il</em><em> le savoir.</em> — Still, you have to know it.</td>\n</tr>\n<tr>\n<td><strong>rares sont</strong></td>\n<td><em>Rares </em><em>sont</em><em> ceux qui comprennent.</em> — Few people understand.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Careful:</strong> <em>aussi</em> at the start of a sentence + inversion = <strong>therefore</strong>, not \"also\".</p>"
+  },
+  {
+   "heading": "5. Inversion in incises (reported speech)",
+   "html": "<p>After a direct quote, the verb of speech is inverted:\n- <em>« Je suis fatigué », </em><em>dit-il</em><em>.</em>\n- <em>« Viens ici ! » </em><em>cria sa mère</em><em>.</em>\n- <em>« Pourquoi ? » </em><em>demanda-t-elle</em><em>.</em></p>"
+  },
+  {
+   "heading": "6. Inversion in relative and comparative clauses (literary, optional)",
+   "html": "<ul>\n<li><em>La maison où </em><em>habitait mon grand-père</em><em>…</em> (instead of <em>où mon grand-père habitait</em>)</li>\n<li><em>Il est plus intelligent que ne </em><em>le pensent ses professeurs</em><em>.</em></li>\n</ul>"
+  },
+  {
+   "heading": "7. Subjunctive / hypothetical inversion (literary)",
+   "html": "<ul>\n<li><em><strong>Dût-il</strong> pleuvoir, nous partirons.</em> — Even if it should rain, we'll leave.</li>\n<li><em><strong>Puisse-t-il</strong> réussir !</em> — May he succeed!</li>\n<li><em><strong>Soit</strong> un triangle ABC.</em> — Let ABC be a triangle (math).</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Est-ce que Sophie a trouvé un travail ?",
+   "instruction": "Rewrite using complex inversion:",
+   "answer": "*Sophie a-t-elle trouvé un travail ?*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Pourquoi les enfants pleurent ?",
+   "answer": "*Pourquoi les enfants pleurent-ils ?*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Il viendra peut-être. (start with *peut-être*)",
+   "answer": "*Peut-être viendra-t-il.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Il était à peine sorti qu'il a commencé à pleuvoir. (start with *à peine*)",
+   "answer": "*À peine était-il sorti qu'il a commencé à pleuvoir.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Add the incise: « Je ne sais pas », (répondre, elle, passé simple).",
+   "answer": "*« Je ne sais pas », répondit-elle.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate (formal): \"Where does your sister work?\"",
+   "answer": "*Où travaille ta sœur ?* / *Où ta sœur travaille-t-elle ?*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

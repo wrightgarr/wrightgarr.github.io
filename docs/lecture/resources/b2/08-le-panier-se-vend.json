@@ -1,0 +1,194 @@
+{
+  "id": "b2-08",
+  "level": "B2",
+  "number": 8,
+  "title": "Le Panier se vend",
+  "grammar": "the passive, *se faire* + infinitive, the pronominal passive",
+  "theme": "gentrification",
+  "wordCount": 511,
+  "primer": [
+    "**passive in any tense**: *a été racheté, avait été racheté, est en train d'être transformé*",
+    "**se faire + infinitif**: to have something done to you (*se faire réveiller, se faire avoir*)",
+    "**pronominal passive**: *Les appartements se louent.* (are rented)",
+    "**on**: the everyday active alternative (*on a racheté l'immeuble*)",
+    "**une location touristique**: a short-term holiday rental",
+    "**un loyer**: a rent"
+  ],
+  "passage": [
+    [
+      "En janvier, Josette a reçu une lettre recommandée. L'immeuble où elle vivait depuis quarante ans, et où Amina louait son deux-pièces, avait été racheté par une société d'investissement. Les nouveaux propriétaires lui proposaient de « libérer les lieux » contre une indemnité. En clair : partir."
+    ],
+    [
+      "— Je me suis fait avoir, a-t-elle dit à Léa, furieuse. Il y a dix ans, j'ai vendu mon appartement à un monsieur très gentil, à condition de pouvoir y rester. Il est mort l'année dernière, et ses enfants ont tout revendu."
+    ],
+    [
+      "Josette n'était pas la seule. Dans le Panier, des dizaines d'habitants recevaient le même genre de lettre. Karim a décidé d'enquêter. Trois semaines plus tard, son article faisait la une du Mistral."
+    ],
+    [
+      "« Le Panier se vend-il au plus offrant ?"
+    ],
+    [
+      "Le plus vieux quartier de Marseille est en train d'être transformé. Depuis cinq ans, des centaines de logements y ont été achetés par des investisseurs, et une grande partie a été transformée en locations touristiques. Les appartements se louent désormais à la nuit, souvent bien plus cher que les loyers classiques."
+    ],
+    [
+      "Les conséquences se font sentir partout. Les boulangeries sont remplacées par des boutiques de souvenirs, les épiceries par des bars à cocktails. \"On se fait réveiller à trois heures du matin par des valises à roulettes\", raconte Henri, 82 ans, qui habite rue du Petit-Puits depuis sa naissance. \"Je ne connais plus aucun de mes voisins. Ils changent tous les trois jours.\""
+    ],
+    [
+      "\"Je ne suis pas contre les touristes\", précise Rachida, qui tient une petite épicerie rue des Repenties. \"Mais quand la moitié de l'immeuble est vide en hiver, avec les volets fermés, on a l'impression d'habiter dans un décor de cinéma. Un quartier, ce sont des gens qui restent.\""
+    ],
+    [
+      "Le nombre d'habitants permanents a nettement diminué en dix ans. Certaines familles, chassées du quartier Saint-Jean en 1943, s'étaient installées ici après la guerre. Aujourd'hui, leurs petits-enfants partent à leur tour, poussés non plus par la dynamite, mais par les loyers."
+    ],
+    [
+      "Le phénomène n'est pas propre à Marseille. Barcelone, Lisbonne et Venise ont été confrontées au même problème, et certaines ont adopté des règles strictes. À Marseille, une réglementation a bien été votée, mais elle est peu appliquée, faute de contrôleurs. »"
+    ],
+    [
+      "L'article a été lu, partagé et discuté dans toute la ville. Il a même été cité par une députée à l'Assemblée nationale. Mais pour Josette, rien n'avait changé. Un soir, Amina l'a trouvée assise dans l'escalier, sa lettre à la main."
+    ],
+    [
+      "— Je ne vais pas me laisser faire, a dit la vieille dame. Mais je suis fatiguée, ma petite. Tellement fatiguée."
+    ],
+    [
+      "Amina s'est assise à côté d'elle."
+    ],
+    [
+      "— Vous ne serez pas seule. Léa connaît une avocate. Karim connaît tout le monde. Et puis vous ne pouvez pas partir : sans vous, qui se plaindrait de mon piano ?"
+    ],
+    [
+      "Josette a ri malgré elle, pour la première fois depuis des semaines."
+    ],
+    [
+      "Le dimanche suivant, une réunion d'habitants a été organisée dans l'arrière-salle d'un café de la place de Lenche. Ils étaient plus de soixante. Josette était assise au premier rang, sa lettre recommandée à la main, comme un drapeau."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "une lettre recommandée",
+      "en": "a registered letter"
+    },
+    {
+      "fr": "une société d'investissement",
+      "en": "an investment company"
+    },
+    {
+      "fr": "libérer les lieux",
+      "en": "to vacate the premises"
+    },
+    {
+      "fr": "une indemnité",
+      "en": "compensation"
+    },
+    {
+      "fr": "En clair",
+      "en": "In plain terms"
+    },
+    {
+      "fr": "Je me suis fait avoir",
+      "en": "I got conned"
+    },
+    {
+      "fr": "faisait la une",
+      "en": "was on the front page"
+    },
+    {
+      "fr": "au plus offrant",
+      "en": "to the highest bidder"
+    },
+    {
+      "fr": "se font sentir",
+      "en": "are being felt"
+    },
+    {
+      "fr": "des valises à roulettes",
+      "en": "wheeled suitcases"
+    },
+    {
+      "fr": "chassées",
+      "en": "driven out"
+    },
+    {
+      "fr": "n'est pas propre à",
+      "en": "isn't unique to"
+    },
+    {
+      "fr": "faute de contrôleurs",
+      "en": "for lack of inspectors"
+    },
+    {
+      "fr": "me laisser faire",
+      "en": "let myself be pushed around"
+    },
+    {
+      "fr": "malgré elle",
+      "en": "in spite of herself"
+    }
+  ],
+  "spotlight": [
+    "**Four ways to say what is done to someone:** the passive (*L'immeuble avait été racheté par une société; des centaines de logements y ont été achetés*), *se faire* + infinitive (*Je me suis fait avoir; On se fait réveiller à trois heures du matin*), the pronominal passive (*Les appartements se louent désormais à la nuit*), and *on* (*on les a chassés*).",
+    "**Choosing between them:** the passive keeps the person affected at the centre, which suits formal and journalistic writing. *Se faire* adds the sense that it happened against your will. The pronominal form presents something as general practice (*ça se fait, ça se vend*). *Se laisser faire* means to let yourself be pushed around: *Je ne vais pas me laisser faire.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi Josette dit-elle qu'elle « s'est fait avoir » ?",
+      "answer": "Elle avait vendu son appartement à condition de rester, mais les héritiers ont tout revendu",
+      "options": [
+        "Elle avait vendu son appartement à condition de rester, mais les héritiers ont tout revendu",
+        "Elle a signé un contrat sans le lire",
+        "Elle a perdu ses économies au casino",
+        "Amina a refusé de payer le loyer"
+      ],
+      "evidence": "Il y a dix ans, j'ai vendu mon appartement à un monsieur très gentil, à condition de pouvoir y rester. Il est mort l'année dernière, et ses enfants ont tout revendu."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quelles sont les conséquences des locations touristiques dans le Panier, selon l'article ?",
+      "answer": "Les commerces de proximité disparaissent et les habitants ne connaissent plus leurs voisins",
+      "options": [
+        "Les commerces de proximité disparaissent et les habitants ne connaissent plus leurs voisins",
+        "Les loyers baissent",
+        "Le quartier est plus calme",
+        "Les familles reviennent"
+      ],
+      "evidence": "Les boulangeries sont remplacées par des boutiques de souvenirs, les épiceries par des bars à cocktails."
+    },
+    {
+      "id": "q3",
+      "prompt": "Comment Amina réconforte-t-elle Josette ?",
+      "answer": "Elle lui promet de l'aide et plaisante : sans elle, qui se plaindrait de son piano ?",
+      "options": [
+        "Elle lui promet de l'aide et plaisante : sans elle, qui se plaindrait de son piano ?",
+        "Elle lui propose d'habiter chez elle",
+        "Elle lui donne de l'argent",
+        "Elle appelle la police"
+      ],
+      "evidence": "Et puis vous ne pouvez pas partir : sans vous, qui se plaindrait de mon piano ?"
+    }
+  ],
+  "writing": {
+    "prompt": "Décrivez un changement dans votre quartier ou votre ville en quatre phrases : une à la voix passive, une avec *se faire* + infinitif, une avec un verbe pronominal à sens passif (*ça se vend…*) et une avec *on*.",
+    "model": "Le vieux cinéma a été transformé en supermarché. Mon voisin s'est fait expulser l'an dernier. Ici, les maisons se vendent très vite. On a construit trois tours près de la gare.",
+    "targets": [
+      {
+        "label": "passive (être + participle)",
+        "pattern": "\\b(est|sont|a été|ont été|avait été|avaient été|sera|seront|était|étaient|être)\\s+[a-zà-ÿ]+(é|ée|és|ées|i|ie|is|ies|u|ue|us|ues|t|te|ts|tes)\\b",
+        "min": 1
+      },
+      {
+        "label": "se faire + infinitive",
+        "pattern": "\\b(me|te|se|s'|nous|vous)\\s*(suis|es|est|sommes|êtes|sont|fai[a-zà-ÿœæ]*)\\s+(fait\\s+)?[a-zà-ÿ]+(er|ir|re)\\b",
+        "min": 1
+      },
+      {
+        "label": "pronominal passive (se vend, se loue…)",
+        "pattern": "\\b(se|s')\\s*(vend|vendent|loue|louent|fait|font|dit|mange|mangent|boit|construit|construisent|porte|portent|trouve|trouvent)\\b",
+        "min": 1
+      },
+      {
+        "label": "on",
+        "pattern": "\\bon\\b",
+        "min": 1
+      }
+    ]
+  }
+}

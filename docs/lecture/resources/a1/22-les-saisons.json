@@ -1,0 +1,128 @@
+{
+  "id": "a1-22",
+  "level": "A1",
+  "number": 22,
+  "title": "Les saisons",
+  "grammar": "months, seasons, dates",
+  "theme": "the year in Paris",
+  "wordCount": 107,
+  "primer": [
+    "**l'hiver, le printemps, l'été, l'automne**: winter, spring, summer, autumn",
+    "**en hiver / au printemps**: in winter / in spring",
+    "**janvier, février, mars, avril, mai, juin**: January–June",
+    "**juillet, août, septembre, octobre, novembre, décembre**: July–December",
+    "**le 14 juillet**: (on) July 14th",
+    "**il neige**: it's snowing",
+    "**parfois / souvent**: sometimes / often"
+  ],
+  "passage": [
+    [
+      "À Paris, il y a quatre saisons. En hiver, en décembre, janvier et février, il fait froid. Parfois, il neige. Léa adore les marchés de Noël."
+    ],
+    [
+      "Au printemps, en mars, avril et mai, les arbres sont en fleurs. Il pleut souvent, mais le jardin du Luxembourg est magnifique."
+    ],
+    [
+      "En été, en juin, juillet et août, il fait chaud. Beaucoup de Parisiens partent en vacances. Le 14 juillet, c'est la fête nationale : il y a des feux d'artifice à la tour Eiffel."
+    ],
+    [
+      "En automne, en septembre, octobre et novembre, les feuilles sont rouges et jaunes. L'anniversaire de Léa, c'est le 3 octobre. Et toi, ton anniversaire, c'est quand ?"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "les marchés de Noël",
+      "en": "Christmas markets"
+    },
+    {
+      "fr": "les arbres",
+      "en": "trees"
+    },
+    {
+      "fr": "en fleurs",
+      "en": "in bloom"
+    },
+    {
+      "fr": "partent en vacances",
+      "en": "go on vacation"
+    },
+    {
+      "fr": "la fête nationale",
+      "en": "the national holiday (Bastille Day)"
+    },
+    {
+      "fr": "des feux d'artifice",
+      "en": "fireworks"
+    },
+    {
+      "fr": "les feuilles",
+      "en": "leaves"
+    },
+    {
+      "fr": "l'anniversaire",
+      "en": "the birthday"
+    },
+    {
+      "fr": "c'est quand ?",
+      "en": "when is it?"
+    }
+  ],
+  "spotlight": [
+    "**Seasons and months:** *en hiver, en été, en automne*, but *au printemps*. Months: *en octobre*.",
+    "**Dates:** *le* + number + month: *le 3 octobre, le 14 juillet*. Only the 1st uses an ordinal: *le premier mai*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What happens in Paris on July 14th?",
+      "answer": "It's the national holiday, with fireworks at the Eiffel Tower",
+      "options": [
+        "It's the national holiday, with fireworks at the Eiffel Tower",
+        "The Christmas markets open",
+        "Everyone leaves on vacation",
+        "The leaves turn red"
+      ],
+      "evidence": "Le 14 juillet, c'est la fête nationale : il y a des feux d'artifice à la tour Eiffel."
+    },
+    {
+      "id": "q2",
+      "prompt": "What is the weather like in spring?",
+      "answer": "The trees bloom and it often rains",
+      "options": [
+        "The trees bloom and it often rains",
+        "It snows",
+        "It's very hot and dry",
+        "The leaves fall and it's cold"
+      ],
+      "evidence": "Au printemps… les arbres sont en fleurs. Il pleut souvent."
+    },
+    {
+      "id": "q3",
+      "prompt": "When is Léa's birthday?",
+      "answer": "October 3rd",
+      "options": [
+        "October 3rd",
+        "July 14th",
+        "March 3rd",
+        "October 13th"
+      ],
+      "evidence": "L'anniversaire de Léa, c'est le 3 octobre."
+    }
+  ],
+  "writing": {
+    "prompt": "Give your birthday date and describe your favourite season in one sentence.",
+    "model": "Mon anniversaire, c'est le 12 avril. J'adore l'automne : les feuilles sont rouges et jaunes.",
+    "targets": [
+      {
+        "label": "a date (le 12 avril, le premier mai…)",
+        "pattern": "\\ble (\\d+|premier|[a-z-]+) (janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)",
+        "min": 1
+      },
+      {
+        "label": "a season",
+        "pattern": "hiver|printemps|été|automne",
+        "min": 1
+      }
+    ]
+  }
+}

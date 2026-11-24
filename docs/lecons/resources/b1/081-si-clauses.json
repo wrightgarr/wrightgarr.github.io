@@ -1,0 +1,75 @@
+{
+ "id": "s81",
+ "subject": 81,
+ "level": "B1",
+ "title": "\"Si\" Clauses",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>\"Si\" clauses (<em>les phrases hypothétiques</em>) express conditions: \"if… then…\". The tense after <strong>si</strong> determines the tense in the main clause.</p>"
+  },
+  {
+   "heading": "The three main types",
+   "html": "<table>\n<thead>\n<tr>\n<th>Type</th>\n<th>Si + …</th>\n<th>Main clause</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>1. Real / likely</strong></td>\n<td><strong>présent</strong></td>\n<td><strong>présent, futur, or impératif</strong></td>\n<td>possible future or general truth</td>\n</tr>\n<tr>\n<td><strong>2. Unreal present / unlikely future</strong></td>\n<td><strong>imparfait</strong></td>\n<td><strong>conditionnel présent</strong></td>\n<td>hypothetical, imaginary</td>\n</tr>\n<tr>\n<td><strong>3. Unreal past</strong> (regret)</td>\n<td><strong>plus-que-parfait</strong></td>\n<td><strong>conditionnel passé</strong> (B2)</td>\n<td>didn't happen</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Type 1: si + présent",
+   "html": "<ul>\n<li><em>Si tu </em><em>viens</em><em>, je </em><em>serai</em><em> content.</em> — If you come, I'll be happy.</li>\n<li><em>Si tu </em><em>as</em><em> faim, </em><em>mange</em><em> quelque chose !</em> — If you're hungry, eat something!</li>\n<li><em>Si on </em><em>chauffe</em><em> l'eau à 100 °C, elle </em><em>bout</em><em>.</em> — If you heat water to 100 °C, it boils.</li>\n</ul>"
+  },
+  {
+   "heading": "Type 2: si + imparfait → conditionnel présent",
+   "html": "<ul>\n<li><em>Si j'</em><em>avais</em><em> de l'argent, j'</em><em>achèterais</em><em> une maison.</em> — If I had money, I would buy a house.</li>\n<li><em>Si j'</em><em>étais</em><em> toi, je </em><em>partirais</em><em>.</em> — If I were you, I'd leave.</li>\n<li><em>Si tu </em><em>parlais</em><em> plus lentement, je </em><em>comprendrais</em><em>.</em></li>\n</ul>"
+  },
+  {
+   "heading": "Type 3: si + plus-que-parfait → conditionnel passé",
+   "html": "<ul>\n<li><em>Si j'</em><em>avais su</em><em>, je </em><em>serais venu</em><em>.</em> — If I had known, I would have come.</li>\n<li><em>Si tu </em><em>avais travaillé</em><em>, tu </em><em>aurais réussi</em><em>.</em>\n(Conditionnel passé is covered in detail in Subject 91.)</li>\n</ul>"
+  },
+  {
+   "heading": "The golden rule",
+   "html": "<p><strong>Never</strong> use the future or conditional directly after <em>si</em> (when it means \"if\"):\n- ~~Si j'aurais le temps~~ → <em>Si j'</em><em>avais</em><em> le temps</em>\n- ~~Si tu viendras~~ → <em>Si tu </em><em>viens</em>**</p>\n<p>The clauses can be swapped: <em>Je serai content si tu viens.</em></p>"
+  },
+  {
+   "heading": "Other uses of si",
+   "html": "<ul>\n<li><em>si</em> = whether (indirect question) — any tense allowed: <em>Je ne sais pas </em><em>s'il viendra</em><em>.</em> — I don't know whether he'll come.</li>\n<li><em>si</em> = so (intensity): <em>Il est </em><em>si</em><em> gentil !</em></li>\n<li><em>si</em> = yes (to a negative question): <em>Tu n'aimes pas ? — </em><em>Si</em><em> !</em></li>\n<li><em>Et si on allait… ?</em> (imparfait) = How about…? <em>Et si on allait au cinéma ?</em></li>\n<li><em>Si seulement…</em> (if only) + imparfait / plus-que-parfait: <em>Si seulement il faisait beau !</em></li>\n<li><em>même si</em> (even if) follows the same tense rules.</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Si tu (vouloir) ___, nous irons au parc.",
+   "instruction": "Conjugate correctly:",
+   "answer": "veux",
+   "id": "e1"
+  },
+  {
+   "prompt": "Si j'(être) ___ riche, je (voyager) ___ partout.",
+   "answer": "étais ; voyagerais",
+   "id": "e2"
+  },
+  {
+   "prompt": "Si nous (partir) ___ maintenant, nous (arriver) ___ à l'heure. (type 1)",
+   "answer": "partons ; arriverons",
+   "id": "e3"
+  },
+  {
+   "prompt": "S'il (faire) ___ beau demain, on fera un pique-nique.",
+   "answer": "fait",
+   "id": "e4"
+  },
+  {
+   "prompt": "Qu'est-ce que tu (faire) ___ si tu (gagner) ___ à la loterie ?",
+   "answer": "ferais ; gagnais",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"If I were you, I would call her.\"",
+   "answer": "*Si j'étais toi, je l'appellerais.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Correct the mistake: *Si j'aurais su, je ne serais pas venu.*",
+   "answer": "*Si j'avais su, je ne serais pas venu.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

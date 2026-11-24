@@ -1,0 +1,188 @@
+{
+  "id": "b1-26",
+  "level": "B1",
+  "number": 26,
+  "title": "Le studio",
+  "grammar": "*faire* + infinitive, *se faire*, *laisser*",
+  "theme": "renovating a photo studio",
+  "wordCount": 359,
+  "primer": [
+    "**faire + infinitif**: to have something done (*faire repeindre les murs*)",
+    "**faire + infinitif + quelqu'un**: to make someone do something (*faire travailler tout le monde*)",
+    "**se faire + infinitif**: to get (oneself)… (*se faire aider*)",
+    "**laisser + infinitif**: to let (*laisser sonner le téléphone*)",
+    "**un local**: premises",
+    "**un électricien**: an electrician"
+  ],
+  "passage": [
+    [
+      "Pendant les dix jours d'attente, Amina n'a presque pas dormi, et Léa ne l'a pas laissée seule. Pour lui changer les idées, elle l'a emmenée visiter un local qu'elle venait de louer dans le Panier : une ancienne boutique de tissus, au rez-de-chaussée, avec une grande vitrine. Léa voulait en faire un studio, où elle ferait poser les gens du quartier."
+    ],
+    [
+      "— C'est… très sale, a remarqué Amina.",
+      "— Pour l'instant. Mais je vais faire repeindre les murs, faire changer l'électricité et faire installer une grande lumière au plafond.",
+      "— Tu vas payer des artisans ? Avec quel argent ?"
+    ],
+    [
+      "Léa a souri."
+    ],
+    [
+      "— Non. Je vais me faire aider par mes amis."
+    ],
+    [
+      "Le samedi suivant, tout le monde était là. Karim et Lucas ont repeint les murs en blanc. Théo a fait venir son cousin électricien, qui a refait toute l'installation en une journée. Hugo, descendu de Paris pour le week-end, a fait la cuisine pour toute l'équipe sur un petit réchaud. Thomas, arrivé de Strasbourg la veille, a fabriqué des étagères avec du bois récupéré. Même Madame Ferrand est venue. Elle n'a rien porté, mais elle a fait travailler tout le monde."
+    ],
+    [
+      "— Karim, il y a une tache là. Lucas, tu peins comme un pied. Thomas, ces étagères ne sont pas droites !",
+      "— Elles sont droites, madame. C'est le mur qui n'est pas droit.",
+      "— Ne te fais pas avoir par ce jeune homme, Léa. Les Alsaciens ont réponse à tout."
+    ],
+    [
+      "Amina était chargée de la musique. Elle jouait du violon dans un coin, pour faire oublier la fatigue. Mais vers cinq heures, son téléphone a vibré. Elle a regardé l'écran et elle est devenue toute pâle."
+    ],
+    [
+      "— C'est l'Opéra."
+    ],
+    [
+      "Le silence est tombé dans la pièce. Plus personne ne bougeait. Amina a laissé sonner trois fois, puis elle a décroché."
+    ],
+    [
+      "— Allô ?… Oui, c'est moi… Oui…"
+    ],
+    [
+      "Tout le monde la regardait. Son visage ne disait rien. Elle a écouté longtemps, puis elle a dit simplement :"
+    ],
+    [
+      "— Merci. Merci beaucoup."
+    ],
+    [
+      "Elle a raccroché et elle a posé le téléphone, sans un mot."
+    ],
+    [
+      "— Alors ? a crié Karim. Ne nous fais pas attendre !"
+    ],
+    [
+      "Amina a levé les yeux. Puis elle a éclaté en sanglots… ou de rire. Personne ne savait vraiment."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "lui changer les idées",
+      "en": "take her mind off things"
+    },
+    {
+      "fr": "une ancienne boutique de tissus",
+      "en": "a former fabric shop"
+    },
+    {
+      "fr": "poser",
+      "en": "to pose"
+    },
+    {
+      "fr": "le plafond",
+      "en": "the ceiling"
+    },
+    {
+      "fr": "des artisans",
+      "en": "tradespeople"
+    },
+    {
+      "fr": "un réchaud",
+      "en": "a camping stove"
+    },
+    {
+      "fr": "récupéré",
+      "en": "salvaged"
+    },
+    {
+      "fr": "une tache",
+      "en": "a stain"
+    },
+    {
+      "fr": "tu peins comme un pied",
+      "en": "you paint terribly (familiar)"
+    },
+    {
+      "fr": "Ne te fais pas avoir",
+      "en": "Don't be fooled"
+    },
+    {
+      "fr": "ont réponse à tout",
+      "en": "have an answer for everything"
+    },
+    {
+      "fr": "était chargée de",
+      "en": "was in charge of"
+    },
+    {
+      "fr": "a décroché",
+      "en": "picked up (the phone)"
+    },
+    {
+      "fr": "a raccroché",
+      "en": "hung up"
+    },
+    {
+      "fr": "a éclaté en sanglots",
+      "en": "burst into tears"
+    }
+  ],
+  "spotlight": [
+    "**Faire + infinitive = to have something done, or to make someone do it:** *Je vais faire repeindre les murs* (have them repainted). *Théo a fait venir son cousin* (got his cousin to come). *Elle a fait travailler tout le monde* (made everyone work). *Ne nous fais pas attendre !*",
+    "**Se faire + infinitive is about what happens to you:** *Je vais me faire aider* (get some help), *Ne te fais pas avoir* (don't get taken in). **Laisser + infinitive** means \"to let\": *Amina a laissé sonner trois fois.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Que veut faire Léa de son nouveau local ?",
+      "answer": "Un studio où elle fera poser les gens du quartier",
+      "options": [
+        "Un studio où elle fera poser les gens du quartier",
+        "Un café pour les musiciens",
+        "Un appartement pour Thomas",
+        "Une galerie pour vendre des tableaux"
+      ],
+      "evidence": "Léa voulait en faire un studio, où elle ferait poser les gens du quartier."
+    },
+    {
+      "id": "q2",
+      "prompt": "Comment chacun des amis aide-t-il Léa ?",
+      "answer": "Peinture, électricité, cuisine, étagères… et Madame Ferrand fait travailler tout le monde",
+      "options": [
+        "Peinture, électricité, cuisine, étagères… et Madame Ferrand fait travailler tout le monde",
+        "Ils paient chacun un artisan",
+        "Ils ne font rien et regardent Léa",
+        "Ils vont acheter des meubles chez IKEA"
+      ],
+      "evidence": "Même Madame Ferrand est venue. Elle n'a rien porté, mais elle a fait travailler tout le monde."
+    },
+    {
+      "id": "q3",
+      "prompt": "Que se passe-t-il vers cinq heures ?",
+      "answer": "L'Opéra appelle Amina",
+      "options": [
+        "L'Opéra appelle Amina",
+        "Le mur tombe",
+        "Thomas arrive",
+        "Madame Ferrand se fâche"
+      ],
+      "evidence": "Mais vers cinq heures, son téléphone a vibré. Elle a regardé l'écran et elle est devenue toute pâle. — C'est l'Opéra."
+    }
+  ],
+  "writing": {
+    "prompt": "Imaginez que vous rénovez une pièce chez vous. Écrivez trois phrases avec *faire* + infinitif (*je vais faire repeindre…*) et *se faire aider*.",
+    "model": "Dans ma chambre, je vais faire repeindre les murs en bleu. Je vais aussi faire changer la fenêtre. Pour les meubles, je vais me faire aider par mon frère.",
+    "targets": [
+      {
+        "label": "faire + infinitive",
+        "pattern": "\\b(fai[a-zà-ÿœæ]*|fer[a-zà-ÿœæ]*|fass[a-zà-ÿœæ]*)\\s+(me |te |se |nous |vous |les |la |le |l')?[a-zà-ÿ]+(er|ir|re|oir)\\b",
+        "min": 2
+      },
+      {
+        "label": "se faire + infinitive",
+        "pattern": "\\b(me|te|se|nous|vous)\\s+(fai[a-zà-ÿœæ]*|fer[a-zà-ÿœæ]*)\\s+[a-zà-ÿ]+(er|ir|re|oir)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "s6",
+ "subject": 6,
+ "level": "A1",
+ "title": "Introducing Yourself",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>You introduce yourself using a handful of key verbs: <strong>s'appeler</strong> (to be called), <strong>être</strong> (to be), <strong>avoir</strong> (to have), <strong>habiter</strong> (to live) and <strong>parler</strong> (to speak).</p>"
+  },
+  {
+   "heading": "Core phrases",
+   "html": "<table>\n<thead>\n<tr>\n<th>Information</th>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Name</td>\n<td><em>Je m'appelle Paul.</em> / <em>Je suis Paul.</em></td>\n<td>My name is Paul. / I'm Paul.</td>\n</tr>\n<tr>\n<td>Age</td>\n<td><em>J'ai trente ans.</em></td>\n<td>I am 30 (literally \"I have 30 years\").</td>\n</tr>\n<tr>\n<td>Nationality</td>\n<td><em>Je suis canadien / canadienne.</em></td>\n<td>I'm Canadian.</td>\n</tr>\n<tr>\n<td>Where you live</td>\n<td><em>J'habite à Toronto.</em> / <em>J'habite au Canada.</em></td>\n<td>I live in Toronto / in Canada.</td>\n</tr>\n<tr>\n<td>Where you're from</td>\n<td><em>Je viens de Montréal.</em></td>\n<td>I come from Montreal.</td>\n</tr>\n<tr>\n<td>Job</td>\n<td><em>Je suis ingénieur.</em> (no article!)</td>\n<td>I am an engineer.</td>\n</tr>\n<tr>\n<td>Languages</td>\n<td><em>Je parle anglais et un peu français.</em></td>\n<td>I speak English and a little French.</td>\n</tr>\n<tr>\n<td>Likes</td>\n<td><em>J'aime la musique et le sport.</em></td>\n<td>I like music and sport.</td>\n</tr>\n<tr>\n<td>Family</td>\n<td><em>Je suis marié(e). J'ai deux enfants.</em></td>\n<td>I'm married. I have two children.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Watch out:</strong>\n- Age uses <strong>avoir</strong>, never <em>être</em>: ~~Je suis 30 ans~~ → <em>J'ai 30 ans</em>.\n- No article before a profession after <em>être</em>: <em>Je suis professeur</em> (not ~~un professeur~~).\n- Nationalities and languages take <strong>no capital</strong> letter in French: <em>français</em>, <em>anglaise</em>.\n- Nationalities agree with gender: <em>il est français / elle est française</em>.</p>"
+  },
+  {
+   "heading": "Common nationalities",
+   "html": "<table>\n<thead>\n<tr>\n<th>Masculine</th>\n<th>Feminine</th>\n<th></th>\n<th>Masculine</th>\n<th>Feminine</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>canadien</td>\n<td>canadienne</td>\n<td></td>\n<td>anglais</td>\n<td>anglaise</td>\n</tr>\n<tr>\n<td>français</td>\n<td>française</td>\n<td></td>\n<td>américain</td>\n<td>américaine</td>\n</tr>\n<tr>\n<td>italien</td>\n<td>italienne</td>\n<td></td>\n<td>espagnol</td>\n<td>espagnole</td>\n</tr>\n<tr>\n<td>allemand</td>\n<td>allemande</td>\n<td></td>\n<td>belge</td>\n<td>belge</td>\n</tr>\n<tr>\n<td>chinois</td>\n<td>chinoise</td>\n<td></td>\n<td>suisse</td>\n<td>suisse</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Asking someone else",
+   "html": "<table>\n<thead>\n<tr>\n<th>Formal (vous)</th>\n<th>Informal (tu)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Comment vous appelez-vous ?</em></td>\n<td><em>Comment tu t'appelles ?</em> / <em>Tu t'appelles comment ?</em></td>\n</tr>\n<tr>\n<td><em>Quel âge avez-vous ?</em></td>\n<td><em>Tu as quel âge ?</em></td>\n</tr>\n<tr>\n<td><em>Où habitez-vous ?</em></td>\n<td><em>Tu habites où ?</em></td>\n</tr>\n<tr>\n<td><em>Que faites-vous dans la vie ?</em></td>\n<td><em>Qu'est-ce que tu fais dans la vie ?</em></td>\n</tr>\n<tr>\n<td><em>Vous êtes de quelle nationalité ?</em></td>\n<td><em>Tu viens d'où ?</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Sample self-introduction",
+   "html": "<blockquote>\n<p><em>Bonjour ! Je m'appelle Garrick. J'ai quarante ans. Je suis canadien et j'habite à Toronto. Je suis comptable. Je parle anglais et j'apprends le français. J'aime le cinéma et la cuisine. Enchanté !</em></p>\n</blockquote>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Correct the mistakes: (a) *Je suis 25 ans.* (b) *Je suis un médecin.* (c) *Elle est Canadien.*",
+   "answer": "(a) *J'ai 25 ans.* (b) *Je suis médecin.* (c) *Elle est canadienne.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Give the feminine form: *italien*, *américain*, *suisse*, *anglais*.",
+   "answer": "*italienne*, *américaine*, *suisse*, *anglaise*.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Ask formally: \"What is your name?\" and \"Where do you live?\"",
+   "answer": "*Comment vous appelez-vous ?* / *Où habitez-vous ?*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Write a 5-sentence introduction about yourself.",
+   "answer": "Example: *Je m'appelle… J'ai… ans. Je suis… J'habite à… J'aime…*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"She is French and she lives in Paris.\"",
+   "answer": "*Elle est française et elle habite à Paris.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

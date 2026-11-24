@@ -1,0 +1,139 @@
+{
+  "id": "a1-24",
+  "level": "A1",
+  "number": 24,
+  "title": "À la fromagerie",
+  "grammar": "demonstratives *ce / cet / cette / ces*",
+  "theme": "French cheese",
+  "wordCount": 90,
+  "primer": [
+    "**ce** (m.), **cet** (m. before a vowel), **cette** (f.), **ces** (pl.): this / these",
+    "**une fromagerie**: a cheese shop",
+    "**le fromager**: the cheese seller",
+    "**expliquer**: to explain",
+    "**des centaines de**: hundreds of",
+    "**un mois**: a month",
+    "**goûter**: to taste"
+  ],
+  "passage": [
+    [
+      "À Lyon, Léa et sa mère vont à la fromagerie. Il y a des centaines de fromages !"
+    ],
+    [
+      "— Ce petit fromage, qu'est-ce que c'est ? demande Léa.",
+      "— C'est du saint-marcellin. C'est un fromage de la région, explique le fromager.",
+      "— Et cette grosse pièce, là ? C'est du comté ?",
+      "— Oui. Ce comté a dix-huit mois. Il est excellent."
+    ],
+    [
+      "Sophie goûte des petits fromages de chèvre."
+    ],
+    [
+      "— Ces fromages sont délicieux ! Je prends ces trois chèvres et ce comté, s'il vous plaît."
+    ],
+    [
+      "Léa regarde sa mère."
+    ],
+    [
+      "— Cet après-midi, on fait une fondue ?",
+      "— Bonne idée, ma chérie !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "de la région",
+      "en": "from this region"
+    },
+    {
+      "fr": "une pièce",
+      "en": "a piece, a wheel (of cheese)"
+    },
+    {
+      "fr": "là",
+      "en": "there"
+    },
+    {
+      "fr": "excellent",
+      "en": "excellent"
+    },
+    {
+      "fr": "le chèvre",
+      "en": "goat cheese"
+    },
+    {
+      "fr": "cet après-midi",
+      "en": "this afternoon"
+    },
+    {
+      "fr": "une fondue",
+      "en": "a melted-cheese dish"
+    },
+    {
+      "fr": "Bonne idée !",
+      "en": "Good idea!"
+    }
+  ],
+  "spotlight": [
+    "**Demonstratives match the noun:** *ce comté* (m.), *cet après-midi* (m. + vowel sound), *cette grosse pièce* (f.), *ces fromages* (pl.).",
+    "**Cet exists for pronunciation:** *ce après-midi* would be awkward to say, so French adds a *t*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is saint-marcellin?",
+      "answer": "A small cheese from the local region",
+      "options": [
+        "A small cheese from the local region",
+        "A hard cheese aged 18 months",
+        "A goat cheese from Paris",
+        "A kind of fondue"
+      ],
+      "evidence": "C'est du saint-marcellin. C'est un fromage de la région."
+    },
+    {
+      "id": "q2",
+      "prompt": "How old is the comté?",
+      "answer": "18 months",
+      "options": [
+        "18 months",
+        "8 months",
+        "3 years",
+        "18 days"
+      ],
+      "evidence": "Ce comté a dix-huit mois."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Sophie buy, and what does Léa suggest?",
+      "answer": "Three goat cheeses and the comté — and Léa suggests a fondue",
+      "options": [
+        "Three goat cheeses and the comté — and Léa suggests a fondue",
+        "Saint-marcellin only — and Léa suggests a picnic",
+        "The comté only — and Léa suggests going home",
+        "Goat cheese only — and Léa suggests a restaurant"
+      ],
+      "evidence": "Je prends ces trois chèvres et ce comté… — Cet après-midi, on fait une fondue ?"
+    }
+  ],
+  "writing": {
+    "prompt": "Point out three things around you using *ce*, *cette*, and *ces*.",
+    "model": "Ce livre est intéressant. Cette lampe est jolie. Ces chaussures sont vieilles.",
+    "targets": [
+      {
+        "label": "ce / cet",
+        "pattern": "\\b(ce|cet)\\b",
+        "min": 1
+      },
+      {
+        "label": "cette",
+        "pattern": "\\bcette\\b",
+        "min": 1
+      },
+      {
+        "label": "ces",
+        "pattern": "\\bces\\b",
+        "min": 1
+      }
+    ]
+  }
+}

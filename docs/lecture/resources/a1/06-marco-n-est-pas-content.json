@@ -1,0 +1,136 @@
+{
+  "id": "a1-06",
+  "level": "A1",
+  "number": 6,
+  "title": "Marco n'est pas content",
+  "grammar": "negation *ne… pas*, *pas de*",
+  "theme": "moods, Monday mornings",
+  "wordCount": 84,
+  "primer": [
+    "**ne… pas**: not (wraps around the verb: *il ne parle pas*)",
+    "**n'** before a vowel: *il n'est pas*",
+    "**pas de**: no / not any (*je n'ai pas de café*)",
+    "**content / fatigué**: happy / tired",
+    "**Ça va ?**: How's it going? / Are you OK?",
+    "**boire**: to drink (*il boit*)",
+    "**maintenant**: now"
+  ],
+  "passage": [
+    [
+      "Aujourd'hui, Marco n'est pas content. Il est fatigué. Il n'aime pas le lundi."
+    ],
+    [
+      "— Ça va, Marco ? demande Léa.",
+      "— Non, ça ne va pas. Je n'ai pas de café ! Ma machine ne marche pas.",
+      "— Pas de problème. Le café Le Soleil est ouvert !"
+    ],
+    [
+      "Au café, Marco ne parle pas beaucoup. Il ne mange pas de croissant. Il ne regarde pas son téléphone. Il boit un grand café noir, très lentement."
+    ],
+    [
+      "Après le café, Marco sourit."
+    ],
+    [
+      "— Merci, Léa ! Maintenant, ça va. J'aime le lundi… un peu."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "le lundi",
+      "en": "Mondays"
+    },
+    {
+      "fr": "ma machine",
+      "en": "my (coffee) machine"
+    },
+    {
+      "fr": "ne marche pas",
+      "en": "doesn't work"
+    },
+    {
+      "fr": "ouvert",
+      "en": "open"
+    },
+    {
+      "fr": "manger",
+      "en": "to eat",
+      "match": [
+        "mange"
+      ]
+    },
+    {
+      "fr": "lentement",
+      "en": "slowly"
+    },
+    {
+      "fr": "après",
+      "en": "after"
+    },
+    {
+      "fr": "sourit",
+      "en": "smiles"
+    },
+    {
+      "fr": "un peu",
+      "en": "a little"
+    }
+  ],
+  "spotlight": [
+    "**Ne… pas** sandwiches the verb: *Il ne parle pas beaucoup.* / *Il n'aime pas le lundi.*",
+    "**After a negative, un/une/des/du become de:** *J'ai un café* → *Je n'ai pas de café.* / *Il ne mange pas de croissant.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why is Marco unhappy? Give two reasons.",
+      "answer": "He's tired, and his coffee machine doesn't work",
+      "options": [
+        "He's tired, and his coffee machine doesn't work",
+        "He's sick and has lost his phone",
+        "He's late for class and it's raining",
+        "He doesn't like the café"
+      ],
+      "evidence": "Il est fatigué. … Je n'ai pas de café ! Ma machine ne marche pas."
+    },
+    {
+      "id": "q2",
+      "prompt": "Name two things Marco doesn't do at the café.",
+      "answer": "He doesn't eat a croissant or look at his phone",
+      "options": [
+        "He doesn't eat a croissant or look at his phone",
+        "He doesn't drink coffee or talk to Léa",
+        "He doesn't sit down or pay",
+        "He doesn't order or say hello"
+      ],
+      "evidence": "Il ne mange pas de croissant. Il ne regarde pas son téléphone."
+    },
+    {
+      "id": "q3",
+      "prompt": "How does Marco feel at the end?",
+      "answer": "Better — he smiles and says he's OK now",
+      "options": [
+        "Better — he smiles and says he's OK now",
+        "Still tired and grumpy",
+        "Angry at Léa",
+        "Sick and ready to go home"
+      ],
+      "evidence": "Après le café, Marco sourit. — Merci, Léa ! Maintenant, ça va."
+    }
+  ],
+  "writing": {
+    "prompt": "Write two true negative sentences about yourself (one with *ne… pas*, one with *pas de*).",
+    "model": "Je ne parle pas italien. Je n'ai pas de voiture.",
+    "targets": [
+      {
+        "label": "ne … pas",
+        "pattern": "\\bn(e\\s|')[^.!?]*\\bpas\\b",
+        "min": 1
+      },
+      {
+        "label": "pas de / pas d'",
+        "pattern": "\\bpas d(e\\b|')",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "s62",
+ "subject": 62,
+ "level": "B1",
+ "title": "Le Passé Composé vs Le Plus-Que-Parfait",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Both describe completed past actions. The difference is <strong>order</strong>:\n- <strong>Passé composé:</strong> the main event in the story (\"did\").\n- <strong>Plus-que-parfait:</strong> something that happened <strong>even earlier</strong>, before the reference point (\"had done\").</p>"
+  },
+  {
+   "heading": "Comparison",
+   "html": "<table>\n<thead>\n<tr>\n<th>Passé composé</th>\n<th>Plus-que-parfait</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>J'ai perdu mes clés.</em> — I lost my keys.</td>\n<td><em>J'ai trouvé les clés que j'</em><em>avais perdues</em><em>.</em> — I found the keys I had lost.</td>\n</tr>\n<tr>\n<td><em>Il est parti à 8 h.</em></td>\n<td><em>Quand je suis arrivé, il </em><em>était</em><em> déjà </em><em>parti</em><em>.</em></td>\n</tr>\n<tr>\n<td><em>J'ai fini mes devoirs, puis j'ai regardé la télé.</em> (sequence in order)</td>\n<td><em>J'ai regardé la télé ; j'</em><em>avais fini</em><em> mes devoirs.</em> (explains, backtracking)</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Key principle",
+   "html": "<p>If you tell events <strong>in chronological order</strong>, use the passé composé for all:\n<em>Je me suis levé, j'ai mangé, je suis parti.</em></p>\n<p>If you <strong>go back in time</strong> from your reference point, use the plus-que-parfait:\n<em>Je suis parti à 8 h. </em><em>Je m'étais levé</em><em> à 6 h et </em><em>j'avais mangé</em><em> rapidement.</em></p>"
+  },
+  {
+   "heading": "Common triggers",
+   "html": "<ul>\n<li><em>déjà</em> in a past story: <em>Quand je l'ai appelé, il </em><em>avait déjà</em><em> mangé.</em></li>\n<li><em>parce que</em> explaining a past state: <em>J'étais en retard parce que j'</em><em>avais raté</em><em> le bus.</em></li>\n<li>Relative clauses referring to earlier actions: <em>Il a lu le livre que je lui </em><em>avais offert</em><em>.</em></li>\n</ul>"
+  },
+  {
+   "heading": "English isn't always a reliable guide",
+   "html": "<p>English often uses the simple past where French needs the plus-que-parfait:\n- <em>I returned the book he lent me.</em> → <em>J'ai rendu le livre qu'il m'</em><em>avait prêté</em><em>.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Hier, j'(acheter) ___ une robe ; ce matin, je l'(porter) ___ pour la première fois. (each is \"the event\")",
+   "instruction": "Passé composé or plus-que-parfait?",
+   "answer": "j'ai acheté ; je l'ai portée",
+   "id": "e1"
+  },
+  {
+   "prompt": "Quand la police (arriver) ___, le voleur (s'enfuir) ___ déjà.",
+   "answer": "est arrivée ; s'était enfui",
+   "id": "e2"
+  },
+  {
+   "prompt": "Elle (rater) ___ le train parce qu'elle (se réveiller) ___ trop tard.",
+   "answer": "a raté ; s'était réveillée",
+   "id": "e3"
+  },
+  {
+   "prompt": "Il m'(montrer) ___ les photos qu'il (prendre) ___ en vacances.",
+   "answer": "m'a montré ; avait prises",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"When I got home, my wife had cooked dinner.\"",
+   "answer": "*Quand je suis rentré, ma femme avait préparé le dîner.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

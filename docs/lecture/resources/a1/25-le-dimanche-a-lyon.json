@@ -1,0 +1,128 @@
+{
+  "id": "a1-25",
+  "level": "A1",
+  "number": 25,
+  "title": "Le dimanche à Lyon",
+  "grammar": "*on* = we, frequency adverbs",
+  "theme": "family Sunday lunch",
+  "wordCount": 99,
+  "primer": [
+    "**on**: we (informal), people in general; uses the *il* form",
+    "**toujours / souvent / parfois / rarement**: always / often / sometimes / rarely",
+    "**ne… jamais**: never",
+    "**déjeuner**: to have lunch",
+    "**un poulet rôti**: a roast chicken",
+    "**à table**: at the table",
+    "**tranquille**: calm, peaceful"
+  ],
+  "passage": [
+    [
+      "À Lyon, le dimanche, on mange toujours en famille. On déjeune à une heure. Le père de Léa, Paul, fait souvent un poulet rôti. Sophie fait parfois une tarte aux pommes."
+    ],
+    [
+      "On ne regarde jamais la télé à table. On parle beaucoup : du travail, de Paris, des amis…"
+    ],
+    [
+      "— Tu manges bien à Paris, Léa ? demande Paul.",
+      "— Oui, papa. Je mange souvent avec Hugo. Il cuisine très bien.",
+      "— Et tu fais du sport ?",
+      "— Euh… rarement."
+    ],
+    [
+      "Après le déjeuner, on fait toujours une promenade au bord du Rhône. Puis on prend un café. Le dimanche à Lyon, c'est lent et tranquille."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "en famille",
+      "en": "as a family"
+    },
+    {
+      "fr": "une tarte aux pommes",
+      "en": "an apple tart"
+    },
+    {
+      "fr": "papa",
+      "en": "dad"
+    },
+    {
+      "fr": "bien",
+      "en": "well"
+    },
+    {
+      "fr": "le déjeuner",
+      "en": "lunch"
+    },
+    {
+      "fr": "le Rhône",
+      "en": "the river through Lyon"
+    },
+    {
+      "fr": "lent",
+      "en": "slow"
+    }
+  ],
+  "spotlight": [
+    "**On** is the everyday spoken \"we,\" with the *il* verb form: *on mange, on fait, on prend*.",
+    "**Adverb placement:** right after the verb: *Paul fait souvent un poulet.* With negation: *On ne regarde jamais la télé.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What do Paul and Sophie cook?",
+      "answer": "Paul makes roast chicken; Sophie makes apple tart",
+      "options": [
+        "Paul makes roast chicken; Sophie makes apple tart",
+        "Paul makes apple tart; Sophie makes roast chicken",
+        "Paul makes fondue; Sophie makes quiche",
+        "Paul makes fish; Sophie makes soup"
+      ],
+      "evidence": "Le père de Léa, Paul, fait souvent un poulet rôti. Sophie fait parfois une tarte aux pommes."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does the family never do at the table?",
+      "answer": "Watch TV",
+      "options": [
+        "Watch TV",
+        "Talk about work",
+        "Drink coffee",
+        "Eat dessert"
+      ],
+      "evidence": "On ne regarde jamais la télé à table."
+    },
+    {
+      "id": "q3",
+      "prompt": "What do they always do after lunch?",
+      "answer": "A walk along the Rhône",
+      "options": [
+        "A walk along the Rhône",
+        "A nap",
+        "A game of cards",
+        "A trip to the market"
+      ],
+      "evidence": "Après le déjeuner, on fait toujours une promenade au bord du Rhône."
+    }
+  ],
+  "writing": {
+    "prompt": "Describe a family habit with *on* and two frequency words (one of them *ne… jamais*).",
+    "model": "Chez nous, on mange toujours ensemble le soir. On ne mange jamais devant la télé.",
+    "targets": [
+      {
+        "label": "on + verb",
+        "pattern": "\\bon\\s+(ne\\s+|n')?[a-zà-ÿ]+",
+        "min": 1
+      },
+      {
+        "label": "a frequency word (toujours, souvent…)",
+        "pattern": "\\b(toujours|souvent|parfois|rarement)\\b",
+        "min": 1
+      },
+      {
+        "label": "ne … jamais",
+        "pattern": "\\bn(e\\s|')[^.!?]*\\bjamais\\b",
+        "min": 1
+      }
+    ]
+  }
+}

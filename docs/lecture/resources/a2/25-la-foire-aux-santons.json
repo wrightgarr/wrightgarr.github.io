@@ -1,0 +1,158 @@
+{
+  "id": "a2-25",
+  "level": "A2",
+  "number": 25,
+  "title": "La foire aux santons",
+  "grammar": "demonstrative pronouns",
+  "theme": "a Christmas tradition",
+  "wordCount": 198,
+  "primer": [
+    "**celui / celle**: the one (masc. / fem.)",
+    "**ceux / celles**: the ones (masc. / fem.)",
+    "**-ci / -là**: this one / that one (*celui-ci, celle-là*)",
+    "**celui qui… / celle de…**: the one who… / the one belonging to…",
+    "**les santons**: small clay figures for the Provençal nativity scene",
+    "**la crèche**: the nativity scene"
+  ],
+  "passage": [
+    [
+      "En décembre, Madame Ferrand a emmené Léa à la foire aux santons, en haut de la Canebière. C'est une tradition marseillaise depuis plus de deux cents ans."
+    ],
+    [
+      "— Je voudrais offrir des santons à mes amis de Paris, a dit Léa. Mais il y en a des centaines !",
+      "— Regarde, ma belle. Celui-ci, c'est le boulanger. Celui-là, avec le poisson, c'est le pêcheur. Et celle-ci, avec la lavande, c'est la bergère.",
+      "— J'aime bien celle-là, avec son panier d'œufs.",
+      "— Ah, c'est la marchande d'œufs. Ma grand-mère avait la même."
+    ],
+    [
+      "Léa a choisi un santon pour chaque ami."
+    ],
+    [
+      "— Pour Hugo, le cuisinier, je prends celui qui porte une marmite. Pour Amina, celle qui joue du tambourin. Et pour Marco… celui-ci, celui qui lève les bras au ciel !",
+      "— C'est le Ravi. Il est toujours content de tout.",
+      "— Alors c'est parfait pour Marco !"
+    ],
+    [
+      "Le vendeur a emballé les santons."
+    ],
+    [
+      "— Et ceux-ci, madame ? Les petits moutons ?",
+      "— Ceux-là, je les prends pour moi, a dit Léa. Pour commencer ma crèche !"
+    ],
+    [
+      "Madame Ferrand était émue."
+    ],
+    [
+      "— Ta première crèche provençale… Tu deviens une vraie Marseillaise.",
+      "— Et vous, madame, vous n'achetez rien ?",
+      "— J'ai déjà les santons de ma mère et ceux de ma grand-mère. Ma crèche a quatre-vingts personnages !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "a emmené",
+      "en": "took (someone somewhere)"
+    },
+    {
+      "fr": "la Canebière",
+      "en": "Marseille's famous main avenue"
+    },
+    {
+      "fr": "des centaines",
+      "en": "hundreds"
+    },
+    {
+      "fr": "la bergère",
+      "en": "the shepherdess"
+    },
+    {
+      "fr": "son panier",
+      "en": "her basket"
+    },
+    {
+      "fr": "la marchande",
+      "en": "the (female) seller"
+    },
+    {
+      "fr": "le tambourin",
+      "en": "a Provençal drum"
+    },
+    {
+      "fr": "lève les bras au ciel",
+      "en": "raises his arms to the sky"
+    },
+    {
+      "fr": "le Ravi",
+      "en": "\"the delighted one\", a classic santon"
+    },
+    {
+      "fr": "a emballé",
+      "en": "wrapped"
+    },
+    {
+      "fr": "les petits moutons",
+      "en": "the little sheep"
+    },
+    {
+      "fr": "émue",
+      "en": "touched, moved"
+    },
+    {
+      "fr": "personnages",
+      "en": "figures, characters"
+    }
+  ],
+  "spotlight": [
+    "**Celui / celle / ceux / celles** replace a noun so you don't repeat it, and they agree with it: *celui-ci* (un santon), *celle-là* (la marchande), *ceux-ci* (les moutons).",
+    "**They can't stand alone.** Add *-ci / -là* (this one / that one), *de* (*ceux de ma grand-mère* = my grandmother's), or *qui / que* (*celui qui porte une marmite* = the one carrying a pot)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "How old is the santon fair tradition?",
+      "answer": "Over two hundred years",
+      "options": [
+        "Over two hundred years",
+        "About twenty years",
+        "Fifty years",
+        "Since last year"
+      ],
+      "evidence": "C'est une tradition marseillaise depuis plus de deux cents ans."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which santon did Léa choose for Hugo, and why?",
+      "answer": "The one carrying a cooking pot — because Hugo is a cook",
+      "options": [
+        "The one carrying a cooking pot — because Hugo is a cook",
+        "The baker — because Hugo loves bread",
+        "The fisherman — because Hugo likes fish",
+        "The Ravi — because Hugo is always happy"
+      ],
+      "evidence": "Pour Hugo, le cuisinier, je prends celui qui porte une marmite."
+    },
+    {
+      "id": "q3",
+      "prompt": "Why doesn't Madame Ferrand buy anything?",
+      "answer": "She already has her mother's and grandmother's santons — eighty figures",
+      "options": [
+        "She already has her mother's and grandmother's santons — eighty figures",
+        "She doesn't like santons",
+        "They're too expensive",
+        "She forgot her wallet"
+      ],
+      "evidence": "J'ai déjà les santons de ma mère et ceux de ma grand-mère. Ma crèche a quatre-vingts personnages !"
+    }
+  ],
+  "writing": {
+    "prompt": "You're shopping with a friend. Write three sentences choosing between items with *celui-ci*, *celle-là*, *ceux qui…*",
+    "model": "Tu préfères celle-ci ou celle-là ? Moi, j'aime bien celui qui est bleu. Ceux de la vitrine sont trop chers.",
+    "targets": [
+      {
+        "label": "celui / celle / ceux / celles",
+        "pattern": "\\b(celui|celle|ceux|celles)(-ci|-là)?\\b",
+        "min": 3
+      }
+    ]
+  }
+}

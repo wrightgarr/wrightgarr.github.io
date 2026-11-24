@@ -1,0 +1,67 @@
+{
+ "id": "s79",
+ "subject": 79,
+ "level": "B1",
+ "title": "The Pronoun \"y\"",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Y</strong> is an adverbial pronoun. It mainly replaces a <strong>place</strong> or <strong>à + thing</strong>.</p>"
+  },
+  {
+   "heading": "1. Replaces a place (à, en, dans, chez, sur, sous…)",
+   "html": "<ul>\n<li><em>Tu vas </em><em>à Paris</em><em> ?</em> — <em>Oui, j'</em><em>y</em><em> vais.</em> — Yes, I'm going there.</li>\n<li><em>Il habite </em><em>en France</em><em> depuis 2010.</em> — <em>Il </em><em>y</em><em> habite depuis 2010.</em></li>\n<li><em>Les clés sont </em><em>dans le tiroir</em><em> ?</em> — <em>Oui, elles </em><em>y</em><em> sont.</em></li>\n<li><em>On va </em><em>chez Marc</em><em> ?</em> — <em>On </em><em>y</em><em> va !</em></li>\n</ul>"
+  },
+  {
+   "heading": "2. Replaces à + thing / idea",
+   "html": "<p>With verbs using <strong>à</strong>: <em>penser à, réfléchir à, répondre à, s'intéresser à, participer à, jouer à, croire à, s'habituer à, tenir à, faire attention à</em>\n- <em>Tu penses </em><em>à ton examen</em><em> ?</em> — <em>Oui, j'</em><em>y</em><em> pense.</em>\n- <em>Il a répondu </em><em>à la lettre</em><em> ?</em> — <em>Oui, il </em><em>y</em><em> a répondu.</em>\n- <em>Tu joues </em><em>au tennis</em><em> ?</em> — <em>Oui, j'</em><em>y</em><em> joue.</em>\n- <em>Je m'intéresse </em><em>à la politique</em><em>.</em> — <em>Je m'</em><em>y</em><em> intéresse.</em></p>\n<p><strong>Not for people!</strong> For <em>à + person</em>, use <strong>lui / leur</strong> (<em>Je lui réponds</em>) or <em>à + emphatic pronoun</em> (<em>Je pense à lui</em>).</p>"
+  },
+  {
+   "heading": "Position",
+   "html": "<p>Same as other object pronouns: <strong>before the conjugated verb</strong> (or before the infinitive):\n- <em>J'</em><em>y</em><em> vais.</em> / <em>Je n'</em><em>y</em><em> vais pas.</em>\n- <em>J'</em><em>y</em><em> suis allé.</em> / <em>Je n'</em><em>y</em><em> suis pas allé.</em>\n- <em>Je vais </em><em>y</em><em> aller.</em> / <em>Je ne vais pas </em><em>y</em><em> aller.</em>\n- Imperative: <strong><em>Vas-y</em><em> !</em> (note the s) / *N'</strong>y<strong> va pas !<em> / </em>Allons-</strong>y*<em> !</em> — Let's go!</p>\n<p><strong>Order with other pronouns:</strong> <em>y</em> comes after <em>me, te, le, la, lui, leur</em> etc.: <em>Je </em><em>t'y</em><em> emmène.</em> — I'll take you there. / <em>Il </em><em>les y</em><em> a mis.</em> — He put them there.</p>"
+  },
+  {
+   "heading": "Common expressions with y",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>On y va !</strong> / <strong>Allons-y !</strong></td>\n<td>Let's go!</td>\n</tr>\n<tr>\n<td><strong>Vas-y ! / Allez-y !</strong></td>\n<td>Go ahead! / Go on!</td>\n</tr>\n<tr>\n<td><strong>Ça y est !</strong></td>\n<td>That's it! / Done! / Finally!</td>\n</tr>\n<tr>\n<td><strong>Il y a</strong></td>\n<td>There is/are</td>\n</tr>\n<tr>\n<td><strong>J'y suis !</strong></td>\n<td>I've got it! (I understand)</td>\n</tr>\n<tr>\n<td><strong>Je n'y peux rien.</strong></td>\n<td>There's nothing I can do about it.</td>\n</tr>\n<tr>\n<td><strong>Je m'y attendais.</strong></td>\n<td>I expected it.</td>\n</tr>\n<tr>\n<td><strong>Je n'y comprends rien.</strong></td>\n<td>I don't understand any of it.</td>\n</tr>\n<tr>\n<td><strong>Y a pas de quoi.</strong></td>\n<td>You're welcome / Don't mention it.</td>\n</tr>\n<tr>\n<td><strong>s'y connaître (en)</strong></td>\n<td>to know a lot about</td>\n</tr>\n<tr>\n<td><strong>Laisse-moi y réfléchir.</strong></td>\n<td>Let me think about it.</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je vais au supermarché.",
+   "instruction": "Replace with *y*:",
+   "answer": "*J'y vais.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Nous sommes allés en Italie.",
+   "answer": "*Nous y sommes allés.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Tu penses à tes vacances ?",
+   "answer": "*Tu y penses ?*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Ne mets pas tes pieds sur la table !",
+   "answer": "*N'y mets pas tes pieds !*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Je vais aller à la plage.",
+   "answer": "*Je vais y aller.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Can you use *y* in: *Je pense à ma mère* ? What do you use instead?",
+   "answer": "No (it's a person). Use *Je pense à elle.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"Let's go!\" / \"Go ahead!\" (vous)",
+   "answer": "*Allons-y !* / *On y va !* — *Allez-y !*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

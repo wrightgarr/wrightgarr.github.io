@@ -1,0 +1,56 @@
+{
+ "id": "s32",
+ "subject": 32,
+ "level": "A2",
+ "title": "Le Passé Composé (2nd Group Verbs)",
+ "sections": [
+  {
+   "heading": "Past participle of 2nd group (-ir / -issons) verbs: -ir → **-i**",
+   "html": "<table>\n<thead>\n<tr>\n<th>Infinitive</th>\n<th>Participle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>finir</td>\n<td>fin<strong>i</strong></td>\n</tr>\n<tr>\n<td>choisir</td>\n<td>chois<strong>i</strong></td>\n</tr>\n<tr>\n<td>réussir</td>\n<td>réuss<strong>i</strong></td>\n</tr>\n<tr>\n<td>grandir</td>\n<td>grand<strong>i</strong></td>\n</tr>\n<tr>\n<td>réfléchir</td>\n<td>réfléch<strong>i</strong></td>\n</tr>\n<tr>\n<td>maigrir</td>\n<td>maigr<strong>i</strong></td>\n</tr>\n<tr>\n<td>remplir</td>\n<td>rempl<strong>i</strong></td>\n</tr>\n</tbody>\n</table>\n<p>All 2nd group verbs use <strong>avoir</strong>.</p>"
+  },
+  {
+   "heading": "Full conjugation: finir",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>j'ai fini</td>\n<td>nous avons fini</td>\n</tr>\n<tr>\n<td>tu as fini</td>\n<td>vous avez fini</td>\n</tr>\n<tr>\n<td>il / elle a fini</td>\n<td>ils / elles ont fini</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Examples",
+   "html": "<ul>\n<li><em>J'</em><em>ai fini</em><em> mes devoirs.</em> — I finished my homework.</li>\n<li><em>Elle </em><em>a choisi</em><em> la robe rouge.</em> — She chose the red dress.</li>\n<li><em>Nous </em><em>avons réussi</em><em> l'examen !</em> — We passed the exam!</li>\n<li><em>Tes enfants </em><em>ont</em><em> beaucoup </em><em>grandi</em><em> !</em> — Your children have grown a lot!</li>\n<li><em>Tu </em><em>as réfléchi</em><em> à ma proposition ?</em> — Have you thought about my proposal?</li>\n</ul>"
+  },
+  {
+   "heading": "Negative and questions (same as all verbs)",
+   "html": "<p><em>Je n'ai pas fini.</em> / <em>Avez-vous choisi ?</em> — Have you chosen? (heard in every restaurant)</p>"
+  },
+  {
+   "heading": "Watch out",
+   "html": "<p><em>Finir de</em> + infinitive = to finish doing: <em>J'ai fini de manger.</em>\n<em>Choisir de</em> + infinitive: <em>Il a choisi de partir.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Conjugate *choisir* in the passé composé for all pronouns.",
+   "answer": "j'ai choisi, tu as choisi, il a choisi, nous avons choisi, vous avez choisi, ils ont choisi.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Fill in: (a) Tu ___ (réussir) ton permis ? (b) Ils ___ (finir) le projet. (c) J'___ (maigrir) de 5 kilos.",
+   "answer": "(a) as réussi (b) ont fini (c) ai maigri",
+   "id": "e2"
+  },
+  {
+   "prompt": "Make negative: *Nous avons fini.*",
+   "answer": "*Nous n'avons pas fini.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"Have you (vous) chosen a wine?\"",
+   "answer": "*Avez-vous choisi un vin ?*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"She finished eating at nine.\"",
+   "answer": "*Elle a fini de manger à neuf heures.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

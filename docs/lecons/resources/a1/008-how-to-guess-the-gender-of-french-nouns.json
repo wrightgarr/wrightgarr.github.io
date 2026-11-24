@@ -1,0 +1,62 @@
+{
+ "id": "s8",
+ "subject": 8,
+ "level": "A1",
+ "title": "How to Guess the Gender of French Nouns?",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>There is no perfect rule, so always learn a noun <strong>with its article</strong> (<em>la table</em>, not just <em>table</em>). But word endings give strong clues.</p>"
+  },
+  {
+   "heading": "Usually MASCULINE endings",
+   "html": "<table>\n<thead>\n<tr>\n<th>Ending</th>\n<th>Examples</th>\n<th>Main exceptions</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>-age</strong></td>\n<td>le fromage, le voyage, le garage</td>\n<td>la page, la plage, la cage, l'image (f)</td>\n</tr>\n<tr>\n<td><strong>-ment</strong></td>\n<td>le moment, le gouvernement, l'appartement</td>\n<td>—</td>\n</tr>\n<tr>\n<td><strong>-eau</strong></td>\n<td>le bateau, le gâteau, le bureau</td>\n<td>l'eau (f), la peau</td>\n</tr>\n<tr>\n<td><strong>-isme</strong></td>\n<td>le tourisme, le réalisme</td>\n<td>—</td>\n</tr>\n<tr>\n<td><strong>-oir</strong></td>\n<td>le miroir, le soir, le couloir</td>\n<td>—</td>\n</tr>\n<tr>\n<td><strong>-et</strong></td>\n<td>le jouet, le billet, le poulet</td>\n<td>—</td>\n</tr>\n<tr>\n<td><strong>-ier</strong></td>\n<td>le cahier, le papier, le métier</td>\n<td>—</td>\n</tr>\n<tr>\n<td><strong>-al</strong></td>\n<td>le journal, le cheval, l'hôpital</td>\n<td>—</td>\n</tr>\n<tr>\n<td><strong>-in / -on</strong></td>\n<td>le jardin, le vin, le camion, le crayon</td>\n<td>la fin, la main, la maison, la leçon, la chanson</td>\n</tr>\n<tr>\n<td><strong>consonant</strong> (generally)</td>\n<td>le lit, le sac, le pont</td>\n<td>la nuit, la mer, la dent</td>\n</tr>\n</tbody>\n</table>\n<p>Also masculine: days, months, seasons, languages, colors used as nouns, metals, trees, most countries not ending in <em>-e</em> (<em>le Canada, le Japon</em>).</p>"
+  },
+  {
+   "heading": "Usually FEMININE endings",
+   "html": "<table>\n<thead>\n<tr>\n<th>Ending</th>\n<th>Examples</th>\n<th>Main exceptions</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>-tion / -sion</strong></td>\n<td>la nation, la télévision, la question</td>\n<td>—</td>\n</tr>\n<tr>\n<td><strong>-té</strong></td>\n<td>la liberté, la société, la beauté</td>\n<td>l'été, le côté, le pâté</td>\n</tr>\n<tr>\n<td><strong>-ure</strong></td>\n<td>la voiture, la culture, la nature</td>\n<td>le murmure</td>\n</tr>\n<tr>\n<td><strong>-ence / -ance</strong></td>\n<td>la science, la chance, la France</td>\n<td>le silence</td>\n</tr>\n<tr>\n<td><strong>-ette</strong></td>\n<td>la cigarette, la bicyclette, la fourchette</td>\n<td>le squelette</td>\n</tr>\n<tr>\n<td><strong>-ie</strong></td>\n<td>la boulangerie, la vie, la pluie</td>\n<td>le génie, l'incendie</td>\n</tr>\n<tr>\n<td><strong>-ée</strong></td>\n<td>l'idée, la journée, l'année</td>\n<td>le musée, le lycée</td>\n</tr>\n<tr>\n<td><strong>-ade</strong></td>\n<td>la salade, la promenade</td>\n<td>le stade, le grade</td>\n</tr>\n<tr>\n<td><strong>-ude</strong></td>\n<td>l'attitude, la solitude</td>\n<td>—</td>\n</tr>\n<tr>\n<td><strong>-eur</strong> (abstract nouns)</td>\n<td>la couleur, la peur, la fleur</td>\n<td>le bonheur, le malheur, l'honneur</td>\n</tr>\n</tbody>\n</table>\n<p>Also feminine: most countries ending in <em>-e</em> (<em>la France, la Chine</em>; except <em>le Mexique, le Cambodge</em>), most sciences (<em>la biologie</em>).</p>"
+  },
+  {
+   "heading": "People and animals",
+   "html": "<ul>\n<li>Many follow biological gender: <em>le père / la mère</em>, <em>le roi / la reine</em>.</li>\n<li>Many jobs form a feminine: <em>un acteur / une actrice</em>, <em>un boulanger / une boulangère</em>, <em>un étudiant / une étudiante</em>.</li>\n<li>Some words have one gender for everyone: <em>une personne</em> (even a man), <em>une victime</em>, <em>un bébé</em>.</li>\n</ul>"
+  },
+  {
+   "heading": "Same word, different gender, different meaning",
+   "html": "<table>\n<thead>\n<tr>\n<th>Masculine</th>\n<th>Feminine</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>le livre</strong> (book)</td>\n<td><strong>la livre</strong> (pound)</td>\n</tr>\n<tr>\n<td><strong>le tour</strong> (tour, turn)</td>\n<td><strong>la tour</strong> (tower)</td>\n</tr>\n<tr>\n<td><strong>le poste</strong> (job, TV set)</td>\n<td><strong>la poste</strong> (post office)</td>\n</tr>\n<tr>\n<td><strong>le mode</strong> (method)</td>\n<td><strong>la mode</strong> (fashion)</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "___ fromage",
+   "instruction": "Guess the gender (le or la):",
+   "answer": "le fromage",
+   "id": "e1"
+  },
+  {
+   "prompt": "___ station",
+   "answer": "la station",
+   "id": "e2"
+  },
+  {
+   "prompt": "___ château",
+   "answer": "le château",
+   "id": "e3"
+  },
+  {
+   "prompt": "___ liberté",
+   "answer": "la liberté",
+   "id": "e4"
+  },
+  {
+   "prompt": "___ dentifrice (hint: no rule — guess!), ___ boulangerie, ___ tourisme, ___ aventure, ___ téléphone.",
+   "answer": "le dentifrice, la boulangerie, le tourisme, l'aventure (f), le téléphone",
+   "id": "e5"
+  },
+  {
+   "prompt": "Exceptions: ___ plage, ___ musée, ___ eau, ___ été.",
+   "answer": "la plage, le musée, l'eau (f), l'été (m)",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

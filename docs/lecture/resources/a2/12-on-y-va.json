@@ -1,0 +1,164 @@
+{
+  "id": "a2-12",
+  "level": "A2",
+  "number": 12,
+  "title": "On y va !",
+  "grammar": "the pronouns *y* and *en*",
+  "theme": "a day trip to Aix",
+  "wordCount": 189,
+  "primer": [
+    "**y**: there (replaces *à / dans / en* + a place): *J'y vais.*",
+    "**en**: some, any, of it, of them (replaces *de* + a thing): *J'en veux.*",
+    "**en + number**: *J'en prends trois.* (I'll take three of them)",
+    "**il y en a**: there are some",
+    "**les calissons**: almond sweets from Aix-en-Provence",
+    "**il en reste**: there are some left",
+    "**revenir**: to come back"
+  ],
+  "passage": [
+    [
+      "Fin mai, Amina est venue voir Léa pour une semaine. Le premier soir, elle a dîné avec Léa et Karim sur le port."
+    ],
+    [
+      "— Tu connais Aix-en-Provence ? a demandé Léa.",
+      "— Non, je n'y suis jamais allée.",
+      "— Alors, on y va demain ! C'est à trente minutes en bus."
+    ],
+    [
+      "À Aix, il faisait chaud et beau. Les deux amies se sont promenées sur le cours Mirabeau. Il y a des fontaines partout dans cette ville."
+    ],
+    [
+      "— Combien de fontaines est-ce qu'il y a ?",
+      "— Il y en a plus de mille, je crois !"
+    ],
+    [
+      "Elles sont entrées dans une confiserie."
+    ],
+    [
+      "— Ce sont des calissons, a expliqué Léa. Tu en veux ?",
+      "— Oui, j'en veux bien ! Mmm… c'est délicieux. Je vais en acheter.",
+      "— Combien de boîtes ?",
+      "— J'en prends trois : une pour ma mère, une pour mon professeur de piano et une pour moi !"
+    ],
+    [
+      "Ensuite, elles sont allées au musée Granet. Amina adore la peinture. Elle y est restée deux heures !"
+    ],
+    [
+      "Le soir, dans le bus, Amina a dit :"
+    ],
+    [
+      "— J'ai adoré Aix. Je veux y revenir.",
+      "— Et des calissons, il t'en reste ?"
+    ],
+    [
+      "Amina a ouvert son sac et elle a ri."
+    ],
+    [
+      "— Il m'en reste… une boîte sur trois !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "je n'y suis jamais allée",
+      "en": "I've never been there"
+    },
+    {
+      "fr": "se sont promenées",
+      "en": "strolled"
+    },
+    {
+      "fr": "le cours Mirabeau",
+      "en": "Aix's grand avenue"
+    },
+    {
+      "fr": "des fontaines",
+      "en": "fountains"
+    },
+    {
+      "fr": "plus de mille",
+      "en": "more than a thousand"
+    },
+    {
+      "fr": "je crois",
+      "en": "I think"
+    },
+    {
+      "fr": "une confiserie",
+      "en": "a sweet shop"
+    },
+    {
+      "fr": "j'en veux bien",
+      "en": "I'd love some"
+    },
+    {
+      "fr": "boîtes",
+      "en": "boxes"
+    },
+    {
+      "fr": "la peinture",
+      "en": "painting"
+    },
+    {
+      "fr": "il t'en reste ?",
+      "en": "do you have any left?"
+    }
+  ],
+  "spotlight": [
+    "**Y replaces a place:** *On va à Aix → On y va. Elle est restée au musée → Elle y est restée.* Like other pronouns it goes before the verb, or before the infinitive: *Je veux y revenir.*",
+    "**En replaces de + a noun, and keeps the quantity:** *Tu veux des calissons ? → Tu en veux ? J'en prends trois.* *Il y en a plus de mille* means there are more than a thousand of them."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "How long does it take to get from Marseille to Aix by bus?",
+      "answer": "Thirty minutes",
+      "options": [
+        "Thirty minutes",
+        "Two hours",
+        "Ten minutes",
+        "An hour and a half"
+      ],
+      "evidence": "C'est à trente minutes en bus."
+    },
+    {
+      "id": "q2",
+      "prompt": "Why did Amina buy three boxes of calissons?",
+      "answer": "For her mother, her piano teacher and herself",
+      "options": [
+        "For her mother, her piano teacher and herself",
+        "For Léa, Karim and Hugo",
+        "For her three sisters",
+        "Because they were three for the price of one"
+      ],
+      "evidence": "J'en prends trois : une pour ma mère, une pour mon professeur de piano et une pour moi !"
+    },
+    {
+      "id": "q3",
+      "prompt": "How many boxes are left at the end of the day?",
+      "answer": "Only one box out of three",
+      "options": [
+        "Only one box out of three",
+        "All three boxes",
+        "None — she ate them all",
+        "Two boxes"
+      ],
+      "evidence": "Il m'en reste… une boîte sur trois !"
+    }
+  ],
+  "writing": {
+    "prompt": "Answer with *y* or *en*: *Tu vas souvent au cinéma ? Tu as des frères ou des sœurs ? Tu bois du café ?*",
+    "model": "Oui, j'y vais souvent, le samedi. Oui, j'en ai deux. Non, je n'en bois pas.",
+    "targets": [
+      {
+        "label": "y",
+        "pattern": "\\by\\b",
+        "min": 1
+      },
+      {
+        "label": "en (as a pronoun)",
+        "pattern": "\\b(j'|je |n'|tu |il |elle |on |nous |vous |ils |elles )en\\b",
+        "min": 1
+      }
+    ]
+  }
+}

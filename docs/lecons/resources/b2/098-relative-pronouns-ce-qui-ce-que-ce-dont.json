@@ -1,0 +1,59 @@
+{
+ "id": "s98",
+ "subject": 98,
+ "level": "B2",
+ "title": "Relative Pronouns: ce qui, ce que & ce dont",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Ce qui, ce que, ce dont</strong> mean \"<strong>what</strong>\" (= the thing that / the thing which) when there's <strong>no specific noun</strong> antecedent. <em>Ce</em> acts as a neutral antecedent (\"that\").</p>\n<table>\n<thead>\n<tr>\n<th>Pronoun</th>\n<th>Function</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>ce qui</strong></td>\n<td>subject</td>\n<td><em><strong>Ce qui</strong> m'intéresse, c'est l'histoire.</em> — What interests me is history.</td>\n</tr>\n<tr>\n<td><strong>ce que (ce qu')</strong></td>\n<td>direct object</td>\n<td><em>Je ne comprends pas </em><em>ce que</em><em> tu dis.</em> — I don't understand what you're saying.</td>\n</tr>\n<tr>\n<td><strong>ce dont</strong></td>\n<td>object of a verb + de</td>\n<td><strong><em>Ce dont</em><em> j'ai besoin, c'est de repos.</em> — What I need is rest. (avoir besoin </strong>de**)</td>\n</tr>\n<tr>\n<td><strong>ce à quoi</strong></td>\n<td>object of a verb + à</td>\n<td><strong><em>Ce à quoi</em><em> je pense, c'est mon avenir.</em> — What I'm thinking about is my future. (penser </strong>à**)</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "The same test as qui / que",
+   "html": "<ul>\n<li>Followed by a <strong>verb</strong> → <strong>ce qui</strong>: <em>Dis-moi </em><em>ce qui</em><em> se passe.</em></li>\n<li>Followed by a <strong>subject</strong> → <strong>ce que</strong>: <em>Dis-moi </em><em>ce que</em><em> tu veux.</em></li>\n<li>Verb + <strong>de</strong> → <strong>ce dont</strong>: <em>C'est </em><em>ce dont</em><em> je rêve.</em> (rêver de)</li>\n</ul>"
+  },
+  {
+   "heading": "Common uses",
+   "html": "<ol>\n<li><strong>Indirect questions</strong> (replacing <em>qu'est-ce qui / qu'est-ce que</em>):\n   <em>« Qu'est-ce qui se passe ? »</em> → <em>Je me demande </em><em>ce qui</em><em> se passe.</em>\n   <em>« Qu'est-ce que tu fais ? »</em> → <em>Il demande </em><em>ce que</em><em> je fais.</em></li>\n<li><strong>Emphasis (cleft sentences):</strong> <strong><em>Ce que</em>* j'aime, </strong>c'est<strong> voyager.<em> — What I love is traveling. / </em></strong>Ce qui<strong> est important, </strong>c'est*<em> la santé.</em></li>\n<li><strong>After tout:</strong> <em>Prends </em><em>tout ce que</em><em> tu veux.</em> — Take everything you want. / <em><strong>Tout ce qui</strong> brille n'est pas or.</em> — All that glitters is not gold.</li>\n<li><strong>Referring back to a whole idea</strong> (= \"which\"): <em>Il est arrivé en retard, </em><em>ce qui</em><em> m'a énervé.</em> — He arrived late, which annoyed me. / <em>Elle a démissionné, </em><em>ce que</em><em> je comprends.</em></li>\n</ol>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je ne sais pas ___ il veut.",
+   "instruction": "Fill in with *ce qui, ce que, ce dont*:",
+   "answer": "ce qu'",
+   "id": "e1"
+  },
+  {
+   "prompt": "___ me fait peur, c'est le silence.",
+   "answer": "Ce qui",
+   "id": "e2"
+  },
+  {
+   "prompt": "Voilà ___ j'avais besoin !",
+   "answer": "ce dont",
+   "id": "e3"
+  },
+  {
+   "prompt": "Raconte-moi ___ s'est passé.",
+   "answer": "ce qui",
+   "id": "e4"
+  },
+  {
+   "prompt": "Il a gagné à la loterie, ___ est incroyable.",
+   "answer": "ce qui",
+   "id": "e5"
+  },
+  {
+   "prompt": "Tout ___ il dit est faux.",
+   "answer": "ce qu'",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"What I'm afraid of is failure.\" (avoir peur de)",
+   "answer": "*Ce dont j'ai peur, c'est l'échec.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

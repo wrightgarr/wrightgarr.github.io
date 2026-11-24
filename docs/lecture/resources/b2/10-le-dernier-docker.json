@@ -1,0 +1,170 @@
+{
+  "id": "b2-10",
+  "level": "B2",
+  "number": 10,
+  "title": "Le dernier docker",
+  "grammar": "reported speech in the past",
+  "theme": "an interview with a witness",
+  "wordCount": 518,
+  "primer": [
+    "**reporting in the past**: *il a dit que…, il m'a demandé si…*",
+    "**présent → imparfait**: *« Je suis fatigué » → il a dit qu'il était fatigué*",
+    "**passé composé → plus-que-parfait**: *« J'ai travaillé » → il a dit qu'il avait travaillé*",
+    "**futur → conditionnel**: *« Je la mettrai » → il a dit qu'il la mettrait*",
+    "**demain → le lendemain; hier → la veille; ici → là**",
+    "**un entretien**: an interview"
+  ],
+  "passage": [
+    [
+      "Pour le chapitre sur le port, Léa voulait retrouver quelqu'un qui avait travaillé avec Jean. Madame Ferrand lui a donné un nom : Gaston Rinaldi, quatre-vingt-huit ans, le dernier survivant de l'équipe de Jean. Il vivait dans une maison de retraite à l'Estaque."
+    ],
+    [
+      "Léa y est allée un mardi, avec un enregistreur et des photos. Gaston l'a reçue dans le jardin, en costume, la casquette sur la tête. Le soir, elle a rédigé le compte rendu de l'entretien, qui allait devenir l'introduction du chapitre."
+    ],
+    [
+      "« Gaston Rinaldi m'a d'abord dit qu'il ne se souvenait plus de grand-chose. Puis, pendant trois heures, il s'est souvenu de tout."
+    ],
+    [
+      "Il m'a raconté qu'il était entré au port en 1958, à seize ans, et que Jean était arrivé deux ans plus tard. Il m'a expliqué qu'à l'époque, le travail était très dur : on portait les sacs sur le dos, des sacs de café, de sucre, d'arachides, parfois de soixante kilos. Il m'a dit que les dockers étaient embauchés à la journée, le matin, sur le quai, et que ceux qui n'étaient pas choisis rentraient chez eux sans salaire."
+    ],
+    [
+      "Je lui ai demandé quel genre d'homme était Jean. Il a ri. Il m'a répondu que Jean était le seul docker qui lisait pendant la pause, et que les autres se moquaient de lui. Il a ajouté que, le jour où un contremaître avait voulu jeter un de ses livres à l'eau, Jean l'avait regardé si calmement que le contremaître avait reculé. Il a précisé qu'après cet épisode, plus personne ne s'était moqué de lui, et que certains venaient même lui demander, discrètement, d'écrire des lettres pour eux : à l'administration, à un propriétaire, parfois à une fiancée."
+    ],
+    [
+      "Je lui ai demandé s'il savait que Jean écrivait. Il m'a dit que oui, que tout le monde le savait, mais que personne n'en parlait. Ils pensaient tous que Jean écrivait des lettres d'amour. \"On était sûrs qu'il avait une maîtresse\", m'a-t-il confié en baissant la voix. \"Et c'étaient des carnets. Quarante carnets ! Si on avait su…\""
+    ],
+    [
+      "Il m'a dit aussi que la mécanisation avait tout changé. Les conteneurs étaient arrivés, les grues avaient remplacé les épaules, et des milliers de dockers avaient perdu leur travail. Il m'a expliqué que Jean avait été l'un des derniers de l'équipe à partir, et qu'il lui avait dit la veille : \"Demain, le port continuera sans nous. Mais moi, je l'aurai écrit.\""
+    ],
+    [
+      "À la fin, je lui ai montré une photo de Jean prise en 1965, sur le quai de la Joliette. Il est resté longtemps silencieux. Puis il m'a demandé si je pouvais lui en laisser une copie. Il m'a dit qu'il la mettrait sur sa table de nuit, à côté de celle de sa femme, et qu'il la regarderait le soir. »"
+    ],
+    [
+      "En relisant son texte, Léa a remarqué qu'elle avait écrit tout l'entretien au discours indirect, comme si elle voulait garder une petite distance. Elle a hésité. Puis elle a décidé de ne garder qu'une seule citation directe, la phrase de Jean : « Demain, le port continuera sans nous. Mais moi, je l'aurai écrit. »"
+    ],
+    [
+      "Elle en a fait le titre du chapitre."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "une maison de retraite",
+      "en": "a retirement home"
+    },
+    {
+      "fr": "un enregistreur",
+      "en": "a recorder"
+    },
+    {
+      "fr": "la casquette",
+      "en": "the cap"
+    },
+    {
+      "fr": "a rédigé",
+      "en": "wrote up"
+    },
+    {
+      "fr": "le compte rendu",
+      "en": "the report"
+    },
+    {
+      "fr": "des arachides",
+      "en": "peanuts"
+    },
+    {
+      "fr": "embauchés à la journée",
+      "en": "hired by the day"
+    },
+    {
+      "fr": "la pause",
+      "en": "the break"
+    },
+    {
+      "fr": "un contremaître",
+      "en": "a foreman"
+    },
+    {
+      "fr": "avait reculé",
+      "en": "had backed off"
+    },
+    {
+      "fr": "une maîtresse",
+      "en": "a mistress"
+    },
+    {
+      "fr": "en baissant la voix",
+      "en": "lowering his voice"
+    },
+    {
+      "fr": "les grues",
+      "en": "cranes"
+    },
+    {
+      "fr": "sa table de nuit",
+      "en": "his bedside table"
+    }
+  ],
+  "spotlight": [
+    "**Tense shifts after a past reporting verb:** present → imparfait (*les dockers étaient embauchés à la journée*), passé composé → plus-que-parfait (*il était entré au port en 1958, Jean était arrivé deux ans plus tard*), future → conditional (*il la mettrait sur sa table de nuit, il la regarderait le soir*). The imparfait and the plus-que-parfait stay as they are.",
+    "**Time words shift too:** *hier → la veille* (*il lui avait dit la veille*), *demain → le lendemain*. Reported questions lose their inversion and question mark: *s'il savait que Jean écrivait, quel genre d'homme était Jean*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Comment se passait l'embauche des dockers à l'époque ?",
+      "answer": "Ils étaient choisis chaque matin sur le quai ; ceux qui n'étaient pas pris rentraient sans salaire",
+      "options": [
+        "Ils étaient choisis chaque matin sur le quai ; ceux qui n'étaient pas pris rentraient sans salaire",
+        "Ils avaient un contrat de dix ans",
+        "Ils étaient embauchés par lettre",
+        "Ils travaillaient seulement la nuit"
+      ],
+      "evidence": "Il m'a dit que les dockers étaient embauchés à la journée, le matin, sur le quai, et que ceux qui n'étaient pas choisis rentraient chez eux sans salaire."
+    },
+    {
+      "id": "q2",
+      "prompt": "Qu'est-ce que les collègues de Jean pensaient qu'il écrivait ?",
+      "answer": "Des lettres d'amour : ils croyaient qu'il avait une maîtresse",
+      "options": [
+        "Des lettres d'amour : ils croyaient qu'il avait une maîtresse",
+        "Des poèmes pour sa mère",
+        "Des articles pour un journal",
+        "Des plaintes contre le contremaître"
+      ],
+      "evidence": "Ils pensaient tous que Jean écrivait des lettres d'amour."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi Léa ne garde-t-elle qu'une seule citation directe ?",
+      "answer": "Pour garder la voix de Jean, avec une phrase qui devient le titre du chapitre",
+      "options": [
+        "Pour garder la voix de Jean, avec une phrase qui devient le titre du chapitre",
+        "Parce que Gaston parlait trop vite",
+        "Parce que l'enregistreur était cassé",
+        "Parce que l'éditrice le lui avait demandé"
+      ],
+      "evidence": "Puis elle a décidé de ne garder qu'une seule citation directe, la phrase de Jean"
+    }
+  ],
+  "writing": {
+    "prompt": "Rapportez une conversation que vous avez eue la semaine dernière en 4–5 phrases au discours indirect, en changeant correctement les temps (*il m'a dit qu'il avait…, qu'il ferait…*).",
+    "model": "Mon ami m'a dit qu'il était très fatigué. Il m'a expliqué qu'il avait travaillé tout le week-end. Il m'a demandé si je pouvais l'aider le lendemain. Il a ajouté qu'il me paierait un café.",
+    "targets": [
+      {
+        "label": "reporting verb + que (a dit que, a expliqué que…)",
+        "pattern": "\\b(a|m'a|lui a|ont|avait)\\s+(dit|expliqué|répondu|ajouté|raconté|annoncé|avoué|confié)\\s+qu",
+        "min": 2
+      },
+      {
+        "label": "plus-que-parfait or conditionnel in the report",
+        "pattern": "\\b(avais|avait|avions|aviez|avaient|étais|était|étions|étiez|étaient)\\s+(déjà\\s+|jamais\\s+|pas\\s+|toujours\\s+)?[a-zà-ÿ]+(é|ée|és|ées|i|ie|is|ies|it|ite|u|ue|us|ues|ert|erte|ort|orte|eint|ainte|aint)\\b|\\b(?!(?:courais|courait|mourait)\\b)[a-zà-ÿ]+r(ais|ait|ions|iez|aient)\\b",
+        "min": 2
+      },
+      {
+        "label": "a reported question (demandé si…)",
+        "pattern": "demandé\\s+(si|s')",
+        "min": 1
+      }
+    ]
+  }
+}

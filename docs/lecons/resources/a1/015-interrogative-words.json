@@ -1,0 +1,56 @@
+{
+ "id": "s15",
+ "subject": 15,
+ "level": "A1",
+ "title": "Interrogative Words (qui, que, où, quand, ...)",
+ "sections": [
+  {
+   "heading": "The question words",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>qui</strong></td>\n<td>who</td>\n<td><em>Qui est-ce ?</em> — Who is it?</td>\n</tr>\n<tr>\n<td><strong>que / qu'</strong></td>\n<td>what (object)</td>\n<td><em>Que fais-tu ?</em> — What are you doing?</td>\n</tr>\n<tr>\n<td><strong>quoi</strong></td>\n<td>what (after a preposition or at the end)</td>\n<td><em>Tu fais quoi ?</em> / <em>De quoi parles-tu ?</em></td>\n</tr>\n<tr>\n<td><strong>où</strong></td>\n<td>where</td>\n<td><em>Où habites-tu ?</em></td>\n</tr>\n<tr>\n<td><strong>quand</strong></td>\n<td>when</td>\n<td><em>Quand est-ce que tu pars ?</em></td>\n</tr>\n<tr>\n<td><strong>comment</strong></td>\n<td>how</td>\n<td><em>Comment ça va ?</em></td>\n</tr>\n<tr>\n<td><strong>pourquoi</strong></td>\n<td>why</td>\n<td><em>Pourquoi tu ris ?</em> — <em>Parce que…</em> (because)</td>\n</tr>\n<tr>\n<td><strong>combien (de)</strong></td>\n<td>how much / how many</td>\n<td><em>Combien ça coûte ?</em> / <em>Combien de frères as-tu ?</em></td>\n</tr>\n<tr>\n<td><strong>quel / quelle / quels / quelles</strong></td>\n<td>which / what (+ noun)</td>\n<td><em>Quel âge as-tu ?</em></td>\n</tr>\n<tr>\n<td><strong>d'où</strong></td>\n<td>from where</td>\n<td><em>D'où viens-tu ?</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Three structures (same as yes/no questions)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Informal (word at end)</th>\n<th>Neutral (est-ce que)</th>\n<th>Formal (inversion)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Tu habites où ?</em></td>\n<td><em>Où est-ce que tu habites ?</em></td>\n<td><em>Où habites-tu ?</em></td>\n</tr>\n<tr>\n<td><em>Tu pars quand ?</em></td>\n<td><em>Quand est-ce que tu pars ?</em></td>\n<td><em>Quand pars-tu ?</em></td>\n</tr>\n<tr>\n<td><em>Tu fais quoi ?</em></td>\n<td><em><strong>Qu'est-ce que</strong> tu fais ?</em></td>\n<td><em>Que fais-tu ?</em></td>\n</tr>\n</tbody>\n</table>\n<p>Note: <strong>que</strong> becomes <strong>quoi</strong> at the end of a sentence: ~~Tu fais que ?~~ → <em>Tu fais quoi ?</em></p>"
+  },
+  {
+   "heading": "Quel — agrees with the noun",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Singular</th>\n<th>Plural</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Masculine</td>\n<td><strong>quel</strong></td>\n<td><strong>quels</strong></td>\n</tr>\n<tr>\n<td>Feminine</td>\n<td><strong>quelle</strong></td>\n<td><strong>quelles</strong></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Quel livre ?</em> / <em>Quelle heure est-il ?</em> / <em>Quels films ?</em> / <em>Quelles couleurs ?</em></li>\n<li>With <em>être</em>: <em>Quel est ton nom ?</em> — What is your name? <em>Quelle est ton adresse ?</em></li>\n<li>All four forms sound the same (\"kel\").</li>\n</ul>"
+  },
+  {
+   "heading": "Qui and que: subject or object?",
+   "html": "<ul>\n<li><em>Qui parle ?</em> — Who is speaking? (subject)</li>\n<li><em>Qui est-ce que tu vois ?</em> — Who do you see? (object, person)</li>\n<li><em>Qu'est-ce qui se passe ?</em> — What is happening? (subject, thing)</li>\n<li><em>Qu'est-ce que tu veux ?</em> — What do you want? (object, thing)</li>\n</ul>"
+  },
+  {
+   "heading": "Combien de",
+   "html": "<p>Use <strong>de</strong> (no article) before the noun: <em>Combien </em><em>de</em><em> personnes ?</em> <em>Combien </em><em>d'</em><em>argent ?</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Choose the right word: (a) ___ tu t'appelles ? (b) ___ habitez-vous ? (c) ___ coûte ce livre ? (d) ___ tu pleures ?",
+   "answer": "(a) Comment (b) Où (c) Combien (d) Pourquoi",
+   "id": "e1"
+  },
+  {
+   "prompt": "Fill in with the correct form of *quel*: (a) ___ heure est-il ? (b) ___ sont tes films préférés ? (c) ___ est ton numéro ? (d) ___ langues parles-tu ?",
+   "answer": "(a) Quelle (b) Quels (c) Quel (d) Quelles",
+   "id": "e2"
+  },
+  {
+   "prompt": "Rewrite with *est-ce que*: *Tu vas où ?*",
+   "answer": "*Où est-ce que tu vas ?*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Rewrite formally (inversion): *Qu'est-ce que vous mangez ?*",
+   "answer": "*Que mangez-vous ?*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"How many children do you have?\" (informal)",
+   "answer": "*Tu as combien d'enfants ?* / *Combien d'enfants as-tu ?*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

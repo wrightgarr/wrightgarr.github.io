@@ -1,0 +1,50 @@
+{
+ "id": "s90",
+ "subject": 90,
+ "level": "B1",
+ "title": "10 Expressions & Idioms (B1)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<table>\n<thead>\n<tr>\n<th>#</th>\n<th>Expression</th>\n<th>Literal meaning</th>\n<th>Real meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><strong>Avoir la moutarde qui monte au nez</strong></td>\n<td>To have mustard rising to the nose</td>\n<td>To get angry</td>\n<td><em>Quand il m'a menti, j'ai eu la moutarde qui m'est montée au nez.</em></td>\n</tr>\n<tr>\n<td>2</td>\n<td><strong>Poser un lapin</strong></td>\n<td>To put a rabbit</td>\n<td>To stand someone up</td>\n<td><em>Elle m'a posé un lapin hier soir.</em></td>\n</tr>\n<tr>\n<td>3</td>\n<td><strong>Tomber dans les pommes</strong></td>\n<td>To fall in the apples</td>\n<td>To faint</td>\n<td><em>Il a vu le sang et il est tombé dans les pommes.</em></td>\n</tr>\n<tr>\n<td>4</td>\n<td><strong>Avoir le coup de foudre</strong></td>\n<td>To have the lightning strike</td>\n<td>Love at first sight</td>\n<td><em>Ça a été le coup de foudre !</em></td>\n</tr>\n<tr>\n<td>5</td>\n<td><strong>Casser les pieds (à qqn)</strong></td>\n<td>To break someone's feet</td>\n<td>To annoy someone</td>\n<td><em>Tu me casses les pieds avec tes questions !</em></td>\n</tr>\n<tr>\n<td>6</td>\n<td><strong>Avoir d'autres chats à fouetter</strong></td>\n<td>To have other cats to whip</td>\n<td>To have bigger fish to fry</td>\n<td><em>Désolé, j'ai d'autres chats à fouetter.</em></td>\n</tr>\n<tr>\n<td>7</td>\n<td><strong>Coûter un bras</strong></td>\n<td>To cost an arm</td>\n<td>To cost an arm and a leg</td>\n<td><em>Ce voyage coûte un bras !</em></td>\n</tr>\n<tr>\n<td>8</td>\n<td><strong>Se creuser la tête</strong></td>\n<td>To dig one's head</td>\n<td>To rack one's brain</td>\n<td><em>Je me suis creusé la tête pour trouver une idée.</em></td>\n</tr>\n<tr>\n<td>9</td>\n<td><strong>Mettre son grain de sel</strong></td>\n<td>To put one's grain of salt</td>\n<td>To put in one's two cents (uninvited)</td>\n<td><em>Il faut toujours qu'il mette son grain de sel !</em></td>\n</tr>\n<tr>\n<td>10</td>\n<td><strong>Les doigts dans le nez</strong></td>\n<td>Fingers in the nose</td>\n<td>Easily, with no effort</td>\n<td><em>J'ai réussi l'examen les doigts dans le nez.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Bonus: Québec expressions",
+   "html": "<ul>\n<li><em>C'est plate !</em> — It's boring.</li>\n<li><em>Tiguidou !</em> — Great / all good.</li>\n<li><em>Avoir de la misère à…</em> — to have trouble doing…</li>\n<li><em>Lâche pas !</em> — Don't give up!</li>\n<li><em>Il fait frette !</em> — It's freezing!</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "You fell in love with someone instantly.",
+   "instruction": "Which expression fits?",
+   "answer": "*J'ai eu le coup de foudre.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Your neighbor's dog barks all night. It's really annoying you.",
+   "answer": "*Ce chien me casse les pieds.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "You passed the test without any effort.",
+   "answer": "*Je l'ai réussi les doigts dans le nez.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Your colleague always gives opinions nobody asked for.",
+   "answer": "*Il / Elle met toujours son grain de sel.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Your friend didn't show up for dinner.",
+   "answer": "*Il / Elle m'a posé un lapin.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I racked my brain all night.\"",
+   "answer": "*Je me suis creusé la tête toute la nuit.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

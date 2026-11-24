@@ -1,0 +1,151 @@
+{
+  "id": "a2-05",
+  "level": "A2",
+  "number": 5,
+  "title": "Où est Minou ?",
+  "grammar": "passé composé: negation and questions",
+  "theme": "a lost cat",
+  "wordCount": 177,
+  "primer": [
+    "**je n'ai pas vu**: I didn't see (*ne… pas* goes around *avoir* or *être*)",
+    "**il n'est pas rentré**: he didn't come home",
+    "**Est-ce que vous avez vu… ?**: Have you seen…?",
+    "**disparaître → disparu**: to disappear → disappeared",
+    "**chercher partout**: to look everywhere",
+    "**ne… pas encore**: not yet",
+    "**le toit**: the roof"
+  ],
+  "passage": [
+    [
+      "Dimanche matin, Léa a préparé le petit-déjeuner de Minou, mais Minou n'est pas venu. Elle a cherché partout : sous le lit, sur le balcon, dans les cartons. Rien. Minou a disparu !"
+    ],
+    [
+      "Léa est descendue chez Madame Ferrand."
+    ],
+    [
+      "— Bonjour, madame. Est-ce que vous avez vu Minou ?",
+      "— Non, ma belle, je n'ai pas vu ton chat. Tu as regardé dans la cour ?",
+      "— Oui, j'ai regardé. Il n'est pas dans la cour."
+    ],
+    [
+      "Léa est sortie dans la rue. Elle a demandé au boulanger, à la fleuriste, aux enfants du quartier. Personne n'a vu Minou."
+    ],
+    [
+      "Léa a téléphoné à Karim."
+    ],
+    [
+      "— Minou a disparu ! Il n'a pas mangé, il n'est pas rentré…",
+      "— Ne t'inquiète pas. Tu as cherché sur le toit ? Les chats adorent les toits.",
+      "— Sur le toit ? Non, je n'ai pas encore cherché là."
+    ],
+    [
+      "Léa est montée au dernier étage. La porte du toit est ouverte. Et là, au soleil, Minou dort tranquillement à côté d'un gros chat roux."
+    ],
+    [
+      "— Minou ! Tu n'as pas pensé à moi ?"
+    ],
+    [
+      "Minou a ouvert un œil. Il n'a pas bougé. Il a un nouvel ami."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "la cour",
+      "en": "the courtyard"
+    },
+    {
+      "fr": "le boulanger",
+      "en": "the baker"
+    },
+    {
+      "fr": "la fleuriste",
+      "en": "the florist"
+    },
+    {
+      "fr": "Personne n'a vu",
+      "en": "no one saw"
+    },
+    {
+      "fr": "Ne t'inquiète pas",
+      "en": "Don't worry"
+    },
+    {
+      "fr": "le dernier étage",
+      "en": "the top floor"
+    },
+    {
+      "fr": "tranquillement",
+      "en": "peacefully"
+    },
+    {
+      "fr": "un gros chat roux",
+      "en": "a big ginger cat"
+    },
+    {
+      "fr": "un œil",
+      "en": "an eye"
+    },
+    {
+      "fr": "n'a pas bougé",
+      "en": "didn't move"
+    }
+  ],
+  "spotlight": [
+    "**Negation wraps the helper verb, not the participle:** *Je n'ai pas vu ton chat. Il n'est pas rentré. Il n'a pas bougé.*",
+    "**Questions in the passé composé:** use rising intonation (*Tu as regardé dans la cour ?*) or *Est-ce que* (*Est-ce que vous avez vu Minou ?*). *Pas encore* means not yet: *je n'ai pas encore cherché là*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Where did Léa look first in her apartment?",
+      "answer": "Under the bed, on the balcony and in the boxes",
+      "options": [
+        "Under the bed, on the balcony and in the boxes",
+        "In the kitchen and the bathroom",
+        "On the roof and in the courtyard",
+        "In her bag and her wardrobe"
+      ],
+      "evidence": "Elle a cherché partout : sous le lit, sur le balcon, dans les cartons."
+    },
+    {
+      "id": "q2",
+      "prompt": "What idea did Karim have?",
+      "answer": "To look on the roof, because cats love roofs",
+      "options": [
+        "To look on the roof, because cats love roofs",
+        "To call the police",
+        "To put up posters in the street",
+        "To ask Madame Ferrand"
+      ],
+      "evidence": "Tu as cherché sur le toit ? Les chats adorent les toits."
+    },
+    {
+      "id": "q3",
+      "prompt": "Where did Léa find Minou, and who was with him?",
+      "answer": "On the roof, sleeping in the sun next to a big ginger cat",
+      "options": [
+        "On the roof, sleeping in the sun next to a big ginger cat",
+        "In the courtyard, with Madame Ferrand",
+        "At the bakery, eating croissants",
+        "In a box, next to the elevator"
+      ],
+      "evidence": "Et là, au soleil, Minou dort tranquillement à côté d'un gros chat roux."
+    }
+  ],
+  "writing": {
+    "prompt": "Imagine you lost something. Write two negative sentences and one question in the passé composé.",
+    "model": "Je n'ai pas trouvé mes clés. Je ne suis pas sorti ce matin. Est-ce que tu as vu mes clés ?",
+    "targets": [
+      {
+        "label": "negative passé composé (×2)",
+        "pattern": "\\bn(e\\s|')(ai|as|a|avons|avez|ont|suis|es|est|sommes|êtes|sont)\\s+(pas|jamais|rien)\\b",
+        "min": 2
+      },
+      {
+        "label": "a question",
+        "pattern": "\\?",
+        "min": 1
+      }
+    ]
+  }
+}

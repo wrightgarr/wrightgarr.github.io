@@ -1,0 +1,64 @@
+{
+ "id": "s2",
+ "subject": 2,
+ "level": "A1",
+ "title": "Accent Marks (é, è, ê, ë)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Accents in French are not decoration. They change pronunciation and sometimes meaning. There are five accent marks.</p>"
+  },
+  {
+   "heading": "1. Accent aigu ( ´ ) — only on **é**",
+   "html": "<ul>\n<li>Sound: a closed \"ay\", like the start of \"day\" without the glide.</li>\n<li>Very common in past participles and nouns.</li>\n<li>Examples: <em>été</em> (summer / been), <em>café</em>, <em>parlé</em> (spoken), <em>étudiant</em> (student).</li>\n</ul>"
+  },
+  {
+   "heading": "2. Accent grave ( ` ) — on **è**, **à**, **ù**",
+   "html": "<ul>\n<li><strong>è</strong> = open \"eh\", like \"bed\": <em>mère</em> (mother), <em>père</em> (father), <em>très</em> (very).</li>\n<li><strong>à</strong> and <strong>ù</strong> don't change the sound. They distinguish words:</li>\n<li><em>a</em> (has) vs <em>à</em> (to/at): <em>Il </em><em>a</em><em> un chien.</em> / <em>Il va </em><em>à</em><em> Paris.</em></li>\n<li><em>ou</em> (or) vs <em>où</em> (where): <em>Thé </em><em>ou</em><em> café ?</em> / <em><strong>Où</strong> es-tu ?</em></li>\n<li><em>la</em> (the) vs <em>là</em> (there).</li>\n</ul>"
+  },
+  {
+   "heading": "3. Accent circonflexe ( ^ ) — on **â, ê, î, ô, û**",
+   "html": "<ul>\n<li>Often marks a letter <strong>s</strong> that disappeared from older French. Compare with English: <em>forêt</em> = forest, <em>hôpital</em> = hospital, <em>fête</em> = feast, <em>île</em> = isle.</li>\n<li><strong>ê</strong> sounds like <strong>è</strong> (open \"eh\"): <em>tête</em> (head), <em>fenêtre</em> (window).</li>\n<li><strong>ô</strong> is a closed \"oh\": <em>hôtel</em>, <em>côte</em>.</li>\n<li>It sometimes distinguishes words: <em>sur</em> (on) vs <em>sûr</em> (sure); <em>du</em> (some) vs <em>dû</em> (owed).</li>\n</ul>"
+  },
+  {
+   "heading": "4. Tréma ( ¨ ) — on **ë, ï, ü**",
+   "html": "<ul>\n<li>Tells you to pronounce the vowel <strong>separately</strong> from the one before it.</li>\n<li><em>Noël</em> (No-el, not \"nole\"), <em>naïf</em> (na-eef), <em>maïs</em> (corn: ma-ees), <em>Haïti</em>.</li>\n</ul>"
+  },
+  {
+   "heading": "5. Cédille ( ¸ ) — only on **ç**",
+   "html": "<ul>\n<li>Makes <strong>c</strong> sound like <strong>s</strong> before a, o, u (where it would otherwise be \"k\").</li>\n<li><em>français</em>, <em>garçon</em> (boy), <em>reçu</em> (received). (More in Subject 3.)</li>\n</ul>"
+  },
+  {
+   "heading": "Summary table",
+   "html": "<table>\n<thead>\n<tr>\n<th>Mark</th>\n<th>Letters</th>\n<th>Effect</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>aigu</td>\n<td>é</td>\n<td>closed \"ay\"</td>\n<td><em>été</em></td>\n</tr>\n<tr>\n<td>grave</td>\n<td>è, à, ù</td>\n<td>è = open \"eh\"; à/ù distinguish words</td>\n<td><em>mère</em>, <em>à</em>, <em>où</em></td>\n</tr>\n<tr>\n<td>circonflexe</td>\n<td>â ê î ô û</td>\n<td>ê = \"eh\"; often a lost <em>s</em></td>\n<td><em>forêt</em></td>\n</tr>\n<tr>\n<td>tréma</td>\n<td>ë ï ü</td>\n<td>pronounce vowel separately</td>\n<td><em>Noël</em></td>\n</tr>\n<tr>\n<td>cédille</td>\n<td>ç</td>\n<td>c = \"s\"</td>\n<td><em>garçon</em></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Typing tip:</strong> On a phone, press and hold a letter to see its accented versions.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Choose *a* or *à*: (a) Elle ___ vingt ans. (b) Je vais ___ l'école.",
+   "answer": "(a) *a* (b) *à*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Choose *ou* or *où*: (a) ___ habites-tu ? (b) Tu veux du thé ___ du café ?",
+   "answer": "(a) *Où* (b) *ou*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Which English word is hidden in: *forêt*, *hôpital*, *bête*, *pâte*?",
+   "answer": "forest, hospital, beast, paste (pasta)",
+   "id": "e3"
+  },
+  {
+   "prompt": "How is *Noël* pronounced: \"nole\" or \"no-el\"? Why?",
+   "answer": "\"no-el\" — the tréma tells you to pronounce ë separately.",
+   "id": "e4"
+  },
+  {
+   "prompt": "Is the **e** in *mère* pronounced like \"ay\" or \"eh\"?",
+   "answer": "\"eh\" (open sound, accent grave).",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

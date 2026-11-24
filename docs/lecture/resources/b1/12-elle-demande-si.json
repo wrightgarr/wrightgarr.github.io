@@ -1,0 +1,191 @@
+{
+  "id": "b1-12",
+  "level": "B1",
+  "number": 12,
+  "title": "Elle demande si…",
+  "grammar": "reported speech in the present",
+  "theme": "a neighbours' dispute",
+  "wordCount": 342,
+  "primer": [
+    "**Il dit que…**: he says that… (statements)",
+    "**Elle demande si…**: she asks whether… (yes/no questions)",
+    "**Il demande pourquoi / où / quand…**: question words stay the same",
+    "**Qu'est-ce que → ce que**: *Elle veut savoir ce que tu joues.*",
+    "**Il lui dit de + infinitif**: he tells her to… (orders)",
+    "**se plaindre (de)**: to complain (about)"
+  ],
+  "passage": [
+    [
+      "Le piano avait fini par arriver chez Amina, porté par Karim et deux cousins. Mais depuis, la guerre était déclarée avec Josette, la propriétaire, qui habitait juste en dessous. Un dimanche, Léa a accepté de servir d'intermédiaire. Elle a monté et descendu l'escalier tout l'après-midi."
+    ],
+    [
+      "D'abord, chez Josette :"
+    ],
+    [
+      "— Dites-lui que son piano me rend folle ! Je ne dors plus. Et demandez-lui si elle connaît le mot « silence »."
+    ],
+    [
+      "Léa est montée chez Amina."
+    ],
+    [
+      "— Josette dit que ton piano la rend folle et qu'elle ne dort plus. Elle demande si tu connais le mot « silence ».",
+      "— Dis-lui que je ne joue jamais après vingt-deux heures ! Et demande-lui pourquoi elle se plaint, alors que sa télévision hurle tous les soirs."
+    ],
+    [
+      "Léa est redescendue."
+    ],
+    [
+      "— Amina dit qu'elle ne joue jamais après vingt-deux heures. Elle vous demande pourquoi vous vous plaignez, alors que votre télévision est très forte le soir."
+    ],
+    [
+      "Josette a rougi."
+    ],
+    [
+      "— Ma télévision, c'est différent. Je regarde mes séries. Demandez-lui ce qu'elle joue, d'abord."
+    ],
+    [
+      "Léa est remontée."
+    ],
+    [
+      "— Elle veut savoir ce que tu joues.",
+      "— Du Chopin, en ce moment. Les nocturnes."
+    ],
+    [
+      "Léa est redescendue. Elle commençait à avoir mal aux jambes."
+    ],
+    [
+      "— Elle dit qu'elle joue du Chopin. Les nocturnes."
+    ],
+    [
+      "Josette est restée silencieuse un moment. Puis elle a dit, d'une voix différente :"
+    ],
+    [
+      "— Mon mari adorait Chopin. Il me jouait les nocturnes quand nous étions jeunes… Dites-lui de laisser sa porte ouverte ce soir, à sept heures. Et demandez-lui si elle accepte un morceau de tarte."
+    ],
+    [
+      "Léa est remontée une dernière fois, un sourire aux lèvres."
+    ],
+    [
+      "— Elle te dit de laisser ta porte ouverte ce soir, à sept heures. Elle demande si tu acceptes un morceau de tarte. Je crois que son mari jouait du Chopin."
+    ],
+    [
+      "À sept heures, Josette s'est assise sur une chaise dans le couloir, devant la porte ouverte. Amina a joué le premier nocturne, puis le deuxième. Dans l'escalier, d'autres voisins sont sortis pour écouter."
+    ],
+    [
+      "Le lendemain, Léa a trouvé un mot de Josette dans sa boîte aux lettres : « Dites à la petite qu'elle peut jouer jusqu'à vingt-deux heures trente. Le dimanche seulement. »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "avait fini par arriver",
+      "en": "had finally arrived"
+    },
+    {
+      "fr": "la guerre était déclarée",
+      "en": "war had been declared"
+    },
+    {
+      "fr": "en dessous",
+      "en": "downstairs, below"
+    },
+    {
+      "fr": "servir d'intermédiaire",
+      "en": "to act as a go-between"
+    },
+    {
+      "fr": "me rend folle",
+      "en": "drives me mad"
+    },
+    {
+      "fr": "alors que",
+      "en": "when, whereas"
+    },
+    {
+      "fr": "hurle",
+      "en": "blares"
+    },
+    {
+      "fr": "un morceau de tarte",
+      "en": "a slice of tart"
+    },
+    {
+      "fr": "un sourire aux lèvres",
+      "en": "with a smile on her lips"
+    },
+    {
+      "fr": "le couloir",
+      "en": "the hallway"
+    },
+    {
+      "fr": "un mot",
+      "en": "a note"
+    },
+    {
+      "fr": "la boîte aux lettres",
+      "en": "the letterbox"
+    }
+  ],
+  "spotlight": [
+    "**Reporting in the present:** statements use *dire que* (*Josette dit que ton piano la rend folle*). Yes/no questions use *demander si* (*Elle demande si tu connais le mot « silence »*). Other questions keep their question word (*demande-lui pourquoi elle se plaint*), and *qu'est-ce que* becomes *ce que* (*Elle veut savoir ce que tu joues*).",
+    "**Orders → dire de + infinitive:** *« Laissez votre porte ouverte »* becomes *Elle te dit de laisser ta porte ouverte.* Change the pronouns and possessives to fit the new speaker: *je ne dors plus → elle ne dort plus; ma télévision → sa télévision*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "De quoi Josette se plaint-elle au début ?",
+      "answer": "Le piano d'Amina l'empêche de dormir",
+      "options": [
+        "Le piano d'Amina l'empêche de dormir",
+        "Amina fait trop de fêtes",
+        "Amina ne paie pas son loyer",
+        "Le chat de Léa est trop bruyant"
+      ],
+      "evidence": "Dites-lui que son piano me rend folle ! Je ne dors plus."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quel argument Amina utilise-t-elle contre Josette ?",
+      "answer": "La télévision de Josette est très forte tous les soirs",
+      "options": [
+        "La télévision de Josette est très forte tous les soirs",
+        "Josette joue aussi du piano",
+        "Le bail autorise la musique",
+        "Josette n'est jamais chez elle"
+      ],
+      "evidence": "Et demande-lui pourquoi elle se plaint, alors que sa télévision hurle tous les soirs."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi Josette change-t-elle d'attitude ?",
+      "answer": "Son mari adorait Chopin et lui jouait les nocturnes",
+      "options": [
+        "Son mari adorait Chopin et lui jouait les nocturnes",
+        "Amina lui offre une tarte",
+        "Léa la menace d'appeler la police",
+        "Elle veut vendre l'appartement"
+      ],
+      "evidence": "Mon mari adorait Chopin. Il me jouait les nocturnes quand nous étions jeunes…"
+    }
+  ],
+  "writing": {
+    "prompt": "Rapportez une conversation récente en trois phrases au discours indirect (*il dit que, elle demande si, il me dit de…*).",
+    "model": "Ma sœur dit qu'elle est très fatiguée. Elle me demande si je peux garder son fils samedi. Elle me dit de ne pas oublier son anniversaire.",
+    "targets": [
+      {
+        "label": "dire que",
+        "pattern": "\\b(dit|dis|disent|disons|dites)\\s+qu",
+        "min": 1
+      },
+      {
+        "label": "demander si",
+        "pattern": "\\bdemande[a-zà-ÿœæ]*\\s+(si|s')",
+        "min": 1
+      },
+      {
+        "label": "dire de + infinitive",
+        "pattern": "\\b(dit|dis|disent|demande[a-zà-ÿœæ]*)\\s+d(e|')\\s*(ne\\s+(pas\\s+)?)?[a-zà-ÿ]+(er|ir|re)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

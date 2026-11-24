@@ -1,0 +1,61 @@
+{
+ "id": "s50",
+ "subject": 50,
+ "level": "A2",
+ "title": "Numbers 100–1,000,000,000",
+ "sections": [
+  {
+   "heading": "Hundreds",
+   "html": "<table>\n<thead>\n<tr>\n<th>Number</th>\n<th>French</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>100</td>\n<td><strong>cent</strong></td>\n</tr>\n<tr>\n<td>101</td>\n<td>cent un</td>\n</tr>\n<tr>\n<td>110</td>\n<td>cent dix</td>\n</tr>\n<tr>\n<td>200</td>\n<td><strong>deux cents</strong></td>\n</tr>\n<tr>\n<td>201</td>\n<td><strong>deux cent un</strong> (no s)</td>\n</tr>\n<tr>\n<td>350</td>\n<td>trois cent cinquante</td>\n</tr>\n<tr>\n<td>999</td>\n<td>neuf cent quatre-vingt-dix-neuf</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Cent rule:</strong> <em>cent</em> takes an <strong>s</strong> when multiplied <strong>and</strong> nothing follows: <em>deux cent</em><em>s</em><strong>, <em>cinq cent**s</em></strong>. But <em>deux cent trois</em> (no s), <em>cent</em> alone (<em>cent euros</em>, never ~~un cent~~).</p>"
+  },
+  {
+   "heading": "Thousands",
+   "html": "<table>\n<thead>\n<tr>\n<th>Number</th>\n<th>French</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1 000</td>\n<td><strong>mille</strong> (never ~~un mille~~)</td>\n</tr>\n<tr>\n<td>1 001</td>\n<td>mille un</td>\n</tr>\n<tr>\n<td>2 000</td>\n<td><strong>deux mille</strong> (mille is <strong>invariable</strong>: never an s)</td>\n</tr>\n<tr>\n<td>2 500</td>\n<td>deux mille cinq cents</td>\n</tr>\n<tr>\n<td>10 000</td>\n<td>dix mille</td>\n</tr>\n<tr>\n<td>100 000</td>\n<td>cent mille</td>\n</tr>\n<tr>\n<td>999 999</td>\n<td>neuf cent quatre-vingt-dix-neuf mille neuf cent quatre-vingt-dix-neuf</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Millions and billions",
+   "html": "<table>\n<thead>\n<tr>\n<th>Number</th>\n<th>French</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1 000 000</td>\n<td><strong>un million</strong></td>\n</tr>\n<tr>\n<td>2 000 000</td>\n<td>deux million<strong>s</strong></td>\n</tr>\n<tr>\n<td>1 000 000 000</td>\n<td><strong>un milliard</strong></td>\n</tr>\n<tr>\n<td>3 000 000 000</td>\n<td>trois milliard<strong>s</strong></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Million</em> and <em>milliard</em> are <strong>nouns</strong>: they take <strong>s</strong> in the plural and need <strong>de</strong> before a noun: <em>un million </em><em>d'</em><em>habitants</em>, <em>deux milliards </em><em>de</em><em> dollars</em>.</li>\n<li>But <em>deux millions cinq cent mille personnes</em> (no <em>de</em> if followed by another number).</li>\n<li>Careful: <strong>un billion</strong> in French = 10¹² (an English trillion). English \"billion\" = <strong>un milliard</strong>.</li>\n</ul>"
+  },
+  {
+   "heading": "Writing numbers",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>English</th>\n<th>French</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Thousands separator</td>\n<td>1,000,000</td>\n<td>1 000 000 (space) or 1.000.000</td>\n</tr>\n<tr>\n<td>Decimal</td>\n<td>3.5</td>\n<td><strong>3,5</strong> (<em>trois virgule cinq</em>)</td>\n</tr>\n<tr>\n<td>Money</td>\n<td>$12.50</td>\n<td>12,50 $ (Québec) / 12,50 €</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Hyphens",
+   "html": "<p>Traditionally, hyphens only link numbers under 100 (<em>vingt-deux</em>). Since the 1990 spelling reform, <strong>all</strong> numbers can be hyphenated (<em>deux-cent-vingt-et-un</em>). Both are accepted.</p>"
+  },
+  {
+   "heading": "Years",
+   "html": "<p><em>1789</em> = <em>mille sept cent quatre-vingt-neuf</em> (or <em>dix-sept cent quatre-vingt-neuf</em>); <em>2026</em> = <em>deux mille vingt-six</em>.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "200, 205, 480",
+   "instruction": "Write in words:",
+   "answer": "*deux cents*, *deux cent cinq*, *quatre cent quatre-vingts*",
+   "id": "e1"
+  },
+  {
+   "prompt": "1 000, 3 000, 1 999",
+   "answer": "*mille*, *trois mille*, *mille neuf cent quatre-vingt-dix-neuf*",
+   "id": "e2"
+  },
+  {
+   "prompt": "15 750",
+   "answer": "*quinze mille sept cent cinquante*",
+   "id": "e3"
+  },
+  {
+   "prompt": "2 000 000, 1 500 000 000",
+   "answer": "*deux millions*, *un milliard cinq cents millions*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"Canada has 41 million inhabitants.\" / \"It costs 3.99 dollars.\"",
+   "answer": "*Le Canada a quarante et un millions d'habitants.* / *Ça coûte trois dollars quatre-vingt-dix-neuf.* (*3,99 $*)",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

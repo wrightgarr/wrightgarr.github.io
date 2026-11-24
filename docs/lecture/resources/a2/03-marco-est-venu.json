@@ -1,0 +1,153 @@
+{
+  "id": "a2-03",
+  "level": "A2",
+  "number": 3,
+  "title": "Marco est venu !",
+  "grammar": "passé composé with *être*",
+  "theme": "a surprise visit",
+  "wordCount": 183,
+  "primer": [
+    "**être + participle**: a small group of verbs, mostly about movement, use *être*: *il est allé*",
+    "**aller → allé / venir → venu**: gone / come",
+    "**arriver / partir**: to arrive / to leave → *arrivé, parti*",
+    "**monter / descendre**: to go up / to go down → *monté, descendu*",
+    "**rester / tomber**: to stay / to fall → *resté, tombé*",
+    "**sortir / entrer**: to go out / to go in → *sorti, entré*"
+  ],
+  "passage": [
+    [
+      "Vendredi soir, on a sonné à la porte. Léa a ouvert et elle a crié :"
+    ],
+    [
+      "— Marco ! Qu'est-ce que tu fais ici ?",
+      "— Surprise ! Je suis venu pour le week-end !"
+    ],
+    [
+      "Marco est parti de Paris à midi. Il est arrivé à Marseille à quatre heures, mais il est allé à la mauvaise adresse ! Il est monté au cinquième étage d'un autre immeuble. Une vieille dame a ouvert la porte."
+    ],
+    [
+      "— Léa ? Ah oui, la photographe ! Elle habite dans l'immeuble à côté."
+    ],
+    [
+      "Alors Marco est descendu, il est entré dans le bon immeuble et voilà !"
+    ],
+    [
+      "Samedi, Léa et Marco sont sortis toute la journée. Ils sont allés au marché, puis ils sont montés à Notre-Dame-de-la-Garde, la grande église sur la colline. Dans l'escalier, Marco est tombé, mais il n'a pas eu mal."
+    ],
+    [
+      "— Ici, on voit toute la ville ! a dit Marco. C'est magnifique."
+    ],
+    [
+      "Le soir, ils sont restés à la maison. Madame Ferrand est venue avec un gâteau et elle a raconté des histoires de Marseille jusqu'à minuit."
+    ],
+    [
+      "Dimanche, Marco est reparti à Paris."
+    ],
+    [
+      "— Je suis resté seulement deux jours, a dit Marco, mais je reviens bientôt !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "on a sonné à la porte",
+      "en": "someone rang the doorbell"
+    },
+    {
+      "fr": "a ouvert",
+      "en": "opened"
+    },
+    {
+      "fr": "a crié",
+      "en": "shouted"
+    },
+    {
+      "fr": "la mauvaise adresse",
+      "en": "the wrong address"
+    },
+    {
+      "fr": "un autre immeuble",
+      "en": "another building"
+    },
+    {
+      "fr": "une vieille dame",
+      "en": "an old lady"
+    },
+    {
+      "fr": "le bon immeuble",
+      "en": "the right building"
+    },
+    {
+      "fr": "Notre-Dame-de-la-Garde",
+      "en": "Marseille's hilltop basilica"
+    },
+    {
+      "fr": "la colline",
+      "en": "the hill"
+    },
+    {
+      "fr": "l'escalier",
+      "en": "the stairs"
+    },
+    {
+      "fr": "est reparti",
+      "en": "went back"
+    },
+    {
+      "fr": "bientôt",
+      "en": "soon"
+    }
+  ],
+  "spotlight": [
+    "**Être verbs:** a small group of verbs form the passé composé with *être*, mostly verbs of moving from place to place: *il est arrivé, il est monté, ils sont restés*. A memory trick is to picture a house: you *arrive*, *go in*, *go up* the stairs, *stay*, *fall*, *go down*, *go out* and *leave*.",
+    "**Everything else uses avoir:** *Léa a ouvert. Elle a crié. Marco n'a pas eu mal.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why did it take Marco a long time to find Léa's apartment?",
+      "answer": "He went to the wrong address and climbed to the fifth floor of another building",
+      "options": [
+        "He went to the wrong address and climbed to the fifth floor of another building",
+        "He got lost in the metro",
+        "His train arrived three hours late",
+        "He forgot Léa's phone number at home"
+      ],
+      "evidence": "Il est arrivé à Marseille à quatre heures, mais il est allé à la mauvaise adresse ! Il est monté au cinquième étage d'un autre immeuble."
+    },
+    {
+      "id": "q2",
+      "prompt": "Where did Léa and Marco go on Saturday?",
+      "answer": "To the market, then up to Notre-Dame-de-la-Garde",
+      "options": [
+        "To the market, then up to Notre-Dame-de-la-Garde",
+        "To the beach, then to a museum",
+        "To the calanques, then to Cassis",
+        "To the magazine, then to a restaurant"
+      ],
+      "evidence": "Ils sont allés au marché, puis ils sont montés à Notre-Dame-de-la-Garde"
+    },
+    {
+      "id": "q3",
+      "prompt": "What happened to Marco on the stairs?",
+      "answer": "He fell, but he didn't hurt himself",
+      "options": [
+        "He fell, but he didn't hurt himself",
+        "He lost his phone",
+        "He met Madame Ferrand",
+        "He hurt his leg and went home"
+      ],
+      "evidence": "Dans l'escalier, Marco est tombé, mais il n'a pas eu mal."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about a trip you took, using three *être* verbs (*aller, arriver, partir, rester…*).",
+    "model": "L'été dernier, je suis allé à Québec. Je suis arrivé le 3 juillet et je suis resté une semaine. Je suis parti en train.",
+    "targets": [
+      {
+        "label": "three être verbs (je suis allé(e), arrivé(e)…)",
+        "pattern": "\\b(suis|es|est|sommes|êtes|sont)\\s+(pas\\s+)?(allé|venu|arrivé|parti|monté|descendu|resté|tombé|sorti|entré|rentré|né|mort|devenu|revenu|reparti|retourné|passé)e?s?\\b",
+        "min": 3
+      }
+    ]
+  }
+}

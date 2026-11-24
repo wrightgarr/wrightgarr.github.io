@@ -1,0 +1,172 @@
+{
+  "id": "b1-19",
+  "level": "B1",
+  "number": 19,
+  "title": "Le savon de Marseille",
+  "grammar": "the passive voice",
+  "theme": "a traditional craft",
+  "wordCount": 383,
+  "primer": [
+    "**la voix passive = être + participe passé**: *Le savon est fabriqué.* (is made)",
+    "**par + agent**: by (*fabriqué par moi*)",
+    "**the participle agrees with the subject**: *Les règles ont été fixées.*",
+    "**any tense**: *est fabriqué, a été fabriqué, sera fabriqué*",
+    "**à la main**: by hand",
+    "**un savonnier**: a soap maker"
+  ],
+  "passage": [
+    [
+      "Pendant la visite de Thomas, en juillet, Léa a dû travailler deux jours : Le Mistral préparait un dossier sur les artisans de Marseille. Thomas a demandé s'il pouvait l'accompagner. C'est ainsi qu'il s'est retrouvé, un mardi matin, dans l'une des dernières savonneries traditionnelles de la ville, entre d'énormes chaudrons qui sentaient l'olive chaude."
+    ],
+    [
+      "Le maître savonnier, Monsieur Bérenger, avait soixante-dix ans et les mains rouges d'un homme qui a passé sa vie près du feu."
+    ],
+    [
+      "— Ici, le savon est encore fabriqué comme au dix-septième siècle, a-t-il expliqué. Les règles ont été fixées en 1688 par un édit royal, et elles sont toujours respectées. Le vrai savon de Marseille est fait avec au moins soixante-douze pour cent d'huile végétale. Il n'est jamais parfumé, jamais coloré.",
+      "— Et comment est-il fabriqué ? a demandé Karim, son carnet à la main.",
+      "— D'abord, les huiles sont versées dans le chaudron avec de la soude. Le mélange est cuit pendant une dizaine de jours. Ensuite, la pâte est lavée plusieurs fois à l'eau salée. Puis elle est coulée dans de grands bacs, où elle sèche pendant quarante-huit heures. Enfin, les blocs sont découpés et chaque cube est marqué à la main."
+    ],
+    [
+      "Il a tendu à Thomas un tampon en métal et un cube encore tiède."
+    ],
+    [
+      "— Allez-y. Appuyez fort."
+    ],
+    [
+      "Thomas a appuyé. Sur le savon est apparue l'inscription « 72 % EXTRA PUR »."
+    ],
+    [
+      "— Voilà. Vous avez fait votre premier savon de Marseille, a dit Bérenger. Bon, il a été fabriqué par moi, mais il a été signé par vous."
+    ],
+    [
+      "Pendant que Léa photographiait les chaudrons, Bérenger a parlé de l'avenir avec Karim."
+    ],
+    [
+      "— Autrefois, il y avait des dizaines de savonneries à Marseille. Aujourd'hui, nous ne sommes plus qu'une poignée. Le marché est envahi par des savons fabriqués à l'autre bout du monde et vendus comme « savon de Marseille » dans les boutiques de souvenirs. C'est un scandale.",
+      "— Vous pensez que les savonneries traditionnelles vont disparaître ?",
+      "— Pas si les gens sont informés. C'est pour ça que je vous ai invités. Écrivez-le : le vrai savon de Marseille est fabriqué à Marseille, ou il n'existe pas."
+    ],
+    [
+      "Le soir, Thomas a offert son savon à Madame Ferrand."
+    ],
+    [
+      "— Il a été tamponné par un Alsacien, a-t-il précisé fièrement.",
+      "— Alors il sera conservé comme un trésor, a répondu la vieille dame. Et vous, jeune homme, vous êtes invité à dîner."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "un dossier",
+      "en": "a special feature"
+    },
+    {
+      "fr": "les artisans",
+      "en": "craftspeople"
+    },
+    {
+      "fr": "s'est retrouvé",
+      "en": "found himself"
+    },
+    {
+      "fr": "des chaudrons",
+      "en": "cauldrons"
+    },
+    {
+      "fr": "le maître savonnier",
+      "en": "the master soap maker"
+    },
+    {
+      "fr": "un édit royal",
+      "en": "a royal decree"
+    },
+    {
+      "fr": "versées",
+      "en": "poured"
+    },
+    {
+      "fr": "la soude",
+      "en": "soda, lye"
+    },
+    {
+      "fr": "le mélange",
+      "en": "the mixture"
+    },
+    {
+      "fr": "coulée",
+      "en": "poured (into moulds)"
+    },
+    {
+      "fr": "des bacs",
+      "en": "trays, tanks"
+    },
+    {
+      "fr": "découpés",
+      "en": "cut up"
+    },
+    {
+      "fr": "un tampon",
+      "en": "a stamp"
+    },
+    {
+      "fr": "tiède",
+      "en": "lukewarm"
+    },
+    {
+      "fr": "une poignée",
+      "en": "a handful"
+    }
+  ],
+  "spotlight": [
+    "**Passive = être + past participle, in any tense:** present *le savon est fabriqué*, passé composé *les règles ont été fixées*, future *il sera conservé*. The participle agrees with the subject: *la pâte est lavée, les blocs sont découpés*.",
+    "**The agent is introduced with par:** *fixées en 1688 par un édit royal, fabriqué par moi, signé par vous*. When the agent doesn't matter, everyday French often prefers *on*: *on verse les huiles* = *les huiles sont versées*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Quelles sont les règles du vrai savon de Marseille ?",
+      "answer": "Au moins 72 % d'huile végétale, sans parfum ni colorant",
+      "options": [
+        "Au moins 72 % d'huile végétale, sans parfum ni colorant",
+        "Seulement de l'huile d'olive et du parfum de lavande",
+        "Du lait de chèvre et du miel",
+        "50 % d'huile et beaucoup de couleurs"
+      ],
+      "evidence": "Le vrai savon de Marseille est fait avec au moins soixante-douze pour cent d'huile végétale. Il n'est jamais parfumé, jamais coloré."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quelles sont les étapes de la fabrication ?",
+      "answer": "Cuisson avec la soude, lavage à l'eau salée, séchage, découpe et marquage",
+      "options": [
+        "Cuisson avec la soude, lavage à l'eau salée, séchage, découpe et marquage",
+        "Mélange à froid, puis séchage au soleil",
+        "Cuisson d'une heure, puis emballage",
+        "Moulage, puis parfum, puis cuisson"
+      ],
+      "evidence": "Enfin, les blocs sont découpés et chaque cube est marqué à la main."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi Monsieur Bérenger parle-t-il d'un « scandale » ?",
+      "answer": "Des savons fabriqués ailleurs sont vendus comme « savon de Marseille »",
+      "options": [
+        "Des savons fabriqués ailleurs sont vendus comme « savon de Marseille »",
+        "Les savonneries ferment le dimanche",
+        "Le prix du savon a doublé",
+        "Les touristes n'achètent plus de savon"
+      ],
+      "evidence": "Le marché est envahi par des savons fabriqués à l'autre bout du monde et vendus comme « savon de Marseille » dans les boutiques de souvenirs."
+    }
+  ],
+  "writing": {
+    "prompt": "Décrivez comment on fabrique ou prépare quelque chose que vous connaissez (un plat, un objet), en trois phrases à la voix passive.",
+    "model": "D'abord, les pommes sont coupées en morceaux. Ensuite, elles sont cuites avec du sucre. Enfin, la tarte est servie avec de la crème.",
+    "targets": [
+      {
+        "label": "passive: être + participle (×3)",
+        "pattern": "\\b(est|sont|a été|ont été|sera|seront|était|étaient)\\s+[a-zà-ÿ]+(é|ée|és|ées|i|ie|is|ies|u|ue|us|ues|t|te|ts|tes)\\b",
+        "min": 3
+      }
+    ]
+  }
+}

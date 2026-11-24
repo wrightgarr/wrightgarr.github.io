@@ -1,0 +1,122 @@
+{
+  "id": "a1-09",
+  "level": "A1",
+  "number": 9,
+  "title": "Les vêtements",
+  "grammar": "colours, adjective agreement and placement",
+  "theme": "clothes shopping",
+  "wordCount": 101,
+  "primer": [
+    "**rouge, noir(e), blanc/blanche, vert(e), bleu(e)**: red, black, white, green, blue",
+    "**une robe / un pull / une écharpe**: a dress / a sweater / a scarf",
+    "**des chaussures**: shoes",
+    "**chercher**: to look for",
+    "**trouver**: to find",
+    "**cher / chère**: expensive",
+    "**joli(e) / beau**: pretty / handsome, beautiful"
+  ],
+  "passage": [
+    [
+      "Samedi, Léa et Amina sont dans un magasin de vêtements. Amina cherche une robe pour un concert."
+    ],
+    [
+      "— J'aime la robe rouge, dit Amina.",
+      "— Elle est jolie, mais elle est chère. Regarde la robe noire. Elle est élégante."
+    ],
+    [
+      "Léa cherche un pull. Il fait froid à Paris en novembre. Elle trouve un gros pull vert et une écharpe blanche."
+    ],
+    [
+      "— Le pull vert est beau, mais il est grand. Un petit pull bleu, s'il vous plaît ?"
+    ],
+    [
+      "La vendeuse apporte un petit pull bleu. Il est parfait."
+    ],
+    [
+      "Amina achète la robe noire et des chaussures noires. Léa achète le pull bleu et l'écharpe blanche."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "samedi",
+      "en": "on Saturday"
+    },
+    {
+      "fr": "un magasin de vêtements",
+      "en": "a clothing store"
+    },
+    {
+      "fr": "regarde",
+      "en": "look (at)!"
+    },
+    {
+      "fr": "il fait froid",
+      "en": "it's cold (weather)"
+    },
+    {
+      "fr": "gros",
+      "en": "thick, big"
+    },
+    {
+      "fr": "la vendeuse",
+      "en": "the saleswoman"
+    },
+    {
+      "fr": "parfait",
+      "en": "perfect"
+    }
+  ],
+  "spotlight": [
+    "**Agreement:** adjectives match gender and number. *le pull vert / l'écharpe blanche / des chaussures noires*. Some never change for gender: *rouge*.",
+    "**Placement:** most adjectives, including colours, go after the noun (*la robe noire*). A few short common ones go before: *petit, grand, gros, beau, joli* (*un petit pull bleu*)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why doesn't Amina choose the red dress?",
+      "answer": "It's pretty, but it's expensive",
+      "options": [
+        "It's pretty, but it's expensive",
+        "It's too small",
+        "Amina doesn't like red",
+        "It isn't elegant enough"
+      ],
+      "evidence": "Elle est jolie, mais elle est chère."
+    },
+    {
+      "id": "q2",
+      "prompt": "What's wrong with the green sweater?",
+      "answer": "It's too big",
+      "options": [
+        "It's too big",
+        "It's too expensive",
+        "It's the wrong colour",
+        "It's too thin for November"
+      ],
+      "evidence": "Le pull vert est beau, mais il est grand."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does each woman buy?",
+      "answer": "Amina: the black dress and black shoes · Léa: the blue sweater and white scarf",
+      "options": [
+        "Amina: the black dress and black shoes · Léa: the blue sweater and white scarf",
+        "Amina: the red dress · Léa: the green sweater",
+        "Amina: black shoes only · Léa: a black dress",
+        "Amina: the white scarf · Léa: the blue dress"
+      ],
+      "evidence": "Amina achète la robe noire et des chaussures noires. Léa achète le pull bleu et l'écharpe blanche."
+    }
+  ],
+  "writing": {
+    "prompt": "Describe what you're wearing today with two colours (watch the agreement!).",
+    "model": "Aujourd'hui, j'ai un pull gris et des chaussures noires.",
+    "targets": [
+      {
+        "label": "two colours",
+        "pattern": "\\b(rouges?|noire?s?|blanc(he)?s?|verte?s?|bleue?s?|jaunes?|gris(e|es)?|roses?|marron|violet(te)?s?|orange|beiges?)\\b",
+        "min": 2
+      }
+    ]
+  }
+}

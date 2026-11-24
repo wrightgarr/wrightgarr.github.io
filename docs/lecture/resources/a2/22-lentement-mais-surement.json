@@ -1,0 +1,162 @@
+{
+  "id": "a2-22",
+  "level": "A2",
+  "number": 22,
+  "title": "Lentement mais sûrement",
+  "grammar": "adverbs in *-ment*",
+  "theme": "learning to drive",
+  "wordCount": 176,
+  "primer": [
+    "**-ment**: an adverb ending, like English \"-ly\"",
+    "**feminine adjective + -ment**: *lente → lentement, heureuse → heureusement*",
+    "**-ant → -amment, -ent → -emment**: *prudent → prudemment, évident → évidemment*",
+    "**vraiment**: really",
+    "**le permis de conduire**: the driving licence",
+    "**un moniteur**: a driving instructor"
+  ],
+  "passage": [
+    [
+      "À Paris, Léa n'avait pas besoin de voiture. Mais à Marseille, pour les reportages, c'est vraiment pratique. Alors, à presque trente ans, elle a pris des leçons de conduite."
+    ],
+    [
+      "Son moniteur s'appelait Monsieur Blanc. Il parlait calmement et il souriait patiemment, même quand Léa faisait des erreurs."
+    ],
+    [
+      "— Démarrez doucement… Voilà. Maintenant, regardez attentivement dans le rétroviseur."
+    ],
+    [
+      "Léa conduisait lentement dans les petites rues. Elle tenait le volant fermement. Soudain, un scooter est passé rapidement à côté d'elle."
+    ],
+    [
+      "— Aaah !",
+      "— Restez calme. Les Marseillais conduisent un peu… énergiquement, a dit Monsieur Blanc. Évidemment, vous ne faites pas comme eux !"
+    ],
+    [
+      "Après dix leçons, Léa conduisait mieux. Elle tournait correctement et elle se garait presque parfaitement."
+    ],
+    [
+      "Le jour de l'examen, elle était terriblement nerveuse. Mais elle a conduit prudemment, elle a respecté toutes les règles et l'inspectrice a dit simplement :"
+    ],
+    [
+      "— C'est bon, madame. Félicitations !"
+    ],
+    [
+      "Le soir, Léa a fêté son permis avec ses amis. Karim a levé son verre :"
+    ],
+    [
+      "— À Léa, qui conduit lentement mais sûrement !",
+      "— Et heureusement, a ajouté Madame Ferrand, parce que demain, je monte dans sa voiture !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "n'avait pas besoin de",
+      "en": "didn't need"
+    },
+    {
+      "fr": "pratique",
+      "en": "handy"
+    },
+    {
+      "fr": "des leçons de conduite",
+      "en": "driving lessons"
+    },
+    {
+      "fr": "des erreurs",
+      "en": "mistakes"
+    },
+    {
+      "fr": "Démarrez",
+      "en": "Pull away, start the car"
+    },
+    {
+      "fr": "le rétroviseur",
+      "en": "the rear-view mirror"
+    },
+    {
+      "fr": "le volant",
+      "en": "the steering wheel"
+    },
+    {
+      "fr": "elle se garait",
+      "en": "she parked"
+    },
+    {
+      "fr": "presque",
+      "en": "almost"
+    },
+    {
+      "fr": "l'examen",
+      "en": "the test"
+    },
+    {
+      "fr": "l'inspectrice",
+      "en": "the (female) examiner"
+    },
+    {
+      "fr": "Félicitations !",
+      "en": "Congratulations!"
+    },
+    {
+      "fr": "a fêté",
+      "en": "celebrated"
+    },
+    {
+      "fr": "a levé son verre",
+      "en": "raised his glass"
+    }
+  ],
+  "spotlight": [
+    "**Making adverbs:** add *-ment* to the feminine form of the adjective: *lent → lente → lentement; heureux → heureuse → heureusement; ferme → fermement*. If the masculine form ends in a vowel, add *-ment* to that: *vrai → vraiment, poli → poliment*.",
+    "**-ant / -ent adjectives:** *prudent → prudemment, évident → évidemment, patient → patiemment*, all pronounced \"-amment\". Adverbs usually go right after the verb: *Léa conduisait lentement.* Irregular: *bon → bien, mauvais → mal*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why does Léa need to drive in Marseille?",
+      "answer": "It's really handy for her reportages",
+      "options": [
+        "It's really handy for her reportages",
+        "She lives far from the city",
+        "There's no metro in Marseille",
+        "Her parents gave her a car"
+      ],
+      "evidence": "Mais à Marseille, pour les reportages, c'est vraiment pratique."
+    },
+    {
+      "id": "q2",
+      "prompt": "How did Monsieur Blanc react when Léa made mistakes?",
+      "answer": "He stayed calm and smiled patiently",
+      "options": [
+        "He stayed calm and smiled patiently",
+        "He shouted at her",
+        "He took the wheel",
+        "He ended the lesson"
+      ],
+      "evidence": "Il parlait calmement et il souriait patiemment, même quand Léa faisait des erreurs."
+    },
+    {
+      "id": "q3",
+      "prompt": "Why is Madame Ferrand happy that Léa drives slowly?",
+      "answer": "Because she'll be riding in Léa's car tomorrow",
+      "options": [
+        "Because she'll be riding in Léa's car tomorrow",
+        "Because she's scared of scooters",
+        "Because Léa once crashed into her car",
+        "Because she wants to learn to drive too"
+      ],
+      "evidence": "Et heureusement, a ajouté Madame Ferrand, parce que demain, je monte dans sa voiture !"
+    }
+  ],
+  "writing": {
+    "prompt": "Describe how you do three things using *-ment* adverbs (*Je parle…, je mange…, je travaille…*).",
+    "model": "Je parle lentement en français. Je mange rapidement le matin. Je travaille sérieusement.",
+    "targets": [
+      {
+        "label": "three -ment adverbs",
+        "pattern": "\\b[a-zà-ÿ]{3,}ment\\b",
+        "min": 3
+      }
+    ]
+  }
+}

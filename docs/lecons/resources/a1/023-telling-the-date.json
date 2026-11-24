@@ -1,0 +1,65 @@
+{
+ "id": "s23",
+ "subject": 23,
+ "level": "A1",
+ "title": "Telling the Date",
+ "sections": [
+  {
+   "heading": "The structure: le + number + month + year",
+   "html": "<ul>\n<li><em>le 14 juillet</em> — July 14th</li>\n<li><em>le 25 décembre 2026</em></li>\n<li><strong>Exception:</strong> the 1st uses the ordinal <strong>premier</strong>: <em>le </em><em>1er</em><em> (premier) janvier</em>. All other days use normal numbers: <em>le deux mai</em>, <em>le trois juin</em>.</li>\n</ul>"
+  },
+  {
+   "heading": "Asking the date",
+   "html": "<ul>\n<li><em>Quelle est la date aujourd'hui ?</em> — What's the date today?</li>\n<li><em>Quel jour sommes-nous ?</em> / <em>On est le combien ?</em> (informal)</li>\n<li>Answers: <em>Nous sommes le 12 novembre.</em> / <em>On est le 12.</em> / <em>C'est le jeudi 12 novembre.</em></li>\n</ul>"
+  },
+  {
+   "heading": "Full date with day of the week",
+   "html": "<p><strong>le + day + number + month + year</strong>: <em>le jeudi 12 novembre 2026</em>.</p>"
+  },
+  {
+   "heading": "Saying years",
+   "html": "<ul>\n<li>2026 = <em>deux mille vingt-six</em></li>\n<li>1999 = <em>mille neuf cent quatre-vingt-dix-neuf</em> (or <em>dix-neuf cent quatre-vingt-dix-neuf</em>)</li>\n<li>\"in 2026\" = <em><strong>en</strong> 2026</em></li>\n<li><em>Mille</em> never takes an s.</li>\n</ul>"
+  },
+  {
+   "heading": "Written format",
+   "html": "<p>French writes <strong>day / month / year</strong>: 12/11/2026 = 12 November 2026. (Careful when reading forms in France and Québec.)</p>"
+  },
+  {
+   "heading": "Useful expressions",
+   "html": "<ul>\n<li><em>C'est mon anniversaire le 3 avril.</em> — My birthday is on April 3rd.</li>\n<li><em>Je suis né(e) le 8 juin 1985.</em> — I was born on June 8, 1985.</li>\n<li><em>du 3 au 10 mai</em> — from May 3rd to 10th</li>\n<li><em>au début / au milieu / à la fin du mois</em> — at the beginning / middle / end of the month</li>\n</ul>"
+  },
+  {
+   "heading": "Important dates (culture)",
+   "html": "<ul>\n<li><em>le 1er janvier</em> — le jour de l'An (New Year's Day)</li>\n<li><em>le 24 juin</em> — la Saint-Jean-Baptiste / Fête nationale du Québec</li>\n<li><em>le 1er juillet</em> — la fête du Canada</li>\n<li><em>le 14 juillet</em> — la fête nationale française</li>\n<li><em>le 25 décembre</em> — Noël</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "March 1st",
+   "instruction": "Write in words:",
+   "answer": "*le premier mars*",
+   "id": "e1"
+  },
+  {
+   "prompt": "August 15, 2026",
+   "answer": "*le quinze août deux mille vingt-six*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Saturday, December 31",
+   "answer": "*le samedi trente et un décembre*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Read aloud: 1968, 2001, 2030.",
+   "answer": "*mille neuf cent soixante-huit*, *deux mille un*, *deux mille trente*.",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"I was born on May 21, 1990.\" / \"Today is Thursday, November 12.\"",
+   "answer": "*Je suis né(e) le vingt et un mai mille neuf cent quatre-vingt-dix.* / *Aujourd'hui, nous sommes le jeudi douze novembre.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

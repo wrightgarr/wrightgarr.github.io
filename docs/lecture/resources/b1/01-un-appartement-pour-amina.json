@@ -1,0 +1,160 @@
+{
+  "id": "b1-01",
+  "level": "B1",
+  "number": 1,
+  "title": "Un appartement pour Amina",
+  "grammar": "*il faut que* + present subjunctive",
+  "theme": "finding a flat",
+  "wordCount": 338,
+  "primer": [
+    "**le subjonctif**: a verb mood used after expressions of necessity, wishes, emotion and doubt",
+    "**il faut que + subjonctif**: it's necessary that, (someone) has to",
+    "**formation**: the *ils* form of the present, minus *-ent*, plus *-e, -es, -e, -ions, -iez, -ent* (*ils prennent → que je prenne*)",
+    "**irregular**: *être → que je sois; avoir → que j'aie; aller → que j'aille; faire → que je fasse*",
+    "**un bail**: a lease",
+    "**la caution**: the security deposit",
+    "**une agence immobilière**: a real-estate agency"
+  ],
+  "passage": [
+    [
+      "Début septembre, Amina est arrivée à Marseille avec deux valises, un violon et un piano électrique qui pesait plus lourd qu'elle. Pour les premiers jours, Léa l'a accueillie chez elle, mais l'appartement était petit et Minou n'appréciait pas beaucoup le violon. Il fallait trouver une solution, et vite."
+    ],
+    [
+      "— Il faut que tu trouves quelque chose avant la rentrée, a dit Léa un soir. Le conservatoire commence dans deux semaines.",
+      "— Je sais. Mais chaque fois que j'appelle une agence, on me demande des papiers impossibles. Il faut que j'aie un garant, il faut que je fasse un dossier de vingt pages, il faut que je sois en CDI…",
+      "— Tu es étudiante, pas banquière ! a répondu Léa en riant. Ne t'inquiète pas. Il faut d'abord que nous parlions à Madame Ferrand. Elle connaît tout le quartier."
+    ],
+    [
+      "Le lendemain matin, Madame Ferrand a écouté le problème en préparant son café. Puis elle a pris son téléphone, ce téléphone qu'elle détestait encore un an plus tôt."
+    ],
+    [
+      "— Mon amie Josette a un deux-pièces à louer, rue des Petites-Maries, a-t-elle annoncé. Mais elle est très exigeante. Il faut que tu ailles la voir aujourd'hui, et il faut que tu sois polie. Ah, et il ne faut surtout pas que tu joues du violon pendant la visite. Josette déteste la musique classique.",
+      "— Et le piano ?",
+      "— Le piano, on verra plus tard, ma belle."
+    ],
+    [
+      "L'après-midi même, Amina a visité l'appartement. Il était lumineux, un peu ancien, avec une vue sur les toits. Josette, une petite dame aux cheveux violets, l'a observée de la tête aux pieds."
+    ],
+    [
+      "— Vous êtes la musicienne ?",
+      "— Oui, madame. Mais je travaille surtout au conservatoire.",
+      "— Hmm. Il faudra que vous signiez le bail avant vendredi, et que vous payiez la caution tout de suite. Et le silence après vingt-deux heures, c'est obligatoire.",
+      "— C'est d'accord."
+    ],
+    [
+      "Le soir, Amina a appelé Karim pour lui annoncer la nouvelle."
+    ],
+    [
+      "— J'ai un appartement ! Il faut absolument que tu viennes voir la vue.",
+      "— J'arrive. Mais il faut que je te prévienne : je ne monte pas le piano tout seul !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "pesait plus lourd qu'elle",
+      "en": "weighed more than she did"
+    },
+    {
+      "fr": "l'a accueillie",
+      "en": "put her up"
+    },
+    {
+      "fr": "n'appréciait pas",
+      "en": "didn't appreciate"
+    },
+    {
+      "fr": "la rentrée",
+      "en": "the start of the academic year"
+    },
+    {
+      "fr": "un garant",
+      "en": "a guarantor"
+    },
+    {
+      "fr": "un dossier",
+      "en": "an application file"
+    },
+    {
+      "fr": "en CDI",
+      "en": "on a permanent contract"
+    },
+    {
+      "fr": "un deux-pièces",
+      "en": "a two-room flat (one bedroom)"
+    },
+    {
+      "fr": "exigeante",
+      "en": "demanding"
+    },
+    {
+      "fr": "lumineux",
+      "en": "bright, full of light"
+    },
+    {
+      "fr": "de la tête aux pieds",
+      "en": "from head to toe"
+    },
+    {
+      "fr": "je te prévienne",
+      "en": "(that) I warn you"
+    }
+  ],
+  "spotlight": [
+    "**Il faut que + subjunctive:** *Il faut que tu trouves quelque chose. Il faut que j'aie un garant. Il faut que tu ailles la voir.* For most verbs, the *je, tu, il* and *ils* forms look like the present (*que tu trouves, que tu joues*). The *nous* and *vous* forms look like the imparfait (*que nous parlions, que vous payiez*).",
+    "**Irregular forms to learn by heart:** *être → que tu sois, avoir → que j'aie, aller → que tu ailles, faire → que je fasse, venir → que tu viennes*. The structure works in other tenses too: *il faudra que vous signiez* (future). Without a new subject, use the infinitive: *il fallait trouver une solution*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi Amina ne peut-elle pas rester longtemps chez Léa ?",
+      "answer": "L'appartement est petit et Minou n'apprécie pas le violon",
+      "options": [
+        "L'appartement est petit et Minou n'apprécie pas le violon",
+        "Léa part en reportage",
+        "Madame Ferrand a besoin de la chambre",
+        "Le loyer de Léa est trop cher"
+      ],
+      "evidence": "Pour les premiers jours, Léa l'a accueillie chez elle, mais l'appartement était petit et Minou n'appréciait pas beaucoup le violon."
+    },
+    {
+      "id": "q2",
+      "prompt": "Qu'est-ce que les agences demandent à Amina ?",
+      "answer": "Un garant, un dossier de vingt pages et un CDI",
+      "options": [
+        "Un garant, un dossier de vingt pages et un CDI",
+        "Un piano et un violon",
+        "Une lettre de Madame Ferrand",
+        "Trois mois de loyer en liquide"
+      ],
+      "evidence": "Il faut que j'aie un garant, il faut que je fasse un dossier de vingt pages, il faut que je sois en CDI…"
+    },
+    {
+      "id": "q3",
+      "prompt": "Quelles conditions Josette impose-t-elle ?",
+      "answer": "Signer le bail avant vendredi, payer la caution tout de suite et respecter le silence après 22 h",
+      "options": [
+        "Signer le bail avant vendredi, payer la caution tout de suite et respecter le silence après 22 h",
+        "Ne jamais recevoir d'amis",
+        "Vendre son piano",
+        "Jouer du violon seulement le dimanche"
+      ],
+      "evidence": "Il faudra que vous signiez le bail avant vendredi, et que vous payiez la caution tout de suite. Et le silence après vingt-deux heures, c'est obligatoire."
+    }
+  ],
+  "writing": {
+    "prompt": "Un ami déménage. Donnez-lui trois conseils avec *il faut que* + subjonctif (dont au moins un verbe irrégulier).",
+    "model": "Il faut que tu commences les cartons tôt. Il faut que tu fasses une liste de tout. Il ne faut pas que tu sois seul le jour du déménagement.",
+    "targets": [
+      {
+        "label": "il faut que (×3)",
+        "pattern": "il (ne )?faut (pas )?qu",
+        "min": 3
+      },
+      {
+        "label": "a subjunctive verb",
+        "pattern": "\\bqu(e|')\\s*(je|j'|tu|il|elle|on|nous|vous|ils|elles)\\s*[a-zà-ÿ]+(e|es|ent|ions|iez)\\b|\\b(sois|soit|soyons|soyez|soient|aie|aies|ait|ayons|ayez|fasse|fasses|fassions|fassiez|fassent|aille|ailles|aillent|puisse|puisses|puissions|puissiez|puissent|sache|saches|sachent|veuille|veuillent|vienne|viennes|viennent|prenne|prennes|prennent)\\b",
+        "min": 3
+      }
+    ]
+  }
+}

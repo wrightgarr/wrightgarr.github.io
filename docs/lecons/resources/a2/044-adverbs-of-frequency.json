@@ -1,0 +1,62 @@
+{
+ "id": "s44",
+ "subject": 44,
+ "level": "A2",
+ "title": "Adverbs of Frequency (toujours, souvent, parfois, …)",
+ "sections": [
+  {
+   "heading": "From most to least frequent",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>toujours</strong></td>\n<td>always</td>\n</tr>\n<tr>\n<td><strong>tout le temps</strong></td>\n<td>all the time</td>\n</tr>\n<tr>\n<td><strong>presque toujours</strong></td>\n<td>almost always</td>\n</tr>\n<tr>\n<td><strong>d'habitude</strong> / <strong>habituellement</strong></td>\n<td>usually</td>\n</tr>\n<tr>\n<td><strong>souvent</strong></td>\n<td>often</td>\n</tr>\n<tr>\n<td><strong>fréquemment</strong></td>\n<td>frequently</td>\n</tr>\n<tr>\n<td><strong>parfois</strong> / <strong>quelquefois</strong></td>\n<td>sometimes</td>\n</tr>\n<tr>\n<td><strong>de temps en temps</strong></td>\n<td>from time to time</td>\n</tr>\n<tr>\n<td><strong>rarement</strong></td>\n<td>rarely</td>\n</tr>\n<tr>\n<td><strong>presque jamais</strong></td>\n<td>hardly ever</td>\n</tr>\n<tr>\n<td><strong>ne … jamais</strong></td>\n<td>never</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Other frequency expressions",
+   "html": "<ul>\n<li><em>tous les jours</em> (every day), <em>tous les matins</em>, <em>toutes les semaines</em>, <em>tous les ans</em></li>\n<li><em>chaque jour</em> (each day), <em>chaque semaine</em></li>\n<li><em>une fois par semaine</em> (once a week), <em>deux fois par jour</em> (twice a day)</li>\n<li><em>le lundi</em> (on Mondays)</li>\n</ul>"
+  },
+  {
+   "heading": "Position",
+   "html": "<ol>\n<li><strong>Simple tense:</strong> right <strong>after</strong> the verb: <em>Je mange </em><em>souvent</em><em> au restaurant.</em> / <em>Il est </em><em>toujours</em><em> en retard.</em></li>\n<li><strong>Compound tense</strong> (passé composé): <strong>between</strong> auxiliary and participle: <em>J'ai </em><em>souvent</em><em> voyagé.</em> / <em>Elle a </em><em>toujours</em><em> aimé le jazz.</em></li>\n<li><strong>With infinitives:</strong> usually before the infinitive: <em>Il faut </em><em>toujours</em><em> dire la vérité.</em></li>\n<li>Longer expressions (<em>de temps en temps, tous les jours, d'habitude</em>) go at the start or end: <strong><em>D'habitude</em><em>, je me lève à 7 h.</em> / *Je fais du sport </strong>tous les jours*<em>.</em></li>\n</ol>"
+  },
+  {
+   "heading": "Jamais is negative",
+   "html": "<p>It needs <strong>ne</strong>: <em>Je </em><em>ne</em><em> bois </em><em>jamais</em><em> de café.</em> / <em>Je </em><em>n'</em><em>ai </em><em>jamais</em><em> vu ce film.</em>\nAlone as an answer: <em>Tu fumes ? — </em><em>Jamais</em><em> !</em>\n<em>Pas toujours</em> = not always: <em>Je ne suis pas toujours d'accord.</em></p>"
+  },
+  {
+   "heading": "Asking about frequency",
+   "html": "<ul>\n<li><em>Tu vas au cinéma souvent ?</em> — Do you go to the movies often?</li>\n<li><em>Tu fais du sport combien de fois par semaine ?</em> — How many times a week do you exercise?</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je prends le métro. (souvent)",
+   "instruction": "Place the adverb correctly:",
+   "answer": "*Je prends souvent le métro.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Il a été gentil avec moi. (toujours)",
+   "answer": "*Il a toujours été gentil avec moi.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Nous mangeons de la viande. (ne … jamais)",
+   "answer": "*Nous ne mangeons jamais de viande.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"I go to the gym three times a week.\"",
+   "answer": "*Je vais à la gym trois fois par semaine.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"She is rarely late.\"",
+   "answer": "*Elle est rarement en retard.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Write 4 sentences about your habits using different frequency adverbs.",
+   "answer": "Example: *Je bois toujours un café le matin. Je vais souvent au parc. Je regarde parfois la télé. Je ne fume jamais.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

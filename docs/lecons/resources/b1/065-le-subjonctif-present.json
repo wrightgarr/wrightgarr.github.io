@@ -1,0 +1,56 @@
+{
+ "id": "s65",
+ "subject": 65,
+ "level": "B1",
+ "title": "Le Subjonctif Présent",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>subjonctif</strong> is a <strong>mood</strong>, not a tense. It expresses subjectivity: wishes, emotions, necessity, doubt. It almost always appears in a clause introduced by <strong>que</strong>, after a trigger in the main clause.</p>"
+  },
+  {
+   "heading": "Formation (regular verbs)",
+   "html": "<ol>\n<li>Take the <strong>ils</strong> form of the present: <em>ils parl</em><em>ent</em><strong>, <em>ils finiss**ent</em></strong>, <em>ils prenn</em><em>ent</em>**.</li>\n<li>Remove <strong>-ent</strong> → stem.</li>\n<li>Add endings: <strong>-e, -es, -e, -ions, -iez, -ent</strong>.</li>\n</ol>\n<p>For <strong>nous</strong> and <strong>vous</strong>, use the <strong>nous</strong> stem of the present (= same as the imparfait).</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>parler</th>\n<th>finir</th>\n<th>prendre (2 stems)</th>\n<th>venir (2 stems)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>que je</td>\n<td>parle</td>\n<td>finisse</td>\n<td>prenne</td>\n<td>vienne</td>\n</tr>\n<tr>\n<td>que tu</td>\n<td>parles</td>\n<td>finisses</td>\n<td>prennes</td>\n<td>viennes</td>\n</tr>\n<tr>\n<td>qu'il</td>\n<td>parle</td>\n<td>finisse</td>\n<td>prenne</td>\n<td>vienne</td>\n</tr>\n<tr>\n<td>que nous</td>\n<td>parlions</td>\n<td>finissions</td>\n<td><strong>pren</strong>ions</td>\n<td><strong>ven</strong>ions</td>\n</tr>\n<tr>\n<td>que vous</td>\n<td>parliez</td>\n<td>finissiez</td>\n<td><strong>pren</strong>iez</td>\n<td><strong>ven</strong>iez</td>\n</tr>\n<tr>\n<td>qu'ils</td>\n<td>parlent</td>\n<td>finissent</td>\n<td>prennent</td>\n<td>viennent</td>\n</tr>\n</tbody>\n</table>\n<p>Similar two-stem verbs: <em>boire (boive / buvions)</em>, <em>devoir (doive / devions)</em>, <em>recevoir (reçoive / recevions)</em>, <em>voir (voie / voyions)</em>, <em>croire (croie / croyions)</em>.</p>"
+  },
+  {
+   "heading": "Irregular subjunctives",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>être</th>\n<th>avoir</th>\n<th>aller</th>\n<th>faire</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>que je</td>\n<td>sois</td>\n<td>aie</td>\n<td>aille</td>\n<td>fasse</td>\n</tr>\n<tr>\n<td>que tu</td>\n<td>sois</td>\n<td>aies</td>\n<td>ailles</td>\n<td>fasses</td>\n</tr>\n<tr>\n<td>qu'il</td>\n<td>soit</td>\n<td>ait</td>\n<td>aille</td>\n<td>fasse</td>\n</tr>\n<tr>\n<td>que nous</td>\n<td>soyons</td>\n<td>ayons</td>\n<td>allions</td>\n<td>fassions</td>\n</tr>\n<tr>\n<td>que vous</td>\n<td>soyez</td>\n<td>ayez</td>\n<td>alliez</td>\n<td>fassiez</td>\n</tr>\n<tr>\n<td>qu'ils</td>\n<td>soient</td>\n<td>aient</td>\n<td>aillent</td>\n<td>fassent</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>pouvoir</th>\n<th>savoir</th>\n<th>vouloir</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>que je</td>\n<td>puisse</td>\n<td>sache</td>\n<td>veuille</td>\n</tr>\n<tr>\n<td>que nous</td>\n<td>puissions</td>\n<td>sachions</td>\n<td>voulions</td>\n</tr>\n<tr>\n<td>qu'ils</td>\n<td>puissent</td>\n<td>sachent</td>\n<td>veuillent</td>\n</tr>\n</tbody>\n</table>\n<p>Impersonal: <em>qu'il faille</em> (falloir), <em>qu'il pleuve</em> (pleuvoir).</p>"
+  },
+  {
+   "heading": "Main triggers (WEIRDO)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Category</th>\n<th>Triggers</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>W</strong>ish / will</td>\n<td>vouloir que, souhaiter que, désirer que, préférer que, aimer que</td>\n<td><em>Je veux que tu </em><em>viennes</em><em>.</em></td>\n</tr>\n<tr>\n<td><strong>E</strong>motion</td>\n<td>être content / triste / surpris que, avoir peur que, regretter que</td>\n<td><em>Je suis contente que tu </em><em>sois</em><em> là.</em></td>\n</tr>\n<tr>\n<td><strong>I</strong>mpersonal expressions</td>\n<td>il faut que, il est important / nécessaire / possible que, il vaut mieux que</td>\n<td><em>Il faut que je </em><em>parte</em><em>.</em></td>\n</tr>\n<tr>\n<td><strong>R</strong>ecommendation / order</td>\n<td>demander que, exiger que, conseiller que, proposer que</td>\n<td><em>J'exige que vous </em><em>fassiez</em><em> vos devoirs.</em></td>\n</tr>\n<tr>\n<td><strong>D</strong>oubt / denial</td>\n<td>douter que, ne pas penser que, ne pas croire que, il est possible que</td>\n<td><em>Je doute qu'il </em><em>ait</em><em> raison.</em></td>\n</tr>\n<tr>\n<td><strong>O</strong>ther conjunctions</td>\n<td>pour que, afin que, avant que, bien que, à condition que, sans que, jusqu'à ce que</td>\n<td><em>Je t'explique pour que tu </em><em>comprennes</em><em>.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Same subject → infinitive",
+   "html": "<p>When both clauses have the <strong>same subject</strong>, use an infinitive instead:\n- <em>Je veux </em><em>partir</em><em>.</em> (not ~~je veux que je parte~~)\n- <em>Je suis content </em><em>d'être</em><em> ici.</em>\n- <em>Je t'appelle </em><em>avant de</em><em> partir.</em> vs <em>Je t'appelle </em><em>avant que</em><em> tu partes.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Conjugate *être* and *avoir* in the subjonctif.",
+   "answer": "être: sois, sois, soit, soyons, soyez, soient. avoir: aie, aies, ait, ayons, ayez, aient.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Fill in: (a) Il faut que tu (finir) ___. (b) Je veux que vous (venir) ___. (c) Elle est triste que nous (partir) ___. (d) Il est important qu'ils (faire) ___ attention.",
+   "answer": "(a) finisses (b) veniez (c) partions (d) fassent",
+   "id": "e2"
+  },
+  {
+   "prompt": "Fill in: (a) Je doute qu'il (pouvoir) ___ venir. (b) Bien qu'il (pleuvoir) ___, je sors.",
+   "answer": "(a) puisse (b) pleuve",
+   "id": "e3"
+  },
+  {
+   "prompt": "Infinitive or subjunctive? (a) Je veux (aller) ___ au cinéma. (b) Je veux que tu (aller) ___ au cinéma.",
+   "answer": "(a) aller (b) ailles",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"I have to leave.\" (use *il faut que*)",
+   "answer": "*Il faut que je parte.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

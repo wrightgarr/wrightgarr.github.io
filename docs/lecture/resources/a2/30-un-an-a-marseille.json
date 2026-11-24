@@ -1,0 +1,152 @@
+{
+  "id": "a2-30",
+  "level": "A2",
+  "number": 30,
+  "title": "Un an à Marseille",
+  "grammar": "review of A2",
+  "theme": "looking back on a year",
+  "wordCount": 207,
+  "primer": [
+    "**un bilan**: a review, a look back",
+    "**il y a un an**: a year ago",
+    "**depuis**: since then",
+    "**rêver de**: to dream of",
+    "**le Sud**: the South (of France)",
+    "**l'année prochaine**: next year"
+  ],
+  "passage": [
+    [
+      "Pour le numéro de février, Nadia a demandé à Léa d'écrire un bilan : « Un an à Marseille ». Voici son texte."
+    ],
+    [
+      "« Il y a un an, je suis arrivée à la gare Saint-Charles avec des cartons et un chat qui miaulait. Je ne connaissais personne. J'avais peur, mais j'étais aussi très curieuse."
+    ],
+    [
+      "Depuis, j'ai appris beaucoup de choses. J'ai appris à conduire, à faire la bouillabaisse (presque) et à aimer le mistral (un peu). Je me suis perdue sur la Sainte-Victoire, je me suis baignée dans les calanques et j'ai photographié une tempête à Cassis."
+    ],
+    [
+      "Mais surtout, j'ai rencontré des gens. Ma voisine, Madame Ferrand, m'a ouvert sa porte le premier soir. Depuis, elle ne m'a jamais laissée seule. Mes collègues du Mistral sont devenus mes amis. Et mes amis de Paris ? Ils viennent si souvent qu'ils connaissent Marseille mieux que moi !"
+    ],
+    [
+      "Quand j'étais petite, chez ma grand-mère, j'écoutais les cigales et je rêvais de photographier le Sud. Aujourd'hui, je le fais tous les jours."
+    ],
+    [
+      "En septembre, mon amie Amina viendra habiter ici. Karim sera très content, mais ça, c'est un secret ! Je continuerai à prendre une photo par jour. Et je ne partirai pas : Marseille est devenue ma ville."
+    ],
+    [
+      "Paris, je t'aime toujours. Mais Marseille… je reste ! »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "curieuse",
+      "en": "curious"
+    },
+    {
+      "fr": "beaucoup de choses",
+      "en": "lots of things"
+    },
+    {
+      "fr": "presque",
+      "en": "almost"
+    },
+    {
+      "fr": "une tempête",
+      "en": "a storm"
+    },
+    {
+      "fr": "surtout",
+      "en": "above all"
+    },
+    {
+      "fr": "m'a ouvert sa porte",
+      "en": "opened her door to me"
+    },
+    {
+      "fr": "laissée seule",
+      "en": "left alone"
+    },
+    {
+      "fr": "si souvent que",
+      "en": "so often that",
+      "match": [
+        "si souvent qu'"
+      ]
+    },
+    {
+      "fr": "je le fais",
+      "en": "I do it"
+    },
+    {
+      "fr": "je continuerai à",
+      "en": "I'll keep on"
+    },
+    {
+      "fr": "ma ville",
+      "en": "my city"
+    }
+  ],
+  "spotlight": [
+    "**All the A2 tenses in one text:** the passé composé for events (*je suis arrivée, j'ai rencontré*), the imparfait for background and habits (*un chat qui miaulait, j'écoutais les cigales*), the present for now (*je le fais tous les jours*), and the futur simple for plans (*Amina viendra, je continuerai*).",
+    "**Pronouns and negatives together:** *elle ne m'a jamais laissée seule* (ne + pronoun + avoir + jamais + participle). *Je le fais* (le = photographing the South). *Je ne connaissais personne.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "How did Léa feel when she arrived a year ago?",
+      "answer": "Scared, but also very curious",
+      "options": [
+        "Scared, but also very curious",
+        "Sad and lonely",
+        "Completely relaxed",
+        "Angry about leaving Paris"
+      ],
+      "evidence": "J'avais peur, mais j'étais aussi très curieuse."
+    },
+    {
+      "id": "q2",
+      "prompt": "Name three things she has learned or done this year.",
+      "answer": "Driving, making bouillabaisse, and swimming in the calanques",
+      "options": [
+        "Driving, making bouillabaisse, and swimming in the calanques",
+        "Speaking Italian, skiing and painting",
+        "Playing piano, cycling and cooking pizza",
+        "Writing articles, sailing and singing"
+      ],
+      "evidence": "J'ai appris à conduire, à faire la bouillabaisse (presque) et à aimer le mistral (un peu). Je me suis perdue sur la Sainte-Victoire, je me suis baignée dans les calanques"
+    },
+    {
+      "id": "q3",
+      "prompt": "What will happen in September, and what has Léa decided?",
+      "answer": "Amina is moving to Marseille — and Léa is staying for good",
+      "options": [
+        "Amina is moving to Marseille — and Léa is staying for good",
+        "Léa is moving back to Paris",
+        "Karim is leaving the magazine",
+        "Madame Ferrand is moving to Québec"
+      ],
+      "evidence": "En septembre, mon amie Amina viendra habiter ici. … Et je ne partirai pas : Marseille est devenue ma ville."
+    }
+  ],
+  "writing": {
+    "prompt": "Write a 5–6 sentence *bilan* of your past year, with at least one sentence each in the passé composé, the imparfait, the present and the futur simple.",
+    "model": "L'année dernière, j'ai commencé à apprendre le français. Au début, c'était difficile et je ne comprenais rien. Maintenant, je lis des histoires courtes. L'année prochaine, je visiterai Paris. Je continuerai à étudier tous les jours.",
+    "targets": [
+      {
+        "label": "passé composé",
+        "pattern": "\\b(ai|as|a|avons|avez|ont)\\s+(pas\\s+|jamais\\s+)?[a-zà-ÿ]+(é|i|u|is|it|ert|eint|ait)\\b|\\b(suis|es|est|sommes|êtes|sont)\\s+(pas\\s+)?(allé|venu|arrivé|parti|monté|descendu|resté|tombé|sorti|entré|rentré|né|mort|devenu|revenu|reparti|retourné|passé)e?s?\\b",
+        "min": 1
+      },
+      {
+        "label": "imparfait",
+        "pattern": "\\b(?!(?:mais|jamais|français|anglais|frais|vrais|mauvais|fait|parfait|lait|souhait)\\b)(?![a-zà-ÿ]*tions\\b)[a-zà-ÿ]+(ais|ait|ions|iez|aient)\\b",
+        "min": 1
+      },
+      {
+        "label": "futur simple",
+        "pattern": "\\b(?!vrai\\b)[a-zà-ÿ]+r(ai|as|a|ons|ez|ont)\\b",
+        "min": 1
+      }
+    ]
+  }
+}
