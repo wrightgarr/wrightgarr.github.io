@@ -439,6 +439,153 @@
   }
   function countMatches(re, text) { if (!re) return 0; re.lastIndex = 0; const m = text.match(re); return m ? m.length : 0; }
 
+  /* ---------- Spelling & grammar check (LanguageTool public API) ----------
+     https://dev.languagetool.org/public-http-api — free, no key, ~20 requests/minute per device.
+     Only works where the page may contact other sites (e.g. GitHub Pages). */
+  const LT_URL = "https://api.languagetool.org/v2/check";
+  const LT_LABEL = {
+    TYPOS: "Spelling", GRAMMAR: "Grammar", CONFUSED_WORDS: "Word choice", COLLOCATIONS: "Word choice",
+    PUNCTUATION: "Punctuation", CASING: "Capital letter", STYLE: "Style", REDUNDANCY: "Repetition",
+    SEMANTICS: "Meaning", MISC: "Check this"
+  };
+  let lt = { moduleId: null, text: null, status: "idle", matches: [], error: "", applied: 0 };
+
+  function ltCheck(m, text) {
+    lt = { moduleId: m.id, text: text, status: "loading", matches: [], error: "", applied: 0 };
+    renderLt();
+    const body = new URLSearchParams({ text: text, language: "fr", disabledCategories: "TYPOGRAPHY", level: "default" });
+    const ctrl = ("AbortController" in window) ? new AbortController() : null;
+    const timer = setTimeout(() => { if (ctrl) ctrl.abort(); }, 15000);
+    fetch(LT_URL, { method: "POST", body: body, headers: { Accept: "application/json" }, signal: ctrl ? ctrl.signal : undefined })
+      .then(r => {
+        if (r.status === 429) throw new Error("busy");
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(j => {
+        if (lt.moduleId !== m.id || lt.text !== text) return;
+        lt.status = "done";
+        lt.matches = (j && Array.isArray(j.matches) ? j.matches : [])
+          .filter(x => typeof x.offset === "number" && x.length > 0)
+          .sort((a, b) => a.offset - b.offset)
+          .filter((x, i, arr) => i === 0 || x.offset >= arr[i - 1].offset + arr[i - 1].length);   // drop overlaps
+      })
+      .catch(err => {
+        if (lt.moduleId !== m.id || lt.text !== text) return;
+        lt.status = "error";
+        lt.error = err && err.message === "busy"
+          ? "The spelling and grammar checker is busy. Wait a minute, then try again."
+          : (navigator.onLine === false
+              ? "You're offline, so spelling and grammar can't be checked right now."
+              : "Couldn't reach the spelling and grammar checker. It needs an internet connection, and only works on the published website (not inside a preview).");
+      })
+      .then(() => { clearTimeout(timer); renderLt(); });
+  }
+
+  function ltLabel(x) {
+    const cat = x.rule && x.rule.category && x.rule.category.id;
+    if (x.rule && x.rule.issueType === "misspelling") return "Spelling";
+    return LT_LABEL[cat] || "Check this";
+  }
+  function ltIsSpelling(x) { return ltLabel(x) === "Spelling"; }
+  function ltMarkStyle(x) {
+    return ltIsSpelling(x)
+      ? "text-decoration:underline wavy #dc2626;text-decoration-thickness:1.5px;text-underline-offset:4px"
+      : "text-decoration:underline wavy #d97706;text-decoration-thickness:1.5px;text-underline-offset:4px";
+  }
+
+  function ltHtml(m) {
+    const p = prog(m.id);
+    if (!p.checked || lt.moduleId !== m.id || lt.status === "idle") return "";
+    const head = '<p class="text-xs font-semibold uppercase tracking-widest text-slate-400">Spelling &amp; grammar</p>';
+    const credit = '<p class="mt-3 text-[11px] leading-snug text-slate-400">Checked by <a href="https://languagetool.org" target="_blank" rel="noopener" class="underline underline-offset-2">LanguageTool</a>. Your text is sent to their server to be checked. It can miss mistakes and does not judge whether you answered the task.</p>';
+    if (lt.status === "loading") {
+      return '<div class="mt-4 rounded-2xl border border-slate-200 bg-white p-4">' + head +
+        '<p class="mt-2 flex items-center gap-2 text-sm text-slate-500"><span class="spin inline-block h-4 w-4 rounded-full border-2 border-indigo-200 border-t-indigo-600"></span>Checking your French…</p></div>';
+    }
+    if (lt.status === "error") {
+      return '<div class="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-4">' + head +
+        '<p class="mt-2 text-sm leading-snug text-amber-900">' + esc(lt.error) + '</p>' +
+        '<button type="button" data-lt-retry class="press mt-3 rounded-xl bg-white px-3 py-2 text-xs font-semibold text-amber-800 ring-1 ring-amber-200 hover:bg-amber-100">Try again</button></div>';
+    }
+    const stale = ($("writing") ? $("writing").value : p.writing || "") !== lt.text;
+    const staleNote = stale
+      ? '<p class="mt-2 flex items-center justify-between gap-2 rounded-xl bg-slate-100 px-3 py-2 text-xs text-slate-600"><span>You\'ve changed your text since this check.</span>' +
+        '<button type="button" data-lt-retry class="shrink-0 font-semibold text-indigo-700 underline underline-offset-2">Check again</button></p>'
+      : "";
+    if (!lt.matches.length) {
+      const msg = lt.applied
+        ? 'All suggestions applied. <button type="button" data-lt-retry class="font-semibold underline underline-offset-2">Check again</button> to be sure.'
+        : "No spelling or grammar problems found.";
+      return '<div class="mt-4 rounded-2xl border border-emerald-200 bg-emerald-50 p-4">' + head +
+        '<p class="mt-2 flex items-center gap-2 text-sm font-semibold text-emerald-800"><i data-lucide="check-circle-2" class="h-4 w-4 shrink-0"></i><span>' + msg + '</span></p>' +
+        staleNote + credit + '</div>';
+    }
+    // Your text with the problems underlined and numbered
+    let marked = "", pos = 0;
+    lt.matches.forEach((x, i) => {
+      marked += esc(lt.text.slice(pos, x.offset)) +
+        '<mark class="bg-transparent text-inherit" style="' + ltMarkStyle(x) + '">' + esc(lt.text.substr(x.offset, x.length)) + '</mark>' +
+        '<sup class="tabular ml-0.5 text-[10px] font-bold ' + (ltIsSpelling(x) ? "text-red-600" : "text-amber-600") + '">' + (i + 1) + '</sup>';
+      pos = x.offset + x.length;
+    });
+    marked += esc(lt.text.slice(pos));
+    const items = lt.matches.map((x, i) => {
+      const reps = (x.replacements || []).slice(0, 3).filter(r => r && typeof r.value === "string");
+      const sp = ltIsSpelling(x);
+      return '<li class="py-3">' +
+        '<div class="flex items-start gap-2.5">' +
+          '<span class="tabular grid h-5 w-5 shrink-0 place-items-center rounded-full text-[10px] font-bold text-white ' + (sp ? "bg-red-500" : "bg-amber-500") + '">' + (i + 1) + '</span>' +
+          '<div class="min-w-0 flex-1">' +
+            '<p class="text-[11px] font-semibold uppercase tracking-wider ' + (sp ? "text-red-600" : "text-amber-700") + '">' + esc(ltLabel(x)) +
+              ' · <span lang="fr" class="normal-case tracking-normal text-slate-500 line-through decoration-slate-400">' + esc(lt.text.substr(x.offset, x.length)) + '</span></p>' +
+            '<p lang="fr" class="mt-0.5 text-sm leading-snug text-slate-700">' + esc(x.message || x.shortMessage || "") + '</p>' +
+            (reps.length && !stale
+              ? '<div class="mt-2 flex flex-wrap gap-1.5">' + reps.map((r, ri) =>
+                  '<button type="button" data-lt-fix="' + i + ':' + ri + '" lang="fr" class="press rounded-lg bg-emerald-50 px-2.5 py-1.5 text-sm font-semibold text-emerald-800 ring-1 ring-emerald-200 hover:bg-emerald-100">' +
+                  (r.value === "" ? "(remove)" : esc(r.value)) + '</button>').join("") + '</div>'
+              : "") +
+          '</div>' +
+        '</div></li>';
+    }).join("");
+    return '<div class="mt-4 rounded-2xl border border-slate-200 bg-white p-4">' + head +
+      '<p class="mt-1 text-sm text-slate-500">' + lt.matches.length + (lt.matches.length === 1 ? " thing" : " things") + ' to look at. Tap a suggestion to fix it.</p>' +
+      staleNote +
+      '<p lang="fr" class="font-display mt-3 whitespace-pre-wrap rounded-xl bg-slate-50 px-3 py-2.5 text-lg leading-relaxed text-slate-900">' + marked + '</p>' +
+      '<ul class="mt-1 divide-y divide-slate-100">' + items + '</ul>' + credit + '</div>';
+  }
+
+  function renderLt() {
+    const el = $("lt-fb");
+    if (!el || !currentModule) return;
+    el.innerHTML = ltHtml(currentModule);
+    refreshIcons();
+  }
+
+  // Apply a suggestion locally, then shift the remaining underlines instead of re-checking.
+  function ltApply(i, ri) {
+    const ta = $("writing"), x = lt.matches[i];
+    if (!ta || !x || ta.value !== lt.text) return;
+    const r = (x.replacements || [])[ri];
+    if (!r) return;
+    const next = lt.text.slice(0, x.offset) + r.value + lt.text.slice(x.offset + x.length);
+    const delta = r.value.length - x.length;
+    lt.matches = lt.matches.filter((_, k) => k !== i).map(y => y.offset > x.offset ? Object.assign({}, y, { offset: y.offset + delta }) : y);
+    lt.text = next;
+    lt.applied++;
+    ta.value = next;
+    ta.dispatchEvent(new Event("input"));
+    renderLt();
+  }
+  function ltClick(e) {
+    const fix = e.target.closest("[data-lt-fix]");
+    if (fix) { const a = fix.dataset.ltFix.split(":"); ltApply(Number(a[0]), Number(a[1])); return; }
+    if (e.target.closest("[data-lt-retry]")) {
+      const ta = $("writing");
+      if (ta && ta.value.trim() && currentModule) ltCheck(currentModule, ta.value);
+    }
+  }
+
   /* =========================================================
      5. SPEECH (Web Speech API, fr-FR)
      ========================================================= */
@@ -902,10 +1049,11 @@
       const count = need > 1 ? ' <span class="tabular text-xs ' + (ok ? "text-emerald-700" : "text-slate-400") + '">' + Math.min(n, need) + "/" + need + "</span>" : "";
       return '<li class="flex items-center gap-2.5 py-1.5 text-sm ' + (ok ? "text-slate-800" : "text-slate-500") + '">' + icon + '<span>' + md(t.label) + count + '</span></li>';
     }).join("");
-    return '<div class="mt-4 rounded-2xl bg-slate-50 p-4">' +
-      '<p class="text-xs font-semibold uppercase tracking-widest text-slate-400">What I spotted</p>' +
+    return '<div id="lt-fb">' + ltHtml(m) + '</div>' +
+      '<div class="mt-4 rounded-2xl bg-slate-50 p-4">' +
+      '<p class="text-xs font-semibold uppercase tracking-widest text-slate-400">Target structures</p>' +
       '<ul class="mt-2">' + rows + '</ul>' +
-      '<p class="mt-2 text-xs text-slate-500">This checks for the target structures, not for every spelling or agreement. Copy your answers below to get full feedback from your tutor.</p>' +
+      '<p class="mt-2 text-xs text-slate-500">This shows whether you used the structures the task asks for. For feedback on meaning and style, copy your answers below for your tutor.</p>' +
       '</div>' +
       '<div class="mt-3 rounded-2xl bg-indigo-50 p-4">' +
         '<div class="flex items-start justify-between gap-3">' +
@@ -1071,7 +1219,10 @@
         $("btn-check-writing").disabled = !has;
         $("btn-writing-done").disabled = !has;
         clearTimeout(saveTimer);
-        saveTimer = setTimeout(saveState, 400);
+        saveTimer = setTimeout(() => {
+          saveState();
+          if (lt.moduleId === m.id && lt.status === "done") renderLt();
+        }, 400);
       });
       body.querySelectorAll("[data-key]").forEach(btn => {
         btn.addEventListener("pointerdown", e => e.preventDefault());
@@ -1088,7 +1239,10 @@
         const p = prog(m.id);
         p.writing = ta.value; p.checked = true;
         touchStreak(); saveState();
+        const same = lt.moduleId === m.id && lt.text === ta.value && (lt.status === "done" || lt.status === "loading");
+        if (!same && ta.value.trim()) lt = { moduleId: m.id, text: ta.value, status: "loading", matches: [], error: "", applied: 0 };
         refreshCheckParts();
+        if (!same && ta.value.trim()) ltCheck(m, ta.value);
         $("writing-fb").scrollIntoView({ behavior: "smooth", block: "nearest" });
       });
       $("btn-writing-done").addEventListener("click", () => {
@@ -1105,6 +1259,7 @@
       });
       bindWritingFb();
       bindSummary();
+      $("writing-fb").addEventListener("click", ltClick);
     }
   }
   function bindWritingFb() {
