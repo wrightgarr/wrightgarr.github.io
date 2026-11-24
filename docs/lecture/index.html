@@ -482,6 +482,140 @@
       .then(() => { clearTimeout(timer); renderLt(); });
   }
 
+  /* ---------- Meanings of suggested words ----------
+     1. the contextual glossaries of every Lecture module (already loaded);
+     2. English Wiktionary (French entries): REST definition endpoint, with the Action API as a fallback.
+     Results are cached in memory and in localStorage. */
+  const DEF_KEY = "lecture-defs-v1";
+  const DEF_MAX = 400;
+  const defCache = (function () { try { return JSON.parse(localStorage.getItem(DEF_KEY) || "{}") || {}; } catch (e) { return {}; } })();
+  const defPending = {};
+  let glossIndex = null;
+  let defRenderTimer = null;
+
+  function defKey(w) { return String(w).normalize("NFC").trim().toLowerCase().replace(/[’‘]/g, "'"); }
+  function stripArticle(w) { return w.replace(/^(le |la |les |l'|un |une |des |du |de la |de l'|se |s')/, ""); }
+  function buildGlossIndex() {
+    glossIndex = {};
+    ORDER.forEach(mod => (mod.glossary || []).forEach(g => {
+      if (!g || !g.fr || !g.en) return;
+      const k = defKey(g.fr), b = stripArticle(k);
+      if (!glossIndex[k]) glossIndex[k] = g.en;
+      if (!glossIndex[b]) glossIndex[b] = g.en;
+    }));
+  }
+  function saveDefs() {
+    try {
+      const keys = Object.keys(defCache);
+      if (keys.length > DEF_MAX) keys.slice(0, keys.length - DEF_MAX).forEach(k => delete defCache[k]);
+      localStorage.setItem(DEF_KEY, JSON.stringify(defCache));
+    } catch (e) {}
+  }
+  function cleanText(html) {
+    const d = document.createElement("div");
+    d.innerHTML = String(html);
+    d.querySelectorAll("sup, .reference, ul, ol, dl").forEach(n => n.remove());
+    return (d.textContent || "").replace(/\s+/g, " ").replace(/\s+([,.;:])/g, "$1").trim();
+  }
+  function shorten(s, n) { return s.length > n ? s.slice(0, n - 1).replace(/[\s,;:]+\S*$/, "") + "…" : s; }
+  const FORM_OF = /\b(plural|feminine|masculine|singular|inflection|form|conjugation|participle|first-person|second-person|third-person|spelling|elision|contraction)\b[^.]*\bof\b/i;
+
+  // Wiktionary REST: { fr: [ { partOfSpeech, definitions: [ { definition: html } ] } ] }
+  function wiktRest(word) {
+    return fetch("https://en.wiktionary.org/api/rest_v1/page/definition/" + encodeURIComponent(word), { headers: { Accept: "application/json" } })
+      .then(r => { if (r.status === 404) return null; if (!r.ok) throw new Error("rest " + r.status); return r.json(); })
+      .then(j => {
+        if (!j || !Array.isArray(j.fr)) return null;
+        const out = j.fr.map(g => ({
+          pos: (g.partOfSpeech || "").toLowerCase(),
+          defs: (g.definitions || []).map(d => {
+            const html = String(d.definition || "");
+            const text = cleanText(html);
+            const m = /form-of-definition-link[\s\S]*?title="([^"#]+)/.exec(html) || (FORM_OF.test(text) && /<a [^>]*title="([^"#]+)/.exec(html));
+            return { text: text, base: m ? m[1] : null };
+          }).filter(d => d.text)
+        })).filter(g => g.defs.length);
+        return out.length ? out : null;
+      });
+  }
+  // Fallback: Action API wikitext, French section only.
+  function wiktAction(word) {
+    const url = "https://en.wiktionary.org/w/api.php?action=parse&format=json&formatversion=2&prop=wikitext&redirects=1&origin=*&page=" + encodeURIComponent(word);
+    return fetch(url).then(r => r.ok ? r.json() : null).then(j => {
+      const wt = j && j.parse && j.parse.wikitext;
+      if (!wt) return null;
+      const start = wt.search(/^==\s*French\s*==\s*$/m);
+      if (start < 0) return null;
+      const rest = wt.slice(start).replace(/^.*\n/, "");
+      const end = rest.search(/^==[^=].*==\s*$/m);
+      const sec = end < 0 ? rest : rest.slice(0, end);
+      const groups = [];
+      let cur = null;
+      sec.split("\n").forEach(line => {
+        const h = /^===+\s*([^=]+?)\s*===+\s*$/.exec(line);
+        if (h) { cur = { pos: h[1].toLowerCase(), defs: [] }; groups.push(cur); return; }
+        if (cur && /^#\s/.test(line)) {
+          let base = null;
+          let t = line.replace(/^#\s*/, "");
+          t = t.replace(/\{\{([^{}|]+? of)\|(?:fr\|)?([^{}|]+)[^{}]*\}\}/g, (_, name, w) => { base = base || w; return name.replace(/^fr-/, "") + " " + w; });
+          t = t.replace(/\{\{(?:l|m|w|ll|vern|taxlink)\|(?:[a-z-]+\|)?([^{}|]+)[^{}]*\}\}/g, "$1");
+          t = t.replace(/\{\{(?:gloss|gl)\|([^{}|]+)\}\}/g, "($1)");
+          for (let i = 0; i < 3; i++) t = t.replace(/\{\{[^{}]*\}\}/g, "");
+          t = t.replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, "$1").replace(/'{2,3}|<[^>]+>/g, "").replace(/\s+/g, " ").trim().replace(/^[,;:\s]+/, "");
+          if (t) cur.defs.push({ text: t, base: base });
+        }
+      });
+      const keep = ["noun", "verb", "adjective", "adverb", "preposition", "pronoun", "conjunction", "determiner", "article", "interjection", "phrase", "proper noun", "numeral", "participle", "contraction", "prepositional phrase", "idiom", "particle"];
+      const out = groups.filter(g => g.defs.length && keep.some(k => g.pos.indexOf(k) === 0));
+      return out.length ? out : null;
+    });
+  }
+  function wikt(word) {
+    return wiktRest(word).catch(() => wiktAction(word))
+      .then(r => r || (word !== word.toLowerCase() ? wiktRest(word.toLowerCase()).catch(() => null) : null));
+  }
+  function summarise(groups) {
+    return groups.slice(0, 2).map(g => (g.pos ? g.pos + ": " : "") + g.defs.slice(0, 2).map(d => d.text).join("; ")).join(" · ");
+  }
+  function lookupDef(word) {
+    return wikt(word).then(groups => {
+      if (!groups) return "";
+      const first = groups[0].defs[0];
+      if (first && first.base && FORM_OF.test(first.text) && defKey(first.base) !== defKey(word)) {
+        const lead = first.text.replace(/\s*\(.*?\)\s*/g, " ").trim();
+        if (!glossIndex) buildGlossIndex();
+        const local = glossIndex[defKey(first.base)];
+        if (local) return lead + " — " + local;
+        return wikt(first.base)
+          .then(bg => bg ? lead + " — " + summarise(bg.slice(0, 1)).replace(/^[a-z ]+: /, "") : summarise(groups))
+          .catch(() => summarise(groups));
+      }
+      return summarise(groups);
+    });
+  }
+
+  // Returns the meaning if known, "" if none, or null while loading (and starts the lookup).
+  function defFor(value) {
+    const w = String(value || "").trim().replace(/^[^\p{L}]+|[^\p{L}]+$/gu, "");
+    if (!w || w.split(/\s+/).length > 3) return "";
+    const k = defKey(w);
+    if (!glossIndex) buildGlossIndex();
+    if (glossIndex[k]) return glossIndex[k];
+    if (glossIndex[stripArticle(k)]) return glossIndex[stripArticle(k)];
+    if (Object.prototype.hasOwnProperty.call(defCache, k)) return defCache[k];
+    if (!defPending[k]) {
+      defPending[k] = lookupDef(w)
+        .then(d => { defCache[k] = shorten(d, 140); saveDefs(); })
+        .catch(() => { defCache[k] = ""; })     // offline or blocked: show nothing (not cached to storage)
+        .then(() => {
+          delete defPending[k];
+          clearTimeout(defRenderTimer);
+          defRenderTimer = setTimeout(renderLt, 60);
+        });
+    }
+    return null;
+  }
+
   function ltLabel(x) {
     const cat = x.rule && x.rule.category && x.rule.category.id;
     if (x.rule && x.rule.issueType === "misspelling") return "Spelling";
@@ -498,7 +632,7 @@
     const p = prog(m.id);
     if (!p.checked || lt.moduleId !== m.id || lt.status === "idle") return "";
     const head = '<p class="text-xs font-semibold uppercase tracking-widest text-slate-400">Spelling &amp; grammar</p>';
-    const credit = '<p class="mt-3 text-[11px] leading-snug text-slate-400">Checked by <a href="https://languagetool.org" target="_blank" rel="noopener" class="underline underline-offset-2">LanguageTool</a>. Your text is sent to their server to be checked. It can miss mistakes and does not judge whether you answered the task.</p>';
+    const credit = '<p class="mt-3 text-[11px] leading-snug text-slate-400">Checked by <a href="https://languagetool.org" target="_blank" rel="noopener" class="underline underline-offset-2">LanguageTool</a>. Your text is sent to their server to be checked. It can miss mistakes and does not judge whether you answered the task. Meanings come from this course\'s glossaries and <a href="https://en.wiktionary.org" target="_blank" rel="noopener" class="underline underline-offset-2">Wiktionary</a> (CC BY-SA).</p>';
     if (lt.status === "loading") {
       return '<div class="mt-4 rounded-2xl border border-slate-200 bg-white p-4">' + head +
         '<p class="mt-2 flex items-center gap-2 text-sm text-slate-500"><span class="spin inline-block h-4 w-4 rounded-full border-2 border-indigo-200 border-t-indigo-600"></span>Checking your French…</p></div>';
@@ -541,9 +675,15 @@
               ' · <span lang="fr" class="normal-case tracking-normal text-slate-500 line-through decoration-slate-400">' + esc(lt.text.substr(x.offset, x.length)) + '</span></p>' +
             '<p lang="fr" class="mt-0.5 text-sm leading-snug text-slate-700">' + esc(x.message || x.shortMessage || "") + '</p>' +
             (reps.length && !stale
-              ? '<div class="mt-2 flex flex-wrap gap-1.5">' + reps.map((r, ri) =>
-                  '<button type="button" data-lt-fix="' + i + ':' + ri + '" lang="fr" class="press rounded-lg bg-emerald-50 px-2.5 py-1.5 text-sm font-semibold text-emerald-800 ring-1 ring-emerald-200 hover:bg-emerald-100">' +
-                  (r.value === "" ? "(remove)" : esc(r.value)) + '</button>').join("") + '</div>'
+              ? '<div class="mt-2 grid gap-1.5">' + reps.map((r, ri) => {
+                  const def = r.value.trim() ? defFor(r.value) : "";
+                  return '<button type="button" data-lt-fix="' + i + ':' + ri + '" class="press flex w-full items-baseline gap-2 rounded-xl bg-emerald-50 px-3 py-2 text-left ring-1 ring-emerald-200 hover:bg-emerald-100">' +
+                    '<span lang="fr" class="shrink-0 text-sm font-semibold text-emerald-800">' + (r.value.trim() === "" ? "(remove)" : esc(r.value.trim())) + '</span>' +
+                    (def === null
+                      ? '<span class="text-xs text-emerald-700/60">looking up…</span>'
+                      : def ? '<span class="min-w-0 text-xs leading-snug text-slate-600">' + esc(def) + '</span>' : "") +
+                  '</button>';
+                }).join("") + '</div>'
               : "") +
           '</div>' +
         '</div></li>';
