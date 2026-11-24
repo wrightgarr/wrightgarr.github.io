@@ -1,0 +1,64 @@
+{
+ "id": "s7",
+ "subject": 7,
+ "level": "A1",
+ "title": "Definite & Indefinite Articles (le, la, l', les, un, une, des)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Every French noun has a <strong>gender</strong> (masculine or feminine) and nearly always comes with an article that shows it.</p>"
+  },
+  {
+   "heading": "Definite articles = \"the\"",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Singular</th>\n<th>Before vowel / mute h</th>\n<th>Plural</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Masculine</td>\n<td><strong>le</strong> livre</td>\n<td><strong>l'</strong>ami</td>\n<td><strong>les</strong> livres</td>\n</tr>\n<tr>\n<td>Feminine</td>\n<td><strong>la</strong> table</td>\n<td><strong>l'</strong>école</td>\n<td><strong>les</strong> tables</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Indefinite articles = \"a / an / some\"",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Singular</th>\n<th>Plural</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Masculine</td>\n<td><strong>un</strong> livre</td>\n<td><strong>des</strong> livres</td>\n</tr>\n<tr>\n<td>Feminine</td>\n<td><strong>une</strong> table</td>\n<td><strong>des</strong> tables</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Pronunciation:</strong> <em>les</em> and <em>des</em> make a liaison before a vowel: <em>les‿amis</em> (lay-zah-mee), <em>des‿oranges</em>.</p>"
+  },
+  {
+   "heading": "When to use the definite article (le, la, les)",
+   "html": "<ol>\n<li>A specific thing: <em>Le livre sur la table est à moi.</em> — The book on the table is mine.</li>\n<li><strong>General statements and likes/dislikes</strong> (unlike English!): <em>J'aime </em><em>le</em><em> chocolat.</em> — I like chocolate. <em>Les chats sont mignons.</em> — Cats are cute.</li>\n<li>Languages, school subjects, abstract ideas: <em>Le français est beau.</em> <em>La liberté.</em></li>\n<li>Days for habits: <em>Le lundi, je travaille.</em> — On Mondays, I work.</li>\n</ol>"
+  },
+  {
+   "heading": "When to use the indefinite article (un, une, des)",
+   "html": "<ol>\n<li>Something non-specific or mentioned for the first time: <em>J'ai </em><em>un</em><em> chien.</em> — I have a dog.</li>\n<li><strong>des</strong> is the plural of <em>un/une</em> and is usually required where English uses nothing or \"some\": <em>J'ai </em><em>des</em><em> amis à Paris.</em> — I have (some) friends in Paris.</li>\n</ol>"
+  },
+  {
+   "heading": "After a negative: un / une / des → de (d')",
+   "html": "<p><em>J'ai un chat.</em> → <em>Je n'ai pas </em><em>de</em><em> chat.</em>\n<em>Il y a des pommes.</em> → <em>Il n'y a pas </em><em>de</em><em> pommes.</em>\n<em>J'ai une idée.</em> → <em>Je n'ai pas </em><em>d'</em><em>idée.</em>\n(Definite articles do NOT change: <em>Je n'aime pas </em><em>le</em><em> café.</em>)</p>"
+  },
+  {
+   "heading": "Contractions with à and de",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>le</th>\n<th>la</th>\n<th>l'</th>\n<th>les</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>à</strong></td>\n<td><strong>au</strong></td>\n<td>à la</td>\n<td>à l'</td>\n<td><strong>aux</strong></td>\n</tr>\n<tr>\n<td><strong>de</strong></td>\n<td><strong>du</strong></td>\n<td>de la</td>\n<td>de l'</td>\n<td><strong>des</strong></td>\n</tr>\n</tbody>\n</table>\n<p><em>Je vais </em><em>au</em><em> cinéma.</em> (à + le) / <em>Je parle </em><em>aux</em><em> enfants.</em> (à + les) / <em>Le livre </em><em>du</em><em> professeur.</em> (de + le)</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Add *le, la, l'* or *les*: ___ maison, ___ arbre, ___ garçons, ___ soleil, ___ hôtel.",
+   "answer": "*la* maison, *l'*arbre, *les* garçons, *le* soleil, *l'*hôtel.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Add *un, une* or *des*: ___ voiture, ___ stylos, ___ homme, ___ pomme.",
+   "answer": "*une* voiture, *des* stylos, *un* homme, *une* pomme.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"I like coffee but I don't like tea.\"",
+   "answer": "*J'aime le café mais je n'aime pas le thé.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Make negative: (a) *J'ai une voiture.* (b) *Il a des enfants.*",
+   "answer": "(a) *Je n'ai pas de voiture.* (b) *Il n'a pas d'enfants.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Contract: (a) Je vais (à + le) parc. (b) La porte (de + la) maison. (c) Il parle (à + les) étudiants.",
+   "answer": "(a) *au parc* (b) *de la maison* (c) *aux étudiants*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

@@ -1,0 +1,207 @@
+{
+  "id": "b2-23",
+  "level": "B2",
+  "number": 23,
+  "title": "L'hôpital",
+  "grammar": "*laisser, se laisser, faire, se faire* + infinitive",
+  "theme": "a fall and a recovery",
+  "wordCount": 533,
+  "primer": [
+    "**laisser + infinitif**: to let (*Laisse-moi me relever.*)",
+    "**se laisser + infinitif**: to let yourself be… (*se laisser convaincre, se laisser faire*)",
+    "**faire + infinitif**: to have something done / to make someone do something",
+    "**se faire + infinitif**: to get yourself… (*se faire opérer, se faire obéir*)",
+    "**une fracture**: a fracture",
+    "**opérer**: to operate (on)"
+  ],
+  "passage": [
+    [
+      "En décembre, à quelques jours de son anniversaire, Madame Ferrand est tombée dans l'escalier de l'immeuble. Léa l'a trouvée en bas des marches, pâle, une main sur la hanche, mais toujours aussi têtue."
+    ],
+    [
+      "— Ne t'inquiète pas. Laisse-moi juste me relever.",
+      "— Ne bougez pas. J'appelle les pompiers.",
+      "— Je ne me laisserai pas emmener comme un vieux meuble !"
+    ],
+    [
+      "Elle s'est laissé emmener, bien sûr. À l'hôpital de la Timone, les médecins ont fait faire une radio : fracture du col du fémur. Il fallait opérer."
+    ],
+    [
+      "— Hors de question, a déclaré Madame Ferrand depuis son lit. Je ne me ferai pas ouvrir à presque soixante-dix-huit ans. Faites-moi un plâtre, et je rentre chez moi.",
+      "— Madame, on ne met pas de plâtre sur une hanche, a expliqué le chirurgien avec patience. Sans opération, vous ne remarcherez pas."
+    ],
+    [
+      "Léa a appelé Anne, à Québec, qui a pris le premier avion. Pierre est venu de La Ciotat. Pendant deux jours, ils ont essayé de la convaincre. Elle ne se laissait pas faire."
+    ],
+    [
+      "— Vous voulez me faire mourir sur une table d'opération, voilà ce que vous voulez !",
+      "— Maman, on veut te faire remarcher. Ce n'est pas pareil."
+    ],
+    [
+      "C'est finalement un détail qui l'a fait changer d'avis. Le troisième jour, Léa est arrivée avec le carnet numéro 33 et elle l'a laissé sur la table de nuit, ouvert à une page précise. Jean y racontait son propre séjour à l'hôpital, en 2003, après un accident de travail."
+    ],
+    [
+      "« Je me suis laissé opérer comme un agneau. Simone m'a fait promettre d'écouter les médecins. Elle m'a dit : \"Si tu ne te laisses pas soigner, c'est moi qui te tue.\" Je l'ai crue. »"
+    ],
+    [
+      "Madame Ferrand a lu la page deux fois. Puis elle a fermé le carnet et elle a soupiré."
+    ],
+    [
+      "— Le menteur. Je n'ai jamais dit ça.",
+      "— Vous êtes sûre ?",
+      "— … Peut-être que si. Bon. Appelez votre chirurgien. Mais dites-lui que s'il me rate, je reviendrai le hanter."
+    ],
+    [
+      "L'opération s'est bien passée. Le lendemain, Madame Ferrand se faisait déjà obéir de toutes les infirmières du service. Elle se faisait apporter du thé à la menthe, faisait ouvrir la fenêtre, faisait changer la chaîne de télévision de sa voisine de chambre, qui ne s'en plaignait pas : les deux femmes étaient devenues amies en un après-midi."
+    ],
+    [
+      "Le kinésithérapeute, un grand jeune homme timide, venait chaque matin la faire marcher dans le couloir."
+    ],
+    [
+      "— Si vous me laissez tomber, je vous fais renvoyer, lui disait-elle.",
+      "— Je ne vous laisserai pas tomber, madame.",
+      "— Je sais. C'est pour ça que je vous fais confiance."
+    ],
+    [
+      "Le 14 décembre, jour de ses soixante-dix-huit ans, Léa, Anne, Pierre, Amina, Karim, Thomas et Josette ont envahi la chambre avec un gâteau et des ballons. Une infirmière a voulu les faire sortir, puis elle s'est laissé convaincre de rester pour une part de gâteau."
+    ],
+    [
+      "Madame Ferrand, assise dans son fauteuil, a regardé tout ce monde autour d'elle."
+    ],
+    [
+      "— Vous savez ce que Jean aurait dit ? « Simone, tu as fini par te laisser faire. Il était temps. »"
+    ],
+    [
+      "Elle a ri, puis elle a ajouté plus bas, pour Léa seulement :"
+    ],
+    [
+      "— Ne laisse pas ce livre attendre à cause de moi. Je veux le tenir dans mes mains avant l'été.",
+      "— Vous le tiendrez, a dit Léa. Je vous le promets."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "la hanche",
+      "en": "the hip"
+    },
+    {
+      "fr": "têtue",
+      "en": "stubborn"
+    },
+    {
+      "fr": "un vieux meuble",
+      "en": "an old piece of furniture"
+    },
+    {
+      "fr": "la Timone",
+      "en": "Marseille's main hospital"
+    },
+    {
+      "fr": "une radio",
+      "en": "an X-ray"
+    },
+    {
+      "fr": "le col du fémur",
+      "en": "the neck of the femur (hip)"
+    },
+    {
+      "fr": "Hors de question",
+      "en": "Out of the question"
+    },
+    {
+      "fr": "un plâtre",
+      "en": "a plaster cast"
+    },
+    {
+      "fr": "le chirurgien",
+      "en": "the surgeon"
+    },
+    {
+      "fr": "un agneau",
+      "en": "a lamb"
+    },
+    {
+      "fr": "s'il me rate",
+      "en": "if he botches it"
+    },
+    {
+      "fr": "hanter",
+      "en": "to haunt"
+    },
+    {
+      "fr": "le kinésithérapeute",
+      "en": "the physiotherapist"
+    },
+    {
+      "fr": "renvoyer",
+      "en": "to fire"
+    },
+    {
+      "fr": "ont envahi",
+      "en": "invaded"
+    }
+  ],
+  "spotlight": [
+    "**Faire vs. laisser + infinitive:** *faire* means you cause it to happen (*les médecins ont fait faire une radio; il venait la faire marcher; Une infirmière a voulu les faire sortir*), and *laisser* means you allow it (*Laisse-moi juste me relever; Je ne vous laisserai pas tomber*).",
+    "**The reflexive forms are about what you allow or get done to yourself:** *Elle s'est laissé emmener* (she let herself be taken away), *Je ne me ferai pas ouvrir* (I won't have myself cut open), *Madame Ferrand se faisait déjà obéir* (made herself obeyed), *elle s'est laissé convaincre*. In the passé composé, *fait* and *laissé* normally don't agree in these structures."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi Madame Ferrand refuse-t-elle d'abord l'opération ?",
+      "answer": "Elle a peur de l'opération et voudrait un simple plâtre",
+      "options": [
+        "Elle a peur de l'opération et voudrait un simple plâtre",
+        "Elle n'a pas d'argent",
+        "Elle veut rentrer à Lyon",
+        "Elle n'aime pas le chirurgien"
+      ],
+      "evidence": "Je ne me ferai pas ouvrir à presque soixante-dix-huit ans. Faites-moi un plâtre, et je rentre chez moi."
+    },
+    {
+      "id": "q2",
+      "prompt": "Qu'est-ce qui la fait changer d'avis ?",
+      "answer": "Un passage du carnet 33 où Jean raconte qu'elle l'avait obligé à se faire soigner",
+      "options": [
+        "Un passage du carnet 33 où Jean raconte qu'elle l'avait obligé à se faire soigner",
+        "Une lettre d'Anne",
+        "Un appel du maire",
+        "Une conversation avec sa voisine de chambre"
+      ],
+      "evidence": "Elle m'a dit : \"Si tu ne te laisses pas soigner, c'est moi qui te tue.\""
+    },
+    {
+      "id": "q3",
+      "prompt": "Que demande-t-elle à Léa le jour de son anniversaire ?",
+      "answer": "De ne pas laisser le livre attendre : elle veut le tenir avant l'été",
+      "options": [
+        "De ne pas laisser le livre attendre : elle veut le tenir avant l'été",
+        "De vendre son appartement",
+        "D'appeler Anne tous les jours",
+        "De ne plus parler de Jean"
+      ],
+      "evidence": "Ne laisse pas ce livre attendre à cause de moi. Je veux le tenir dans mes mains avant l'été."
+    }
+  ],
+  "writing": {
+    "prompt": "Racontez une visite chez le médecin ou à l'hôpital (vraie ou inventée) en 4–5 phrases, avec *faire* + infinitif, *laisser* + infinitif, et *se faire* ou *se laisser* + infinitif.",
+    "model": "Le médecin m'a fait passer une radio. Il a laissé ma mère entrer dans la salle. Je me suis fait vacciner le même jour. Finalement, je me suis laissé convaincre de rester une nuit.",
+    "targets": [
+      {
+        "label": "faire + infinitive",
+        "pattern": "\\b(fai[a-zà-ÿœæ]*|fer[a-zà-ÿœæ]*|fass[a-zà-ÿœæ]*|fit)\\s+(me |te |se |nous |vous |la |le |les |l')?[a-zà-ÿ]+(er|ir|re|oir)\\b",
+        "min": 1
+      },
+      {
+        "label": "laisser + infinitive",
+        "pattern": "\\blaiss[a-zà-ÿœæ]*\\s+(me |te |se |nous |vous |la |le |les |l'|ma |mon |sa |son )?[a-zà-ÿ]+\\s*[a-zà-ÿ]*(er|ir|re|oir)\\b",
+        "min": 1
+      },
+      {
+        "label": "se faire / se laisser + infinitive",
+        "pattern": "\\b(me|te|se|nous|vous|m'|t'|s')\\s*(suis|es|est|sommes|êtes|sont)?\\s*(fait|laissé|fais|laisse|faisait|laissait)\\s+[a-zà-ÿ]+(er|ir|re|oir)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

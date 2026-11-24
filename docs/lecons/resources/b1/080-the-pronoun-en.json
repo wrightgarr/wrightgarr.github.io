@@ -1,0 +1,75 @@
+{
+ "id": "s80",
+ "subject": 80,
+ "level": "B1",
+ "title": "The Pronoun \"en\"",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>En</strong> replaces <strong>de + noun</strong> and <strong>quantities</strong>. It often means \"some / any / of it / of them / from there\".</p>"
+  },
+  {
+   "heading": "1. Replaces partitive / indefinite articles (du, de la, de l', des)",
+   "html": "<ul>\n<li><em>Tu veux </em><em>du café</em><em> ?</em> — <em>Oui, j'</em><em>en</em><em> veux.</em> — Yes, I want some.</li>\n<li><em>Il a </em><em>des enfants</em><em> ?</em> — <em>Non, il n'</em><em>en</em><em> a pas.</em> — No, he doesn't have any.</li>\n<li><em>Tu as acheté </em><em>de la confiture</em><em> ?</em> — <em>Oui, j'</em><em>en</em><em> ai acheté.</em></li>\n</ul>"
+  },
+  {
+   "heading": "2. Replaces a quantity (keep the number or quantity word at the end!)",
+   "html": "<ul>\n<li><em>Tu as </em><em>combien de frères</em><em> ?</em> — <em>J'</em><em>en</em><em> ai </em><em>deux</em><em>.</em> — I have two (of them).</li>\n<li><em>Il a </em><em>beaucoup d'amis</em><em>.</em> — <em>Il </em><em>en</em><em> a </em><em>beaucoup</em><em>.</em></li>\n<li><em>Je voudrais </em><em>un kilo de pommes</em><em>.</em> — <em>J'</em><em>en</em><em> voudrais </em><em>un kilo</em><em>.</em></li>\n<li><em>Tu as </em><em>une voiture</em><em> ?</em> — <em>Oui, j'</em><em>en</em><em> ai </em><em>une</em><em>.</em> (<em>un/une</em> are numbers: keep them)</li>\n<li><em>Non, je n'</em><em>en</em><em> ai pas.</em> (negative: drop <em>un/une</em>)</li>\n</ul>"
+  },
+  {
+   "heading": "3. Replaces de + thing / idea (verbs and expressions with de)",
+   "html": "<p><em>parler de, avoir besoin de, avoir envie de, avoir peur de, se souvenir de, s'occuper de, être content de, rêver de, revenir de</em>\n- <em>Tu as besoin </em><em>de ton ordinateur</em><em> ?</em> — <em>Oui, j'</em><em>en</em><em> ai besoin.</em>\n- <em>Il parle souvent </em><em>de son voyage</em><em>.</em> — <em>Il </em><em>en</em><em> parle souvent.</em>\n- <em>Tu te souviens </em><em>de cette soirée</em><em> ?</em> — <em>Oui, je m'</em><em>en</em><em> souviens.</em>\n- <em>Elle est contente </em><em>de son travail</em><em>.</em> — <em>Elle </em><em>en</em><em> est contente.</em></p>\n<p><strong>For people</strong>, use <strong>de + emphatic pronoun</strong>: <em>Je parle </em><em>de Paul</em><em>.</em> → <em>Je parle </em><em>de lui</em><em>.</em> (Though <em>en</em> is sometimes used colloquially.)</p>"
+  },
+  {
+   "heading": "4. Replaces de + place (from there)",
+   "html": "<ul>\n<li><em>Tu reviens </em><em>de la plage</em><em> ?</em> — <em>Oui, j'</em><em>en</em><em> reviens.</em></li>\n<li><em>Elle sort </em><em>du bureau</em><em>.</em> — <em>Elle </em><em>en</em><em> sort.</em></li>\n</ul>"
+  },
+  {
+   "heading": "Position",
+   "html": "<p>Before the conjugated verb (or infinitive), like other pronouns:\n- <em>J'</em><em>en</em><em> prends.</em> / <em>Je n'</em><em>en</em><em> prends pas.</em>\n- <em>J'</em><em>en</em><em> ai mangé.</em> (no participle agreement with <em>en</em>)\n- <em>Je vais </em><em>en</em><em> acheter.</em>\n- Imperative: <em>Prends-</em><em>en</em><em> !</em> / <em>Manges-</em><em>en</em><em> !</em> (s added) / <em>N'</em><em>en</em><em> prends pas !</em></p>\n<p><strong>Order:</strong> <em>en</em> is always <strong>last</strong> among pronouns: <em>Il </em><em>m'en</em><em> a parlé.</em> / <em>Il y </em><em>en</em><em> a.</em> / <em>Donne-</em><em>m'en</em><em> !</em> / <em>Je </em><em>lui en</em><em> ai donné.</em></p>"
+  },
+  {
+   "heading": "Common expressions with en",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Il y en a.</strong></td>\n<td>There are some.</td>\n</tr>\n<tr>\n<td><strong>J'en ai marre !</strong></td>\n<td>I'm fed up!</td>\n</tr>\n<tr>\n<td><strong>Je m'en fiche / Je m'en fous</strong> (vulgar)</td>\n<td>I don't care.</td>\n</tr>\n<tr>\n<td><strong>Ne t'en fais pas.</strong></td>\n<td>Don't worry.</td>\n</tr>\n<tr>\n<td><strong>J'en ai assez.</strong></td>\n<td>I've had enough.</td>\n</tr>\n<tr>\n<td><strong>Où en es-tu ?</strong></td>\n<td>Where are you at (with it)?</td>\n</tr>\n<tr>\n<td><strong>Je n'en peux plus.</strong></td>\n<td>I can't take it anymore.</td>\n</tr>\n<tr>\n<td><strong>s'en aller</strong></td>\n<td>to leave / go away (B2, Subject 117)</td>\n</tr>\n<tr>\n<td><strong>en vouloir à qqn</strong></td>\n<td>to hold a grudge against someone</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je mange des légumes.",
+   "instruction": "Replace with *en*:",
+   "answer": "*J'en mange.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Elle a trois chats.",
+   "answer": "*Elle en a trois.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Nous n'avons pas de lait.",
+   "answer": "*Nous n'en avons pas.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Il parle de son projet.",
+   "answer": "*Il en parle.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "J'ai acheté beaucoup de livres.",
+   "answer": "*J'en ai acheté beaucoup.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Tu veux une pomme ? — Oui, ___.",
+   "answer": "*Oui, j'en veux une.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"Don't worry!\" (tu) / \"I'm fed up!\"",
+   "answer": "*Ne t'en fais pas !* / *J'en ai marre !*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

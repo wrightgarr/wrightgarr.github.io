@@ -1,0 +1,171 @@
+{
+  "id": "b1-23",
+  "level": "B1",
+  "number": 23,
+  "title": "Pour ou contre les voitures ?",
+  "grammar": "connectors for building an argument",
+  "theme": "two opinion pieces",
+  "wordCount": 356,
+  "primer": [
+    "**d'abord / ensuite / enfin**: first / next / finally",
+    "**de plus / en outre / par ailleurs**: moreover / furthermore / besides",
+    "**d'une part… d'autre part…**: on the one hand… on the other…",
+    "**néanmoins / en revanche**: nevertheless / on the other hand",
+    "**en somme / bref**: in short",
+    "**un point de vue**: a point of view"
+  ],
+  "passage": [
+    [
+      "En novembre, la mairie de Marseille a proposé de fermer aux voitures toutes les rues autour du Vieux-Port. Le Mistral a décidé de publier deux points de vue opposés. Lucas a écrit le « pour », Théo le « contre »."
+    ],
+    [
+      "**Pour**, par Lucas Morel"
+    ],
+    [
+      "« D'abord, rappelons une évidence : un port est fait pour les bateaux et pour les gens, pas pour les embouteillages. Aujourd'hui, les enfants y respirent des gaz d'échappement et les cafés ont leurs terrasses au milieu du bruit."
+    ],
+    [
+      "Ensuite, les exemples étrangers montrent que les centres-villes piétons attirent plus de commerces. À Barcelone ou à Copenhague, les commerçants avaient peur au début. Aujourd'hui, ce sont eux qui défendent ces zones."
+    ],
+    [
+      "De plus, Marseille a besoin de retrouver son lien avec la mer. Imaginez des familles qui se promènent, des vélos, des musiciens…"
+    ],
+    [
+      "En somme, fermer le Vieux-Port aux voitures, ce n'est pas punir les automobilistes : c'est rendre la ville à ses habitants. »"
+    ],
+    [
+      "**Contre**, par Théo Garnier"
+    ],
+    [
+      "« Je comprends le rêve de mon collègue. Néanmoins, je crains qu'il oublie une réalité : Marseille n'est pas Copenhague."
+    ],
+    [
+      "D'une part, les transports en commun y sont insuffisants : le métro n'a que deux lignes, et de nombreux quartiers du nord sont mal desservis. D'autre part, beaucoup de Marseillais travaillent loin de chez eux, avec des horaires impossibles. Pour eux, la voiture n'est pas un luxe, c'est une nécessité."
+    ],
+    [
+      "Par ailleurs, qui profitera vraiment d'un Vieux-Port piéton ? Les touristes, les habitants des beaux quartiers, les restaurants chers. En revanche, l'infirmière qui habite au nord et travaille la nuit devra faire un détour d'une demi-heure."
+    ],
+    [
+      "Bref, je ne suis pas contre l'idée. Je suis contre l'ordre des choses : construisons d'abord un vrai réseau de transports, et nous fermerons les rues ensuite. »"
+    ],
+    [
+      "Le numéro a provoqué des débats passionnés. Au café, au marché, dans les bus, les Marseillais discutaient : pour ou contre ? Madame Ferrand, elle, a donné son avis à Léa sur le palier."
+    ],
+    [
+      "— Ils ont raison tous les deux. Mais moi, j'ai soixante-seize ans, je vais partout à pied, et personne ne me demande jamais mon avis.",
+      "— Vous voulez écrire le troisième article ?",
+      "— Pourquoi pas, ma belle. Je l'intitulerai : « Et les vieux, alors ? »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "la mairie",
+      "en": "the city council"
+    },
+    {
+      "fr": "une évidence",
+      "en": "an obvious truth"
+    },
+    {
+      "fr": "les embouteillages",
+      "en": "traffic jams"
+    },
+    {
+      "fr": "des gaz d'échappement",
+      "en": "exhaust fumes"
+    },
+    {
+      "fr": "piétons",
+      "en": "pedestrianized"
+    },
+    {
+      "fr": "attirent",
+      "en": "attract"
+    },
+    {
+      "fr": "les automobilistes",
+      "en": "drivers"
+    },
+    {
+      "fr": "je crains qu'il oublie",
+      "en": "I'm afraid he's forgetting"
+    },
+    {
+      "fr": "mal desservis",
+      "en": "poorly served (by public transport)"
+    },
+    {
+      "fr": "un luxe",
+      "en": "a luxury"
+    },
+    {
+      "fr": "les beaux quartiers",
+      "en": "the wealthy neighbourhoods"
+    },
+    {
+      "fr": "un réseau",
+      "en": "a network"
+    },
+    {
+      "fr": "le palier",
+      "en": "the landing"
+    },
+    {
+      "fr": "Je l'intitulerai",
+      "en": "I'll title it"
+    }
+  ],
+  "spotlight": [
+    "**Ordering an argument:** *D'abord… Ensuite… De plus… En somme…* Each paragraph opens with a connector, so readers always know where they are in the argument. *En somme* and *Bref* sum up; *bref* is a little more informal.",
+    "**Contrast and balance:** *D'une part… D'autre part…* sets out two related points. *Néanmoins* (nevertheless) and *En revanche* (on the other hand) introduce a contrast: *En revanche, l'infirmière qui habite au nord devra faire un détour.* *Par ailleurs* brings in a new angle."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Quels sont les trois arguments de Lucas ?",
+      "answer": "Le port est fait pour les gens, les centres piétons attirent des commerces, et Marseille doit retrouver la mer",
+      "options": [
+        "Le port est fait pour les gens, les centres piétons attirent des commerces, et Marseille doit retrouver la mer",
+        "Les voitures polluent, coûtent cher et sont dangereuses",
+        "Le métro est excellent, les vélos sont bon marché, les touristes sont nombreux",
+        "Les commerçants le demandent, la mairie a de l'argent, et il fait beau"
+      ],
+      "evidence": "En somme, fermer le Vieux-Port aux voitures, ce n'est pas punir les automobilistes : c'est rendre la ville à ses habitants."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi Théo dit-il que « Marseille n'est pas Copenhague » ?",
+      "answer": "Les transports en commun y sont insuffisants et beaucoup de gens ont besoin de leur voiture",
+      "options": [
+        "Les transports en commun y sont insuffisants et beaucoup de gens ont besoin de leur voiture",
+        "Il fait trop chaud à Marseille",
+        "Marseille n'a pas de port",
+        "Les Marseillais n'aiment pas les vélos"
+      ],
+      "evidence": "D'une part, les transports en commun y sont insuffisants : le métro n'a que deux lignes, et de nombreux quartiers du nord sont mal desservis."
+    },
+    {
+      "id": "q3",
+      "prompt": "Quel est le point de vue de Madame Ferrand ?",
+      "answer": "Les deux ont raison, mais on ne demande jamais l'avis des personnes âgées",
+      "options": [
+        "Les deux ont raison, mais on ne demande jamais l'avis des personnes âgées",
+        "Elle est pour, parce qu'elle n'a pas de voiture",
+        "Elle est contre, parce qu'elle conduit tous les jours",
+        "Elle n'a pas d'avis"
+      ],
+      "evidence": "Ils ont raison tous les deux. Mais moi, j'ai soixante-seize ans, je vais partout à pied, et personne ne me demande jamais mon avis."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez un court paragraphe (4–5 phrases) pour ou contre une idée de votre choix, avec au moins quatre connecteurs (*d'abord, de plus, en revanche, en somme*…).",
+    "model": "D'abord, le télétravail fait gagner du temps. De plus, il réduit la pollution. En revanche, on peut se sentir seul à la maison. En somme, je pense qu'il faut un équilibre.",
+    "targets": [
+      {
+        "label": "argument connectors (d'abord, ensuite, de plus, en outre, par ailleurs, d'une part, en revanche, néanmoins, en somme, bref…)",
+        "pattern": "d'abord|ensuite|de plus|en outre|par ailleurs|d'une part|d'autre part|en revanche|néanmoins|cependant|en somme|bref|enfin|pour conclure",
+        "min": 4
+      }
+    ]
+  }
+}

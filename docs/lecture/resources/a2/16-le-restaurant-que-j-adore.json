@@ -1,0 +1,163 @@
+{
+  "id": "a2-16",
+  "level": "A2",
+  "number": 16,
+  "title": "Le restaurant que j'adore",
+  "grammar": "relative pronouns *qui*, *que*, *où*",
+  "theme": "exploring the old town",
+  "wordCount": 200,
+  "primer": [
+    "**qui**: who, which, that (the subject of the next verb): *le chef qui cuisine*",
+    "**que / qu'**: who(m), which, that (the object): *le plat que je préfère*",
+    "**où**: where (also \"when\"): *le quartier où j'habite*",
+    "**une ruelle**: a narrow street, an alley",
+    "**la place**: the (town) square",
+    "**conseiller**: to recommend"
+  ],
+  "passage": [
+    [
+      "Lundi, Karim a fait visiter le Panier à Hugo. C'est le quartier qui monte derrière le Vieux-Port, avec des ruelles étroites et des maisons colorées."
+    ],
+    [
+      "— Tu vois cette petite place ? C'est la place où j'ai pris mon premier café à Marseille, a dit Karim. Et là, c'est la boulangerie qui fait les meilleures navettes. Ce sont des biscuits à la fleur d'oranger que les Marseillais mangent à la Chandeleur."
+    ],
+    [
+      "Ils ont continué. Sur les murs, il y avait des dessins et des peintures."
+    ],
+    [
+      "— Les artistes qui habitent ici décorent les murs, a expliqué Karim. Le quartier que tu vois aujourd'hui est très différent du quartier où mon père est arrivé en 1975."
+    ],
+    [
+      "À midi, Karim a choisi un petit restaurant qu'il adore. Le chef, qui s'appelle Mehdi, est un ami d'enfance."
+    ],
+    [
+      "— Qu'est-ce que tu nous conseilles ? a demandé Karim.",
+      "— Les panisses, que je fais moi-même, et le poisson que les pêcheurs ont apporté ce matin."
+    ],
+    [
+      "Hugo a goûté les panisses : ce sont des frites de farine de pois chiches."
+    ],
+    [
+      "— C'est exactement le plat que je cherchais ! Je veux la recette !"
+    ],
+    [
+      "Mehdi a ri."
+    ],
+    [
+      "— La recette, c'est un secret que ma grand-mère m'a donné. Mais pour un ami de Karim… peut-être !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "a fait visiter le Panier à Hugo",
+      "en": "showed Hugo around the Panier"
+    },
+    {
+      "fr": "étroites",
+      "en": "narrow"
+    },
+    {
+      "fr": "colorées",
+      "en": "colourful"
+    },
+    {
+      "fr": "les meilleures navettes",
+      "en": "the best navettes (boat-shaped biscuits)"
+    },
+    {
+      "fr": "la fleur d'oranger",
+      "en": "orange blossom"
+    },
+    {
+      "fr": "la Chandeleur",
+      "en": "Candlemas (February 2nd)"
+    },
+    {
+      "fr": "des dessins",
+      "en": "drawings"
+    },
+    {
+      "fr": "un ami d'enfance",
+      "en": "a childhood friend"
+    },
+    {
+      "fr": "les panisses",
+      "en": "chickpea-flour fries"
+    },
+    {
+      "fr": "moi-même",
+      "en": "myself"
+    },
+    {
+      "fr": "des pois chiches",
+      "en": "chickpeas"
+    },
+    {
+      "fr": "un secret",
+      "en": "a secret"
+    }
+  ],
+  "spotlight": [
+    "**Qui is the subject:** a verb follows it directly. *La boulangerie qui fait les meilleures navettes. Les artistes qui habitent ici.* **Que is the object:** a new subject follows it. *Le plat que je cherchais. Un restaurant qu'il adore.*",
+    "**Où for places and times:** *la place où j'ai pris mon premier café, le quartier où mon père est arrivé*. Unlike English, French never drops *que*: \"the dish I was looking for\" = *le plat que je cherchais*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Describe the Panier neighbourhood with two details.",
+      "answer": "Narrow alleys and colourful houses climbing behind the Old Port",
+      "options": [
+        "Narrow alleys and colourful houses climbing behind the Old Port",
+        "Wide avenues and modern buildings",
+        "A beach with restaurants",
+        "Big parks and fountains"
+      ],
+      "evidence": "C'est le quartier qui monte derrière le Vieux-Port, avec des ruelles étroites et des maisons colorées."
+    },
+    {
+      "id": "q2",
+      "prompt": "Who is Mehdi?",
+      "answer": "The chef of the restaurant, and Karim's childhood friend",
+      "options": [
+        "The chef of the restaurant, and Karim's childhood friend",
+        "Karim's brother, who is a fisherman",
+        "A famous artist from the Panier",
+        "Hugo's colleague from Paris"
+      ],
+      "evidence": "Le chef, qui s'appelle Mehdi, est un ami d'enfance."
+    },
+    {
+      "id": "q3",
+      "prompt": "Where does the panisse recipe come from?",
+      "answer": "It's a secret from Mehdi's grandmother",
+      "options": [
+        "It's a secret from Mehdi's grandmother",
+        "From a famous cookbook",
+        "From Madame Ferrand",
+        "Mehdi invented it last year"
+      ],
+      "evidence": "La recette, c'est un secret que ma grand-mère m'a donné."
+    }
+  ],
+  "writing": {
+    "prompt": "Describe a place you love in three sentences, using *qui*, *que* and *où*.",
+    "model": "J'adore le parc qui est près de chez moi. C'est un endroit que je visite tous les dimanches. C'est le parc où j'ai appris à faire du vélo.",
+    "targets": [
+      {
+        "label": "qui",
+        "pattern": "\\bqui\\b",
+        "min": 1
+      },
+      {
+        "label": "que / qu'",
+        "pattern": "\\bque\\b|\\bqu'",
+        "min": 1
+      },
+      {
+        "label": "où",
+        "pattern": "\\boù\\b",
+        "min": 1
+      }
+    ]
+  }
+}

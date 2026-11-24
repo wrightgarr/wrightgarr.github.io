@@ -1,0 +1,124 @@
+{
+  "id": "a1-14",
+  "level": "A1",
+  "number": 14,
+  "title": "À la boulangerie",
+  "grammar": "*prendre*, prices",
+  "theme": "buying bread",
+  "wordCount": 82,
+  "primer": [
+    "**prendre**: to take, have (*je prends, tu prends, il prend, nous prenons, ils prennent*)",
+    "**trente, quarante, cinquante**: 30, 40, 50",
+    "**Ça fait combien ?**: How much does that come to?",
+    "**une baguette**: a French baguette",
+    "**un euro cinquante**: €1.50",
+    "**le petit-déjeuner**: breakfast",
+    "**tous les matins**: every morning"
+  ],
+  "passage": [
+    [
+      "Tous les matins, Léa prend du pain à la boulangerie en face de l'immeuble. La boulangère s'appelle Madame Martin."
+    ],
+    [
+      "— Bonjour, madame ! Je voudrais une baguette, s'il vous plaît.",
+      "— Une baguette tradition ?",
+      "— Oui. Et je prends aussi deux croissants.",
+      "— Voilà. Ça fait trois euros cinquante."
+    ],
+    [
+      "Léa prend son porte-monnaie."
+    ],
+    [
+      "— Voilà cinq euros.",
+      "— Merci. Et voilà un euro cinquante. Bonne journée !",
+      "— Merci, vous aussi !"
+    ],
+    [
+      "Les croissants sont pour Marco et Amina. Aujourd'hui, ils prennent le petit-déjeuner ensemble chez Léa. Marco prend toujours deux croissants !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "la boulangère",
+      "en": "the (female) baker"
+    },
+    {
+      "fr": "une baguette tradition",
+      "en": "a traditional-recipe baguette"
+    },
+    {
+      "fr": "le porte-monnaie",
+      "en": "the coin purse, wallet"
+    },
+    {
+      "fr": "vous aussi",
+      "en": "you too"
+    },
+    {
+      "fr": "chez Léa",
+      "en": "at Léa's place"
+    },
+    {
+      "fr": "ensemble",
+      "en": "together"
+    }
+  ],
+  "spotlight": [
+    "**Prendre** is irregular: *je prends, il prend, nous prenons, ils prennent*. It's used for food and drink (*prendre un café*), transport (*prendre le métro*), and taking things.",
+    "**Prices:** say the euros, then the cents, without \"and\": *trois euros cinquante* = €3.50."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does Léa buy, and what's the total?",
+      "answer": "A baguette and two croissants — €3.50",
+      "options": [
+        "A baguette and two croissants — €3.50",
+        "Two baguettes — €5",
+        "A baguette and a pain au chocolat — €3.50",
+        "Three croissants — €1.50"
+      ],
+      "evidence": "Je voudrais une baguette… Et je prends aussi deux croissants. — Voilà. Ça fait trois euros cinquante."
+    },
+    {
+      "id": "q2",
+      "prompt": "How much change does she receive?",
+      "answer": "€1.50",
+      "options": [
+        "€1.50",
+        "€3.50",
+        "€0.50",
+        "€2"
+      ],
+      "evidence": "Merci. Et voilà un euro cinquante."
+    },
+    {
+      "id": "q3",
+      "prompt": "Who are the croissants for?",
+      "answer": "Marco and Amina",
+      "options": [
+        "Marco and Amina",
+        "Hugo and Monsieur Dubois",
+        "Her parents",
+        "Madame Martin"
+      ],
+      "evidence": "Les croissants sont pour Marco et Amina."
+    }
+  ],
+  "writing": {
+    "prompt": "Write a mini-dialogue (3 lines) buying something at a bakery, including a price.",
+    "model": "— Bonjour ! Je voudrais deux croissants, s'il vous plaît.\n— Voilà. Ça fait deux euros vingt.\n— Merci, bonne journée !",
+    "targets": [
+      {
+        "label": "je voudrais / je prends",
+        "pattern": "je voudrais|je prends",
+        "min": 1
+      },
+      {
+        "label": "a price (… euros)",
+        "pattern": "\\beuros?\\b",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "s86",
+ "subject": 86,
+ "level": "B1",
+ "title": "Independent, Main & Subordinate Clauses",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A <strong>clause</strong> (<em>une proposition</em>) is a group of words built around a <strong>conjugated verb</strong>. Count the conjugated verbs → count the clauses.</p>"
+  },
+  {
+   "heading": "1. Independent clause (proposition indépendante)",
+   "html": "<p>A clause that stands on its own and depends on nothing.\n- <em>Il pleut.</em>\n- <em>Je mange une pomme.</em></p>\n<p>Several independent clauses can be linked:\n- <strong>Juxtaposed</strong> (with punctuation): <em>Il pleut, je reste à la maison.</em>\n- <strong>Coordinated</strong> (with <em>mais, ou, et, donc, or, ni, car</em>): <em>Il pleut </em><em>donc</em><em> je reste à la maison.</em></p>"
+  },
+  {
+   "heading": "2. Main clause (proposition principale)",
+   "html": "<p>A clause that has another clause depending on it. It can often stand alone.\n- <em><strong>Je pense</strong> que tu as raison.</em></p>"
+  },
+  {
+   "heading": "3. Subordinate clause (proposition subordonnée)",
+   "html": "<p>A clause that <strong>depends</strong> on the main clause and can't stand alone. It's introduced by a subordinating word.\n- <em>Je pense </em><em>que tu as raison</em><em>.</em></p>"
+  },
+  {
+   "heading": "Types of subordinate clauses",
+   "html": "<table>\n<thead>\n<tr>\n<th>Type</th>\n<th>Introduced by</th>\n<th>Function</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Relative</strong> (relative)</td>\n<td>qui, que, dont, où, lequel</td>\n<td>describes a noun</td>\n<td><em>Le livre </em><em>que je lis</em><em> est passionnant.</em></td>\n</tr>\n<tr>\n<td><strong>Completive</strong> (complétive)</td>\n<td>que</td>\n<td>completes a verb (like an object)</td>\n<td><em>Je sais </em><em>qu'il viendra</em><em>.</em></td>\n</tr>\n<tr>\n<td><strong>Interrogative indirect</strong></td>\n<td>si, où, quand, ce que, comment…</td>\n<td>reported question</td>\n<td><em>Je me demande </em><em>s'il viendra</em><em>.</em></td>\n</tr>\n<tr>\n<td><strong>Circumstantial</strong> (circonstancielle)</td>\n<td>parce que, quand, si, bien que, pour que…</td>\n<td>adds circumstance: time, cause, purpose, condition, concession</td>\n<td><strong><em>Quand il pleut</em><em>, je lis.</em> / *Je lis </strong>parce que j'aime ça*<em>.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Circumstantial clauses in detail",
+   "html": "<table>\n<thead>\n<tr>\n<th>Circumstance</th>\n<th>Conjunctions</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Time</td>\n<td>quand, lorsque, dès que, pendant que, avant que*, après que</td>\n</tr>\n<tr>\n<td>Cause</td>\n<td>parce que, puisque, comme, vu que</td>\n</tr>\n<tr>\n<td>Consequence</td>\n<td>si bien que, de sorte que, si… que</td>\n</tr>\n<tr>\n<td>Purpose</td>\n<td>pour que<em>, afin que</em></td>\n</tr>\n<tr>\n<td>Condition</td>\n<td>si, à condition que<em>, pourvu que</em></td>\n</tr>\n<tr>\n<td>Concession</td>\n<td>bien que<em>, quoique</em>, même si</td>\n</tr>\n<tr>\n<td>Comparison</td>\n<td>comme, ainsi que</td>\n</tr>\n</tbody>\n</table>\n<p><em>* = takes the subjonctif</em></p>"
+  },
+  {
+   "heading": "Analysing a sentence",
+   "html": "<p><em>Je crois que Marie, qui habite à Lyon, viendra quand elle aura fini son travail.</em>\n1. <em>Je crois</em> — main clause\n2. <em>que Marie… viendra</em> — completive subordinate\n3. <em>qui habite à Lyon</em> — relative subordinate\n4. <em>quand elle aura fini son travail</em> — circumstantial (time) subordinate</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "*Le soleil brille.*",
+   "instruction": "Identify the type of clauses:",
+   "answer": "One independent clause.",
+   "id": "e1"
+  },
+  {
+   "prompt": "*J'ai faim mais je n'ai pas le temps de manger.*",
+   "answer": "Two coordinated independent clauses (*mais*).",
+   "id": "e2"
+  },
+  {
+   "prompt": "*Je sais que tu es fatigué.*",
+   "answer": "Main (*Je sais*) + completive subordinate (*que tu es fatigué*).",
+   "id": "e3"
+  },
+  {
+   "prompt": "*L'homme qui parle est mon oncle.*",
+   "answer": "Main (*L'homme… est mon oncle*) + relative subordinate (*qui parle*).",
+   "id": "e4"
+  },
+  {
+   "prompt": "*Je viendrai si j'ai le temps.*",
+   "answer": "Main (*Je viendrai*) + circumstantial subordinate of condition (*si j'ai le temps*).",
+   "id": "e5"
+  },
+  {
+   "prompt": "How many clauses are in: *Quand je suis rentré, j'ai vu que la fenêtre que j'avais fermée était ouverte.*",
+   "answer": "Four: *Quand je suis rentré* (time), *j'ai vu* (main), *que la fenêtre… était ouverte* (completive), *que j'avais fermée* (relative).",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

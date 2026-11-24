@@ -1,0 +1,68 @@
+{
+ "id": "s24",
+ "subject": 24,
+ "level": "A1",
+ "title": "Le Futur Proche",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>futur proche</strong> (near future) is the easiest way to talk about the future. It works like English \"going to\".</p>"
+  },
+  {
+   "heading": "Formation: aller (present) + infinitive",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>aller</th>\n<th>+ infinitive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td>vais</td>\n<td>manger</td>\n</tr>\n<tr>\n<td>tu</td>\n<td>vas</td>\n<td>partir</td>\n</tr>\n<tr>\n<td>il / elle / on</td>\n<td>va</td>\n<td>travailler</td>\n</tr>\n<tr>\n<td>nous</td>\n<td>allons</td>\n<td>voyager</td>\n</tr>\n<tr>\n<td>vous</td>\n<td>allez</td>\n<td>voir</td>\n</tr>\n<tr>\n<td>ils / elles</td>\n<td>vont</td>\n<td>finir</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Je </em><em>vais manger</em><em>.</em> — I'm going to eat.</li>\n<li><em>Il </em><em>va pleuvoir</em><em>.</em> — It's going to rain.</li>\n<li><em>Nous </em><em>allons voyager</em><em> en Italie.</em> — We're going to travel to Italy.</li>\n</ul>"
+  },
+  {
+   "heading": "When to use it",
+   "html": "<ol>\n<li>Plans and intentions: <em>Ce soir, je vais regarder un film.</em></li>\n<li>Something about to happen / certain: <em>Attention, tu vas tomber !</em> — Careful, you're going to fall!</li>\n<li>Near or planned future events (in speech, often replaces the futur simple): <em>L'année prochaine, je vais changer de travail.</em></li>\n</ol>"
+  },
+  {
+   "heading": "Negative: ne … pas around *aller*",
+   "html": "<p><em>Je </em><em>ne</em><em> vais </em><em>pas</em><em> venir.</em> — I'm not going to come.\n<em>Elle </em><em>ne</em><em> va </em><em>pas</em><em> travailler demain.</em></p>"
+  },
+  {
+   "heading": "Questions",
+   "html": "<p><em>Tu vas venir ?</em> / <em>Est-ce que tu vas venir ?</em> / <em>Vas-tu venir ?</em></p>"
+  },
+  {
+   "heading": "With pronouns: the pronoun goes before the infinitive",
+   "html": "<p><em>Je vais </em><em>le</em><em> faire.</em> — I'm going to do it.\n<em>Tu vas </em><em>te</em><em> coucher ?</em> — Are you going to go to bed?</p>"
+  },
+  {
+   "heading": "Going to go",
+   "html": "<p><em>Je vais </em><em>aller</em><em> au cinéma.</em> — I'm going to go to the movies. (Correct and common.)</p>"
+  },
+  {
+   "heading": "Time expressions often used",
+   "html": "<p><em>ce soir</em>, <em>demain</em>, <em>ce week-end</em>, <em>la semaine prochaine</em>, <em>bientôt</em> (soon), <em>dans deux jours</em> (in two days).</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Put into the futur proche: (a) *Je mange.* (b) *Nous partons.* (c) *Ils finissent.* (d) *Tu travailles.*",
+   "answer": "(a) *Je vais manger.* (b) *Nous allons partir.* (c) *Ils vont finir.* (d) *Tu vas travailler.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Make negative: *Elle va acheter une voiture.*",
+   "answer": "*Elle ne va pas acheter de voiture.* (note: une → de)",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"We're going to visit Québec next summer.\"",
+   "answer": "*Nous allons visiter le Québec l'été prochain.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"I'm going to call him tomorrow.\" (call him = *l'appeler*)",
+   "answer": "*Je vais l'appeler demain.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Write 3 sentences about your plans for this weekend.",
+   "answer": "Example: *Samedi, je vais faire du vélo. Dimanche, je vais voir mes parents. Le soir, je vais lire.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

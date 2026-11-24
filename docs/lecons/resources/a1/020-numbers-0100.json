@@ -1,0 +1,57 @@
+{
+ "id": "s20",
+ "subject": 20,
+ "level": "A1",
+ "title": "Numbers 0–100",
+ "sections": [
+  {
+   "heading": "0 to 20",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th></th>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>0 zéro</td>\n<td>6 six</td>\n<td>11 onze</td>\n<td>16 seize</td>\n</tr>\n<tr>\n<td>1 un / une</td>\n<td>7 sept</td>\n<td>12 douze</td>\n<td>17 dix-sept</td>\n</tr>\n<tr>\n<td>2 deux</td>\n<td>8 huit</td>\n<td>13 treize</td>\n<td>18 dix-huit</td>\n</tr>\n<tr>\n<td>3 trois</td>\n<td>9 neuf</td>\n<td>14 quatorze</td>\n<td>19 dix-neuf</td>\n</tr>\n<tr>\n<td>4 quatre</td>\n<td>10 dix</td>\n<td>15 quinze</td>\n<td>20 vingt</td>\n</tr>\n<tr>\n<td>5 cinq</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Tens",
+   "html": "<table>\n<thead>\n<tr>\n<th>20 vingt</th>\n<th>30 trente</th>\n<th>40 quarante</th>\n<th>50 cinquante</th>\n<th>60 soixante</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "21–69: the pattern",
+   "html": "<ul>\n<li><strong>1</strong> uses <strong>et</strong> (no hyphen): 21 <em>vingt </em><em>et</em><em> un</em>, 31 <em>trente et un</em>, 41 <em>quarante et un</em>, 51, 61.</li>\n<li>Others use a <strong>hyphen</strong>: 22 <em>vingt-deux</em>, 35 <em>trente-cinq</em>, 48 <em>quarante-huit</em>, 67 <em>soixante-sept</em>.</li>\n</ul>"
+  },
+  {
+   "heading": "70–99: the tricky part (France and Québec)",
+   "html": "<p>French counts by twenties above 60:\n| Number | Literally | French |\n|---|---|---|\n| 70 | 60 + 10 | <strong>soixante-dix</strong> |\n| 71 | 60 + 11 | <strong>soixante et onze</strong> |\n| 72 | 60 + 12 | soixante-douze |\n| 77 | 60 + 17 | soixante-dix-sept |\n| 80 | 4 × 20 | <strong>quatre-vingts</strong> |\n| 81 | 4 × 20 + 1 | <strong>quatre-vingt-un</strong> (no <em>et</em>, no s) |\n| 85 | | quatre-vingt-cinq |\n| 90 | 4 × 20 + 10 | <strong>quatre-vingt-dix</strong> |\n| 91 | 4 × 20 + 11 | quatre-vingt-onze |\n| 99 | 4 × 20 + 19 | quatre-vingt-dix-neuf |\n| 100 | | <strong>cent</strong> |</p>\n<p><strong>Belgium and Switzerland</strong> use <em>septante</em> (70), <em>nonante</em> (90), and in Switzerland <em>huitante</em> (80). Canada uses the France system.</p>\n<p><em>Quatre-vingts</em> keeps its <strong>s</strong> only when nothing follows: <em>quatre-vingts euros</em>, but <em>quatre-vingt-trois</em>.</p>"
+  },
+  {
+   "heading": "Pronunciation notes",
+   "html": "<ul>\n<li><strong>six, dix</strong>: final x is silent before a consonant (<em>six livres</em> \"see\"), \"z\" before a vowel (<em>six‿amis</em>), \"s\" when alone (<em>j'en ai six</em> \"sees\").</li>\n<li><strong>huit</strong>: t is silent before a consonant (<em>huit jours</em> \"wee joor\").</li>\n<li><strong>cinq</strong>: q often silent before a consonant (<em>cinq personnes</em>).</li>\n<li><strong>neuf</strong> → \"neuv\" before <em>ans</em> and <em>heures</em>: <em>neuf‿ans</em>.</li>\n<li><strong>vingt</strong>: t silent alone, but pronounced in 21–29 (<em>vingt-deux</em> \"vant-duh\").</li>\n<li><strong>un/une</strong> agrees with a feminine noun: <em>une pomme</em>, <em>vingt et une personnes</em>.</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "15, 17, 21, 34, 46",
+   "instruction": "Write in words:",
+   "answer": "quinze, dix-sept, vingt et un, trente-quatre, quarante-six",
+   "id": "e1"
+  },
+  {
+   "prompt": "70, 71, 75, 79",
+   "answer": "soixante-dix, soixante et onze, soixante-quinze, soixante-dix-neuf",
+   "id": "e2"
+  },
+  {
+   "prompt": "80, 81, 88, 90, 96, 99",
+   "answer": "quatre-vingts, quatre-vingt-un, quatre-vingt-huit, quatre-vingt-dix, quatre-vingt-seize, quatre-vingt-dix-neuf",
+   "id": "e3"
+  },
+  {
+   "prompt": "Write in numbers: *soixante-treize*, *quatre-vingt-quatorze*, *cinquante et un*.",
+   "answer": "73, 94, 51",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"I am 61 years old and my father is 88.\"",
+   "answer": "*J'ai soixante et un ans et mon père a quatre-vingt-huit ans.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

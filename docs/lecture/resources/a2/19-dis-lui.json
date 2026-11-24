@@ -1,0 +1,169 @@
+{
+  "id": "a2-19",
+  "level": "A2",
+  "number": 19,
+  "title": "Dis-lui !",
+  "grammar": "the imperative with pronouns",
+  "theme": "advice for a friend in love",
+  "wordCount": 179,
+  "primer": [
+    "**affirmative: verb-pronoun**: *Dis-lui ! Envoie-le ! Aide-moi !*",
+    "**moi / toi** replace *me / te* after the verb: *Dépêche-toi !*",
+    "**negative: pronoun before the verb**: *Ne lui écris pas ça ! Ne t'inquiète pas !*",
+    "**être → sois**: be (*Sois naturel !*)",
+    "**amoureux / amoureuse**: in love",
+    "**oser**: to dare"
+  ],
+  "passage": [
+    [
+      "Depuis la visite d'Amina, Karim est bizarre. Il pose toujours des questions sur elle. Un soir, il a enfin avoué la vérité à Léa : il est amoureux !"
+    ],
+    [
+      "— Je pense à elle tout le temps. Qu'est-ce que je fais ?",
+      "— C'est simple : dis-lui !",
+      "— Lui dire ? Mais elle habite à Paris ! Et si elle dit non ?",
+      "— Ne t'inquiète pas. Écris-lui un message. Pas trop long. Sois naturel.",
+      "— D'accord. Aide-moi, s'il te plaît. Regarde : « Chère Amina, depuis ton départ, Marseille est triste… »",
+      "— Non, non ! Ne lui écris pas ça ! C'est trop dramatique. Sois drôle. Parle-lui d'Aix et des calissons !",
+      "— Bon… « Salut Amina ! Il paraît que tu adores les calissons. La prochaine fois que tu viens, je t'emmène à Aix ? »",
+      "— Parfait. Envoie-le !",
+      "— Maintenant ? Attends, je n'ose pas…",
+      "— Envoie-le, Karim ! Dépêche-toi, avant de changer d'avis !"
+    ],
+    [
+      "Karim a appuyé sur « envoyer ». Cinq minutes plus tard, son téléphone a vibré."
+    ],
+    [
+      "— Elle a répondu ! « Avec plaisir ! Et tu m'offriras aussi une glace sur le Vieux-Port ? »"
+    ],
+    [
+      "Karim a souri jusqu'aux oreilles."
+    ],
+    [
+      "— Léa, merci. Ne dis rien à personne, d'accord ?",
+      "— Promis… Mais je crois que Madame Ferrand le sait déjà !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "bizarre",
+      "en": "strange"
+    },
+    {
+      "fr": "pose des questions",
+      "en": "asks questions",
+      "match": [
+        "pose toujours des questions"
+      ]
+    },
+    {
+      "fr": "a avoué",
+      "en": "confessed",
+      "match": [
+        "a enfin avoué"
+      ]
+    },
+    {
+      "fr": "la vérité",
+      "en": "the truth"
+    },
+    {
+      "fr": "tout le temps",
+      "en": "all the time"
+    },
+    {
+      "fr": "ton départ",
+      "en": "your leaving"
+    },
+    {
+      "fr": "dramatique",
+      "en": "over the top"
+    },
+    {
+      "fr": "drôle",
+      "en": "funny"
+    },
+    {
+      "fr": "Il paraît que",
+      "en": "Apparently"
+    },
+    {
+      "fr": "je t'emmène",
+      "en": "I'll take you"
+    },
+    {
+      "fr": "avant de changer d'avis",
+      "en": "before you change your mind"
+    },
+    {
+      "fr": "a appuyé sur",
+      "en": "pressed"
+    },
+    {
+      "fr": "a vibré",
+      "en": "buzzed"
+    },
+    {
+      "fr": "jusqu'aux oreilles",
+      "en": "from ear to ear"
+    }
+  ],
+  "spotlight": [
+    "**Affirmative commands: the pronoun goes after the verb, with a hyphen.** *Dis-lui ! Écris-lui un message. Envoie-le ! Aide-moi !* After the verb, *me* becomes *moi* and *te* becomes *toi*: *Dépêche-toi !*",
+    "**Negative commands: the pronoun goes back in front.** *Ne lui écris pas ça ! Ne t'inquiète pas !* *Être* has an irregular imperative: *sois* (be). *Sois naturel. Sois drôle.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is Karim's secret?",
+      "answer": "He's in love with Amina",
+      "options": [
+        "He's in love with Amina",
+        "He wants to leave the magazine",
+        "He's moving to Paris",
+        "He lost Léa's photos"
+      ],
+      "evidence": "Un soir, il a enfin avoué la vérité à Léa : il est amoureux !"
+    },
+    {
+      "id": "q2",
+      "prompt": "Why doesn't Léa like Karim's first message?",
+      "answer": "It's too dramatic",
+      "options": [
+        "It's too dramatic",
+        "It's too short",
+        "It's in English",
+        "It's too funny"
+      ],
+      "evidence": "Non, non ! Ne lui écris pas ça ! C'est trop dramatique."
+    },
+    {
+      "id": "q3",
+      "prompt": "How does Amina reply?",
+      "answer": "She says yes, and asks for an ice cream on the Old Port too",
+      "options": [
+        "She says yes, and asks for an ice cream on the Old Port too",
+        "She says she's too busy",
+        "She doesn't reply",
+        "She asks him to come to Paris instead"
+      ],
+      "evidence": "Avec plaisir ! Et tu m'offriras aussi une glace sur le Vieux-Port ?"
+    }
+  ],
+  "writing": {
+    "prompt": "Give a friend three pieces of advice using imperatives with pronouns (one of them negative).",
+    "model": "Appelle-la ce soir ! Dis-lui la vérité. Ne t'inquiète pas trop !",
+    "targets": [
+      {
+        "label": "affirmative command + pronoun (dis-lui, appelle-moi…)",
+        "pattern": "\\b[a-zà-ÿ]+-(moi|toi|lui|leur|le|la|les|nous|vous|en|y)\\b",
+        "min": 2
+      },
+      {
+        "label": "a negative command",
+        "pattern": "\\bne\\s+(le|la|les|lui|leur|me|te|t'|m'|nous|vous|l')?\\s*[a-zà-ÿ]+\\s+(pas|jamais|rien|plus)\\b|\\bn'[a-zà-ÿ]+\\s+(pas|jamais|rien|plus)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

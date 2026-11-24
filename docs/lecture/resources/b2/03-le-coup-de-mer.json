@@ -1,0 +1,187 @@
+{
+  "id": "b2-03",
+  "level": "B2",
+  "number": 3,
+  "title": "Le coup de mer",
+  "grammar": "the passé simple (recognition)",
+  "theme": "a story written by Jean",
+  "wordCount": 524,
+  "primer": [
+    "**le passé simple**: the literary past tense of novels and history books (*il partit* = *il est parti*)",
+    "**-er verbs**: *-ai, -as, -a, -âmes, -âtes, -èrent* (*il regarda, ils regardèrent*)",
+    "**-ir / -re verbs**: *-is, -it, -irent* (*il partit, il prit, il dit*)",
+    "**-u verbs**: *il fut, il eut, il crut, il sut, il dut*",
+    "**nous / vous forms (rare)**: *nous partîmes, nous eûmes*",
+    "**un coup de mer**: a sudden storm at sea"
+  ],
+  "passage": [
+    [
+      "Le carnet numéro 4 ne ressemblait pas aux autres. À seize ans, Jean avait voulu écrire comme les écrivains qu'il lisait à la bibliothèque municipale. Il avait donc utilisé le passé simple, ce temps littéraire qu'on n'emploie presque jamais à l'oral. Le récit s'intitulait « Le coup de mer »."
+    ],
+    [
+      "« Ce matin de février 1962, le ciel fut d'abord d'un bleu parfait. Mon oncle Baptiste regarda l'horizon, renifla le vent comme un chien, et déclara que nous pouvions sortir. Nous partîmes à cinq heures, lui, son fils Toni et moi, sur la Marie-Rose, notre barque de huit mètres."
+    ],
+    [
+      "Pendant deux heures, tout alla bien. Les filets se remplirent de rougets et de loups. Toni chantait. Moi, je rêvais, comme toujours."
+    ],
+    [
+      "Vers dix heures, le vent tourna. Baptiste se tut. Il fixa une ligne sombre qui grandissait au nord, au-dessus de l'Estaque. Je compris à son visage que quelque chose n'allait pas."
+    ],
+    [
+      "— Rentrez les filets, dit-il simplement. Vite."
+    ],
+    [
+      "Nous n'eûmes pas le temps de les rentrer tous. Le mistral arriva d'un coup, comme une gifle. La mer, si calme une heure plus tôt, devint blanche. Des vagues énormes soulevèrent la Marie-Rose et la laissèrent retomber avec un bruit de tonnerre. Toni cessa de chanter. Je m'accrochai au bord, trempé, incapable de penser."
+    ],
+    [
+      "Baptiste, lui, ne perdit pas son calme. Il prit la barre et cria des ordres que le vent emportait. Pendant trois heures, il lutta contre la mer. Je crus mille fois que nous allions mourir. Je pensai à ma mère sur le quai, à mon père, à mes carnets que personne ne lirait."
+    ],
+    [
+      "Enfin, vers une heure, nous aperçûmes la jetée. Des hommes nous attendaient, des cordes à la main. Quand la Marie-Rose toucha le quai, ma mère courut vers moi et me serra si fort que je faillis étouffer. Mon oncle, lui, alluma une cigarette, regarda la mer et dit :"
+    ],
+    [
+      "— Elle nous a laissés partir, cette fois."
+    ],
+    [
+      "Ce soir-là, je sus que je ne serais jamais pêcheur. Mais je sus aussi que j'écrirais toute ma vie. »"
+    ],
+    [
+      "Léa a fini sa lecture. Madame Ferrand essuyait ses lunettes."
+    ],
+    [
+      "— C'est vrai, tout ça ?",
+      "— Tu connais Jean. À moitié vrai, à moitié rêvé. Mais Baptiste a existé. Il est mort dans son lit, très vieux, et il racontait cette tempête à tout le monde. Dans sa version, les vagues faisaient vingt mètres.",
+      "— Et dans la version de Jean ?",
+      "— Dans la version de Jean, il y a une phrase que je n'avais jamais entendue : « mes carnets que personne ne lirait ». Il avait seize ans, et il avait déjà peur de ça."
+    ],
+    [
+      "Léa a regardé le carnet ouvert sur la table."
+    ],
+    [
+      "— Il s'est trompé. Nous les lisons."
+    ],
+    [
+      "Ce soir-là, dans son lit, Léa a relu le récit. Elle a remarqué des détails qui lui avaient échappé : la manière dont Jean décrivait la lumière sur l'eau, le silence de Baptiste avant la tempête, les mains de sa mère sur le quai. Ce n'était pas seulement l'histoire d'une tempête. C'était le regard d'un photographe qui n'avait pas d'appareil. Elle a compris que ses photos et les mots de Jean pourraient se répondre, page après page, comme deux voix dans une même conversation."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "à l'oral",
+      "en": "in speech"
+    },
+    {
+      "fr": "s'intitulait",
+      "en": "was called"
+    },
+    {
+      "fr": "renifla",
+      "en": "sniffed"
+    },
+    {
+      "fr": "des loups",
+      "en": "sea bass (Mediterranean name)"
+    },
+    {
+      "fr": "se tut",
+      "en": "fell silent"
+    },
+    {
+      "fr": "une gifle",
+      "en": "a slap"
+    },
+    {
+      "fr": "soulevèrent",
+      "en": "lifted"
+    },
+    {
+      "fr": "je m'accrochai",
+      "en": "I held on"
+    },
+    {
+      "fr": "trempé",
+      "en": "soaked"
+    },
+    {
+      "fr": "la barre",
+      "en": "the helm"
+    },
+    {
+      "fr": "il lutta",
+      "en": "he fought"
+    },
+    {
+      "fr": "nous aperçûmes",
+      "en": "we caught sight of"
+    },
+    {
+      "fr": "la jetée",
+      "en": "the jetty"
+    },
+    {
+      "fr": "je faillis étouffer",
+      "en": "I nearly suffocated"
+    },
+    {
+      "fr": "à moitié",
+      "en": "half"
+    }
+  ],
+  "spotlight": [
+    "**Recognizing the passé simple:** it does the same job as the passé composé, but in writing. *Le ciel fut d'abord d'un bleu parfait* (a été), *Baptiste se tut* (s'est tu), *Le mistral arriva d'un coup* (est arrivé), *Nous n'eûmes pas le temps* (n'avons pas eu). At B2 you need to recognize it; you don't need to produce it.",
+    "**It still pairs with the imparfait:** *Toni chantait. Moi, je rêvais* (background) vs. *Vers dix heures, le vent tourna* (event). The dialogue stays in everyday tenses (*Rentrez les filets. Elle nous a laissés partir.*), and when Léa and Madame Ferrand talk in the present day, they switch back to the passé composé: *Il s'est trompé.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Comment Baptiste a-t-il décidé qu'ils pouvaient sortir en mer ?",
+      "answer": "Il a regardé l'horizon et reniflé le vent",
+      "options": [
+        "Il a regardé l'horizon et reniflé le vent",
+        "Il a écouté la météo à la radio",
+        "Il a demandé conseil à Toni",
+        "Il a regardé un baromètre"
+      ],
+      "evidence": "Mon oncle Baptiste regarda l'horizon, renifla le vent comme un chien, et déclara que nous pouvions sortir."
+    },
+    {
+      "id": "q2",
+      "prompt": "Que s'est-il passé vers dix heures, et comment chacun a-t-il réagi ?",
+      "answer": "Le vent a tourné ; Baptiste s'est tu et a pris la barre, Jean s'est accroché, terrifié",
+      "options": [
+        "Le vent a tourné ; Baptiste s'est tu et a pris la barre, Jean s'est accroché, terrifié",
+        "Ils ont attrapé un énorme poisson",
+        "Le moteur est tombé en panne",
+        "Toni est tombé à l'eau"
+      ],
+      "evidence": "Vers dix heures, le vent tourna. Baptiste se tut."
+    },
+    {
+      "id": "q3",
+      "prompt": "Qu'est-ce que Jean a compris ce soir-là, et pourquoi une de ses phrases touche-t-elle Madame Ferrand ?",
+      "answer": "Qu'il ne serait jamais pêcheur, mais qu'il écrirait toute sa vie ; elle découvre qu'il avait peur que personne ne lise ses carnets",
+      "options": [
+        "Qu'il ne serait jamais pêcheur, mais qu'il écrirait toute sa vie ; elle découvre qu'il avait peur que personne ne lise ses carnets",
+        "Qu'il voulait devenir capitaine ; elle ne le savait pas",
+        "Qu'il quitterait Marseille ; cela l'avait rendue triste",
+        "Qu'il épouserait Simone ; elle trouve cela romantique"
+      ],
+      "evidence": "Ce soir-là, je sus que je ne serais jamais pêcheur. Mais je sus aussi que j'écrirais toute ma vie."
+    }
+  ],
+  "writing": {
+    "prompt": "Mettez ces phrases au passé composé : *Il partit à l'aube. Nous eûmes peur. Elle prit la barre. Ils revinrent le soir.* Puis écrivez deux phrases d'un récit au passé simple, avec des verbes en *-er*.",
+    "model": "Il est parti à l'aube. Nous avons eu peur. Elle a pris la barre. Ils sont revenus le soir. Le vent tourna soudain. Les marins regardèrent le ciel en silence.",
+    "targets": [
+      {
+        "label": "passé composé versions (est parti, avons eu, a pris, sont revenus)",
+        "pattern": "est parti|avons eu|a pris|sont revenus",
+        "min": 3
+      },
+      {
+        "label": "passé simple -er verbs (-a, -èrent)",
+        "pattern": "\\b[a-zà-ÿ]{3,}(èrent)\\b|\\b(il|elle|on)\\s+[a-zà-ÿ]{3,}a\\b|\\b(le|la|un|une)\\s+[a-zà-ÿ]+\\s+[a-zà-ÿ]{3,}a\\b",
+        "min": 1
+      }
+    ]
+  }
+}

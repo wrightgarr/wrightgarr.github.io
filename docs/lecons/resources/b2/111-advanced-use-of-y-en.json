@@ -1,0 +1,74 @@
+{
+ "id": "s111",
+ "subject": 111,
+ "level": "B2",
+ "title": "Advanced Use of \"y\" & \"en\"",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>At B2 level you need to master <strong>double pronouns</strong>, <strong>imperative forms</strong>, and <strong>idiomatic uses</strong> of <em>y</em> and <em>en</em>.</p>"
+  },
+  {
+   "heading": "1. Full pronoun order (before the verb)",
+   "html": "<table>\n<thead>\n<tr>\n<th>1</th>\n<th>2</th>\n<th>3</th>\n<th>4</th>\n<th>5</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>me, te, se, nous, vous</td>\n<td>le, la, les</td>\n<td>lui, leur</td>\n<td><strong>y</strong></td>\n<td><strong>en</strong></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Il </em><em>m'en</em><em> a parlé.</em> — He told me about it.</li>\n<li><em>Je </em><em>lui en</em><em> ai donné.</em> — I gave him some.</li>\n<li><em>Il </em><em>y en</em><em> a trois.</em> — There are three (of them).</li>\n<li><em>Je </em><em>t'y</em><em> emmène.</em> — I'll take you there.</li>\n<li><em>Elle </em><em>les y</em><em> a mis.</em> — She put them there.</li>\n<li><em>Vous </em><em>vous en</em><em> souvenez ?</em> — Do you remember it?</li>\n</ul>\n<p><strong>Y and en together:</strong> always <strong>y en</strong> (only common in <em>il y en a</em>).</p>"
+  },
+  {
+   "heading": "2. Affirmative imperative order",
+   "html": "<p>Verb – <strong>COD</strong> – <strong>COI</strong> – <strong>y</strong> – <strong>en</strong> (me/te → moi/toi, but <strong>m'/t'</strong> before <em>en</em> and <em>y</em>)\n- <em>Donne-</em><em>m'en</em><em> !</em> — Give me some! (not ~~donne-moi-en~~)\n- <em>Parle-</em><em>lui-en</em><em> !</em> — Tell him about it!\n- <em>Va-</em><em>t'en</em><em> !</em> — Go away!\n- <em>Mets-</em><em>les-y</em><em> !</em> — Put them there!\n- <em>Achètes-</em><em>en</em><em> !</em> / <em>Vas-</em><em>y</em><em> !</em> (s added before y/en)</p>"
+  },
+  {
+   "heading": "3. Negative imperative: normal order",
+   "html": "<p><em>Ne </em><em>m'en</em><em> donne pas !</em> / <em>Ne </em><em>lui en</em><em> parle pas !</em> / <em>Ne </em><em>t'en</em><em> va pas !</em> / <em>N'</em><em>y</em><em> pense plus !</em></p>"
+  },
+  {
+   "heading": "4. En with past participle: no agreement",
+   "html": "<p><em>Des pommes ? J'</em><em>en</em><em> ai mangé.</em> (no agreement — <em>en</em> is not a preceding direct object for agreement purposes)</p>"
+  },
+  {
+   "heading": "5. Y and en replacing whole clauses / ideas",
+   "html": "<ul>\n<li><em>Tu as pensé </em><em>à réserver</em><em> ?</em> — <em>Oui, j'</em><em>y</em><em> ai pensé.</em></li>\n<li><em>Il est capable </em><em>de réussir</em><em>.</em> — <em>Il </em><em>en</em><em> est capable.</em></li>\n<li><em>Je suis sûr </em><em>qu'il viendra</em><em>.</em> — <em>J'</em><em>en</em><em> suis sûr.</em></li>\n<li><em>Tu t'attendais </em><em>à ce qu'il parte</em><em> ?</em> — <em>Je m'</em><em>y</em><em> attendais.</em></li>\n</ul>"
+  },
+  {
+   "heading": "6. Idiomatic expressions with y",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>s'y prendre</strong></td>\n<td>to go about it (<em>Comment tu t'y prends ?</em>)</td>\n</tr>\n<tr>\n<td><strong>s'y connaître</strong></td>\n<td>to know a lot about it (<em>Il s'y connaît en vin.</em>)</td>\n</tr>\n<tr>\n<td><strong>y être pour quelque chose / rien</strong></td>\n<td>to have something / nothing to do with it</td>\n</tr>\n<tr>\n<td><strong>y aller fort</strong></td>\n<td>to go too far, overdo it (<em>Tu y vas un peu fort !</em>)</td>\n</tr>\n<tr>\n<td><strong>y mettre du sien</strong></td>\n<td>to make an effort, do one's part</td>\n</tr>\n<tr>\n<td><strong>s'y faire</strong></td>\n<td>to get used to it</td>\n</tr>\n<tr>\n<td><strong>ça y est</strong></td>\n<td>that's it, done</td>\n</tr>\n<tr>\n<td><strong>il y va de</strong></td>\n<td>… is at stake (<em>Il y va de ta santé.</em>)</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "7. Idiomatic expressions with en",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>s'en aller</strong></td>\n<td>to leave</td>\n</tr>\n<tr>\n<td><strong>en vouloir à qqn</strong></td>\n<td>to hold a grudge / be mad at someone (<em>Je ne t'en veux pas.</em>)</td>\n</tr>\n<tr>\n<td><strong>s'en sortir</strong></td>\n<td>to manage, get by</td>\n</tr>\n<tr>\n<td><strong>en avoir marre / assez</strong></td>\n<td>to be fed up</td>\n</tr>\n<tr>\n<td><strong>ne pas en revenir</strong></td>\n<td>to not get over it, be amazed (<em>Je n'en reviens pas !</em>)</td>\n</tr>\n<tr>\n<td><strong>en finir avec</strong></td>\n<td>to be done with</td>\n</tr>\n<tr>\n<td><strong>s'en prendre à</strong></td>\n<td>to blame, attack</td>\n</tr>\n<tr>\n<td><strong>en être</strong></td>\n<td>to be at (a point) (<em>Où en es-tu ?</em>)</td>\n</tr>\n<tr>\n<td><strong>en faire trop</strong></td>\n<td>to overdo it</td>\n</tr>\n<tr>\n<td><strong>s'en remettre à</strong></td>\n<td>to rely on</td>\n</tr>\n<tr>\n<td><strong>c'en est trop</strong></td>\n<td>that's too much</td>\n</tr>\n<tr>\n<td><strong>en avoir pour</strong> (+ time)</td>\n<td>to take (time) (<em>J'en ai pour 5 minutes.</em>)</td>\n</tr>\n<tr>\n<td>(More with <em>s'en</em> in Subject 117.)</td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Il a donné des bonbons aux enfants.",
+   "instruction": "Replace with two pronouns:",
+   "answer": "*Il leur en a donné.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Je t'ai parlé de ce problème.",
+   "answer": "*Je t'en ai parlé.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Il y a des pommes sur la table. (combien: 5)",
+   "answer": "*Il y en a cinq.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Give the affirmative imperative: (a) *Tu me donnes du pain.* (b) *Tu lui parles de ton projet.*",
+   "answer": "(a) *Donne-m'en !* (b) *Parle-lui-en !*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Make negative: *Va-t'en !*",
+   "answer": "*Ne t'en va pas !*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I can't believe it!\" / \"I'm not mad at you.\"",
+   "answer": "*Je n'en reviens pas !* / *Je ne t'en veux pas.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

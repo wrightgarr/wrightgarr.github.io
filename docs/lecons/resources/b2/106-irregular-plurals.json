@@ -1,0 +1,81 @@
+{
+ "id": "s106",
+ "subject": 106,
+ "level": "B2",
+ "title": "Irregular Plurals",
+ "sections": [
+  {
+   "heading": "General rule: + s",
+   "html": "<p><em>un livre → des livres</em> (s silent).</p>"
+  },
+  {
+   "heading": "1. Words ending in -s, -x, -z: no change",
+   "html": "<p><em>un bras → des bras</em>, <em>une voix → des voix</em>, <em>un nez → des nez</em>, <em>un prix → des prix</em>.</p>"
+  },
+  {
+   "heading": "2. -eau, -au, -eu → + x",
+   "html": "<table>\n<thead>\n<tr>\n<th>Singular</th>\n<th>Plural</th>\n<th>Exceptions (+ s)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>un bateau</td>\n<td>des bateau<strong>x</strong></td>\n<td></td>\n</tr>\n<tr>\n<td>un tuyau</td>\n<td>des tuyau<strong>x</strong></td>\n<td>des landau<strong>s</strong>, des sarrau<strong>s</strong></td>\n</tr>\n<tr>\n<td>un jeu, un cheveu</td>\n<td>des jeu<strong>x</strong>, des cheveu<strong>x</strong></td>\n<td>des pneu<strong>s</strong>, des bleu<strong>s</strong>, des émeu<strong>s</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "3. -ou → + s, except 7 words → + x",
+   "html": "<p><em>un trou → des trous</em>, <em>un fou → des fous</em>, <em>un clou → des clous</em> (nail)\n<strong>The 7 exceptions:</strong> <em>bijou, caillou, chou, genou, hibou, joujou, pou</em> → <strong>bijoux, cailloux, choux, genoux, hiboux, joujoux, poux</strong> (jewel, pebble, cabbage, knee, owl, toy, louse).</p>"
+  },
+  {
+   "heading": "4. -al → -aux",
+   "html": "<p><em>un cheval → des chevaux</em>, <em>un journal → des journaux</em>, <em>un animal → des animaux</em>, <em>un hôpital → des hôpitaux</em>.\n<strong>Exceptions (+ s):</strong> <em>bal, carnaval, chacal, festival, récital, régal</em> → <em>des bals, des carnavals, des festivals…</em>\n(Adjectives too: <em>banal → banals, fatal → fatals, final → finals / finaux, naval → navals</em>.)</p>"
+  },
+  {
+   "heading": "5. -ail → + s, except 7 → -aux",
+   "html": "<p><em>un détail → des détails</em>, <em>un éventail → des éventails</em>\n<strong>Exceptions:</strong> <em>bail, corail, émail, soupirail, travail, vantail, vitrail</em> → <strong>baux, coraux, émaux, soupiraux, travaux, vantaux, vitraux</strong>.\nNote: <em>les travaux</em> also means \"construction work / roadworks\".</p>"
+  },
+  {
+   "heading": "6. Totally irregular",
+   "html": "<table>\n<thead>\n<tr>\n<th>Singular</th>\n<th>Plural</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>un œil</td>\n<td>des <strong>yeux</strong></td>\n</tr>\n<tr>\n<td>le ciel</td>\n<td>les <strong>cieux</strong> (heavens; <em>les ciels</em> in painting/climate)</td>\n</tr>\n<tr>\n<td>un aïeul</td>\n<td>des <strong>aïeux</strong> (ancestors) / aïeuls (grandparents)</td>\n</tr>\n<tr>\n<td>monsieur</td>\n<td><strong>messieurs</strong></td>\n</tr>\n<tr>\n<td>madame</td>\n<td><strong>mesdames</strong></td>\n</tr>\n<tr>\n<td>mademoiselle</td>\n<td><strong>mesdemoiselles</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "7. Pronunciation changes",
+   "html": "<p><em>un œuf</em> (\"euf\") → <em>des œufs</em> (\"euh\") / <em>un bœuf</em> → <em>des bœufs</em> (\"beuh\") / <em>un os</em> (\"oss\") → <em>des os</em> (\"oh\").</p>"
+  },
+  {
+   "heading": "8. Compound nouns",
+   "html": "<p>General principle: only <strong>nouns and adjectives</strong> take the plural; <strong>verbs, adverbs, prepositions</strong> don't.\n| Type | Example |\n|---|---|\n| noun + noun | <em>un chou-fleur → des choux-fleurs</em> |\n| adjective + noun | <em>un grand-parent → des grands-parents</em> |\n| noun + de + noun | <em>un chef-d'œuvre → des chefs-d'œuvre</em> / <em>une pomme de terre → des pommes de terre</em> |\n| verb + noun | <em>un tire-bouchon → des tire-bouchons</em> / <em>un ouvre-boîte → des ouvre-boîtes</em> |\n| adverb/prefix + noun | <em>un haut-parleur → des haut-parleurs</em> / <em>un arrière-plan → des arrière-plans</em> |\n| invariable | <em>un après-midi → des après-midi(s)</em> / <em>un gratte-ciel → des gratte-ciels (gratte-ciel)</em> |</p>"
+  },
+  {
+   "heading": "9. Plural-only nouns",
+   "html": "<p><em>les gens</em> (people), <em>les vacances</em> (holiday), <em>les lunettes</em> (glasses), <em>les ciseaux</em> (scissors), <em>les fiançailles</em> (engagement), <em>les mœurs</em> (customs), <em>les environs</em> (surroundings), <em>les frais</em> (costs), <em>les archives</em>.</p>"
+  },
+  {
+   "heading": "10. Proper nouns and family names",
+   "html": "<p>Family names don't take an s: <em>les Martin</em>, <em>les Tremblay</em>. (Royal dynasties can: <em>les Bourbons</em>.)</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "un jeu, un pneu, un genou, un trou.",
+   "instruction": "Write the plural:",
+   "answer": "*des jeux, des pneus, des genoux, des trous.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "un animal, un festival, un travail, un détail.",
+   "answer": "*des animaux, des festivals, des travaux, des détails.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "un œil, monsieur, un ciel (heavens).",
+   "answer": "*des yeux, messieurs, les cieux.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "un grand-père, un tire-bouchon, un chef-d'œuvre, un chou-fleur.",
+   "answer": "*des grands-pères, des tire-bouchons, des chefs-d'œuvre, des choux-fleurs.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Correct: *Les Dupuis ont acheté des bijous et des journals.*",
+   "answer": "*Les Dupuis ont acheté des bijoux et des journaux.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

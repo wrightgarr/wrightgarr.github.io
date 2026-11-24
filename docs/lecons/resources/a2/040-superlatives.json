@@ -1,0 +1,65 @@
+{
+ "id": "s40",
+ "subject": 40,
+ "level": "A2",
+ "title": "Superlatives",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Superlatives express the extreme: the most, the least, the best.</p>"
+  },
+  {
+   "heading": "With adjectives: le / la / les + plus / moins + adjective",
+   "html": "<ul>\n<li><em>C'est </em><em>la plus</em><em> belle ville du monde.</em> — It's the most beautiful city in the world.</li>\n<li><em>Paul est </em><em>le plus</em><em> grand de la classe.</em></li>\n<li><em>Ce sont </em><em>les moins</em><em> chers.</em> — They're the least expensive.</li>\n</ul>"
+  },
+  {
+   "heading": "Position",
+   "html": "<p>Follow the adjective's normal position:\n- <strong>Before the noun</strong> (BAGS adjectives): <em>la </em><em>plus</em><em> belle maison</em>\n- <strong>After the noun:</strong> repeat the article: <em>la maison </em><em>la plus</em><em> moderne</em>, <em>le film </em><em>le plus</em><em> intéressant</em></p>"
+  },
+  {
+   "heading": "\"In / of\" = de",
+   "html": "<p><em>le plus haut immeuble </em><em>du</em><em> Canada</em> (not ~~dans le Canada~~) — the tallest building in Canada.\n<em>la meilleure élève </em><em>de la</em><em> classe</em>.</p>"
+  },
+  {
+   "heading": "Irregular superlatives",
+   "html": "<table>\n<thead>\n<tr>\n<th>Base</th>\n<th>Superlative</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>bon</td>\n<td><strong>le meilleur / la meilleure / les meilleur(e)s</strong></td>\n</tr>\n<tr>\n<td>bien</td>\n<td><strong>le mieux</strong></td>\n</tr>\n<tr>\n<td>mauvais</td>\n<td><strong>le pire</strong> (or le plus mauvais)</td>\n</tr>\n<tr>\n<td>mal</td>\n<td><strong>le plus mal</strong></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>C'est </em><em>le meilleur</em><em> restaurant de la ville.</em></li>\n<li><em>C'est elle qui chante </em><em>le mieux</em><em>.</em> — She's the one who sings best.</li>\n<li><em>C'est </em><em>le pire</em><em> jour de ma vie !</em></li>\n</ul>"
+  },
+  {
+   "heading": "With verbs and nouns",
+   "html": "<ul>\n<li>Verb: <em>C'est lui qui travaille </em><em>le plus</em><em>.</em> — He's the one who works the most.</li>\n<li>Noun: <em>C'est moi qui ai </em><em>le plus de</em><em> temps libre.</em> / <em>Elle a </em><em>le moins d'</em><em>erreurs.</em></li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Superlative (+): C'est (le / bon) film de l'année.",
+   "answer": "*C'est le meilleur film de l'année.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Superlative (+): Le mont Everest est (haut) montagne du monde.",
+   "answer": "*Le mont Everest est la plus haute montagne du monde.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Superlative (–): C'est l'hôtel (cher) de la ville.",
+   "answer": "*C'est l'hôtel le moins cher de la ville.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"She's the most intelligent student in the class.\"",
+   "answer": "*C'est l'étudiante la plus intelligente de la classe.* (or *l'étudiant le plus intelligent*)",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"It's the worst idea in the world.\"",
+   "answer": "*C'est la pire idée du monde.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"He's the one who sings the best.\"",
+   "answer": "*C'est lui qui chante le mieux.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

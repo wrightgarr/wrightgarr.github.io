@@ -1,0 +1,71 @@
+{
+ "id": "s53",
+ "subject": 53,
+ "level": "A2",
+ "title": "Partitive Articles (du, de la, de l', des)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>French uses <strong>partitive articles</strong> for an <strong>unspecified quantity</strong> of something uncountable: \"some\" or \"any\" in English, or often nothing at all.</p>"
+  },
+  {
+   "heading": "Forms",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Article</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Masculine</td>\n<td><strong>du</strong></td>\n<td><em>du pain</em> (some bread)</td>\n</tr>\n<tr>\n<td>Feminine</td>\n<td><strong>de la</strong></td>\n<td><em>de la confiture</em> (some jam)</td>\n</tr>\n<tr>\n<td>Before vowel / mute h</td>\n<td><strong>de l'</strong></td>\n<td><em>de l'eau</em>, <em>de l'huile</em></td>\n</tr>\n<tr>\n<td>Plural</td>\n<td><strong>des</strong></td>\n<td><em>des épinards</em>, <em>des pâtes</em></td>\n</tr>\n</tbody>\n</table>\n<p><em>Je mange </em><em>du</em><em> pain.</em> — I eat (some) bread.\n<em>Tu veux </em><em>de l'</em><em>eau ?</em> — Do you want (some) water?\n<em>Il y a </em><em>de la</em><em> neige.</em> — There's snow.</p>"
+  },
+  {
+   "heading": "When to use partitive vs definite vs indefinite",
+   "html": "<table>\n<thead>\n<tr>\n<th>Article</th>\n<th>Meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>le / la / les</strong> (definite)</td>\n<td>general or specific: preferences</td>\n<td><em>J'aime </em><em>le</em><em> fromage.</em> — I like cheese (in general).</td>\n</tr>\n<tr>\n<td><strong>un / une</strong> (indefinite)</td>\n<td>one countable unit</td>\n<td><em>Je mange </em><em>une</em><em> pomme.</em> — I'm eating an apple.</td>\n</tr>\n<tr>\n<td><strong>du / de la</strong> (partitive)</td>\n<td>a part of something uncountable</td>\n<td><em>Je mange </em><em>du</em><em> fromage.</em> — I'm eating (some) cheese.</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Pattern:</strong> verbs of preference (<em>aimer, adorer, détester, préférer</em>) → <strong>definite</strong>. Verbs of consumption (<em>manger, boire, prendre, acheter, vouloir</em>) → <strong>partitive</strong>.\n- <em>J'adore </em><em>le</em><em> café, alors je bois </em><em>du</em><em> café tous les jours.</em></p>"
+  },
+  {
+   "heading": "Abstract nouns and activities",
+   "html": "<ul>\n<li><em>Il a </em><em>du</em><em> courage / </em><em>de la</em><em> patience / </em><em>de la</em><em> chance.</em></li>\n<li><em>faire </em><em>du</em><em> sport, faire </em><em>de la</em><em> natation, jouer </em><em>du</em><em> piano.</em></li>\n</ul>"
+  },
+  {
+   "heading": "Partitive → de / d' after a negative",
+   "html": "<ul>\n<li><em>Je bois </em><em>du</em><em> café.</em> → <em>Je </em><em>ne</em><em> bois </em><em>pas de</em><em> café.</em></li>\n<li><em>Il y a </em><em>de l'</em><em>eau.</em> → <em>Il n'y a </em><em>pas d'</em><em>eau.</em>\n(Except after <em>être</em>: <em>Ce n'est pas </em><em>du</em><em> sucre, c'est </em><em>du</em><em> sel.</em>)</li>\n</ul>"
+  },
+  {
+   "heading": "Partitive → de after quantities",
+   "html": "<p><em>beaucoup </em><em>de</em><em>, un peu </em><em>de</em><em>, assez </em><em>de</em><em>, trop </em><em>de</em><em>, un kilo </em><em>de</em><em>, une bouteille </em><em>de</em><em>, un verre </em><em>de</em><em>, une tasse </em><em>de</em><em>, un morceau </em><em>de</em><em>, une tranche </em><em>de</em><strong>\n- *un peu </strong>de<strong> lait<em>, </em>beaucoup </strong>d'<strong>argent<em>, </em>une bouteille </strong>de<strong> vin<em>, </em>trop </strong>de<strong> sel<em>.\n- Exception: </em>bien des<em> and </em>la plupart des<em>: </em>la plupart </strong>des*<em> gens</em>.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je voudrais ___ eau, s'il vous plaît.",
+   "instruction": "Choose *du, de la, de l', des, de*:",
+   "answer": "de l'",
+   "id": "e1"
+  },
+  {
+   "prompt": "Il mange ___ viande tous les jours.",
+   "answer": "de la",
+   "id": "e2"
+  },
+  {
+   "prompt": "Nous n'avons pas ___ lait.",
+   "answer": "de",
+   "id": "e3"
+  },
+  {
+   "prompt": "Tu veux ___ frites ?",
+   "answer": "des",
+   "id": "e4"
+  },
+  {
+   "prompt": "J'ai acheté un kilo ___ pommes.",
+   "answer": "de",
+   "id": "e5"
+  },
+  {
+   "prompt": "Definite or partitive? (a) J'aime ___ thé. (b) Je bois ___ thé.",
+   "answer": "(a) le (b) du",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"She has a lot of patience.\"",
+   "answer": "*Elle a beaucoup de patience.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

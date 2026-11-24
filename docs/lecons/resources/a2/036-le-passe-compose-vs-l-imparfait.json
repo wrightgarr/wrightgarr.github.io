@@ -1,0 +1,71 @@
+{
+ "id": "s36",
+ "subject": 36,
+ "level": "A2",
+ "title": "Le Passé Composé vs L'Imparfait",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Choosing between these two tenses is one of the key skills in French. Think of a <strong>film</strong>:\n- The <strong>imparfait</strong> is the <strong>scenery and background</strong>: what was going on, what things were like.\n- The <strong>passé composé</strong> is the <strong>action</strong>: specific events that happened and are finished.</p>"
+  },
+  {
+   "heading": "Comparison",
+   "html": "<table>\n<thead>\n<tr>\n<th>Imparfait</th>\n<th>Passé composé</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Descriptions: <em>Il faisait beau.</em></td>\n<td>Completed events: <em>Il a plu hier.</em></td>\n</tr>\n<tr>\n<td>Habits: <em>Je nageais tous les jours.</em></td>\n<td>One-time actions: <em>J'ai nagé hier.</em></td>\n</tr>\n<tr>\n<td>Ongoing action: <em>Je dormais…</em></td>\n<td>Interrupting action: <em>…quand le téléphone </em><em>a sonné</em><em>.</em></td>\n</tr>\n<tr>\n<td>States (age, feelings, thoughts): <em>J'avais faim.</em></td>\n<td>Change of state: <em>J'ai eu peur.</em> (I got scared)</td>\n</tr>\n<tr>\n<td>No defined duration</td>\n<td>Defined duration / number of times: <em>J'ai habité à Paris pendant 3 ans.</em> / <em>Je suis allé 5 fois en France.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "The interruption pattern",
+   "html": "<p><em>J'</em><em>étais</em><em> sous la douche quand le téléphone </em><em>a sonné</em><em>.</em>\n— I was in the shower (background) when the phone rang (event).</p>\n<p><em>Nous </em><em>regardions</em><em> un film quand il </em><em>est arrivé</em><em>.</em></p>"
+  },
+  {
+   "heading": "Signal words",
+   "html": "<table>\n<thead>\n<tr>\n<th>Usually imparfait</th>\n<th>Usually passé composé</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>tous les jours, chaque semaine</td>\n<td>un jour, ce jour-là</td>\n</tr>\n<tr>\n<td>souvent, d'habitude, toujours</td>\n<td>soudain, tout à coup (suddenly)</td>\n</tr>\n<tr>\n<td>pendant que (while)</td>\n<td>hier, la semaine dernière</td>\n</tr>\n<tr>\n<td>quand j'étais petit</td>\n<td>une fois, deux fois</td>\n</tr>\n<tr>\n<td>autrefois, avant</td>\n<td>d'abord, ensuite, enfin (sequences)</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Meaning changes with some verbs",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verb</th>\n<th>Imparfait</th>\n<th>Passé composé</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>savoir</td>\n<td><em>je savais</em> — I knew</td>\n<td><em>j'ai su</em> — I found out</td>\n</tr>\n<tr>\n<td>connaître</td>\n<td><em>je connaissais</em> — I knew (someone)</td>\n<td><em>j'ai connu</em> — I met</td>\n</tr>\n<tr>\n<td>pouvoir</td>\n<td><em>je pouvais</em> — I was able (in general)</td>\n<td><em>j'ai pu</em> — I managed to</td>\n</tr>\n<tr>\n<td>vouloir</td>\n<td><em>je voulais</em> — I wanted</td>\n<td><em>j'ai voulu</em> — I tried / decided to</td>\n</tr>\n<tr>\n<td>avoir</td>\n<td><em>j'avais peur</em> — I was afraid</td>\n<td><em>j'ai eu peur</em> — I got a fright</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "A short story (notice the tenses)",
+   "html": "<blockquote>\n<p><em>C'</em><em>était</em><em> un samedi matin. Il </em><em>faisait</em><em> froid et il </em><em>neigeait</em><em>. J'</em><em>étais</em><em> dans la cuisine et je </em><em>buvais</em><em> un café. Tout à coup, quelqu'un </em><em>a frappé</em><em> à la porte. J'</em><em>ai ouvert</em><em> et j'</em><em>ai vu</em><em> mon vieil ami Paul. J'</em><em>étais</em><em> très surpris ! Nous </em><em>avons parlé</em><em> pendant des heures.</em></p>\n</blockquote>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Quand j'(être) ___ petit, je (aller) ___ à la plage chaque été.",
+   "instruction": "Choose passé composé or imparfait:",
+   "answer": "étais, allais",
+   "id": "e1"
+  },
+  {
+   "prompt": "Je (lire) ___ quand ma sœur (entrer) ___.",
+   "answer": "lisais, est entrée",
+   "id": "e2"
+  },
+  {
+   "prompt": "Hier, nous (visiter) ___ le musée.",
+   "answer": "avons visité",
+   "id": "e3"
+  },
+  {
+   "prompt": "Il (faire) ___ beau et les oiseaux (chanter) ___.",
+   "answer": "faisait, chantaient",
+   "id": "e4"
+  },
+  {
+   "prompt": "Soudain, la lumière (s'éteindre) ___.",
+   "answer": "s'est éteinte",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I was sleeping when you called.\"",
+   "answer": "*Je dormais quand tu as appelé.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"I lived in Vancouver for two years.\" (finished period)",
+   "answer": "*J'ai habité à Vancouver pendant deux ans.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

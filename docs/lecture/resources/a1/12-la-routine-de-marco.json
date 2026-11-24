@@ -1,0 +1,120 @@
+{
+  "id": "a1-12",
+  "level": "A1",
+  "number": 12,
+  "title": "La routine de Marco",
+  "grammar": "reflexive verbs",
+  "theme": "daily routine",
+  "wordCount": 94,
+  "primer": [
+    "**se réveiller**: to wake up",
+    "**se lever**: to get up (*il se lève*)",
+    "**s'habiller**: to get dressed",
+    "**se coucher**: to go to bed",
+    "**me / te / se**: myself / yourself / himself, herself",
+    "**tard / tôt**: late / early",
+    "**toujours**: always"
+  ],
+  "passage": [
+    [
+      "Marco est étudiant et il n'aime pas se lever tôt. Il se réveille à neuf heures. Il se lève à neuf heures et demie. Il se douche, il se brosse les dents et il s'habille vite. Il ne se coiffe pas : ses cheveux sont toujours en désordre !"
+    ],
+    [
+      "Marco s'appelle Marco Rossi. Il est de Turin, en Italie. L'après-midi, il va à l'université. Le soir, il étudie et il s'amuse avec ses amis. Il se couche à une heure du matin."
+    ],
+    [
+      "— Tu te couches tard, Marco ! dit Léa.",
+      "— Oui, mais je me repose le week-end !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "il se douche",
+      "en": "he showers"
+    },
+    {
+      "fr": "il se brosse les dents",
+      "en": "he brushes his teeth"
+    },
+    {
+      "fr": "il se coiffe",
+      "en": "he does his hair",
+      "match": [
+        "se coiffe"
+      ]
+    },
+    {
+      "fr": "les cheveux",
+      "en": "hair"
+    },
+    {
+      "fr": "en désordre",
+      "en": "messy"
+    },
+    {
+      "fr": "l'après-midi",
+      "en": "in the afternoon"
+    },
+    {
+      "fr": "il s'amuse",
+      "en": "he has fun"
+    },
+    {
+      "fr": "je me repose",
+      "en": "I rest"
+    }
+  ],
+  "spotlight": [
+    "**Reflexive verbs** need a pronoun that matches the subject: *je me repose, tu te couches, il se lève*. You've seen this since Module 1: *je m'appelle* literally means \"I call myself.\"",
+    "**Negation wraps pronoun + verb:** *Il ne se coiffe pas.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "At what time does Marco wake up, and at what time does he get up?",
+      "answer": "He wakes up at 9:00 and gets up at 9:30",
+      "options": [
+        "He wakes up at 9:00 and gets up at 9:30",
+        "He wakes up at 7:00 and gets up at 7:30",
+        "He wakes up at 9:30 and gets up at 10:00",
+        "He wakes up at 1:00 and gets up at noon"
+      ],
+      "evidence": "Il se réveille à neuf heures. Il se lève à neuf heures et demie."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does Marco not do in the morning?",
+      "answer": "He doesn't do his hair",
+      "options": [
+        "He doesn't do his hair",
+        "He doesn't shower",
+        "He doesn't brush his teeth",
+        "He doesn't get dressed"
+      ],
+      "evidence": "Il ne se coiffe pas : ses cheveux sont toujours en désordre !"
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Marco do on weekends?",
+      "answer": "He rests",
+      "options": [
+        "He rests",
+        "He studies all day",
+        "He goes back to Turin",
+        "He gets up early"
+      ],
+      "evidence": "Oui, mais je me repose le week-end !"
+    }
+  ],
+  "writing": {
+    "prompt": "Describe your morning in three sentences using three reflexive verbs.",
+    "model": "Je me réveille à sept heures. Je me lève à sept heures et quart. Je me douche et je m'habille.",
+    "targets": [
+      {
+        "label": "three reflexive verbs (je me…, je m'…)",
+        "pattern": "\\b(me|m')\\s?[a-zà-ÿ]",
+        "min": 3
+      }
+    ]
+  }
+}

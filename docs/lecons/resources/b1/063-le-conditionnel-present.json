@@ -1,0 +1,57 @@
+{
+ "id": "s63",
+ "subject": 63,
+ "level": "B1",
+ "title": "Le Conditionnel Présent",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>conditionnel présent</strong> expresses \"would\". It's used for hypotheses, politeness, wishes, advice and unconfirmed information.</p>"
+  },
+  {
+   "heading": "Formation: future stem + imparfait endings",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Future stem</th>\n<th>+ imparfait ending</th>\n<th>Conditionnel</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td>parler-</td>\n<td>-ais</td>\n<td>parler<strong>ais</strong></td>\n</tr>\n<tr>\n<td>tu</td>\n<td>finir-</td>\n<td>-ais</td>\n<td>finir<strong>ais</strong></td>\n</tr>\n<tr>\n<td>il/elle</td>\n<td>prendr-</td>\n<td>-ait</td>\n<td>prendr<strong>ait</strong></td>\n</tr>\n<tr>\n<td>nous</td>\n<td>ser- (être)</td>\n<td>-ions</td>\n<td>ser<strong>ions</strong></td>\n</tr>\n<tr>\n<td>vous</td>\n<td>aur- (avoir)</td>\n<td>-iez</td>\n<td>aur<strong>iez</strong></td>\n</tr>\n<tr>\n<td>ils/elles</td>\n<td>ir- (aller)</td>\n<td>-aient</td>\n<td>ir<strong>aient</strong></td>\n</tr>\n</tbody>\n</table>\n<p>All the irregular future stems apply: <em>je </em><em>ser</em><em>ais, j'</em><em>aur</em><em>ais, j'</em><em>ir</em><em>ais, je </em><em>fer</em><em>ais, je </em><em>pourr</em><em>ais, je </em><em>voudr</em><em>ais, je </em><em>devr</em><em>ais, je </em><em>saur</em><em>ais, je </em><em>viendr</em><em>ais, je </em><em>verr</em><em>ais, il </em><em>faudr</em><em>ait</em>.</p>"
+  },
+  {
+   "heading": "Uses",
+   "html": "<ol>\n<li><strong>Politeness</strong> (very common): <em>Je </em><em>voudrais</em><em> un café.</em> / <strong><em>Pourriez</em><em>-vous m'aider ?</em> / *J'</strong>aimerais*<em> réserver une table.</em></li>\n<li><strong>Wishes:</strong> <em>J'</em><em>aimerais</em><em> voyager au Japon.</em> / <em>Ce </em><em>serait</em><em> génial !</em></li>\n<li><strong>Advice</strong> (with <em>devoir</em>): <em>Tu </em><em>devrais</em><em> te reposer.</em> — You should rest. / <em>Vous </em><em>feriez</em><em> mieux de partir.</em> — You'd better leave.</li>\n<li><strong>Hypothesis</strong> with <em>si + imparfait</em>: <em>Si j'avais de l'argent, j'</em><em>achèterais</em><em> une maison.</em> (see Subject 81)</li>\n<li><strong>Unconfirmed information</strong> (news style): <em>Le président </em><em>serait</em><em> malade.</em> — The president is reportedly ill.</li>\n<li><strong>Future in the past</strong> (indirect speech): <em>Il a dit qu'il </em><em>viendrait</em><em>.</em> — He said he would come.</li>\n<li><strong>Suggestions:</strong> <em>On </em><em>pourrait</em><em> aller au cinéma.</em> — We could go to the movies.</li>\n</ol>"
+  },
+  {
+   "heading": "Watch out",
+   "html": "<ul>\n<li><em>Je voudrais</em> (conditionnel) vs <em>je voudrai</em> (futur): pronounced almost the same; spelling matters.</li>\n<li><strong>Never</strong> use the conditional after <em>si</em> (if) in a hypothesis: ~~Si j'aurais~~ → <em>Si j'</em><em>avais</em>**.</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Conjugate *pouvoir* in the conditionnel.",
+   "answer": "je pourrais, tu pourrais, il pourrait, nous pourrions, vous pourriez, ils pourraient.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Put into the conditionnel: (a) Je veux (polite). (b) Tu dois. (c) Nous allons. (d) Ils sont. (e) Vous faites.",
+   "answer": "(a) Je voudrais. (b) Tu devrais. (c) Nous irions. (d) Ils seraient. (e) Vous feriez.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Make polite: *Donnez-moi l'addition.*",
+   "answer": "*Pourriez-vous me donner l'addition, s'il vous plaît ?*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Give advice using *devoir*: (to a friend who is tired)",
+   "answer": "*Tu devrais te reposer / dormir.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"We would like to visit Québec City.\"",
+   "answer": "*Nous aimerions visiter la ville de Québec.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"He said he would call.\"",
+   "answer": "*Il a dit qu'il appellerait.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

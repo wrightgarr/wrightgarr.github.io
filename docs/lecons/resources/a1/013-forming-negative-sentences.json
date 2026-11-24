@@ -1,0 +1,56 @@
+{
+ "id": "s13",
+ "subject": 13,
+ "level": "A1",
+ "title": "Forming Negative Sentences",
+ "sections": [
+  {
+   "heading": "The basic rule: ne … pas",
+   "html": "<p>Put <strong>ne</strong> before the conjugated verb and <strong>pas</strong> after it.</p>\n<table>\n<thead>\n<tr>\n<th>Affirmative</th>\n<th>Negative</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Je parle allemand.</em></td>\n<td><em>Je </em><em>ne</em><em> parle </em><em>pas</em><em> allemand.</em></td>\n</tr>\n<tr>\n<td><em>Elle est là.</em></td>\n<td><em>Elle </em><em>n'</em><em>est </em><em>pas</em><em> là.</em></td>\n</tr>\n<tr>\n<td><em>Nous aimons le froid.</em></td>\n<td><em>Nous </em><em>n'</em><em>aimons </em><em>pas</em><em> le froid.</em></td>\n</tr>\n</tbody>\n</table>\n<p><strong>ne → n'</strong> before a vowel or mute h: <em>Il </em><em>n'</em><em>habite pas ici.</em></p>"
+  },
+  {
+   "heading": "Where does it go?",
+   "html": "<ol>\n<li><strong>Simple verb:</strong> around the verb. <em>Tu ne viens pas.</em></li>\n<li><strong>With object pronouns:</strong> <em>ne</em> goes before the pronoun. <em>Je </em><em>ne</em><em> le vois </em><em>pas</em><em>.</em> — I don't see it.</li>\n<li><strong>Verb + infinitive:</strong> around the conjugated verb. <em>Je </em><em>ne</em><em> veux </em><em>pas</em><em> partir.</em> — I don't want to leave.</li>\n<li><strong>Reflexive verbs:</strong> <em>ne</em> before the reflexive pronoun. <em>Il </em><em>ne</em><em> se lève </em><em>pas</em><em>.</em></li>\n<li><strong>Negative infinitive:</strong> both together before the infinitive. <em>Je préfère </em><em>ne pas</em><em> sortir.</em></li>\n</ol>"
+  },
+  {
+   "heading": "Articles change in the negative",
+   "html": "<p><strong>un, une, des, du, de la → de / d'</strong>\n- <em>J'ai </em><em>un</em><em> frère.</em> → <em>Je n'ai pas </em><em>de</em><em> frère.</em>\n- <em>Il boit </em><em>du</em><em> café.</em> → <em>Il ne boit pas </em><em>de</em><em> café.</em>\n- <em>Elle a </em><em>des</em><em> amis.</em> → <em>Elle n'a pas </em><em>d'</em><em>amis.</em></p>\n<p><strong>Exception:</strong> after <em>être</em>, articles don't change: <em>C'est un chat.</em> → <em>Ce n'est pas </em><em>un</em><em> chat.</em>\nDefinite articles (<em>le, la, les</em>) never change: <em>Je n'aime pas </em><em>les</em><em> épinards.</em></p>"
+  },
+  {
+   "heading": "Spoken French",
+   "html": "<p>In everyday speech, <em>ne</em> is often dropped: <em>Je sais pas.</em> (= <em>Je ne sais pas</em>), <em>C'est pas grave.</em> In writing, always use <em>ne</em>.</p>"
+  },
+  {
+   "heading": "Answering a negative question: si",
+   "html": "<p>To say \"yes\" to a <strong>negative</strong> question, use <strong>si</strong>, not <em>oui</em>:\n- <em>Tu n'aimes pas le café ? — </em><em>Si</em><em>, j'aime le café !</em> — You don't like coffee? — Yes, I do!\n- <em>— Non, je n'aime pas le café.</em> — No, I don't.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Make negative: (a) *Je travaille le samedi.* (b) *Il est français.* (c) *Nous habitons ici.* (d) *Elle aime le sport.*",
+   "answer": "(a) *Je ne travaille pas le samedi.* (b) *Il n'est pas français.* (c) *Nous n'habitons pas ici.* (d) *Elle n'aime pas le sport.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Make negative (watch the articles): (a) *J'ai une voiture.* (b) *Tu manges de la viande.* (c) *C'est une bonne idée.*",
+   "answer": "(a) *Je n'ai pas de voiture.* (b) *Tu ne manges pas de viande.* (c) *Ce n'est pas une bonne idée.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Make negative: (a) *Je peux venir.* (b) *Tu le connais.*",
+   "answer": "(a) *Je ne peux pas venir.* (b) *Tu ne le connais pas.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Answer \"yes\" to: *Tu ne viens pas ce soir ?*",
+   "answer": "*Si, je viens !*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"I don't have any children.\"",
+   "answer": "*Je n'ai pas d'enfants.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

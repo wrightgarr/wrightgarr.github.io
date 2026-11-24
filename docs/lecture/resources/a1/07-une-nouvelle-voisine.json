@@ -1,0 +1,133 @@
+{
+  "id": "a1-07",
+  "level": "A1",
+  "number": 7,
+  "title": "Une nouvelle voisine",
+  "grammar": "asking questions",
+  "theme": "meeting a neighbour",
+  "wordCount": 92,
+  "primer": [
+    "**Est-ce que… ?**: turns a statement into a yes/no question",
+    "**Qu'est-ce que… ?**: What…?",
+    "**Où ?**: Where?",
+    "**Vous êtes d'où ?**: Where are you from?",
+    "**une voisine**: a (female) neighbour",
+    "**Enchantée !**: Nice to meet you! (said by a woman)",
+    "**alors**: so, well then"
+  ],
+  "passage": [
+    [
+      "Il y a une nouvelle voisine dans l'immeuble de Léa."
+    ],
+    [
+      "— Bonjour ! Vous êtes nouvelle ici ? demande Léa.",
+      "— Oui. Je m'appelle Amina. J'habite au troisième étage.",
+      "— Enchantée ! Moi, c'est Léa. Vous êtes d'où ?",
+      "— Je suis de Montréal, au Canada.",
+      "— Ah, super ! Qu'est-ce que vous faites à Paris ?",
+      "— Je suis étudiante en musique. Et vous ?",
+      "— Je suis photographe. Est-ce que vous aimez le café ?",
+      "— Oui, j'adore le café !",
+      "— Alors, il y a un très bon café dans la rue. Il s'appelle Le Soleil.",
+      "— Où est-il ?",
+      "— En face de l'immeuble, à côté de la boulangerie."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "nouvelle",
+      "en": "new (feminine)"
+    },
+    {
+      "fr": "ici",
+      "en": "here"
+    },
+    {
+      "fr": "troisième",
+      "en": "third"
+    },
+    {
+      "fr": "Moi, c'est Léa.",
+      "en": "I'm Léa (casual)"
+    },
+    {
+      "fr": "vous faites",
+      "en": "you do"
+    },
+    {
+      "fr": "étudiante en musique",
+      "en": "music student"
+    },
+    {
+      "fr": "j'adore",
+      "en": "I love"
+    },
+    {
+      "fr": "très bon",
+      "en": "very good"
+    }
+  ],
+  "spotlight": [
+    "**Three ways to ask yes/no:** raise your voice (*Vous êtes nouvelle ici ?*), add *Est-ce que* (*Est-ce que vous aimez le café ?*), or invert (*Où est-il ?*). Intonation is most common in speech.",
+    "**Qu'est-ce que = \"what\":** *Qu'est-ce que vous faites à Paris ?*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Where is Amina from, and what does she study?",
+      "answer": "Montréal, Canada — she studies music",
+      "options": [
+        "Montréal, Canada — she studies music",
+        "Paris — she studies photography",
+        "Lyon — she studies medicine",
+        "Montréal, Canada — she studies cooking"
+      ],
+      "evidence": "Je suis de Montréal, au Canada. … Je suis étudiante en musique."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which floor does Amina live on?",
+      "answer": "The third floor",
+      "options": [
+        "The third floor",
+        "The fourth floor",
+        "The ground floor",
+        "The second floor"
+      ],
+      "evidence": "J'habite au troisième étage."
+    },
+    {
+      "id": "q3",
+      "prompt": "Where exactly is Café Le Soleil?",
+      "answer": "Across from the building, next to the bakery",
+      "options": [
+        "Across from the building, next to the bakery",
+        "Next to the park, across from the museum",
+        "Inside the building, on the third floor",
+        "Near the metro, far from the bakery"
+      ],
+      "evidence": "En face de l'immeuble, à côté de la boulangerie."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three questions you'd ask a new neighbour, using *Est-ce que*, *Qu'est-ce que*, and *Où*.",
+    "model": "Est-ce que vous aimez Paris ? Qu'est-ce que vous faites le week-end ? Où est votre appartement ?",
+    "targets": [
+      {
+        "label": "Est-ce que…",
+        "pattern": "est-ce que|est-ce qu'",
+        "min": 1
+      },
+      {
+        "label": "Qu'est-ce que…",
+        "pattern": "qu'est-ce qu",
+        "min": 1
+      },
+      {
+        "label": "Où…",
+        "pattern": "\\boù\\b",
+        "min": 1
+      }
+    ]
+  }
+}

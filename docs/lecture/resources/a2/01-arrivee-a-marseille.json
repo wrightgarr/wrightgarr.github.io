@@ -1,0 +1,158 @@
+{
+  "id": "a2-01",
+  "level": "A2",
+  "number": 1,
+  "title": "Arrivée à Marseille",
+  "grammar": "passé composé with *avoir*",
+  "theme": "moving to a new city",
+  "wordCount": 174,
+  "primer": [
+    "**j'ai + past participle**: the passé composé, for finished past actions (*j'ai mangé* = I ate / I have eaten)",
+    "**-er verbs → -é**: *parler → parlé, manger → mangé, trouver → trouvé*",
+    "**samedi / dimanche** (+ past tense): last Saturday / last Sunday",
+    "**un carton**: a cardboard box",
+    "**d'abord / ensuite / enfin**: first / then / finally",
+    "**le quartier**: the neighbourhood",
+    "**la voisine**: the (female) neighbour"
+  ],
+  "passage": [
+    [
+      "Chère Amina,"
+    ],
+    [
+      "Ça y est, j'habite à Marseille ! Samedi, j'ai voyagé en TGV avec Minou. Il a miaulé pendant trois heures ! À la gare Saint-Charles, j'ai cherché un taxi et j'ai donné l'adresse de mon nouvel appartement."
+    ],
+    [
+      "Dimanche, j'ai travaillé toute la journée. D'abord, j'ai porté les cartons au troisième étage : il n'y a pas d'ascenseur ! Ensuite, j'ai rangé mes vêtements et mes livres. Minou, lui, a exploré toutes les pièces. Il a trouvé une place parfaite sur le balcon, au soleil."
+    ],
+    [
+      "Le soir, j'ai rencontré ma voisine, Madame Ferrand. Elle a soixante-quinze ans et elle habite dans le quartier depuis toujours. Elle a apporté une tarte aux abricots et nous avons mangé ensemble sur mon balcon. Nous avons beaucoup parlé. Elle a écouté mes histoires de Paris et elle a raconté l'histoire du quartier."
+    ],
+    [
+      "Enfin, à onze heures, j'ai regardé la mer par la fenêtre. J'ai pensé à vous tous. Paris me manque un peu, mais Marseille est magnifique !"
+    ],
+    [
+      "Gros bisous,",
+      "Léa"
+    ],
+    [
+      "P.-S. : Lundi, je commence au magazine. J'ai un peu peur !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "Ça y est",
+      "en": "That's it, here we are"
+    },
+    {
+      "fr": "a miaulé",
+      "en": "meowed"
+    },
+    {
+      "fr": "la gare Saint-Charles",
+      "en": "Marseille's main train station"
+    },
+    {
+      "fr": "nouvel appartement",
+      "en": "new apartment"
+    },
+    {
+      "fr": "toute la journée",
+      "en": "all day"
+    },
+    {
+      "fr": "j'ai porté",
+      "en": "I carried"
+    },
+    {
+      "fr": "l'ascenseur",
+      "en": "the elevator"
+    },
+    {
+      "fr": "j'ai rangé",
+      "en": "I put away"
+    },
+    {
+      "fr": "les pièces",
+      "en": "the rooms"
+    },
+    {
+      "fr": "une tarte aux abricots",
+      "en": "an apricot tart"
+    },
+    {
+      "fr": "depuis toujours",
+      "en": "forever, all her life"
+    },
+    {
+      "fr": "a raconté",
+      "en": "told"
+    },
+    {
+      "fr": "Paris me manque",
+      "en": "I miss Paris"
+    },
+    {
+      "fr": "J'ai un peu peur",
+      "en": "I'm a bit scared"
+    }
+  ],
+  "spotlight": [
+    "**Passé composé = avoir (present) + past participle:** *j'ai travaillé, il a trouvé, nous avons mangé*. It's used for finished actions: what happened on Saturday, on Sunday, that evening.",
+    "**Regular -er verbs:** the participle ends in *-é* and sounds just like the infinitive: *porter → porté, ranger → rangé, écouter → écouté*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "How did Léa travel to Marseille, and how did Minou react?",
+      "answer": "By TGV — and Minou meowed for three hours",
+      "options": [
+        "By TGV — and Minou meowed for three hours",
+        "By car — and Minou slept the whole way",
+        "By plane — and Minou hid in his box",
+        "By TGV — and Minou was very calm"
+      ],
+      "evidence": "Samedi, j'ai voyagé en TGV avec Minou. Il a miaulé pendant trois heures !"
+    },
+    {
+      "id": "q2",
+      "prompt": "What did Léa do on Sunday? Name two things.",
+      "answer": "She carried the boxes upstairs and put away her clothes and books",
+      "options": [
+        "She carried the boxes upstairs and put away her clothes and books",
+        "She went to the beach and met her colleagues",
+        "She bought furniture and painted the walls",
+        "She visited the magazine and the port"
+      ],
+      "evidence": "D'abord, j'ai porté les cartons au troisième étage… Ensuite, j'ai rangé mes vêtements et mes livres."
+    },
+    {
+      "id": "q3",
+      "prompt": "Who is Madame Ferrand, and what did she bring?",
+      "answer": "Her 75-year-old neighbour — she brought an apricot tart",
+      "options": [
+        "Her 75-year-old neighbour — she brought an apricot tart",
+        "Her new boss — she brought flowers",
+        "The building's owner — she brought the keys",
+        "Her neighbour — she brought a bottle of wine"
+      ],
+      "evidence": "Le soir, j'ai rencontré ma voisine, Madame Ferrand. … Elle a apporté une tarte aux abricots"
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about what you did last weekend with the passé composé, using *d'abord*, *ensuite* and *enfin*.",
+    "model": "D'abord, j'ai rangé ma chambre. Ensuite, j'ai regardé un film avec mon frère. Enfin, nous avons mangé une pizza.",
+    "targets": [
+      {
+        "label": "passé composé with avoir (×3)",
+        "pattern": "\\b(ai|as|a|avons|avez|ont)\\s+(pas\\s+|jamais\\s+)?[a-zà-ÿ]+(é|i|u|is|it|ert|eint|ait)\\b",
+        "min": 3
+      },
+      {
+        "label": "d'abord / ensuite / enfin",
+        "pattern": "d'abord|ensuite|enfin",
+        "min": 2
+      }
+    ]
+  }
+}

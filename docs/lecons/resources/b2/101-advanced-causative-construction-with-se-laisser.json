@@ -1,0 +1,60 @@
+{
+ "id": "s101",
+ "subject": 101,
+ "level": "B2",
+ "title": "Advanced Causative Construction With \"se laisser\"",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Se laisser + infinitive</strong> means \"to let oneself be / do something\". It suggests <strong>passivity, giving in, or allowing</strong> something to happen, without resistance.</p>"
+  },
+  {
+   "heading": "Formation: se laisser (conjugated) + infinitive",
+   "html": "<p>Passé composé with <strong>être</strong>: <em>je me suis laissé(e)…</em></p>"
+  },
+  {
+   "heading": "Two meanings",
+   "html": "<p><strong>1. Allowing something to be done to oneself (passive):</strong>\n- <em>Il </em><em>s'est laissé convaincre</em><em>.</em> — He let himself be convinced.\n- <em>Ne </em><em>te laisse</em><em> pas </em><em>faire</em><em> !</em> — Don't let them push you around!\n- <em>Elle </em><em>s'est laissé séduire</em><em> par l'offre.</em> — She let herself be won over by the offer.\n- <em>Je </em><em>me suis laissé surprendre</em><em> par la pluie.</em> — I got caught in the rain.</p>\n<p><strong>2. Letting oneself do something / giving in (active):</strong>\n- <em>Je </em><em>me suis laissé tomber</em><em> sur le canapé.</em> — I let myself drop onto the sofa.\n- <em>Il </em><em>se laisse aller</em><em>.</em> — He's letting himself go (neglecting himself).\n- <em>Elle </em><em>s'est laissé emporter</em><em> par la colère.</em> — She got carried away by anger.\n- <em><strong>Laisse-toi aller</strong> !</em> — Let yourself go! / Relax!</p>"
+  },
+  {
+   "heading": "Agreement (modern rule)",
+   "html": "<p>Since the 1990 spelling reform, <em>laissé</em> followed by an infinitive is <strong>invariable</strong> (like <em>fait</em>): <em>Elle s'est </em><em>laissé</em><em> convaincre.</em> Older usage made it agree if the subject performs the infinitive action (<em>Elle s'est laissée tomber</em>), so you'll see both. Using the invariable form is always correct.</p>"
+  },
+  {
+   "heading": "Common expressions",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>se laisser faire</strong></td>\n<td>to let oneself be pushed around, not resist</td>\n</tr>\n<tr>\n<td><strong>se laisser aller</strong></td>\n<td>to let oneself go, relax / neglect oneself</td>\n</tr>\n<tr>\n<td><strong>se laisser tenter</strong></td>\n<td>to give in to temptation (<em>Je me suis laissé tenter par un dessert.</em>)</td>\n</tr>\n<tr>\n<td><strong>se laisser abattre</strong></td>\n<td>to get discouraged (<em>Ne te laisse pas abattre !</em> — Don't let it get you down!)</td>\n</tr>\n<tr>\n<td><strong>se laisser marcher sur les pieds</strong></td>\n<td>to let people walk all over you</td>\n</tr>\n<tr>\n<td><strong>se laisser emporter</strong></td>\n<td>to get carried away</td>\n</tr>\n<tr>\n<td><strong>se laisser vivre</strong></td>\n<td>to take it easy</td>\n</tr>\n<tr>\n<td><strong>se laisser pousser la barbe / les cheveux</strong></td>\n<td>to grow a beard / one's hair</td>\n</tr>\n<tr>\n<td><strong>se laisser prendre</strong></td>\n<td>to be taken in, fooled</td>\n</tr>\n<tr>\n<td><strong>ne pas se laisser démonter</strong></td>\n<td>to keep one's cool</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Comparison",
+   "html": "<table>\n<thead>\n<tr>\n<th>Faire</th>\n<th>Se faire</th>\n<th>Laisser</th>\n<th>Se laisser</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>cause someone to do</td>\n<td>have something done to oneself</td>\n<td>let someone do</td>\n<td>let oneself be / do</td>\n</tr>\n<tr>\n<td><em>Je fais chanter Paul.</em></td>\n<td><em>Je me fais coiffer.</em></td>\n<td><em>Je laisse Paul chanter.</em></td>\n<td><em>Je me laisse coiffer.</em> (I let them do my hair)</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Translate: \"Don't let yourself be discouraged!\"",
+   "answer": "*Ne te laisse pas abattre !*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Translate: \"I gave in to temptation and bought the shoes.\"",
+   "answer": "*Je me suis laissé tenter et j'ai acheté les chaussures.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"He's growing a beard.\"",
+   "answer": "*Il se laisse pousser la barbe.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"She let herself be convinced by the salesman.\"",
+   "answer": "*Elle s'est laissé convaincre par le vendeur.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Which is the difference between *Il s'est fait avoir* and *Il s'est laissé avoir*?",
+   "answer": "*Il s'est fait avoir* = he got fooled (focus on the event). *Il s'est laissé avoir* = he let himself be fooled (suggests he could have avoided it; passivity, naivety).",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

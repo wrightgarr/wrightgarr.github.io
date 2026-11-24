@@ -1,0 +1,60 @@
+{
+ "id": "s34",
+ "subject": 34,
+ "level": "A2",
+ "title": "Le Passé Composé: être or avoir",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Most verbs use <em>avoir</em>. Two categories use <strong>être</strong>:\n1. About 17 verbs of <strong>movement or change of state</strong>.\n2. <strong>All reflexive verbs</strong> (<em>se lever, s'appeler</em>…).</p>"
+  },
+  {
+   "heading": "The être verbs: \"DR & MRS VANDERTRAMP\"",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verb</th>\n<th>Participle</th>\n<th>Opposite pair</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>D</strong>evenir</td>\n<td>devenu</td>\n<td>become</td>\n</tr>\n<tr>\n<td><strong>R</strong>evenir</td>\n<td>revenu</td>\n<td>come back</td>\n</tr>\n<tr>\n<td><strong>M</strong>onter</td>\n<td>monté</td>\n<td>go up ↔ descendre</td>\n</tr>\n<tr>\n<td><strong>R</strong>entrer</td>\n<td>rentré</td>\n<td>go home</td>\n</tr>\n<tr>\n<td><strong>S</strong>ortir</td>\n<td>sorti</td>\n<td>go out ↔ entrer</td>\n</tr>\n<tr>\n<td><strong>V</strong>enir</td>\n<td>venu</td>\n<td>come ↔ aller</td>\n</tr>\n<tr>\n<td><strong>A</strong>ller</td>\n<td>allé</td>\n<td>go</td>\n</tr>\n<tr>\n<td><strong>N</strong>aître</td>\n<td>né</td>\n<td>be born ↔ mourir</td>\n</tr>\n<tr>\n<td><strong>D</strong>escendre</td>\n<td>descendu</td>\n<td>go down</td>\n</tr>\n<tr>\n<td><strong>E</strong>ntrer</td>\n<td>entré</td>\n<td>enter</td>\n</tr>\n<tr>\n<td><strong>R</strong>etourner</td>\n<td>retourné</td>\n<td>return</td>\n</tr>\n<tr>\n<td><strong>T</strong>omber</td>\n<td>tombé</td>\n<td>fall</td>\n</tr>\n<tr>\n<td><strong>R</strong>ester</td>\n<td>resté</td>\n<td>stay</td>\n</tr>\n<tr>\n<td><strong>A</strong>rriver</td>\n<td>arrivé</td>\n<td>arrive ↔ partir</td>\n</tr>\n<tr>\n<td><strong>M</strong>ourir</td>\n<td>mort</td>\n<td>die</td>\n</tr>\n<tr>\n<td><strong>P</strong>artir</td>\n<td>parti</td>\n<td>leave</td>\n</tr>\n</tbody>\n</table>\n<p>Picture a <strong>house</strong>: you're born (<em>naître</em>), arrive, enter, go up the stairs, stay, fall, go down, go out, leave, return, and die.</p>"
+  },
+  {
+   "heading": "Agreement with être",
+   "html": "<p>With <em>être</em>, the participle <strong>agrees with the subject</strong> like an adjective (+e feminine, +s plural):</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>aller</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je suis allé<strong>(e)</strong></td>\n<td>nous sommes allé<strong>(e)s</strong></td>\n</tr>\n<tr>\n<td>tu es allé<strong>(e)</strong></td>\n<td>vous êtes allé<strong>(e)(s)</strong></td>\n</tr>\n<tr>\n<td>il est allé</td>\n<td>ils sont allé<strong>s</strong></td>\n</tr>\n<tr>\n<td>elle est allé<strong>e</strong></td>\n<td>elles sont allé<strong>es</strong></td>\n</tr>\n<tr>\n<td>on est allé<strong>(e)s</strong> (when <em>on</em> = we)</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Marie </em><em>est arrivée</em><em> hier.</em></li>\n<li><em>Mes parents </em><em>sont partis</em><em> en vacances.</em></li>\n<li><em>Elles </em><em>sont nées</em><em> en 1990.</em></li>\n<li><em>Nous </em><em>sommes restés</em><em> à la maison.</em></li>\n</ul>"
+  },
+  {
+   "heading": "Reflexive verbs also use être",
+   "html": "<p><em>Je me </em><em>suis</em><em> levé(e) à 7 h.</em> / <em>Elle s'</em><em>est</em><em> couchée tard.</em> (More in Subject 47.)</p>"
+  },
+  {
+   "heading": "Verbs that can use both",
+   "html": "<p><em>Monter, descendre, sortir, rentrer, passer, retourner</em> use <strong>avoir</strong> when they have a <strong>direct object</strong>:\n| With être (no object) | With avoir (+ object) |\n|---|---|\n| <em>Je </em><em>suis</em><em> monté.</em> — I went up. | <em>J'</em><em>ai</em><em> monté </em><em>les valises</em><em>.</em> — I took the suitcases up. |\n| <em>Elle </em><em>est</em><em> sortie.</em> — She went out. | <em>Elle </em><em>a</em><em> sorti </em><em>le chien</em><em>.</em> — She took the dog out. |\n| <em>Il </em><em>est</em><em> descendu.</em> — He came down. | <em>Il </em><em>a</em><em> descendu </em><em>l'escalier</em><em>.</em> — He went down the stairs. |\n| <em>Nous </em><em>sommes</em><em> rentrés.</em> — We came home. | <em>Nous </em><em>avons</em><em> rentré </em><em>la voiture</em><em>.</em> — We put the car in. |</p>"
+  },
+  {
+   "heading": "Agreement with avoir (preview)",
+   "html": "<p>With <em>avoir</em>, the participle normally <strong>doesn't</strong> agree with the subject: <em>Elle </em><em>a</em><em> mangé</em> (no e).</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Être or avoir? (a) Je ___ allé au cinéma. (b) Nous ___ mangé. (c) Elle ___ tombée. (d) Ils ___ fait du ski. (e) Tu ___ né où ?",
+   "answer": "(a) suis (b) avons (c) est (d) ont (e) es",
+   "id": "e1"
+  },
+  {
+   "prompt": "Make the participle agree: (a) Sophie est parti__. (b) Les garçons sont venu__. (c) Mes sœurs sont arrivé__.",
+   "answer": "(a) partie (b) venus (c) arrivées",
+   "id": "e2"
+  },
+  {
+   "prompt": "Choose: (a) Il ___ sorti la poubelle. (b) Il ___ sorti avec ses amis.",
+   "answer": "(a) a (b) est",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"My grandmother was born in 1940 and died in 2020.\"",
+   "answer": "*Ma grand-mère est née en 1940 et elle est morte en 2020.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"We (f.) stayed at home and went to bed early.\" (se coucher)",
+   "answer": "*Nous sommes restées à la maison et nous nous sommes couchées tôt.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

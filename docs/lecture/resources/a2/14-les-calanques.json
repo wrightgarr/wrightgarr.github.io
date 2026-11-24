@@ -1,0 +1,155 @@
+{
+  "id": "a2-14",
+  "level": "A2",
+  "number": 14,
+  "title": "Les calanques",
+  "grammar": "superlatives",
+  "theme": "a travel guide",
+  "wordCount": 189,
+  "primer": [
+    "**le / la / les plus + adjective**: the most… (*la plus belle*)",
+    "**le / la / les moins + adjective**: the least…",
+    "**le meilleur / la meilleure**: the best",
+    "**de** after a superlative: in, of (*la plus belle de toutes*)",
+    "**un sentier**: a footpath",
+    "**une falaise**: a cliff",
+    "**turquoise**: turquoise"
+  ],
+  "passage": [
+    [
+      "Pour le numéro de juillet, Léa et Karim ont préparé un article : « Les calanques : notre guide ». Voici un extrait."
+    ],
+    [
+      "« Les calanques sont les endroits les plus spectaculaires de Marseille. Entre la ville et Cassis, il y a vingt kilomètres de falaises blanches et d'eau turquoise. Voici nos trois calanques préférées."
+    ],
+    [
+      "Sormiou est la plus grande. C'est aussi la plus facile à visiter : hors saison, on peut y aller en voiture. Sa plage est la meilleure pour les familles."
+    ],
+    [
+      "Sugiton est la plus populaire chez les étudiants : le sentier part de l'université ! Mais attention, c'est aussi la plus fréquentée. En été, elle est pleine de monde."
+    ],
+    [
+      "En-Vau, enfin, est la plus belle de toutes, à notre avis. Ses falaises sont les plus hautes et son eau est la plus claire. Mais c'est la moins accessible : il faut marcher une heure et demie sur un sentier difficile."
+    ],
+    [
+      "Nos conseils : partez le plus tôt possible, prenez beaucoup d'eau et ne laissez rien sur la plage. Les calanques sont un parc national : c'est le trésor le plus fragile de la région ! »"
+    ],
+    [
+      "Nadia a lu l'article et elle a souri."
+    ],
+    [
+      "— C'est votre meilleur article !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "un extrait",
+      "en": "an excerpt"
+    },
+    {
+      "fr": "les endroits",
+      "en": "places"
+    },
+    {
+      "fr": "préférées",
+      "en": "favourite"
+    },
+    {
+      "fr": "hors saison",
+      "en": "off-season"
+    },
+    {
+      "fr": "la plage",
+      "en": "the beach"
+    },
+    {
+      "fr": "populaire chez",
+      "en": "popular with"
+    },
+    {
+      "fr": "fréquentée",
+      "en": "crowded, busy"
+    },
+    {
+      "fr": "pleine de monde",
+      "en": "full of people"
+    },
+    {
+      "fr": "à notre avis",
+      "en": "in our opinion"
+    },
+    {
+      "fr": "claire",
+      "en": "clear"
+    },
+    {
+      "fr": "accessible",
+      "en": "easy to reach"
+    },
+    {
+      "fr": "le plus tôt possible",
+      "en": "as early as possible"
+    },
+    {
+      "fr": "ne laissez rien",
+      "en": "leave nothing behind"
+    },
+    {
+      "fr": "le trésor",
+      "en": "the treasure"
+    }
+  ],
+  "spotlight": [
+    "**Superlative = le / la / les + plus / moins + adjective:** *Sormiou est la plus grande. C'est la moins accessible.* The article and the adjective agree with the noun: *ses falaises sont les plus hautes*.",
+    "**After the noun, repeat the article:** *les endroits les plus spectaculaires, le trésor le plus fragile*. Use *de* for \"in/of\": *la plus belle de toutes*. \"The best\" is *le meilleur / la meilleure*: *votre meilleur article*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Which calanque is best for families, and why?",
+      "answer": "Sormiou — it's the easiest to visit and has the best beach for families",
+      "options": [
+        "Sormiou — it's the easiest to visit and has the best beach for families",
+        "Sugiton — the path starts at the university",
+        "En-Vau — it has the clearest water",
+        "Cassis — it has the most restaurants"
+      ],
+      "evidence": "Sormiou est la plus grande. C'est aussi la plus facile à visiter… Sa plage est la meilleure pour les familles."
+    },
+    {
+      "id": "q2",
+      "prompt": "What is the problem with Sugiton in summer?",
+      "answer": "It's the busiest — full of people",
+      "options": [
+        "It's the busiest — full of people",
+        "The path is closed",
+        "The water is too cold",
+        "There's no beach"
+      ],
+      "evidence": "c'est aussi la plus fréquentée. En été, elle est pleine de monde."
+    },
+    {
+      "id": "q3",
+      "prompt": "Why is En-Vau the least accessible?",
+      "answer": "You have to walk an hour and a half on a difficult path",
+      "options": [
+        "You have to walk an hour and a half on a difficult path",
+        "You need a boat to get there",
+        "It's only open in winter",
+        "It's too far from the city by car"
+      ],
+      "evidence": "Mais c'est la moins accessible : il faut marcher une heure et demie sur un sentier difficile."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three superlative sentences about places in your town or city (the biggest, the most beautiful, the best…).",
+    "model": "Le parc du Mont-Royal est le plus bel endroit de la ville. Le marché Jean-Talon est le plus grand marché. C'est le meilleur café du quartier.",
+    "targets": [
+      {
+        "label": "superlatives (le / la / les plus… , le meilleur…)",
+        "pattern": "\\b(le|la|les|l')\\s*(plus|moins|meilleure?s?)\\b",
+        "min": 3
+      }
+    ]
+  }
+}

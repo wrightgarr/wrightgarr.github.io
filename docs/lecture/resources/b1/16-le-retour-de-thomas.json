@@ -1,0 +1,187 @@
+{
+  "id": "b1-16",
+  "level": "B1",
+  "number": 16,
+  "title": "Le retour de Thomas",
+  "grammar": "expressing purpose",
+  "theme": "a trip to Alsace",
+  "wordCount": 393,
+  "primer": [
+    "**pour / afin de + infinitif**: in order to (one subject)",
+    "**pour que / afin que + subjonctif**: so that (two subjects)",
+    "**de peur que + subj.**: for fear that",
+    "**de manière à + infinitif**: so as to",
+    "**sans que + subj.**: without (someone) doing",
+    "**un congé**: time off"
+  ],
+  "passage": [
+    [
+      "Après Lyon, Claire Dumas a proposé l'Alsace à Léa. Pour préparer ce troisième reportage, Léa a fait ce qu'elle faisait toujours : elle a cherché quelqu'un du pays afin de ne pas photographier seulement des cartes postales. Et justement, elle connaissait quelqu'un à Strasbourg : Thomas, l'homme à la valise rouge."
+    ],
+    [
+      "Elle lui a écrit un message en hésitant longtemps, pour que le ton ne soit ni trop froid ni trop chaleureux. La réponse est arrivée en dix minutes : « Avec plaisir ! Je prends deux jours de congé pour que tu voies la vraie Alsace. »"
+    ],
+    [
+      "Thomas l'attendait à la gare, une valise rouge à la main."
+    ],
+    [
+      "— Pour que tu me reconnaisses, a-t-il dit en riant."
+    ],
+    [
+      "Ils ont commencé par la Petite France, le vieux quartier des tanneurs, avec ses maisons à colombages qui se reflétaient dans l'eau. Le lendemain, Léa s'est levée à cinq heures afin d'avoir la lumière du matin, sans les touristes. Thomas, lui, est venu avec deux cafés et des bretzels chauds, pour qu'elle ne travaille pas le ventre vide."
+    ],
+    [
+      "Le deuxième jour, ils ont suivi la route des vins. À Riquewihr, un vigneron leur a fait goûter son riesling."
+    ],
+    [
+      "— Nous travaillons à la main, de manière à respecter la vigne, a-t-il expliqué. Mon grand-père cultivait ces mêmes collines. Pendant la guerre, il cachait les bouteilles dans la cave, de peur que les soldats les prennent."
+    ],
+    [
+      "Thomas traduisait les mots d'alsacien que Léa ne comprenait pas. Il connaissait l'histoire de chaque village, de chaque église, et il parlait de sa région avec une passion qui la touchait."
+    ],
+    [
+      "Le soir, sur une terrasse de Colmar, ils ont dîné d'une choucroute garnie."
+    ],
+    [
+      "— Pourquoi tu es devenu professeur d'allemand ? a demandé Léa.",
+      "— Pour que mes élèves comprennent leurs voisins. Ici, l'Allemagne est à dix minutes. Ma grand-mère est née allemande et elle est morte française, sans jamais déménager. C'est ça, l'Alsace."
+    ],
+    [
+      "Léa a pris une photo de lui à ce moment-là, sans qu'il s'en aperçoive."
+    ],
+    [
+      "Le dernier matin, sur le quai de la gare, il y a eu un silence un peu maladroit."
+    ],
+    [
+      "— Je viendrai à Marseille cet été, a dit Thomas. Pour voir la mer… et pour te rendre ta visite.",
+      "— Seulement pour ça ?"
+    ],
+    [
+      "Il a souri et il a mis dans sa main un petit paquet. Dedans, il y avait un ruban vert."
+    ],
+    [
+      "— Pour ta valise. Afin que tu ne te trompes plus jamais."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "du pays",
+      "en": "local"
+    },
+    {
+      "fr": "justement",
+      "en": "as it happens"
+    },
+    {
+      "fr": "chaleureux",
+      "en": "warm"
+    },
+    {
+      "fr": "la Petite France",
+      "en": "Strasbourg's old tanners' quarter"
+    },
+    {
+      "fr": "les tanneurs",
+      "en": "tanners"
+    },
+    {
+      "fr": "maisons à colombages",
+      "en": "half-timbered houses"
+    },
+    {
+      "fr": "le ventre vide",
+      "en": "on an empty stomach"
+    },
+    {
+      "fr": "la route des vins",
+      "en": "the Alsace wine route"
+    },
+    {
+      "fr": "un vigneron",
+      "en": "a winemaker"
+    },
+    {
+      "fr": "la vigne",
+      "en": "the vines"
+    },
+    {
+      "fr": "la cave",
+      "en": "the cellar"
+    },
+    {
+      "fr": "une choucroute garnie",
+      "en": "sauerkraut with sausages and pork"
+    },
+    {
+      "fr": "sans qu'il s'en aperçoive",
+      "en": "without him noticing"
+    },
+    {
+      "fr": "maladroit",
+      "en": "awkward"
+    }
+  ],
+  "spotlight": [
+    "**One subject → pour / afin de + infinitive:** *Léa s'est levée à cinq heures afin d'avoir la lumière du matin.* **Two subjects → pour que / afin que + subjunctive:** *Je prends deux jours de congé pour que tu voies la vraie Alsace. Afin que tu ne te trompes plus jamais.*",
+    "**Other ways to express purpose:** *de manière à respecter la vigne* (so as to), *de peur que les soldats les prennent* (for fear that). *Sans que* also takes the subjunctive: *sans qu'il s'en aperçoive*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi Léa cherche-t-elle toujours quelqu'un du pays ?",
+      "answer": "Pour ne pas photographier seulement des cartes postales",
+      "options": [
+        "Pour ne pas photographier seulement des cartes postales",
+        "Pour économiser l'hôtel",
+        "Parce qu'elle ne parle pas alsacien",
+        "Parce que Claire l'exige"
+      ],
+      "evidence": "elle a cherché quelqu'un du pays afin de ne pas photographier seulement des cartes postales."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi le grand-père du vigneron cachait-il les bouteilles ?",
+      "answer": "De peur que les soldats les prennent pendant la guerre",
+      "options": [
+        "De peur que les soldats les prennent pendant la guerre",
+        "Pour les vieillir plus longtemps",
+        "Parce qu'elles étaient interdites",
+        "Pour les vendre plus cher"
+      ],
+      "evidence": "Pendant la guerre, il cachait les bouteilles dans la cave, de peur que les soldats les prennent."
+    },
+    {
+      "id": "q3",
+      "prompt": "Que signifie le cadeau de Thomas ?",
+      "answer": "Un ruban vert pour sa valise, pour qu'elle ne se trompe plus jamais",
+      "options": [
+        "Un ruban vert pour sa valise, pour qu'elle ne se trompe plus jamais",
+        "Une bouteille de riesling",
+        "Une photo de Strasbourg",
+        "Un billet de train pour Strasbourg"
+      ],
+      "evidence": "Dedans, il y avait un ruban vert. — Pour ta valise. Afin que tu ne te trompes plus jamais."
+    }
+  ],
+  "writing": {
+    "prompt": "Expliquez pourquoi vous apprenez le français en trois phrases : une avec *pour* + infinitif, une avec *pour que* + subjonctif, une avec *afin de*.",
+    "model": "J'apprends le français pour comprendre les films sans sous-titres. Je parle français avec mes enfants pour qu'ils soient bilingues. Je lis tous les jours afin de progresser plus vite.",
+    "targets": [
+      {
+        "label": "pour + infinitive",
+        "pattern": "\\bpour\\s+(ne\\s+(pas\\s+)?)?[a-zà-ÿ]+(er|ir|re|oir)\\b",
+        "min": 1
+      },
+      {
+        "label": "pour que + subjunctive",
+        "pattern": "pour qu",
+        "min": 1
+      },
+      {
+        "label": "afin de / afin que",
+        "pattern": "afin (de|d'|que|qu')",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "s39",
+ "subject": 39,
+ "level": "A2",
+ "title": "Comparatives",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Comparatives compare two things: more … than, less … than, as … as.</p>"
+  },
+  {
+   "heading": "With adjectives and adverbs",
+   "html": "<table>\n<thead>\n<tr>\n<th>Meaning</th>\n<th>Structure</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>more … than</td>\n<td><strong>plus</strong> + adj. + <strong>que</strong></td>\n<td><em>Paul est </em><em>plus</em><em> grand </em><em>que</em><em> Marc.</em></td>\n</tr>\n<tr>\n<td>less … than</td>\n<td><strong>moins</strong> + adj. + <strong>que</strong></td>\n<td><em>Ce film est </em><em>moins</em><em> intéressant </em><em>que</em><em> le livre.</em></td>\n</tr>\n<tr>\n<td>as … as</td>\n<td><strong>aussi</strong> + adj. + <strong>que</strong></td>\n<td><em>Elle est </em><em>aussi</em><em> intelligente </em><em>que</em><em> sa sœur.</em></td>\n</tr>\n</tbody>\n</table>\n<p>The adjective still agrees: <em>Marie est plus grand</em><em>e</em><em> que Paul.</em>\nWith adverbs: <em>Il parle </em><em>plus</em><em> vite </em><em>que</em><em> moi.</em> / <em>Elle conduit </em><em>aussi</em><em> prudemment </em><em>que</em><em> toi.</em></p>"
+  },
+  {
+   "heading": "With nouns (quantity)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Meaning</th>\n<th>Structure</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>more … than</td>\n<td><strong>plus de</strong> + noun + <strong>que</strong></td>\n<td><em>J'ai </em><em>plus de</em><em> livres </em><em>que</em><em> toi.</em></td>\n</tr>\n<tr>\n<td>less / fewer … than</td>\n<td><strong>moins de</strong> + noun + <strong>que</strong></td>\n<td><em>Il a </em><em>moins d'</em><em>argent </em><em>que</em><em> moi.</em></td>\n</tr>\n<tr>\n<td>as much / many … as</td>\n<td><strong>autant de</strong> + noun + <strong>que</strong></td>\n<td><em>Nous avons </em><em>autant de</em><em> travail </em><em>que</em><em> vous.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "With verbs",
+   "html": "<table>\n<thead>\n<tr>\n<th>Meaning</th>\n<th>Structure</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>more than</td>\n<td>verb + <strong>plus que</strong></td>\n<td><em>Il travaille </em><em>plus que</em><em> moi.</em></td>\n</tr>\n<tr>\n<td>less than</td>\n<td>verb + <strong>moins que</strong></td>\n<td><em>Je mange </em><em>moins que</em><em> lui.</em></td>\n</tr>\n<tr>\n<td>as much as</td>\n<td>verb + <strong>autant que</strong></td>\n<td><em>Elle lit </em><em>autant que</em><em> son frère.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Irregular comparatives",
+   "html": "<table>\n<thead>\n<tr>\n<th>Word</th>\n<th>Comparative</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>bon</strong> (good, adj.)</td>\n<td><strong>meilleur(e)(s)</strong></td>\n<td><em>Ce gâteau est </em><em>meilleur</em><em> que l'autre.</em> (never ~~plus bon~~)</td>\n</tr>\n<tr>\n<td><strong>bien</strong> (well, adv.)</td>\n<td><strong>mieux</strong></td>\n<td><em>Tu chantes </em><em>mieux</em><em> que moi.</em> (never ~~plus bien~~)</td>\n</tr>\n<tr>\n<td><strong>mauvais</strong> (bad)</td>\n<td><strong>pire</strong> or plus mauvais</td>\n<td><em>La situation est </em><em>pire</em><em> qu'avant.</em></td>\n</tr>\n<tr>\n<td><strong>mal</strong> (badly)</td>\n<td><strong>plus mal</strong></td>\n<td><em>Il danse </em><em>plus mal</em><em> que moi.</em></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Meilleur vs mieux:</strong> <em>meilleur</em> describes a noun (adjective); <em>mieux</em> describes a verb (adverb).\n- <em>Ce vin est </em><em>meilleur</em><em>.</em> (le vin)\n- <em>Elle parle </em><em>mieux</em><em> français.</em> (parle)\n- After <em>c'est</em> for a general judgment: <em>C'est </em><em>mieux</em><em> comme ça.</em> — It's better that way.</p>"
+  },
+  {
+   "heading": "After \"que\": emphatic pronouns",
+   "html": "<p><em>plus grand que </em><em>moi / toi / lui / elle / nous / vous / eux / elles</em>**.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Compare (+): Toronto / grand / Montréal.",
+   "answer": "*Toronto est plus grand que Montréal.* (*Toronto est plus grande…* is also accepted, since *la ville* is feminine.)",
+   "id": "e1"
+  },
+  {
+   "prompt": "Compare (=): Ma sœur / sportive / moi.",
+   "answer": "*Ma sœur est aussi sportive que moi.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Compare (–) with nouns: J'ai / temps / toi.",
+   "answer": "*J'ai moins de temps que toi.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Meilleur or mieux? (a) Ce restaurant est ___. (b) Il joue ___ que moi. (c) C'est la ___ solution.",
+   "answer": "(a) meilleur (b) mieux (c) meilleure",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"She works more than her husband.\"",
+   "answer": "*Elle travaille plus que son mari.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I have as many friends as you.\"",
+   "answer": "*J'ai autant d'amis que toi.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

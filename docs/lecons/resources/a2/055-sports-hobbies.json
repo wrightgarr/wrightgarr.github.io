@@ -1,0 +1,67 @@
+{
+ "id": "s55",
+ "subject": 55,
+ "level": "A2",
+ "title": "Sports & Hobbies",
+ "sections": [
+  {
+   "heading": "Two key structures",
+   "html": "<table>\n<thead>\n<tr>\n<th>Structure</th>\n<th>Used for</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>jouer à</strong> + game/sport</td>\n<td>team sports, games with a ball, board games</td>\n<td><em>jouer </em><em>au</em><em> hockey, </em><em>au</em><em> tennis, </em><em>au</em><em> soccer (Québec) / </em><em>au</em><em> foot (France), </em><em>aux</em><em> cartes, </em><em>aux</em><em> échecs</em> (chess), <em>jouer </em><em>à la</em><em> pétanque</em></td>\n</tr>\n<tr>\n<td><strong>faire de</strong> + activity</td>\n<td>individual sports, activities</td>\n<td><em>faire </em><em>du</em><em> vélo, </em><em>du</em><em> ski, </em><em>du</em><em> yoga, </em><em>de la</em><em> natation, </em><em>de la</em><em> randonnée, </em><em>de l'</em><em>escalade</em></td>\n</tr>\n<tr>\n<td><strong>jouer de</strong> + instrument</td>\n<td>music</td>\n<td><em>jouer </em><em>du</em><em> piano, </em><em>de la</em><em> guitare, </em><em>du</em><em> violon</em></td>\n</tr>\n</tbody>\n</table>\n<p>Remember the contractions: <em>à + le = au</em>, <em>à + les = aux</em>, <em>de + le = du</em>.</p>"
+  },
+  {
+   "heading": "Sports vocabulary",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>le hockey</td>\n<td>hockey</td>\n<td>le patinage</td>\n<td>skating</td>\n</tr>\n<tr>\n<td>le soccer (Qc) / le football (Fr)</td>\n<td>soccer</td>\n<td>le football américain</td>\n<td>football</td>\n</tr>\n<tr>\n<td>le basketball / basket</td>\n<td>basketball</td>\n<td>le baseball</td>\n<td>baseball</td>\n</tr>\n<tr>\n<td>le tennis</td>\n<td>tennis</td>\n<td>le golf</td>\n<td>golf</td>\n</tr>\n<tr>\n<td>la natation</td>\n<td>swimming</td>\n<td>la course (à pied)</td>\n<td>running</td>\n</tr>\n<tr>\n<td>le vélo / le cyclisme</td>\n<td>cycling</td>\n<td>la randonnée</td>\n<td>hiking</td>\n</tr>\n<tr>\n<td>le ski (alpin / de fond)</td>\n<td>(downhill / cross-country) skiing</td>\n<td>la planche à neige (Qc) / le snowboard</td>\n<td>snowboarding</td>\n</tr>\n<tr>\n<td>la musculation</td>\n<td>weight training</td>\n<td>la boxe</td>\n<td>boxing</td>\n</tr>\n<tr>\n<td>l'équitation</td>\n<td>horse riding</td>\n<td>la voile</td>\n<td>sailing</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Hobbies (les loisirs / les passe-temps)",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>lire / la lecture</td>\n<td>reading</td>\n</tr>\n<tr>\n<td>cuisiner / la cuisine</td>\n<td>cooking</td>\n</tr>\n<tr>\n<td>jardiner / le jardinage</td>\n<td>gardening</td>\n</tr>\n<tr>\n<td>peindre / la peinture</td>\n<td>painting</td>\n</tr>\n<tr>\n<td>dessiner / le dessin</td>\n<td>drawing</td>\n</tr>\n<tr>\n<td>la photographie</td>\n<td>photography</td>\n</tr>\n<tr>\n<td>voyager / les voyages</td>\n<td>travel</td>\n</tr>\n<tr>\n<td>regarder des séries</td>\n<td>watching series</td>\n</tr>\n<tr>\n<td>aller au cinéma</td>\n<td>going to the movies</td>\n</tr>\n<tr>\n<td>faire du bricolage</td>\n<td>DIY / tinkering</td>\n</tr>\n<tr>\n<td>les jeux vidéo</td>\n<td>video games</td>\n</tr>\n<tr>\n<td>faire de la couture / du tricot</td>\n<td>sewing / knitting</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Useful phrases",
+   "html": "<ul>\n<li><em>Qu'est-ce que tu fais pendant ton temps libre ?</em> — What do you do in your free time?</li>\n<li><em>J'adore faire de la randonnée.</em></li>\n<li><em>Je suis fan de hockey.</em> / <em>Je suis les Canadiens.</em> — I follow the Canadiens.</li>\n<li><em>Je m'entraîne trois fois par semaine.</em> — I train three times a week.</li>\n<li><em>Je suis nul(le) en sport.</em> — I'm terrible at sports.</li>\n<li><em>une équipe</em> (team), <em>un match</em> (game), <em>gagner</em> (win), <em>perdre</em> (lose), <em>un but</em> (goal), <em>un joueur / une joueuse</em> (player), <em>un entraîneur</em> (coach).</li>\n</ul>"
+  },
+  {
+   "heading": "Negative: du / de la → de",
+   "html": "<p><em>Je ne fais pas </em><em>de</em><em> ski.</em> / But: <em>Je ne joue pas </em><em>au</em><em> tennis.</em> (au doesn't change).</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je joue ___ golf.",
+   "instruction": "Fill in *au, à la, aux, du, de la, de l'*:",
+   "answer": "au",
+   "id": "e1"
+  },
+  {
+   "prompt": "Elle fait ___ natation.",
+   "answer": "de la",
+   "id": "e2"
+  },
+  {
+   "prompt": "Nous jouons ___ cartes.",
+   "answer": "aux",
+   "id": "e3"
+  },
+  {
+   "prompt": "Il joue ___ guitare.",
+   "answer": "de la",
+   "id": "e4"
+  },
+  {
+   "prompt": "Ils font ___ escalade.",
+   "answer": "de l'",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I don't ski, but I play hockey.\"",
+   "answer": "*Je ne fais pas de ski, mais je joue au hockey.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Describe 3 of your hobbies.",
+   "answer": "Example: *J'aime lire des romans. Je fais du vélo le week-end. Je joue de la guitare.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

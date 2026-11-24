@@ -1,0 +1,57 @@
+{
+ "id": "s42",
+ "subject": 42,
+ "level": "A2",
+ "title": "Demonstrative Pronouns (celui, celle, ceux, celles)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Demonstrative pronouns <strong>replace</strong> a noun to avoid repetition: \"the one(s)\", \"this one\", \"that one\".</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>Singular</th>\n<th>Plural</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Masculine</td>\n<td><strong>celui</strong></td>\n<td><strong>ceux</strong></td>\n</tr>\n<tr>\n<td>Feminine</td>\n<td><strong>celle</strong></td>\n<td><strong>celles</strong></td>\n</tr>\n</tbody>\n</table>\n<p>They agree with the noun they replace. They <strong>cannot stand alone</strong>. They must be followed by one of:</p>"
+  },
+  {
+   "heading": "1. -ci / -là (this one / that one)",
+   "html": "<ul>\n<li><em>Quel pull veux-tu ? — </em><em>Celui-ci</em><em>.</em> — This one.</li>\n<li><em>J'aime ces chaussures, mais </em><em>celles-là</em><em> sont plus jolies.</em> — …but those are prettier.</li>\n<li><em>Celui-ci… celui-là</em> can also mean \"the latter… the former\".</li>\n</ul>"
+  },
+  {
+   "heading": "2. de + noun (possession: \"the one of\" = …'s)",
+   "html": "<ul>\n<li><em>C'est ta voiture ? — Non, c'est </em><em>celle de</em><em> mon frère.</em> — No, it's my brother's.</li>\n<li><em>Mes enfants et </em><em>ceux de</em><em> Marie.</em> — My children and Marie's.</li>\n</ul>"
+  },
+  {
+   "heading": "3. A relative pronoun: qui, que, dont, où",
+   "html": "<ul>\n<li><em>Ce film est </em><em>celui que</em><em> je préfère.</em> — This film is the one (that) I prefer.</li>\n<li><em>Prends </em><em>ceux qui</em><em> sont sur la table.</em> — Take the ones that are on the table.</li>\n<li><em>C'est </em><em>celle dont</em><em> je t'ai parlé.</em> — That's the one I told you about.</li>\n</ul>"
+  },
+  {
+   "heading": "Examples",
+   "html": "<ul>\n<li><em>Quelle robe vas-tu porter ? </em><em>Celle-ci</em><em> ou </em><em>celle-là</em><em> ?</em></li>\n<li><em>Les meilleurs croissants sont </em><em>ceux de</em><em> la boulangerie du coin.</em></li>\n<li><em>Tu connais </em><em>celui qui</em><em> habite en face ?</em> — Do you know the one who lives opposite?</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Ce n'est pas mon livre, c'est le livre de Paul.",
+   "instruction": "Replace the noun with a demonstrative pronoun:",
+   "answer": "*…c'est celui de Paul.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "J'aime cette chemise, mais je préfère cette chemise-là.",
+   "answer": "*…mais je préfère celle-là.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Les gâteaux que tu as faits sont délicieux. → ___ que tu as faits sont délicieux.",
+   "answer": "*Ceux que tu as faits sont délicieux.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Fill in: Mes parents habitent à Ottawa, ___ de ma femme habitent à Québec.",
+   "answer": "*ceux*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"Which apartment? — The one that has a balcony.\"",
+   "answer": "*Quel appartement ? — Celui qui a un balcon.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

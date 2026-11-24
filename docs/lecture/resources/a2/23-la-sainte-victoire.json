@@ -1,0 +1,151 @@
+{
+  "id": "a2-23",
+  "level": "A2",
+  "number": 23,
+  "title": "La Sainte-Victoire",
+  "grammar": "reflexive verbs in the passé composé",
+  "theme": "a mountain hike",
+  "wordCount": 211,
+  "primer": [
+    "**reflexive verbs take être in the passé composé**: *je me suis levé(e)*",
+    "**agreement with the subject**: *elle s'est levée, ils se sont levés*",
+    "**se perdre**: to get lost",
+    "**s'arrêter / se reposer**: to stop / to rest",
+    "**se rendre compte de**: to realize",
+    "**une randonnée**: a hike"
+  ],
+  "passage": [
+    [
+      "En octobre, Léa et Karim ont fait une randonnée sur la montagne Sainte-Victoire, la montagne que Cézanne a peinte tant de fois."
+    ],
+    [
+      "Ce jour-là, ils se sont levés à cinq heures. Léa s'est habillée chaudement et elle a préparé un thermos de café. Ils se sont retrouvés devant l'immeuble à six heures et ils sont partis en voiture. C'est Léa qui conduisait, prudemment bien sûr !"
+    ],
+    [
+      "Au début, tout allait bien. Ils se sont promenés dans la forêt et ils se sont arrêtés souvent pour prendre des photos. Mais vers midi, ils se sont rendu compte d'un problème : il n'y avait plus de panneaux. Ils se sont perdus !"
+    ],
+    [
+      "— Ne t'inquiète pas, a dit Karim. Je me suis déjà perdu ici une fois. Il faut monter. En haut, on voit tout."
+    ],
+    [
+      "Ils se sont dépêchés, ils se sont disputés un peu, puis ils se sont excusés. Enfin, ils sont arrivés au sommet, à la croix de Provence. La vue était incroyable : on voyait la mer, Marseille et même les Alpes."
+    ],
+    [
+      "Ils se sont assis et ils se sont reposés pendant une heure. Léa a pris la meilleure photo de sa vie : la lumière d'automne sur la montagne."
+    ],
+    [
+      "Sur la route du retour, Léa s'est endormie dans la voiture… C'est Karim qui a conduit !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "Cézanne",
+      "en": "the painter Paul Cézanne"
+    },
+    {
+      "fr": "peinte",
+      "en": "painted"
+    },
+    {
+      "fr": "tant de fois",
+      "en": "so many times"
+    },
+    {
+      "fr": "chaudement",
+      "en": "warmly"
+    },
+    {
+      "fr": "un thermos",
+      "en": "a thermos flask"
+    },
+    {
+      "fr": "ils se sont retrouvés",
+      "en": "they met up"
+    },
+    {
+      "fr": "la forêt",
+      "en": "the forest"
+    },
+    {
+      "fr": "des panneaux",
+      "en": "signposts"
+    },
+    {
+      "fr": "En haut",
+      "en": "At the top"
+    },
+    {
+      "fr": "ils se sont disputés",
+      "en": "they argued"
+    },
+    {
+      "fr": "ils se sont excusés",
+      "en": "they apologized"
+    },
+    {
+      "fr": "le sommet",
+      "en": "the summit"
+    },
+    {
+      "fr": "incroyable",
+      "en": "incredible"
+    },
+    {
+      "fr": "s'est endormie",
+      "en": "fell asleep"
+    }
+  ],
+  "spotlight": [
+    "**Reflexive verbs take être in the passé composé**, with the pronoun in front: *ils se sont levés, je me suis perdu, elle s'est endormie*. Negative: *Je ne me suis pas perdu.*",
+    "**Agreement follows the subject**, as with other *être* verbs: *Léa s'est habillée, ils se sont assis*. When the verb has its own object afterwards, there's no agreement: *ils se sont rendu compte d'un problème*. You'll study this rule in detail at B1."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why is the Sainte-Victoire famous?",
+      "answer": "Cézanne painted it many times",
+      "options": [
+        "Cézanne painted it many times",
+        "It's the highest mountain in France",
+        "It has a famous ski resort",
+        "Napoleon crossed it"
+      ],
+      "evidence": "la montagne que Cézanne a peinte tant de fois."
+    },
+    {
+      "id": "q2",
+      "prompt": "What problem did they have around noon, and what was Karim's solution?",
+      "answer": "They got lost — Karim said to keep climbing, because from the top you can see everything",
+      "options": [
+        "They got lost — Karim said to keep climbing, because from the top you can see everything",
+        "They ran out of water — Karim found a spring",
+        "It started to rain — they sheltered in a cave",
+        "Léa hurt her foot — Karim carried her"
+      ],
+      "evidence": "Ils se sont perdus ! … Il faut monter. En haut, on voit tout."
+    },
+    {
+      "id": "q3",
+      "prompt": "What happened on the way home?",
+      "answer": "Léa fell asleep, so Karim drove",
+      "options": [
+        "Léa fell asleep, so Karim drove",
+        "They had a flat tyre",
+        "They got lost again",
+        "Léa drove very fast"
+      ],
+      "evidence": "Sur la route du retour, Léa s'est endormie dans la voiture… C'est Karim qui a conduit !"
+    }
+  ],
+  "writing": {
+    "prompt": "Describe yesterday morning in three sentences with reflexive verbs in the passé composé.",
+    "model": "Hier, je me suis réveillée à sept heures. Je me suis douchée et je me suis habillée. Ensuite, je me suis dépêchée pour prendre le bus.",
+    "targets": [
+      {
+        "label": "reflexive passé composé (je me suis…, il s'est…)",
+        "pattern": "\\b(me|te|se|nous|vous|m'|t'|s')\\s*(suis|es|est|sommes|êtes|sont)\\s+[a-zà-ÿ]+",
+        "min": 3
+      }
+    ]
+  }
+}

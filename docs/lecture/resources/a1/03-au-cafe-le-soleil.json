@@ -1,0 +1,153 @@
+{
+  "id": "a1-03",
+  "level": "A1",
+  "number": 3,
+  "title": "Au café Le Soleil",
+  "grammar": "regular *-er* verbs, *tu* vs. *vous*",
+  "theme": "ordering at a café",
+  "wordCount": 91,
+  "primer": [
+    "**travailler**: to work (*je travaille, tu travailles, il travaille*)",
+    "**parler**: to speak",
+    "**regarder**: to look at, watch",
+    "**je voudrais…**: I would like… (polite ordering)",
+    "**s'il vous plaît**: please",
+    "**tu / vous**: you (informal / formal or plural)",
+    "**et toi ?**: and you?"
+  ],
+  "passage": [
+    [
+      "Le matin, Léa et Marco sont au café Le Soleil. Le patron s'appelle Monsieur Dubois. Il travaille dans le café tous les jours."
+    ],
+    [
+      "— Bonjour, Monsieur Dubois !",
+      "— Bonjour, Léa ! Bonjour, Marco ! Vous désirez ?",
+      "— Je voudrais un café, s'il vous plaît.",
+      "— Et toi, Marco, tu commandes un chocolat chaud ?",
+      "— Oui ! Et un croissant, s'il vous plaît."
+    ],
+    [
+      "Marco parle italien et français. Il parle avec Monsieur Dubois. Léa regarde les photos sur son téléphone. Elle travaille beaucoup."
+    ],
+    [
+      "— Tu travailles aujourd'hui ? demande Marco.",
+      "— Oui, je travaille au musée. Et toi ?",
+      "— Moi, j'étudie à la bibliothèque."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "le patron",
+      "en": "the owner, boss"
+    },
+    {
+      "fr": "tous les jours",
+      "en": "every day"
+    },
+    {
+      "fr": "Vous désirez ?",
+      "en": "What would you like?"
+    },
+    {
+      "fr": "commander",
+      "en": "to order",
+      "match": [
+        "commandes"
+      ]
+    },
+    {
+      "fr": "sur",
+      "en": "on"
+    },
+    {
+      "fr": "beaucoup",
+      "en": "a lot"
+    },
+    {
+      "fr": "aujourd'hui",
+      "en": "today"
+    },
+    {
+      "fr": "demande",
+      "en": "asks"
+    },
+    {
+      "fr": "le musée",
+      "en": "the museum"
+    },
+    {
+      "fr": "étudier",
+      "en": "to study",
+      "match": [
+        "étudie"
+      ]
+    },
+    {
+      "fr": "la bibliothèque",
+      "en": "the library"
+    }
+  ],
+  "spotlight": [
+    "**-er verbs:** drop *-er*, add *-e, -es, -e*, all pronounced the same: *je travaille, tu travailles, il travaille*.",
+    "**Tu vs. vous:** Monsieur Dubois says *vous désirez* to the pair (plural) and *tu commandes* to Marco alone, because they know each other well. Use *vous* with strangers and staff."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Who is Monsieur Dubois?",
+      "answer": "The owner of the café, who works there every day",
+      "options": [
+        "The owner of the café, who works there every day",
+        "A waiter who only works weekends",
+        "Léa's father",
+        "A customer who comes every morning"
+      ],
+      "evidence": "Le patron s'appelle Monsieur Dubois. Il travaille dans le café tous les jours."
+    },
+    {
+      "id": "q2",
+      "prompt": "What do Léa and Marco each order?",
+      "answer": "Léa: a coffee · Marco: a hot chocolate and a croissant",
+      "options": [
+        "Léa: a coffee · Marco: a hot chocolate and a croissant",
+        "Léa: a croissant · Marco: a coffee",
+        "Both order hot chocolate",
+        "Léa: a tea · Marco: a croissant only"
+      ],
+      "evidence": "Je voudrais un café, s'il vous plaît. … Oui ! Et un croissant, s'il vous plaît."
+    },
+    {
+      "id": "q3",
+      "prompt": "Where will Léa and Marco be today?",
+      "answer": "Léa at the museum; Marco at the library",
+      "options": [
+        "Léa at the museum; Marco at the library",
+        "Léa at the library; Marco at the museum",
+        "Both at the café",
+        "Léa at home; Marco at the university"
+      ],
+      "evidence": "Oui, je travaille au musée. … Moi, j'étudie à la bibliothèque."
+    }
+  ],
+  "writing": {
+    "prompt": "Order something at a café in one polite sentence, then say one thing you do every day with an *-er* verb.",
+    "model": "Je voudrais un thé, s'il vous plaît. Tous les jours, je travaille à la maison.",
+    "targets": [
+      {
+        "label": "Je voudrais…",
+        "pattern": "je voudrais",
+        "min": 1
+      },
+      {
+        "label": "s'il vous plaît",
+        "pattern": "s'il (vous|te) pla[iî]t",
+        "min": 1
+      },
+      {
+        "label": "an -er verb (je travaille, je parle…)",
+        "pattern": "\\b(je|j')\\s?[a-zà-ÿ]+e\\b",
+        "min": 1
+      }
+    ]
+  }
+}

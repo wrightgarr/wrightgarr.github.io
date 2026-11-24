@@ -1,0 +1,64 @@
+{
+ "id": "s113",
+ "subject": 113,
+ "level": "B2",
+ "title": "Indefinite Demonstrative Pronouns (ceci, cela, ça, ce, ceux-ci, ….)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>These pronouns refer to things or ideas <strong>without a specific noun</strong> (neutral) or point out \"this one / that one\".</p>"
+  },
+  {
+   "heading": "1. Neutral demonstratives (no gender)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Pronoun</th>\n<th>Meaning</th>\n<th>Register</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>ce (c')</strong></td>\n<td>it, that</td>\n<td>with <em>être</em>, before relatives</td>\n</tr>\n<tr>\n<td><strong>ceci</strong></td>\n<td>this</td>\n<td>formal, written</td>\n</tr>\n<tr>\n<td><strong>cela</strong></td>\n<td>that</td>\n<td>formal, written</td>\n</tr>\n<tr>\n<td><strong>ça</strong></td>\n<td>this / that</td>\n<td>spoken, informal (contraction of <em>cela</em>)</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Ce</strong>\n- With <em>être</em>: <strong><em>C'</em><em>est vrai.</em> / </strong><em>Ce</em><em> sont mes enfants.</em> / <strong><em>Ce</em><em> serait bien.</em>\n- Before relatives: </strong><em>ce qui, ce que, ce dont</em><strong> (Subject 98).\n- With <em>devoir / pouvoir + être*: </em></strong>Ce*<em> doit être lui.</em> — It must be him.</p>\n<p><strong>Ceci vs cela</strong>\n- <em>Ceci</em> announces what follows; <em>cela</em> refers to what precedes:\n  - <em>Retenez </em><em>ceci</em><em> : la patience est essentielle.</em> — Remember this: patience is essential.\n  - <em>Il a menti. </em><em>Cela</em><em> m'a choqué.</em> — He lied. That shocked me.\n- Contrast: <strong><em>Ceci</em>* est à moi, </strong>cela*<em> est à toi.</em> — This is mine, that is yours.</p>\n<p><strong>Ça</strong> (everyday)\n- <em>Ça va ?</em> / <em>Ça coûte combien ?</em> / <em>J'aime </em><em>ça</em><em>.</em> / <em>C'est </em><em>ça</em><em>.</em> — That's right. / <strong><em>Ça</em><em> ne fait rien.</em> — It doesn't matter. / *Comme </strong>ça*<em>.</em> — Like this.\n- Avoid <em>ça</em> in formal writing → use <em>cela</em>.</p>"
+  },
+  {
+   "heading": "2. Variable demonstratives + -ci / -là",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Singular</th>\n<th>Plural</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Masc.</td>\n<td><strong>celui-ci / celui-là</strong></td>\n<td><strong>ceux-ci / ceux-là</strong></td>\n</tr>\n<tr>\n<td>Fem.</td>\n<td><strong>celle-ci / celle-là</strong></td>\n<td><strong>celles-ci / celles-là</strong></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Quel gâteau veux-tu ? </em><em>Celui-ci</em><em> ou </em><em>celui-là</em><em> ?</em></li>\n<li><strong>-ci</strong> = this one (nearer), <strong>-là</strong> = that one (farther). In speech, <em>-là</em> is used for both.</li>\n<li><strong>The latter / the former:</strong> <strong><em>celui-ci</em></strong> = the latter (last mentioned), <strong><em>celui-là</em></strong> = the former:\n  <em>Paul et Marc sont frères : </em><em>celui-ci</em><em> est médecin, </em><em>celui-là</em><em> est avocat.</em> — …the latter (Marc) is a doctor, the former (Paul) a lawyer.</li>\n<li>Pejorative use in speech: <em><strong>Celui-là</strong>, alors !</em> — That guy, honestly!</li>\n</ul>"
+  },
+  {
+   "heading": "3. Ce vs il/elle with être (preview of Subject 114)",
+   "html": "<ul>\n<li><em>C'est</em> + determiner + noun: <em>C'est un ami.</em></li>\n<li><em>Il est</em> + adjective (referring to a specific person/thing): <em>Il est sympa.</em></li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "___ est mon frère.",
+   "instruction": "Choose *ce, ceci, cela, ça*:",
+   "answer": "C'",
+   "id": "e1"
+  },
+  {
+   "prompt": "Écoutez ___ : demain, il n'y aura pas de cours.",
+   "answer": "ceci",
+   "id": "e2"
+  },
+  {
+   "prompt": "Il est parti sans dire au revoir. ___ m'a beaucoup surpris. (formal)",
+   "answer": "Cela",
+   "id": "e3"
+  },
+  {
+   "prompt": "Tu aimes ___ ? (informal)",
+   "answer": "ça",
+   "id": "e4"
+  },
+  {
+   "prompt": "___ que je veux, c'est la paix.",
+   "answer": "Ce",
+   "id": "e5"
+  },
+  {
+   "prompt": "Ces chaussures ? Je préfère ___. (those)",
+   "instruction": "Choose *celui-ci, celle-là, ceux-ci, celles-là*:",
+   "answer": "celles-là",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"Marie and Julie are sisters: the latter is 20, the former is 25.\"",
+   "answer": "*Marie et Julie sont sœurs : celle-ci a 20 ans, celle-là a 25 ans.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

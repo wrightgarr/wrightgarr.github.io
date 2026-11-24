@@ -1,0 +1,187 @@
+{
+  "id": "b1-21",
+  "level": "B1",
+  "number": 21,
+  "title": "Une semaine en Corse",
+  "grammar": "indefinite words (*chacun, certains, plusieurs, aucun, n'importe…, tout*)",
+  "theme": "a holiday in Corsica",
+  "wordCount": 366,
+  "primer": [
+    "**chacun / chacune**: each one, everyone",
+    "**certains / quelques-uns**: some (of them)",
+    "**plusieurs**: several",
+    "**aucun(e)… ne / ne… aucun(e)**: not one, none",
+    "**n'importe qui / quoi / quand / où**: anyone / anything / anytime / anywhere",
+    "**tout / tous / toute / toutes**: all, every, everything"
+  ],
+  "passage": [
+    [
+      "En septembre, pour fêter la création de la coopérative (la banque avait dit oui !), Léa, Karim, Amina et Lucas sont partis une semaine en Corse. Ils avaient loué une vieille maison de pierre dans un village de montagne, au-dessus de Calvi. Chacun avait apporté quelque chose : Léa ses appareils, Karim ses livres, Amina son violon, et Lucas… rien du tout, sauf un appétit énorme."
+    ],
+    [
+      "Le premier matin, ils ont fait une réunion improvisée sur la terrasse."
+    ],
+    [
+      "— Règle numéro un, a annoncé Karim : aucun ordinateur, aucun téléphone avant midi. Personne ne travaille.",
+      "— Règle numéro deux, a ajouté Amina : chacun cuisine à son tour.",
+      "— Règle numéro trois, a dit Lucas : on peut manger n'importe quoi, n'importe quand."
+    ],
+    [
+      "Tout le monde a voté pour."
+    ],
+    [
+      "Les jours suivants, ils ont exploré l'île. Certains matins, ils partaient à pied sur les sentiers de montagne, entre les châtaigniers et le maquis qui sentait la myrte et l'immortelle. D'autres jours, ils descendaient vers la mer, où l'eau était si transparente qu'on voyait chaque pierre au fond. Léa a pris plusieurs centaines de photos, mais aucune ne lui semblait aussi belle que la réalité."
+    ],
+    [
+      "Un soir, ils ont assisté à un concert de polyphonies corses dans une petite église. Six hommes chantaient sans instrument, la main sur l'oreille, les yeux fermés. Quelques-uns étaient très vieux, d'autres avaient à peine vingt ans. Amina pleurait sans s'en rendre compte."
+    ],
+    [
+      "— Je n'ai jamais rien entendu de pareil, a-t-elle murmuré à la sortie. Aucune école de musique ne peut apprendre ça."
+    ],
+    [
+      "Un des chanteurs l'a entendue."
+    ],
+    [
+      "— Vous avez raison, mademoiselle. Ça ne s'apprend pas à l'école. Ça s'apprend à table, avec la famille, et à l'église, avec tout le village."
+    ],
+    [
+      "Le dernier soir, chacun a raconté son meilleur moment. Pour Karim, c'était un vieux berger qui lui avait offert du fromage de brebis sans dire un mot. Pour Lucas, les beignets au brocciu de la boulangerie. Pour Léa, un coucher de soleil sur la baie de Calvi, que tous avaient regardé en silence."
+    ],
+    [
+      "— Et toi, Amina ?",
+      "— Moi, c'est tout. Tous les moments. Toute la semaine. Je ne veux pas choisir.",
+      "— Tu triches, a dit Lucas.",
+      "— Oui, a répondu Amina en souriant. Mais n'importe qui tricherait à ma place."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "au-dessus de",
+      "en": "above"
+    },
+    {
+      "fr": "rien du tout",
+      "en": "nothing at all"
+    },
+    {
+      "fr": "improvisée",
+      "en": "impromptu"
+    },
+    {
+      "fr": "à son tour",
+      "en": "in turn"
+    },
+    {
+      "fr": "les châtaigniers",
+      "en": "chestnut trees"
+    },
+    {
+      "fr": "le maquis",
+      "en": "Corsican scrubland"
+    },
+    {
+      "fr": "la myrte et l'immortelle",
+      "en": "myrtle and everlasting flower"
+    },
+    {
+      "fr": "au fond",
+      "en": "on the bottom"
+    },
+    {
+      "fr": "ont assisté à",
+      "en": "attended"
+    },
+    {
+      "fr": "à peine",
+      "en": "barely"
+    },
+    {
+      "fr": "sans s'en rendre compte",
+      "en": "without realizing it"
+    },
+    {
+      "fr": "un berger",
+      "en": "a shepherd"
+    },
+    {
+      "fr": "du fromage de brebis",
+      "en": "sheep's cheese"
+    },
+    {
+      "fr": "les beignets au brocciu",
+      "en": "fritters with Corsican fresh cheese"
+    },
+    {
+      "fr": "Tu triches",
+      "en": "You're cheating"
+    }
+  ],
+  "spotlight": [
+    "**Each, some, several, none:** *Chacun avait apporté quelque chose. Certains matins… d'autres jours… Quelques-uns étaient très vieux. plusieurs centaines de photos.* **Aucun** needs *ne* with the verb, and works with a noun or alone: *aucun ordinateur; Aucune école de musique ne peut apprendre ça; aucune ne lui semblait aussi belle*.",
+    "**N'importe + qui / quoi / quand / où = any … at all:** *on peut manger n'importe quoi, n'importe quand; n'importe qui tricherait à ma place*. **Tout** agrees with its noun: *tout le monde, tous les moments, toute la semaine*. As a pronoun, *tous* is pronounced with the *s*: *que tous avaient regardé*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Quelles règles les amis ont-ils décidées le premier matin ?",
+      "answer": "Aucun écran avant midi, chacun cuisine à son tour, et on mange n'importe quoi, n'importe quand",
+      "options": [
+        "Aucun écran avant midi, chacun cuisine à son tour, et on mange n'importe quoi, n'importe quand",
+        "Tout le monde se lève à six heures",
+        "Personne ne parle de Marseille",
+        "On ne mange que du fromage corse"
+      ],
+      "evidence": "Règle numéro un, a annoncé Karim : aucun ordinateur, aucun téléphone avant midi."
+    },
+    {
+      "id": "q2",
+      "prompt": "Qu'est-ce qui a ému Amina, et que lui a expliqué le chanteur ?",
+      "answer": "Les polyphonies corses ; le chanteur explique que ça s'apprend en famille et au village, pas à l'école",
+      "options": [
+        "Les polyphonies corses ; le chanteur explique que ça s'apprend en famille et au village, pas à l'école",
+        "Un concert d'orgue ; le musicien explique qu'il a étudié à Paris",
+        "Le coucher de soleil ; un berger lui parle de la mer",
+        "Un violon ancien ; le luthier lui raconte son histoire"
+      ],
+      "evidence": "Ça ne s'apprend pas à l'école. Ça s'apprend à table, avec la famille, et à l'église, avec tout le village."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi Lucas dit-il qu'Amina triche ?",
+      "answer": "Elle refuse de choisir un seul moment",
+      "options": [
+        "Elle refuse de choisir un seul moment",
+        "Elle a mangé tous les beignets",
+        "Elle a gagné aux cartes",
+        "Elle n'a pas cuisiné"
+      ],
+      "evidence": "Moi, c'est tout. Tous les moments. Toute la semaine. Je ne veux pas choisir."
+    }
+  ],
+  "writing": {
+    "prompt": "Décrivez un groupe (votre famille, votre classe, vos collègues) en trois phrases avec *chacun, certains, aucun* et *tous*.",
+    "model": "Dans ma famille, chacun a sa place à table. Certains aiment parler, d'autres préfèrent écouter. Aucun de nous ne rate le dîner du dimanche. Nous sommes tous très proches.",
+    "targets": [
+      {
+        "label": "chacun",
+        "pattern": "\\bchacun(e)?\\b",
+        "min": 1
+      },
+      {
+        "label": "certains / quelques-uns / plusieurs",
+        "pattern": "\\b(certains|certaines|quelques-uns|quelques-unes|plusieurs)\\b",
+        "min": 1
+      },
+      {
+        "label": "aucun",
+        "pattern": "\\baucun(e)?\\b",
+        "min": 1
+      },
+      {
+        "label": "tous / toutes",
+        "pattern": "\\b(tous|toutes)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

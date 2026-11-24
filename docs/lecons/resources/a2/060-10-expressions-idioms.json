@@ -1,0 +1,46 @@
+{
+ "id": "s60",
+ "subject": 60,
+ "level": "A2",
+ "title": "10 Expressions & Idioms (A2)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<table>\n<thead>\n<tr>\n<th>#</th>\n<th>Expression</th>\n<th>Literal meaning</th>\n<th>Real meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><strong>Avoir le cafard</strong></td>\n<td>To have the cockroach</td>\n<td>To feel down / blue</td>\n<td><em>Il pleut, j'ai le cafard.</em></td>\n</tr>\n<tr>\n<td>2</td>\n<td><strong>Coûter les yeux de la tête</strong></td>\n<td>To cost the eyes of the head</td>\n<td>To cost an arm and a leg</td>\n<td><em>Cette voiture coûte les yeux de la tête.</em></td>\n</tr>\n<tr>\n<td>3</td>\n<td><strong>Avoir la flemme</strong></td>\n<td>To have laziness</td>\n<td>Can't be bothered</td>\n<td><em>J'ai la flemme de faire la vaisselle.</em></td>\n</tr>\n<tr>\n<td>4</td>\n<td><strong>Être dans la lune</strong></td>\n<td>To be in the moon</td>\n<td>To daydream / be absent-minded</td>\n<td><em>Désolé, j'étais dans la lune.</em></td>\n</tr>\n<tr>\n<td>5</td>\n<td><strong>Mettre les pieds dans le plat</strong></td>\n<td>To put one's feet in the dish</td>\n<td>To put one's foot in it</td>\n<td><em>Il a mis les pieds dans le plat en parlant de la surprise.</em></td>\n</tr>\n<tr>\n<td>6</td>\n<td><strong>Faire la grasse matinée</strong></td>\n<td>To do the fat morning</td>\n<td>To sleep in</td>\n<td><em>Le dimanche, je fais la grasse matinée.</em></td>\n</tr>\n<tr>\n<td>7</td>\n<td><strong>Avoir un poil dans la main</strong></td>\n<td>To have a hair in one's hand</td>\n<td>To be very lazy</td>\n<td><em>Il ne fait rien, il a un poil dans la main !</em></td>\n</tr>\n<tr>\n<td>8</td>\n<td><strong>Raconter des salades</strong></td>\n<td>To tell salads</td>\n<td>To tell lies / tall tales</td>\n<td><em>Arrête de me raconter des salades !</em></td>\n</tr>\n<tr>\n<td>9</td>\n<td><strong>Il pleut des cordes</strong></td>\n<td>It's raining ropes</td>\n<td>It's raining cats and dogs</td>\n<td><em>Prends un parapluie, il pleut des cordes.</em></td>\n</tr>\n<tr>\n<td>10</td>\n<td><strong>Ce n'est pas la mer à boire</strong></td>\n<td>It's not the sea to drink</td>\n<td>It's not that hard</td>\n<td><em>Allez, finis ton projet, ce n'est pas la mer à boire.</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "You stayed in bed until noon on Sunday.",
+   "instruction": "Which expression fits?",
+   "answer": "*J'ai fait la grasse matinée.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "A friend keeps telling you lies.",
+   "answer": "*Il / Elle raconte des salades.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Your new phone was extremely expensive.",
+   "answer": "*Il a coûté les yeux de la tête.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "You feel a little sad today.",
+   "answer": "*J'ai le cafard.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Your colleague revealed the secret by accident.",
+   "answer": "*Il / Elle a mis les pieds dans le plat.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I can't be bothered to cook tonight.\"",
+   "answer": "*J'ai la flemme de cuisiner ce soir.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

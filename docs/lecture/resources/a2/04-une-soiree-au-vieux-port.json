@@ -1,0 +1,140 @@
+{
+  "id": "a2-04",
+  "level": "A2",
+  "number": 4,
+  "title": "Une soirée au Vieux-Port",
+  "grammar": "agreement with *être*",
+  "theme": "a life story",
+  "wordCount": 179,
+  "primer": [
+    "**elle est allée**: with *être*, the participle agrees like an adjective: add *-e* for a woman",
+    "**ils sont allés / elles sont allées**: add *-s* for plural",
+    "**naître → né(e)**: to be born → born",
+    "**mourir → mort(e)**: to die → dead, died",
+    "**devenir → devenu(e)**: to become → became",
+    "**un coucher de soleil**: a sunset",
+    "**un pêcheur**: a fisherman"
+  ],
+  "passage": [
+    [
+      "Jeudi soir, Nadia a invité Léa et Madame Ferrand au restaurant. Les trois femmes sont allées au Vieux-Port à pied. Elles sont arrivées à sept heures, juste à temps pour le coucher de soleil. Le ciel est devenu rose, puis orange."
+    ],
+    [
+      "Au restaurant, Madame Ferrand a raconté sa vie."
+    ],
+    [
+      "— Je suis née ici, dans ce quartier, en 1951. Mon père a été pêcheur toute sa vie. Moi, je suis allée à l'école à côté du port, puis je suis devenue institutrice. Mon mari et moi, nous sommes restés dans le même appartement pendant cinquante ans. Il est mort il y a cinq ans.",
+      "— Et vos enfants ? a demandé Léa.",
+      "— Ma fille est partie au Canada. Elle est devenue médecin à Québec ! Mon fils, lui, est resté à Marseille."
+    ],
+    [
+      "Après le dîner, elles sont descendues sur le quai. Des pêcheurs sont arrivés avec leurs bateaux. Madame Ferrand a dit bonjour à tout le monde."
+    ],
+    [
+      "— Vous connaissez tout le monde ! a dit Nadia.",
+      "— Bien sûr. Je suis marseillaise, ma belle !"
+    ],
+    [
+      "Les trois femmes sont rentrées tard, très contentes de leur soirée."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "juste à temps pour",
+      "en": "just in time for"
+    },
+    {
+      "fr": "le ciel",
+      "en": "the sky"
+    },
+    {
+      "fr": "sa vie",
+      "en": "her life"
+    },
+    {
+      "fr": "institutrice",
+      "en": "primary-school teacher"
+    },
+    {
+      "fr": "mon mari",
+      "en": "my husband"
+    },
+    {
+      "fr": "le même",
+      "en": "the same"
+    },
+    {
+      "fr": "il y a cinq ans",
+      "en": "five years ago"
+    },
+    {
+      "fr": "le quai",
+      "en": "the quayside"
+    },
+    {
+      "fr": "leurs bateaux",
+      "en": "their boats"
+    },
+    {
+      "fr": "ma belle",
+      "en": "my dear (affectionate, very southern)"
+    },
+    {
+      "fr": "sont rentrées",
+      "en": "went home"
+    }
+  ],
+  "spotlight": [
+    "**Agreement with être:** add *-e* for a woman and *-s* for plural: *Je suis née* (Madame Ferrand speaking), *Ma fille est partie*, *Elles sont arrivées*, *Les trois femmes sont rentrées*.",
+    "**A mixed group is masculine:** *Mon mari et moi, nous sommes restés.* There's no agreement with *avoir*: *Nadia a invité Léa*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why did the women arrive at seven o'clock?",
+      "answer": "Just in time for the sunset",
+      "options": [
+        "Just in time for the sunset",
+        "Because the restaurant opened at seven",
+        "Because Nadia finished work at seven",
+        "Because the boats came back at seven"
+      ],
+      "evidence": "Elles sont arrivées à sept heures, juste à temps pour le coucher de soleil."
+    },
+    {
+      "id": "q2",
+      "prompt": "What job did Madame Ferrand do?",
+      "answer": "She was a primary-school teacher",
+      "options": [
+        "She was a primary-school teacher",
+        "She was a fisherwoman",
+        "She was a doctor",
+        "She was a journalist"
+      ],
+      "evidence": "puis je suis devenue institutrice."
+    },
+    {
+      "id": "q3",
+      "prompt": "What happened to her two children?",
+      "answer": "Her daughter became a doctor in Québec; her son stayed in Marseille",
+      "options": [
+        "Her daughter became a doctor in Québec; her son stayed in Marseille",
+        "Her daughter stayed in Marseille; her son became a fisherman",
+        "Both moved to Paris",
+        "Her son became a doctor in Canada; her daughter is a teacher"
+      ],
+      "evidence": "Ma fille est partie au Canada. Elle est devenue médecin à Québec ! Mon fils, lui, est resté à Marseille."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about a woman in your family (where she was born, where she went, what she became), with correct agreement.",
+    "model": "Ma grand-mère est née en Italie en 1945. Elle est arrivée au Canada à vingt ans. Elle est devenue infirmière.",
+    "targets": [
+      {
+        "label": "feminine agreement (née, allée, arrivée, devenue…)",
+        "pattern": "\\b(née|allée|venue|arrivée|partie|montée|descendue|restée|tombée|sortie|entrée|rentrée|morte|devenue|revenue)s?\\b",
+        "min": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "a2-06",
+  "level": "A2",
+  "number": 6,
+  "title": "Quand j'étais petite",
+  "grammar": "imparfait for description",
+  "theme": "an old photo",
+  "wordCount": 172,
+  "primer": [
+    "**l'imparfait**: the past tense for descriptions and background (\"was,\" \"used to\")",
+    "**j'étais / il était**: I was / he was",
+    "**j'avais / il avait**: I had / he had",
+    "**endings: -ais, -ais, -ait, -ions, -iez, -aient**",
+    "**quand j'étais petite**: when I was little",
+    "**un village**: a village",
+    "**il y avait**: there was / there were"
+  ],
+  "passage": [
+    [
+      "Un soir, Karim est venu chez Léa pour travailler sur un article. Sur une étagère, il a vu une vieille photo."
+    ],
+    [
+      "— C'est toi, la petite fille avec les cheveux longs ?",
+      "— Oui ! Sur cette photo, j'avais sept ans. Nous étions chez ma grand-mère, en Provence.",
+      "— Tu étais mignonne ! Et qui est le garçon ?",
+      "— C'est Hugo, mon frère. Il avait cinq ans. Il était très timide et il avait toujours peur des chiens.",
+      "— Elle habitait où, ta grand-mère ?",
+      "— Dans un petit village près d'Avignon. Sa maison était vieille et elle avait des murs jaunes. Il y avait un grand jardin avec des oliviers et de la lavande. Ça sentait bon !",
+      "— Et tes parents ?",
+      "— Ils travaillaient beaucoup à Lyon, alors ils venaient seulement le week-end. Ma mère avait les cheveux courts et elle portait toujours des lunettes rouges. Mon père était grand et il riait beaucoup."
+    ],
+    [
+      "Karim regarde la photo encore une fois."
+    ],
+    [
+      "— Et l'appareil photo, dans tes mains ?",
+      "— C'était le cadeau de mon grand-père. Je l'adorais. C'est avec lui que j'ai commencé la photo !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "une étagère",
+      "en": "a shelf"
+    },
+    {
+      "fr": "les cheveux longs",
+      "en": "long hair"
+    },
+    {
+      "fr": "mignonne",
+      "en": "cute"
+    },
+    {
+      "fr": "le garçon",
+      "en": "the boy"
+    },
+    {
+      "fr": "timide",
+      "en": "shy"
+    },
+    {
+      "fr": "des chiens",
+      "en": "dogs"
+    },
+    {
+      "fr": "des murs",
+      "en": "walls"
+    },
+    {
+      "fr": "des oliviers",
+      "en": "olive trees"
+    },
+    {
+      "fr": "la lavande",
+      "en": "lavender"
+    },
+    {
+      "fr": "Ça sentait bon",
+      "en": "It smelled nice"
+    },
+    {
+      "fr": "courts",
+      "en": "short"
+    },
+    {
+      "fr": "des lunettes",
+      "en": "glasses"
+    },
+    {
+      "fr": "il riait",
+      "en": "he laughed"
+    }
+  ],
+  "spotlight": [
+    "**Forming the imparfait:** take the *nous* form of the present, drop *-ons*, and add *-ais, -ais, -ait, -ions, -iez, -aient*: *nous habitons → elle habitait; nous travaillons → ils travaillaient*. Only *être* is irregular: *j'étais, nous étions*.",
+    "**Use it to describe the past:** age, appearance, feelings and settings. *J'avais sept ans. Sa maison était vieille. Il y avait un grand jardin.* The event in the story itself is in the passé composé: *Karim a vu une vieille photo*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "How old were Léa and Hugo in the photo?",
+      "answer": "Léa was seven and Hugo was five",
+      "options": [
+        "Léa was seven and Hugo was five",
+        "Léa was five and Hugo was seven",
+        "Léa was ten and Hugo was eight",
+        "They were both seven"
+      ],
+      "evidence": "Sur cette photo, j'avais sept ans. … Il avait cinq ans."
+    },
+    {
+      "id": "q2",
+      "prompt": "Describe the grandmother's house with two details.",
+      "answer": "It was old, with yellow walls and a big garden",
+      "options": [
+        "It was old, with yellow walls and a big garden",
+        "It was modern, with a swimming pool",
+        "It was small, with a blue door and no garden",
+        "It was by the sea, with a view of the port"
+      ],
+      "evidence": "Sa maison était vieille et elle avait des murs jaunes. Il y avait un grand jardin avec des oliviers et de la lavande."
+    },
+    {
+      "id": "q3",
+      "prompt": "What was special about the camera in the photo?",
+      "answer": "It was a gift from her grandfather, and she started photography with it",
+      "options": [
+        "It was a gift from her grandfather, and she started photography with it",
+        "It was her mother's first camera",
+        "It was the camera she uses at the magazine today",
+        "It was a gift from Hugo for her birthday"
+      ],
+      "evidence": "C'était le cadeau de mon grand-père. Je l'adorais. C'est avec lui que j'ai commencé la photo !"
+    }
+  ],
+  "writing": {
+    "prompt": "Describe yourself as a child in three sentences with the imparfait (age, appearance, personality).",
+    "model": "Quand j'étais petit, j'avais les cheveux blonds. J'étais très curieux. J'habitais dans une petite maison avec un chien.",
+    "targets": [
+      {
+        "label": "three imparfait verbs (j'étais, j'avais…)",
+        "pattern": "\\b(?!(?:mais|jamais|français|anglais|frais|vrais|mauvais|fait|parfait|lait|souhait)\\b)(?![a-zà-ÿ]*tions\\b)[a-zà-ÿ]+(ais|ait|ions|iez|aient)\\b",
+        "min": 3
+      }
+    ]
+  }
+}

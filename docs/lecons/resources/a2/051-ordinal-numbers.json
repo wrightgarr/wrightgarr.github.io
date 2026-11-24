@@ -1,0 +1,61 @@
+{
+ "id": "s51",
+ "subject": 51,
+ "level": "A2",
+ "title": "Ordinal Numbers (1er, 2ème, 3ème, ...)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Ordinal numbers show order: first, second, third.</p>"
+  },
+  {
+   "heading": "Formation: cardinal number + -ième",
+   "html": "<table>\n<thead>\n<tr>\n<th>Number</th>\n<th>Ordinal</th>\n<th>Abbreviation</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><strong>premier / première</strong></td>\n<td>1er / 1re</td>\n</tr>\n<tr>\n<td>2</td>\n<td>deuxième (or <strong>second / seconde</strong>)</td>\n<td>2e (2ème)</td>\n</tr>\n<tr>\n<td>3</td>\n<td>troisième</td>\n<td>3e</td>\n</tr>\n<tr>\n<td>4</td>\n<td>quatr<strong>ième</strong> (drop final e)</td>\n<td>4e</td>\n</tr>\n<tr>\n<td>5</td>\n<td>cinq<strong>u</strong>ième (add u)</td>\n<td>5e</td>\n</tr>\n<tr>\n<td>9</td>\n<td>neu<strong>v</strong>ième (f → v)</td>\n<td>9e</td>\n</tr>\n<tr>\n<td>10</td>\n<td>dixième</td>\n<td>10e</td>\n</tr>\n<tr>\n<td>11</td>\n<td>onzième</td>\n<td>11e</td>\n</tr>\n<tr>\n<td>20</td>\n<td>vingtième</td>\n<td>20e</td>\n</tr>\n<tr>\n<td>21</td>\n<td>vingt et un<strong>ième</strong> (not ~~premier~~)</td>\n<td>21e</td>\n</tr>\n<tr>\n<td>100</td>\n<td>centième</td>\n<td>100e</td>\n</tr>\n<tr>\n<td>last</td>\n<td>dernier / dernière</td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Rules",
+   "html": "<ol>\n<li>Drop the final <strong>-e</strong>: <em>quatre → quatrième</em>, <em>onze → onzième</em>, <em>mille → millième</em>.</li>\n<li><em>cinq → cinq</em><em>u</em><em>ième</em>, <em>neuf → neu</em><em>v</em><em>ième</em>.</li>\n<li>Only <strong>premier</strong> agrees in gender (<em>premier / première</em>). The others agree only in number: <em>les deuxièmes</em>.</li>\n<li><strong>Second(e)</strong> is used when there are only two (<em>la Seconde Guerre mondiale</em>), or in formal style. Pronounced \"suh-gond\".</li>\n<li>For 21, 31, etc.: <em>vingt et unième</em>, <em>trente et unième</em>.</li>\n</ol>"
+  },
+  {
+   "heading": "Abbreviations",
+   "html": "<p>The official abbreviation is <strong>e</strong> (<em>2e, 3e</em>), but <strong>ème</strong> (<em>2ème</em>) is very common. Also <em>1er</em> (m.), <em>1re</em> (f.).</p>"
+  },
+  {
+   "heading": "Uses",
+   "html": "<ul>\n<li><strong>Floors:</strong> <em>J'habite au troisième étage.</em> (In France, <em>le rez-de-chaussée</em> is the ground floor, and <em>le premier étage</em> is the next one up. In Québec, the ground floor is often <em>le premier étage</em>.)</li>\n<li><strong>Arrondissements in Paris:</strong> <em>le 16e arrondissement</em>.</li>\n<li><strong>Centuries:</strong> <em>le XXIe siècle</em> (Roman numerals) = <em>le vingt et unième siècle</em>.</li>\n<li><strong>Rankings:</strong> <em>Il est arrivé deuxième.</em></li>\n<li><strong>Fractions:</strong> <em>un tiers</em> (1/3), <em>un quart</em> (1/4), <em>un demi</em> / <em>la moitié</em> (1/2), <em>un cinquième</em> (1/5).</li>\n</ul>"
+  },
+  {
+   "heading": "Dates and kings: cardinals, except \"first\"",
+   "html": "<ul>\n<li><em>le premier mai</em>, but <em>le deux mai</em> (not ~~le deuxième mai~~).</li>\n<li><em>François </em><em>Ier</em><strong> (premier), but <em>Louis **XIV</em></strong> (<em>quatorze</em>, not ~~quatorzième~~).</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "1st (fem.), 4th, 5th, 9th, 21st, 100th.",
+   "instruction": "Write in letters:",
+   "answer": "*première*, *quatrième*, *cinquième*, *neuvième*, *vingt et unième*, *centième*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Translate: \"I live on the fifth floor.\"",
+   "answer": "*J'habite au cinquième étage.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"It's the first time.\"",
+   "answer": "*C'est la première fois.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"We're in the 21st century.\"",
+   "answer": "*Nous sommes au vingt et unième siècle.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "How do you say \"Louis the 14th\" and \"June 2nd\"?",
+   "answer": "*Louis Quatorze* / *le deux juin*.",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

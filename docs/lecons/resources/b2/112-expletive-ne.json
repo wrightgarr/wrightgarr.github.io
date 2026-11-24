@@ -1,0 +1,58 @@
+{
+ "id": "s112",
+ "subject": 112,
+ "level": "B2",
+ "title": "Expletive \"ne\"",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>expletive ne</strong> (<em>ne explétif</em>) is a <strong>ne</strong> that has <strong>no negative meaning</strong>. It's used in formal / written French after certain expressions. It's optional, and its absence is never wrong, but recognizing it prevents serious misunderstandings.</p>\n<ul>\n<li><em>J'ai peur qu'il </em><em>ne</em><em> pleuve.</em> = I'm afraid it <strong>will</strong> rain. (not \"won't\")</li>\n</ul>"
+  },
+  {
+   "heading": "Where it appears",
+   "html": "<table>\n<thead>\n<tr>\n<th>Context</th>\n<th>Example</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Verbs of fear</strong> (avoir peur que, craindre que, redouter que, de peur que, de crainte que) + subj.</td>\n<td><em>Je crains qu'il </em><em>ne</em><em> soit trop tard.</em></td>\n<td>I fear it's too late.</td>\n</tr>\n<tr>\n<td><strong>Avant que</strong> + subj.</td>\n<td><em>Pars avant qu'il </em><em>ne</em><em> pleuve.</em></td>\n<td>Leave before it rains.</td>\n</tr>\n<tr>\n<td><strong>À moins que</strong> + subj.</td>\n<td><em>Je viendrai, à moins qu'il </em><em>ne</em><em> neige.</em></td>\n<td>…unless it snows.</td>\n</tr>\n<tr>\n<td><strong>Empêcher que / éviter que</strong> + subj.</td>\n<td><em>Évite qu'il </em><em>ne</em><em> tombe.</em></td>\n<td>Make sure he doesn't fall.</td>\n</tr>\n<tr>\n<td><strong>Comparisons of inequality</strong> (plus / moins / autre… que + clause)</td>\n<td><em>Il est plus intelligent que tu </em><em>ne</em><em> le penses.</em></td>\n<td>He is smarter than you think.</td>\n</tr>\n<tr>\n<td><em>(Il s'en faut de peu que, douter que in negative/questions, etc.)</em></td>\n<td><em>Je ne doute pas qu'il </em><em>ne</em><em> vienne.</em></td>\n<td>I don't doubt he'll come.</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "How to tell expletive ne from real negation",
+   "html": "<ul>\n<li><strong>Expletive:</strong> <em>ne</em> alone, without <em>pas / jamais / rien</em>: <em>J'ai peur qu'il </em><em>ne</em><em> vienne.</em> = I'm afraid he'll come.</li>\n<li><strong>Real negative:</strong> <em>ne… pas</em>: <em>J'ai peur qu'il </em><em>ne</em><em> vienne </em><em>pas</em><em>.</em> = I'm afraid he won't come.</li>\n</ul>"
+  },
+  {
+   "heading": "Not used after:",
+   "html": "<ul>\n<li><strong>Après que, sans que</strong> (in careful usage), <strong>bien que</strong>.</li>\n<li>In everyday speech it's usually dropped: <em>J'ai peur qu'il pleuve.</em> / <em>Avant qu'il parte.</em></li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "J'ai peur qu'il ne se perde.",
+   "instruction": "Is the *ne* expletive (no negative meaning) or negative? Translate.",
+   "answer": "Expletive — I'm afraid he'll get lost.",
+   "id": "e1"
+  },
+  {
+   "prompt": "J'ai peur qu'il ne vienne pas.",
+   "answer": "Negative — I'm afraid he won't come.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Partez avant qu'il ne soit trop tard.",
+   "answer": "Expletive — Leave before it's too late.",
+   "id": "e3"
+  },
+  {
+   "prompt": "Elle est plus fatiguée qu'elle ne le dit.",
+   "answer": "Expletive — She's more tired than she says.",
+   "id": "e4"
+  },
+  {
+   "prompt": "Je viendrai à moins que tu ne sois occupé.",
+   "answer": "Expletive — I'll come unless you're busy.",
+   "id": "e5"
+  },
+  {
+   "prompt": "Add an expletive *ne* (formal style): *Je crains que le train soit en retard.*",
+   "answer": "*Je crains que le train ne soit en retard.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

@@ -1,0 +1,44 @@
+{
+ "id": "s30",
+ "subject": 30,
+ "level": "A1",
+ "title": "10 Expressions & Idioms (A1)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Ten common everyday expressions you'll hear constantly.</p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th>Expression</th>\n<th>Literal meaning</th>\n<th>Real meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><strong>Ça va ?</strong></td>\n<td>It goes?</td>\n<td>How are you? / Is it OK?</td>\n<td><em>Ça va ? — Ça va bien, merci.</em></td>\n</tr>\n<tr>\n<td>2</td>\n<td><strong>Pas de problème</strong></td>\n<td>No problem</td>\n<td>No problem</td>\n<td><em>Tu peux m'aider ? — Pas de problème !</em></td>\n</tr>\n<tr>\n<td>3</td>\n<td><strong>C'est pas grave</strong></td>\n<td>It's not serious</td>\n<td>It's OK / Never mind</td>\n<td><em>Désolé ! — C'est pas grave.</em></td>\n</tr>\n<tr>\n<td>4</td>\n<td><strong>Avoir faim / soif</strong></td>\n<td>To have hunger / thirst</td>\n<td>To be hungry / thirsty</td>\n<td><em>J'ai faim, on mange ?</em></td>\n</tr>\n<tr>\n<td>5</td>\n<td><strong>Avoir chaud / froid</strong></td>\n<td>To have heat / cold</td>\n<td>To be hot / cold (person)</td>\n<td><em>J'ai froid, ferme la fenêtre.</em></td>\n</tr>\n<tr>\n<td>6</td>\n<td><strong>Avoir sommeil</strong></td>\n<td>To have sleep</td>\n<td>To be sleepy</td>\n<td><em>Les enfants ont sommeil.</em></td>\n</tr>\n<tr>\n<td>7</td>\n<td><strong>Avoir raison / tort</strong></td>\n<td>To have reason / wrong</td>\n<td>To be right / wrong</td>\n<td><em>Tu as raison !</em></td>\n</tr>\n<tr>\n<td>8</td>\n<td><strong>Ça dépend</strong></td>\n<td>That depends</td>\n<td>It depends</td>\n<td><em>Tu viens ce soir ? — Ça dépend.</em></td>\n</tr>\n<tr>\n<td>9</td>\n<td><strong>Bon appétit !</strong></td>\n<td>Good appetite</td>\n<td>Enjoy your meal!</td>\n<td>Said before eating.</td>\n</tr>\n<tr>\n<td>10</td>\n<td><strong>À tes / vos souhaits !</strong></td>\n<td>To your wishes</td>\n<td>Bless you! (after a sneeze)</td>\n<td><em>Atchoum ! — À tes souhaits !</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Note on \"avoir\" expressions",
+   "html": "<p>English uses \"to be\" (I am hungry), but French uses <strong>avoir</strong> (I have hunger). Other examples: <em>avoir peur</em> (to be afraid), <em>avoir … ans</em> (to be … years old), <em>avoir besoin de</em> (to need), <em>avoir envie de</em> (to feel like).</p>\n<p><strong>Careful:</strong> <em>Je suis chaud</em> doesn't mean \"I'm hot (temperature)\". It means \"I'm up for it\", and can have a sexual meaning. Say <strong><em>J'ai chaud</em></strong>.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Translate: \"I'm thirsty and I'm cold.\"",
+   "answer": "*J'ai soif et j'ai froid.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Respond: Someone sneezes. What do you say?",
+   "answer": "*À tes souhaits !* (or *À vos souhaits !*)",
+   "id": "e2"
+  },
+  {
+   "prompt": "Your friend apologizes for being late. Reassure them.",
+   "answer": "*C'est pas grave !* / *Pas de problème !*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"You're right, it depends.\"",
+   "answer": "*Tu as raison, ça dépend.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"The children are sleepy.\"",
+   "answer": "*Les enfants ont sommeil.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

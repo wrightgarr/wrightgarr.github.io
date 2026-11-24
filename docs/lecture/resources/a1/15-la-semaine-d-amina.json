@@ -1,0 +1,119 @@
+{
+  "id": "a1-15",
+  "level": "A1",
+  "number": 15,
+  "title": "La semaine d'Amina",
+  "grammar": "days of the week, *le* + day",
+  "theme": "a busy schedule",
+  "wordCount": 102,
+  "primer": [
+    "**lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche**: Monday–Sunday",
+    "**le lundi**: on Mondays (every Monday)",
+    "**avoir cours**: to have class",
+    "**jouer du violon**: to play the violin",
+    "**chanter**: to sing",
+    "**occupée**: busy",
+    "**téléphoner à**: to call (someone)"
+  ],
+  "passage": [
+    [
+      "La semaine d'Amina est très occupée. Le lundi et le mercredi, elle a cours de piano au conservatoire. Le mardi, elle travaille dans une librairie. Le jeudi, elle joue du violon dans un petit orchestre. Le vendredi soir, elle chante dans un bar à jazz avec des amis."
+    ],
+    [
+      "Le samedi, elle fait le marché avec Léa. Elle achète des légumes et des fruits."
+    ],
+    [
+      "Et le dimanche ? Le dimanche, Amina se repose. Elle téléphone à sa famille à Montréal. Il est midi à Paris, mais il est six heures du matin à Montréal ! Sa mère est déjà réveillée : elle adore parler avec Amina."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "la semaine",
+      "en": "the week"
+    },
+    {
+      "fr": "une librairie",
+      "en": "a bookstore (not a library!)"
+    },
+    {
+      "fr": "un orchestre",
+      "en": "an orchestra"
+    },
+    {
+      "fr": "faire le marché",
+      "en": "to do the market shopping",
+      "match": [
+        "fait le marché"
+      ]
+    },
+    {
+      "fr": "des légumes",
+      "en": "vegetables"
+    },
+    {
+      "fr": "du matin",
+      "en": "in the morning (a.m.)"
+    },
+    {
+      "fr": "déjà",
+      "en": "already"
+    },
+    {
+      "fr": "réveillée",
+      "en": "awake"
+    }
+  ],
+  "spotlight": [
+    "**Le + day = habit:** *Le jeudi, elle joue du violon* (every Thursday). Without *le*, it means one specific day: *Samedi, Léa et Amina sont dans un magasin* (this Saturday).",
+    "**Days aren't capitalized** in French: *lundi, mardi*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does Amina do on Tuesdays and Thursdays?",
+      "answer": "Tuesdays: works in a bookstore · Thursdays: plays violin in an orchestra",
+      "options": [
+        "Tuesdays: works in a bookstore · Thursdays: plays violin in an orchestra",
+        "Tuesdays: piano class · Thursdays: sings in a bar",
+        "Tuesdays: the market · Thursdays: rests",
+        "Tuesdays: works in a library · Thursdays: plays piano"
+      ],
+      "evidence": "Le mardi, elle travaille dans une librairie. Le jeudi, elle joue du violon dans un petit orchestre."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does she do on Friday evenings?",
+      "answer": "She sings in a jazz bar with friends",
+      "options": [
+        "She sings in a jazz bar with friends",
+        "She calls her family",
+        "She plays violin",
+        "She works in the bookstore"
+      ],
+      "evidence": "Le vendredi soir, elle chante dans un bar à jazz avec des amis."
+    },
+    {
+      "id": "q3",
+      "prompt": "Why is it early morning when Amina calls her mother?",
+      "answer": "Montréal is six hours behind Paris",
+      "options": [
+        "Montréal is six hours behind Paris",
+        "Her mother works nights",
+        "Amina always wakes up early",
+        "Montréal is six hours ahead of Paris"
+      ],
+      "evidence": "Il est midi à Paris, mais il est six heures du matin à Montréal !"
+    }
+  ],
+  "writing": {
+    "prompt": "Describe your week using *le* + three different days.",
+    "model": "Le lundi, je travaille. Le mercredi, je fais du sport. Le dimanche, je me repose.",
+    "targets": [
+      {
+        "label": "le + three different days",
+        "pattern": "\\ble (lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)\\b",
+        "min": 3
+      }
+    ]
+  }
+}

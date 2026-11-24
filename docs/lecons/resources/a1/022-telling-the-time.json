@@ -1,0 +1,61 @@
+{
+ "id": "s22",
+ "subject": 22,
+ "level": "A1",
+ "title": "Telling the Time",
+ "sections": [
+  {
+   "heading": "Asking",
+   "html": "<ul>\n<li><em>Quelle heure est-il ?</em> (formal) / <em>Il est quelle heure ?</em> (informal) — What time is it?</li>\n<li><em>À quelle heure… ?</em> — At what time…? → <em>À quelle heure commence le film ?</em></li>\n</ul>"
+  },
+  {
+   "heading": "Answering: Il est … heure(s)",
+   "html": "<ul>\n<li><em>Il est </em><em>une</em><em> heure.</em> (singular <em>heure</em>, feminine <em>une</em>)</li>\n<li><em>Il est deux heure</em><em>s</em><em>.</em></li>\n<li><em>Il est </em><em>midi</em><em>.</em> — noon. <em>Il est </em><em>minuit</em><em>.</em> — midnight.</li>\n</ul>"
+  },
+  {
+   "heading": "Minutes after the hour",
+   "html": "<table>\n<thead>\n<tr>\n<th>Time</th>\n<th>French</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3:05</td>\n<td>trois heures cinq</td>\n</tr>\n<tr>\n<td>3:15</td>\n<td>trois heures <strong>et quart</strong> / trois heures quinze</td>\n</tr>\n<tr>\n<td>3:20</td>\n<td>trois heures vingt</td>\n</tr>\n<tr>\n<td>3:30</td>\n<td>trois heures <strong>et demie</strong> / trois heures trente</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Minutes before the hour (everyday speech)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Time</th>\n<th>French</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3:40</td>\n<td>quatre heures <strong>moins vingt</strong></td>\n</tr>\n<tr>\n<td>3:45</td>\n<td>quatre heures <strong>moins le quart</strong> / trois heures quarante-cinq</td>\n</tr>\n<tr>\n<td>3:50</td>\n<td>quatre heures moins dix</td>\n</tr>\n<tr>\n<td>3:55</td>\n<td>quatre heures moins cinq</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Demi</strong> agreement: <em>une heure et demi</em><em>e</em>*<em> (after </em>heure<em>, feminine) but </em>midi et demi<em> (often written </em>demi<em> or </em>demie*).</p>"
+  },
+  {
+   "heading": "12-hour vs 24-hour clock",
+   "html": "<ul>\n<li><strong>24-hour clock</strong> is standard for schedules, TV, trains, shops: <em>Le train part à 17 h 45</em> (<em>dix-sept heures quarante-cinq</em>). With the 24-hour clock, always use numbers: never <em>et quart</em> or <em>moins le quart</em>.</li>\n<li><strong>12-hour clock</strong> in conversation; add context:</li>\n<li><strong>du matin</strong> (in the morning): <em>sept heures du matin</em></li>\n<li><strong>de l'après-midi</strong>: <em>trois heures de l'après-midi</em></li>\n<li><strong>du soir</strong>: <em>huit heures du soir</em></li>\n</ul>\n<p><strong>Written format:</strong> <em>14 h 30</em>, <em>9 h</em>, <em>14h30</em> (not 14:30, although that appears in digital contexts).</p>"
+  },
+  {
+   "heading": "Useful expressions",
+   "html": "<ul>\n<li><em>à l'heure</em> — on time; <em>en retard</em> — late; <em>en avance</em> — early</li>\n<li><em>vers 8 heures</em> — around 8 o'clock</li>\n<li><em>de 9 h à 17 h</em> — from 9 to 5</li>\n<li><em>pile</em> / <em>précises</em> — exactly: <em>Il est 10 heures pile.</em></li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "1:00, 2:15, 6:30, 9:45, 11:50",
+   "instruction": "Write in French (conversational):",
+   "answer": "*une heure*, *deux heures et quart*, *six heures et demie*, *dix heures moins le quart*, *midi moins dix* (or *minuit moins dix*)",
+   "id": "e1"
+  },
+  {
+   "prompt": "12:00 pm, 12:00 am",
+   "answer": "*midi*, *minuit*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Write using the 24-hour clock: 5:20 pm, 9:45 pm",
+   "answer": "*dix-sept heures vingt*, *vingt et une heures quarante-cinq*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"The meeting is at 10:30 in the morning.\"",
+   "answer": "*La réunion est à dix heures et demie du matin.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"I'm late! It's already a quarter to nine.\"",
+   "answer": "*Je suis en retard ! Il est déjà neuf heures moins le quart.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

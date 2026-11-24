@@ -1,0 +1,594 @@
+{
+ "id": "b2-91-le-conditionnel-passe",
+ "level": "B2",
+ "subject": 91,
+ "title": "Le Conditionnel Passé",
+ "description": "would have + past participle: regrets and unreal pasts.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Formation du conditionnel passé",
+   "type": "Rule",
+   "translation": "Conditionnel présent of avoir or être + past participle",
+   "exampleFr": "J'aurais aimé ; elle serait venue.",
+   "exampleEn": "I would have liked; she would have come.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Emplois du conditionnel passé",
+   "type": "Rule",
+   "translation": "Regret, reproach, an unreal past after si + plus-que-parfait, and unconfirmed news",
+   "exampleFr": "Tu aurais dû me le dire. Si j'avais su, je serais venu.",
+   "exampleEn": "You should have told me. If I had known, I would have come.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I should have studied.”",
+   "answer": "J'aurais dû étudier",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “You could have told me.”  (tu)",
+   "answer": "Tu aurais pu me le dire",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I would have liked to come.”",
+   "answer": "J'aurais aimé venir",
+   "accept": [
+    "J'aurais voulu venir"
+   ],
+   "id": "005"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “We should have left earlier.”",
+   "answer": "Nous aurions dû partir plus tôt",
+   "accept": [
+    "On aurait dû partir plus tôt"
+   ],
+   "id": "006"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Si j'avais su, je ___ plus tôt.",
+   "answer": "serais venu",
+   "hint": "venir",
+   "accept": [
+    "serais venue"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Sans ton aide, je n'___ jamais réussi.",
+   "answer": "aurais",
+   "hint": "avoir",
+   "id": "008"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Selon la presse, le ministre ___ hier soir.",
+   "answer": "aurait démissionné",
+   "hint": "démissionner",
+   "explain": "The conditionnel passé reports unconfirmed news.",
+   "id": "009"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Conditionnel passé",
+   "translation": "j'aurais fini — I would have finished",
+   "exampleFr": "Nous aurions fini le projet.",
+   "exampleEn": "We would have finished the project.",
+   "id": "010"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “You (one friend) would have finished”  (finir)",
+   "answer": "tu aurais fini",
+   "accept": [
+    "aurais fini"
+   ],
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le projet.",
+   "answer": "aurait fini",
+   "hint": "finir · conditionnel passé",
+   "id": "012"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le projet.  (finir, conditionnel passé)",
+   "options": [
+    "auriez fini",
+    "aurais fini",
+    "aurait fini",
+    "aurions fini"
+   ],
+   "answer": "auriez fini",
+   "explain": "finir → vous auriez fini",
+   "speak": "Vous auriez fini le projet.",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “They would have finished”  (finir)",
+   "answer": "ils auraient fini",
+   "accept": [
+    "auraient fini",
+    "ils auraient fini",
+    "elles auraient fini"
+   ],
+   "id": "014"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Conditionnel passé",
+   "translation": "j'aurais fait — I would have done",
+   "exampleFr": "Nous aurions fait les courses.",
+   "exampleEn": "We would have done the shopping.",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “I would have done”  (faire)",
+   "answer": "j'aurais fait",
+   "accept": [
+    "aurais fait"
+   ],
+   "id": "016"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “She would have done”  (faire)",
+   "answer": "elle aurait fait",
+   "accept": [
+    "aurait fait",
+    "on aurait fait",
+    "il aurait fait",
+    "elle aurait fait"
+   ],
+   "id": "017"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ les courses.  (faire, conditionnel passé)",
+   "options": [
+    "aurions fait",
+    "auraient fait",
+    "aurais fait",
+    "aurait fait"
+   ],
+   "answer": "aurions fait",
+   "explain": "faire → nous aurions fait",
+   "speak": "Nous aurions fait les courses.",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ les courses.",
+   "answer": "auraient fait",
+   "hint": "faire · conditionnel passé",
+   "id": "019"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Voir",
+   "type": "Conditionnel passé",
+   "translation": "j'aurais vu — I would have seen",
+   "exampleFr": "Nous aurions vu ce film.",
+   "exampleEn": "We would have seen that film.",
+   "id": "020"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ ce film.",
+   "answer": "aurais vu",
+   "hint": "voir · conditionnel passé",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “You (one friend) would have seen”  (voir)",
+   "answer": "tu aurais vu",
+   "accept": [
+    "aurais vu"
+   ],
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “We would have seen”  (voir)",
+   "answer": "nous aurions vu",
+   "accept": [
+    "aurions vu"
+   ],
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ ce film.",
+   "answer": "auriez vu",
+   "hint": "voir · conditionnel passé",
+   "id": "024"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Dire",
+   "type": "Conditionnel passé",
+   "translation": "j'aurais dit — I would have told",
+   "exampleFr": "Nous aurions dit la vérité.",
+   "exampleEn": "We would have told the truth.",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ la vérité.  (dire, conditionnel passé)",
+   "options": [
+    "aurais dit",
+    "aurions dit",
+    "auriez dit",
+    "auraient dit"
+   ],
+   "answer": "aurais dit",
+   "explain": "dire → tu aurais dit",
+   "speak": "Tu aurais dit la vérité.",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “She would have told”  (dire)",
+   "answer": "elle aurait dit",
+   "accept": [
+    "aurait dit",
+    "on aurait dit",
+    "il aurait dit",
+    "elle aurait dit"
+   ],
+   "id": "027"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “You (formal or plural) would have told”  (dire)",
+   "answer": "vous auriez dit",
+   "accept": [
+    "auriez dit"
+   ],
+   "id": "028"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ la vérité.  (dire, conditionnel passé)",
+   "options": [
+    "auraient dit",
+    "aurait dit",
+    "aurions dit",
+    "auriez dit"
+   ],
+   "answer": "auraient dit",
+   "explain": "dire → elles auraient dit",
+   "speak": "Elles auraient dit la vérité.",
+   "id": "029"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Conditionnel passé",
+   "translation": "j'aurais pris — I would have taken",
+   "exampleFr": "Nous aurions pris le train.",
+   "exampleEn": "We would have taken the train.",
+   "id": "030"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ le train.  (prendre, conditionnel passé)",
+   "options": [
+    "aurais pris",
+    "aurait pris",
+    "aurions pris",
+    "auriez pris"
+   ],
+   "answer": "aurais pris",
+   "explain": "prendre → j'aurais pris",
+   "speak": "J'aurais pris le train.",
+   "id": "031"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le train.",
+   "answer": "aurait pris",
+   "hint": "prendre · conditionnel passé",
+   "id": "032"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “We would have taken”  (prendre)",
+   "answer": "nous aurions pris",
+   "accept": [
+    "aurions pris"
+   ],
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “They would have taken”  (prendre)",
+   "answer": "ils auraient pris",
+   "accept": [
+    "auraient pris",
+    "ils auraient pris",
+    "elles auraient pris"
+   ],
+   "id": "034"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Être",
+   "type": "Conditionnel passé",
+   "translation": "j'aurais été — I would have been",
+   "exampleFr": "Nous aurions été à l'heure.",
+   "exampleEn": "We would have been on time.",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “I would have been”  (être)",
+   "answer": "j'aurais été",
+   "accept": [
+    "aurais été"
+   ],
+   "id": "036"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ à l'heure.",
+   "answer": "aurais été",
+   "hint": "être · conditionnel passé",
+   "id": "037"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ à l'heure.  (être, conditionnel passé)",
+   "options": [
+    "aurions été",
+    "auraient été",
+    "aurais été",
+    "aurait été"
+   ],
+   "answer": "aurions été",
+   "explain": "être → nous aurions été",
+   "speak": "Nous aurions été à l'heure.",
+   "id": "038"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “You (formal or plural) would have been”  (être)",
+   "answer": "vous auriez été",
+   "accept": [
+    "auriez été"
+   ],
+   "id": "039"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir",
+   "type": "Conditionnel passé",
+   "translation": "j'aurais eu — I would have had",
+   "exampleFr": "Nous aurions eu du temps.",
+   "exampleEn": "We would have had time.",
+   "id": "040"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “You (one friend) would have had”  (avoir)",
+   "answer": "tu aurais eu",
+   "accept": [
+    "aurais eu"
+   ],
+   "id": "041"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ du temps.  (avoir, conditionnel passé)",
+   "options": [
+    "aurait eu",
+    "auriez eu",
+    "auraient eu",
+    "aurais eu"
+   ],
+   "answer": "aurait eu",
+   "explain": "avoir → il aurait eu",
+   "speak": "Il aurait eu du temps.",
+   "id": "042"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ du temps.",
+   "answer": "auriez eu",
+   "hint": "avoir · conditionnel passé",
+   "id": "043"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “They would have had”  (avoir)",
+   "answer": "ils auraient eu",
+   "accept": [
+    "auraient eu",
+    "ils auraient eu",
+    "elles auraient eu"
+   ],
+   "id": "044"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Aller",
+   "type": "Conditionnel passé",
+   "translation": "je serais allé — I would have gone",
+   "exampleFr": "Nous serions allés au cinéma.",
+   "exampleEn": "We would have gone to the cinema.",
+   "id": "045"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “I would have gone”  (aller)",
+   "answer": "je serais allé",
+   "accept": [
+    "serais allé",
+    "serais allée",
+    "je serais allée"
+   ],
+   "id": "046"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “She would have gone”  (aller)",
+   "answer": "elle serait allée",
+   "accept": [
+    "serait allée",
+    "on serait allée"
+   ],
+   "id": "047"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ au cinéma.",
+   "answer": "serions allés",
+   "hint": "aller · conditionnel passé",
+   "accept": [
+    "serions allées"
+   ],
+   "id": "048"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ au cinéma.  (aller, conditionnel passé)",
+   "options": [
+    "seraient allées",
+    "serait allée",
+    "serions allés",
+    "seriez allés"
+   ],
+   "answer": "seraient allées",
+   "explain": "aller → elles seraient allées",
+   "speak": "Elles seraient allées au cinéma.",
+   "id": "049"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Venir",
+   "type": "Conditionnel passé",
+   "translation": "je serais venu — I would have come",
+   "exampleFr": "Nous serions venus à la fête.",
+   "exampleEn": "We would have come to the party.",
+   "id": "050"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ à la fête.  (venir, conditionnel passé)",
+   "options": [
+    "serais venu",
+    "serait venu",
+    "serions venus",
+    "seriez venus"
+   ],
+   "answer": "serais venu",
+   "explain": "venir → je serais venu",
+   "speak": "Je serais venu à la fête.",
+   "id": "051"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “You (one friend) would have come”  (venir)",
+   "answer": "tu serais venu",
+   "accept": [
+    "serais venu",
+    "serais venue",
+    "tu serais venue"
+   ],
+   "id": "052"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “We would have come”  (venir)",
+   "answer": "nous serions venus",
+   "accept": [
+    "serions venus",
+    "serions venues",
+    "nous serions venues"
+   ],
+   "id": "053"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ à la fête.  (venir, conditionnel passé)",
+   "options": [
+    "seriez venus",
+    "serais venu",
+    "serait venu",
+    "serions venus"
+   ],
+   "answer": "seriez venus",
+   "explain": "venir → vous seriez venus",
+   "speak": "Vous seriez venus à la fête.",
+   "id": "054"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Partir",
+   "type": "Conditionnel passé",
+   "translation": "je serais parti — I would have left",
+   "exampleFr": "Nous serions partis en vacances.",
+   "exampleEn": "We would have left on holiday.",
+   "id": "055"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ en vacances.",
+   "answer": "serais parti",
+   "hint": "partir · conditionnel passé",
+   "accept": [
+    "serais partie"
+   ],
+   "id": "056"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “She would have left”  (partir)",
+   "answer": "elle serait partie",
+   "accept": [
+    "serait partie",
+    "on serait partie"
+   ],
+   "id": "057"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (conditionnel passé): “You (formal or plural) would have left”  (partir)",
+   "answer": "vous seriez partis",
+   "accept": [
+    "seriez partis",
+    "seriez parti",
+    "seriez partie",
+    "seriez parties",
+    "vous seriez parti",
+    "vous seriez partie",
+    "vous seriez parties"
+   ],
+   "id": "058"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ en vacances.",
+   "answer": "seraient parties",
+   "hint": "partir · conditionnel passé",
+   "id": "059"
+  }
+ ]
+}

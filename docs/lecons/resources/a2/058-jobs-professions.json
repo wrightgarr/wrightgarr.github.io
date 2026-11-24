@@ -1,0 +1,52 @@
+{
+ "id": "s58",
+ "subject": 58,
+ "level": "A2",
+ "title": "Jobs & Professions",
+ "sections": [
+  {
+   "heading": "No article after être (and devenir)",
+   "html": "<p><em>Je suis </em><em>infirmière</em><em>.</em> / <em>Il est </em><em>avocat</em><em>.</em> / <em>Elle veut devenir </em><em>médecin</em><em>.</em>\n<strong>But</strong> with <em>c'est</em> or an adjective: <em>C'est </em><em>un</em><em> bon médecin.</em> / <em>C'est </em><em>une</em><em> avocate.</em></p>"
+  },
+  {
+   "heading": "Common jobs: masculine / feminine",
+   "html": "<table>\n<thead>\n<tr>\n<th>Masculine</th>\n<th>Feminine</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>le médecin</td>\n<td>la médecin</td>\n<td>doctor</td>\n</tr>\n<tr>\n<td>l'infirmier</td>\n<td>l'infirmière</td>\n<td>nurse</td>\n</tr>\n<tr>\n<td>le dentiste</td>\n<td>la dentiste</td>\n<td>dentist</td>\n</tr>\n<tr>\n<td>le pharmacien</td>\n<td>la pharmacienne</td>\n<td>pharmacist</td>\n</tr>\n<tr>\n<td>l'avocat</td>\n<td>l'avocate</td>\n<td>lawyer</td>\n</tr>\n<tr>\n<td>l'ingénieur</td>\n<td>l'ingénieure</td>\n<td>engineer</td>\n</tr>\n<tr>\n<td>le professeur / prof</td>\n<td>la professeure / prof</td>\n<td>teacher (high school, university)</td>\n</tr>\n<tr>\n<td>l'enseignant</td>\n<td>l'enseignante</td>\n<td>teacher (general)</td>\n</tr>\n<tr>\n<td>l'instituteur</td>\n<td>l'institutrice</td>\n<td>primary school teacher</td>\n</tr>\n<tr>\n<td>le comptable</td>\n<td>la comptable</td>\n<td>accountant</td>\n</tr>\n<tr>\n<td>le vendeur</td>\n<td>la vendeuse</td>\n<td>salesperson</td>\n</tr>\n<tr>\n<td>le serveur</td>\n<td>la serveuse</td>\n<td>waiter / waitress</td>\n</tr>\n<tr>\n<td>le cuisinier / le chef</td>\n<td>la cuisinière / la cheffe</td>\n<td>cook / chef</td>\n</tr>\n<tr>\n<td>le boulanger</td>\n<td>la boulangère</td>\n<td>baker</td>\n</tr>\n<tr>\n<td>le coiffeur</td>\n<td>la coiffeuse</td>\n<td>hairdresser</td>\n</tr>\n<tr>\n<td>l'acteur</td>\n<td>l'actrice</td>\n<td>actor / actress</td>\n</tr>\n<tr>\n<td>le directeur</td>\n<td>la directrice</td>\n<td>director / manager</td>\n</tr>\n<tr>\n<td>le policier</td>\n<td>la policière</td>\n<td>police officer</td>\n</tr>\n<tr>\n<td>le pompier</td>\n<td>la pompière</td>\n<td>firefighter</td>\n</tr>\n<tr>\n<td>le plombier</td>\n<td>la plombière</td>\n<td>plumber</td>\n</tr>\n<tr>\n<td>l'électricien</td>\n<td>l'électricienne</td>\n<td>electrician</td>\n</tr>\n<tr>\n<td>le chauffeur</td>\n<td>la chauffeuse</td>\n<td>driver</td>\n</tr>\n<tr>\n<td>l'agriculteur</td>\n<td>l'agricultrice</td>\n<td>farmer</td>\n</tr>\n<tr>\n<td>le journaliste</td>\n<td>la journaliste</td>\n<td>journalist</td>\n</tr>\n<tr>\n<td>l'informaticien</td>\n<td>l'informaticienne</td>\n<td>IT professional</td>\n</tr>\n<tr>\n<td>le fonctionnaire</td>\n<td>la fonctionnaire</td>\n<td>civil servant</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Feminization",
+   "html": "<p>Modern French (especially in Québec, which led the way) uses feminine forms: <em>une ingénieure, une professeure, une auteure / autrice, une écrivaine</em>. Patterns: <em>-ier → -ière</em>, <em>-ien → -ienne</em>, <em>-eur → -euse / -rice / -eure</em>, <em>-e → -e</em> (no change).</p>"
+  },
+  {
+   "heading": "Talking about work",
+   "html": "<ul>\n<li><em>Qu'est-ce que vous faites dans la vie ?</em> / <em>Quel est votre métier ?</em> — What do you do?</li>\n<li><em>Je travaille dans une banque / dans l'informatique / à mon compte.</em> — I work in a bank / in IT / for myself.</li>\n<li><em>Je suis à la retraite.</em> — I'm retired.</li>\n<li><em>Je suis au chômage / sans emploi.</em> — I'm unemployed.</li>\n<li><em>Je suis étudiant(e).</em></li>\n<li><em>à temps plein / à temps partiel</em> — full-time / part-time</li>\n<li><em>mon patron</em> (boss), <em>mes collègues</em>, <em>le salaire</em>, <em>un emploi / un poste</em> (job, position), <em>postuler</em> (to apply), <em>un entretien d'embauche</em> (job interview)</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Feminine of: *l'acteur*, *le boulanger*, *le pharmacien*, *le serveur*, *le comptable*.",
+   "answer": "*l'actrice*, *la boulangère*, *la pharmacienne*, *la serveuse*, *la comptable*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Correct: *Je suis un ingénieur.*",
+   "answer": "*Je suis ingénieur.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"My sister is a nurse and her husband is a firefighter.\"",
+   "answer": "*Ma sœur est infirmière et son mari est pompier.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"She's a very good lawyer.\"",
+   "answer": "*C'est une très bonne avocate.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Introduce your job in 3 sentences.",
+   "answer": "Example: *Je suis comptable. Je travaille dans une grande entreprise à Toronto. J'aime mon travail mais j'ai beaucoup de réunions.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

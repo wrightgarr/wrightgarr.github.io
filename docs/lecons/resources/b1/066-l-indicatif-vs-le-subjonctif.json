@@ -1,0 +1,75 @@
+{
+ "id": "s66",
+ "subject": 66,
+ "level": "B1",
+ "title": "L'Indicatif vs Le Subjonctif",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>indicatif</strong> (présent, passé composé, futur…) presents facts and certainty. The <strong>subjonctif</strong> presents something as subjective: desired, feared, doubted, necessary, or not yet real.</p>"
+  },
+  {
+   "heading": "Core principle",
+   "html": "<table>\n<thead>\n<tr>\n<th>Indicatif = reality / certainty</th>\n<th>Subjonctif = subjectivity / uncertainty</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Je sais qu'il </em><em>est</em><em> là.</em></td>\n<td><em>Je veux qu'il </em><em>soit</em><em> là.</em></td>\n</tr>\n<tr>\n<td><em>Il est sûr qu'elle </em><em>viendra</em><em>.</em></td>\n<td><em>Il est possible qu'elle </em><em>vienne</em><em>.</em></td>\n</tr>\n<tr>\n<td><em>Je pense que tu </em><em>as</em><em> raison.</em></td>\n<td><em>Je ne pense pas que tu </em><em>aies</em><em> raison.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Opinion verbs: affirmative vs negative/question",
+   "html": "<p><em>Penser, croire, trouver, être sûr/certain, il me semble</em> express belief → <strong>indicatif</strong> in the affirmative. In the <strong>negative</strong> or <strong>inverted question</strong>, they express doubt → <strong>subjonctif</strong>.\n- <em>Je crois qu'il </em><em>dit</em><em> la vérité.</em> → <em>Je ne crois pas qu'il </em><em>dise</em><em> la vérité.</em>\n- <em>Tu penses qu'il </em><em>viendra</em><em> ?</em> (intonation: indicatif) → <em>Penses-tu qu'il </em><em>vienne</em><em> ?</em> (inversion: subjonctif possible)</p>"
+  },
+  {
+   "heading": "Espérer: always indicatif",
+   "html": "<p><em>J'espère que tu </em><em>vas</em><em> bien.</em> / <em>J'espère qu'il </em><em>viendra</em><em>.</em> (not subjonctif, even though it's a wish)</p>"
+  },
+  {
+   "heading": "Probability vs possibility",
+   "html": "<table>\n<thead>\n<tr>\n<th>Indicatif</th>\n<th>Subjonctif</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Il est probable qu'il </em><em>pleuvra</em><em>.</em></td>\n<td><em>Il est possible qu'il </em><em>pleuve</em><em>.</em></td>\n</tr>\n<tr>\n<td><em>Il est certain / évident / clair que…</em></td>\n<td><em>Il est peu probable / impossible / douteux que…</em></td>\n</tr>\n<tr>\n<td><em>Il me semble que…</em></td>\n<td><em>Il semble que…</em> (often subjonctif)</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Conjunctions",
+   "html": "<table>\n<thead>\n<tr>\n<th>+ Indicatif</th>\n<th>+ Subjonctif</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>parce que, puisque, comme</td>\n<td>pour que, afin que</td>\n</tr>\n<tr>\n<td>pendant que, quand, lorsque</td>\n<td>avant que, jusqu'à ce que, en attendant que</td>\n</tr>\n<tr>\n<td><strong>après que</strong> (officially indicatif!)</td>\n<td>bien que, quoique</td>\n</tr>\n<tr>\n<td>même si, si</td>\n<td>à condition que, pourvu que</td>\n</tr>\n<tr>\n<td>alors que, tandis que</td>\n<td>sans que, à moins que</td>\n</tr>\n<tr>\n<td>depuis que, dès que</td>\n<td>de peur que, de crainte que</td>\n</tr>\n</tbody>\n</table>\n<p><em>Après que</em> takes the <strong>indicatif</strong> in correct French (<em>après qu'il </em><em>est</em><em> parti</em>), though you'll often hear the subjonctif.</p>"
+  },
+  {
+   "heading": "Relative clauses (advanced)",
+   "html": "<p>Subjunctive is used when the existence is uncertain or after a superlative:\n- <em>Je cherche un appartement qui </em><em>soit</em><em> calme.</em> (I don't know if it exists)\n- <em>C'est le meilleur film que j'</em><em>aie</em><em> vu.</em> (superlative, slightly formal)\n- vs. <em>J'ai trouvé un appartement qui </em><em>est</em><em> calme.</em> (it exists → indicatif)</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je sais que tu (avoir) ___ raison.",
+   "instruction": "Indicatif or subjonctif?",
+   "answer": "as (indicatif)",
+   "id": "e1"
+  },
+  {
+   "prompt": "Je ne pense pas qu'il (être) ___ malade.",
+   "answer": "soit (subjonctif)",
+   "id": "e2"
+  },
+  {
+   "prompt": "J'espère que vous (venir) ___ demain.",
+   "answer": "viendrez (indicatif, futur)",
+   "id": "e3"
+  },
+  {
+   "prompt": "Il est possible que nous (partir) ___ tôt.",
+   "answer": "partions (subjonctif)",
+   "id": "e4"
+  },
+  {
+   "prompt": "Il est probable qu'il (faire) ___ beau.",
+   "answer": "fera (indicatif)",
+   "id": "e5"
+  },
+  {
+   "prompt": "Je reste jusqu'à ce que tu (revenir) ___.",
+   "answer": "reviennes (subjonctif)",
+   "id": "e6"
+  },
+  {
+   "prompt": "Je reste parce que tu (être) ___ malade.",
+   "answer": "es (indicatif)",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

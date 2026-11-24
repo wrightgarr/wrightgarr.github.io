@@ -1,0 +1,82 @@
+{
+ "id": "s114",
+ "subject": 114,
+ "level": "B2",
+ "title": "C'est vs Il est",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Both translate as \"it is / he is / she is\", but they're used in different structures. This is one of the trickiest B2 points.</p>"
+  },
+  {
+   "heading": "Use C'EST (ce sont) + …",
+   "html": "<table>\n<thead>\n<tr>\n<th>Structure</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Determiner + noun</strong> (un, le, mon, ce…)</td>\n<td><strong><em>C'est un</em><em> médecin.</em> / </strong><em>C'est mon</em><em> frère.</em> / <em><strong>C'est une</strong> bonne idée.</em></td>\n</tr>\n<tr>\n<td><strong>Proper noun</strong></td>\n<td><strong><em>C'est</em><em> Paul.</em> / </strong><em>C'est</em><em> Montréal.</em></td>\n</tr>\n<tr>\n<td><strong>Emphatic pronoun</strong></td>\n<td><strong><em>C'est</em><em> moi.</em> / </strong><em>Ce sont</em><em> eux.</em></td>\n</tr>\n<tr>\n<td><strong>Adjective referring to a general idea / situation</strong> (masculine)</td>\n<td><em>Le ski ? </em><em>C'est</em><em> génial !</em> / <strong><em>C'est</em><em> vrai.</em> / </strong><em>C'est</em><em> difficile à dire.</em></td>\n</tr>\n<tr>\n<td><strong>Adverb</strong></td>\n<td><strong><em>C'est</em><em> bien.</em> / </strong><em>C'est</em><em> ici.</em></td>\n</tr>\n<tr>\n<td><strong>Emphasis (cleft sentences)</strong></td>\n<td><strong><em>C'est</em><em> lui qui a gagné.</em> / </strong><em>C'est</em><em> à Paris que je l'ai rencontré.</em></td>\n</tr>\n<tr>\n<td><strong>Adjective + à + infinitive</strong> (thing already mentioned)</td>\n<td><em>Ce problème ? </em><em>C'est</em><em> difficile à résoudre.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Use IL / ELLE EST (ils / elles sont) + …",
+   "html": "<table>\n<thead>\n<tr>\n<th>Structure</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Adjective describing a specific person / thing</strong></td>\n<td><em>Paul ? </em><em>Il est</em><em> sympa.</em> / <em>Ta maison ? </em><em>Elle est</em><em> grande.</em></td>\n</tr>\n<tr>\n<td><strong>Profession, nationality, religion WITHOUT article</strong></td>\n<td><strong><em>Il est</em><em> médecin.</em> / </strong><em>Elle est</em><em> canadienne.</em> / <em><strong>Il est</strong> bouddhiste.</em></td>\n</tr>\n<tr>\n<td><strong>Preposition + place / time</strong> (specific)</td>\n<td><strong><em>Il est</em><em> à la maison.</em> / </strong><em>Elle est</em><em> en réunion.</em></td>\n</tr>\n<tr>\n<td><strong>Time</strong></td>\n<td><strong><em>Il est</em><em> 8 heures.</em> / </strong><em>Il est</em><em> tard.</em></td>\n</tr>\n<tr>\n<td><strong>Impersonal + adjective + de + infinitive</strong> (formal, announces what follows)</td>\n<td><strong><em>Il est</em>* important </strong>de<strong> dormir.<em> / </em></strong>Il est<strong> difficile </strong>de*<em> comprendre.</em></td>\n</tr>\n<tr>\n<td><strong>Impersonal + adjective + que</strong></td>\n<td><strong><em>Il est</em>* évident </strong>que*<em> tu as raison.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "The key contrasts",
+   "html": "<table>\n<thead>\n<tr>\n<th>C'est</th>\n<th>Il / Elle est</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>C'est </em><em>un</em><em> médecin.</em> (article)</td>\n<td><em>Il est médecin.</em> (no article)</td>\n</tr>\n<tr>\n<td><em>C'est </em><em>un bon</em><em> médecin.</em> (adjective + noun → article)</td>\n<td>~~Il est un bon médecin~~ ✗</td>\n</tr>\n<tr>\n<td><em>C'est </em><em>beau</em><em>, Paris !</em> (general impression)</td>\n<td><em>Ce quartier ? Il est beau.</em> (describing a specific noun)</td>\n</tr>\n<tr>\n<td><em>C'est difficile </em><em>à</em><em> faire.</em> (thing mentioned before)</td>\n<td><em>Il est difficile </em><em>de</em><em> faire ça.</em> (announces)</td>\n</tr>\n<tr>\n<td><em>C'est difficile de faire ça.</em> — informal speech (very common)</td>\n<td><em>Il est difficile de faire ça.</em> — formal/written</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "General idea vs specific noun",
+   "html": "<ul>\n<li><em>J'adore </em><em>la pizza</em><em>. </em><em>C'est</em><em> délicieux.</em> (pizza in general → c'est + masc. adj.)</li>\n<li><em>Goûte </em><em>cette pizza</em><em>. </em><em>Elle est</em><em> délicieuse.</em> (this specific pizza → elle est + agreeing adj.)</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "___ une actrice célèbre.",
+   "instruction": "Choose *c'est, ce sont, il est, elle est*:",
+   "answer": "C'est",
+   "id": "e1"
+  },
+  {
+   "prompt": "___ actrice.",
+   "answer": "Elle est",
+   "id": "e2"
+  },
+  {
+   "prompt": "Regarde ce chien ! ___ adorable.",
+   "answer": "Il est",
+   "id": "e3"
+  },
+  {
+   "prompt": "Le yoga ? ___ relaxant.",
+   "answer": "C'est",
+   "id": "e4"
+  },
+  {
+   "prompt": "___ minuit.",
+   "answer": "Il est",
+   "id": "e5"
+  },
+  {
+   "prompt": "___ important de bien manger. (formal)",
+   "answer": "Il est",
+   "id": "e6"
+  },
+  {
+   "prompt": "___ mes parents.",
+   "answer": "Ce sont",
+   "id": "e7"
+  },
+  {
+   "prompt": "___ lui qui a raison.",
+   "answer": "C'est",
+   "id": "e8"
+  },
+  {
+   "prompt": "Ce texte ? ___ facile à traduire.",
+   "answer": "C'est",
+   "id": "e9"
+  },
+  {
+   "prompt": "Correct: *Il est un bon professeur.*",
+   "answer": "*C'est un bon professeur.*",
+   "id": "e10"
+  }
+ ],
+ "outro": ""
+}

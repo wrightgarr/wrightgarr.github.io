@@ -1,0 +1,141 @@
+{
+  "id": "a1-30",
+  "level": "A1",
+  "number": 30,
+  "title": "Un nouveau départ",
+  "grammar": "review of A1",
+  "theme": "big news at Café Le Soleil",
+  "wordCount": 104,
+  "primer": [
+    "**une nouvelle**: a piece of news",
+    "**un magazine**: a magazine",
+    "**ne… rien**: nothing",
+    "**la mer**: the sea",
+    "**mettre + time**: to take (time) (*le TGV met trois heures*)",
+    "**C'est moi qui paie**: It's my treat",
+    "**triste**: sad"
+  ],
+  "passage": [
+    [
+      "Un matin, au café Le Soleil, Léa a une grande nouvelle."
+    ],
+    [
+      "— J'ai un travail à Marseille ! Un magazine cherche une photographe."
+    ],
+    [
+      "Marco ne dit rien. Amina ouvre de grands yeux."
+    ],
+    [
+      "— Tu vas partir ? Quand ?",
+      "— En janvier. Je vais habiter près de la mer. Il fait souvent beau à Marseille !",
+      "— Et nous ? Et Minou ? demande Marco.",
+      "— Minou vient avec moi, bien sûr. Et vous, vous pouvez venir le week-end. Le TGV met trois heures."
+    ],
+    [
+      "Monsieur Dubois apporte quatre cafés."
+    ],
+    [
+      "— Pour la photographe de Marseille ! C'est moi qui paie."
+    ],
+    [
+      "Léa regarde ses amis. Elle est triste, mais aussi très contente."
+    ],
+    [
+      "— Paris, je t'aime. Mais Marseille… j'arrive !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "Marseille",
+      "en": "France's second-largest city, on the Mediterranean"
+    },
+    {
+      "fr": "ne dit rien",
+      "en": "says nothing"
+    },
+    {
+      "fr": "ouvre de grands yeux",
+      "en": "opens her eyes wide"
+    },
+    {
+      "fr": "Quand ?",
+      "en": "When?"
+    },
+    {
+      "fr": "je t'aime",
+      "en": "I love you"
+    },
+    {
+      "fr": "j'arrive !",
+      "en": "here I come!"
+    }
+  ],
+  "spotlight": [
+    "**A1 in one scene:** futur proche (*Tu vas partir ?*), *venir* (*Minou vient avec moi*), *pouvoir* + infinitive (*vous pouvez venir*), stressed pronouns (*avec moi*), weather (*il fait beau*), and an object pronoun (*je t'aime*).",
+    "**Ne… rien** works like *ne… pas*: *Marco ne dit rien.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is Léa's big news?",
+      "answer": "She has a job with a magazine in Marseille",
+      "options": [
+        "She has a job with a magazine in Marseille",
+        "She's getting married",
+        "She's moving back to Lyon",
+        "She's buying Café Le Soleil"
+      ],
+      "evidence": "J'ai un travail à Marseille ! Un magazine cherche une photographe."
+    },
+    {
+      "id": "q2",
+      "prompt": "How do Marco and Amina react?",
+      "answer": "Marco says nothing; Amina's eyes go wide",
+      "options": [
+        "Marco says nothing; Amina's eyes go wide",
+        "They both cheer loudly",
+        "Marco laughs; Amina cries",
+        "They both get up and leave"
+      ],
+      "evidence": "Marco ne dit rien. Amina ouvre de grands yeux."
+    },
+    {
+      "id": "q3",
+      "prompt": "How long does the TGV take to Marseille, and what does Monsieur Dubois do?",
+      "answer": "Three hours — and Monsieur Dubois pays for the coffees",
+      "options": [
+        "Three hours — and Monsieur Dubois pays for the coffees",
+        "Two hours — and he gives her a cake",
+        "Five hours — and he closes the café",
+        "Three hours — and he takes a photo of them"
+      ],
+      "evidence": "Le TGV met trois heures. … Pour la photographe de Marseille ! C'est moi qui paie."
+    }
+  ],
+  "writing": {
+    "prompt": "Write 4–5 sentences announcing a change in your own life. Use at least three A1 structures: the futur proche, *pouvoir/vouloir/devoir*, negation, a stressed pronoun, or an object pronoun.",
+    "model": "J'ai une grande nouvelle : je vais apprendre le français à Paris ! Je vais partir en mars. Je ne peux pas emporter mon chat, mais ma sœur va le garder. Vous pouvez venir avec moi !",
+    "targets": [
+      {
+        "label": "futur proche",
+        "pattern": "\\b(vais|vas|va|allons|allez|vont)\\s+(me |te |se |nous |vous |le |la |les )?[a-zà-ÿ]+(er|ir|re)\\b",
+        "min": 1
+      },
+      {
+        "label": "pouvoir / vouloir / devoir",
+        "pattern": "\\b(peux|peut|pouvons|pouvez|peuvent|veux|veut|voulons|voulez|veulent|dois|doit|devons|devez|doivent)\\b",
+        "min": 1
+      },
+      {
+        "label": "negation",
+        "pattern": "\\bn(e\\s|')[^.!?]*\\b(pas|jamais|rien)\\b",
+        "min": 1
+      },
+      {
+        "label": "stressed or object pronoun",
+        "pattern": "\\b(moi|toi|lui|eux|elles)\\b|\\b(je|tu|il|elle|on|nous|vous|ils|elles)\\s+(ne\\s+|n')?(le\\s|la\\s|les\\s|l'|te\\s|t')",
+        "min": 1
+      }
+    ]
+  }
+}

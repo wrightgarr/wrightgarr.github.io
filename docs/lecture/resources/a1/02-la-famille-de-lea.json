@@ -1,0 +1,137 @@
+{
+  "id": "a1-02",
+  "level": "A1",
+  "number": 2,
+  "title": "La famille de Léa",
+  "grammar": "*avoir* (to have), possessives",
+  "theme": "family",
+  "wordCount": 100,
+  "primer": [
+    "**j'ai / il a / elle a**: I have / he has / she has",
+    "**mon, ma, mes**: my (masc. / fem. / plural)",
+    "**son, sa, ses**: his or her (same pattern)",
+    "**la mère / le père**: mother / father",
+    "**le frère / la sœur**: brother / sister",
+    "**avec**: with",
+    "**très**: very"
+  ],
+  "passage": [
+    [
+      "Voici la famille de Léa. Léa a une petite famille. Sa mère s'appelle Sophie. Elle est professeure. Elle habite à Lyon, une grande ville. Le père de Léa s'appelle Paul. Il est médecin. Il habite à Lyon aussi, avec Sophie."
+    ],
+    [
+      "Léa a un frère. Il s'appelle Hugo. Hugo est grand et sympa. Il est cuisinier dans un restaurant à Paris. Il aime la cuisine française !"
+    ],
+    [
+      "Léa a aussi un chat. Le chat s'appelle Minou. Il est noir et très paresseux. Il habite avec Léa dans l'appartement."
+    ],
+    [
+      "— Ma famille est petite, dit Léa, mais j'aime ma famille. Et j'aime mon chat !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "la famille",
+      "en": "the family"
+    },
+    {
+      "fr": "professeure",
+      "en": "teacher (female)"
+    },
+    {
+      "fr": "médecin",
+      "en": "doctor"
+    },
+    {
+      "fr": "sympa",
+      "en": "nice, friendly"
+    },
+    {
+      "fr": "cuisinier",
+      "en": "cook, chef"
+    },
+    {
+      "fr": "la cuisine",
+      "en": "cooking, cuisine (also: kitchen)"
+    },
+    {
+      "fr": "un chat",
+      "en": "a cat"
+    },
+    {
+      "fr": "noir",
+      "en": "black"
+    },
+    {
+      "fr": "paresseux",
+      "en": "lazy"
+    },
+    {
+      "fr": "dit",
+      "en": "says"
+    }
+  ],
+  "spotlight": [
+    "**Avoir (to have):** *Léa a un frère.* / *Léa a aussi un chat.* French also uses *avoir* for age (Module 4).",
+    "**Possessives agree with the thing owned, not the owner:** *sa mère* = his mother or her mother (*mère* is feminine). *Ma famille*, *mon chat*, *mes amis*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What are the jobs of Léa's mother, father, and brother?",
+      "answer": "Mother: teacher · Father: doctor · Hugo: cook",
+      "options": [
+        "Mother: teacher · Father: doctor · Hugo: cook",
+        "Mother: doctor · Father: teacher · Hugo: student",
+        "Mother: cook · Father: photographer · Hugo: doctor",
+        "Mother: teacher · Father: cook · Hugo: photographer"
+      ],
+      "evidence": "Elle est professeure. … Il est médecin. … Il est cuisinier dans un restaurant à Paris."
+    },
+    {
+      "id": "q2",
+      "prompt": "Where do her parents live? Where does Hugo work?",
+      "answer": "Her parents live in Lyon; Hugo works in a restaurant in Paris",
+      "options": [
+        "Her parents live in Lyon; Hugo works in a restaurant in Paris",
+        "Her parents live in Paris; Hugo works in Lyon",
+        "Her parents live in Lyon; Hugo works in a café in Lyon",
+        "Her parents live in Italy; Hugo works in a museum"
+      ],
+      "evidence": "Elle habite à Lyon… Il est cuisinier dans un restaurant à Paris."
+    },
+    {
+      "id": "q3",
+      "prompt": "Describe Minou in two words.",
+      "answer": "Black and lazy",
+      "options": [
+        "Black and lazy",
+        "White and playful",
+        "Small and noisy",
+        "Black and fast"
+      ],
+      "evidence": "Il est noir et très paresseux."
+    }
+  ],
+  "writing": {
+    "prompt": "Describe two people in your family using *Mon/Ma… s'appelle…* and *Il/Elle est…*",
+    "model": "Ma mère s'appelle Claire. Elle est professeure. Mon frère s'appelle Tom. Il est grand et sympa.",
+    "targets": [
+      {
+        "label": "mon / ma / mes",
+        "pattern": "\\b(mon|ma|mes)\\b",
+        "min": 1
+      },
+      {
+        "label": "… s'appelle …",
+        "pattern": "s'appelle",
+        "min": 1
+      },
+      {
+        "label": "Il est / Elle est",
+        "pattern": "\\b(il|elle) est\\b",
+        "min": 1
+      }
+    ]
+  }
+}

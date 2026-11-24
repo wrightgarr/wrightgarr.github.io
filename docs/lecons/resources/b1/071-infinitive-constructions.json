@@ -1,0 +1,80 @@
+{
+ "id": "s71",
+ "subject": 71,
+ "level": "B1",
+ "title": "Infinitive Constructions",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Many French verbs can be followed by an infinitive. The question is whether you need <strong>no preposition</strong>, <strong>à</strong>, or <strong>de</strong>. These must be learned verb by verb, but there are patterns.</p>"
+  },
+  {
+   "heading": "1. Verb + infinitive (no preposition)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Category</th>\n<th>Verbs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Modal verbs</td>\n<td>pouvoir, vouloir, devoir, savoir, falloir (il faut)</td>\n</tr>\n<tr>\n<td>Preference</td>\n<td>aimer, adorer, préférer, détester, aimer mieux, désirer, souhaiter, espérer, oser (dare)</td>\n</tr>\n<tr>\n<td>Movement</td>\n<td>aller, venir, partir, sortir, monter, descendre, rentrer, courir</td>\n</tr>\n<tr>\n<td>Perception</td>\n<td>voir, regarder, entendre, écouter, sentir</td>\n</tr>\n<tr>\n<td>Other</td>\n<td>faire, laisser, compter (intend), sembler, paraître, penser (intend), devoir</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Je </em><em>veux partir</em><em>.</em> / <em>Il </em><em>sait nager</em><em>.</em> / <em>Elle </em><em>aime lire</em><em>.</em></li>\n<li><em>Je </em><em>vais faire</em><em> les courses.</em> / <em>Il </em><em>est venu chercher</em><em> ses clés.</em> (came to get)</li>\n<li><em>Je </em><em>l'entends chanter</em><em>.</em> — I hear him sing.</li>\n<li><em>Il </em><em>semble être</em><em> fatigué.</em></li>\n</ul>"
+  },
+  {
+   "heading": "2. Verb + à + infinitive",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verbs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>aider à, apprendre à, arriver à (manage to), commencer à, continuer à, chercher à (try to), hésiter à, inviter à, s'habituer à, se mettre à (start), réussir à, passer du temps à, penser à, encourager à, renoncer à, tenir à (insist on), consister à, s'intéresser à, se préparer à, avoir du mal à (have trouble)</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>J'</em><em>apprends à</em><em> conduire.</em> — I'm learning to drive.</li>\n<li><em>Il </em><em>a réussi à</em><em> ouvrir la porte.</em></li>\n<li><em>Elle </em><em>s'est mise à</em><em> pleurer.</em> — She started crying.</li>\n<li><em>J'</em><em>ai du mal à</em><em> dormir.</em> — I have trouble sleeping.</li>\n</ul>"
+  },
+  {
+   "heading": "3. Verb + de + infinitive",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verbs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>arrêter de, cesser de, finir de, choisir de, décider de, essayer de, oublier de, refuser de, accepter de, se souvenir de, rêver de, regretter de, menacer de, mériter de, avoir besoin de, avoir envie de, avoir peur de, avoir l'intention de, avoir le temps de, être content/triste/fier de, venir de (just did), s'arrêter de, se dépêcher de, éviter de</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>J'</em><em>ai décidé de</em><em> partir.</em></li>\n<li><em>Il </em><em>a arrêté de</em><em> fumer.</em> — He quit smoking.</li>\n<li><em>N'</em><em>oublie pas de</em><em> fermer la porte.</em></li>\n<li><em>J'</em><em>ai envie de</em><em> dormir.</em></li>\n<li><em>Elle </em><em>essaie de</em><em> comprendre.</em></li>\n</ul>"
+  },
+  {
+   "heading": "4. Verb + person + de + infinitive (telling someone to do something)",
+   "html": "<p><em>demander à qqn de, dire à qqn de, conseiller à qqn de, permettre à qqn de, interdire à qqn de, promettre à qqn de, proposer à qqn de, défendre à qqn de, ordonner à qqn de</em>\n- <em>Je </em><em>demande à</em><em> Paul </em><em>de</em><em> venir.</em> → <em>Je </em><em>lui</em><em> demande </em><em>de</em><em> venir.</em>\n- <em>Le médecin </em><em>m'a conseillé de</em><em> me reposer.</em></p>\n<p><em>Empêcher qqn de, remercier qqn de, féliciter qqn de, persuader qqn de</em> take a direct object: <em>Je </em><em>l'</em><em>ai empêché </em><em>de</em><em> partir.</em></p>"
+  },
+  {
+   "heading": "5. Adjective / noun + de / à + infinitive",
+   "html": "<ul>\n<li><em>C'est difficile </em><em>de</em><em> comprendre.</em> / <em>Il est important </em><em>de</em><em> dormir.</em> (impersonal: <em>de</em>)</li>\n<li><em>Ce texte est difficile </em><em>à</em><em> comprendre.</em> (the subject is the thing: <em>à</em>)</li>\n<li><em>une machine </em><em>à</em><em> laver</em> (washing machine), <em>une salle </em><em>à</em><em> manger</em> (dining room)</li>\n</ul>"
+  },
+  {
+   "heading": "Prepositions + infinitive",
+   "html": "<p>After any preposition, French uses the <strong>infinitive</strong> (English uses -ing):\n- <strong><em>pour</em><em> apprendre</em> — (in order) to learn\n- </strong><em>sans</em><em> parler</em> — without speaking\n- <strong><em>avant de</em><em> manger</em> — before eating\n- </strong><em>au lieu de</em><em> travailler</em> — instead of working\n- <strong><em>après avoir</em><em> mangé</em> / </strong><em>après être</em><em> parti(e)</em> — after eating / after leaving (past infinitive)\n- Exception: <strong>en</strong> + gérondif (<em>en mangeant</em>).</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "J'ai oublié ___ acheter du pain.",
+   "instruction": "Add *à*, *de*, or nothing:",
+   "answer": "d'",
+   "id": "e1"
+  },
+  {
+   "prompt": "Elle commence ___ comprendre.",
+   "answer": "à",
+   "id": "e2"
+  },
+  {
+   "prompt": "Nous voulons ___ partir.",
+   "answer": "(nothing)",
+   "id": "e3"
+  },
+  {
+   "prompt": "Il a décidé ___ changer de travail.",
+   "answer": "de",
+   "id": "e4"
+  },
+  {
+   "prompt": "Tu sais ___ nager ?",
+   "answer": "(nothing)",
+   "id": "e5"
+  },
+  {
+   "prompt": "J'ai demandé à ma sœur ___ m'aider.",
+   "answer": "de",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"After eating, he left without saying goodbye.\"",
+   "answer": "*Après avoir mangé, il est parti sans dire au revoir.*",
+   "id": "e7"
+  },
+  {
+   "prompt": "Translate: \"This book is easy to read.\" / \"It's easy to read this book.\"",
+   "answer": "*Ce livre est facile à lire.* / *C'est facile de lire ce livre.*",
+   "id": "e8"
+  }
+ ],
+ "outro": ""
+}

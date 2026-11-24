@@ -1,0 +1,52 @@
+{
+ "id": "s83",
+ "subject": 83,
+ "level": "B1",
+ "title": "Nominalization",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Nominalization</strong> (<em>la nominalisation</em>) means turning a verb or adjective into a <strong>noun</strong>. It's essential for formal writing, headlines, titles, and summaries.</p>\n<ul>\n<li>Verb: <em>Le gouvernement a </em><em>décidé</em><em> de…</em> → Noun: <em>La </em><em>décision</em><em> du gouvernement…</em></li>\n<li>Headline: <em>Les prix </em><em>augmentent</em><strong> → </strong><em>Augmentation</em><em> des prix</em></li>\n</ul>"
+  },
+  {
+   "heading": "From verbs → nouns",
+   "html": "<table>\n<thead>\n<tr>\n<th>Suffix</th>\n<th>Gender</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>-tion / -sion / -ation</strong></td>\n<td>f</td>\n<td>augmenter → l'augmentation, décider → la décision, réparer → la réparation, inviter → l'invitation</td>\n</tr>\n<tr>\n<td><strong>-ment</strong></td>\n<td>m</td>\n<td>changer → le changement, développer → le développement, licencier → le licenciement</td>\n</tr>\n<tr>\n<td><strong>-age</strong></td>\n<td>m</td>\n<td>laver → le lavage, nettoyer → le nettoyage, atterrir → l'atterrissage</td>\n</tr>\n<tr>\n<td><strong>-ure</strong></td>\n<td>f</td>\n<td>ouvrir → l'ouverture, fermer → la fermeture, signer → la signature</td>\n</tr>\n<tr>\n<td><strong>-ance / -ence</strong></td>\n<td>f</td>\n<td>naître → la naissance, préférer → la préférence, exister → l'existence</td>\n</tr>\n<tr>\n<td><strong>-ée</strong></td>\n<td>f</td>\n<td>arriver → l'arrivée, entrer → l'entrée, monter → la montée</td>\n</tr>\n<tr>\n<td><strong>-te / -ie</strong></td>\n<td>f</td>\n<td>perdre → la perte, vendre → la vente, sortir → la sortie, partir → le départ (m!)</td>\n</tr>\n<tr>\n<td><strong>no suffix / root</strong></td>\n<td>m or f</td>\n<td>voler → le vol, refuser → le refus, choisir → le choix, appeler → l'appel, travailler → le travail</td>\n</tr>\n<tr>\n<td><strong>-eur / -euse</strong> (person)</td>\n<td>m/f</td>\n<td>chanter → le chanteur, vendre → le vendeur</td>\n</tr>\n<tr>\n<td><strong>past participle</strong></td>\n<td>m/f</td>\n<td>venir → la venue, découvrir → la découverte, prendre → la prise</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "From adjectives → nouns",
+   "html": "<table>\n<thead>\n<tr>\n<th>Suffix</th>\n<th>Gender</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>-té / -ité</strong></td>\n<td>f</td>\n<td>beau → la beauté, rapide → la rapidité, libre → la liberté, simple → la simplicité</td>\n</tr>\n<tr>\n<td><strong>-eur</strong></td>\n<td>f</td>\n<td>grand → la grandeur, long → la longueur, chaud → la chaleur</td>\n</tr>\n<tr>\n<td><strong>-esse</strong></td>\n<td>f</td>\n<td>jeune → la jeunesse, riche → la richesse, gentil → la gentillesse, triste → la tristesse</td>\n</tr>\n<tr>\n<td><strong>-ise</strong></td>\n<td>f</td>\n<td>franc → la franchise, gourmand → la gourmandise</td>\n</tr>\n<tr>\n<td><strong>-ude</strong></td>\n<td>f</td>\n<td>exact → l'exactitude, inquiet → l'inquiétude</td>\n</tr>\n<tr>\n<td><strong>-ance / -ence</strong></td>\n<td>f</td>\n<td>élégant → l'élégance, patient → la patience</td>\n</tr>\n<tr>\n<td><strong>-isme</strong></td>\n<td>m</td>\n<td>optimiste → l'optimisme</td>\n</tr>\n<tr>\n<td><strong>-ie</strong></td>\n<td>f</td>\n<td>jaloux → la jalousie, fou → la folie</td>\n</tr>\n<tr>\n<td><strong>le + adjective</strong></td>\n<td>m</td>\n<td><em>le beau</em>, <em>le vrai</em>, <em>l'essentiel</em> (the beautiful, the truth, the essential)</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Infinitive as noun",
+   "html": "<p><em>le dîner, le déjeuner, le pouvoir (power), le devoir (duty), le savoir (knowledge), le rire (laughter), le sourire</em>.</p>"
+  },
+  {
+   "heading": "Transforming a sentence",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verbal sentence</th>\n<th>Nominal phrase</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Le musée ouvre à 9 h.</em></td>\n<td><em>Ouverture du musée à 9 h.</em></td>\n</tr>\n<tr>\n<td><em>Le président est arrivé à Paris.</em></td>\n<td><em>Arrivée du président à Paris.</em></td>\n</tr>\n<tr>\n<td><em>On a découvert un vaccin.</em></td>\n<td><em>Découverte d'un vaccin.</em></td>\n</tr>\n<tr>\n<td><em>Le chômage baisse.</em></td>\n<td><em>Baisse du chômage.</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "partir, arriver, choisir, ouvrir, développer, nettoyer.",
+   "instruction": "Give the noun (with article):",
+   "answer": "*le départ*, *l'arrivée*, *le choix*, *l'ouverture*, *le développement*, *le nettoyage*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "beau, gentil, triste, long, patient.",
+   "answer": "*la beauté*, *la gentillesse*, *la tristesse*, *la longueur*, *la patience*.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Turn into headlines: (a) *Les loyers augmentent.* (b) *La ministre démissionne.* (c) *Le magasin ferme.*",
+   "answer": "(a) *Augmentation des loyers* (b) *Démission de la ministre* (c) *Fermeture du magasin*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Rewrite with a noun: *Je suis surpris qu'il soit parti.* → *Je suis surpris par ___.*",
+   "answer": "*Je suis surpris par son départ.*",
+   "id": "e4"
+  }
+ ],
+ "outro": ""
+}

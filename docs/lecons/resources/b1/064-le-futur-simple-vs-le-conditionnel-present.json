@@ -1,0 +1,58 @@
+{
+ "id": "s64",
+ "subject": 64,
+ "level": "B1",
+ "title": "Le Futur Simple vs Le Conditionnel Présent",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>These two tenses share the same <strong>stems</strong> and look similar, but express different things.</p>"
+  },
+  {
+   "heading": "Form comparison",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Futur (will)</th>\n<th>Conditionnel (would)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td>parler<strong>ai</strong></td>\n<td>parler<strong>ais</strong></td>\n</tr>\n<tr>\n<td>tu</td>\n<td>parler<strong>as</strong></td>\n<td>parler<strong>ais</strong></td>\n</tr>\n<tr>\n<td>il</td>\n<td>parler<strong>a</strong></td>\n<td>parler<strong>ait</strong></td>\n</tr>\n<tr>\n<td>nous</td>\n<td>parler<strong>ons</strong></td>\n<td>parler<strong>ions</strong></td>\n</tr>\n<tr>\n<td>vous</td>\n<td>parler<strong>ez</strong></td>\n<td>parler<strong>iez</strong></td>\n</tr>\n<tr>\n<td>ils</td>\n<td>parler<strong>ont</strong></td>\n<td>parler<strong>aient</strong></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Pronunciation:</strong> <em>je parlerai</em> (closed \"ay\") vs <em>je parlerais</em> (open \"eh\"). Many speakers barely distinguish them, so the <em>je</em> form is a classic spelling trap. Test: replace with <em>nous</em>: future = <em>nous parlerons</em>, conditional = <em>nous parlerions</em>.</p>"
+  },
+  {
+   "heading": "Meaning comparison",
+   "html": "<table>\n<thead>\n<tr>\n<th>Futur</th>\n<th>Conditionnel</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Certainty / plan: <em>Je </em><em>viendrai</em><em> demain.</em></td>\n<td>Possibility / condition: <em>Je </em><em>viendrais</em><em> si je pouvais.</em></td>\n</tr>\n<tr>\n<td>Real condition: <em>Si tu viens, je </em><em>serai</em><em> content.</em></td>\n<td>Hypothetical: <em>Si tu venais, je </em><em>serais</em><em> content.</em></td>\n</tr>\n<tr>\n<td>Direct promise: <em>Je te dis : « Je t'</em><em>appellerai</em><em>. »</em></td>\n<td>Reported promise: <em>Je t'ai dit que je t'</em><em>appellerais</em><em>.</em></td>\n</tr>\n<tr>\n<td>Direct statement: <em>Il </em><em>pleuvra</em><em> demain.</em></td>\n<td>Unconfirmed: <em>Il </em><em>pleuvrait</em><em> demain, selon la météo.</em></td>\n</tr>\n<tr>\n<td>Order (formal): <em>Vous </em><em>ferez</em><em> ce travail.</em></td>\n<td>Polite request: <em>Vous </em><em>pourriez</em><em> faire ce travail ?</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "\"Si\" patterns",
+   "html": "<table>\n<thead>\n<tr>\n<th>Si + …</th>\n<th>Main clause</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>présent</strong></td>\n<td><strong>futur</strong> (likely): <em>Si j'ai le temps, je </em><em>ferai</em><em> du sport.</em></td>\n</tr>\n<tr>\n<td><strong>imparfait</strong></td>\n<td><strong>conditionnel</strong> (hypothetical): <em>Si j'avais le temps, je </em><em>ferais</em><em> du sport.</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Si tu m'aides, je te (remercier) ___.",
+   "instruction": "Futur or conditionnel?",
+   "answer": "remercierai",
+   "id": "e1"
+  },
+  {
+   "prompt": "Si j'étais riche, je (voyager) ___ partout.",
+   "answer": "voyagerais",
+   "id": "e2"
+  },
+  {
+   "prompt": "Elle m'a promis qu'elle (venir) ___.",
+   "answer": "viendrait",
+   "id": "e3"
+  },
+  {
+   "prompt": "Demain, nous (aller) ___ au marché.",
+   "answer": "irons",
+   "id": "e4"
+  },
+  {
+   "prompt": "(Pouvoir) ___-vous fermer la fenêtre, s'il vous plaît ?",
+   "answer": "Pourriez",
+   "id": "e5"
+  },
+  {
+   "prompt": "Spelling: \"I will go\" or \"I would go\" — *j'irai* or *j'irais*? Write both with meaning.",
+   "answer": "*j'irai* = I will go; *j'irais* = I would go.",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

@@ -1,0 +1,56 @@
+{
+ "id": "s95",
+ "subject": 95,
+ "level": "B2",
+ "title": "Le Passé Simple",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>passé simple</strong> is the <strong>literary past tense</strong>. It's used in novels, fairy tales, history books and formal writing, where it replaces the passé composé. In speech it is almost never used. You must be able to <strong>read</strong> it fluently, and B2 learners should know the 3rd person forms well.</p>"
+  },
+  {
+   "heading": "Formation",
+   "html": "<p><strong>1st group (-er):</strong> stem + <strong>-ai, -as, -a, -âmes, -âtes, -èrent</strong>\n<strong>2nd group and most -ir/-re verbs:</strong> stem + <strong>-is, -is, -it, -îmes, -îtes, -irent</strong>\n<strong>Many irregular verbs (-oir, être, avoir…):</strong> stem + <strong>-us, -us, -ut, -ûmes, -ûtes, -urent</strong>\n<strong>venir / tenir:</strong> <strong>-ins, -ins, -int, -înmes, -întes, -inrent</strong></p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>parler</th>\n<th>finir</th>\n<th>vendre</th>\n<th>vouloir</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td>parlai</td>\n<td>finis</td>\n<td>vendis</td>\n<td>voulus</td>\n</tr>\n<tr>\n<td>tu</td>\n<td>parlas</td>\n<td>finis</td>\n<td>vendis</td>\n<td>voulus</td>\n</tr>\n<tr>\n<td>il/elle</td>\n<td><strong>parla</strong></td>\n<td><strong>finit</strong></td>\n<td><strong>vendit</strong></td>\n<td><strong>voulut</strong></td>\n</tr>\n<tr>\n<td>nous</td>\n<td>parlâmes</td>\n<td>finîmes</td>\n<td>vendîmes</td>\n<td>voulûmes</td>\n</tr>\n<tr>\n<td>vous</td>\n<td>parlâtes</td>\n<td>finîtes</td>\n<td>vendîtes</td>\n<td>voulûtes</td>\n</tr>\n<tr>\n<td>ils/elles</td>\n<td><strong>parlèrent</strong></td>\n<td><strong>finirent</strong></td>\n<td><strong>vendirent</strong></td>\n<td><strong>voulurent</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Key irregular verbs (3rd person sing. / plural)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Infinitive</th>\n<th>il / elle</th>\n<th>ils / elles</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>être</td>\n<td><strong>fut</strong></td>\n<td><strong>furent</strong></td>\n</tr>\n<tr>\n<td>avoir</td>\n<td><strong>eut</strong></td>\n<td><strong>eurent</strong></td>\n</tr>\n<tr>\n<td>faire</td>\n<td><strong>fit</strong></td>\n<td><strong>firent</strong></td>\n</tr>\n<tr>\n<td>aller</td>\n<td>alla</td>\n<td>allèrent</td>\n</tr>\n<tr>\n<td>venir</td>\n<td><strong>vint</strong></td>\n<td><strong>vinrent</strong></td>\n</tr>\n<tr>\n<td>voir</td>\n<td><strong>vit</strong></td>\n<td><strong>virent</strong></td>\n</tr>\n<tr>\n<td>prendre</td>\n<td><strong>prit</strong></td>\n<td><strong>prirent</strong></td>\n</tr>\n<tr>\n<td>mettre</td>\n<td><strong>mit</strong></td>\n<td><strong>mirent</strong></td>\n</tr>\n<tr>\n<td>dire</td>\n<td><strong>dit</strong></td>\n<td><strong>dirent</strong></td>\n</tr>\n<tr>\n<td>pouvoir</td>\n<td><strong>put</strong></td>\n<td><strong>purent</strong></td>\n</tr>\n<tr>\n<td>savoir</td>\n<td><strong>sut</strong></td>\n<td><strong>surent</strong></td>\n</tr>\n<tr>\n<td>devoir</td>\n<td><strong>dut</strong></td>\n<td><strong>durent</strong></td>\n</tr>\n<tr>\n<td>vivre</td>\n<td><strong>vécut</strong></td>\n<td><strong>vécurent</strong></td>\n</tr>\n<tr>\n<td>naître</td>\n<td><strong>naquit</strong></td>\n<td><strong>naquirent</strong></td>\n</tr>\n<tr>\n<td>mourir</td>\n<td><strong>mourut</strong></td>\n<td><strong>moururent</strong></td>\n</tr>\n<tr>\n<td>écrire</td>\n<td><strong>écrivit</strong></td>\n<td><strong>écrivirent</strong></td>\n</tr>\n<tr>\n<td>lire</td>\n<td><strong>lut</strong></td>\n<td><strong>lurent</strong></td>\n</tr>\n<tr>\n<td>connaître</td>\n<td><strong>connut</strong></td>\n<td><strong>connurent</strong></td>\n</tr>\n<tr>\n<td>ouvrir</td>\n<td><strong>ouvrit</strong></td>\n<td><strong>ouvrirent</strong></td>\n</tr>\n<tr>\n<td>recevoir</td>\n<td><strong>reçut</strong></td>\n<td><strong>reçurent</strong></td>\n</tr>\n<tr>\n<td>tenir</td>\n<td><strong>tint</strong></td>\n<td><strong>tinrent</strong></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Spelling:</strong> -ger and -cer verbs: <em>il mangea, il commença</em>.</p>"
+  },
+  {
+   "heading": "Passé simple vs imparfait in narration",
+   "html": "<p>The passé simple plays the same role as the passé composé: <strong>events</strong> in the foreground; the imparfait remains the <strong>background</strong>.</p>\n<blockquote>\n<p><em>Il </em><em>faisait</em><em> nuit. Le vent </em><em>soufflait</em><em>. Soudain, la porte </em><em>s'ouvrit</em><em> et un homme </em><em>entra</em><em>. Il </em><em>regarda</em><em> autour de lui, puis il </em><em>s'assit</em><em> près du feu.</em></p>\n</blockquote>"
+  },
+  {
+   "heading": "Passé simple vs passé composé",
+   "html": "<table>\n<thead>\n<tr>\n<th>Passé simple</th>\n<th>Passé composé</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Written narrative, literature, history</td>\n<td>Speech, letters, journalism, everyday writing</td>\n</tr>\n<tr>\n<td>Cut off from the present</td>\n<td>Can have a link to the present</td>\n</tr>\n<tr>\n<td><em>Napoléon </em><em>mourut</em><em> en 1821.</em></td>\n<td><em>Mon grand-père </em><em>est mort</em><em> en 2010.</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Identify the infinitive: *il fut, elle eut, ils firent, elle vint, il prit, ils virent, il naquit.*",
+   "answer": "être, avoir, faire, venir, prendre, voir, naître.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Rewrite in the passé composé: *Il entra, s'assit et commanda un café.*",
+   "answer": "*Il est entré, s'est assis et a commandé un café.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Conjugate *chanter* in the passé simple (all persons).",
+   "answer": "je chantai, tu chantas, il chanta, nous chantâmes, vous chantâtes, ils chantèrent.",
+   "id": "e3"
+  },
+  {
+   "prompt": "Rewrite in the passé simple: *Elle a ouvert la lettre et elle a pleuré.*",
+   "answer": "*Elle ouvrit la lettre et elle pleura.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Which tense would you use in a text message to a friend: passé simple or passé composé?",
+   "answer": "The passé composé.",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

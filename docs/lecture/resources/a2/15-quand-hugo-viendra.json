@@ -1,0 +1,161 @@
+{
+  "id": "a2-15",
+  "level": "A2",
+  "number": 15,
+  "title": "Quand Hugo viendra",
+  "grammar": "futur simple",
+  "theme": "planning a visit",
+  "wordCount": 195,
+  "primer": [
+    "**le futur simple**: \"will\" (*je parlerai* = I will speak)",
+    "**infinitive + -ai, -as, -a, -ons, -ez, -ont**: *visiter → je visiterai*",
+    "**irregular stems**: *être → ser-, avoir → aur-, aller → ir-, faire → fer-, venir → viendr-, pouvoir → pourr-, voir → verr-*",
+    "**quand + future**: when… (*Quand tu seras ici…*)",
+    "**le mois prochain**: next month",
+    "**une recette**: a recipe"
+  ],
+  "passage": [
+    [
+      "En juin, Hugo a envoyé un message à Léa :"
+    ],
+    [
+      "« Bonne nouvelle : j'ai une semaine de vacances le mois prochain ! Je viendrai à Marseille du 10 au 17 juillet. Je prendrai le train le vendredi soir et j'arriverai vers vingt-deux heures. Tu pourras venir me chercher à la gare ? »"
+    ],
+    [
+      "Léa était ravie. Elle a répondu tout de suite :"
+    ],
+    [
+      "« Génial ! Bien sûr, je serai à la gare. Voici le programme."
+    ],
+    [
+      "Samedi, nous irons au marché de Noailles. Tu trouveras toutes les épices du monde ! Ensuite, Madame Ferrand t'apprendra sa recette de bouillabaisse. Elle est très fière de sa recette, alors ne lui dis pas que ta soupe de poisson est meilleure !"
+    ],
+    [
+      "Dimanche, s'il fait beau, nous ferons une promenade dans les calanques et nous nous baignerons à Sormiou."
+    ],
+    [
+      "Lundi et mardi, je travaillerai, mais Karim te montrera le Panier, le plus vieux quartier de la ville. Il connaît tous les bons restaurants."
+    ],
+    [
+      "Pour le reste de la semaine, on verra ! Quand tu seras ici, tu voudras peut-être juste dormir au soleil sur mon balcon, avec Minou."
+    ],
+    [
+      "P.-S. : Minou sera content. Tu lui apporteras des croquettes de Paris, j'espère ? »"
+    ],
+    [
+      "Hugo a répondu en deux mots : « C'est parfait ! »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "Bonne nouvelle",
+      "en": "Good news"
+    },
+    {
+      "fr": "vers",
+      "en": "around (a time)"
+    },
+    {
+      "fr": "venir me chercher",
+      "en": "to pick me up"
+    },
+    {
+      "fr": "ravie",
+      "en": "delighted"
+    },
+    {
+      "fr": "tout de suite",
+      "en": "right away"
+    },
+    {
+      "fr": "le programme",
+      "en": "the plan, the schedule"
+    },
+    {
+      "fr": "t'apprendra",
+      "en": "will teach you"
+    },
+    {
+      "fr": "fière de",
+      "en": "proud of"
+    },
+    {
+      "fr": "le Panier",
+      "en": "Marseille's oldest neighbourhood"
+    },
+    {
+      "fr": "on verra",
+      "en": "we'll see"
+    },
+    {
+      "fr": "peut-être",
+      "en": "maybe"
+    },
+    {
+      "fr": "des croquettes",
+      "en": "cat kibble"
+    },
+    {
+      "fr": "j'espère",
+      "en": "I hope"
+    }
+  ],
+  "spotlight": [
+    "**Futur simple:** add *-ai, -as, -a, -ons, -ez, -ont* to the infinitive: *je travaillerai, tu trouveras, il montrera*. For *-re* verbs, drop the final *e*: *prendre → je prendrai*. Common verbs have irregular stems: *je serai, nous irons, nous ferons, je viendrai, tu pourras, on verra, tu voudras*.",
+    "**Quand + future:** when talking about the future, French uses the future after *quand*, where English uses the present: *Quand tu seras ici…* = When you are here…"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "When will Hugo arrive, and what does he ask Léa?",
+      "answer": "Around 10 p.m. on a Friday — and he asks her to pick him up at the station",
+      "options": [
+        "Around 10 p.m. on a Friday — and he asks her to pick him up at the station",
+        "At noon on Saturday — and he asks to stay at a hotel",
+        "On Sunday morning — and he asks her to cook",
+        "Around 10 p.m. — and he asks her to book a taxi"
+      ],
+      "evidence": "Je prendrai le train le vendredi soir et j'arriverai vers vingt-deux heures. Tu pourras venir me chercher à la gare ?"
+    },
+    {
+      "id": "q2",
+      "prompt": "Who will teach Hugo the bouillabaisse recipe, and what does Léa warn him about?",
+      "answer": "Madame Ferrand — and he mustn't say his fish soup is better",
+      "options": [
+        "Madame Ferrand — and he mustn't say his fish soup is better",
+        "Karim — and he mustn't be late",
+        "Léa — and he must bring saffron",
+        "Mehdi — and he must keep the secret"
+      ],
+      "evidence": "Ensuite, Madame Ferrand t'apprendra sa recette de bouillabaisse. Elle est très fière de sa recette, alors ne lui dis pas que ta soupe de poisson est meilleure !"
+    },
+    {
+      "id": "q3",
+      "prompt": "What will Karim do on Monday and Tuesday?",
+      "answer": "Show Hugo the Panier, the oldest neighbourhood",
+      "options": [
+        "Show Hugo the Panier, the oldest neighbourhood",
+        "Take Hugo swimming at Sormiou",
+        "Cook dinner for Hugo",
+        "Drive Hugo to Aix"
+      ],
+      "evidence": "Lundi et mardi, je travaillerai, mais Karim te montrera le Panier, le plus vieux quartier de la ville."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about your plans for next summer in the futur simple, including one with *quand*.",
+    "model": "L'été prochain, j'irai en France avec ma famille. Nous visiterons Paris et Marseille. Quand je serai à Marseille, je mangerai une bouillabaisse.",
+    "targets": [
+      {
+        "label": "futur simple (×3)",
+        "pattern": "\\b(?!vrai\\b)[a-zà-ÿ]+r(ai|as|a|ons|ez|ont)\\b",
+        "min": 3
+      },
+      {
+        "label": "quand + future",
+        "pattern": "\\bquand\\b[^.!?]*\\b[a-zà-ÿ]+r(ai|as|a|ons|ez|ont)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

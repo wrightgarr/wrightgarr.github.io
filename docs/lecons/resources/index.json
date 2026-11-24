@@ -1,0 +1,1668 @@
+{
+ "title": "Leçons",
+ "levels": [
+  {
+   "id": "A1",
+   "name": "Beginner",
+   "description": "Sounds, greetings, the present tense and everyday vocabulary.",
+   "subjects": [
+    {
+     "file": "a1/001-the-french-alphabet.json",
+     "id": "s1",
+     "subject": 1,
+     "title": "The French Alphabet",
+     "exercises": 5,
+     "sections": [
+      "The letters and their names",
+      "The tricky pairs for English speakers",
+      "Spelling aloud",
+      "Basic sounds of the vowels inside words"
+     ]
+    },
+    {
+     "file": "a1/002-accent-marks.json",
+     "id": "s2",
+     "subject": 2,
+     "title": "Accent Marks (é, è, ê, ë)",
+     "exercises": 5,
+     "sections": [
+      "1. Accent aigu ( ´ ) — only on **é**",
+      "2. Accent grave ( ` ) — on **è**, **à**, **ù**",
+      "3. Accent circonflexe ( ^ ) — on **â, ê, î, ô, û**",
+      "4. Tréma ( ¨ ) — on **ë, ï, ü**",
+      "5. Cédille ( ¸ ) — only on **ç**",
+      "Summary table"
+     ]
+    },
+    {
+     "file": "a1/003-letter-combinations.json",
+     "id": "s3",
+     "subject": 3,
+     "title": "Letter Combinations (ç, ai, ei, an, am, en, em, ...)",
+     "exercises": 5,
+     "sections": [
+      "Soft and hard C and G",
+      "Vowel combinations",
+      "Nasal vowels (the hardest and most \"French\" sounds)",
+      "Consonant combinations"
+     ]
+    },
+    {
+     "file": "a1/004-silent-letters.json",
+     "id": "s4",
+     "subject": 4,
+     "title": "Silent Letters (d, e, g, h, p, s, t, x)",
+     "exercises": 5,
+     "sections": [
+      "General rule: final consonants are usually silent",
+      "The \"CaReFuL\" exception",
+      "Silent **e**",
+      "Silent **h**",
+      "Silent endings of verbs",
+      "Liaison: when a silent consonant wakes up"
+     ]
+    },
+    {
+     "file": "a1/005-greetings.json",
+     "id": "s5",
+     "subject": 5,
+     "title": "Greetings",
+     "exercises": 5,
+     "sections": [
+      "Saying hello",
+      "Saying goodbye",
+      "Asking how someone is",
+      "Tu or vous?",
+      "Polite expressions",
+      "Physical greetings",
+      "Example dialogue"
+     ]
+    },
+    {
+     "file": "a1/006-introducing-yourself.json",
+     "id": "s6",
+     "subject": 6,
+     "title": "Introducing Yourself",
+     "exercises": 5,
+     "sections": [
+      "Core phrases",
+      "Common nationalities",
+      "Asking someone else",
+      "Sample self-introduction"
+     ]
+    },
+    {
+     "file": "a1/007-definite-indefinite-articles.json",
+     "id": "s7",
+     "subject": 7,
+     "title": "Definite & Indefinite Articles (le, la, l', les, un, une, des)",
+     "exercises": 5,
+     "sections": [
+      "Definite articles = \"the\"",
+      "Indefinite articles = \"a / an / some\"",
+      "When to use the definite article (le, la, les)",
+      "When to use the indefinite article (un, une, des)",
+      "After a negative: un / une / des → de (d')",
+      "Contractions with à and de"
+     ]
+    },
+    {
+     "file": "a1/008-how-to-guess-the-gender-of-french-nouns.json",
+     "id": "s8",
+     "subject": 8,
+     "title": "How to Guess the Gender of French Nouns?",
+     "exercises": 6,
+     "sections": [
+      "Usually MASCULINE endings",
+      "Usually FEMININE endings",
+      "People and animals",
+      "Same word, different gender, different meaning"
+     ]
+    },
+    {
+     "file": "a1/009-subject-pronouns.json",
+     "id": "s9",
+     "subject": 9,
+     "title": "Subject Pronouns (je, tu, il, elle, on, nous, vous, ils, elles)",
+     "exercises": 5,
+     "sections": [
+      "The pronoun \"on\"",
+      "\"It\" in French"
+     ]
+    },
+    {
+     "file": "a1/010-le-present-simple.json",
+     "id": "s10",
+     "subject": 10,
+     "title": "Le Présent Simple (1st Group Verbs)",
+     "exercises": 5,
+     "sections": [
+      "How to conjugate",
+      "Common 1st group verbs",
+      "Spelling changes (still regular endings)",
+      "Examples"
+     ]
+    },
+    {
+     "file": "a1/011-le-present-simple.json",
+     "id": "s11",
+     "subject": 11,
+     "title": "Le Présent Simple (2nd Group Verbs)",
+     "exercises": 5,
+     "sections": [
+      "How to conjugate",
+      "Common 2nd group verbs",
+      "How to tell 2nd group from 3rd group -ir verbs",
+      "Examples"
+     ]
+    },
+    {
+     "file": "a1/012-le-present-simple.json",
+     "id": "s12",
+     "subject": 12,
+     "title": "Le Présent Simple (3rd Group Verbs)",
+     "exercises": 5,
+     "sections": [
+      "The four essential irregular verbs",
+      "Other high-frequency verbs",
+      "Patterns that help",
+      "Examples"
+     ]
+    },
+    {
+     "file": "a1/013-forming-negative-sentences.json",
+     "id": "s13",
+     "subject": 13,
+     "title": "Forming Negative Sentences",
+     "exercises": 5,
+     "sections": [
+      "The basic rule: ne … pas",
+      "Where does it go?",
+      "Articles change in the negative",
+      "Spoken French",
+      "Answering a negative question: si"
+     ]
+    },
+    {
+     "file": "a1/014-forming-interrogative-sentences.json",
+     "id": "s14",
+     "subject": 14,
+     "title": "Forming Interrogative Sentences",
+     "exercises": 5,
+     "sections": [
+      "1. Intonation (informal, most common in speech)",
+      "2. Est-ce que (neutral, works everywhere)",
+      "3. Inversion (formal, written)",
+      "Comparison table"
+     ]
+    },
+    {
+     "file": "a1/015-interrogative-words.json",
+     "id": "s15",
+     "subject": 15,
+     "title": "Interrogative Words (qui, que, où, quand, ...)",
+     "exercises": 5,
+     "sections": [
+      "The question words",
+      "Three structures (same as yes/no questions)",
+      "Quel — agrees with the noun",
+      "Qui and que: subject or object?",
+      "Combien de"
+     ]
+    },
+    {
+     "file": "a1/016-il-y-a.json",
+     "id": "s16",
+     "subject": 16,
+     "title": "Il y a",
+     "exercises": 5,
+     "sections": [
+      "Uses",
+      "Forms",
+      "Other tenses (for recognition)",
+      "Il y a vs c'est"
+     ]
+    },
+    {
+     "file": "a1/017-prepositions-of-location.json",
+     "id": "s17",
+     "subject": 17,
+     "title": "Prepositions of Location",
+     "exercises": 5,
+     "sections": [
+      "Simple prepositions",
+      "Prepositions with \"de\" (de changes with the article!)",
+      "Chez"
+     ]
+    },
+    {
+     "file": "a1/018-descriptive-adjectives.json",
+     "id": "s18",
+     "subject": 18,
+     "title": "Descriptive Adjectives",
+     "exercises": 5,
+     "sections": [
+      "Agreement: the basic rule",
+      "Feminine patterns",
+      "Plural patterns",
+      "Position: after the noun (default)",
+      "Before the noun: the BAGS adjectives",
+      "The three special adjectives: beau, nouveau, vieux",
+      "Meaning changes with position (preview)"
+     ]
+    },
+    {
+     "file": "a1/019-possessive-adjectives.json",
+     "id": "s19",
+     "subject": 19,
+     "title": "Possessive Adjectives",
+     "exercises": 5,
+     "sections": [
+      "The big difference from English",
+      "Before a vowel or mute h: ma, ta, sa → mon, ton, son",
+      "Leur vs leurs",
+      "Body parts",
+      "Examples"
+     ]
+    },
+    {
+     "file": "a1/020-numbers-0100.json",
+     "id": "s20",
+     "subject": 20,
+     "title": "Numbers 0–100",
+     "exercises": 5,
+     "sections": [
+      "0 to 20",
+      "Tens",
+      "21–69: the pattern",
+      "70–99: the tricky part (France and Québec)",
+      "Pronunciation notes"
+     ]
+    },
+    {
+     "file": "a1/021-days-months.json",
+     "id": "s21",
+     "subject": 21,
+     "title": "Days & Months",
+     "exercises": 5,
+     "sections": [
+      "Days of the week (les jours de la semaine)",
+      "Using days",
+      "Months (les mois)",
+      "Useful time words",
+      "Questions"
+     ]
+    },
+    {
+     "file": "a1/022-telling-the-time.json",
+     "id": "s22",
+     "subject": 22,
+     "title": "Telling the Time",
+     "exercises": 5,
+     "sections": [
+      "Asking",
+      "Answering: Il est … heure(s)",
+      "Minutes after the hour",
+      "Minutes before the hour (everyday speech)",
+      "12-hour vs 24-hour clock",
+      "Useful expressions"
+     ]
+    },
+    {
+     "file": "a1/023-telling-the-date.json",
+     "id": "s23",
+     "subject": 23,
+     "title": "Telling the Date",
+     "exercises": 5,
+     "sections": [
+      "The structure: le + number + month + year",
+      "Asking the date",
+      "Full date with day of the week",
+      "Saying years",
+      "Written format",
+      "Useful expressions",
+      "Important dates (culture)"
+     ]
+    },
+    {
+     "file": "a1/024-le-futur-proche.json",
+     "id": "s24",
+     "subject": 24,
+     "title": "Le Futur Proche",
+     "exercises": 5,
+     "sections": [
+      "Formation: aller (present) + infinitive",
+      "When to use it",
+      "Negative: ne … pas around *aller*",
+      "Questions",
+      "With pronouns: the pronoun goes before the infinitive",
+      "Going to go",
+      "Time expressions often used"
+     ]
+    },
+    {
+     "file": "a1/025-basic-connectors.json",
+     "id": "s25",
+     "subject": 25,
+     "title": "Basic Connectors",
+     "exercises": 6,
+     "sections": [
+      "Tips",
+      "Sequencing a story"
+     ]
+    },
+    {
+     "file": "a1/026-colors.json",
+     "id": "s26",
+     "subject": 26,
+     "title": "Colors",
+     "exercises": 5,
+     "sections": [
+      "The colors (les couleurs)",
+      "Rules",
+      "Shades",
+      "Asking about colors",
+      "Color expressions"
+     ]
+    },
+    {
+     "file": "a1/027-family-members.json",
+     "id": "s27",
+     "subject": 27,
+     "title": "Family Members",
+     "exercises": 5,
+     "sections": [
+      "Close family (la famille proche)",
+      "Extended family",
+      "Notes",
+      "Family status",
+      "Talking about your family"
+     ]
+    },
+    {
+     "file": "a1/028-weather-seasons.json",
+     "id": "s28",
+     "subject": 28,
+     "title": "Weather & Seasons",
+     "exercises": 5,
+     "sections": [
+      "Asking about the weather",
+      "Weather with \"il fait\"",
+      "Weather with \"il y a\"",
+      "Weather verbs",
+      "Other descriptions",
+      "Seasons (les saisons) — all masculine"
+     ]
+    },
+    {
+     "file": "a1/029-fruits-vegetables.json",
+     "id": "s29",
+     "subject": 29,
+     "title": "Fruits & Vegetables",
+     "exercises": 5,
+     "sections": [
+      "Fruits (les fruits)",
+      "Vegetables (les légumes)",
+      "Notes",
+      "Useful phrases at the market (au marché)",
+      "Expressions"
+     ]
+    },
+    {
+     "file": "a1/030-10-expressions-idioms.json",
+     "id": "s30",
+     "subject": 30,
+     "title": "10 Expressions & Idioms (A1)",
+     "exercises": 5,
+     "sections": [
+      "Note on \"avoir\" expressions"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "name": "Elementary",
+   "description": "Past tenses, object pronouns, comparisons and the future.",
+   "subjects": [
+    {
+     "file": "a2/031-le-passe-compose.json",
+     "id": "s31",
+     "subject": 31,
+     "title": "Le Passé Composé (1st Group Verbs)",
+     "exercises": 5,
+     "sections": [
+      "Formation: auxiliary (avoir or être) in the present + past participle",
+      "Past participle of 1st group (-er) verbs: -er → **-é**",
+      "Examples",
+      "Negative: ne … pas around the auxiliary",
+      "Questions",
+      "Adverbs: short adverbs go between auxiliary and participle",
+      "Common time markers"
+     ]
+    },
+    {
+     "file": "a2/032-le-passe-compose.json",
+     "id": "s32",
+     "subject": 32,
+     "title": "Le Passé Composé (2nd Group Verbs)",
+     "exercises": 5,
+     "sections": [
+      "Past participle of 2nd group (-ir / -issons) verbs: -ir → **-i**",
+      "Full conjugation: finir",
+      "Examples",
+      "Negative and questions (same as all verbs)",
+      "Watch out"
+     ]
+    },
+    {
+     "file": "a2/033-le-passe-compose.json",
+     "id": "s33",
+     "subject": 33,
+     "title": "Le Passé Composé (3rd Group Verbs)",
+     "exercises": 5,
+     "sections": [
+      "Participles ending in -u",
+      "Participles ending in -i / -is / -it",
+      "Participles ending in -ert / -int / other",
+      "Examples",
+      "Tip"
+     ]
+    },
+    {
+     "file": "a2/034-le-passe-compose-etre-or-avoir.json",
+     "id": "s34",
+     "subject": 34,
+     "title": "Le Passé Composé: être or avoir",
+     "exercises": 5,
+     "sections": [
+      "The être verbs: \"DR & MRS VANDERTRAMP\"",
+      "Agreement with être",
+      "Reflexive verbs also use être",
+      "Verbs that can use both",
+      "Agreement with avoir (preview)"
+     ]
+    },
+    {
+     "file": "a2/035-l-imparfait.json",
+     "id": "s35",
+     "subject": 35,
+     "title": "L'Imparfait",
+     "exercises": 5,
+     "sections": [
+      "Formation",
+      "The only irregular stem: être → **ét-**",
+      "Spelling changes",
+      "Other common verbs",
+      "When to use it",
+      "Key time markers"
+     ]
+    },
+    {
+     "file": "a2/036-le-passe-compose-vs-l-imparfait.json",
+     "id": "s36",
+     "subject": 36,
+     "title": "Le Passé Composé vs L'Imparfait",
+     "exercises": 7,
+     "sections": [
+      "Comparison",
+      "The interruption pattern",
+      "Signal words",
+      "Meaning changes with some verbs",
+      "A short story (notice the tenses)"
+     ]
+    },
+    {
+     "file": "a2/037-cod-direct-object-pronouns.json",
+     "id": "s37",
+     "subject": 37,
+     "title": "COD & Direct Object Pronouns (me, te, le, la, nous, vous, les)",
+     "exercises": 7,
+     "sections": [
+      "What is a COD?",
+      "Direct object pronouns",
+      "Position: BEFORE the conjugated verb",
+      "Agreement in the passé composé",
+      "Le as a neutral pronoun",
+      "Imperative (affirmative): pronoun goes after, with a hyphen"
+     ]
+    },
+    {
+     "file": "a2/038-coi-indirect-object-pronouns.json",
+     "id": "s38",
+     "subject": 38,
+     "title": "COI & Indirect Object Pronouns (me, te, lui, nous, vous, leur)",
+     "exercises": 7,
+     "sections": [
+      "What is a COI?",
+      "Indirect object pronouns",
+      "Common verbs with à + person (take COI)",
+      "Position: same as COD",
+      "Exceptions: à + person but no COI pronoun",
+      "Using both COD and COI (order)"
+     ]
+    },
+    {
+     "file": "a2/039-comparatives.json",
+     "id": "s39",
+     "subject": 39,
+     "title": "Comparatives",
+     "exercises": 6,
+     "sections": [
+      "With adjectives and adverbs",
+      "With nouns (quantity)",
+      "With verbs",
+      "Irregular comparatives",
+      "After \"que\": emphatic pronouns"
+     ]
+    },
+    {
+     "file": "a2/040-superlatives.json",
+     "id": "s40",
+     "subject": 40,
+     "title": "Superlatives",
+     "exercises": 6,
+     "sections": [
+      "With adjectives: le / la / les + plus / moins + adjective",
+      "Position",
+      "\"In / of\" = de",
+      "Irregular superlatives",
+      "With verbs and nouns"
+     ]
+    },
+    {
+     "file": "a2/041-demonstrative-adjectives.json",
+     "id": "s41",
+     "subject": 41,
+     "title": "Demonstrative Adjectives",
+     "exercises": 5,
+     "sections": [
+      "This vs that: -ci and -là",
+      "Time expressions"
+     ]
+    },
+    {
+     "file": "a2/042-demonstrative-pronouns.json",
+     "id": "s42",
+     "subject": 42,
+     "title": "Demonstrative Pronouns (celui, celle, ceux, celles)",
+     "exercises": 5,
+     "sections": [
+      "1. -ci / -là (this one / that one)",
+      "2. de + noun (possession: \"the one of\" = …'s)",
+      "3. A relative pronoun: qui, que, dont, où",
+      "Examples"
+     ]
+    },
+    {
+     "file": "a2/043-le-futur-simple.json",
+     "id": "s43",
+     "subject": 43,
+     "title": "Le Futur Simple",
+     "exercises": 5,
+     "sections": [
+      "Formation: infinitive + endings",
+      "Irregular stems (endings stay the same)",
+      "Spelling-change -er verbs",
+      "When to use it",
+      "Futur simple vs futur proche"
+     ]
+    },
+    {
+     "file": "a2/044-adverbs-of-frequency.json",
+     "id": "s44",
+     "subject": 44,
+     "title": "Adverbs of Frequency (toujours, souvent, parfois, …)",
+     "exercises": 6,
+     "sections": [
+      "From most to least frequent",
+      "Other frequency expressions",
+      "Position",
+      "Jamais is negative",
+      "Asking about frequency"
+     ]
+    },
+    {
+     "file": "a2/045-l-imperatif.json",
+     "id": "s45",
+     "subject": 45,
+     "title": "L'Impératif",
+     "exercises": 5,
+     "sections": [
+      "Formation: present tense without the subject",
+      "Irregular imperatives",
+      "Negative imperative: ne … pas around the verb",
+      "With pronouns",
+      "Reflexive verbs",
+      "Softening commands"
+     ]
+    },
+    {
+     "file": "a2/046-le-gerondif.json",
+     "id": "s46",
+     "subject": 46,
+     "title": "Le Gérondif",
+     "exercises": 5,
+     "sections": [
+      "Formation: en + present participle",
+      "Uses",
+      "Tout en + gérondif",
+      "Rule: same subject",
+      "Negative (rare)"
+     ]
+    },
+    {
+     "file": "a2/047-reflexive-verbs.json",
+     "id": "s47",
+     "subject": 47,
+     "title": "Reflexive Verbs",
+     "exercises": 6,
+     "sections": [
+      "Reflexive pronouns",
+      "Common reflexive verbs (daily routine)",
+      "Other important reflexive verbs",
+      "Three types",
+      "Grammar points",
+      "Passé composé: always with être"
+     ]
+    },
+    {
+     "file": "a2/048-relative-pronouns-qui-que.json",
+     "id": "s48",
+     "subject": 48,
+     "title": "Relative Pronouns: qui & que",
+     "exercises": 7,
+     "sections": [
+      "Qui = subject",
+      "Que = direct object",
+      "The test",
+      "Both people and things",
+      "Agreement",
+      "Can't be dropped"
+     ]
+    },
+    {
+     "file": "a2/049-depuis-pendant-pour.json",
+     "id": "s49",
+     "subject": 49,
+     "title": "Depuis, Pendant & Pour",
+     "exercises": 7,
+     "sections": [
+      "Depuis = since / for (action still going on)",
+      "Pendant = during / for (completed duration)",
+      "Pour = for (intended future duration)",
+      "Summary"
+     ]
+    },
+    {
+     "file": "a2/050-numbers-1001-000-000-000.json",
+     "id": "s50",
+     "subject": 50,
+     "title": "Numbers 100–1,000,000,000",
+     "exercises": 5,
+     "sections": [
+      "Hundreds",
+      "Thousands",
+      "Millions and billions",
+      "Writing numbers",
+      "Hyphens",
+      "Years"
+     ]
+    },
+    {
+     "file": "a2/051-ordinal-numbers.json",
+     "id": "s51",
+     "subject": 51,
+     "title": "Ordinal Numbers (1er, 2ème, 3ème, ...)",
+     "exercises": 5,
+     "sections": [
+      "Formation: cardinal number + -ième",
+      "Rules",
+      "Abbreviations",
+      "Uses",
+      "Dates and kings: cardinals, except \"first\""
+     ]
+    },
+    {
+     "file": "a2/052-adverbs-of-manner.json",
+     "id": "s52",
+     "subject": 52,
+     "title": "Adverbs of Manner",
+     "exercises": 6,
+     "sections": [
+      "Basic rule: feminine adjective + -ment",
+      "Adjectives ending in a vowel: masculine + -ment",
+      "-ant → -amment, -ent → -emment",
+      "-ément adverbs",
+      "Irregular adverbs",
+      "Adjectives used as adverbs (invariable)",
+      "Position"
+     ]
+    },
+    {
+     "file": "a2/053-partitive-articles.json",
+     "id": "s53",
+     "subject": 53,
+     "title": "Partitive Articles (du, de la, de l', des)",
+     "exercises": 7,
+     "sections": [
+      "Forms",
+      "When to use partitive vs definite vs indefinite",
+      "Abstract nouns and activities",
+      "Partitive → de / d' after a negative",
+      "Partitive → de after quantities"
+     ]
+    },
+    {
+     "file": "a2/054-possessive-pronouns.json",
+     "id": "s54",
+     "subject": 54,
+     "title": "Possessive Pronouns (le mien, le tien, le sien, …)",
+     "exercises": 6,
+     "sections": [
+      "Forms",
+      "Agreement: with the thing owned",
+      "Contractions with à and de",
+      "Être à + emphatic pronoun (alternative)"
+     ]
+    },
+    {
+     "file": "a2/055-sports-hobbies.json",
+     "id": "s55",
+     "subject": 55,
+     "title": "Sports & Hobbies",
+     "exercises": 7,
+     "sections": [
+      "Two key structures",
+      "Sports vocabulary",
+      "Hobbies (les loisirs / les passe-temps)",
+      "Useful phrases",
+      "Negative: du / de la → de"
+     ]
+    },
+    {
+     "file": "a2/056-clothing.json",
+     "id": "s56",
+     "subject": 56,
+     "title": "Clothing",
+     "exercises": 5,
+     "sections": [
+      "Clothes (les vêtements)",
+      "Shoes and accessories",
+      "Key verbs",
+      "Describing clothes",
+      "At the shop (au magasin)"
+     ]
+    },
+    {
+     "file": "a2/057-animals.json",
+     "id": "s57",
+     "subject": 57,
+     "title": "Animals",
+     "exercises": 5,
+     "sections": [
+      "Pets (les animaux de compagnie)",
+      "Farm animals (les animaux de la ferme)",
+      "Wild animals (les animaux sauvages)",
+      "Insects (les insectes)",
+      "Irregular plurals",
+      "Useful phrases",
+      "Animal expressions"
+     ]
+    },
+    {
+     "file": "a2/058-jobs-professions.json",
+     "id": "s58",
+     "subject": 58,
+     "title": "Jobs & Professions",
+     "exercises": 5,
+     "sections": [
+      "No article after être (and devenir)",
+      "Common jobs: masculine / feminine",
+      "Feminization",
+      "Talking about work"
+     ]
+    },
+    {
+     "file": "a2/059-means-of-transport.json",
+     "id": "s59",
+     "subject": 59,
+     "title": "Means of Transport",
+     "exercises": 7,
+     "sections": [
+      "en vs à",
+      "Vocabulary",
+      "Places and people",
+      "Key verbs",
+      "Useful phrases"
+     ]
+    },
+    {
+     "file": "a2/060-10-expressions-idioms.json",
+     "id": "s60",
+     "subject": 60,
+     "title": "10 Expressions & Idioms (A2)",
+     "exercises": 6,
+     "sections": []
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "name": "Intermediate",
+   "description": "Conditional, subjunctive, relative pronouns, y and en.",
+   "subjects": [
+    {
+     "file": "b1/061-le-plus-que-parfait.json",
+     "id": "s61",
+     "subject": 61,
+     "title": "Le Plus-Que-Parfait",
+     "exercises": 6,
+     "sections": [
+      "Formation: auxiliary in the IMPARFAIT + past participle",
+      "Uses",
+      "Signal words",
+      "Timeline",
+      "Examples"
+     ]
+    },
+    {
+     "file": "b1/062-le-passe-compose-vs-le-plus-que-parfait.json",
+     "id": "s62",
+     "subject": 62,
+     "title": "Le Passé Composé vs Le Plus-Que-Parfait",
+     "exercises": 5,
+     "sections": [
+      "Comparison",
+      "Key principle",
+      "Common triggers",
+      "English isn't always a reliable guide"
+     ]
+    },
+    {
+     "file": "b1/063-le-conditionnel-present.json",
+     "id": "s63",
+     "subject": 63,
+     "title": "Le Conditionnel Présent",
+     "exercises": 6,
+     "sections": [
+      "Formation: future stem + imparfait endings",
+      "Uses",
+      "Watch out"
+     ]
+    },
+    {
+     "file": "b1/064-le-futur-simple-vs-le-conditionnel-present.json",
+     "id": "s64",
+     "subject": 64,
+     "title": "Le Futur Simple vs Le Conditionnel Présent",
+     "exercises": 6,
+     "sections": [
+      "Form comparison",
+      "Meaning comparison",
+      "\"Si\" patterns"
+     ]
+    },
+    {
+     "file": "b1/065-le-subjonctif-present.json",
+     "id": "s65",
+     "subject": 65,
+     "title": "Le Subjonctif Présent",
+     "exercises": 5,
+     "sections": [
+      "Formation (regular verbs)",
+      "Irregular subjunctives",
+      "Main triggers (WEIRDO)",
+      "Same subject → infinitive"
+     ]
+    },
+    {
+     "file": "b1/066-l-indicatif-vs-le-subjonctif.json",
+     "id": "s66",
+     "subject": 66,
+     "title": "L'Indicatif vs Le Subjonctif",
+     "exercises": 7,
+     "sections": [
+      "Core principle",
+      "Opinion verbs: affirmative vs negative/question",
+      "Espérer: always indicatif",
+      "Probability vs possibility",
+      "Conjunctions",
+      "Relative clauses (advanced)"
+     ]
+    },
+    {
+     "file": "b1/067-coordinating-conjunctions.json",
+     "id": "s67",
+     "subject": 67,
+     "title": "Coordinating Conjunctions (mais, ou, et, donc, or, ni, car)",
+     "exercises": 6,
+     "sections": [
+      "Notes on each"
+     ]
+    },
+    {
+     "file": "b1/068-subordinating-conjunctions.json",
+     "id": "s68",
+     "subject": 68,
+     "title": "Subordinating Conjunctions (parce que, quand, si, comme, …)",
+     "exercises": 7,
+     "sections": [
+      "By meaning",
+      "Key differences"
+     ]
+    },
+    {
+     "file": "b1/069-temporal-conjunctions.json",
+     "id": "s69",
+     "subject": 69,
+     "title": "Temporal Conjunctions (dès que, aussitôt que, avant que, …)",
+     "exercises": 6,
+     "sections": [
+      "With the indicatif",
+      "With the subjonctif",
+      "Future after temporal conjunctions",
+      "Infinitive when the subject is the same"
+     ]
+    },
+    {
+     "file": "b1/070-relative-pronouns-qui-que-dont-ou-lequel.json",
+     "id": "s70",
+     "subject": 70,
+     "title": "Relative Pronouns: qui, que, dont, où & lequel",
+     "exercises": 8,
+     "sections": [
+      "Overview",
+      "Dont",
+      "Où",
+      "Lequel (and its forms)",
+      "Decision flowchart"
+     ]
+    },
+    {
+     "file": "b1/071-infinitive-constructions.json",
+     "id": "s71",
+     "subject": 71,
+     "title": "Infinitive Constructions",
+     "exercises": 8,
+     "sections": [
+      "1. Verb + infinitive (no preposition)",
+      "2. Verb + à + infinitive",
+      "3. Verb + de + infinitive",
+      "4. Verb + person + de + infinitive (telling someone to do something)",
+      "5. Adjective / noun + de / à + infinitive",
+      "Prepositions + infinitive"
+     ]
+    },
+    {
+     "file": "b1/072-passive-voice.json",
+     "id": "s72",
+     "subject": 72,
+     "title": "Passive Voice",
+     "exercises": 6,
+     "sections": [
+      "Formation: être (in any tense) + past participle (agreeing with the subject)",
+      "Par or de?",
+      "Only direct-object verbs can become passive",
+      "Alternatives to the passive (more natural French)"
+     ]
+    },
+    {
+     "file": "b1/073-indefinite-pronouns.json",
+     "id": "s73",
+     "subject": 73,
+     "title": "Indefinite Pronouns (quelqu'un, quelque chose, personne, …)",
+     "exercises": 5,
+     "sections": [
+      "Affirmative and negative pairs",
+      "Personne and rien as subjects",
+      "Position in the passé composé",
+      "Adding an adjective: + de",
+      "Other indefinite pronouns"
+     ]
+    },
+    {
+     "file": "b1/074-compound-prepositions.json",
+     "id": "s74",
+     "subject": 74,
+     "title": "Compound Prepositions (à côté de, en face de, près de, …)",
+     "exercises": 7,
+     "sections": [
+      "Place",
+      "Time",
+      "Cause, purpose, other",
+      "With pronouns"
+     ]
+    },
+    {
+     "file": "b1/075-indirect-speech.json",
+     "id": "s75",
+     "subject": 75,
+     "title": "Indirect Speech",
+     "exercises": 6,
+     "sections": [
+      "1. Statements: que",
+      "2. Yes/no questions: si",
+      "3. Questions with question words: keep the word",
+      "4. Commands: de + infinitive",
+      "Tense changes (when the reporting verb is in the past)",
+      "Time and place expressions also change",
+      "Example",
+      "Reporting verbs"
+     ]
+    },
+    {
+     "file": "b1/076-prepositions-with-countries-regions-cities.json",
+     "id": "s76",
+     "subject": 76,
+     "title": "Prepositions with Countries, Regions & Cities (en, au, aux, à, …)",
+     "exercises": 8,
+     "sections": [
+      "Summary table",
+      "Gender of countries",
+      "Cities with an article",
+      "Provinces, states and regions",
+      "Usage examples",
+      "With other verbs"
+     ]
+    },
+    {
+     "file": "b1/077-impersonal-verbs.json",
+     "id": "s77",
+     "subject": 77,
+     "title": "Impersonal Verbs (falloir, pleuvoir, neiger, …)",
+     "exercises": 6,
+     "sections": [
+      "Weather verbs",
+      "Falloir: \"to be necessary / must / need\"",
+      "Other impersonal expressions"
+     ]
+    },
+    {
+     "file": "b1/078-le-passe-recent.json",
+     "id": "s78",
+     "subject": 78,
+     "title": "Le Passé Récent",
+     "exercises": 6,
+     "sections": [
+      "Formation: venir (present) + de + infinitive",
+      "In the past: venir (imparfait) + de + infinitive = \"had just\"",
+      "Pronouns",
+      "Negative (rare)",
+      "The three \"near\" tenses"
+     ]
+    },
+    {
+     "file": "b1/079-the-pronoun-y.json",
+     "id": "s79",
+     "subject": 79,
+     "title": "The Pronoun \"y\"",
+     "exercises": 7,
+     "sections": [
+      "1. Replaces a place (à, en, dans, chez, sur, sous…)",
+      "2. Replaces à + thing / idea",
+      "Position",
+      "Common expressions with y"
+     ]
+    },
+    {
+     "file": "b1/080-the-pronoun-en.json",
+     "id": "s80",
+     "subject": 80,
+     "title": "The Pronoun \"en\"",
+     "exercises": 7,
+     "sections": [
+      "1. Replaces partitive / indefinite articles (du, de la, de l', des)",
+      "2. Replaces a quantity (keep the number or quantity word at the end!)",
+      "3. Replaces de + thing / idea (verbs and expressions with de)",
+      "4. Replaces de + place (from there)",
+      "Position",
+      "Common expressions with en"
+     ]
+    },
+    {
+     "file": "b1/081-si-clauses.json",
+     "id": "s81",
+     "subject": 81,
+     "title": "\"Si\" Clauses",
+     "exercises": 7,
+     "sections": [
+      "The three main types",
+      "Type 1: si + présent",
+      "Type 2: si + imparfait → conditionnel présent",
+      "Type 3: si + plus-que-parfait → conditionnel passé",
+      "The golden rule",
+      "Other uses of si"
+     ]
+    },
+    {
+     "file": "b1/082-expressing-cause-and-effect.json",
+     "id": "s82",
+     "subject": 82,
+     "title": "Expressing Cause and Effect",
+     "exercises": 7,
+     "sections": [
+      "Cause (why something happens)",
+      "Consequence (what results)"
+     ]
+    },
+    {
+     "file": "b1/083-nominalization.json",
+     "id": "s83",
+     "subject": 83,
+     "title": "Nominalization",
+     "exercises": 4,
+     "sections": [
+      "From verbs → nouns",
+      "From adjectives → nouns",
+      "Infinitive as noun",
+      "Transforming a sentence"
+     ]
+    },
+    {
+     "file": "b1/084-using-tout.json",
+     "id": "s84",
+     "subject": 84,
+     "title": "Using \"tout\"",
+     "exercises": 7,
+     "sections": [
+      "1. Tout as an adjective (+ article / determiner + noun): all, whole, every",
+      "2. Tout as a pronoun: everything, all",
+      "3. Tout as an adverb: very, completely, quite",
+      "Common expressions"
+     ]
+    },
+    {
+     "file": "b1/085-advanced-negatives.json",
+     "id": "s85",
+     "subject": 85,
+     "title": "Advanced Negatives (ne…jamais, ne…plus, ne…rien)",
+     "exercises": 7,
+     "sections": [
+      "The main negative structures",
+      "Opposites",
+      "Position in compound tenses",
+      "With infinitives",
+      "As subjects",
+      "Combining negatives (no *pas*!)",
+      "Ne… que vs seulement",
+      "Short answers"
+     ]
+    },
+    {
+     "file": "b1/086-independent-main-subordinate-clauses.json",
+     "id": "s86",
+     "subject": 86,
+     "title": "Independent, Main & Subordinate Clauses",
+     "exercises": 6,
+     "sections": [
+      "1. Independent clause (proposition indépendante)",
+      "2. Main clause (proposition principale)",
+      "3. Subordinate clause (proposition subordonnée)",
+      "Types of subordinate clauses",
+      "Circumstantial clauses in detail",
+      "Analysing a sentence"
+     ]
+    },
+    {
+     "file": "b1/087-emphatic-pronouns.json",
+     "id": "s87",
+     "subject": 87,
+     "title": "Emphatic Pronouns (moi, toi, lui, elle, nous, vous, eux, elles)",
+     "exercises": 7,
+     "sections": [
+      "Uses",
+      "Soi"
+     ]
+    },
+    {
+     "file": "b1/088-emphatic-pronouns-with-meme.json",
+     "id": "s88",
+     "subject": 88,
+     "title": "Emphatic Pronouns with \"Même\" (moi-même, toi-même, lui-même, …)",
+     "exercises": 7,
+     "sections": [
+      "Uses",
+      "Not reflexive!",
+      "Même — other uses"
+     ]
+    },
+    {
+     "file": "b1/089-les-faux-amis.json",
+     "id": "s89",
+     "subject": 89,
+     "title": "Les Faux Amis",
+     "exercises": 7,
+     "sections": [
+      "Most embarrassing ones"
+     ]
+    },
+    {
+     "file": "b1/090-10-expressions-idioms.json",
+     "id": "s90",
+     "subject": 90,
+     "title": "10 Expressions & Idioms (B1)",
+     "exercises": 6,
+     "sections": [
+      "Bonus: Québec expressions"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2",
+   "name": "Upper Intermediate",
+   "description": "Literary tenses, causatives, advanced structures and style.",
+   "subjects": [
+    {
+     "file": "b2/091-le-conditionnel-passe.json",
+     "id": "s91",
+     "subject": 91,
+     "title": "Le Conditionnel Passé",
+     "exercises": 7,
+     "sections": [
+      "Formation: auxiliary in the CONDITIONNEL PRÉSENT + past participle",
+      "Uses",
+      "Key modal combos",
+      "Mixed conditionals"
+     ]
+    },
+    {
+     "file": "b2/092-le-subjonctif-passe.json",
+     "id": "s92",
+     "subject": 92,
+     "title": "Le Subjonctif Passé",
+     "exercises": 7,
+     "sections": [
+      "Formation: auxiliary in the SUBJONCTIF PRÉSENT + past participle",
+      "Présent vs passé",
+      "Common contexts",
+      "Same subject → past infinitive"
+     ]
+    },
+    {
+     "file": "b2/093-le-futur-anterieur.json",
+     "id": "s93",
+     "subject": 93,
+     "title": "Le Futur Antérieur",
+     "exercises": 7,
+     "sections": [
+      "Formation: auxiliary in the FUTUR SIMPLE + past participle",
+      "Uses",
+      "Futur simple vs futur antérieur",
+      "Timeline"
+     ]
+    },
+    {
+     "file": "b2/094-le-subjonctif-imparfait.json",
+     "id": "s94",
+     "subject": 94,
+     "title": "Le Subjonctif Imparfait",
+     "exercises": 5,
+     "sections": [
+      "Formation: from the passé simple",
+      "Usage (literary)",
+      "Fixed expressions still in use",
+      "Plus-que-parfait du subjonctif (recognition)"
+     ]
+    },
+    {
+     "file": "b2/095-le-passe-simple.json",
+     "id": "s95",
+     "subject": 95,
+     "title": "Le Passé Simple",
+     "exercises": 5,
+     "sections": [
+      "Formation",
+      "Key irregular verbs (3rd person sing. / plural)",
+      "Passé simple vs imparfait in narration",
+      "Passé simple vs passé composé"
+     ]
+    },
+    {
+     "file": "b2/096-le-passe-anterieur.json",
+     "id": "s96",
+     "subject": 96,
+     "title": "Le Passé Antérieur",
+     "exercises": 5,
+     "sections": [
+      "Formation: auxiliary in the PASSÉ SIMPLE + past participle",
+      "Use",
+      "Equivalents in modern / spoken French",
+      "Passé antérieur vs plus-que-parfait"
+     ]
+    },
+    {
+     "file": "b2/097-all-tenses-review.json",
+     "id": "s97",
+     "subject": 97,
+     "title": "All Tenses Review",
+     "exercises": 8,
+     "sections": [
+      "The indicative tenses",
+      "The conditional",
+      "The subjunctive",
+      "The imperative",
+      "Non-finite forms",
+      "Sequence of tenses: quick reference",
+      "\"Si\" clauses",
+      "Same verb in every tense: *faire*, il"
+     ]
+    },
+    {
+     "file": "b2/098-relative-pronouns-ce-qui-ce-que-ce-dont.json",
+     "id": "s98",
+     "subject": 98,
+     "title": "Relative Pronouns: ce qui, ce que & ce dont",
+     "exercises": 7,
+     "sections": [
+      "The same test as qui / que",
+      "Common uses"
+     ]
+    },
+    {
+     "file": "b2/099-causative-construction-with-faire.json",
+     "id": "s99",
+     "subject": 99,
+     "title": "Causative Construction With \"faire\"",
+     "exercises": 6,
+     "sections": [
+      "Formation: faire (conjugated) + infinitive",
+      "Who does the action?",
+      "Pronoun position: before faire",
+      "No agreement in the passé composé",
+      "Common causative expressions",
+      "Laisser + infinitive (allowing)"
+     ]
+    },
+    {
+     "file": "b2/100-advanced-causative-construction-with-se-faire.json",
+     "id": "s100",
+     "subject": 100,
+     "title": "Advanced Causative Construction With \"se faire\"",
+     "exercises": 6,
+     "sections": [
+      "Formation: se faire (conjugated) + infinitive",
+      "Two meanings",
+      "With an agent: par",
+      "Se faire + noun / adjective (other meanings)",
+      "Se faire vs passive"
+     ]
+    },
+    {
+     "file": "b2/101-advanced-causative-construction-with-se-laisser.json",
+     "id": "s101",
+     "subject": 101,
+     "title": "Advanced Causative Construction With \"se laisser\"",
+     "exercises": 5,
+     "sections": [
+      "Formation: se laisser (conjugated) + infinitive",
+      "Two meanings",
+      "Agreement (modern rule)",
+      "Common expressions",
+      "Comparison"
+     ]
+    },
+    {
+     "file": "b2/102-discourse-markers.json",
+     "id": "s102",
+     "subject": 102,
+     "title": "Discourse Markers (tout d'abord, ensuite, de plus, …)",
+     "exercises": 6,
+     "sections": [
+      "1. Introducing / ordering",
+      "2. Adding",
+      "3. Contrasting / opposing",
+      "4. Explaining / giving examples",
+      "5. Cause and consequence",
+      "6. Concluding / summarizing",
+      "7. Giving opinion",
+      "Sample paragraph"
+     ]
+    },
+    {
+     "file": "b2/103-complex-inversions.json",
+     "id": "s103",
+     "subject": 103,
+     "title": "Complex Inversions",
+     "exercises": 6,
+     "sections": [
+      "1. Complex inversion in questions (noun subject)",
+      "2. Simple inversion with question words (noun subject)",
+      "3. Inversion in compound tenses",
+      "4. After certain adverbs at the start of a sentence (formal)",
+      "5. Inversion in incises (reported speech)",
+      "6. Inversion in relative and comparative clauses (literary, optional)",
+      "7. Subjunctive / hypothetical inversion (literary)"
+     ]
+    },
+    {
+     "file": "b2/104-advanced-prepositions.json",
+     "id": "s104",
+     "subject": 104,
+     "title": "Advanced Prepositions (à partir de, dès, en attendant, d'ici, …)",
+     "exercises": 7,
+     "sections": [
+      "Key contrasts"
+     ]
+    },
+    {
+     "file": "b2/105-advanced-adjectives.json",
+     "id": "s105",
+     "subject": 105,
+     "title": "Advanced Adjectives",
+     "exercises": 6,
+     "sections": [
+      "1. Adjectives that change meaning with position",
+      "2. Multiple adjectives",
+      "3. Compound adjectives (agreement)",
+      "4. Adjectives used as nouns",
+      "5. Adjective + preposition + complement",
+      "6. Demi, nu, ci-joint, possible"
+     ]
+    },
+    {
+     "file": "b2/106-irregular-plurals.json",
+     "id": "s106",
+     "subject": 106,
+     "title": "Irregular Plurals",
+     "exercises": 5,
+     "sections": [
+      "General rule: + s",
+      "1. Words ending in -s, -x, -z: no change",
+      "2. -eau, -au, -eu → + x",
+      "3. -ou → + s, except 7 words → + x",
+      "4. -al → -aux",
+      "5. -ail → + s, except 7 → -aux",
+      "6. Totally irregular",
+      "7. Pronunciation changes",
+      "8. Compound nouns",
+      "9. Plural-only nouns",
+      "10. Proper nouns and family names"
+     ]
+    },
+    {
+     "file": "b2/107-relative-pronoun-auquel.json",
+     "id": "s107",
+     "subject": 107,
+     "title": "Relative Pronoun: auquel",
+     "exercises": 6,
+     "sections": [
+      "Forms",
+      "Use: verb / expression + à + thing",
+      "For people: à qui (preferred)",
+      "Auquel vs y vs auquel in questions",
+      "Compound prepositions ending in à"
+     ]
+    },
+    {
+     "file": "b2/108-relative-pronoun-duquel.json",
+     "id": "s108",
+     "subject": 108,
+     "title": "Relative Pronoun: duquel",
+     "exercises": 6,
+     "sections": [
+      "Forms",
+      "Duquel vs dont",
+      "Examples",
+      "For people: de qui (often preferred)",
+      "Interrogative duquel"
+     ]
+    },
+    {
+     "file": "b2/109-all-relative-pronouns-review.json",
+     "id": "s109",
+     "subject": 109,
+     "title": "All Relative Pronouns Review",
+     "exercises": 10,
+     "sections": [
+      "Complete table",
+      "Decision flowchart",
+      "Common mistakes"
+     ]
+    },
+    {
+     "file": "b2/110-all-articles-review.json",
+     "id": "s110",
+     "subject": 110,
+     "title": "All Articles Review",
+     "exercises": 10,
+     "sections": [
+      "The four types of articles",
+      "When to use each",
+      "When the article becomes de / d'",
+      "When there's no article"
+     ]
+    },
+    {
+     "file": "b2/111-advanced-use-of-y-en.json",
+     "id": "s111",
+     "subject": 111,
+     "title": "Advanced Use of \"y\" & \"en\"",
+     "exercises": 6,
+     "sections": [
+      "1. Full pronoun order (before the verb)",
+      "2. Affirmative imperative order",
+      "3. Negative imperative: normal order",
+      "4. En with past participle: no agreement",
+      "5. Y and en replacing whole clauses / ideas",
+      "6. Idiomatic expressions with y",
+      "7. Idiomatic expressions with en"
+     ]
+    },
+    {
+     "file": "b2/112-expletive-ne.json",
+     "id": "s112",
+     "subject": 112,
+     "title": "Expletive \"ne\"",
+     "exercises": 6,
+     "sections": [
+      "Where it appears",
+      "How to tell expletive ne from real negation",
+      "Not used after:"
+     ]
+    },
+    {
+     "file": "b2/113-indefinite-demonstrative-pronouns.json",
+     "id": "s113",
+     "subject": 113,
+     "title": "Indefinite Demonstrative Pronouns (ceci, cela, ça, ce, ceux-ci, ….)",
+     "exercises": 7,
+     "sections": [
+      "1. Neutral demonstratives (no gender)",
+      "2. Variable demonstratives + -ci / -là",
+      "3. Ce vs il/elle with être (preview of Subject 114)"
+     ]
+    },
+    {
+     "file": "b2/114-c-est-vs-il-est.json",
+     "id": "s114",
+     "subject": 114,
+     "title": "C'est vs Il est",
+     "exercises": 10,
+     "sections": [
+      "Use C'EST (ce sont) + …",
+      "Use IL / ELLE EST (ils / elles sont) + …",
+      "The key contrasts",
+      "General idea vs specific noun"
+     ]
+    },
+    {
+     "file": "b2/115-prefixes.json",
+     "id": "s115",
+     "subject": 115,
+     "title": "Prefixes",
+     "exercises": 5,
+     "sections": [
+      "Negation / opposite",
+      "Repetition / return",
+      "Time / order",
+      "Quantity / degree",
+      "Place / direction"
+     ]
+    },
+    {
+     "file": "b2/116-suffixes.json",
+     "id": "s116",
+     "subject": 116,
+     "title": "Suffixes",
+     "exercises": 5,
+     "sections": [
+      "Noun suffixes — people",
+      "Noun suffixes — things and ideas",
+      "Diminutives (small) and pejoratives",
+      "Adjective suffixes",
+      "Verb suffixes",
+      "Adverb suffix"
+     ]
+    },
+    {
+     "file": "b2/117-verbs-with-s-en.json",
+     "id": "s117",
+     "subject": 117,
+     "title": "Verbs With \"s'en\" (s'en aller, s'en sortir, s'en vouloir, …)",
+     "exercises": 7,
+     "sections": [
+      "Conjugation pattern: s'en aller (to leave, go away)",
+      "Common s'en verbs"
+     ]
+    },
+    {
+     "file": "b2/118-punctuation.json",
+     "id": "s118",
+     "subject": 118,
+     "title": "Punctuation",
+     "exercises": 6,
+     "sections": [
+      "Spacing rules (France)",
+      "Quotation marks: les guillemets « »",
+      "Comma differences",
+      "Other marks",
+      "Capital letters (majuscules)"
+     ]
+    },
+    {
+     "file": "b2/119-on-vs-l-on.json",
+     "id": "s119",
+     "subject": 119,
+     "title": "On vs L'on",
+     "exercises": 5,
+     "sections": [
+      "When l'on is used (optional, formal)",
+      "When NOT to use l'on",
+      "Origin",
+      "Comparison"
+     ]
+    },
+    {
+     "file": "b2/120-10-expressions-idioms.json",
+     "id": "s120",
+     "subject": 120,
+     "title": "10 Expressions & Idioms (B2)",
+     "exercises": 7,
+     "sections": []
+    }
+   ]
+  }
+ ]
+}

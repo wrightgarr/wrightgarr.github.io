@@ -1,0 +1,59 @@
+{
+ "id": "s68",
+ "subject": 68,
+ "level": "B1",
+ "title": "Subordinating Conjunctions (parce que, quand, si, comme, …)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Subordinating conjunctions introduce a <strong>subordinate clause</strong> that depends on a main clause. They express cause, time, condition, purpose, contrast, etc.</p>"
+  },
+  {
+   "heading": "By meaning",
+   "html": "<table>\n<thead>\n<tr>\n<th>Meaning</th>\n<th>Conjunction</th>\n<th>Mood</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Cause</strong></td>\n<td>parce que</td>\n<td>indicatif</td>\n<td><em>Je reste </em><em>parce qu'</em><em>il pleut.</em></td>\n</tr>\n<tr>\n<td></td>\n<td>puisque (since — known reason)</td>\n<td>indicatif</td>\n<td><em><strong>Puisque</strong> tu es là, aide-moi.</em></td>\n</tr>\n<tr>\n<td></td>\n<td>comme (as — at start of sentence)</td>\n<td>indicatif</td>\n<td><em><strong>Comme</strong> il pleuvait, je suis resté.</em></td>\n</tr>\n<tr>\n<td></td>\n<td>étant donné que / vu que</td>\n<td>indicatif</td>\n<td><em><strong>Vu qu'</strong>il est tard, on rentre.</em></td>\n</tr>\n<tr>\n<td><strong>Time</strong></td>\n<td>quand / lorsque</td>\n<td>indicatif</td>\n<td><em><strong>Quand</strong> j'étais jeune…</em></td>\n</tr>\n<tr>\n<td></td>\n<td>pendant que (while)</td>\n<td>indicatif</td>\n<td><em><strong>Pendant que</strong> tu cuisines, je mets la table.</em></td>\n</tr>\n<tr>\n<td></td>\n<td>depuis que (since)</td>\n<td>indicatif</td>\n<td><em><strong>Depuis qu'</strong>il travaille, il est fatigué.</em></td>\n</tr>\n<tr>\n<td><strong>Condition</strong></td>\n<td>si (if)</td>\n<td>indicatif</td>\n<td><em><strong>Si</strong> tu veux, on y va.</em></td>\n</tr>\n<tr>\n<td></td>\n<td>à condition que</td>\n<td>subjonctif</td>\n<td><em>Je viens </em><em>à condition que</em><em> tu viennes aussi.</em></td>\n</tr>\n<tr>\n<td><strong>Purpose</strong></td>\n<td>pour que / afin que</td>\n<td>subjonctif</td>\n<td><em>Je parle fort </em><em>pour que</em><em> tu m'entendes.</em></td>\n</tr>\n<tr>\n<td><strong>Contrast</strong></td>\n<td>alors que / tandis que (whereas)</td>\n<td>indicatif</td>\n<td><em>Il aime le sport </em><em>alors que</em><em> je déteste ça.</em></td>\n</tr>\n<tr>\n<td></td>\n<td>même si (even if)</td>\n<td>indicatif</td>\n<td><em><strong>Même s'</strong>il pleut, je sors.</em></td>\n</tr>\n<tr>\n<td></td>\n<td>bien que / quoique (although)</td>\n<td>subjonctif</td>\n<td><em><strong>Bien qu'</strong>il soit malade, il travaille.</em></td>\n</tr>\n<tr>\n<td><strong>Consequence</strong></td>\n<td>si bien que / de sorte que</td>\n<td>indicatif</td>\n<td><em>Il a plu, </em><em>si bien que</em><em> le match a été annulé.</em></td>\n</tr>\n<tr>\n<td><strong>Comparison</strong></td>\n<td>comme (like / as)</td>\n<td>indicatif</td>\n<td><em>Fais </em><em>comme</em><em> tu veux.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Key differences",
+   "html": "<p><strong>Parce que vs puisque vs comme</strong>\n- <em>parce que</em>: gives new information (answers <em>pourquoi</em>).\n- <em>puisque</em>: the reason is already known/obvious to both speakers.\n- <em>comme</em>: always at the <strong>start</strong> of the sentence: <em><strong>Comme</strong> j'étais malade, je ne suis pas venu.</em></p>\n<p><strong>Si</strong>\n- <em>Si</em> + <em>il/ils</em> → <strong>s'il, s'ils</strong>. But <em>si elle</em> (no elision).\n- Never followed by the future or conditional in a condition: ~~Si tu viendras~~ → <em>Si tu </em><em>viens</em>**.</p>\n<p><strong>Quand</strong> with future meaning takes the <strong>future</strong> (unlike English): <em>Quand tu </em><em>arriveras</em><em>, appelle-moi.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "___ tu as fini, tu peux partir. (since — known reason)",
+   "instruction": "Choose the best conjunction:",
+   "answer": "Puisque",
+   "id": "e1"
+  },
+  {
+   "prompt": "Je fais la cuisine ___ tu regardes la télé.",
+   "answer": "pendant que",
+   "id": "e2"
+  },
+  {
+   "prompt": "Il est content ___ il a gagné.",
+   "answer": "parce qu'",
+   "id": "e3"
+  },
+  {
+   "prompt": "Je t'explique ___ tu comprennes.",
+   "answer": "pour que",
+   "id": "e4"
+  },
+  {
+   "prompt": "___ il soit riche, il n'est pas heureux.",
+   "answer": "Bien qu'",
+   "id": "e5"
+  },
+  {
+   "prompt": "Je sortirai ___ il pleut.",
+   "answer": "même s'",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"As I was tired, I went to bed early.\"",
+   "answer": "*Comme j'étais fatigué(e), je me suis couché(e) tôt.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

@@ -1,0 +1,84 @@
+{
+ "id": "s97",
+ "subject": 97,
+ "level": "B2",
+ "title": "All Tenses Review",
+ "sections": [
+  {
+   "heading": "The indicative tenses",
+   "html": "<table>\n<thead>\n<tr>\n<th>Tense</th>\n<th>Formation</th>\n<th>Example (parler / partir)</th>\n<th>Main use</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Présent</strong></td>\n<td>stem + endings</td>\n<td>je parle</td>\n<td>now, habits, general truths</td>\n</tr>\n<tr>\n<td><strong>Passé composé</strong></td>\n<td>avoir/être (présent) + p.p.</td>\n<td>j'ai parlé / je suis parti</td>\n<td>completed past events (spoken)</td>\n</tr>\n<tr>\n<td><strong>Imparfait</strong></td>\n<td>nous-stem + -ais</td>\n<td>je parlais</td>\n<td>descriptions, habits, ongoing past</td>\n</tr>\n<tr>\n<td><strong>Plus-que-parfait</strong></td>\n<td>avoir/être (imparfait) + p.p.</td>\n<td>j'avais parlé</td>\n<td>earlier past (\"had done\")</td>\n</tr>\n<tr>\n<td><strong>Passé simple</strong></td>\n<td>stem + -ai/-is/-us</td>\n<td>je parlai</td>\n<td>literary past events</td>\n</tr>\n<tr>\n<td><strong>Passé antérieur</strong></td>\n<td>avoir/être (passé simple) + p.p.</td>\n<td>j'eus parlé</td>\n<td>literary: just before a passé simple</td>\n</tr>\n<tr>\n<td><strong>Futur proche</strong></td>\n<td>aller + inf.</td>\n<td>je vais parler</td>\n<td>near / planned future</td>\n</tr>\n<tr>\n<td><strong>Futur simple</strong></td>\n<td>infinitive + -ai</td>\n<td>je parlerai</td>\n<td>future, predictions, promises</td>\n</tr>\n<tr>\n<td><strong>Futur antérieur</strong></td>\n<td>avoir/être (futur) + p.p.</td>\n<td>j'aurai parlé</td>\n<td>completed before a future point</td>\n</tr>\n<tr>\n<td><strong>Passé récent</strong></td>\n<td>venir de + inf.</td>\n<td>je viens de parler</td>\n<td>just happened</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "The conditional",
+   "html": "<table>\n<thead>\n<tr>\n<th>Tense</th>\n<th>Formation</th>\n<th>Example</th>\n<th>Use</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Conditionnel présent</strong></td>\n<td>future stem + -ais</td>\n<td>je parlerais</td>\n<td>would; politeness; hypothesis</td>\n</tr>\n<tr>\n<td><strong>Conditionnel passé</strong></td>\n<td>avoir/être (cond.) + p.p.</td>\n<td>j'aurais parlé</td>\n<td>would have; regret; reproach</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "The subjunctive",
+   "html": "<table>\n<thead>\n<tr>\n<th>Tense</th>\n<th>Formation</th>\n<th>Example</th>\n<th>Use</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Subjonctif présent</strong></td>\n<td>ils-stem + -e</td>\n<td>que je parle</td>\n<td>wish, emotion, necessity, doubt</td>\n</tr>\n<tr>\n<td><strong>Subjonctif passé</strong></td>\n<td>avoir/être (subj.) + p.p.</td>\n<td>que j'aie parlé</td>\n<td>same, for completed actions</td>\n</tr>\n<tr>\n<td><strong>Subjonctif imparfait</strong></td>\n<td>passé simple stem + -sse</td>\n<td>qu'il parlât</td>\n<td>literary</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "The imperative",
+   "html": "<p><em>Parle ! Parlons ! Parlez !</em> / <em>Sois ! Aie !</em></p>"
+  },
+  {
+   "heading": "Non-finite forms",
+   "html": "<table>\n<thead>\n<tr>\n<th>Form</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Infinitive / past infinitive</td>\n<td>parler / avoir parlé, être parti</td>\n</tr>\n<tr>\n<td>Present participle</td>\n<td>parlant</td>\n</tr>\n<tr>\n<td>Gérondif</td>\n<td>en parlant</td>\n</tr>\n<tr>\n<td>Past participle</td>\n<td>parlé</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Sequence of tenses: quick reference",
+   "html": "<table>\n<thead>\n<tr>\n<th>Main clause</th>\n<th>Earlier action</th>\n<th>Same time</th>\n<th>Later action</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Present (<em>Il dit que…</em>)</td>\n<td>passé composé</td>\n<td>présent</td>\n<td>futur</td>\n</tr>\n<tr>\n<td>Past (<em>Il a dit que…</em>)</td>\n<td>plus-que-parfait</td>\n<td>imparfait</td>\n<td>conditionnel présent</td>\n</tr>\n<tr>\n<td>Future (<em>Il dira que…</em>)</td>\n<td>passé composé</td>\n<td>présent</td>\n<td>futur</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "\"Si\" clauses",
+   "html": "<table>\n<thead>\n<tr>\n<th>Si +</th>\n<th>Main clause</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>présent</td>\n<td>présent / futur / impératif</td>\n</tr>\n<tr>\n<td>imparfait</td>\n<td>conditionnel présent</td>\n</tr>\n<tr>\n<td>plus-que-parfait</td>\n<td>conditionnel passé</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Same verb in every tense: *faire*, il",
+   "html": "<p><em>il fait · il a fait · il faisait · il avait fait · il fit · il eut fait · il va faire · il fera · il aura fait · il vient de faire · il ferait · il aurait fait · qu'il fasse · qu'il ait fait · qu'il fît · fais !</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Hier, quand je (rentrer) ___, ma femme (dormir) ___.",
+   "instruction": "Choose the right tense:",
+   "answer": "suis rentré(e) ; dormait",
+   "id": "e1"
+  },
+  {
+   "prompt": "Si j'(avoir) ___ le temps demain, je t'aiderai.",
+   "answer": "ai",
+   "id": "e2"
+  },
+  {
+   "prompt": "Il faut que tu (venir) ___ ce soir.",
+   "answer": "viennes",
+   "id": "e3"
+  },
+  {
+   "prompt": "Quand tu (finir) ___, appelle-moi. (completed first)",
+   "answer": "auras fini",
+   "id": "e4"
+  },
+  {
+   "prompt": "Je ne savais pas qu'il (déjà / partir) ___.",
+   "answer": "était déjà parti",
+   "id": "e5"
+  },
+  {
+   "prompt": "Si tu m'avais écouté, tu (ne pas avoir) ___ ce problème.",
+   "answer": "n'aurais pas eu",
+   "id": "e6"
+  },
+  {
+   "prompt": "Elle (venir de / arriver) ___.",
+   "answer": "vient d'arriver",
+   "id": "e7"
+  },
+  {
+   "prompt": "Write *aller* (nous) in: présent, passé composé, imparfait, futur, conditionnel, subjonctif.",
+   "answer": "nous allons · nous sommes allé(e)s · nous allions · nous irons · nous irions · que nous allions",
+   "id": "e8"
+  }
+ ],
+ "outro": ""
+}

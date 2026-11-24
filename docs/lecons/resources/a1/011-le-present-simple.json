@@ -1,0 +1,56 @@
+{
+ "id": "s11",
+ "subject": 11,
+ "level": "A1",
+ "title": "Le Présent Simple (2nd Group Verbs)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>2nd group</strong> contains regular verbs ending in <strong>-ir</strong> whose <em>nous</em> form ends in <strong>-issons</strong>. About 300 verbs, all conjugated the same way.</p>"
+  },
+  {
+   "heading": "How to conjugate",
+   "html": "<p>Remove <strong>-ir</strong> → stem, then add:</p>\n<table>\n<thead>\n<tr>\n<th>Pronoun</th>\n<th>Ending</th>\n<th>finir (to finish)</th>\n<th>choisir (to choose)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td><strong>-is</strong></td>\n<td>je fin<strong>is</strong></td>\n<td>je chois<strong>is</strong></td>\n</tr>\n<tr>\n<td>tu</td>\n<td><strong>-is</strong></td>\n<td>tu fin<strong>is</strong></td>\n<td>tu chois<strong>is</strong></td>\n</tr>\n<tr>\n<td>il / elle / on</td>\n<td><strong>-it</strong></td>\n<td>il fin<strong>it</strong></td>\n<td>elle chois<strong>it</strong></td>\n</tr>\n<tr>\n<td>nous</td>\n<td><strong>-issons</strong></td>\n<td>nous fin<strong>issons</strong></td>\n<td>nous chois<strong>issons</strong></td>\n</tr>\n<tr>\n<td>vous</td>\n<td><strong>-issez</strong></td>\n<td>vous fin<strong>issez</strong></td>\n<td>vous chois<strong>issez</strong></td>\n</tr>\n<tr>\n<td>ils / elles</td>\n<td><strong>-issent</strong></td>\n<td>ils fin<strong>issent</strong></td>\n<td>elles chois<strong>issent</strong></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Pronunciation:</strong> <em>finis, finis, finit</em> sound the same (\"fee-nee\"). In the plural, you hear the <strong>-iss-</strong> sound: <em>ils finissent</em> (\"fee-neess\").</p>"
+  },
+  {
+   "heading": "Common 2nd group verbs",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verb</th>\n<th>Meaning</th>\n<th>Verb</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>finir</td>\n<td>to finish</td>\n<td>réussir</td>\n<td>to succeed / pass</td>\n</tr>\n<tr>\n<td>choisir</td>\n<td>to choose</td>\n<td>réfléchir (à)</td>\n<td>to think (about)</td>\n</tr>\n<tr>\n<td>grandir</td>\n<td>to grow up</td>\n<td>grossir</td>\n<td>to gain weight</td>\n</tr>\n<tr>\n<td>maigrir</td>\n<td>to lose weight</td>\n<td>rougir</td>\n<td>to blush</td>\n</tr>\n<tr>\n<td>obéir (à)</td>\n<td>to obey</td>\n<td>punir</td>\n<td>to punish</td>\n</tr>\n<tr>\n<td>remplir</td>\n<td>to fill</td>\n<td>applaudir</td>\n<td>to applaud</td>\n</tr>\n<tr>\n<td>bâtir</td>\n<td>to build</td>\n<td>vieillir</td>\n<td>to get old</td>\n</tr>\n</tbody>\n</table>\n<p>Tip: many verbs formed from adjectives are 2nd group: <em>grand → grandir</em>, <em>rouge → rougir</em>, <em>maigre → maigrir</em>, <em>vieux → vieillir</em>.</p>"
+  },
+  {
+   "heading": "How to tell 2nd group from 3rd group -ir verbs",
+   "html": "<p>Not every -ir verb is 2nd group. <em>Partir, dormir, sortir, venir, ouvrir</em> are <strong>3rd group</strong> (no -iss-): <em>nous partons</em>, not ~~partissons~~. When in doubt, check if the <em>nous</em> form has <strong>-issons</strong>.</p>"
+  },
+  {
+   "heading": "Examples",
+   "html": "<ul>\n<li><em>Je finis le travail à 17 heures.</em> — I finish work at 5 pm.</li>\n<li><em>Les enfants grandissent vite !</em> — Children grow up fast!</li>\n<li><em>Vous choisissez le menu ?</em> — Are you choosing the set menu?</li>\n<li><em>Il réussit toujours ses examens.</em> — He always passes his exams.</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Conjugate *réussir* for all pronouns.",
+   "answer": "je réussis, tu réussis, il réussit, nous réussissons, vous réussissez, ils réussissent.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Fill in: (a) Nous ___ (choisir) un film. (b) Tu ___ (réfléchir) trop ! (c) Elles ___ (remplir) les verres. (d) Il ___ (rougir) facilement.",
+   "answer": "(a) choisissons (b) réfléchis (c) remplissent (d) rougit",
+   "id": "e2"
+  },
+  {
+   "prompt": "Is *dormir* a 2nd group verb? How do you know?",
+   "answer": "No. Its *nous* form is *dormons*, not ~~dormissons~~, so it is 3rd group.",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"The students finish at noon.\"",
+   "answer": "*Les étudiants finissent à midi.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"I'm losing weight.\" (maigrir)",
+   "answer": "*Je maigris.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

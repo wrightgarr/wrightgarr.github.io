@@ -1,0 +1,132 @@
+{
+  "id": "a1-05",
+  "level": "A1",
+  "number": 5,
+  "title": "L'appartement de Léa",
+  "grammar": "*il y a*, prepositions of place",
+  "theme": "the home",
+  "wordCount": 102,
+  "primer": [
+    "**il y a**: there is / there are",
+    "**sur / sous**: on / under",
+    "**dans**: in",
+    "**à côté de**: next to",
+    "**en face de**: across from",
+    "**près de**: near",
+    "**la chambre / le salon / la cuisine**: bedroom / living room / kitchen"
+  ],
+  "passage": [
+    [
+      "L'appartement de Léa est au quatrième étage. Il y a une cuisine, une chambre, une salle de bains et un petit salon."
+    ],
+    [
+      "Dans le salon, il y a un canapé bleu et une table. Sur la table, il y a des livres et un appareil photo. Minou est sous la table. Il dort."
+    ],
+    [
+      "À côté du canapé, il y a une grande fenêtre. Par la fenêtre, Léa regarde la rue. Il y a une boulangerie en face de l'immeuble. Il y a aussi un parc près de l'appartement."
+    ],
+    [
+      "— Mon appartement est petit, dit Léa, mais il y a beaucoup de lumière. J'adore !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "au quatrième étage",
+      "en": "on the fourth floor"
+    },
+    {
+      "fr": "la salle de bains",
+      "en": "the bathroom"
+    },
+    {
+      "fr": "un canapé",
+      "en": "a sofa"
+    },
+    {
+      "fr": "un appareil photo",
+      "en": "a camera"
+    },
+    {
+      "fr": "il dort",
+      "en": "he is sleeping"
+    },
+    {
+      "fr": "une fenêtre",
+      "en": "a window"
+    },
+    {
+      "fr": "la rue",
+      "en": "the street"
+    },
+    {
+      "fr": "une boulangerie",
+      "en": "a bakery"
+    },
+    {
+      "fr": "l'immeuble",
+      "en": "the apartment building"
+    },
+    {
+      "fr": "la lumière",
+      "en": "light"
+    }
+  ],
+  "spotlight": [
+    "**Il y a** never changes for plural: *Il y a une cuisine.* / *Il y a des livres.*",
+    "**De + le = du:** *à côté du canapé* (not *à côté de le*). With feminine nouns it stays: *près de la fenêtre*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Name three rooms in Léa's apartment.",
+      "answer": "A kitchen, a bedroom and a small living room",
+      "options": [
+        "A kitchen, a bedroom and a small living room",
+        "A garden, a garage and a kitchen",
+        "Two bedrooms and a dining room",
+        "An office, a balcony and a bathroom"
+      ],
+      "evidence": "Il y a une cuisine, une chambre, une salle de bains et un petit salon."
+    },
+    {
+      "id": "q2",
+      "prompt": "Where is Minou, and what is he doing?",
+      "answer": "Under the table, sleeping",
+      "options": [
+        "Under the table, sleeping",
+        "On the sofa, eating",
+        "At the window, watching the street",
+        "On the table, next to the books"
+      ],
+      "evidence": "Minou est sous la table. Il dort."
+    },
+    {
+      "id": "q3",
+      "prompt": "What is across from the building? What is nearby?",
+      "answer": "A bakery is across from it; a park is nearby",
+      "options": [
+        "A bakery is across from it; a park is nearby",
+        "A café is across from it; a museum is nearby",
+        "A park is across from it; the bakery is far away",
+        "A metro station is across from it; a school is nearby"
+      ],
+      "evidence": "Il y a une boulangerie en face de l'immeuble. Il y a aussi un parc près de l'appartement."
+    }
+  ],
+  "writing": {
+    "prompt": "Describe your room in two sentences using *il y a* and one preposition.",
+    "model": "Dans ma chambre, il y a un lit et une petite table. Mon téléphone est sur la table.",
+    "targets": [
+      {
+        "label": "il y a",
+        "pattern": "il y a",
+        "min": 1
+      },
+      {
+        "label": "a preposition (sur, sous, dans, à côté de, en face de, près de)",
+        "pattern": "\\b(sur|sous|dans|à côté d|en face d|près d)",
+        "min": 1
+      }
+    ]
+  }
+}

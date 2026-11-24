@@ -1,0 +1,150 @@
+{
+  "id": "a2-07",
+  "level": "A2",
+  "number": 7,
+  "title": "Les étés chez Mamie",
+  "grammar": "imparfait for habits",
+  "theme": "childhood summers in Provence",
+  "wordCount": 183,
+  "primer": [
+    "**tous les étés / chaque matin**: every summer / every morning (signals a habit)",
+    "**d'habitude**: usually",
+    "**nous allions / on allait**: we used to go",
+    "**se baigner**: to go swimming → *il se baignait*",
+    "**les cigales**: cicadas (the sound of a Provençal summer)",
+    "**le goûter**: the afternoon snack",
+    "**Mamie / Papi**: Grandma / Grandpa"
+  ],
+  "passage": [
+    [
+      "Pour le numéro d'août, Nadia a demandé à Léa un petit texte personnel. Voici le texte de Léa :"
+    ],
+    [
+      "« Quand j'étais petite, je passais tous les étés chez Mamie Jeanne, dans son village près d'Avignon. Hugo et moi, nous arrivions le premier juillet et nous restions deux mois."
+    ],
+    [
+      "Chaque matin, Mamie se levait à six heures. Elle préparait le café et elle écoutait la radio. Nous, nous dormions jusqu'à neuf heures. D'habitude, après le petit-déjeuner, nous allions au marché avec elle. Elle connaissait tout le monde et elle parlait pendant des heures !"
+    ],
+    [
+      "L'après-midi, il faisait très chaud. On ne sortait pas avant quatre heures. Pour le goûter, Mamie faisait des tartines avec du miel de lavande. Ensuite, nous allions à la rivière. Hugo se baignait, mais moi, je préférais prendre des photos avec le vieil appareil de Papi."
+    ],
+    [
+      "Le soir, on mangeait dans le jardin. Les cigales chantaient, l'air sentait le thym, et Mamie racontait des histoires de son enfance. Parfois, nous regardions les étoiles jusqu'à minuit."
+    ],
+    [
+      "Aujourd'hui, Mamie n'est plus là. Mais chaque été, quand j'entends les cigales, je redeviens une petite fille. »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "un texte personnel",
+      "en": "a personal piece of writing"
+    },
+    {
+      "fr": "je passais",
+      "en": "I spent (time)"
+    },
+    {
+      "fr": "jusqu'à",
+      "en": "until"
+    },
+    {
+      "fr": "elle connaissait",
+      "en": "she knew"
+    },
+    {
+      "fr": "pendant des heures",
+      "en": "for hours"
+    },
+    {
+      "fr": "le miel",
+      "en": "honey"
+    },
+    {
+      "fr": "la rivière",
+      "en": "the river"
+    },
+    {
+      "fr": "le vieil appareil",
+      "en": "the old camera"
+    },
+    {
+      "fr": "l'air sentait le thym",
+      "en": "the air smelled of thyme"
+    },
+    {
+      "fr": "son enfance",
+      "en": "her childhood"
+    },
+    {
+      "fr": "les étoiles",
+      "en": "the stars"
+    },
+    {
+      "fr": "n'est plus là",
+      "en": "is no longer here (has passed away)"
+    },
+    {
+      "fr": "je redeviens",
+      "en": "I become again"
+    }
+  ],
+  "spotlight": [
+    "**Imparfait for habits:** things that happened again and again. *Je passais tous les étés chez Mamie Jeanne. Chaque matin, Mamie se levait à six heures. D'habitude, nous allions au marché.* Signal words: *tous les…, chaque…, d'habitude, souvent, parfois*.",
+    "**Reflexive verbs keep their pronoun:** *Mamie se levait, Hugo se baignait*. And with *on*: *on mangeait dans le jardin, on ne sortait pas avant quatre heures*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "How long did Léa and Hugo stay at their grandmother's each summer?",
+      "answer": "Two months, from July 1st",
+      "options": [
+        "Two months, from July 1st",
+        "Two weeks in August",
+        "The whole year",
+        "One month, in June"
+      ],
+      "evidence": "Hugo et moi, nous arrivions le premier juillet et nous restions deux mois."
+    },
+    {
+      "id": "q2",
+      "prompt": "Why didn't they go out before four o'clock?",
+      "answer": "It was very hot in the afternoon",
+      "options": [
+        "It was very hot in the afternoon",
+        "Their grandmother was sleeping",
+        "They had to do homework",
+        "It rained every afternoon"
+      ],
+      "evidence": "L'après-midi, il faisait très chaud. On ne sortait pas avant quatre heures."
+    },
+    {
+      "id": "q3",
+      "prompt": "What did Léa do at the river while Hugo swam?",
+      "answer": "She took photos with her grandfather's old camera",
+      "options": [
+        "She took photos with her grandfather's old camera",
+        "She read books under a tree",
+        "She swam too",
+        "She went fishing with Mamie"
+      ],
+      "evidence": "Hugo se baignait, mais moi, je préférais prendre des photos avec le vieil appareil de Papi."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about what you used to do every summer (or every weekend) as a child.",
+    "model": "Quand j'étais petite, tous les étés, nous allions au lac. Je me baignais chaque matin. Le soir, on mangeait des hot-dogs.",
+    "targets": [
+      {
+        "label": "a habit signal (tous les…, chaque, d'habitude, souvent)",
+        "pattern": "tous les|toutes les|chaque|d'habitude|souvent|parfois",
+        "min": 1
+      },
+      {
+        "label": "three imparfait verbs",
+        "pattern": "\\b(?!(?:mais|jamais|français|anglais|frais|vrais|mauvais|fait|parfait|lait|souhait)\\b)(?![a-zà-ÿ]*tions\\b)[a-zà-ÿ]+(ais|ait|ions|iez|aient)\\b",
+        "min": 3
+      }
+    ]
+  }
+}

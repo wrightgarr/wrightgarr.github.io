@@ -1,0 +1,562 @@
+{
+ "id": "b1-61-le-plus-que-parfait",
+ "level": "B1",
+ "subject": 61,
+ "title": "Le Plus-Que-Parfait",
+ "description": "had + past participle: the past before the past.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Formation du plus-que-parfait",
+   "type": "Rule",
+   "translation": "Imparfait of avoir or être + past participle",
+   "exampleFr": "J'avais mangé ; elle était partie.",
+   "exampleEn": "I had eaten; she had left.",
+   "id": "001"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Emploi du plus-que-parfait",
+   "type": "Rule",
+   "translation": "An action completed before another past action",
+   "exampleFr": "Quand je suis arrivé, il avait déjà fini.",
+   "exampleEn": "When I arrived, he had already finished.",
+   "id": "002"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I had already eaten.”",
+   "answer": "J'avais déjà mangé",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “She had already left.”",
+   "answer": "Elle était déjà partie",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "Make it negative: “Il avait compris.”",
+   "answer": "Il n'avait pas compris",
+   "id": "005"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Finir",
+   "type": "Plus-que-parfait",
+   "translation": "j'avais fini — I had finished",
+   "exampleFr": "Nous avions fini le projet.",
+   "exampleEn": "We had finished the project.",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “You (one friend) had finished”  (finir)",
+   "answer": "tu avais fini",
+   "accept": [
+    "avais fini"
+   ],
+   "id": "007"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le projet.",
+   "answer": "avait fini",
+   "hint": "finir · plus-que-parfait",
+   "id": "008"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le projet.  (finir, plus-que-parfait)",
+   "options": [
+    "aviez fini",
+    "avais fini",
+    "avait fini",
+    "avions fini"
+   ],
+   "answer": "aviez fini",
+   "explain": "finir → vous aviez fini",
+   "speak": "Vous aviez fini le projet.",
+   "id": "009"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “They had finished”  (finir)",
+   "answer": "ils avaient fini",
+   "accept": [
+    "avaient fini",
+    "ils avaient fini",
+    "elles avaient fini"
+   ],
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Manger",
+   "type": "Plus-que-parfait",
+   "translation": "j'avais mangé — I had eaten",
+   "exampleFr": "Nous avions mangé au restaurant.",
+   "exampleEn": "We had eaten at the restaurant.",
+   "id": "011"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “I had eaten”  (manger)",
+   "answer": "j'avais mangé",
+   "accept": [
+    "avais mangé"
+   ],
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “She had eaten”  (manger)",
+   "answer": "elle avait mangé",
+   "accept": [
+    "avait mangé",
+    "on avait mangé",
+    "il avait mangé",
+    "elle avait mangé"
+   ],
+   "id": "013"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ au restaurant.  (manger, plus-que-parfait)",
+   "options": [
+    "avions mangé",
+    "avaient mangé",
+    "avais mangé",
+    "avait mangé"
+   ],
+   "answer": "avions mangé",
+   "explain": "manger → nous avions mangé",
+   "speak": "Nous avions mangé au restaurant.",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ au restaurant.",
+   "answer": "avaient mangé",
+   "hint": "manger · plus-que-parfait",
+   "id": "015"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Voir",
+   "type": "Plus-que-parfait",
+   "translation": "j'avais vu — I had seen",
+   "exampleFr": "Nous avions vu ce film.",
+   "exampleEn": "We had seen that film.",
+   "id": "016"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ ce film.",
+   "answer": "avais vu",
+   "hint": "voir · plus-que-parfait",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “You (one friend) had seen”  (voir)",
+   "answer": "tu avais vu",
+   "accept": [
+    "avais vu"
+   ],
+   "id": "018"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “We had seen”  (voir)",
+   "answer": "nous avions vu",
+   "accept": [
+    "avions vu"
+   ],
+   "id": "019"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ ce film.",
+   "answer": "aviez vu",
+   "hint": "voir · plus-que-parfait",
+   "id": "020"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Plus-que-parfait",
+   "translation": "j'avais pris — I had taken",
+   "exampleFr": "Nous avions pris le train.",
+   "exampleEn": "We had taken the train.",
+   "id": "021"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ le train.  (prendre, plus-que-parfait)",
+   "options": [
+    "avais pris",
+    "avions pris",
+    "aviez pris",
+    "avaient pris"
+   ],
+   "answer": "avais pris",
+   "explain": "prendre → tu avais pris",
+   "speak": "Tu avais pris le train.",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “She had taken”  (prendre)",
+   "answer": "elle avait pris",
+   "accept": [
+    "avait pris",
+    "on avait pris",
+    "il avait pris",
+    "elle avait pris"
+   ],
+   "id": "023"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “You (formal or plural) had taken”  (prendre)",
+   "answer": "vous aviez pris",
+   "accept": [
+    "aviez pris"
+   ],
+   "id": "024"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ le train.  (prendre, plus-que-parfait)",
+   "options": [
+    "avaient pris",
+    "avait pris",
+    "avions pris",
+    "aviez pris"
+   ],
+   "answer": "avaient pris",
+   "explain": "prendre → elles avaient pris",
+   "speak": "Elles avaient pris le train.",
+   "id": "025"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Plus-que-parfait",
+   "translation": "j'avais fait — I had done",
+   "exampleFr": "Nous avions fait les courses.",
+   "exampleEn": "We had done the shopping.",
+   "id": "026"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ les courses.  (faire, plus-que-parfait)",
+   "options": [
+    "avais fait",
+    "avait fait",
+    "avions fait",
+    "aviez fait"
+   ],
+   "answer": "avais fait",
+   "explain": "faire → j'avais fait",
+   "speak": "J'avais fait les courses.",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ les courses.",
+   "answer": "avait fait",
+   "hint": "faire · plus-que-parfait",
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “We had done”  (faire)",
+   "answer": "nous avions fait",
+   "accept": [
+    "avions fait"
+   ],
+   "id": "029"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “They had done”  (faire)",
+   "answer": "ils avaient fait",
+   "accept": [
+    "avaient fait",
+    "ils avaient fait",
+    "elles avaient fait"
+   ],
+   "id": "030"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Dire",
+   "type": "Plus-que-parfait",
+   "translation": "j'avais dit — I had told",
+   "exampleFr": "Nous avions dit la vérité.",
+   "exampleEn": "We had told the truth.",
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “I had told”  (dire)",
+   "answer": "j'avais dit",
+   "accept": [
+    "avais dit"
+   ],
+   "id": "032"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ la vérité.",
+   "answer": "avais dit",
+   "hint": "dire · plus-que-parfait",
+   "id": "033"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ la vérité.  (dire, plus-que-parfait)",
+   "options": [
+    "avions dit",
+    "avaient dit",
+    "avais dit",
+    "avait dit"
+   ],
+   "answer": "avions dit",
+   "explain": "dire → nous avions dit",
+   "speak": "Nous avions dit la vérité.",
+   "id": "034"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “You (formal or plural) had told”  (dire)",
+   "answer": "vous aviez dit",
+   "accept": [
+    "aviez dit"
+   ],
+   "id": "035"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Aller",
+   "type": "Plus-que-parfait",
+   "translation": "j'étais allé — I had gone",
+   "exampleFr": "Nous étions allés au cinéma.",
+   "exampleEn": "We had gone to the cinema.",
+   "id": "036"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “You (one friend) had gone”  (aller)",
+   "answer": "tu étais allé",
+   "accept": [
+    "étais allé",
+    "étais allée",
+    "tu étais allée"
+   ],
+   "id": "037"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ au cinéma.  (aller, plus-que-parfait)",
+   "options": [
+    "était allé",
+    "étiez allés",
+    "étaient allés",
+    "étais allé"
+   ],
+   "answer": "était allé",
+   "explain": "aller → il était allé",
+   "speak": "Il était allé au cinéma.",
+   "id": "038"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ au cinéma.",
+   "answer": "étiez allés",
+   "hint": "aller · plus-que-parfait",
+   "accept": [
+    "étiez allé",
+    "étiez allée",
+    "étiez allées"
+   ],
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “They had gone”  (aller)",
+   "answer": "ils étaient allés",
+   "accept": [
+    "étaient allés"
+   ],
+   "id": "040"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Partir",
+   "type": "Plus-que-parfait",
+   "translation": "j'étais parti — I had left",
+   "exampleFr": "Nous étions partis en vacances.",
+   "exampleEn": "We had left on holiday.",
+   "id": "041"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “I had left”  (partir)",
+   "answer": "j'étais parti",
+   "accept": [
+    "étais parti",
+    "étais partie",
+    "je étais partie"
+   ],
+   "id": "042"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “She had left”  (partir)",
+   "answer": "elle était partie",
+   "accept": [
+    "était partie",
+    "on était partie"
+   ],
+   "id": "043"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ en vacances.",
+   "answer": "étions partis",
+   "hint": "partir · plus-que-parfait",
+   "accept": [
+    "étions parties"
+   ],
+   "id": "044"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ en vacances.  (partir, plus-que-parfait)",
+   "options": [
+    "étaient parties",
+    "était partie",
+    "étions partis",
+    "étiez partis"
+   ],
+   "answer": "étaient parties",
+   "explain": "partir → elles étaient parties",
+   "speak": "Elles étaient parties en vacances.",
+   "id": "045"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Arriver",
+   "type": "Plus-que-parfait",
+   "translation": "j'étais arrivé — I had arrived",
+   "exampleFr": "Nous étions arrivés à la gare.",
+   "exampleEn": "We had arrived at the station.",
+   "id": "046"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ à la gare.  (arriver, plus-que-parfait)",
+   "options": [
+    "étais arrivé",
+    "était arrivé",
+    "étions arrivés",
+    "étiez arrivés"
+   ],
+   "answer": "étais arrivé",
+   "explain": "arriver → j'étais arrivé",
+   "speak": "J'étais arrivé à la gare.",
+   "id": "047"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “You (one friend) had arrived”  (arriver)",
+   "answer": "tu étais arrivé",
+   "accept": [
+    "étais arrivé",
+    "étais arrivée",
+    "tu étais arrivée"
+   ],
+   "id": "048"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “We had arrived”  (arriver)",
+   "answer": "nous étions arrivés",
+   "accept": [
+    "étions arrivés",
+    "étions arrivées",
+    "nous étions arrivées"
+   ],
+   "id": "049"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ à la gare.  (arriver, plus-que-parfait)",
+   "options": [
+    "étiez arrivés",
+    "étais arrivé",
+    "était arrivé",
+    "étions arrivés"
+   ],
+   "answer": "étiez arrivés",
+   "explain": "arriver → vous étiez arrivés",
+   "speak": "Vous étiez arrivés à la gare.",
+   "id": "050"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Venir",
+   "type": "Plus-que-parfait",
+   "translation": "j'étais venu — I had come",
+   "exampleFr": "Nous étions venus à la fête.",
+   "exampleEn": "We had come to the party.",
+   "id": "051"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ à la fête.",
+   "answer": "étais venu",
+   "hint": "venir · plus-que-parfait",
+   "accept": [
+    "étais venue"
+   ],
+   "id": "052"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “She had come”  (venir)",
+   "answer": "elle était venue",
+   "accept": [
+    "était venue",
+    "on était venue"
+   ],
+   "id": "053"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French (plus-que-parfait): “You (formal or plural) had come”  (venir)",
+   "answer": "vous étiez venus",
+   "accept": [
+    "étiez venus",
+    "étiez venu",
+    "étiez venue",
+    "étiez venues",
+    "vous étiez venu",
+    "vous étiez venue",
+    "vous étiez venues"
+   ],
+   "id": "054"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ à la fête.",
+   "answer": "étaient venues",
+   "hint": "venir · plus-que-parfait",
+   "id": "055"
+  }
+ ]
+}

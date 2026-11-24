@@ -1,0 +1,156 @@
+{
+  "id": "a2-10",
+  "level": "A2",
+  "number": 10,
+  "title": "Je les ai trouvées !",
+  "grammar": "direct object pronouns",
+  "theme": "a chaotic morning",
+  "wordCount": 200,
+  "primer": [
+    "**le, la, l', les**: him/it, her/it, them (they replace a direct object)",
+    "**before the verb**: *Je cherche mes clés → Je les cherche*",
+    "**before avoir in the passé composé**: *Je l'ai trouvé.*",
+    "**me, te, nous, vous**: me, you, us, you (*Je te retrouve.*)",
+    "**les clés**: the keys",
+    "**oublier**: to forget",
+    "**en retard**: late"
+  ],
+  "passage": [
+    [
+      "Lundi matin, Léa était en retard. Elle avait rendez-vous à neuf heures pour photographier un chef célèbre. Mais impossible de trouver ses clés !"
+    ],
+    [
+      "— Mes clés… Où est-ce que je les ai mises ?"
+    ],
+    [
+      "Elle les a cherchées dans son sac, dans la cuisine, dans ses poches. Rien. Elle a téléphoné à Karim."
+    ],
+    [
+      "— Karim, tu as vu mes clés ? Hier, au bureau, je les avais à la main…",
+      "— Non, je ne les ai pas vues. Mais attends… tu as ton appareil photo ?",
+      "— Oui, je l'ai. Pourquoi ?",
+      "— Et la carte mémoire ? Tu l'as mise dans l'appareil ?"
+    ],
+    [
+      "Léa a ouvert l'appareil. Pas de carte ! Catastrophe. Elle l'a oubliée au bureau, à côté de l'ordinateur."
+    ],
+    [
+      "— Je l'apporte, a dit Karim. Je te retrouve chez le chef dans vingt minutes."
+    ],
+    [
+      "Léa est sortie… et elle a vu ses clés sur la porte, à l'extérieur ! Elle les a laissées là toute la nuit."
+    ],
+    [
+      "Madame Ferrand, sur son balcon, riait."
+    ],
+    [
+      "— Je les ai vues ce matin, ma belle, mais je n'ai pas voulu te réveiller !"
+    ],
+    [
+      "Finalement, Léa est arrivée chez le chef à l'heure. Karim l'attendait devant la porte avec la carte mémoire. Le chef a préparé un plat magnifique et Léa l'a photographié sous tous les angles."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "avait rendez-vous",
+      "en": "had an appointment"
+    },
+    {
+      "fr": "célèbre",
+      "en": "famous"
+    },
+    {
+      "fr": "ses poches",
+      "en": "her pockets"
+    },
+    {
+      "fr": "attends",
+      "en": "wait"
+    },
+    {
+      "fr": "la carte mémoire",
+      "en": "the memory card"
+    },
+    {
+      "fr": "l'ordinateur",
+      "en": "the computer"
+    },
+    {
+      "fr": "Je te retrouve",
+      "en": "I'll meet you"
+    },
+    {
+      "fr": "à l'extérieur",
+      "en": "on the outside"
+    },
+    {
+      "fr": "laissées",
+      "en": "left"
+    },
+    {
+      "fr": "je n'ai pas voulu te réveiller",
+      "en": "I didn't want to wake you"
+    },
+    {
+      "fr": "à l'heure",
+      "en": "on time"
+    },
+    {
+      "fr": "sous tous les angles",
+      "en": "from every angle"
+    }
+  ],
+  "spotlight": [
+    "**Object pronouns replace a noun already mentioned** and go before the verb: *Tu as ton appareil ? — Oui, je l'ai.* In the passé composé they go before *avoir*: *Je ne les ai pas vues.*",
+    "**Agreement:** in the passé composé, the participle agrees with a *la* or *les* placed before it: *Elle les a cherchées* (les clés, feminine plural), *Elle l'a oubliée* (la carte). For most verbs you can't hear it, but you can see it in writing."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why was Léa in a hurry on Monday morning?",
+      "answer": "She had a 9 o'clock appointment to photograph a famous chef",
+      "options": [
+        "She had a 9 o'clock appointment to photograph a famous chef",
+        "She had a train to catch",
+        "She had a job interview",
+        "Her boss had called a meeting"
+      ],
+      "evidence": "Elle avait rendez-vous à neuf heures pour photographier un chef célèbre."
+    },
+    {
+      "id": "q2",
+      "prompt": "Where was the memory card, and how did the problem get solved?",
+      "answer": "At the office — Karim brought it to her",
+      "options": [
+        "At the office — Karim brought it to her",
+        "In her pocket — she found it herself",
+        "At the chef's — he had kept it",
+        "In the camera — it was there all along"
+      ],
+      "evidence": "Elle l'a oubliée au bureau, à côté de l'ordinateur. — Je l'apporte, a dit Karim."
+    },
+    {
+      "id": "q3",
+      "prompt": "Where were Léa's keys the whole time?",
+      "answer": "In her door, on the outside, all night",
+      "options": [
+        "In her door, on the outside, all night",
+        "In her bag",
+        "At Karim's place",
+        "On the kitchen table"
+      ],
+      "evidence": "Léa est sortie… et elle a vu ses clés sur la porte, à l'extérieur ! Elle les a laissées là toute la nuit."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about an object you lost and found, replacing it with *le*, *la* or *les* at least twice.",
+    "model": "Hier, j'ai perdu mes lunettes. Je les ai cherchées partout. Finalement, je les ai trouvées dans le frigo !",
+    "targets": [
+      {
+        "label": "le / la / les / l' before the verb (×2)",
+        "pattern": "\\b(je|tu|il|elle|on|nous|vous|ils|elles)\\s+(ne\\s+|n')?(le\\s|la\\s|les\\s|l')",
+        "min": 2
+      }
+    ]
+  }
+}

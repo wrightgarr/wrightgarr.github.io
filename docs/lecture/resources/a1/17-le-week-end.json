@@ -1,0 +1,109 @@
+{
+  "id": "a1-17",
+  "level": "A1",
+  "number": 17,
+  "title": "Le week-end",
+  "grammar": "futur proche (*aller* + infinitive)",
+  "theme": "weekend plans",
+  "wordCount": 93,
+  "primer": [
+    "**je vais + infinitive**: I'm going to… (*je vais visiter*)",
+    "**Qu'est-ce que tu vas faire ?**: What are you going to do?",
+    "**visiter**: to visit (a place)",
+    "**une exposition**: an exhibition",
+    "**un pique-nique**: a picnic",
+    "**au bord de la Seine**: on the banks of the Seine",
+    "**essayer**: to try"
+  ],
+  "passage": [
+    [
+      "Vendredi soir, Léa et Marco parlent du week-end."
+    ],
+    [
+      "— Qu'est-ce que tu vas faire samedi ? demande Léa.",
+      "— Je vais visiter le musée d'Orsay. Il y a une nouvelle exposition. Et toi ?",
+      "— Moi, je vais prendre des photos à Montmartre. Le matin, la lumière est belle.",
+      "— Et dimanche ?",
+      "— Dimanche, nous allons faire un pique-nique au bord de la Seine avec Amina et Hugo. Hugo va préparer des sandwichs.",
+      "— Super ! Je vais apporter des fruits.",
+      "— Il va faire beau ?",
+      "— Oui, il va faire soleil. Mais Marco… tu vas te lever avant midi ?",
+      "— Euh… je vais essayer !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "parlent du week-end",
+      "en": "talk about the weekend"
+    },
+    {
+      "fr": "le musée d'Orsay",
+      "en": "Paris museum of Impressionist art"
+    },
+    {
+      "fr": "Montmartre",
+      "en": "hilltop neighbourhood in Paris"
+    },
+    {
+      "fr": "belle",
+      "en": "beautiful (feminine)"
+    },
+    {
+      "fr": "avant",
+      "en": "before"
+    }
+  ],
+  "spotlight": [
+    "**Futur proche = aller (conjugated) + infinitive:** *Je vais visiter. Nous allons faire. Hugo va préparer.* It's the everyday way to talk about plans.",
+    "**With reflexive verbs, the pronoun stays with the infinitive:** *Tu vas te lever ?*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is Marco going to do on Saturday?",
+      "answer": "Visit a new exhibition at the Musée d'Orsay",
+      "options": [
+        "Visit a new exhibition at the Musée d'Orsay",
+        "Take photos in Montmartre",
+        "Make sandwiches with Hugo",
+        "Sleep all day"
+      ],
+      "evidence": "Je vais visiter le musée d'Orsay. Il y a une nouvelle exposition."
+    },
+    {
+      "id": "q2",
+      "prompt": "Who is going to the picnic, and what will Hugo bring?",
+      "answer": "Léa, Marco, Amina and Hugo — Hugo will make sandwiches",
+      "options": [
+        "Léa, Marco, Amina and Hugo — Hugo will make sandwiches",
+        "Only Léa and Marco — Marco will bring wine",
+        "Léa, Amina and Hugo — Amina will make sandwiches",
+        "Léa and Hugo — Léa will bring fruit"
+      ],
+      "evidence": "Dimanche, nous allons faire un pique-nique… avec Amina et Hugo. Hugo va préparer des sandwichs."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Léa tease Marco about?",
+      "answer": "Whether he'll get up before noon",
+      "options": [
+        "Whether he'll get up before noon",
+        "That he's always late to the museum",
+        "That he can't cook",
+        "That he forgets his umbrella"
+      ],
+      "evidence": "Mais Marco… tu vas te lever avant midi ?"
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about your plans for next weekend using the futur proche.",
+    "model": "Samedi, je vais faire du vélo. Dimanche, je vais préparer un gâteau et nous allons regarder un film.",
+    "targets": [
+      {
+        "label": "futur proche: aller + infinitive (×3)",
+        "pattern": "\\b(vais|vas|va|allons|allez|vont)\\s+(me |te |se |nous |vous )?[a-zà-ÿ]+(er|ir|re)\\b",
+        "min": 3
+      }
+    ]
+  }
+}

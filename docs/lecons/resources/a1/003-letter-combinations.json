@@ -1,0 +1,56 @@
+{
+ "id": "s3",
+ "subject": 3,
+ "level": "A1",
+ "title": "Letter Combinations (ç, ai, ei, an, am, en, em, ...)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>French spelling has many combinations where two or three letters make a single sound. Learn these and you will be able to read almost any French word correctly.</p>"
+  },
+  {
+   "heading": "Soft and hard C and G",
+   "html": "<table>\n<thead>\n<tr>\n<th>Spelling</th>\n<th>Sound</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>c + a, o, u</td>\n<td>\"k\"</td>\n<td><em>café</em>, <em>code</em>, <em>culture</em></td>\n</tr>\n<tr>\n<td>c + e, i, y</td>\n<td>\"s\"</td>\n<td><em>ce</em>, <em>ici</em>, <em>cycle</em></td>\n</tr>\n<tr>\n<td><strong>ç</strong> + a, o, u</td>\n<td>\"s\"</td>\n<td><em>ça</em>, <em>garçon</em>, <em>reçu</em></td>\n</tr>\n<tr>\n<td>g + a, o, u</td>\n<td>hard \"g\"</td>\n<td><em>gare</em>, <em>gomme</em>, <em>aigu</em></td>\n</tr>\n<tr>\n<td>g + e, i, y</td>\n<td>\"zh\"</td>\n<td><em>géant</em>, <em>girafe</em></td>\n</tr>\n<tr>\n<td><strong>gu</strong> + e, i</td>\n<td>hard \"g\"</td>\n<td><em>guitare</em>, <em>guerre</em></td>\n</tr>\n<tr>\n<td><strong>ge</strong> + a, o</td>\n<td>\"zh\"</td>\n<td><em>mangeons</em>, <em>Georges</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Vowel combinations",
+   "html": "<table>\n<thead>\n<tr>\n<th>Spelling</th>\n<th>Sound</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>ai</strong>, <strong>ei</strong></td>\n<td>\"eh\"</td>\n<td><em>mais</em>, <em>lait</em>, <em>neige</em>, <em>seize</em></td>\n</tr>\n<tr>\n<td><strong>au</strong>, <strong>eau</strong></td>\n<td>\"oh\"</td>\n<td><em>auto</em>, <em>beau</em>, <em>eau</em></td>\n</tr>\n<tr>\n<td><strong>ou</strong></td>\n<td>\"oo\"</td>\n<td><em>vous</em>, <em>rouge</em>, <em>jour</em></td>\n</tr>\n<tr>\n<td><strong>oi</strong></td>\n<td>\"wah\"</td>\n<td><em>moi</em>, <em>trois</em>, <em>voiture</em></td>\n</tr>\n<tr>\n<td><strong>eu</strong>, <strong>œu</strong></td>\n<td>\"uh\" (rounded)</td>\n<td><em>deux</em>, <em>peu</em>, <em>sœur</em>, <em>cœur</em></td>\n</tr>\n<tr>\n<td><strong>ui</strong></td>\n<td>\"wee\"</td>\n<td><em>huit</em>, <em>nuit</em>, <em>lui</em></td>\n</tr>\n<tr>\n<td><strong>oy</strong></td>\n<td>\"wa-y\"</td>\n<td><em>voyage</em>, <em>moyen</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Nasal vowels (the hardest and most \"French\" sounds)",
+   "html": "<p>A vowel followed by <strong>n</strong> or <strong>m</strong> (and then a consonant or end of word) becomes nasal: air goes through the nose and the n/m is <strong>not</strong> pronounced.</p>\n<table>\n<thead>\n<tr>\n<th>Spelling</th>\n<th>Sound</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>an, am, en, em</strong></td>\n<td>\"ahn\" (nasal, mouth open)</td>\n<td><em>France</em>, <em>chambre</em>, <em>enfant</em>, <em>temps</em></td>\n</tr>\n<tr>\n<td><strong>in, im, ain, aim, ein, un</strong>*</td>\n<td>\"an\" (nasal, like \"bang\" without the g)</td>\n<td><em>vin</em>, <em>simple</em>, <em>pain</em>, <em>faim</em>, <em>plein</em>, <em>un</em></td>\n</tr>\n<tr>\n<td><strong>on, om</strong></td>\n<td>\"ohn\" (nasal, lips rounded)</td>\n<td><em>bon</em>, <em>nom</em>, <em>maison</em></td>\n</tr>\n</tbody>\n</table>\n<p>*Many speakers today pronounce <strong>un</strong> the same as <strong>in</strong>.</p>\n<p><strong>Important:</strong> if the n/m is followed by a vowel, or is doubled, the vowel is <strong>not</strong> nasal:\n- <em>bon</em> (nasal) vs <em>bonne</em> (bo-nn, not nasal)\n- <em>an</em> (nasal) vs <em>âne</em> (ah-n, not nasal)\n- <em>fin</em> (nasal) vs <em>fine</em> (feen)</p>"
+  },
+  {
+   "heading": "Consonant combinations",
+   "html": "<table>\n<thead>\n<tr>\n<th>Spelling</th>\n<th>Sound</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>ch</strong></td>\n<td>\"sh\"</td>\n<td><em>chat</em>, <em>chocolat</em></td>\n</tr>\n<tr>\n<td><strong>gn</strong></td>\n<td>\"ny\" (like \"canyon\")</td>\n<td><em>montagne</em>, <em>champagne</em></td>\n</tr>\n<tr>\n<td><strong>ph</strong></td>\n<td>\"f\"</td>\n<td><em>photo</em>, <em>téléphone</em></td>\n</tr>\n<tr>\n<td><strong>qu</strong></td>\n<td>\"k\"</td>\n<td><em>qui</em>, <em>quatre</em></td>\n</tr>\n<tr>\n<td><strong>th</strong></td>\n<td>\"t\"</td>\n<td><em>thé</em>, <em>théâtre</em></td>\n</tr>\n<tr>\n<td><strong>ill</strong> (after a vowel)</td>\n<td>\"y\"</td>\n<td><em>fille</em>, <em>travailler</em>, <em>famille</em></td>\n</tr>\n<tr>\n<td><strong>s</strong> between two vowels</td>\n<td>\"z\"</td>\n<td><em>maison</em>, <em>rose</em></td>\n</tr>\n<tr>\n<td><strong>ss</strong></td>\n<td>\"s\"</td>\n<td><em>poisson</em> (fish) vs <em>poison</em> (poison)</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Does the *c* sound like \"k\" or \"s\"? *ceci*, *coca*, *leçon*, *cinéma*.",
+   "answer": "*ceci* – s, s; *coca* – k, k; *leçon* – s; *cinéma* – s.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Which word is NOT nasal? *pain*, *bonne*, *temps*, *nom*.",
+   "answer": "*bonne* (double n followed by e → not nasal).",
+   "id": "e2"
+  },
+  {
+   "prompt": "How do you pronounce *oi* in *moi*?",
+   "answer": "\"wah\".",
+   "id": "e3"
+  },
+  {
+   "prompt": "Explain the pronunciation difference between *poisson* and *poison*.",
+   "answer": "*poisson* has **ss** = \"s\" sound (pwa-sohn); *poison* has a single **s** between vowels = \"z\" (pwa-zohn).",
+   "id": "e4"
+  },
+  {
+   "prompt": "Read aloud and write the sound of the bold letters: **eau**, **ou**, **gn**, **ch**.",
+   "answer": "eau = \"oh\", ou = \"oo\", gn = \"ny\", ch = \"sh\".",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

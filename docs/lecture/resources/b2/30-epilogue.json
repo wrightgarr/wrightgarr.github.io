@@ -1,0 +1,191 @@
+{
+  "id": "b2-30",
+  "level": "B2",
+  "number": 30,
+  "title": "Épilogue",
+  "grammar": "review of B2",
+  "theme": "a preface, and a new notebook",
+  "wordCount": 625,
+  "primer": [
+    "**review: si + plus-que-parfait → conditionnel passé**",
+    "**review: inversion** (*Sans doute aurait-il…*)",
+    "**review: emphasis** (*Ce que j'ai appris, c'est que…*)",
+    "**review: subjunctive of wishes** (*Que cette ville vous adopte*)",
+    "**une préface**: a preface",
+    "**graver**: to engrave"
+  ],
+  "passage": [
+    [
+      "Le 24 janvier suivant, le mur du souvenir a été inauguré derrière l'hôtel de ville. Trois cent quarante noms y étaient gravés, tirés des carnets de Jean. Il faisait froid, le mistral soufflait, et pourtant plusieurs centaines de personnes étaient venues. Parmi elles, des descendants des familles expulsées, venus de Lyon, de Paris, de Naples ou de plus loin encore. Une femme d'environ soixante-dix ans a cherché longtemps un nom sur le mur, puis elle a posé la main dessus et elle n'a plus bougé. C'était le nom de sa grand-mère."
+    ],
+    [
+      "Ce jour-là, Léa n'a pas pris de photos. Elle a seulement regardé."
+    ],
+    [
+      "Quelques semaines plus tard, elle a écrit la préface de la deuxième édition."
+    ],
+    [
+      "« Préface à la deuxième édition"
+    ],
+    [
+      "Je suis arrivée à Marseille il y a quatre ans, un soir de janvier, avec un chat qui miaulait et des cartons trop lourds. Si l'on m'avait dit alors que j'écrirais un jour la préface d'un livre consacré à un docker que je n'ai jamais rencontré, j'aurais ri. On ne choisit pas toujours ses histoires. Parfois, ce sont elles qui vous choisissent."
+    ],
+    [
+      "Depuis la première édition, beaucoup de choses se sont passées. Le mur du souvenir porte désormais les noms que Jean avait recueillis. Des lecteurs nous ont écrit du monde entier : certains avaient retrouvé dans ces pages le nom d'un grand-père, d'autres la rue de leur enfance. Une famille de Palerme nous a envoyé la photo de deux jeunes dockers riant sur un quai, en 1962, un livre à la main. Elle ouvre cette nouvelle édition, accompagnée du dernier carnet de Jean, que Simone a enfin accepté de partager."
+    ],
+    [
+      "Qu'aurait pensé Jean de tout cela ? Je l'ignore. Sans doute aurait-il haussé les épaules, allumé une cigarette et dit que nous faisions beaucoup d'histoires pour quelques carnets. Il n'en reste pas moins qu'il avait raison sur l'essentiel : il ne faut pas que les choses se perdent. Les noms, les visages, les mots d'une ville, les chansons d'un bar."
+    ],
+    [
+      "Ce que j'ai appris en lisant Jean, c'est que la mémoire n'est pas une affaire de musées. C'est une affaire de voisins. Elle tient à une porte que l'on ouvre, à une question que l'on ose poser, à une tarte aux abricots partagée sur un balcon. Elle se transmet, à condition que quelqu'un écoute."
+    ],
+    [
+      "Je dédie cette édition à Simone, qui m'a ouvert sa porte, et à tous ceux qui arriveront demain à la gare Saint-Charles avec des cartons trop lourds, sans connaître personne. Que cette ville vous adopte, comme elle m'a adoptée. »"
+    ],
+    [
+      "Le soir où la deuxième édition est sortie, ils se sont tous retrouvés sur le toit de l'immeuble, comme chaque année le 21 juin. Amina et Karim, mariés depuis l'été précédent (deux fois, à Marseille puis à Montréal), jouaient du violon et de l'oud. Lucas, devenu rédacteur en chef adjoint du Mistral, discutait avec Inès de la couverture du prochain numéro. Thomas, qui habitait maintenant avec Léa, faisait griller des sardines en surveillant Minou, devenu un vieux chat paresseux qui dormait sur les genoux de Josette."
+    ],
+    [
+      "Madame Ferrand s'est assise à côté de Léa, face à la mer, sa canne posée contre le mur."
+    ],
+    [
+      "— Alors, ma belle. Et maintenant ?",
+      "— Maintenant ? Je ne sais pas. J'ai pensé à un autre livre. Sur les gens qui arrivent. Ceux d'aujourd'hui.",
+      "— Avec des carnets ?",
+      "— Avec des carnets, a souri Léa. J'en ai déjà rempli trois."
+    ],
+    [
+      "Madame Ferrand a hoché la tête, satisfaite."
+    ],
+    [
+      "— Jean serait content. Il disait toujours que les carnets, c'est comme la bouillabaisse : on n'en fait jamais pour soi tout seul."
+    ],
+    [
+      "Sur le Vieux-Port, les premières lumières s'allumaient. Léa a sorti un carnet neuf de sa poche et, sur la première page, elle a écrit une seule phrase : « Ce carnet appartient à Léa Moreau, Marseillaise. »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "gravés",
+      "en": "engraved"
+    },
+    {
+      "fr": "tirés des",
+      "en": "taken from the"
+    },
+    {
+      "fr": "des descendants",
+      "en": "descendants"
+    },
+    {
+      "fr": "elle n'a plus bougé",
+      "en": "she stayed perfectly still"
+    },
+    {
+      "fr": "recueillis",
+      "en": "collected"
+    },
+    {
+      "fr": "Je l'ignore",
+      "en": "I don't know"
+    },
+    {
+      "fr": "haussé les épaules",
+      "en": "shrugged"
+    },
+    {
+      "fr": "faire beaucoup d'histoires",
+      "en": "to make a fuss",
+      "match": [
+        "faisions beaucoup d'histoires"
+      ]
+    },
+    {
+      "fr": "l'essentiel",
+      "en": "what matters most"
+    },
+    {
+      "fr": "une affaire de voisins",
+      "en": "a matter for neighbours"
+    },
+    {
+      "fr": "se transmet",
+      "en": "is passed on"
+    },
+    {
+      "fr": "Je dédie",
+      "en": "I dedicate"
+    },
+    {
+      "fr": "rédacteur en chef adjoint",
+      "en": "deputy editor"
+    },
+    {
+      "fr": "en surveillant",
+      "en": "while keeping an eye on"
+    }
+  ],
+  "spotlight": [
+    "**B2 in a single preface:** an unreal past (*Si l'on m'avait dit alors que j'écrirais… j'aurais ri*), the future in the past (*que j'écrirais un jour*), inversion with a conditional past (*Sans doute aurait-il haussé les épaules*), concession (*Il n'en reste pas moins qu'il avait raison*), emphasis (*Ce que j'ai appris, c'est que…*), and a closing wish in the subjunctive (*Que cette ville vous adopte*).",
+    "**Style:** notice the rhythm of the lists (*Les noms, les visages, les mots d'une ville, les chansons d'un bar*), the three-part *à une porte… à une question… à une tarte aux abricots*, and the final echo of Jean's first page in Léa's own notebook. A good text, like a good photo, often ends by looking back at where it began."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Que s'est-il passé lors de l'inauguration du mur du souvenir ?",
+      "answer": "Des centaines de personnes sont venues, dont des descendants ; une femme a retrouvé le nom de sa grand-mère",
+      "options": [
+        "Des centaines de personnes sont venues, dont des descendants ; une femme a retrouvé le nom de sa grand-mère",
+        "Personne n'est venu à cause du mistral",
+        "Le maire a annulé la cérémonie",
+        "Léa a pris des centaines de photos"
+      ],
+      "evidence": "Une femme d'environ soixante-dix ans a cherché longtemps un nom sur le mur, puis elle a posé la main dessus et elle n'a plus bougé."
+    },
+    {
+      "id": "q2",
+      "prompt": "Selon Léa, qu'est-ce que la mémoire, et comment se transmet-elle ?",
+      "answer": "Une affaire de voisins, qui se transmet à condition que quelqu'un écoute",
+      "options": [
+        "Une affaire de voisins, qui se transmet à condition que quelqu'un écoute",
+        "Une affaire de musées et d'archives",
+        "Un devoir réservé aux historiens",
+        "Une chose qu'on ne peut pas transmettre"
+      ],
+      "evidence": "Ce que j'ai appris en lisant Jean, c'est que la mémoire n'est pas une affaire de musées. C'est une affaire de voisins."
+    },
+    {
+      "id": "q3",
+      "prompt": "Quel nouveau projet Léa annonce-t-elle, et que signifie la phrase qu'elle écrit dans son carnet ?",
+      "answer": "Un livre sur les gens qui arrivent aujourd'hui ; elle reprend le geste de Jean et se déclare marseillaise",
+      "options": [
+        "Un livre sur les gens qui arrivent aujourd'hui ; elle reprend le geste de Jean et se déclare marseillaise",
+        "Un roman policier ; elle veut devenir célèbre",
+        "Un guide touristique ; elle quitte Marseille",
+        "Rien : elle arrête d'écrire"
+      ],
+      "evidence": "J'ai pensé à un autre livre. Sur les gens qui arrivent. Ceux d'aujourd'hui."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez la préface (7–8 phrases) d'un livre imaginaire sur votre propre histoire, en utilisant au moins cinq structures de B2 (conditionnel passé, subjonctif, inversion, mise en relief, futur dans le passé, connecteurs…).",
+    "model": "Si l'on m'avait dit il y a dix ans que j'apprendrais le français, j'aurais ri. Sans doute aurais-je abandonné sans mes amis. Ce que j'ai appris, c'est que la patience paie. Je savais qu'un jour je lirais un roman en français. Il n'en reste pas moins que le chemin a été long. Qu'il donne envie aux lecteurs d'apprendre une langue !",
+    "targets": [
+      {
+        "label": "conditionnel passé",
+        "pattern": "\\b(aurais|aurait|aurions|auriez|auraient|serais|serait|serions|seriez|seraient)\\s+(pas\\s+|jamais\\s+|peut-être\\s+)?[a-zà-ÿ]+(é|ée|és|ées|i|ie|is|ies|it|u|ue|us|ues|ert|ort|eint|dû|pu|su|eu|fallu|voulu|aimé)\\b",
+        "min": 1
+      },
+      {
+        "label": "subjunctive (incl. Que + wish)",
+        "pattern": "\\bqu(e|')\\s*(je|j'|tu|il|elle|on|nous|vous|ils|elles)\\s*[a-zà-ÿ]+(e|es|ent|ions|iez)\\b|\\b(sois|soit|soyons|soyez|soient|aie|aies|ait|ayons|ayez|fasse|fasses|fassions|fassiez|fassent|aille|ailles|aillent|puisse|puisses|puissions|puissiez|puissent|sache|saches|sachent|veuille|veuillent|vienne|viennes|viennent|prenne|prennes|prennent)\\b",
+        "min": 1
+      },
+      {
+        "label": "inversion / emphasis / connector (Sans doute aurais-je…, Ce que… c'est…, il n'en reste pas moins…)",
+        "pattern": "(sans doute|peut-être|aussi|à peine)\\s+[a-zà-ÿ]+-(t-)?(je|tu|il|elle|on|nous|vous|ils|elles)\\b|ce qu(e|i|')[^.!?]*,\\s*c'est|il n'en reste pas moins|force est de constater|toutefois|en définitive",
+        "min": 2
+      }
+    ]
+  }
+}

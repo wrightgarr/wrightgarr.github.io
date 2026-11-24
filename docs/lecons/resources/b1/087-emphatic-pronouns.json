@@ -1,0 +1,59 @@
+{
+ "id": "s87",
+ "subject": 87,
+ "level": "B1",
+ "title": "Emphatic Pronouns (moi, toi, lui, elle, nous, vous, eux, elles)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Emphatic</strong> (or stressed / disjunctive) pronouns are used for emphasis and after prepositions.</p>\n<table>\n<thead>\n<tr>\n<th>Subject</th>\n<th>Emphatic</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td><strong>moi</strong></td>\n</tr>\n<tr>\n<td>tu</td>\n<td><strong>toi</strong></td>\n</tr>\n<tr>\n<td>il</td>\n<td><strong>lui</strong></td>\n</tr>\n<tr>\n<td>elle</td>\n<td><strong>elle</strong></td>\n</tr>\n<tr>\n<td>on</td>\n<td><strong>soi</strong> (general) / <strong>nous</strong></td>\n</tr>\n<tr>\n<td>nous</td>\n<td><strong>nous</strong></td>\n</tr>\n<tr>\n<td>vous</td>\n<td><strong>vous</strong></td>\n</tr>\n<tr>\n<td>ils</td>\n<td><strong>eux</strong></td>\n</tr>\n<tr>\n<td>elles</td>\n<td><strong>elles</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Uses",
+   "html": "<ol>\n<li><strong>Emphasis</strong> (before or after the subject): <strong><em>Moi</em><em>, je préfère le thé.</em> / *Il est fou, </strong>lui*<em> !</em></li>\n<li><strong>After prepositions:</strong> <em>avec </em><em>moi</em><em>, pour </em><em>toi</em><em>, chez </em><em>lui</em><em>, sans </em><em>elle</em><em>, devant </em><em>nous</em><em>, à côté de </em><em>vous</em><em>, derrière </em><em>eux</em>**.</li>\n<li><strong>After c'est / ce sont:</strong> <em>C'est </em><em>moi</em><em>.</em> / <em>C'est </em><em>lui</em><em> qui a gagné.</em> / <em>Ce sont </em><em>eux</em><em>.</em> (<em>C'est nous / c'est vous</em>)</li>\n<li><strong>Short answers / no verb:</strong> <em>Qui veut du gâteau ? — </em><em>Moi</em><em> !</em> / <strong><em>Moi</em>* aussi. / </strong>Toi*<em> non plus.</em></li>\n<li><strong>Compound subjects:</strong> <strong><em>Paul et moi</em><em>, nous allons au cinéma.</em> / </strong><em>Toi et ta sœur</em><em>, vous êtes invités.</em></li>\n<li><strong>After comparisons (que):</strong> <em>Il est plus grand que </em><em>moi</em><em>.</em></li>\n<li><strong>After ne… que:</strong> <em>Je n'aime que </em><em>toi</em><em>.</em></li>\n<li><strong>Imperative</strong> (affirmative): <em>Regarde-</em><em>moi</em><em> !</em> / <em>Donne-</em><em>moi</em><em> ça !</em></li>\n<li><strong>Possession with être à:</strong> <em>Ce livre est à </em><em>moi</em><em>.</em></li>\n<li><strong>With certain verbs + à</strong> where a COI pronoun isn't allowed: <em>penser à </em><em>lui</em><strong>, <em>faire attention à **eux</em></strong>, <em>s'intéresser à </em><em>elle</em><strong>, <em>tenir à **toi</em></strong> (care about you).</li>\n<li><strong>With même</strong> (Subject 88): <em>moi-même</em>.</li>\n</ol>"
+  },
+  {
+   "heading": "Soi",
+   "html": "<p>Used with indefinite subjects (<em>on, chacun, tout le monde, personne</em>):\n- <em>On est bien </em><em>chez soi</em><em>.</em> — There's no place like home.\n- <em>Chacun pour </em><em>soi</em><em>.</em> — Every man for himself.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "___, je m'appelle Garrick. Et ___, tu t'appelles comment ?",
+   "instruction": "Fill in with an emphatic pronoun:",
+   "answer": "Moi ; toi",
+   "id": "e1"
+  },
+  {
+   "prompt": "Je vais au cinéma avec Marie. Je vais au cinéma avec ___.",
+   "answer": "elle",
+   "id": "e2"
+  },
+  {
+   "prompt": "C'est ___ qui avez raison.",
+   "answer": "vous",
+   "id": "e3"
+  },
+  {
+   "prompt": "Ces enfants ? Je pense souvent à ___.",
+   "answer": "eux",
+   "id": "e4"
+  },
+  {
+   "prompt": "Mon frère et ___, nous sommes jumeaux.",
+   "answer": "moi",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"Is that for me? — Yes, it's for you.\"",
+   "answer": "*C'est pour moi ? — Oui, c'est pour toi.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"She is taller than him.\"",
+   "answer": "*Elle est plus grande que lui.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

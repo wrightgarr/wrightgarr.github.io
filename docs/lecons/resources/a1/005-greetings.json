@@ -1,0 +1,68 @@
+{
+ "id": "s5",
+ "subject": 5,
+ "level": "A1",
+ "title": "Greetings",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Greetings in French depend on <strong>time of day</strong> and <strong>formality</strong>. France and Québec both value politeness: always greet someone (in a shop, an elevator, an office) before asking anything.</p>"
+  },
+  {
+   "heading": "Saying hello",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>Meaning</th>\n<th>When to use</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Bonjour</strong></td>\n<td>Hello / Good morning / Good day</td>\n<td>Default, any time until evening, formal or informal</td>\n</tr>\n<tr>\n<td><strong>Bonsoir</strong></td>\n<td>Good evening</td>\n<td>From about 6 pm</td>\n</tr>\n<tr>\n<td><strong>Salut</strong></td>\n<td>Hi / Bye</td>\n<td>Informal: friends, family, people your age</td>\n</tr>\n<tr>\n<td><strong>Coucou</strong></td>\n<td>Hey there</td>\n<td>Very informal, friends/family, texts</td>\n</tr>\n<tr>\n<td><strong>Allô</strong></td>\n<td>Hello</td>\n<td>On the phone (in Québec also used informally in person)</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Saying goodbye",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Au revoir</strong></td>\n<td>Goodbye (neutral, polite)</td>\n</tr>\n<tr>\n<td><strong>À bientôt</strong></td>\n<td>See you soon</td>\n</tr>\n<tr>\n<td><strong>À plus tard</strong> / <strong>À plus</strong> / <strong>À+</strong></td>\n<td>See you later (informal)</td>\n</tr>\n<tr>\n<td><strong>À demain</strong></td>\n<td>See you tomorrow</td>\n</tr>\n<tr>\n<td><strong>À tout à l'heure</strong></td>\n<td>See you later today</td>\n</tr>\n<tr>\n<td><strong>Bonne journée</strong></td>\n<td>Have a good day</td>\n</tr>\n<tr>\n<td><strong>Bonne soirée</strong></td>\n<td>Have a good evening</td>\n</tr>\n<tr>\n<td><strong>Bonne nuit</strong></td>\n<td>Good night (going to bed)</td>\n</tr>\n<tr>\n<td><strong>Salut</strong></td>\n<td>Bye (informal)</td>\n</tr>\n<tr>\n<td><strong>Bonne fin de semaine</strong> (Québec) / <strong>Bon week-end</strong> (France)</td>\n<td>Have a good weekend</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Asking how someone is",
+   "html": "<table>\n<thead>\n<tr>\n<th>Formal</th>\n<th>Informal</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Comment allez-vous ?</em></td>\n<td><em>Comment vas-tu ?</em> / <em>Comment ça va ?</em> / <em>Ça va ?</em></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Answers:</strong>\n- <em>Très bien, merci. Et vous ?</em> — Very well, thank you. And you?\n- <em>Ça va bien.</em> — It's going well.\n- <em>Pas mal.</em> — Not bad.\n- <em>Comme ci, comme ça.</em> — So-so.\n- <em>Pas très bien.</em> — Not very well.</p>"
+  },
+  {
+   "heading": "Tu or vous?",
+   "html": "<ul>\n<li><strong>tu</strong> — one person you know well: friend, family member, child, classmate.</li>\n<li><strong>vous</strong> — someone you don't know, someone older, a professional situation, or <strong>more than one person</strong> (always).</li>\n<li>When unsure, use <strong>vous</strong>. The other person may say <em>On peut se tutoyer</em> (\"We can use tu\").</li>\n<li>In Québec, <em>tu</em> is used much more readily than in France.</li>\n</ul>"
+  },
+  {
+   "heading": "Polite expressions",
+   "html": "<ul>\n<li><em>S'il vous plaît</em> (formal) / <em>S'il te plaît</em> (informal) — Please</li>\n<li><em>Merci (beaucoup)</em> — Thank you (very much)</li>\n<li><em>De rien</em> / <em>Je vous en prie</em> (formal) / <em>Bienvenue</em> (Québec) — You're welcome</li>\n<li><em>Excusez-moi</em> / <em>Pardon</em> — Excuse me</li>\n<li><em>Enchanté(e)</em> — Nice to meet you</li>\n</ul>"
+  },
+  {
+   "heading": "Physical greetings",
+   "html": "<ul>\n<li><strong>La bise</strong> (kisses on the cheeks) among friends and family in France: usually 2 kisses, varies by region. In Québec, often 2 kisses among friends; handshakes are standard in professional settings.</li>\n<li><strong>Une poignée de main</strong> (handshake) for formal and first meetings.</li>\n</ul>"
+  },
+  {
+   "heading": "Example dialogue",
+   "html": "<blockquote>\n<p>— <strong>Bonjour madame, comment allez-vous ?</strong>\n— <strong>Très bien, merci. Et vous ?</strong>\n— <strong>Bien, merci.</strong> …\n— <strong>Au revoir, bonne journée !</strong>\n— <strong>Merci, vous aussi !</strong></p>\n</blockquote>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "It is 8 pm. You enter a restaurant. What do you say?",
+   "answer": "*Bonsoir.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Formal or informal? (a) *Salut* (b) *Comment allez-vous ?* (c) *Coucou* (d) *Je vous en prie*.",
+   "answer": "(a) informal (b) formal (c) informal (d) formal",
+   "id": "e2"
+  },
+  {
+   "prompt": "You will see your colleague again this afternoon. How do you say goodbye?",
+   "answer": "*À tout à l'heure.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"Hi, how are you? — Not bad, and you?\" (informal)",
+   "answer": "*Salut, ça va ? — Pas mal, et toi ?*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Tu or vous? (a) your boss (b) your sister (c) two friends together (d) a shopkeeper.",
+   "answer": "(a) vous (b) tu (c) vous (plural) (d) vous",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

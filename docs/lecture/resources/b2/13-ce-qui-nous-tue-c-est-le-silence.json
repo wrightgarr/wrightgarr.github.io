@@ -1,0 +1,182 @@
+{
+  "id": "b2-13",
+  "level": "B2",
+  "number": 13,
+  "title": "Ce qui nous tue, c'est le silence",
+  "grammar": "advanced emphasis and dislocation",
+  "theme": "press freedom",
+  "wordCount": 503,
+  "primer": [
+    "**Ce que…, c'est…**: what… is…",
+    "**Ce dont… / ce à quoi…**: what… (with verbs taking *de* / *à*)",
+    "**C'est… que / c'est… qui**: it's… that / who",
+    "**Celles qui…, ce sont…**: those who… are…",
+    "**dislocation**: *Ce que nous avons publié, nous le maintenons.*",
+    "**la liberté de la presse**: press freedom"
+  ],
+  "passage": [
+    [
+      "En avril, Le Mistral a reçu sa première « procédure-bâillon ». Après l'article de Karim sur le Panier, la société d'investissement qui avait racheté l'immeuble de Josette a porté plainte pour diffamation et réclamé trois cent mille euros de dommages et intérêts. Une somme qui, si elle était accordée, ferait disparaître le magazine."
+    ],
+    [
+      "— Ils ne veulent pas gagner, a expliqué l'avocate du Mistral. Ils veulent vous épuiser. Un procès dure deux ans, coûte une fortune, et pendant ce temps, vous n'osez plus écrire."
+    ],
+    [
+      "Nadia a écouté sans rien dire. Ce soir-là, elle est restée seule à la rédaction jusqu'à minuit, relisant chaque ligne de l'article de Karim, chaque document, chaque témoignage. Elle n'y a pas trouvé une seule erreur. Le lendemain, elle a écrit l'éditorial du numéro de mai."
+    ],
+    [
+      "« Ce qui nous tue, c'est le silence"
+    ],
+    [
+      "Ce que nous avons publié en janvier, nous le maintenons. Chaque chiffre a été vérifié, chaque témoin a été entendu, chaque document est entre les mains de notre avocate. Ce n'est pas une erreur qu'on nous reproche ; c'est d'avoir posé des questions."
+    ],
+    [
+      "Car c'est bien de cela qu'il s'agit. Une société puissante attaque un petit magazine coopératif, non parce qu'il a menti, mais parce qu'il a dit tout haut ce que beaucoup savaient tout bas. Ce qu'elle espère, ce n'est pas une condamnation. C'est notre peur."
+    ],
+    [
+      "Ces procédures ont un nom : on les appelle des « procédures-bâillons ». Leur but n'est pas d'obtenir justice, mais de faire taire. Elles se multiplient partout en Europe. Et celles qui en souffrent le plus, ce ne sont pas les grandes rédactions, qui ont des services juridiques. Ce sont les petits titres, les journalistes indépendants, les lanceurs d'alerte."
+    ],
+    [
+      "Ce dont un quartier a besoin pour vivre, c'est de boulangeries, d'écoles, de voisins. Ce dont une démocratie a besoin, c'est d'une presse qui ose. Le jour où les journaux n'enquêteront plus que sur ce qui ne dérange personne, ce jour-là, il n'y aura plus de journaux. Il y aura des brochures."
+    ],
+    [
+      "Nous ne retirerons pas l'article. Nous ne baisserons pas la voix. Et ce à quoi nous nous engageons aujourd'hui, devant vous, nos lecteurs et nos copropriétaires, c'est de continuer. Ce qui nous tue, ce n'est pas un procès. C'est le silence. »"
+    ],
+    [
+      "L'éditorial a été repris par plusieurs journaux nationaux. Une pétition de soutien a recueilli quarante mille signatures en dix jours. Des journalistes de Paris, de Bruxelles et de Montréal ont envoyé des messages. Au Panier, des affiches sont apparues sur les murs : « Le Mistral, ça se défend. » Même Fabien Rocher, l'ancien journaliste de La Gazette du Sud, a signé la pétition, ce qui a beaucoup fait rire la rédaction."
+    ],
+    [
+      "Madame Ferrand, elle, a fait ce qu'elle faisait toujours en cas de crise : elle est descendue à la rédaction avec un gâteau."
+    ],
+    [
+      "— Jean avait raison, a-t-elle dit à Nadia. Il a écrit dans un de ses carnets : « Ceux qui ont peur des mots, ce sont ceux qui ont quelque chose à cacher. »",
+      "— Il a vraiment écrit ça ?",
+      "— Non. Mais il aurait pu. Mange ton gâteau."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "une procédure-bâillon",
+      "en": "a gagging lawsuit (SLAPP)"
+    },
+    {
+      "fr": "a porté plainte pour diffamation",
+      "en": "sued for defamation"
+    },
+    {
+      "fr": "des dommages et intérêts",
+      "en": "damages"
+    },
+    {
+      "fr": "accordée",
+      "en": "awarded"
+    },
+    {
+      "fr": "épuiser",
+      "en": "to wear down"
+    },
+    {
+      "fr": "nous le maintenons",
+      "en": "we stand by it"
+    },
+    {
+      "fr": "tout haut… tout bas",
+      "en": "out loud… in whispers",
+      "match": [
+        "tout haut",
+        "tout bas"
+      ]
+    },
+    {
+      "fr": "faire taire",
+      "en": "to silence"
+    },
+    {
+      "fr": "des services juridiques",
+      "en": "legal departments"
+    },
+    {
+      "fr": "les lanceurs d'alerte",
+      "en": "whistleblowers"
+    },
+    {
+      "fr": "nous nous engageons",
+      "en": "we commit ourselves"
+    },
+    {
+      "fr": "repris",
+      "en": "picked up"
+    },
+    {
+      "fr": "a recueilli",
+      "en": "collected"
+    },
+    {
+      "fr": "ça se défend",
+      "en": "is worth defending"
+    }
+  ],
+  "spotlight": [
+    "**Saving the key idea for the end:** *Ce qu'elle espère, ce n'est pas une condamnation. C'est notre peur. Ce dont une démocratie a besoin, c'est d'une presse qui ose.* Use *ce à quoi* with verbs that take *à* (*s'engager à → ce à quoi nous nous engageons*) and *ce dont* with verbs that take *de*.",
+    "**Putting the key idea first (dislocation):** *Ce que nous avons publié en janvier, nous le maintenons.* The element moves to the front and is picked up again by a pronoun (*le*). Combined with *celles qui… ce sont…* and *c'est bien de cela qu'il s'agit*, this lets the editorial control exactly where the reader's attention falls."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Qu'est-ce qu'une « procédure-bâillon », selon l'avocate et selon Nadia ?",
+      "answer": "Une plainte qui vise à épuiser et faire taire un média, plus qu'à gagner",
+      "options": [
+        "Une plainte qui vise à épuiser et faire taire un média, plus qu'à gagner",
+        "Un procès gagné d'avance par le journal",
+        "Une amende pour une faute d'orthographe",
+        "Une enquête de la police sur le magazine"
+      ],
+      "evidence": "Ils ne veulent pas gagner, a expliqué l'avocate du Mistral. Ils veulent vous épuiser."
+    },
+    {
+      "id": "q2",
+      "prompt": "Qui souffre le plus de ces procédures, d'après l'éditorial ?",
+      "answer": "Les petits titres, les journalistes indépendants et les lanceurs d'alerte",
+      "options": [
+        "Les petits titres, les journalistes indépendants et les lanceurs d'alerte",
+        "Les grandes rédactions",
+        "Les lecteurs âgés",
+        "Les sociétés d'investissement"
+      ],
+      "evidence": "Ce sont les petits titres, les journalistes indépendants, les lanceurs d'alerte."
+    },
+    {
+      "id": "q3",
+      "prompt": "Comment le public a-t-il réagi ?",
+      "answer": "Une pétition de 40 000 signatures, des soutiens internationaux et des affiches dans le Panier",
+      "options": [
+        "Une pétition de 40 000 signatures, des soutiens internationaux et des affiches dans le Panier",
+        "Indifférence totale",
+        "Le magazine a fermé",
+        "Les lecteurs ont résilié leurs abonnements"
+      ],
+      "evidence": "Une pétition de soutien a recueilli quarante mille signatures en dix jours."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez un court paragraphe engagé (4–5 phrases) sur une cause qui vous tient à cœur, avec *ce qui…, c'est…*, *ce dont…, c'est…* et une dislocation (*Cette idée, je la défends…*).",
+    "model": "Ce qui me révolte, c'est le gaspillage alimentaire. Ce dont nous avons besoin, c'est d'une vraie politique contre le gaspillage. Cette idée, je la défends depuis des années. Ce sont les supermarchés qui doivent agir en premier.",
+    "targets": [
+      {
+        "label": "ce qui… c'est / ce que… c'est",
+        "pattern": "ce qu(i|e|')[^.!?]*,\\s*c'est",
+        "min": 1
+      },
+      {
+        "label": "ce dont… c'est / ce à quoi…",
+        "pattern": "ce dont|ce à quoi|ce sur quoi",
+        "min": 1
+      },
+      {
+        "label": "dislocation (noun/idea + pronoun: Cette idée, je la…)",
+        "pattern": "^[^,.!?]{3,40},\\s*(je|tu|il|elle|on|nous|vous|ils|elles)\\s+(ne\\s+|n')?(le|la|les|l'|en|y)\\b|\\.\\s*[^,.!?]{3,40},\\s*(je|tu|il|elle|on|nous|vous|ils|elles)\\s+(ne\\s+|n')?(le|la|les|l'|en|y)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

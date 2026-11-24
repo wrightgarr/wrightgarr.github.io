@@ -1,0 +1,116 @@
+{
+  "id": "a1-27",
+  "level": "A1",
+  "number": 27,
+  "title": "Chez moi, chez toi",
+  "grammar": "stressed pronouns, *chez*",
+  "theme": "a night in",
+  "wordCount": 103,
+  "primer": [
+    "**moi, toi, lui, elle**: me, you, him, her",
+    "**nous, vous, eux, elles**: us, you, them (m.), them (f.)",
+    "**chez + person**: at / to someone's place (*chez moi, chez Hugo*)",
+    "**rentrer**: to go home",
+    "**Pourquoi ? / Parce que…**: Why? / Because…",
+    "**D'accord**: OK",
+    "**des règles**: rules"
+  ],
+  "passage": [
+    [
+      "Le soir, Marco ne veut pas rentrer chez lui. Son appartement est petit et froid."
+    ],
+    [
+      "— On va chez toi, Léa ?",
+      "— Pourquoi chez moi ? Toujours chez moi !",
+      "— Parce que chez toi, il y a Minou, du thé et un canapé confortable.",
+      "— Et chez Amina ?",
+      "— Chez elle, il y a un piano, mais pas de canapé !",
+      "— Et chez Hugo ?",
+      "— Chez lui, il y a de la bonne cuisine… mais il habite loin."
+    ],
+    [
+      "Léa rit."
+    ],
+    [
+      "— D'accord. Mais toi, tu apportes le dessert. Et après, tu rentres chez toi !"
+    ],
+    [
+      "Ce soir, Marco, Léa et Minou regardent un film. Minou dort sur Marco. Lui, il ne bouge pas."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "froid",
+      "en": "cold"
+    },
+    {
+      "fr": "du thé",
+      "en": "tea"
+    },
+    {
+      "fr": "de la bonne cuisine",
+      "en": "good food"
+    },
+    {
+      "fr": "le dessert",
+      "en": "dessert"
+    },
+    {
+      "fr": "ne bouge pas",
+      "en": "doesn't move"
+    }
+  ],
+  "spotlight": [
+    "**Stressed pronouns** go after prepositions (*chez moi, avec toi*) and add emphasis (*Mais toi, tu apportes le dessert. Lui, il ne bouge pas.*).",
+    "**Chez** means \"at the home of\": *chez Léa, chez lui, chez le médecin*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why doesn't Marco want to go home?",
+      "answer": "His apartment is small and cold",
+      "options": [
+        "His apartment is small and cold",
+        "He has lost his keys",
+        "It's too far away",
+        "His neighbours are noisy"
+      ],
+      "evidence": "Son appartement est petit et froid."
+    },
+    {
+      "id": "q2",
+      "prompt": "What's the problem with Amina's place and Hugo's place?",
+      "answer": "Amina has no sofa, and Hugo lives far away",
+      "options": [
+        "Amina has no sofa, and Hugo lives far away",
+        "Amina's is too small, and Hugo has no food",
+        "Amina's is noisy, and Hugo has a cat",
+        "Amina is away, and Hugo is working"
+      ],
+      "evidence": "Chez elle, il y a un piano, mais pas de canapé ! … mais il habite loin."
+    },
+    {
+      "id": "q3",
+      "prompt": "What are Léa's two conditions?",
+      "answer": "Marco brings dessert and goes home afterwards",
+      "options": [
+        "Marco brings dessert and goes home afterwards",
+        "Marco cooks dinner and cleans up",
+        "Marco brings wine and feeds Minou",
+        "Marco pays for the film and stays the night"
+      ],
+      "evidence": "Mais toi, tu apportes le dessert. Et après, tu rentres chez toi !"
+    }
+  ],
+  "writing": {
+    "prompt": "Write two sentences with *chez* + a stressed pronoun.",
+    "model": "Ce soir, je reste chez moi. Demain, je vais chez elle pour dîner.",
+    "targets": [
+      {
+        "label": "chez + stressed pronoun (×2)",
+        "pattern": "chez (moi|toi|lui|elle|nous|vous|eux|elles)\\b",
+        "min": 2
+      }
+    ]
+  }
+}

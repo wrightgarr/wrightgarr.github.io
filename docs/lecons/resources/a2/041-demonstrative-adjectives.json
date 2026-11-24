@@ -1,0 +1,49 @@
+{
+ "id": "s41",
+ "subject": 41,
+ "level": "A2",
+ "title": "Demonstrative Adjectives",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Demonstrative adjectives point to something: this, that, these, those.</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>Singular</th>\n<th>Plural</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Masculine</td>\n<td><strong>ce</strong> livre</td>\n<td><strong>ces</strong> livres</td>\n</tr>\n<tr>\n<td>Masculine before vowel / mute h</td>\n<td><strong>cet</strong> ami, <strong>cet</strong> hôtel</td>\n<td><strong>ces</strong> amis</td>\n</tr>\n<tr>\n<td>Feminine</td>\n<td><strong>cette</strong> maison</td>\n<td><strong>ces</strong> maisons</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Ce</em> = this <strong>or</strong> that. French doesn't normally distinguish.</li>\n<li><strong>Cet</strong> is only for masculine nouns starting with a vowel or mute h: <em>cet homme</em>, <em>cet arbre</em>, <em>cet été</em>. (<em>Cet</em> and <em>cette</em> sound the same.)</li>\n<li>An adjective between can change the form: <em>cet </em><em>ami</em><strong> but <em>ce <strong>bon</strong> ami<em>; </em>ce **héros</em></strong> (aspirated h → ce).</li>\n</ul>"
+  },
+  {
+   "heading": "This vs that: -ci and -là",
+   "html": "<p>To contrast, add <strong>-ci</strong> (here = this) or <strong>-là</strong> (there = that) after the noun:\n- <em>Ce livre-</em><em>ci</em><em> ou ce livre-</em><em>là</em><em> ?</em> — This book or that book?\n- <em>Je préfère cette robe-</em><em>là</em><em>.</em> — I prefer that dress.</p>\n<p>In speech, <strong>-là</strong> is often added with no contrast: <em>Ce gars-là est bizarre.</em></p>"
+  },
+  {
+   "heading": "Time expressions",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ce matin</td>\n<td>this morning</td>\n</tr>\n<tr>\n<td>cet après-midi</td>\n<td>this afternoon</td>\n</tr>\n<tr>\n<td>ce soir</td>\n<td>tonight / this evening</td>\n</tr>\n<tr>\n<td>cette semaine</td>\n<td>this week</td>\n</tr>\n<tr>\n<td>cette année</td>\n<td>this year</td>\n</tr>\n<tr>\n<td>ce jour-là</td>\n<td>that day</td>\n</tr>\n<tr>\n<td>à ce moment-là</td>\n<td>at that moment</td>\n</tr>\n<tr>\n<td>cette fois</td>\n<td>this time</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "___ voiture, ___ arbre, ___ enfants, ___ garçon, ___ hôtel, ___ fleurs.",
+   "instruction": "Add *ce, cet, cette, ces*:",
+   "answer": "cette voiture, cet arbre, ces enfants, ce garçon, cet hôtel, ces fleurs.",
+   "id": "e1"
+  },
+  {
+   "prompt": "___ homme, ___ beau homme. (Hint: beau before a vowel…)",
+   "answer": "*cet homme*, *ce bel homme*.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"I don't like this hat, I prefer that one.\" (hat = le chapeau)",
+   "answer": "*Je n'aime pas ce chapeau-ci, je préfère ce chapeau-là.* (or *…je préfère celui-là* — see Subject 42)",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"This year, I'm going to Paris.\"",
+   "answer": "*Cette année, je vais à Paris.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"That day, it was raining.\"",
+   "answer": "*Ce jour-là, il pleuvait.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

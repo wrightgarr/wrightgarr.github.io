@@ -1,0 +1,178 @@
+{
+  "id": "b2-11",
+  "level": "B2",
+  "number": 11,
+  "title": "Palerme à l'aube",
+  "grammar": "present participle and participle clauses",
+  "theme": "a reportage in Sicily",
+  "wordCount": 509,
+  "primer": [
+    "**le participe présent (-ant)**: *marchant, voyant, étant* (= *qui marche, qui voit…*)",
+    "**written style**: replaces *qui* + verb, or *comme / parce que* + verb",
+    "**participe passé composé**: *ayant goûté, étant arrivé* (having tasted, having arrived)",
+    "**proposition participiale**: *Le marché terminé, …* (Once the market is over, …)",
+    "**gérondif vs. participe**: *en marchant* (while walking, same subject) vs. *marchant* (written description)",
+    "**un étal**: a market stall"
+  ],
+  "passage": [
+    [
+      "En mars, Horizons a envoyé Léa à Palerme pour la deuxième partie de son reportage sicilien. Elle y a passé dix jours, logeant chez une vieille dame du quartier de la Kalsa que Madame Ferrand, évidemment, connaissait par une cousine. Voici le texte qu'elle a envoyé à Claire Dumas."
+    ],
+    [
+      "« Le soleil se levant à peine sur le port, les premiers camions arrivent au marché de Ballarò. Les vendeurs, ayant installé leurs étals dans la nuit, crient déjà leurs prix, s'interpellant d'un bout à l'autre de la rue dans un dialecte que je ne comprends pas. L'odeur des oranges se mêle à celle du poisson frais et du pain chaud."
+    ],
+    [
+      "Marchant entre les étals, je pense à Marseille. Même lumière, même bruit, même façon de vivre dans la rue. Les Palermitains, comme les Marseillais, parlent avec les mains, rient fort, se disputent pour le plaisir. Une vieille femme, me voyant photographier ses artichauts, me fait signe d'approcher et me tend un morceau de panelle encore brûlant. La panisse, ici, s'appelle panelle. Ayant goûté les deux, je refuse de choisir."
+    ],
+    [
+      "Le marché terminé, vers midi, la ville s'endort. Les volets se ferment, les rues se vident. Seuls les chats, impassibles, restent couchés à l'ombre des églises baroques. C'est l'heure où Palerme montre son autre visage : celui d'une ville blessée, aux palais éventrés par les bombardements de 1943, que personne n'a jamais complètement reconstruits. Certains sont restés tels quels pendant des décennies, les fenêtres ouvertes sur le ciel."
+    ],
+    [
+      "Je pense alors au quartier Saint-Jean, détruit la même année, de l'autre côté de la Méditerranée. Les deux villes, ne se connaissant pas, portent les mêmes cicatrices."
+    ],
+    [
+      "Le soir, les rues se remplissent à nouveau. Les familles sortent, les enfants jouent au football entre les voitures, les jeunes s'assoient sur les marches des églises. Une fanfare passe, jouant un air que j'ai l'impression de connaître. Je la suis jusqu'à la mer."
+    ],
+    [
+      "Assise sur le quai, regardant les bateaux partir vers Naples, je comprends enfin pourquoi Jean Ferrand notait dans ses carnets le nom de chaque navire venant d'Italie. Ces ports ne sont pas des frontières. Ce sont des portes. »"
+    ],
+    [
+      "Claire Dumas a répondu le lendemain, comme d'habitude : « Texte magnifique. Photos encore meilleures. Une seule remarque : vous écrivez de plus en plus comme votre docker. »"
+    ],
+    [
+      "Léa a lu le message trois fois. Elle l'a pris pour le plus beau des compliments."
+    ],
+    [
+      "Elle a passé le reste de l'après-midi à se promener dans la Kalsa, sans appareil, simplement pour regarder. C'était une habitude qu'elle avait prise depuis qu'elle lisait les carnets : laisser parfois l'œil se reposer, pour mieux voir ensuite."
+    ],
+    [
+      "Le soir, de retour dans la Kalsa, elle a raconté sa journée à sa logeuse, la signora Lo Bianco, qui l'écoutait en préparant des arancini."
+    ],
+    [
+      "— Vous savez, a dit la vieille dame dans un français parfait, mon père a travaillé à Marseille au début des années soixante. Sur le port. Il parlait toujours d'un jeune docker qui lisait pendant les pauses."
+    ],
+    [
+      "Léa a posé sa fourchette."
+    ],
+    [
+      "— Il s'appelait comment, votre père ?",
+      "— Salvatore. Salvatore Lo Bianco. Pourquoi ?"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "logeant",
+      "en": "staying"
+    },
+    {
+      "fr": "la Kalsa",
+      "en": "an old quarter of Palermo"
+    },
+    {
+      "fr": "à peine",
+      "en": "barely"
+    },
+    {
+      "fr": "s'interpellant",
+      "en": "calling out to each other"
+    },
+    {
+      "fr": "se mêle à",
+      "en": "mingles with"
+    },
+    {
+      "fr": "me fait signe d'approcher",
+      "en": "beckons me over"
+    },
+    {
+      "fr": "brûlant",
+      "en": "piping hot"
+    },
+    {
+      "fr": "impassibles",
+      "en": "unmoved"
+    },
+    {
+      "fr": "éventrés",
+      "en": "gutted"
+    },
+    {
+      "fr": "tels quels",
+      "en": "as they were"
+    },
+    {
+      "fr": "des cicatrices",
+      "en": "scars"
+    },
+    {
+      "fr": "une fanfare",
+      "en": "a brass band"
+    },
+    {
+      "fr": "sa logeuse",
+      "en": "her landlady"
+    },
+    {
+      "fr": "des arancini",
+      "en": "Sicilian fried rice balls"
+    }
+  ],
+  "spotlight": [
+    "**The present participle (-ant)** is a written way to describe, explain or link actions: *Les vendeurs, ayant installé leurs étals dans la nuit, crient déjà leurs prix, s'interpellant d'un bout à l'autre de la rue. Une vieille femme, me voyant photographier ses artichauts, me fait signe d'approcher.* It doesn't agree, and it has no *en* in front.",
+    "**Participle clauses** pack a whole sentence into a few words: *Le soleil se levant à peine* (as the sun is barely rising), *Le marché terminé* (once the market is over), *Ayant goûté les deux, je refuse de choisir* (having tasted both). Compare the gérondif, which always has *en* and the same subject as the main verb: *en marchant*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Quelles ressemblances Léa trouve-t-elle entre Palerme et Marseille ?",
+      "answer": "La lumière, le bruit, la vie dans la rue et la façon de parler avec les mains",
+      "options": [
+        "La lumière, le bruit, la vie dans la rue et la façon de parler avec les mains",
+        "Les mêmes monuments romains",
+        "Le même climat froid",
+        "La même langue"
+      ],
+      "evidence": "Marchant entre les étals, je pense à Marseille. Même lumière, même bruit, même façon de vivre dans la rue."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quel lien historique fait-elle entre les deux villes ?",
+      "answer": "Les deux villes ont été blessées en 1943 et en portent encore les cicatrices",
+      "options": [
+        "Les deux villes ont été blessées en 1943 et en portent encore les cicatrices",
+        "Elles ont été fondées par les mêmes Grecs",
+        "Elles ont le même maire",
+        "Elles ont été détruites par un tremblement de terre"
+      ],
+      "evidence": "Les deux villes, ne se connaissant pas, portent les mêmes cicatrices."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi les dernières paroles de la signora Lo Bianco surprennent-elles Léa ?",
+      "answer": "Son père travaillait sur le port de Marseille et parlait d'un jeune docker qui lisait : peut-être Jean",
+      "options": [
+        "Son père travaillait sur le port de Marseille et parlait d'un jeune docker qui lisait : peut-être Jean",
+        "Elle connaît Madame Ferrand depuis l'enfance",
+        "Elle a lu le livre de Jean",
+        "Elle a été photographe à Marseille"
+      ],
+      "evidence": "Il parlait toujours d'un jeune docker qui lisait pendant les pauses."
+    }
+  ],
+  "writing": {
+    "prompt": "Décrivez un lieu au lever du jour en 4–5 phrases, avec au moins deux participes présents et une proposition participiale (*La nuit tombée, …*).",
+    "model": "La nuit tombée, la ville se tait. Le soleil se levant sur le lac, les pêcheurs préparent leurs barques. Une vieille femme, portant un panier de pain, traverse la place. Les cafés, ayant ouvert leurs portes, sentent déjà le croissant.",
+    "targets": [
+      {
+        "label": "present participles (-ant)",
+        "pattern": "\\b(?!(?:avant|pendant|maintenant|cependant|enfant|enfants|vivant|vivants|important|importante|souvent|devant|savant|restaurant|restaurants|élégant|charmant|méchant|instant|instants)\\b)[a-zà-ÿ]+ant\\b",
+        "min": 2
+      },
+      {
+        "label": "participle clause (La nuit tombée, … / Ayant …)",
+        "pattern": "\\bayant\\s+[a-zà-ÿ]+|\\bétant\\s+[a-zà-ÿ]+|^(la|le|les|l')\\s*[a-zà-ÿ]+\\s+[a-zà-ÿ]+(é|ée|és|ées|i|ie|is|u|ue|us|ues)\\s*,",
+        "min": 1
+      }
+    ]
+  }
+}

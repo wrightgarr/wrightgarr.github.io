@@ -1,0 +1,67 @@
+{
+ "id": "s91",
+ "subject": 91,
+ "level": "B2",
+ "title": "Le Conditionnel Passé",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>conditionnel passé</strong> expresses \"would have done\". It's used for unrealized past hypotheses, regrets, reproaches, and unconfirmed past facts.</p>"
+  },
+  {
+   "heading": "Formation: auxiliary in the CONDITIONNEL PRÉSENT + past participle",
+   "html": "<table>\n<thead>\n<tr>\n<th>avoir</th>\n<th>être</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>j'<strong>aurais</strong> mangé</td>\n<td>je <strong>serais</strong> parti(e)</td>\n</tr>\n<tr>\n<td>tu <strong>aurais</strong> mangé</td>\n<td>tu <strong>serais</strong> parti(e)</td>\n</tr>\n<tr>\n<td>il/elle <strong>aurait</strong> mangé</td>\n<td>il <strong>serait</strong> parti / elle <strong>serait</strong> partie</td>\n</tr>\n<tr>\n<td>nous <strong>aurions</strong> mangé</td>\n<td>nous <strong>serions</strong> parti(e)s</td>\n</tr>\n<tr>\n<td>vous <strong>auriez</strong> mangé</td>\n<td>vous <strong>seriez</strong> parti(e)(s)</td>\n</tr>\n<tr>\n<td>ils/elles <strong>auraient</strong> mangé</td>\n<td>ils <strong>seraient</strong> partis / elles <strong>seraient</strong> parties</td>\n</tr>\n</tbody>\n</table>\n<p>Same auxiliary choice and agreement rules as the passé composé. Reflexive: <em>je me serais levé(e)</em>.</p>"
+  },
+  {
+   "heading": "Uses",
+   "html": "<ol>\n<li><strong>Unreal past hypothesis (si + plus-que-parfait):</strong>\n   <em>Si j'avais su, je </em><em>serais venu</em><em>.</em> — If I had known, I would have come.\n   <em>Si tu m'avais appelé, je t'</em><em>aurais aidé</em><em>.</em></li>\n<li><strong>Regret:</strong> <em>J'</em><em>aurais aimé</em><em> être musicien.</em> — I would have liked to be a musician. / <em>J'</em><em>aurais dû</em><em> l'écouter.</em> — I should have listened to him.</li>\n<li><strong>Reproach</strong> (with <em>devoir, pouvoir</em>): <em>Tu </em><em>aurais pu</em><em> me prévenir !</em> — You could have warned me! / <em>Vous </em><em>auriez dû</em><em> partir plus tôt.</em> — You should have left earlier.</li>\n<li><strong>Unconfirmed past information (journalism):</strong> <em>L'accident </em><em>aurait fait</em><em> trois victimes.</em> — The accident reportedly left three victims.</li>\n<li><strong>Future perfect in the past (indirect speech):</strong> <em>Il a dit qu'il </em><em>aurait fini</em><em> avant midi.</em> — He said he would have finished before noon.</li>\n</ol>"
+  },
+  {
+   "heading": "Key modal combos",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>j'aurais dû</strong> + inf.</td>\n<td>I should have</td>\n</tr>\n<tr>\n<td><strong>j'aurais pu</strong> + inf.</td>\n<td>I could have</td>\n</tr>\n<tr>\n<td><strong>j'aurais voulu / aimé</strong> + inf.</td>\n<td>I would have liked to</td>\n</tr>\n<tr>\n<td><strong>il aurait fallu</strong> + inf. / que + subj.</td>\n<td>it would have been necessary</td>\n</tr>\n<tr>\n<td><strong>j'aurais mieux fait de</strong> + inf.</td>\n<td>I would have done better to</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Mixed conditionals",
+   "html": "<p>Past condition → present result: <em>Si j'</em><em>avais étudié</em><em> la médecine, je </em><em>serais</em><em> médecin aujourd'hui.</em> (plus-que-parfait → conditionnel présent)\nPresent condition → past result: <em>Si j'</em><em>étais</em><em> plus courageux, je lui </em><em>aurais parlé</em><em> hier.</em> (imparfait → conditionnel passé)</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Si tu étais venu, tu (s'amuser) ___.",
+   "instruction": "Put the verb in the conditionnel passé:",
+   "answer": "te serais amusé(e)",
+   "id": "e1"
+  },
+  {
+   "prompt": "Si nous avions eu le temps, nous (visiter) ___ le musée.",
+   "answer": "aurions visité",
+   "id": "e2"
+  },
+  {
+   "prompt": "Elle (aimer) ___ voyager plus.",
+   "answer": "aurait aimé",
+   "id": "e3"
+  },
+  {
+   "prompt": "Tu (devoir) ___ me dire la vérité !",
+   "answer": "aurais dû",
+   "id": "e4"
+  },
+  {
+   "prompt": "Selon la police, le voleur (s'enfuir) ___ par la fenêtre.",
+   "answer": "se serait enfui",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"If I had left earlier, I wouldn't have missed the train.\"",
+   "answer": "*Si j'étais parti(e) plus tôt, je n'aurais pas raté le train.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"You could have called me!\"",
+   "answer": "*Tu aurais pu m'appeler !*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

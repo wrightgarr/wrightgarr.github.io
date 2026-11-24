@@ -1,0 +1,63 @@
+{
+ "id": "s88",
+ "subject": 88,
+ "level": "B1",
+ "title": "Emphatic Pronouns with \"Même\" (moi-même, toi-même, lui-même, …)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Adding <strong>-même</strong> (self) to an emphatic pronoun creates \"myself, yourself, himself…\" for <strong>emphasis</strong>: to stress that the person did it personally, alone, or without help.</p>\n<table>\n<thead>\n<tr>\n<th>Pronoun</th>\n<th>+ même</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>moi</td>\n<td><strong>moi-même</strong></td>\n<td>myself</td>\n</tr>\n<tr>\n<td>toi</td>\n<td><strong>toi-même</strong></td>\n<td>yourself</td>\n</tr>\n<tr>\n<td>lui</td>\n<td><strong>lui-même</strong></td>\n<td>himself</td>\n</tr>\n<tr>\n<td>elle</td>\n<td><strong>elle-même</strong></td>\n<td>herself</td>\n</tr>\n<tr>\n<td>soi</td>\n<td><strong>soi-même</strong></td>\n<td>oneself</td>\n</tr>\n<tr>\n<td>nous</td>\n<td><strong>nous-mêmes</strong></td>\n<td>ourselves</td>\n</tr>\n<tr>\n<td>vous</td>\n<td><strong>vous-même</strong> (formal sing.) / <strong>vous-mêmes</strong> (pl.)</td>\n<td>yourself / yourselves</td>\n</tr>\n<tr>\n<td>eux</td>\n<td><strong>eux-mêmes</strong></td>\n<td>themselves (m.)</td>\n</tr>\n<tr>\n<td>elles</td>\n<td><strong>elles-mêmes</strong></td>\n<td>themselves (f.)</td>\n</tr>\n</tbody>\n</table>\n<p>Note the <strong>s</strong> on <em>même</em> in the plural forms.</p>"
+  },
+  {
+   "heading": "Uses",
+   "html": "<ol>\n<li><strong>Emphasis on who did it (\"personally\"):</strong> <em>J'ai fait ce gâteau </em><em>moi-même</em><em>.</em> — I made this cake myself.</li>\n<li><strong>\"By oneself / without help\":</strong> <em>Les enfants se sont habillés </em><em>eux-mêmes</em><em>.</em></li>\n<li><strong>\"In person / even\":</strong> <em>Le directeur </em><em>lui-même</em><em> est venu.</em> — The director himself came.</li>\n<li><strong>Identity (\"the very same\"):</strong> <em>C'est </em><em>lui-même</em><em>.</em> — It's the man himself.</li>\n<li><strong>General statements:</strong> <em>Il faut avoir confiance en </em><em>soi-même</em><em>.</em> — You have to believe in yourself.</li>\n<li>Polite phone answer: <em>— Je voudrais parler à M. Martin. — </em><em>Lui-même</em><em>.</em> — Speaking.</li>\n<li><em>Toi-même !</em> — (playground) \"Same to you!\" / \"You are!\"</li>\n</ol>"
+  },
+  {
+   "heading": "Not reflexive!",
+   "html": "<p><strong>Moi-même</strong> is emphatic, not a reflexive pronoun. For a reflexive action, French uses the reflexive verb:\n- \"I cut myself\" = <em>Je </em><em>me</em><em> suis coupé.</em> (not ~~j'ai coupé moi-même~~)\n- But for emphasis: <em>Je me suis coupé les cheveux </em><em>moi-même</em><em>.</em> — I cut my hair myself.</p>"
+  },
+  {
+   "heading": "Même — other uses",
+   "html": "<ul>\n<li>Adjective \"same\" before the noun: <em>la </em><em>même</em><em> chose</em> (the same thing), <em>les </em><em>mêmes</em><em> idées</em>.</li>\n<li>Adverb \"even\": <strong><em>Même</em><em> les enfants ont compris.</em> — Even the children understood. / </strong><em>même</em><em> si</em> — even if.</li>\n<li><em>quand même</em> = still, all the same: <em>Il pleut, mais je sors </em><em>quand même</em><em>.</em></li>\n<li><em>de même</em> = likewise.</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Ils ont construit leur maison ___.",
+   "instruction": "Fill in with the right *-même* form:",
+   "answer": "eux-mêmes",
+   "id": "e1"
+  },
+  {
+   "prompt": "Tu as préparé ce repas ___ ? (tu)",
+   "answer": "toi-même",
+   "id": "e2"
+  },
+  {
+   "prompt": "Elle a réparé sa voiture ___.",
+   "answer": "elle-même",
+   "id": "e3"
+  },
+  {
+   "prompt": "Nous avons tout organisé ___.",
+   "answer": "nous-mêmes",
+   "id": "e4"
+  },
+  {
+   "prompt": "\"Did you (vous, formal) write this letter yourself?\"",
+   "answer": "*Avez-vous écrit cette lettre vous-même ?*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"Even my mother likes this song.\"",
+   "answer": "*Même ma mère aime cette chanson.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"It's the same thing.\"",
+   "answer": "*C'est la même chose.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

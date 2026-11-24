@@ -1,0 +1,127 @@
+{
+  "id": "a1-21",
+  "level": "A1",
+  "number": 21,
+  "title": "La fête d'Amina",
+  "grammar": "*venir*, *venir de*",
+  "theme": "nationalities and origins",
+  "wordCount": 98,
+  "primer": [
+    "**venir**: to come (*je viens, tu viens, il vient, nous venons, vous venez, ils viennent*)",
+    "**venir de / du / des**: to come from (*de Tokyo, du Japon, des États-Unis*)",
+    "**une fête**: a party",
+    "**Je te présente…**: Let me introduce…",
+    "**de partout**: from everywhere",
+    "**seul(e)**: only, alone",
+    "**tout le monde**: everybody"
+  ],
+  "passage": [
+    [
+      "Ce soir, Amina fait une fête chez elle. Il y a des amis de partout."
+    ],
+    [
+      "— Léa, Marco, je vous présente Kenji. Il vient du Japon.",
+      "— Bonjour, Kenji ! Tu viens de Tokyo ?",
+      "— Non, je viens d'Osaka. Et toi, tu viens d'où ?",
+      "— Je viens de Turin, en Italie, dit Marco."
+    ],
+    [
+      "Il y a aussi Carmen, qui vient du Mexique, et deux sœurs qui viennent des États-Unis. Amina, elle, vient du Canada. Léa est la seule Parisienne !"
+    ],
+    [
+      "— Vous venez tous à Paris pour étudier ? demande Léa.",
+      "— Oui ! Nous venons pour la culture, la musique… et les croissants !"
+    ],
+    [
+      "Tout le monde rit."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "chez elle",
+      "en": "at her place"
+    },
+    {
+      "fr": "Tu viens d'où ?",
+      "en": "Where are you from?"
+    },
+    {
+      "fr": "qui vient",
+      "en": "who comes"
+    },
+    {
+      "fr": "les États-Unis",
+      "en": "the United States"
+    },
+    {
+      "fr": "une Parisienne",
+      "en": "a Parisian woman"
+    },
+    {
+      "fr": "tous",
+      "en": "all"
+    },
+    {
+      "fr": "rit",
+      "en": "laughs"
+    }
+  ],
+  "spotlight": [
+    "**Venir** is irregular: *je viens, il vient, nous venons, ils viennent*.",
+    "**Venir de + place:** cities take *de* (*de Turin*, *d'Osaka*); masculine countries take *du* (*du Japon, du Canada*); plural countries take *des* (*des États-Unis*); feminine countries take *de* (*de France*)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Where is Kenji from, exactly?",
+      "answer": "From Osaka, Japan",
+      "options": [
+        "From Osaka, Japan",
+        "From Tokyo, Japan",
+        "From Seoul, Korea",
+        "From Kyoto, Japan"
+      ],
+      "evidence": "Non, je viens d'Osaka."
+    },
+    {
+      "id": "q2",
+      "prompt": "Name two other guests and their countries.",
+      "answer": "Carmen from Mexico, and two sisters from the United States",
+      "options": [
+        "Carmen from Mexico, and two sisters from the United States",
+        "Carmen from Spain, and two brothers from Canada",
+        "Carmen from Italy, and a cousin from Japan",
+        "Carmen from Brazil, and two sisters from Mexico"
+      ],
+      "evidence": "Il y a aussi Carmen, qui vient du Mexique, et deux sœurs qui viennent des États-Unis."
+    },
+    {
+      "id": "q3",
+      "prompt": "Why is Léa special at this party?",
+      "answer": "She's the only Parisian",
+      "options": [
+        "She's the only Parisian",
+        "She's the host",
+        "She's the only musician",
+        "She arrives very late"
+      ],
+      "evidence": "Léa est la seule Parisienne !"
+    }
+  ],
+  "writing": {
+    "prompt": "Say where you come from and where one friend or family member comes from.",
+    "model": "Je viens du Canada. Mon ami Diego vient du Mexique.",
+    "targets": [
+      {
+        "label": "two forms of venir (viens, vient…)",
+        "pattern": "\\b(viens|vient|venons|venez|viennent)\\b",
+        "min": 2
+      },
+      {
+        "label": "de / du / des + place",
+        "pattern": "\\b(viens|vient|venons|venez|viennent)\\s+(de|d'|du|des)",
+        "min": 1
+      }
+    ]
+  }
+}

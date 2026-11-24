@@ -1,0 +1,176 @@
+{
+  "id": "b1-05",
+  "level": "B1",
+  "number": 5,
+  "title": "La grande réunion",
+  "grammar": "conjunctions + subjunctive",
+  "theme": "saving the magazine",
+  "wordCount": 353,
+  "primer": [
+    "**pour que + subj.**: so that",
+    "**bien que + subj.**: although",
+    "**à condition que + subj.**: provided that",
+    "**avant que + subj.**: before",
+    "**sans que / jusqu'à ce que + subj.**: without / until",
+    "**une coopérative**: a co-operative",
+    "**les abonnements**: subscriptions"
+  ],
+  "passage": [
+    [
+      "Le lundi, à neuf heures, toute l'équipe du Mistral était réunie dans la grande salle. Nadia s'est levée, a posé ses lunettes sur la table et a tout raconté : les ventes en baisse, les dettes, l'offre du groupe parisien Médias Plus."
+    ],
+    [
+      "— Ils proposent de racheter le magazine à condition que nous déménagions à Paris et que nous supprimions l'édition papier. Je leur ai demandé un mois de réflexion avant de répondre."
+    ],
+    [
+      "Un silence glacial a suivi."
+    ],
+    [
+      "— Bien que la situation soit difficile, a continué Nadia, je ne veux pas vendre. Mais je ne peux pas non plus continuer seule. J'ai besoin d'idées."
+    ],
+    [
+      "Théo, le graphiste, a été le premier à parler."
+    ],
+    [
+      "— On pourrait lancer une campagne d'abonnements pour que les lecteurs nous soutiennent directement.",
+      "— Et organiser des événements, a ajouté Karim. Des soirées, des expositions, des débats. Les gens aiment Le Mistral. Il faut qu'ils le voient vivre en dehors des pages."
+    ],
+    [
+      "Lucas, le stagiaire, a levé timidement la main."
+    ],
+    [
+      "— Et si… et si on devenait une coopérative ? Mon oncle travaille dans une coopérative à Lyon. Chaque salarié est propriétaire d'une partie de l'entreprise. Personne ne peut vendre sans que les autres soient d'accord."
+    ],
+    [
+      "Tout le monde s'est tourné vers lui. Nadia l'a regardé longtemps."
+    ],
+    [
+      "— Une coopérative… Ce serait une révolution. Mais ça pourrait marcher, à condition que chacun accepte de prendre des risques.",
+      "— Moi, je suis prête, a dit Léa. Bien que je ne connaisse rien à la gestion, je préfère essayer plutôt que de partir à Paris.",
+      "— Moi aussi, a dit Karim.",
+      "— Moi aussi, a dit Théo, à condition qu'on garde le papier !"
+    ],
+    [
+      "La discussion a duré toute la matinée. Personne n'est sorti de la salle avant que chaque idée soit notée au tableau. À midi, Nadia a regardé la liste : abonnements, événements, coopérative, partenariats avec les librairies du quartier."
+    ],
+    [
+      "— Je vais étudier tout ça jusqu'à ce que nous ayons un vrai plan, a-t-elle dit. En attendant, pas un mot à l'extérieur. Je ne veux pas que Médias Plus apprenne nos projets avant que nous soyons prêts."
+    ],
+    [
+      "En sortant, Lucas souriait jusqu'aux oreilles. Le stagiaire venait peut-être de sauver le magazine."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "les dettes",
+      "en": "debts"
+    },
+    {
+      "fr": "supprimions",
+      "en": "(that) we scrap"
+    },
+    {
+      "fr": "un mois de réflexion",
+      "en": "a month to think it over"
+    },
+    {
+      "fr": "glacial",
+      "en": "icy"
+    },
+    {
+      "fr": "non plus",
+      "en": "either (in a negative)"
+    },
+    {
+      "fr": "lancer",
+      "en": "to launch"
+    },
+    {
+      "fr": "nous soutiennent",
+      "en": "support us"
+    },
+    {
+      "fr": "chaque salarié",
+      "en": "each employee"
+    },
+    {
+      "fr": "propriétaire",
+      "en": "owner"
+    },
+    {
+      "fr": "la gestion",
+      "en": "management"
+    },
+    {
+      "fr": "plutôt que de",
+      "en": "rather than"
+    },
+    {
+      "fr": "En attendant",
+      "en": "In the meantime"
+    }
+  ],
+  "spotlight": [
+    "**These conjunctions always take the subjunctive:** *à condition que nous déménagions, bien que la situation soit difficile, pour que les lecteurs nous soutiennent, sans que les autres soient d'accord, avant que chaque idée soit notée, jusqu'à ce que nous ayons un vrai plan.*",
+    "**One subject → preposition + infinitive:** with a single subject, *avant que* becomes *avant de* (*un mois de réflexion avant de répondre*) and *pour que* becomes *pour*. *Bien que* is the exception: it keeps the subjunctive even with one subject (*Bien que je ne connaisse rien à la gestion*)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Quelles conditions le groupe Médias Plus pose-t-il ?",
+      "answer": "Déménager à Paris et supprimer l'édition papier",
+      "options": [
+        "Déménager à Paris et supprimer l'édition papier",
+        "Licencier Nadia et garder Karim",
+        "Augmenter le prix du magazine",
+        "Publier seulement en anglais"
+      ],
+      "evidence": "Ils proposent de racheter le magazine à condition que nous déménagions à Paris et que nous supprimions l'édition papier."
+    },
+    {
+      "id": "q2",
+      "prompt": "Qu'est-ce qu'une coopérative, selon Lucas ?",
+      "answer": "Chaque salarié est propriétaire d'une partie de l'entreprise",
+      "options": [
+        "Chaque salarié est propriétaire d'une partie de l'entreprise",
+        "Une entreprise sans chef ni salaires",
+        "Un magazine gratuit",
+        "Un groupe de magazines parisiens"
+      ],
+      "evidence": "Chaque salarié est propriétaire d'une partie de l'entreprise."
+    },
+    {
+      "id": "q3",
+      "prompt": "À quelle condition Théo accepte-t-il le projet ?",
+      "answer": "À condition qu'on garde le papier",
+      "options": [
+        "À condition qu'on garde le papier",
+        "À condition d'avoir une augmentation",
+        "À condition de travailler à Paris",
+        "À condition que Nadia parte"
+      ],
+      "evidence": "Moi aussi, a dit Théo, à condition qu'on garde le papier !"
+    }
+  ],
+  "writing": {
+    "prompt": "Décrivez un projet (personnel ou professionnel) en trois phrases avec *pour que, bien que* et *à condition que*.",
+    "model": "Je vais apprendre l'espagnol pour que nous puissions voyager au Mexique. Bien que ce soit difficile, je travaille tous les soirs. Je partirai en juillet, à condition que j'aie assez d'argent.",
+    "targets": [
+      {
+        "label": "pour que",
+        "pattern": "pour qu",
+        "min": 1
+      },
+      {
+        "label": "bien que",
+        "pattern": "bien qu",
+        "min": 1
+      },
+      {
+        "label": "à condition que",
+        "pattern": "à condition qu",
+        "min": 1
+      }
+    ]
+  }
+}

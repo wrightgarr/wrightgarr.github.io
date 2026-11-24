@@ -1,0 +1,61 @@
+{
+ "id": "s46",
+ "subject": 46,
+ "level": "A2",
+ "title": "Le Gérondif",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>gérondif</strong> expresses two actions done by the <strong>same person</strong> at the <strong>same time</strong>, or <strong>how</strong> something is done. English uses \"while / by / on + -ing\".</p>"
+  },
+  {
+   "heading": "Formation: en + present participle",
+   "html": "<p><strong>Present participle:</strong> take the <strong>nous</strong> form of the present, remove <strong>-ons</strong>, add <strong>-ant</strong>.\n| Verb | nous form | Participle | Gérondif |\n|---|---|---|---|\n| parler | parl-ons | parlant | <strong>en parlant</strong> |\n| finir | finiss-ons | finissant | <strong>en finissant</strong> |\n| faire | fais-ons | faisant | <strong>en faisant</strong> |\n| prendre | pren-ons | prenant | <strong>en prenant</strong> |\n| manger | mange-ons | mangeant | <strong>en mangeant</strong> |</p>\n<p><strong>Three irregular participles:</strong>\n- être → <strong>étant</strong> (en étant)\n- avoir → <strong>ayant</strong> (en ayant)\n- savoir → <strong>sachant</strong> (en sachant)</p>"
+  },
+  {
+   "heading": "Uses",
+   "html": "<ol>\n<li><strong>Simultaneity</strong> (while): <em>Je chante </em><em>en prenant</em><em> ma douche.</em> — I sing while taking a shower.</li>\n<li><strong>Manner / means</strong> (by): <em>Il a appris le français </em><em>en regardant</em><em> des films.</em> — He learned French by watching movies.</li>\n<li><strong>Condition</strong> (if): <em><strong>En partant</strong> maintenant, tu arriveras à l'heure.</em> — If you leave now, you'll arrive on time.</li>\n<li><strong>Cause / time</strong> (on/when): <em><strong>En arrivant</strong> à la maison, j'ai vu le désordre.</em> — On arriving home, I saw the mess.</li>\n</ol>"
+  },
+  {
+   "heading": "Tout en + gérondif",
+   "html": "<p>Adds emphasis on simultaneity or contrast:\n<em>Il mange </em><em>tout en</em><em> travaillant.</em> — He eats while working.\n<em><strong>Tout en</strong> étant riche, il vit simplement.</em> — Although rich, he lives simply.</p>"
+  },
+  {
+   "heading": "Rule: same subject",
+   "html": "<p>The gérondif always refers to the <strong>subject</strong> of the main verb.\n- <em>J'ai vu Paul </em><em>en sortant</em><em> du métro.</em> = I saw Paul while <strong>I</strong> was coming out of the metro.</p>"
+  },
+  {
+   "heading": "Negative (rare)",
+   "html": "<p><em>en ne disant rien</em> — by saying nothing</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "lire, choisir, boire, être, avoir.",
+   "instruction": "Form the gérondif:",
+   "answer": "*en lisant*, *en choisissant*, *en buvant*, *en étant*, *en ayant*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Combine with a gérondif: (a) Il conduit. Il écoute la radio. (b) Elle a maigri. Elle a fait du sport.",
+   "answer": "(a) *Il conduit en écoutant la radio.* (b) *Elle a maigri en faisant du sport.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"I learned to cook by watching my mother.\"",
+   "answer": "*J'ai appris à cuisiner en regardant ma mère.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"Don't talk while eating!\"",
+   "answer": "*Ne parle pas en mangeant !*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"If you work hard, you'll succeed.\" (use a gérondif)",
+   "answer": "*En travaillant dur, tu réussiras.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

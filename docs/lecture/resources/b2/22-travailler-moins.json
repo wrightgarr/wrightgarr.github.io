@@ -1,0 +1,171 @@
+{
+  "id": "b2-22",
+  "level": "B2",
+  "number": 22,
+  "title": "Travailler moins ?",
+  "grammar": "advanced concession",
+  "theme": "a four-day week",
+  "wordCount": 505,
+  "primer": [
+    "**avoir beau + infinitif**: no matter how much… (*On a beau avoir gagné…*)",
+    "**quand bien même + conditionnel**: even if",
+    "**tout + adjectif + que + subj.**: however… (*Tout important qu'il soit…*)",
+    "**quitte à + infinitif**: even if it means",
+    "**il n'empêche que / toujours est-il que**: the fact remains that",
+    "**n'en… pas moins**: nonetheless"
+  ],
+  "passage": [
+    [
+      "En novembre, la coopérative du Mistral a tenu son assemblée générale annuelle. Les comptes étaient enfin positifs : pour la première fois depuis sa création, le magazine avait gagné de l'argent. Pas beaucoup, mais assez pour se poser une question que personne n'avait osé poser jusque-là."
+    ],
+    [
+      "C'est Inès, désormais en contrat d'apprentissage, qui a levé la main."
+    ],
+    [
+      "— Et si on passait à la semaine de quatre jours ?"
+    ],
+    [
+      "Un silence a suivi. Puis tout le monde s'est mis à parler en même temps."
+    ],
+    [
+      "— On a beau avoir gagné de l'argent cette année, a commencé Théo, rien ne garantit qu'on en gagnera l'année prochaine. Quand bien même les comptes seraient bons, on n'a pas assez de monde pour publier un numéro par mois en quatre jours.",
+      "— Tout important qu'il soit, l'argent n'est pas le seul sujet, a répondu Inès. On travaille cinquante heures par semaine. Karim n'a pas pris de vacances depuis deux ans. Léa écrit un livre la nuit. On se bat pour les autres, mais on s'épuise.",
+      "— Elle n'a pas tort, a dit Karim. Il n'empêche que les lecteurs, eux, attendront leur magazine.",
+      "— Quitte à publier un peu moins, a proposé Lucas, je préfère des articles mieux faits. Dix numéros par an au lieu de douze, mais meilleurs.",
+      "— Dix numéros ? s'est exclamée Nadia. Nos abonnés paient pour douze !",
+      "— Si attachés qu'ils soient au Mistral, a répondu Lucas, ils comprendront. Il suffit de leur expliquer pourquoi."
+    ],
+    [
+      "La discussion a duré trois heures. Chacun avait ses arguments, et tous étaient défendables. Léa, elle, n'avait presque rien dit. Vers la fin, Nadia s'est tournée vers elle."
+    ],
+    [
+      "— Et toi, Léa ? Tu es copropriétaire, tu as une voix comme les autres."
+    ],
+    [
+      "Léa a hésité."
+    ],
+    [
+      "— Je pense à Jean. Il a travaillé quarante ans au port, six jours par semaine, et il écrivait la nuit. Il n'a jamais rien publié de son vivant, parce qu'il n'en avait ni le temps ni la force. Je ne dis pas qu'il faut travailler moins à tout prix. Toujours est-il que si on s'épuise, on n'écrira plus rien de bon. Et alors, à quoi bon sauver un magazine ?"
+    ],
+    [
+      "Personne n'a répondu tout de suite. Même Théo, qui avait toujours une réponse à tout, a regardé ses mains en silence."
+    ],
+    [
+      "Finalement, l'assemblée a voté. Douze voix pour une expérience de six mois : quatre jours par semaine, onze numéros par an au lieu de douze, et un numéro double en été. Trois voix contre, dont celle de Théo, qui n'en a pas moins accepté le résultat de bonne grâce."
+    ],
+    [
+      "— Je reste convaincu que c'est une erreur, a-t-il dit. Mais si ça marche, je serai le premier à le reconnaître.",
+      "— Et si ça ne marche pas ? a demandé Inès.",
+      "— Alors je serai aussi le premier à le dire, a répondu Théo en souriant. C'est ça, une coopérative : on a le droit d'avoir tort ensemble."
+    ],
+    [
+      "Le premier vendredi libre, Léa l'a passé chez Madame Ferrand, à travailler sur le livre. Elle n'avait pas vraiment moins de travail. Mais pour la première fois depuis des mois, elle avait l'impression de choisir."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "l'assemblée générale",
+      "en": "the annual general meeting"
+    },
+    {
+      "fr": "les comptes étaient positifs",
+      "en": "the accounts were in the black",
+      "match": [
+        "comptes étaient enfin positifs"
+      ]
+    },
+    {
+      "fr": "un contrat d'apprentissage",
+      "en": "an apprenticeship contract"
+    },
+    {
+      "fr": "rien ne garantit",
+      "en": "nothing guarantees"
+    },
+    {
+      "fr": "on s'épuise",
+      "en": "we're wearing ourselves out"
+    },
+    {
+      "fr": "elle n'a pas tort",
+      "en": "she has a point"
+    },
+    {
+      "fr": "défendables",
+      "en": "defensible"
+    },
+    {
+      "fr": "de son vivant",
+      "en": "in his lifetime"
+    },
+    {
+      "fr": "à tout prix",
+      "en": "at all costs"
+    },
+    {
+      "fr": "à quoi bon",
+      "en": "what's the point of"
+    },
+    {
+      "fr": "de bonne grâce",
+      "en": "with good grace"
+    },
+    {
+      "fr": "avoir tort",
+      "en": "to be wrong"
+    }
+  ],
+  "spotlight": [
+    "**Conceding while holding your ground:** *On a beau avoir gagné de l'argent, rien ne garantit…* (however much money we've made). *Quand bien même les comptes seraient bons, on n'a pas assez de monde* (even if, + conditional). *Tout important qu'il soit, l'argent n'est pas le seul sujet* (important as it is). *Si attachés qu'ils soient au Mistral, ils comprendront.*",
+    "**Moving on despite it:** *Il n'empêche que les lecteurs attendront* and *Toujours est-il que si on s'épuise…* both mean \"the fact remains that\". *Quitte à publier un peu moins* = even if it means publishing less. *Théo n'en a pas moins accepté le résultat* = he accepted it nonetheless."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi la question de la semaine de quatre jours se pose-t-elle cette année-là ?",
+      "answer": "Le magazine a enfin gagné de l'argent",
+      "options": [
+        "Le magazine a enfin gagné de l'argent",
+        "Les journalistes ont fait grève",
+        "Une loi l'impose",
+        "Nadia part à la retraite"
+      ],
+      "evidence": "Les comptes étaient enfin positifs : pour la première fois depuis sa création, le magazine avait gagné de l'argent."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quels sont les arguments de Théo contre la proposition ?",
+      "answer": "Rien ne garantit les bénéfices futurs et l'équipe est trop petite",
+      "options": [
+        "Rien ne garantit les bénéfices futurs et l'équipe est trop petite",
+        "Il veut travailler plus",
+        "Il trouve les lecteurs paresseux",
+        "Il veut publier deux numéros par mois"
+      ],
+      "evidence": "On a beau avoir gagné de l'argent cette année, a commencé Théo, rien ne garantit qu'on en gagnera l'année prochaine."
+    },
+    {
+      "id": "q3",
+      "prompt": "Quel argument Léa tire-t-elle de la vie de Jean ?",
+      "answer": "Jean n'a jamais rien publié parce qu'il n'avait ni le temps ni la force : l'épuisement empêche de bien écrire",
+      "options": [
+        "Jean n'a jamais rien publié parce qu'il n'avait ni le temps ni la force : l'épuisement empêche de bien écrire",
+        "Jean travaillait quatre jours par semaine",
+        "Jean était contre les syndicats",
+        "Jean voulait devenir journaliste"
+      ],
+      "evidence": "Toujours est-il que si on s'épuise, on n'écrira plus rien de bon."
+    }
+  ],
+  "writing": {
+    "prompt": "Prenez position sur la semaine de quatre jours en 5 phrases, avec au moins trois expressions de concession avancée (*avoir beau, quand bien même, tout… que, quitte à, il n'empêche que*).",
+    "model": "On a beau aimer son travail, on a besoin de repos. Quand bien même la productivité baisserait un peu, les employés seraient plus heureux. Tout utile qu'il soit, le cinquième jour est souvent le moins productif. Il n'empêche que certaines entreprises ne peuvent pas fermer. Quitte à gagner un peu moins, je choisirais la semaine de quatre jours.",
+    "targets": [
+      {
+        "label": "advanced concession (avoir beau, quand bien même, tout… que, quitte à, il n'empêche que, toujours est-il que, n'en… pas moins)",
+        "pattern": "\\b(a|ai|as|avons|avez|ont|avait)\\s+beau\\b|quand bien même|\\btout\\s+[a-zà-ÿ]+\\s+qu(e|')|quitte à|il n'empêche qu|toujours est-il qu|n'en\\s+[a-zà-ÿ]+\\s+pas moins|si\\s+[a-zà-ÿ]+\\s+qu(e|')",
+        "min": 3
+      }
+    ]
+  }
+}

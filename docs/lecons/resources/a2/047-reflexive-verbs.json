@@ -1,0 +1,69 @@
+{
+ "id": "s47",
+ "subject": 47,
+ "level": "A2",
+ "title": "Reflexive Verbs",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A <strong>reflexive verb</strong> (<em>verbe pronominal</em>) has a pronoun that refers back to the subject: the subject does the action to itself. They're shown in the dictionary with <strong>se</strong>: <em>se laver</em> (to wash oneself).</p>"
+  },
+  {
+   "heading": "Reflexive pronouns",
+   "html": "<table>\n<thead>\n<tr>\n<th>Subject</th>\n<th>Reflexive pronoun</th>\n<th>se laver (to wash)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td><strong>me (m')</strong></td>\n<td>je <strong>me</strong> lave</td>\n</tr>\n<tr>\n<td>tu</td>\n<td><strong>te (t')</strong></td>\n<td>tu <strong>te</strong> laves</td>\n</tr>\n<tr>\n<td>il/elle/on</td>\n<td><strong>se (s')</strong></td>\n<td>il <strong>se</strong> lave</td>\n</tr>\n<tr>\n<td>nous</td>\n<td><strong>nous</strong></td>\n<td>nous <strong>nous</strong> lavons</td>\n</tr>\n<tr>\n<td>vous</td>\n<td><strong>vous</strong></td>\n<td>vous <strong>vous</strong> lavez</td>\n</tr>\n<tr>\n<td>ils/elles</td>\n<td><strong>se (s')</strong></td>\n<td>ils <strong>se</strong> lavent</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Common reflexive verbs (daily routine)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verb</th>\n<th>Meaning</th>\n<th>Verb</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>se réveiller</td>\n<td>to wake up</td>\n<td>se lever</td>\n<td>to get up</td>\n</tr>\n<tr>\n<td>se laver</td>\n<td>to wash</td>\n<td>se doucher</td>\n<td>to shower</td>\n</tr>\n<tr>\n<td>se brosser les dents</td>\n<td>to brush one's teeth</td>\n<td>s'habiller</td>\n<td>to get dressed</td>\n</tr>\n<tr>\n<td>se maquiller</td>\n<td>to put on makeup</td>\n<td>se raser</td>\n<td>to shave</td>\n</tr>\n<tr>\n<td>se coiffer</td>\n<td>to do one's hair</td>\n<td>se dépêcher</td>\n<td>to hurry</td>\n</tr>\n<tr>\n<td>se coucher</td>\n<td>to go to bed</td>\n<td>s'endormir</td>\n<td>to fall asleep</td>\n</tr>\n<tr>\n<td>se reposer</td>\n<td>to rest</td>\n<td>se promener</td>\n<td>to go for a walk</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Other important reflexive verbs",
+   "html": "<p><em>s'appeler</em> (to be called), <em>s'amuser</em> (to have fun), <em>s'ennuyer</em> (to be bored), <em>s'asseoir</em> (to sit down), <em>s'occuper de</em> (to take care of), <em>se souvenir de</em> (to remember), <em>se tromper</em> (to make a mistake), <em>s'intéresser à</em> (to be interested in), <em>se sentir</em> (to feel), <em>s'inquiéter</em> (to worry), <em>se marier</em> (to get married), <em>se disputer</em> (to argue), <em>se passer</em> (to happen).</p>"
+  },
+  {
+   "heading": "Three types",
+   "html": "<ol>\n<li><strong>Reflexive</strong> (to oneself): <em>Je me lave.</em></li>\n<li><strong>Reciprocal</strong> (each other) — plural only: <em>Ils </em><em>s'aiment</em><em>.</em> — They love each other. / <em>Nous </em><em>nous écrivons</em><em>.</em></li>\n<li><strong>Idiomatic</strong> (meaning changes): <em>aller</em> (go) → <em>s'en aller</em> (leave); <em>ennuyer</em> (bore someone) → <em>s'ennuyer</em> (be bored); <em>rendre compte</em> → <em>se rendre compte</em> (realize).</li>\n</ol>"
+  },
+  {
+   "heading": "Grammar points",
+   "html": "<ul>\n<li><strong>Negative:</strong> <em>Je </em><em>ne</em><em> me lève </em><em>pas</em><em>.</em></li>\n<li><strong>Question (inversion):</strong> <em>Te lèves-tu ?</em> / <em>À quelle heure vous levez-vous ?</em></li>\n<li><strong>Infinitive:</strong> the pronoun matches the subject: <em>Je vais </em><em>me</em><em> coucher.</em> / <em>Nous devons </em><em>nous</em><em> dépêcher.</em></li>\n<li><strong>Body parts:</strong> use the article, not a possessive: <em>Je </em><em>me</em><em> lave </em><em>les</em><em> mains</em> (not ~~mes mains~~).</li>\n<li><strong>Imperative:</strong> <em>Lève-toi ! / Ne te lève pas !</em></li>\n</ul>"
+  },
+  {
+   "heading": "Passé composé: always with être",
+   "html": "<p><em>Je </em><em>me suis</em><em> levé(e).</em> / <em>Elle </em><em>s'est</em><em> couchée.</em> / <em>Nous </em><em>nous sommes</em><em> amusé(e)s.</em>\nNegative: <em>Je </em><em>ne</em><em> me suis </em><em>pas</em><em> réveillé.</em></p>\n<p><strong>Agreement:</strong> the participle agrees with the subject <strong>unless</strong> there's a direct object after the verb:\n- <em>Elle s'est lavé</em><em>e</em><em>.</em> (she washed herself)\n- <em>Elle s'est lavé </em><em>les mains</em><em>.</em> (no agreement — <em>les mains</em> is the direct object)</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Conjugate *s'habiller* in the present.",
+   "answer": "je m'habille, tu t'habilles, il s'habille, nous nous habillons, vous vous habillez, ils s'habillent.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Fill in: (a) Je ___ réveille à 6 h. (b) Nous ___ promenons. (c) Tu ___ couches tard.",
+   "answer": "(a) me (b) nous (c) te",
+   "id": "e2"
+  },
+  {
+   "prompt": "Make negative: *Il se rase le matin.*",
+   "answer": "*Il ne se rase pas le matin.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Put into the passé composé: (a) Elle se lève. (b) Nous nous amusons. (c) Ils se disputent.",
+   "answer": "(a) *Elle s'est levée.* (b) *Nous nous sommes amusé(e)s.* (c) *Ils se sont disputés.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"I'm going to take a shower.\"",
+   "answer": "*Je vais me doucher.* / *Je vais prendre une douche.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Describe your morning routine in 5 sentences.",
+   "answer": "Example: *Je me réveille à 6 h 30. Je me lève tout de suite. Je me douche et je m'habille. Je me brosse les dents. Je me dépêche pour prendre le bus.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

@@ -1,0 +1,76 @@
+{
+ "id": "s70",
+ "subject": 70,
+ "level": "B1",
+ "title": "Relative Pronouns: qui, que, dont, où & lequel",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Relative pronouns connect a clause to a noun (the antecedent). Choice depends on the <strong>grammatical role</strong> of the antecedent in the relative clause.</p>"
+  },
+  {
+   "heading": "Overview",
+   "html": "<table>\n<thead>\n<tr>\n<th>Pronoun</th>\n<th>Replaces</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>qui</strong></td>\n<td>subject</td>\n<td><em>L'homme </em><em>qui</em><em> parle est mon père.</em></td>\n</tr>\n<tr>\n<td><strong>que</strong></td>\n<td>direct object</td>\n<td><em>Le film </em><em>que</em><em> j'ai vu était super.</em></td>\n</tr>\n<tr>\n<td><strong>dont</strong></td>\n<td>complement introduced by <strong>de</strong></td>\n<td><em>Le livre </em><em>dont</em><em> je parle.</em> (parler <strong>de</strong>)</td>\n</tr>\n<tr>\n<td><strong>où</strong></td>\n<td>place or time</td>\n<td><em>La ville </em><em>où</em><em> j'habite.</em> / <em>Le jour </em><em>où</em><em> il est né.</em></td>\n</tr>\n<tr>\n<td><strong>lequel</strong> (+ forms)</td>\n<td>after a preposition (other than <em>de</em>)</td>\n<td><em>La table </em><em>sur laquelle</em><em> j'écris.</em></td>\n</tr>\n</tbody>\n</table>\n<p>(Qui and que were covered in Subject 48.)</p>"
+  },
+  {
+   "heading": "Dont",
+   "html": "<p><strong>Dont</strong> replaces <strong>de + noun</strong>. Use it with:\n1. <strong>Verbs + de:</strong> <em>parler de, avoir besoin de, avoir peur de, se souvenir de, s'occuper de, rêver de, être fier de</em>\n   - <em>J'ai besoin </em><em>de</em><em> ce livre.</em> → <em>C'est le livre </em><em>dont</em><em> j'ai besoin.</em>\n   - <em>Le chien </em><em>dont</em><em> j'ai peur.</em> — The dog I'm afraid of.\n   - <em>La personne </em><em>dont</em><em> je m'occupe.</em>\n2. <strong>Possession (\"whose\"):</strong> <em>J'ai un ami. Le père </em><em>de</em><em> cet ami est pilote.</em> → <em>J'ai un ami </em><em>dont</em><em> le père est pilote.</em>\n3. <strong>Adjectives + de:</strong> <em>content de, fier de, responsable de</em>: <em>C'est un projet </em><em>dont</em><em> je suis fier.</em></p>"
+  },
+  {
+   "heading": "Où",
+   "html": "<p>For <strong>place</strong> and <strong>time</strong>:\n- <em>Le restaurant </em><em>où</em><em> nous avons dîné.</em>\n- <em>L'année </em><em>où</em><em> je suis arrivé au Canada.</em>\n- <em>Le moment </em><em>où</em><em> il a compris…</em>\n- Combined with prepositions: <em>d'où</em> (from where), <em>par où</em> (through where): <em>La ville </em><em>d'où</em><em> je viens.</em></p>\n<p><strong>Careful:</strong> for time, English uses \"when\", but French uses <strong>où</strong>, never ~~quand~~: <em>le jour </em><em>où</em><em>…</em></p>"
+  },
+  {
+   "heading": "Lequel (and its forms)",
+   "html": "<p>Used <strong>after a preposition</strong> (avec, pour, sur, dans, sans, chez, par, entre…), mostly for <strong>things</strong>.</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>Masc.</th>\n<th>Fem.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Singular</td>\n<td><strong>lequel</strong></td>\n<td><strong>laquelle</strong></td>\n</tr>\n<tr>\n<td>Plural</td>\n<td><strong>lesquels</strong></td>\n<td><strong>lesquelles</strong></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Le stylo </em><em>avec lequel</em><em> j'écris.</em> — The pen I write with.</li>\n<li><em>La raison </em><em>pour laquelle</em><em> je suis là.</em> — The reason why I'm here.</li>\n<li><em>Les amis </em><em>avec lesquels</em><em> je voyage.</em> (for people, <strong><em>avec qui</em></strong> is preferred: <em>les amis </em><em>avec qui</em><em> je voyage</em>)</li>\n</ul>\n<p><strong>Contractions</strong> with <em>à</em> and <em>de</em>: <em>auquel, auxquels, auxquelles</em> (à) / <em>duquel, desquels, desquelles</em> (de) — covered in B2 (Subjects 107–108).</p>"
+  },
+  {
+   "heading": "Decision flowchart",
+   "html": "<ol>\n<li>Is it the subject of the verb? → <strong>qui</strong></li>\n<li>Is it the direct object? → <strong>que</strong></li>\n<li>Is it linked by <strong>de</strong>? → <strong>dont</strong></li>\n<li>Is it a place or a time? → <strong>où</strong></li>\n<li>Is there another preposition? → <strong>preposition + lequel</strong> (or <em>qui</em> for people)</li>\n</ol>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Voici la maison ___ je suis né.",
+   "instruction": "Choose *qui, que, dont, où, lequel/laquelle…*:",
+   "answer": "où",
+   "id": "e1"
+  },
+  {
+   "prompt": "C'est le collègue ___ je t'ai parlé.",
+   "answer": "dont",
+   "id": "e2"
+  },
+  {
+   "prompt": "La femme ___ travaille ici est sympa.",
+   "answer": "qui",
+   "id": "e3"
+  },
+  {
+   "prompt": "Le stylo avec ___ j'écris est bleu.",
+   "answer": "lequel",
+   "id": "e4"
+  },
+  {
+   "prompt": "La chanson ___ j'adore passe à la radio.",
+   "answer": "que",
+   "id": "e5"
+  },
+  {
+   "prompt": "C'est une actrice ___ le fils est célèbre.",
+   "answer": "dont",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"The reason why I'm calling…\"",
+   "answer": "*La raison pour laquelle j'appelle…*",
+   "id": "e7"
+  },
+  {
+   "prompt": "Translate: \"The day when I met you.\"",
+   "answer": "*Le jour où je t'ai rencontré(e).*",
+   "id": "e8"
+  }
+ ],
+ "outro": ""
+}

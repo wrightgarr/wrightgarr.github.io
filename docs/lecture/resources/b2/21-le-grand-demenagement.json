@@ -1,0 +1,173 @@
+{
+  "id": "b2-21",
+  "level": "B2",
+  "number": 21,
+  "title": "Le grand déménagement",
+  "grammar": "approximations, fractions and figures",
+  "theme": "remote workers move south",
+  "wordCount": 539,
+  "primer": [
+    "**une dizaine / quinzaine / vingtaine / centaine**: about ten / fifteen / twenty / a hundred",
+    "**près de / environ / un peu plus de**: nearly / about / just over",
+    "**la moitié / un tiers / un quart / un sur cinq**: half / a third / a quarter / one in five",
+    "**deux fois plus (cher) / moins**: twice as (expensive) / half as",
+    "**augmenter de + %**: to rise by",
+    "**en moyenne**: on average"
+  ],
+  "passage": [
+    [
+      "Pour le numéro d'octobre, Le Mistral a lancé une grande enquête : « Pourquoi viennent-ils vivre à Marseille ? » Depuis quelques années, des milliers de Parisiens, de Lyonnais et même d'étrangers s'installaient dans la ville, souvent pour travailler à distance. Lucas et Théo ont passé un mois à analyser des chiffres et à interroger des dizaines de nouveaux arrivants."
+    ],
+    [
+      "Le jour de la réunion, Théo a projeté ses graphiques au mur."
+    ],
+    [
+      "— Alors, voilà ce qu'on a. On a reçu un peu plus de mille deux cents réponses à notre questionnaire. Près de la moitié des nouveaux arrivants ont entre vingt-cinq et quarante ans. Environ un tiers travaillent entièrement à distance, et un sur cinq a créé sa propre entreprise après son arrivée.",
+      "— Et ils viennent d'où ? a demandé Nadia.",
+      "— Pour plus de soixante pour cent, de la région parisienne. Le reste, c'est Lyon, le Nord, et une petite centaine d'étrangers : des Belges, des Allemands, quelques Américains.",
+      "— Et pourquoi Marseille ?"
+    ],
+    [
+      "Lucas a pris le relais."
+    ],
+    [
+      "— La mer, le soleil, et surtout les prix. En moyenne, ils payaient leur logement deux fois plus cher à Paris. Mais attention : ça a des conséquences. Dans certains quartiers, les loyers ont augmenté d'une vingtaine de pour cent en cinq ans. Et ce sont les Marseillais modestes qui en paient le prix."
+    ],
+    [
+      "Léa, de son côté, avait photographié une quinzaine de ces nouveaux habitants. Parmi eux, il y avait Clara, une graphiste de trente-deux ans, qui travaillait pour une agence parisienne depuis son petit appartement de la Belle de Mai."
+    ],
+    [
+      "— Je gagne un salaire parisien et je vis à Marseille, avait-elle expliqué. C'est un privilège, je le sais. Alors je fais attention. Je fais mes courses au marché du quartier, j'ai inscrit ma fille à l'école publique, et j'apprends le marseillais avec ma voisine."
+    ],
+    [
+      "Il y avait aussi Martin, un ingénieur d'une cinquantaine d'années, venu de Lille avec sa famille. Il avait acheté une maison à l'Estaque, à quelques centaines de mètres de la maison de retraite où vivait Gaston."
+    ],
+    [
+      "— Les gens du quartier nous ont d'abord regardés de travers, avait-il raconté. Puis un voisin nous a invités à une partie de pétanque. Aujourd'hui, je joue tous les dimanches. Je perds à chaque fois, mais je joue."
+    ],
+    [
+      "Le dossier se terminait par une interview de Mourad, le père de Karim, que Lucas avait eu l'idée d'interroger."
+    ],
+    [
+      "— Vous savez, avait dit Mourad, Marseille a toujours accueilli des gens venus d'ailleurs. Il y a cinquante ans, c'étaient des ouvriers qui venaient de l'autre côté de la Méditerranée. Aujourd'hui, ce sont des ordinateurs qui viennent de Paris. La seule différence, c'est que nous, on n'avait pas les moyens de faire monter les loyers."
+    ],
+    [
+      "La phrase a été citée dans une bonne centaine d'articles, et même à la radio nationale."
+    ],
+    [
+      "Le soir, Madame Ferrand a feuilleté le dossier en silence, puis elle a ouvert le carnet numéro 22, daté de 1983."
+    ],
+    [
+      "— Écoute ça : « Cette année, une dizaine de familles parisiennes se sont installées dans la rue. Les gens râlent. Moi, je me dis qu'il y a quarante ans, c'est nous qu'on regardait comme des étrangers. » Jean aurait aimé ton dossier, ma belle.",
+      "— Ce n'est pas mon dossier, c'est celui de Lucas et de Théo.",
+      "— Alors il les aurait aimés aussi. Même Théo."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "s'installaient",
+      "en": "were settling"
+    },
+    {
+      "fr": "travailler à distance",
+      "en": "to work remotely"
+    },
+    {
+      "fr": "des nouveaux arrivants",
+      "en": "newcomers"
+    },
+    {
+      "fr": "a projeté",
+      "en": "projected"
+    },
+    {
+      "fr": "un questionnaire",
+      "en": "a survey"
+    },
+    {
+      "fr": "a pris le relais",
+      "en": "took over"
+    },
+    {
+      "fr": "qui en paient le prix",
+      "en": "who pay the price"
+    },
+    {
+      "fr": "la Belle de Mai",
+      "en": "a working-class district of Marseille"
+    },
+    {
+      "fr": "de travers",
+      "en": "with suspicion"
+    },
+    {
+      "fr": "une partie de pétanque",
+      "en": "a game of boules"
+    },
+    {
+      "fr": "les moyens",
+      "en": "the means"
+    },
+    {
+      "fr": "a feuilleté",
+      "en": "leafed through"
+    },
+    {
+      "fr": "râlent",
+      "en": "grumble"
+    }
+  ],
+  "spotlight": [
+    "**Approximate numbers:** add *-aine* to round figures: *une dizaine de familles, une vingtaine de pour cent, une quinzaine de ces nouveaux habitants, une petite centaine d'étrangers*, always followed by *de*. Also *près de la moitié, environ un tiers, un peu plus de mille deux cents, une bonne centaine* (a good hundred).",
+    "**Agreement with fractions and percentages:** the verb usually agrees with the noun that follows: *Près de la moitié des nouveaux arrivants ont…, Environ un tiers travaillent…*, but *un sur cinq a créé* (singular). For changes, use *de*: *les loyers ont augmenté d'une vingtaine de pour cent*. For comparisons: *deux fois plus cher*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Qui sont les nouveaux arrivants, d'après les chiffres de Théo ?",
+      "answer": "Près de la moitié ont 25 à 40 ans, environ un tiers travaillent à distance, et plus de 60 % viennent de la région parisienne",
+      "options": [
+        "Près de la moitié ont 25 à 40 ans, environ un tiers travaillent à distance, et plus de 60 % viennent de la région parisienne",
+        "Surtout des retraités venus d'Allemagne",
+        "Des étudiants venus de Lyon",
+        "Des familles venues de Marseille même"
+      ],
+      "evidence": "Près de la moitié des nouveaux arrivants ont entre vingt-cinq et quarante ans."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quelle conséquence négative Lucas souligne-t-il ?",
+      "answer": "Les loyers augmentent et ce sont les Marseillais modestes qui en paient le prix",
+      "options": [
+        "Les loyers augmentent et ce sont les Marseillais modestes qui en paient le prix",
+        "Les plages sont trop fréquentées",
+        "Les écoles ferment",
+        "Il n'y a plus de travail"
+      ],
+      "evidence": "Dans certains quartiers, les loyers ont augmenté d'une vingtaine de pour cent en cinq ans. Et ce sont les Marseillais modestes qui en paient le prix."
+    },
+    {
+      "id": "q3",
+      "prompt": "Que veut dire Mourad avec sa phrase sur les « ordinateurs » ?",
+      "answer": "Les nouveaux arrivants, à la différence des anciens immigrés ouvriers, ont les moyens de faire monter les loyers",
+      "options": [
+        "Les nouveaux arrivants, à la différence des anciens immigrés ouvriers, ont les moyens de faire monter les loyers",
+        "Les ordinateurs remplacent les ouvriers au port",
+        "Les Parisiens n'aiment pas Marseille",
+        "Internet a tué la pétanque"
+      ],
+      "evidence": "La seule différence, c'est que nous, on n'avait pas les moyens de faire monter les loyers."
+    }
+  ],
+  "writing": {
+    "prompt": "Présentez les résultats d'un petit sondage imaginaire (sur vos collègues, votre classe…) en 4–5 phrases, avec au moins quatre expressions d'approximation (*une vingtaine, près de la moitié, environ un tiers…*).",
+    "model": "J'ai interrogé une trentaine de collègues. Près de la moitié viennent au travail à vélo. Environ un tiers déjeunent à leur bureau. Un sur cinq fait du télétravail le vendredi. Une dizaine aimeraient travailler quatre jours par semaine.",
+    "targets": [
+      {
+        "label": "approximations (-aine, près de, environ, la moitié, un tiers, un sur…)",
+        "pattern": "\\b(dizaine|douzaine|quinzaine|vingtaine|trentaine|quarantaine|cinquantaine|centaine)s?\\b|près de|\\benviron\\b|la moitié|un tiers|un quart|\\bun sur\\b|deux fois plus",
+        "min": 4
+      }
+    ]
+  }
+}

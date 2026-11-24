@@ -1,0 +1,127 @@
+{
+  "id": "a1-18",
+  "level": "A1",
+  "number": 18,
+  "title": "Les loisirs",
+  "grammar": "*jouer à / jouer de*, verbs of liking + infinitive",
+  "theme": "hobbies",
+  "wordCount": 87,
+  "primer": [
+    "**jouer au football / aux cartes**: to play soccer / cards",
+    "**jouer du piano / du violon**: to play piano / violin",
+    "**adorer, aimer, préférer, détester**: to love, like, prefer, hate",
+    "**lire**: to read",
+    "**un roman policier**: a detective novel",
+    "**gagner / perdre**: to win / to lose",
+    "**chaque**: each"
+  ],
+  "passage": [
+    [
+      "Chaque ami a une passion. Léa adore prendre des photos. Elle aime aussi lire des romans policiers."
+    ],
+    [
+      "Marco joue au football le mercredi avec des étudiants de l'université. Il aime regarder les matchs à la télé."
+    ],
+    [
+      "Amina joue du piano et du violon. Elle préfère écouter du jazz."
+    ],
+    [
+      "Hugo, lui, n'aime pas le sport. Il préfère cuisiner et jouer aux cartes."
+    ],
+    [
+      "Le dimanche soir, les quatre amis jouent aux cartes chez Léa. Hugo gagne toujours !"
+    ],
+    [
+      "— Ce n'est pas juste ! dit Marco.",
+      "— Tu détestes perdre, Marco ! dit Amina."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "une passion",
+      "en": "a passion, a big interest"
+    },
+    {
+      "fr": "les matchs",
+      "en": "the games, matches"
+    },
+    {
+      "fr": "à la télé",
+      "en": "on TV"
+    },
+    {
+      "fr": "écouter",
+      "en": "to listen to"
+    },
+    {
+      "fr": "lui",
+      "en": "him (for emphasis: \"as for him\")"
+    },
+    {
+      "fr": "cuisiner",
+      "en": "to cook"
+    },
+    {
+      "fr": "Ce n'est pas juste !",
+      "en": "That's not fair!"
+    }
+  ],
+  "spotlight": [
+    "**Jouer à** for sports and games (*au football, aux cartes*); **jouer de** for instruments (*du piano, du violon*).",
+    "**Liking verbs + infinitive:** *Léa adore prendre des photos. Tu détestes perdre.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What are Léa's two hobbies?",
+      "answer": "Taking photos and reading detective novels",
+      "options": [
+        "Taking photos and reading detective novels",
+        "Playing football and watching TV",
+        "Cooking and playing cards",
+        "Playing piano and singing"
+      ],
+      "evidence": "Léa adore prendre des photos. Elle aime aussi lire des romans policiers."
+    },
+    {
+      "id": "q2",
+      "prompt": "What instruments does Amina play?",
+      "answer": "Piano and violin",
+      "options": [
+        "Piano and violin",
+        "Guitar and piano",
+        "Violin and drums",
+        "Only piano"
+      ],
+      "evidence": "Amina joue du piano et du violon."
+    },
+    {
+      "id": "q3",
+      "prompt": "Who wins at cards, and how does Marco react?",
+      "answer": "Hugo wins, and Marco says it's not fair",
+      "options": [
+        "Hugo wins, and Marco says it's not fair",
+        "Marco wins, and Hugo is happy",
+        "Amina wins, and Marco laughs",
+        "Léa wins, and Marco leaves"
+      ],
+      "evidence": "Hugo gagne toujours ! — Ce n'est pas juste ! dit Marco."
+    }
+  ],
+  "writing": {
+    "prompt": "Write two sentences about what you love and hate doing. Use *jouer à* or *jouer de* if you can.",
+    "model": "J'adore jouer de la guitare. Je déteste faire la cuisine.",
+    "targets": [
+      {
+        "label": "a liking verb + infinitive",
+        "pattern": "\\b(adore|aime|préfère|déteste)\\s+[a-zà-ÿ]+(er|ir|re)\\b",
+        "min": 1
+      },
+      {
+        "label": "jouer à / jouer de (optional)",
+        "pattern": "jou(e|es|er|ons|ez|ent)\\s+(à|au|aux|du|de la|de l'|des)\\b",
+        "min": 0
+      }
+    ]
+  }
+}

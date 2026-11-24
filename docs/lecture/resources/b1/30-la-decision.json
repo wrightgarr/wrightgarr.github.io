@@ -1,0 +1,177 @@
+{
+  "id": "b1-30",
+  "level": "B1",
+  "number": 30,
+  "title": "La décision",
+  "grammar": "review of B1",
+  "theme": "choosing a life",
+  "wordCount": 381,
+  "primer": [
+    "**review: subjunctive** (*bien que, à condition que, il faut que*)",
+    "**review: conditional** (*si je partais, je serais…*)",
+    "**review: dont, ce que, ce qui**",
+    "**une correspondante**: a (foreign) correspondent",
+    "**les racines**: roots",
+    "**une contre-offre**: a counter-offer"
+  ],
+  "passage": [
+    [
+      "Une semaine plus tard, Léa a écrit à Claire Dumas."
+    ],
+    [
+      "« Chère Claire,"
+    ],
+    [
+      "Je vous remercie encore pour votre proposition. C'est sans doute le plus beau compliment qu'on m'ait jamais fait, et j'y ai pensé jour et nuit. Pourtant, bien que ce poste soit le rêve de toute ma vie, je ne peux pas l'accepter."
+    ],
+    [
+      "Ce que j'ai compris cette semaine, c'est que mes meilleures photos ne viennent pas de mon talent, mais des gens dont je suis proche. Si je partais à Paris, je serais peut-être une meilleure professionnelle, mais je photographierais des gens que je ne connais pas. Ici, j'ai une ville qui m'a adoptée, une voisine qui m'apprend la bouillabaisse et un magazine dont je suis copropriétaire."
+    ],
+    [
+      "J'aimerais cependant vous faire une proposition. Horizons n'a personne en Méditerranée. Si vous le souhaitez, je pourrais devenir votre correspondante, basée à Marseille. Je couvrirais l'Espagne, l'Italie, la Grèce, le Maghreb… Vous auriez quelqu'un sur place, et moi, je garderais mes racines. À condition que vous soyez d'accord, bien sûr."
+    ],
+    [
+      "Avec toute mon amitié,",
+      "Léa »"
+    ],
+    [
+      "La réponse est arrivée deux jours plus tard : « Proposition acceptée. Premier reportage : la Sicile, en octobre. Et ne refusez plus jamais rien sans me faire une contre-offre. Claire. »"
+    ],
+    [
+      "Le soir du 21 juin, jour de la fête de la musique, tout le monde s'est retrouvé sur le toit de l'immeuble, celui où Minou avait disparu deux ans plus tôt. Amina jouait avec trois musiciens de l'orchestre. Karim faisait griller des sardines. Lucas et Théo se disputaient à propos de la prochaine couverture. Josette avait apporté une tarte, et Delmas, que personne n'avait invité, était venu quand même. Thomas, lui, était arrivé la veille avec deux valises : une rouge, et une avec un ruban vert."
+    ],
+    [
+      "Madame Ferrand s'est assise à côté de Léa, face à la mer."
+    ],
+    [
+      "— Alors, tu restes.",
+      "— Je reste. Il faut bien que quelqu'un apprenne votre bouillabaisse.",
+      "— C'est vrai. Et puis il faudra que quelqu'un s'occupe d'autre chose…",
+      "— De quoi ?",
+      "— Des carnets de Jean. Il y en a quarante. Il écrivait tout, depuis 1960. Personne ne les a jamais lus. Je crois qu'il est temps que quelqu'un le fasse."
+    ],
+    [
+      "Léa a regardé la vieille dame. Sur le Vieux-Port, les premières lumières s'allumaient."
+    ],
+    [
+      "— Quand est-ce qu'on commence ?",
+      "— Demain, ma belle. Ce soir, on écoute la musique."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "sans doute",
+      "en": "probably"
+    },
+    {
+      "fr": "copropriétaire",
+      "en": "co-owner"
+    },
+    {
+      "fr": "basée à",
+      "en": "based in"
+    },
+    {
+      "fr": "je couvrirais",
+      "en": "I would cover"
+    },
+    {
+      "fr": "sur place",
+      "en": "on the ground"
+    },
+    {
+      "fr": "la fête de la musique",
+      "en": "France's music festival (June 21st)"
+    },
+    {
+      "fr": "faisait griller",
+      "en": "was grilling"
+    },
+    {
+      "fr": "à propos de",
+      "en": "about"
+    },
+    {
+      "fr": "la veille",
+      "en": "the day before"
+    },
+    {
+      "fr": "s'occupe de",
+      "en": "(that someone) takes care of",
+      "match": [
+        "s'occupe d'"
+      ]
+    },
+    {
+      "fr": "des carnets",
+      "en": "notebooks"
+    },
+    {
+      "fr": "s'allumaient",
+      "en": "were coming on"
+    }
+  ],
+  "spotlight": [
+    "**B1 in a single letter:** a superlative with the subjunctive (*le plus beau compliment qu'on m'ait jamais fait*), concession (*bien que ce poste soit le rêve de toute ma vie*), emphasis (*Ce que j'ai compris, c'est que…*), relative pronouns (*des gens dont je suis proche, un magazine dont je suis copropriétaire*), and the imaginary *si* (*Si je partais à Paris, je serais…*).",
+    "**A polite proposal:** the conditional softens every step (*J'aimerais vous faire une proposition… je pourrais devenir votre correspondante… Vous auriez quelqu'un sur place*), and the letter closes with a condition: *À condition que vous soyez d'accord*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi Léa refuse-t-elle le poste de chef photo ?",
+      "answer": "Ses meilleures photos viennent des gens dont elle est proche, à Marseille",
+      "options": [
+        "Ses meilleures photos viennent des gens dont elle est proche, à Marseille",
+        "Le salaire est trop bas",
+        "Elle n'aime pas Claire Dumas",
+        "Elle a peur de l'avion"
+      ],
+      "evidence": "Ce que j'ai compris cette semaine, c'est que mes meilleures photos ne viennent pas de mon talent, mais des gens dont je suis proche."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quelle contre-proposition fait-elle à Claire Dumas ?",
+      "answer": "Devenir la correspondante d'Horizons en Méditerranée, basée à Marseille",
+      "options": [
+        "Devenir la correspondante d'Horizons en Méditerranée, basée à Marseille",
+        "Travailler à Paris deux jours par semaine",
+        "Envoyer Lucas à sa place",
+        "Ouvrir un bureau d'Horizons à Lyon"
+      ],
+      "evidence": "Si vous le souhaitez, je pourrais devenir votre correspondante, basée à Marseille."
+    },
+    {
+      "id": "q3",
+      "prompt": "Que demande Madame Ferrand à Léa à la fin ?",
+      "answer": "Lire les quarante carnets de son mari Jean",
+      "options": [
+        "Lire les quarante carnets de son mari Jean",
+        "Prendre sa place dans la cuisine",
+        "Écrire un article sur la fête",
+        "Garder Minou pendant ses voyages"
+      ],
+      "evidence": "Des carnets de Jean. Il y en a quarante."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez une courte lettre (5–6 phrases) pour refuser poliment une proposition et en faire une autre. Utilisez au moins un subjonctif, un conditionnel, et *dont* ou *ce que*.",
+    "model": "Chère Madame, je vous remercie pour votre offre. Bien qu'elle soit très intéressante, je ne peux pas l'accepter. Ce que je cherche, c'est un poste près de ma famille. Je pourrais cependant travailler pour vous à distance, si vous le souhaitez.",
+    "targets": [
+      {
+        "label": "a subjunctive",
+        "pattern": "\\bqu(e|')\\s*(je|j'|tu|il|elle|on|nous|vous|ils|elles)\\s*[a-zà-ÿ]+(e|es|ent|ions|iez)\\b|\\b(sois|soit|soyons|soyez|soient|aie|aies|ait|ayons|ayez|fasse|fasses|fassions|fassiez|fassent|aille|ailles|aillent|puisse|puisses|puissions|puissiez|puissent|sache|saches|sachent|veuille|veuillent|vienne|viennes|viennent|prenne|prennes|prennent)\\b",
+        "min": 1
+      },
+      {
+        "label": "a conditional",
+        "pattern": "\\b(?!(?:courais|courait|mourait)\\b)[a-zà-ÿ]+r(ais|ait|ions|iez|aient)\\b",
+        "min": 1
+      },
+      {
+        "label": "dont / ce que / ce qui",
+        "pattern": "\\bdont\\b|ce qu(e|i|')",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "a1-10",
+  "level": "A1",
+  "number": 10,
+  "title": "Le métro",
+  "grammar": "*aller*, *à* + article",
+  "theme": "getting around Paris",
+  "wordCount": 87,
+  "primer": [
+    "**aller**: to go (*je vais, tu vas, il va, nous allons, vous allez, ils vont*)",
+    "**au / à la / à l' / aux**: to the",
+    "**en métro / à vélo / à pied**: by metro / by bike / on foot",
+    "**le travail**: work",
+    "**ensemble**: together",
+    "**le cinéma**: the cinema",
+    "**rapide**: fast"
+  ],
+  "passage": [
+    [
+      "Paris est grand, mais le métro est rapide. Le matin, Léa va au musée en métro. Marco va à l'université à vélo. Amina va au conservatoire à pied : elle habite près."
+    ],
+    [
+      "Le samedi, les trois amis vont au marché ensemble. Le dimanche, Léa va au restaurant d'Hugo."
+    ],
+    [
+      "Un soir, Léa et Amina rencontrent Marco dans la rue."
+    ],
+    [
+      "— Tu vas où, Marco ?",
+      "— Je vais à la bibliothèque. Et vous ?",
+      "— Nous allons au cinéma. Le film est à huit heures.",
+      "— Super ! Je vais aussi au cinéma après la bibliothèque !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "l'université",
+      "en": "the university"
+    },
+    {
+      "fr": "le conservatoire",
+      "en": "the music school"
+    },
+    {
+      "fr": "elle habite près",
+      "en": "she lives close by"
+    },
+    {
+      "fr": "le samedi / le dimanche",
+      "en": "on Saturdays / on Sundays"
+    },
+    {
+      "fr": "rencontrent",
+      "en": "meet, run into"
+    },
+    {
+      "fr": "Tu vas où ?",
+      "en": "Where are you going?"
+    },
+    {
+      "fr": "le film",
+      "en": "the movie"
+    },
+    {
+      "fr": "à huit heures",
+      "en": "at eight o'clock"
+    }
+  ],
+  "spotlight": [
+    "**Aller is irregular:** *je vais, tu vas, il va, nous allons, vous allez, ils vont*. All six forms appear here or in the primer.",
+    "**À + le = au, à + les = aux:** *Léa va au musée* (not *à le musée*), but *à la bibliothèque*, *à l'université*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "How do Léa, Marco, and Amina each travel?",
+      "answer": "Léa by metro, Marco by bike, Amina on foot",
+      "options": [
+        "Léa by metro, Marco by bike, Amina on foot",
+        "Léa by bike, Marco on foot, Amina by metro",
+        "All three by metro",
+        "Léa on foot, Marco by metro, Amina by bike"
+      ],
+      "evidence": "Léa va au musée en métro. Marco va à l'université à vélo. Amina va au conservatoire à pied."
+    },
+    {
+      "id": "q2",
+      "prompt": "What do the friends do on Saturdays?",
+      "answer": "They go to the market together",
+      "options": [
+        "They go to the market together",
+        "They go to the cinema",
+        "They eat at Hugo's restaurant",
+        "They study at the library"
+      ],
+      "evidence": "Le samedi, les trois amis vont au marché ensemble."
+    },
+    {
+      "id": "q3",
+      "prompt": "Where is Marco going, and where will he go afterwards?",
+      "answer": "To the library, then to the cinema",
+      "options": [
+        "To the library, then to the cinema",
+        "To the cinema, then to the library",
+        "To the market, then home",
+        "To the university, then to the museum"
+      ],
+      "evidence": "Je vais à la bibliothèque. … Je vais aussi au cinéma après la bibliothèque !"
+    }
+  ],
+  "writing": {
+    "prompt": "Say where you go on two different days and how you get there.",
+    "model": "Le lundi, je vais au travail en métro. Le samedi, je vais au marché à pied.",
+    "targets": [
+      {
+        "label": "a form of aller (vais, vas, va…)",
+        "pattern": "\\b(vais|vas|va|allons|allez|vont)\\b",
+        "min": 2
+      },
+      {
+        "label": "au / à la / à l' / aux",
+        "pattern": "\\b(au|aux|à la|à l')",
+        "min": 1
+      },
+      {
+        "label": "how (en métro, à pied, à vélo…)",
+        "pattern": "en (métro|bus|voiture|train|tram)|à (pied|vélo)",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "id": "a2-11",
+  "level": "A2",
+  "number": 11,
+  "title": "Je lui offre quoi ?",
+  "grammar": "indirect object pronouns *lui*, *leur*",
+  "theme": "choosing gifts",
+  "wordCount": 202,
+  "primer": [
+    "**lui**: (to) him / (to) her",
+    "**leur**: (to) them",
+    "**me / te**: (to) me / (to) you",
+    "**verbs with à**: *parler à, téléphoner à, écrire à, offrir à, envoyer à, demander à*",
+    "**offrir**: to give (as a gift) → *offert*",
+    "**un conseil**: a piece of advice",
+    "**envoyer**: to send"
+  ],
+  "passage": [
+    [
+      "En mai, Léa avait beaucoup de cadeaux à préparer : la fête des mères, l'anniversaire d'Hugo et le diplôme de Marco. Elle a demandé conseil à Karim."
+    ],
+    [
+      "— Pour ma mère, j'ai une idée : je lui offre un livre de photos de Marseille. Elle adore les livres.",
+      "— Et ton père ? Tu lui offres quelque chose aussi ?",
+      "— Je ne sais pas. L'année dernière, je lui ai offert une cravate. Il ne l'a jamais portée !",
+      "— Offre-lui une bouteille d'huile d'olive de Provence. Tout le monde aime ça.",
+      "— Bonne idée. Pour Hugo, c'est facile : je lui envoie des épices du marché de Noailles. C'est un cuisinier !",
+      "— Et tes amis de Paris ?",
+      "— Je leur écris une longue lettre chaque mois. Cette fois, je leur envoie aussi du savon de Marseille, le vrai, de la savonnerie du Panier.",
+      "— Et Marco a fini ses études ?",
+      "— Oui, il a eu son diplôme ! Je vais lui téléphoner ce soir pour le féliciter.",
+      "— Et moi ? a demandé Karim avec un sourire. Tu me fais un cadeau ?",
+      "— Toi ? Je te donne un conseil : achète un parapluie ! Tu es toujours mouillé quand il pleut."
+    ],
+    [
+      "Karim a ri."
+    ],
+    [
+      "— D'accord. Et moi, je t'offre un repas chez ma mère dimanche. Elle fait le meilleur couscous de Marseille !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "la fête des mères",
+      "en": "Mother's Day"
+    },
+    {
+      "fr": "le diplôme",
+      "en": "the degree, diploma"
+    },
+    {
+      "fr": "a demandé conseil à",
+      "en": "asked advice from"
+    },
+    {
+      "fr": "une cravate",
+      "en": "a tie"
+    },
+    {
+      "fr": "l'huile d'olive",
+      "en": "olive oil"
+    },
+    {
+      "fr": "des épices",
+      "en": "spices"
+    },
+    {
+      "fr": "le marché de Noailles",
+      "en": "Marseille's North African market"
+    },
+    {
+      "fr": "le savon de Marseille",
+      "en": "traditional olive-oil soap"
+    },
+    {
+      "fr": "la savonnerie",
+      "en": "the soap works"
+    },
+    {
+      "fr": "féliciter",
+      "en": "to congratulate"
+    },
+    {
+      "fr": "un parapluie",
+      "en": "an umbrella"
+    },
+    {
+      "fr": "mouillé",
+      "en": "wet"
+    },
+    {
+      "fr": "un repas",
+      "en": "a meal"
+    }
+  ],
+  "spotlight": [
+    "**Lui and leur replace à + a person:** *J'offre un livre à ma mère → Je lui offre un livre. J'écris à Marco et Amina → Je leur écris.* *Lui* is the same for him and her.",
+    "**Don't confuse the pronoun leur with leur(s) meaning \"their\":** *je leur envoie* (I send to them) vs. *leurs bateaux* (their boats). In an affirmative command the pronoun comes after the verb: *Offre-lui une bouteille.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is Léa giving her mother, and why?",
+      "answer": "A book of photos of Marseille, because she loves books",
+      "options": [
+        "A book of photos of Marseille, because she loves books",
+        "Olive oil, because she loves cooking",
+        "A tie, because she asked for one",
+        "Soap, because it's from Marseille"
+      ],
+      "evidence": "Pour ma mère, j'ai une idée : je lui offre un livre de photos de Marseille. Elle adore les livres."
+    },
+    {
+      "id": "q2",
+      "prompt": "What happened to the tie Léa gave her father?",
+      "answer": "He never wore it",
+      "options": [
+        "He never wore it",
+        "He lost it",
+        "He gave it to Hugo",
+        "He wears it every day"
+      ],
+      "evidence": "L'année dernière, je lui ai offert une cravate. Il ne l'a jamais portée !"
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Léa \"give\" Karim, and what does Karim offer her?",
+      "answer": "Advice to buy an umbrella — and Karim offers a meal at his mother's",
+      "options": [
+        "Advice to buy an umbrella — and Karim offers a meal at his mother's",
+        "A book — and Karim offers a bottle of wine",
+        "Soap — and Karim offers to drive her",
+        "Spices — and Karim offers to cook for her"
+      ],
+      "evidence": "Je te donne un conseil : achète un parapluie ! … Et moi, je t'offre un repas chez ma mère dimanche."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about gifts for people you know, using *lui* and *leur*.",
+    "model": "Pour l'anniversaire de mon frère, je lui offre un livre. À mes parents, je leur envoie des fleurs. Ma sœur, je lui téléphone ce soir.",
+    "targets": [
+      {
+        "label": "lui",
+        "pattern": "\\blui\\b",
+        "min": 1
+      },
+      {
+        "label": "leur (as a pronoun before a verb)",
+        "pattern": "\\bleur\\s+[a-zà-ÿ]+(e|es|ons|ez|ent|ai|a|ais)\\b|\\bleur\\s+(ai|as|a|avons|avez|ont)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

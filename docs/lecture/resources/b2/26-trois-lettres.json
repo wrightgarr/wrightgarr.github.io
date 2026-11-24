@@ -1,0 +1,207 @@
+{
+  "id": "b2-26",
+  "level": "B2",
+  "number": 26,
+  "title": "Trois lettres",
+  "grammar": "registers: formal, standard and familiar",
+  "theme": "announcing the book",
+  "wordCount": 521,
+  "primer": [
+    "**soutenu (formal)**: set formulas, nouns, *nous vous prions d'agréer…*",
+    "**courant (standard)**: polite but direct: *Chère Claire…, Bien amicalement*",
+    "**familier (informal)**: *t'as, t'arrives*, no *ne*, abbreviations",
+    "**la parution**: publication (formal for *la sortie*)",
+    "**un courriel**: an email (also *un e-mail, un mail*)",
+    "**un exemplaire**: a copy (of a book)"
+  ],
+  "passage": [
+    [
+      "Début mai, la date était fixée : le livre sortirait le 12 juin, et la présentation aurait lieu le soir même au Mistral, dans la grande salle de la rédaction. Il fallait maintenant prévenir tout le monde. Léa s'est installée devant son ordinateur avec une liste d'invités et une tasse de café. Elle a vite compris qu'elle ne pourrait pas écrire le même message à tout le monde."
+    ],
+    [
+      "Au maire, elle a envoyé une lettre officielle, sur papier, que Madame Ferrand a signée avec elle :"
+    ],
+    [
+      "« Monsieur le Maire,"
+    ],
+    [
+      "Nous avons le plaisir de vous informer de la parution, le 12 juin prochain, de l'ouvrage Les Carnets du Vieux-Port, consacré aux écrits de Jean Ferrand, docker marseillais, et publié aux Éditions du Lacydon."
+    ],
+    [
+      "Compte tenu de l'intérêt que vous avez bien voulu porter à notre projet de mur du souvenir, nous serions honorées que vous puissiez assister à la présentation de cet ouvrage, qui se tiendra le même jour à 19 heures dans les locaux du magazine Le Mistral."
+    ],
+    [
+      "Dans l'attente de votre réponse, nous vous prions d'agréer, Monsieur le Maire, l'expression de notre respectueuse considération."
+    ],
+    [
+      "Simone Ferrand et Léa Moreau »"
+    ],
+    [
+      "À Claire Dumas, à Horizons, elle a envoyé un courriel plus simple :"
+    ],
+    [
+      "« Chère Claire,"
+    ],
+    [
+      "J'ai une bonne nouvelle : le livre sort enfin ! Il sera en librairie le 12 juin, et nous faisons une petite présentation le soir même au Mistral, à 19 h. Ce serait un grand plaisir de vous y voir, si votre emploi du temps le permet. Je sais que vous êtes très prise en ce moment, alors surtout, ne vous sentez pas obligée."
+    ],
+    [
+      "Je vous enverrai un exemplaire dans tous les cas : sans vous, une bonne partie de ces photos n'existerait pas."
+    ],
+    [
+      "Bien amicalement,",
+      "Léa »"
+    ],
+    [
+      "Enfin, à Hugo, à Paris, elle a envoyé un message sur son téléphone :"
+    ],
+    [
+      "« Hugo !!! Le livre sort le 12 juin !!! Présentation au Mistral à 19 h. T'as intérêt à venir, sinon je le dis à maman. Et prends le train de 14 h, pas celui de 18 h, t'arrives toujours en retard. Bisous. PS : apporte des macarons pour Mme F, elle me les a demandés trois fois. »"
+    ],
+    [
+      "Thomas, qui lisait par-dessus son épaule, a éclaté de rire."
+    ],
+    [
+      "— Trois lettres, trois Léa différentes. La première pourrait être signée par un ministre.",
+      "— C'est le but. Le maire reçoit cent lettres par jour. S'il y a une seule faute de ton, la lettre finit à la poubelle.",
+      "— Et la troisième ?",
+      "— La troisième, si je l'écrivais comme la première, Hugo croirait que je suis malade."
+    ],
+    [
+      "Le soir, Léa a montré les trois textes à Madame Ferrand. La vieille dame les a lus attentivement, ses lunettes au bout du nez."
+    ],
+    [
+      "— La lettre au maire est parfaite. Le courriel à ton amie est gentil. Le message à ton frère…"
+    ],
+    [
+      "Elle a froncé les sourcils devant les points d'exclamation."
+    ],
+    [
+      "— Pourquoi trois points d'exclamation ? Un seul ne suffit pas ?",
+      "— C'est pour dire que je suis très excitée.",
+      "— Il suffit de l'écrire, ma belle. Les mots, ça existe encore."
+    ],
+    [
+      "Elle a réfléchi, puis elle a souri."
+    ],
+    [
+      "— Mais tu as raison pour les macarons. Rajoute « à la pistache ». Ton frère prend toujours les mauvais."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "l'ouvrage",
+      "en": "the book, the work"
+    },
+    {
+      "fr": "consacré aux écrits",
+      "en": "devoted to the writings"
+    },
+    {
+      "fr": "Compte tenu de",
+      "en": "Given"
+    },
+    {
+      "fr": "que vous avez bien voulu porter",
+      "en": "that you were kind enough to show"
+    },
+    {
+      "fr": "nous serions honorées",
+      "en": "we would be honoured"
+    },
+    {
+      "fr": "assister à",
+      "en": "to attend"
+    },
+    {
+      "fr": "qui se tiendra",
+      "en": "which will be held"
+    },
+    {
+      "fr": "les locaux",
+      "en": "the premises"
+    },
+    {
+      "fr": "Dans l'attente de",
+      "en": "Looking forward to"
+    },
+    {
+      "fr": "très prise",
+      "en": "very busy"
+    },
+    {
+      "fr": "T'as intérêt à venir",
+      "en": "You'd better come"
+    },
+    {
+      "fr": "par-dessus son épaule",
+      "en": "over her shoulder"
+    },
+    {
+      "fr": "une faute de ton",
+      "en": "a slip in tone"
+    },
+    {
+      "fr": "a froncé les sourcils",
+      "en": "frowned"
+    }
+  ],
+  "spotlight": [
+    "**One message, three registers:** the formal letter relies on nouns and set phrases (*la parution de l'ouvrage, compte tenu de l'intérêt que vous avez bien voulu porter, nous serions honorées que vous puissiez assister*). The standard email is warm but correct (*Ce serait un grand plaisir de vous y voir, si votre emploi du temps le permet*). The text to Hugo is pure spoken French (*T'as intérêt à venir, t'arrives toujours en retard*).",
+    "**Same information, different choices:** *la sortie du livre* (standard) vs. *la parution de l'ouvrage* (formal); *venir* vs. *assister à*; *au Mistral* vs. *dans les locaux du magazine*. Choosing a register isn't about being more or less correct; it reflects your relationship with the reader."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi Léa ne peut-elle pas écrire le même message à tout le monde ?",
+      "answer": "Chaque destinataire demande un registre différent selon la relation",
+      "options": [
+        "Chaque destinataire demande un registre différent selon la relation",
+        "Elle n'a pas le temps",
+        "Son ordinateur est en panne",
+        "Madame Ferrand le lui interdit"
+      ],
+      "evidence": "Elle a vite compris qu'elle ne pourrait pas écrire le même message à tout le monde."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quelles expressions rendent la lettre au maire très formelle ?",
+      "answer": "« la parution de l'ouvrage », « compte tenu de », « nous serions honorées que vous puissiez assister »",
+      "options": [
+        "« la parution de l'ouvrage », « compte tenu de », « nous serions honorées que vous puissiez assister »",
+        "« T'as intérêt à venir »",
+        "« Bisous »",
+        "« Bien amicalement »"
+      ],
+      "evidence": "nous serions honorées que vous puissiez assister à la présentation de cet ouvrage"
+    },
+    {
+      "id": "q3",
+      "prompt": "Que reproche Madame Ferrand au message envoyé à Hugo ?",
+      "answer": "Les trois points d'exclamation : elle préfère des mots",
+      "options": [
+        "Les trois points d'exclamation : elle préfère des mots",
+        "Les fautes d'orthographe",
+        "Le ton trop formel",
+        "Il est trop long"
+      ],
+      "evidence": "Pourquoi trois points d'exclamation ? Un seul ne suffit pas ?"
+    }
+  ],
+  "writing": {
+    "prompt": "Annoncez la même nouvelle (un déménagement, une naissance, un nouveau travail…) dans deux registres : une phrase très formelle et un message familier à un ami.",
+    "model": "Formel : Nous avons le plaisir de vous informer de notre installation à Lyon à compter du 1er septembre. Familier : Salut ! On déménage à Lyon en septembre, t'as intérêt à venir nous voir !",
+    "targets": [
+      {
+        "label": "formal formulas (avoir le plaisir de, vous informer, nous vous prions, à compter de…)",
+        "pattern": "avons le plaisir|ai le plaisir|vous informer|nous vous prions|je vous prie|à compter d|veuillez|nous serions honorés|l'honneur",
+        "min": 1
+      },
+      {
+        "label": "familiar markers (salut, t'as, t'es, y a, ouf, bisous…)",
+        "pattern": "\\bsalut\\b|\\bt'as\\b|\\bt'es\\b|\\by a\\b|\\bbisous\\b|\\bcoucou\\b|\\bmec\\b|\\bouf\\b|\\bsuper\\b",
+        "min": 1
+      }
+    ]
+  }
+}

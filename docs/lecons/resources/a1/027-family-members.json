@@ -1,0 +1,56 @@
+{
+ "id": "s27",
+ "subject": 27,
+ "level": "A1",
+ "title": "Family Members",
+ "sections": [
+  {
+   "heading": "Close family (la famille proche)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Masculine</th>\n<th>Feminine</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>le père</td>\n<td>la mère</td>\n<td>father / mother</td>\n</tr>\n<tr>\n<td>le papa</td>\n<td>la maman</td>\n<td>dad / mom</td>\n</tr>\n<tr>\n<td>les parents</td>\n<td></td>\n<td>parents (also: relatives)</td>\n</tr>\n<tr>\n<td>le fils (fees)</td>\n<td>la fille</td>\n<td>son / daughter</td>\n</tr>\n<tr>\n<td>les enfants</td>\n<td></td>\n<td>children</td>\n</tr>\n<tr>\n<td>le frère</td>\n<td>la sœur</td>\n<td>brother / sister</td>\n</tr>\n<tr>\n<td>le mari</td>\n<td>la femme</td>\n<td>husband / wife</td>\n</tr>\n<tr>\n<td>le conjoint / le partenaire</td>\n<td>la conjointe / la partenaire</td>\n<td>partner / spouse</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Extended family",
+   "html": "<table>\n<thead>\n<tr>\n<th>Masculine</th>\n<th>Feminine</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>le grand-père</td>\n<td>la grand-mère</td>\n<td>grandfather / grandmother</td>\n</tr>\n<tr>\n<td>les grands-parents</td>\n<td></td>\n<td>grandparents</td>\n</tr>\n<tr>\n<td>le petit-fils</td>\n<td>la petite-fille</td>\n<td>grandson / granddaughter</td>\n</tr>\n<tr>\n<td>les petits-enfants</td>\n<td></td>\n<td>grandchildren</td>\n</tr>\n<tr>\n<td>l'oncle</td>\n<td>la tante</td>\n<td>uncle / aunt</td>\n</tr>\n<tr>\n<td>le neveu</td>\n<td>la nièce</td>\n<td>nephew / niece</td>\n</tr>\n<tr>\n<td>le cousin</td>\n<td>la cousine</td>\n<td>cousin</td>\n</tr>\n<tr>\n<td>le beau-père</td>\n<td>la belle-mère</td>\n<td>father-in-law / stepfather; mother-in-law / stepmother</td>\n</tr>\n<tr>\n<td>le beau-frère</td>\n<td>la belle-sœur</td>\n<td>brother-in-law / sister-in-law</td>\n</tr>\n<tr>\n<td>le gendre</td>\n<td>la belle-fille / la bru</td>\n<td>son-in-law / daughter-in-law</td>\n</tr>\n<tr>\n<td>le demi-frère</td>\n<td>la demi-sœur</td>\n<td>half-brother / half-sister</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Notes",
+   "html": "<ul>\n<li><strong>la fille</strong> = daughter <strong>or</strong> girl; <strong>la femme</strong> = wife <strong>or</strong> woman.</li>\n<li><strong>les parents</strong> = parents but also relatives in general.</li>\n<li><em>Beau-/belle-</em> covers both in-laws and step-relations.</li>\n<li><em>fils</em> is pronounced \"fees\" (the l is silent, the s is pronounced).</li>\n</ul>"
+  },
+  {
+   "heading": "Family status",
+   "html": "<ul>\n<li><em>Je suis marié(e).</em> — I'm married.</li>\n<li><em>Je suis célibataire.</em> — I'm single.</li>\n<li><em>Je suis divorcé(e).</em> — I'm divorced.</li>\n<li><em>Je suis en couple.</em> — I'm in a relationship.</li>\n<li><em>Je suis fils unique / fille unique.</em> — I'm an only child.</li>\n<li><em>Je suis l'aîné(e) / le cadet / la cadette.</em> — I'm the eldest / the youngest.</li>\n</ul>"
+  },
+  {
+   "heading": "Talking about your family",
+   "html": "<ul>\n<li><em>J'ai deux frères et une sœur.</em></li>\n<li><em>Mon frère s'appelle Marc. Il a 35 ans.</em></li>\n<li><em>Nous sommes cinq dans ma famille.</em> — There are five of us in my family.</li>\n<li><em>Tu as des frères et sœurs ?</em> — Do you have brothers and sisters?</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Who is it? (a) the son of my brother (b) the mother of my father (c) the sister of my mother (d) the husband of my sister.",
+   "answer": "(a) mon neveu (b) ma grand-mère (c) ma tante (d) mon beau-frère",
+   "id": "e1"
+  },
+  {
+   "prompt": "Feminine of: *le neveu*, *le cousin*, *le beau-père*, *le petit-fils*.",
+   "answer": "*la nièce*, *la cousine*, *la belle-mère*, *la petite-fille*.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"I have one sister and no brothers.\"",
+   "answer": "*J'ai une sœur et je n'ai pas de frère.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"My parents have three grandchildren.\"",
+   "answer": "*Mes parents ont trois petits-enfants.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Describe your family in 4 sentences.",
+   "answer": "Example: *Dans ma famille, nous sommes quatre. Ma femme s'appelle… Nous avons deux enfants. Mes parents habitent à…*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

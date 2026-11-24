@@ -1,0 +1,182 @@
+{
+  "id": "b2-01",
+  "level": "B2",
+  "number": 1,
+  "title": "Les carnets de Jean",
+  "grammar": "the plus-que-parfait",
+  "theme": "a family archive",
+  "wordCount": 520,
+  "primer": [
+    "**plus-que-parfait = avoir / être (imparfait) + participe passé**: *il avait écrit* (he had written)",
+    "**use**: an action that came before another past moment",
+    "**déjà / jamais / pas encore** go between the two parts: *elle n'avait jamais lu…*",
+    "**un carnet**: a notebook",
+    "**un docker**: a dockworker",
+    "**jauni(e)**: yellowed",
+    "**l'écriture**: handwriting"
+  ],
+  "passage": [
+    [
+      "Le lendemain de la fête de la musique, Madame Ferrand a ouvert un placard que Léa n'avait jamais remarqué, au fond du couloir. À l'intérieur, sur trois étagères, étaient alignés quarante carnets à couverture noire, numérotés de 1 à 40."
+    ],
+    [
+      "— Je ne les avais jamais sortis d'ici, a murmuré la vieille dame. Jean me les avait confiés quelques mois avant sa mort. Il m'avait dit : « Tu les liras quand tu seras prête. » Je n'ai jamais été prête."
+    ],
+    [
+      "Léa a pris le premier carnet avec précaution. Les pages étaient jaunies, l'écriture fine et penchée. Sur la première page, un garçon de quatorze ans avait écrit, en 1960 : « Ce carnet appartient à Jean Ferrand, futur écrivain. Défense de lire. »"
+    ],
+    [
+      "Les deux femmes ont souri en même temps."
+    ],
+    [
+      "Pendant tout l'été, elles se sont retrouvées chaque après-midi dans la cuisine de Madame Ferrand, les volets mi-clos à cause de la chaleur. Léa lisait à voix haute ; Madame Ferrand écoutait, corrigeait parfois une date, ajoutait un détail qu'elle seule connaissait. Peu à peu, une vie entière est sortie des pages."
+    ],
+    [
+      "Jean était né en 1946, rue Caisserie, au-dessus du Vieux-Port. Son père, Marcel, était docker ; sa mère, Rose, vendait du poisson sur le quai. À quatorze ans, Jean avait déjà quitté l'école pour travailler sur le bateau d'un oncle. Mais il avait continué à lire tout ce qu'il trouvait et, surtout, il avait commencé à écrire. Il notait tout : la météo, le prix des sardines, les disputes des voisins, les chansons qu'on chantait au bar du coin, les bateaux qui arrivaient d'Alger ou de Naples."
+    ],
+    [
+      "— Je savais qu'il écrivait, a dit Madame Ferrand un jour. Mais je ne savais pas qu'il avait tout gardé. Quand je l'ai rencontré, en 1972, il avait déjà rempli vingt carnets. Il ne m'en avait jamais parlé."
+    ],
+    [
+      "Le carnet numéro 7 réservait une surprise. Entre deux pages, Léa a trouvé une petite photo en noir et blanc : une jeune femme aux cheveux courts, qui riait dans une barque. Au dos, Jean avait écrit : « La fille de l'institutrice. Elle ne m'a pas encore remarqué. 1971. »"
+    ],
+    [
+      "Madame Ferrand a pris la photo d'une main tremblante."
+    ],
+    [
+      "— C'est moi. Je ne savais même pas qu'il m'avait photographiée avant notre rencontre. Le menteur ! Il m'avait toujours dit qu'il m'avait vue pour la première fois au bal du 14 juillet."
+    ],
+    [
+      "Elle a ri, puis elle a pleuré, puis elle a ri encore."
+    ],
+    [
+      "À la fin du mois d'août, elles avaient lu douze carnets. Léa avait rempli un cahier entier de notes, et une idée avait commencé à grandir dans sa tête. Un soir, elle l'a enfin formulée."
+    ],
+    [
+      "— Madame Ferrand… et si on en faisait un livre ? Les carnets de Jean, avec ses photos et les miennes. Le Marseille d'hier et celui d'aujourd'hui."
+    ],
+    [
+      "La vieille dame est restée silencieuse un long moment. Dehors, les martinets criaient au-dessus des toits."
+    ],
+    [
+      "— Jean avait écrit « futur écrivain » sur son premier carnet, a-t-elle dit enfin. Il n'avait jamais rien publié. Il disait qu'il n'avait pas fait assez d'études, que personne ne s'intéresserait à la vie d'un docker."
+    ],
+    [
+      "Elle a regardé Léa."
+    ],
+    [
+      "— Il s'était trompé. Fais-le, ma belle. Fais-le pour lui."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "un placard",
+      "en": "a cupboard"
+    },
+    {
+      "fr": "alignés",
+      "en": "lined up"
+    },
+    {
+      "fr": "à couverture noire",
+      "en": "with black covers"
+    },
+    {
+      "fr": "me les avait confiés",
+      "en": "had entrusted them to me"
+    },
+    {
+      "fr": "avec précaution",
+      "en": "carefully"
+    },
+    {
+      "fr": "penchée",
+      "en": "slanting"
+    },
+    {
+      "fr": "Défense de lire",
+      "en": "No reading allowed"
+    },
+    {
+      "fr": "mi-clos",
+      "en": "half-closed"
+    },
+    {
+      "fr": "réservait une surprise",
+      "en": "held a surprise"
+    },
+    {
+      "fr": "une barque",
+      "en": "a rowing boat"
+    },
+    {
+      "fr": "Le menteur !",
+      "en": "The liar!"
+    },
+    {
+      "fr": "le bal du 14 juillet",
+      "en": "the Bastille Day dance"
+    },
+    {
+      "fr": "formulée",
+      "en": "put into words"
+    },
+    {
+      "fr": "les martinets",
+      "en": "swifts"
+    }
+  ],
+  "spotlight": [
+    "**Plus-que-parfait = imparfait of avoir / être + past participle.** It places an action before another moment in the past: *Jean me les avait confiés quelques mois avant sa mort. Il m'avait dit : « Tu les liras… »* With *être* verbs the participle agrees as usual: *Jean était né en 1946.*",
+    "**It's the tense of discovery and hindsight:** *Je ne savais pas qu'il avait tout gardé. Quand je l'ai rencontré, il avait déjà rempli vingt carnets. Il s'était trompé.* Adverbs like *déjà* and *jamais* sit between the auxiliary and the participle: *il avait déjà rempli, il n'avait jamais rien publié*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Dans quelles circonstances Madame Ferrand avait-elle reçu les carnets ?",
+      "answer": "Jean les lui avait confiés quelques mois avant sa mort, en disant de les lire quand elle serait prête",
+      "options": [
+        "Jean les lui avait confiés quelques mois avant sa mort, en disant de les lire quand elle serait prête",
+        "Elle les avait trouvés par hasard après sa mort",
+        "Anne les lui avait envoyés de Québec",
+        "Un éditeur les lui avait rendus"
+      ],
+      "evidence": "Jean me les avait confiés quelques mois avant sa mort. Il m'avait dit : « Tu les liras quand tu seras prête. »"
+    },
+    {
+      "id": "q2",
+      "prompt": "Que révèle la photo trouvée dans le carnet numéro 7 ?",
+      "answer": "Jean avait photographié Simone avant leur rencontre officielle",
+      "options": [
+        "Jean avait photographié Simone avant leur rencontre officielle",
+        "Jean avait une autre femme",
+        "Simone avait été pêcheuse",
+        "Jean avait déjà publié un livre"
+      ],
+      "evidence": "Je ne savais même pas qu'il m'avait photographiée avant notre rencontre."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi Jean n'avait-il jamais rien publié, selon sa femme ?",
+      "answer": "Il pensait n'avoir pas fait assez d'études et que personne ne s'intéresserait à un docker",
+      "options": [
+        "Il pensait n'avoir pas fait assez d'études et que personne ne s'intéresserait à un docker",
+        "Il n'avait jamais fini un texte",
+        "Sa femme le lui avait interdit",
+        "Les éditeurs avaient tous refusé"
+      ],
+      "evidence": "Il disait qu'il n'avait pas fait assez d'études, que personne ne s'intéresserait à la vie d'un docker."
+    }
+  ],
+  "writing": {
+    "prompt": "Racontez la découverte d'un objet ancien (une lettre, une photo…) en quatre phrases, avec au moins trois verbes au plus-que-parfait.",
+    "model": "Hier, en rangeant le grenier, j'ai trouvé une lettre que ma grand-mère avait écrite en 1960. Elle l'avait cachée dans un vieux livre. Elle n'en avait jamais parlé à personne. Mon grand-père était déjà parti à la guerre quand elle l'avait écrite.",
+    "targets": [
+      {
+        "label": "plus-que-parfait (×3)",
+        "pattern": "\\b(avais|avait|avions|aviez|avaient|étais|était|étions|étiez|étaient)\\s+(déjà\\s+|jamais\\s+|pas\\s+|toujours\\s+)?[a-zà-ÿ]+(é|ée|és|ées|i|ie|is|ies|it|ite|u|ue|us|ues|ert|erte|ort|orte|eint|ainte|aint)\\b",
+        "min": 3
+      }
+    ]
+  }
+}

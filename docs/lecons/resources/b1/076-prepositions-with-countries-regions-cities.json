@@ -1,0 +1,81 @@
+{
+ "id": "s76",
+ "subject": 76,
+ "level": "B1",
+ "title": "Prepositions with Countries, Regions & Cities (en, au, aux, à, …)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The preposition for \"in / to\" and \"from\" depends on the <strong>type</strong> and <strong>gender</strong> of the place.</p>"
+  },
+  {
+   "heading": "Summary table",
+   "html": "<table>\n<thead>\n<tr>\n<th>Place</th>\n<th>In / to</th>\n<th>From</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>City</strong></td>\n<td><strong>à</strong></td>\n<td><strong>de / d'</strong></td>\n<td><em>à Paris, à Toronto</em> / <em>de Montréal, d'Ottawa</em></td>\n</tr>\n<tr>\n<td><strong>Feminine country</strong> (most end in -e)</td>\n<td><strong>en</strong></td>\n<td><strong>de / d'</strong></td>\n<td><em>en France, en Italie</em> / <em>de Chine</em></td>\n</tr>\n<tr>\n<td><strong>Masculine country starting with a vowel</strong></td>\n<td><strong>en</strong></td>\n<td><strong>d'</strong></td>\n<td><em>en Iran, en Israël, en Irak</em> / <em>d'Iran</em></td>\n</tr>\n<tr>\n<td><strong>Masculine country</strong> (consonant)</td>\n<td><strong>au</strong></td>\n<td><strong>du</strong></td>\n<td><em>au Canada, au Japon, au Mexique</em> / <em>du Brésil</em></td>\n</tr>\n<tr>\n<td><strong>Plural country</strong></td>\n<td><strong>aux</strong></td>\n<td><strong>des</strong></td>\n<td><em>aux États-Unis, aux Pays-Bas</em> / <em>des Philippines</em></td>\n</tr>\n<tr>\n<td><strong>Continent</strong> (all feminine)</td>\n<td><strong>en</strong></td>\n<td><strong>d'</strong></td>\n<td><em>en Europe, en Asie, en Afrique</em></td>\n</tr>\n<tr>\n<td><strong>Island</strong> (small)</td>\n<td><strong>à</strong></td>\n<td><strong>de</strong></td>\n<td><em>à Cuba, à Hawaï, à Madagascar</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Gender of countries",
+   "html": "<ul>\n<li>Countries ending in <strong>-e</strong> are mostly <strong>feminine</strong>: <em>la France, la Belgique, la Suisse, l'Allemagne, l'Espagne, la Chine, la Russie, l'Inde</em>.</li>\n<li>Exceptions (masculine): <em>le Mexique, le Cambodge, le Mozambique, le Zimbabwe</em>.</li>\n<li>Others are masculine: <em>le Canada, le Japon, le Portugal, le Maroc, le Pérou, le Brésil, le Sénégal, le Danemark</em>.</li>\n</ul>"
+  },
+  {
+   "heading": "Cities with an article",
+   "html": "<p>Some cities include an article that contracts: <em>Le Caire → </em><em>au</em><em> Caire</em>, <em>Le Havre → </em><em>au</em><em> Havre</em>, <em>La Nouvelle-Orléans → </em><em>à la</em><em> Nouvelle-Orléans</em>.</p>"
+  },
+  {
+   "heading": "Provinces, states and regions",
+   "html": "<p>Follow the same gender logic:\n| Feminine → en | Masculine → au (or dans le) |\n|---|---|\n| <em>en Ontario</em> (vowel), <em>en Alberta, en Colombie-Britannique, en Nouvelle-Écosse, en Saskatchewan</em> | <em>au Québec, au Manitoba, au Nouveau-Brunswick, au Yukon</em> |\n| <em>en Californie, en Floride, en Bretagne, en Provence, en Normandie</em> | <em>au Texas, dans le Maine</em> |\n| | <strong>à</strong> Terre-Neuve, <strong>à</strong> l'Île-du-Prince-Édouard |</p>\n<p>Note: <strong>au Québec</strong> = in the province; <strong>à Québec</strong> = in Québec City.</p>"
+  },
+  {
+   "heading": "Usage examples",
+   "html": "<ul>\n<li><em>Je vais </em><em>au</em><em> Portugal cet été, puis </em><em>en</em><em> Espagne.</em></li>\n<li><em>Elle vient </em><em>des</em><em> États-Unis.</em></li>\n<li><em>Nous habitons </em><em>à</em><em> Vancouver, </em><em>en</em><em> Colombie-Britannique, </em><em>au</em><em> Canada.</em></li>\n<li><em>Il est revenu </em><em>du</em><em> Japon.</em></li>\n</ul>"
+  },
+  {
+   "heading": "With other verbs",
+   "html": "<p>\"I visit France\" = <em>Je visite </em><em>la</em><em> France</em> (direct object, definite article).\n\"I love Japan\" = <em>J'aime </em><em>le</em><em> Japon.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je vais ___ Mexique.",
+   "instruction": "Fill in with *à, en, au, aux*:",
+   "answer": "au",
+   "id": "e1"
+  },
+  {
+   "prompt": "Elle habite ___ Londres, ___ Angleterre.",
+   "answer": "à ; en",
+   "id": "e2"
+  },
+  {
+   "prompt": "Nous partons ___ États-Unis.",
+   "answer": "aux",
+   "id": "e3"
+  },
+  {
+   "prompt": "Il travaille ___ Québec (the province).",
+   "answer": "au",
+   "id": "e4"
+  },
+  {
+   "prompt": "Ils voyagent ___ Asie.",
+   "answer": "en",
+   "id": "e5"
+  },
+  {
+   "prompt": "Je viens ___ Canada.",
+   "instruction": "Fill in with *de, d', du, des*:",
+   "answer": "du",
+   "id": "e6"
+  },
+  {
+   "prompt": "Elle revient ___ Italie.",
+   "answer": "d'",
+   "id": "e7"
+  },
+  {
+   "prompt": "Translate: \"My parents live in Ontario, but I live in Montréal, in Québec.\"",
+   "answer": "*Mes parents habitent en Ontario, mais j'habite à Montréal, au Québec.*",
+   "id": "e8"
+  }
+ ],
+ "outro": ""
+}

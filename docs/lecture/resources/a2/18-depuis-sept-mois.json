@@ -1,0 +1,160 @@
+{
+  "id": "a2-18",
+  "level": "A2",
+  "number": 18,
+  "title": "Depuis sept mois",
+  "grammar": "*depuis*, *pendant*, *il y a*, *dans*",
+  "theme": "an interview",
+  "wordCount": 211,
+  "primer": [
+    "**depuis + present**: for / since (still true now): *J'habite ici depuis sept mois.*",
+    "**pendant**: for (a finished period): *J'ai étudié pendant trois ans.*",
+    "**il y a + time**: ago: *Je suis arrivée il y a sept mois.*",
+    "**dans + time**: in (from now): *dans deux mois*",
+    "**Depuis quand ? / Depuis combien de temps ?**: Since when? / For how long?",
+    "**un stagiaire**: an intern"
+  ],
+  "passage": [
+    [
+      "En août, Lucas, un étudiant en journalisme, fait un stage au magazine. Il prépare une série de portraits. Aujourd'hui, il interviewe Léa."
+    ],
+    [
+      "— Léa, depuis quand est-ce que vous êtes photographe ?",
+      "— Depuis dix ans. J'ai commencé à dix-neuf ans.",
+      "— Où est-ce que vous avez étudié ?",
+      "— À Lyon. J'ai étudié la photographie pendant trois ans. Ensuite, j'ai travaillé pendant six ans dans un musée à Paris.",
+      "— Et vous êtes à Marseille depuis combien de temps ?",
+      "— Je suis arrivée il y a sept mois, en janvier. J'ai commencé au magazine deux jours après mon arrivée !",
+      "— Combien de temps est-ce que vous allez rester ?",
+      "— Je ne sais pas ! Mon contrat dure un an. Mais j'adore Marseille. Je pense que je vais rester longtemps.",
+      "— Quel est votre meilleur souvenir depuis votre arrivée ?",
+      "— La fête du port à Cassis, il y a quatre mois. Il y avait un vent terrible et j'ai pris mes meilleures photos !",
+      "— Et vos projets pour la suite ?",
+      "— Dans deux mois, je vais exposer mes photos de Marseille dans une petite galerie du Panier. C'est mon premier grand projet personnel depuis longtemps.",
+      "— Merci, Léa. Une dernière question : vous parlez avec l'accent marseillais maintenant ?"
+    ],
+    [
+      "Léa a ri."
+    ],
+    [
+      "— Pas encore ! Mais Madame Ferrand dit que dans un an, je dirai « peuchère » comme une vraie Marseillaise !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "un stage",
+      "en": "an internship"
+    },
+    {
+      "fr": "une série de portraits",
+      "en": "a series of profiles"
+    },
+    {
+      "fr": "interviewe",
+      "en": "interviews"
+    },
+    {
+      "fr": "la photographie",
+      "en": "photography"
+    },
+    {
+      "fr": "mon arrivée",
+      "en": "my arrival"
+    },
+    {
+      "fr": "mon contrat",
+      "en": "my contract"
+    },
+    {
+      "fr": "longtemps",
+      "en": "a long time"
+    },
+    {
+      "fr": "souvenir",
+      "en": "memory"
+    },
+    {
+      "fr": "pour la suite",
+      "en": "for what comes next"
+    },
+    {
+      "fr": "exposer",
+      "en": "to exhibit"
+    },
+    {
+      "fr": "une galerie",
+      "en": "a gallery"
+    },
+    {
+      "fr": "l'accent marseillais",
+      "en": "the Marseille accent"
+    },
+    {
+      "fr": "peuchère",
+      "en": "Marseille expression of sympathy (\"poor thing!\")"
+    }
+  ],
+  "spotlight": [
+    "**Depuis + present tense** for something that started in the past and is still true now: *Vous êtes photographe depuis quand ? — Depuis dix ans.* English says \"have been\"; French uses the present.",
+    "**Pendant** is for a finished period: *J'ai étudié pendant trois ans.* **Il y a** means ago: *Je suis arrivée il y a sept mois.* **Dans** means in (from now): *Dans deux mois, je vais exposer mes photos.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "How long has Léa been a photographer, and when did she start?",
+      "answer": "For ten years — she started at nineteen",
+      "options": [
+        "For ten years — she started at nineteen",
+        "For five years — she started at the magazine",
+        "For twenty years — she started as a child",
+        "For ten years — she started in Marseille"
+      ],
+      "evidence": "Depuis dix ans. J'ai commencé à dix-neuf ans."
+    },
+    {
+      "id": "q2",
+      "prompt": "What did she do after her studies?",
+      "answer": "She worked for six years in a museum in Paris",
+      "options": [
+        "She worked for six years in a museum in Paris",
+        "She worked for a newspaper in Lyon",
+        "She travelled around the world",
+        "She taught photography in Paris"
+      ],
+      "evidence": "Ensuite, j'ai travaillé pendant six ans dans un musée à Paris."
+    },
+    {
+      "id": "q3",
+      "prompt": "What will she do in two months?",
+      "answer": "Exhibit her photos of Marseille in a small gallery",
+      "options": [
+        "Exhibit her photos of Marseille in a small gallery",
+        "Move back to Paris",
+        "Start a new job in Lyon",
+        "Publish a book with Karim"
+      ],
+      "evidence": "Dans deux mois, je vais exposer mes photos de Marseille dans une petite galerie du Panier."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about yourself using *depuis*, *pendant* and *il y a*.",
+    "model": "J'apprends le français depuis trois mois. J'ai habité à Vancouver pendant deux ans. Je suis allé en France il y a cinq ans.",
+    "targets": [
+      {
+        "label": "depuis",
+        "pattern": "\\bdepuis\\b",
+        "min": 1
+      },
+      {
+        "label": "pendant",
+        "pattern": "\\bpendant\\b",
+        "min": 1
+      },
+      {
+        "label": "il y a + time",
+        "pattern": "il y a\\s+(un|une|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|\\d+|quelques|longtemps)",
+        "min": 1
+      }
+    ]
+  }
+}

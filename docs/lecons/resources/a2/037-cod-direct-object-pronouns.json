@@ -1,0 +1,71 @@
+{
+ "id": "s37",
+ "subject": 37,
+ "level": "A2",
+ "title": "COD & Direct Object Pronouns (me, te, le, la, nous, vous, les)",
+ "sections": [
+  {
+   "heading": "What is a COD?",
+   "html": "<p>A <strong>COD</strong> (<em>complément d'objet direct</em>) is the direct object: the person or thing that receives the action <strong>directly, with no preposition</strong>. Ask \"verb + <strong>who/what</strong>?\"\n- <em>Je regarde </em><em>la télé</em><em>.</em> → I watch what? <em>la télé</em> = COD.\n- <em>J'aime </em><em>Paul</em><em>.</em> → <em>Paul</em> = COD.</p>"
+  },
+  {
+   "heading": "Direct object pronouns",
+   "html": "<table>\n<thead>\n<tr>\n<th>Person</th>\n<th>Pronoun</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>me</td>\n<td><strong>me (m')</strong></td>\n<td><em>Il </em><em>me</em><em> voit.</em> — He sees me.</td>\n</tr>\n<tr>\n<td>you (tu)</td>\n<td><strong>te (t')</strong></td>\n<td><em>Je </em><em>t'</em><em>aime.</em> — I love you.</td>\n</tr>\n<tr>\n<td>him / it (m.)</td>\n<td><strong>le (l')</strong></td>\n<td><em>Je </em><em>le</em><em> connais.</em> — I know him / it.</td>\n</tr>\n<tr>\n<td>her / it (f.)</td>\n<td><strong>la (l')</strong></td>\n<td><em>Tu </em><em>la</em><em> regardes.</em> — You're watching her / it.</td>\n</tr>\n<tr>\n<td>us</td>\n<td><strong>nous</strong></td>\n<td><em>Elle </em><em>nous</em><em> invite.</em></td>\n</tr>\n<tr>\n<td>you (vous)</td>\n<td><strong>vous</strong></td>\n<td><em>Je </em><em>vous</em><em> remercie.</em> — I thank you.</td>\n</tr>\n<tr>\n<td>them</td>\n<td><strong>les</strong></td>\n<td><em>Je </em><em>les</em><em> achète.</em> — I'm buying them.</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Position: BEFORE the conjugated verb",
+   "html": "<ul>\n<li><em>Je mange </em><em>la pomme</em><em>.</em> → <em>Je </em><em>la</em><em> mange.</em></li>\n<li><em>Tu connais </em><em>mes parents</em><em> ?</em> → <em>Tu </em><em>les</em><em> connais ?</em></li>\n</ul>\n<p><strong>Negative:</strong> <em>Je </em><em>ne la</em><em> mange </em><em>pas</em><em>.</em></p>\n<p><strong>Verb + infinitive:</strong> before the infinitive. <em>Je vais </em><em>le</em><em> faire.</em> / <em>Je veux </em><em>la</em><em> voir.</em></p>\n<p><strong>Passé composé:</strong> before the auxiliary. <em>Je </em><em>l'</em><em>ai vu.</em> — I saw him/it.</p>"
+  },
+  {
+   "heading": "Agreement in the passé composé",
+   "html": "<p>When the COD pronoun comes <strong>before</strong> <em>avoir</em>, the participle agrees with it:\n- <em>J'ai vu </em><em>la voiture</em><em>.</em> → <em>Je </em><em>l'</em><em>ai vu</em><em>e</em><em>.</em>\n- <em>Il a acheté </em><em>les fleurs</em><em>.</em> → <em>Il </em><em>les</em><em> a acheté</em><em>es</em><em>.</em>\n- <em>Tu as fait </em><em>les devoirs</em><em> ?</em> → <em>Tu </em><em>les</em><em> as fait</em><em>s</em><em> ?</em></p>"
+  },
+  {
+   "heading": "Le as a neutral pronoun",
+   "html": "<p><em>Le</em> can replace a whole idea: <em>Tu sais qu'il est parti ? — Oui, je </em><em>le</em><em> sais.</em> — Yes, I know (it).</p>"
+  },
+  {
+   "heading": "Imperative (affirmative): pronoun goes after, with a hyphen",
+   "html": "<p><em>Regarde-</em><em>le</em><em> !</em> / <em>Prends-</em><em>les</em><em> !</em> / <em>Aide-</em><em>moi</em><em> !</em> (me → <strong>moi</strong>). Negative stays before: <em>Ne </em><em>le</em><em> regarde pas !</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je regarde le film.",
+   "instruction": "Replace the COD with a pronoun:",
+   "answer": "*Je le regarde.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Elle aime ses enfants.",
+   "answer": "*Elle les aime.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Nous invitons Marie.",
+   "answer": "*Nous l'invitons.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Je ne connais pas ce restaurant.",
+   "answer": "*Je ne le connais pas.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Je vais acheter cette robe.",
+   "answer": "*Je vais l'acheter.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "J'ai perdu mes clés. (watch the agreement!)",
+   "answer": "*Je les ai perdues.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"Do you see me? — Yes, I see you.\"",
+   "answer": "*Tu me vois ? — Oui, je te vois.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

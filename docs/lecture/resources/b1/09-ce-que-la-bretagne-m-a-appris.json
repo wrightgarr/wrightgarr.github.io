@@ -1,0 +1,160 @@
+{
+  "id": "b1-09",
+  "level": "B1",
+  "number": 9,
+  "title": "Ce que la Bretagne m'a appris",
+  "grammar": "*ce qui, ce que, ce dont*; *où* for places and time",
+  "theme": "a travel essay",
+  "wordCount": 327,
+  "primer": [
+    "**ce qui**: what (subject): *Ce qui me plaît, c'est…*",
+    "**ce que / ce qu'**: what (object): *Ce que j'aime, c'est…*",
+    "**ce dont**: what (with verbs + *de*): *ce dont je me souviens*",
+    "**le jour où…**: the day (when)…",
+    "**là où**: (there) where",
+    "**le crachin**: Breton drizzle"
+  ],
+  "passage": [
+    [
+      "De retour à Marseille, Léa devait écrire le court texte qui accompagnerait ses photos dans Horizons. Elle a passé trois soirées devant son ordinateur. Voici ce qu'elle a envoyé à Claire Dumas."
+    ],
+    [
+      "« Ce que la Bretagne m'a appris"
+    ],
+    [
+      "Je suis arrivée à Brest un mardi de février, le jour où une tempête touchait les côtes. Ce qui m'a frappée d'abord, ce n'est pas le vent — je viens de Marseille, je connais le vent — mais la lumière. Une lumière qui change toutes les dix minutes, qui passe du gris au vert, du vert à l'argent. Ce que je croyais être un pays triste est en réalité un pays de couleurs."
+    ],
+    [
+      "Ce que j'ai aimé, ce sont les gens. Yann Le Goff, ancien gardien de phare, m'a montré ce que les touristes ne voient jamais : la chapelle où sa grand-mère priait pour les marins, la crique où les enfants se baignent même en avril, le café où l'on chante encore en breton. Ce qui rend ces lieux précieux, c'est qu'ils sont vivants. Ce ne sont pas des musées."
+    ],
+    [
+      "Ce dont je me souviendrai surtout, c'est d'un silence. Au pied du phare du Créac'h, sur l'île d'Ouessant, Yann s'est tu pendant de longues minutes. Il regardait la mer, là où son père avait travaillé trente ans. Je n'ai pas pris de photo à ce moment-là. Il y a des instants où l'appareil doit rester dans le sac."
+    ],
+    [
+      "Ce que je ne savais pas en partant, c'est que la Bretagne ressemble à Marseille plus qu'on ne le pense. Ici aussi, la mer décide de tout. Ici aussi, on parle fort, on rit fort, on est fier de sa langue et de sa ville. Ici aussi, on vous accueille comme quelqu'un de la famille, à condition que vous preniez le temps d'écouter."
+    ],
+    [
+      "Ce qui me manquera, ce n'est pas le crachin. Ce sont les visages. »"
+    ],
+    [
+      "Claire a répondu le soir même : « C'est exactement ce que nous voulions. Ne changez pas une virgule. »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "accompagnerait",
+      "en": "would go with"
+    },
+    {
+      "fr": "touchait les côtes",
+      "en": "was hitting the coast"
+    },
+    {
+      "fr": "m'a frappée",
+      "en": "struck me"
+    },
+    {
+      "fr": "l'argent",
+      "en": "silver"
+    },
+    {
+      "fr": "en réalité",
+      "en": "in reality"
+    },
+    {
+      "fr": "priait pour les marins",
+      "en": "prayed for the sailors"
+    },
+    {
+      "fr": "précieux",
+      "en": "precious"
+    },
+    {
+      "fr": "vivants",
+      "en": "alive"
+    },
+    {
+      "fr": "je me souviendrai",
+      "en": "I will remember"
+    },
+    {
+      "fr": "s'est tu",
+      "en": "fell silent"
+    },
+    {
+      "fr": "en partant",
+      "en": "when I set off"
+    },
+    {
+      "fr": "plus qu'on ne le pense",
+      "en": "more than people think"
+    },
+    {
+      "fr": "une virgule",
+      "en": "a comma"
+    }
+  ],
+  "spotlight": [
+    "**Ce qui / ce que = \"what\":** *ce qui* is the subject of the next verb (*Ce qui m'a frappée d'abord, ce n'est pas le vent*). *Ce que* is its object (*Ce que j'ai aimé, ce sont les gens; ce que les touristes ne voient jamais*). Use *ce dont* with verbs that take *de*: *Ce dont je me souviendrai* (se souvenir de).",
+    "**Où for places and for times:** *la chapelle où sa grand-mère priait, le jour où une tempête touchait les côtes, des instants où l'appareil doit rester dans le sac*. \"The day (when)\" is *le jour où*, never *le jour que*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Qu'est-ce qui a surpris Léa en arrivant en Bretagne ?",
+      "answer": "La lumière, qui change toutes les dix minutes",
+      "options": [
+        "La lumière, qui change toutes les dix minutes",
+        "Le vent",
+        "Le froid",
+        "Le prix des restaurants"
+      ],
+      "evidence": "Ce qui m'a frappée d'abord, ce n'est pas le vent — je viens de Marseille, je connais le vent — mais la lumière."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi Léa n'a-t-elle pas pris de photo au pied du phare du Créac'h ?",
+      "answer": "C'était un moment de silence que l'appareil ne devait pas déranger",
+      "options": [
+        "C'était un moment de silence que l'appareil ne devait pas déranger",
+        "Il pleuvait trop fort",
+        "Sa batterie était vide",
+        "Yann le lui avait interdit"
+      ],
+      "evidence": "Je n'ai pas pris de photo à ce moment-là. Il y a des instants où l'appareil doit rester dans le sac."
+    },
+    {
+      "id": "q3",
+      "prompt": "Quels points communs Léa trouve-t-elle entre la Bretagne et Marseille ?",
+      "answer": "La mer décide de tout, on parle et on rit fort, et on accueille les gens comme la famille",
+      "options": [
+        "La mer décide de tout, on parle et on rit fort, et on accueille les gens comme la famille",
+        "Le climat et la cuisine",
+        "Le même accent et les mêmes plages",
+        "Les mêmes monuments"
+      ],
+      "evidence": "Ici aussi, la mer décide de tout. Ici aussi, on parle fort, on rit fort"
+    }
+  ],
+  "writing": {
+    "prompt": "Décrivez un lieu qui vous a marqué(e) en trois ou quatre phrases avec *ce qui, ce que* et *où*.",
+    "model": "Ce qui m'a marqué à Québec, c'est la neige. Ce que j'ai aimé, c'est le vieux port en hiver. C'est la ville où j'ai rencontré mes meilleurs amis.",
+    "targets": [
+      {
+        "label": "ce qui",
+        "pattern": "ce qui",
+        "min": 1
+      },
+      {
+        "label": "ce que / ce qu'",
+        "pattern": "ce qu(e|')",
+        "min": 1
+      },
+      {
+        "label": "où",
+        "pattern": "\\boù\\b",
+        "min": 1
+      }
+    ]
+  }
+}

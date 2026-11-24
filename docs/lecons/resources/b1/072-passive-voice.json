@@ -1,0 +1,62 @@
+{
+ "id": "s72",
+ "subject": 72,
+ "level": "B1",
+ "title": "Passive Voice",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>In the <strong>active voice</strong>, the subject does the action: <em>Le chat mange la souris.</em>\nIn the <strong>passive voice</strong> (<em>la voix passive</em>), the subject receives the action: <em>La souris </em><em>est mangée</em><em> par le chat.</em></p>"
+  },
+  {
+   "heading": "Formation: être (in any tense) + past participle (agreeing with the subject)",
+   "html": "<p>The tense of <strong>être</strong> = the tense of the original active verb.</p>\n<table>\n<thead>\n<tr>\n<th>Tense</th>\n<th>Active</th>\n<th>Passive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Présent</td>\n<td><em>On construit la maison.</em></td>\n<td><em>La maison </em><em>est construite</em><em>.</em></td>\n</tr>\n<tr>\n<td>Passé composé</td>\n<td><em>Paul a écrit la lettre.</em></td>\n<td><em>La lettre </em><em>a été écrite</em><em> par Paul.</em></td>\n</tr>\n<tr>\n<td>Imparfait</td>\n<td><em>Les élèves respectaient le prof.</em></td>\n<td><em>Le prof </em><em>était respecté</em><em> par les élèves.</em></td>\n</tr>\n<tr>\n<td>Futur</td>\n<td><em>Le maire ouvrira le musée.</em></td>\n<td><em>Le musée </em><em>sera ouvert</em><em> par le maire.</em></td>\n</tr>\n<tr>\n<td>Plus-que-parfait</td>\n<td><em>On avait vendu la voiture.</em></td>\n<td><em>La voiture </em><em>avait été vendue</em><em>.</em></td>\n</tr>\n<tr>\n<td>Conditionnel</td>\n<td><em>On annulerait le match.</em></td>\n<td><em>Le match </em><em>serait annulé</em><em>.</em></td>\n</tr>\n<tr>\n<td>Futur proche</td>\n<td><em>On va réparer les routes.</em></td>\n<td><em>Les routes </em><em>vont être réparées</em><em>.</em></td>\n</tr>\n<tr>\n<td>Infinitive</td>\n<td><em>Il faut finir ce projet.</em></td>\n<td><em>Ce projet doit </em><em>être fini</em><em>.</em></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Agreement:</strong> the participle always agrees with the passive subject: <em>Les lettres ont été écrit</em><em>es</em><em>.</em></p>"
+  },
+  {
+   "heading": "Par or de?",
+   "html": "<p>The agent (who does it) is usually introduced by <strong>par</strong>:\n- <em>Ce tableau a été peint </em><em>par</em><em> Monet.</em></p>\n<p><strong>De</strong> is used with verbs of <strong>feeling</strong> and <strong>description / state</strong>:\n- <em>Elle est aimée </em><em>de</em><em> tous.</em> — She is loved by all.\n- <em>Il est respecté </em><em>de</em><em> ses collègues.</em>\n- <em>La table est couverte </em><em>de</em><em> livres.</em> — The table is covered with books.\n- <em>La ville est entourée </em><em>de</em><em> montagnes.</em></p>\n<p>The agent can be omitted: <em>Mon vélo a été volé.</em> — My bike was stolen.</p>"
+  },
+  {
+   "heading": "Only direct-object verbs can become passive",
+   "html": "<p>In English, \"I was given a gift\" works. In French, <em>donner à</em> has an indirect object, so the passive doesn't work with the person. Use <strong>on</strong>:\n- ~~J'ai été donné un cadeau.~~ → <strong><em>On</em><em> m'a donné un cadeau.</em>\n- \"He was told…\" → </strong><em>On</em><em> lui a dit…</em></p>"
+  },
+  {
+   "heading": "Alternatives to the passive (more natural French)",
+   "html": "<p>French uses the passive less than English. Common alternatives:\n1. <strong>On</strong> + active verb: <strong><em>On</em><em> parle français ici.</em> — French is spoken here.\n2. </strong>Reflexive verb (se + verb):<strong> *Le vin blanc </strong>se boit<strong> frais.<em> — White wine is drunk cold. / </em>Ça </strong>se dit<strong> ?<em> — Is that said? / </em>Les billets </strong>se vendent<strong> en ligne.*\n3. </strong>Se faire + infinitive<strong> (B2): *Il </strong>s'est fait*<em> voler son portefeuille.</em> — He had his wallet stolen.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Le facteur apporte le courrier.",
+   "instruction": "Change to the passive:",
+   "answer": "*Le courrier est apporté par le facteur.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Les enfants ont mangé les gâteaux.",
+   "answer": "*Les gâteaux ont été mangés par les enfants.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Une entreprise canadienne construira le pont.",
+   "answer": "*Le pont sera construit par une entreprise canadienne.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Tout le monde aime ce chanteur. (par or de?)",
+   "answer": "*Ce chanteur est aimé de tout le monde.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Rewrite with *on*: *J'ai été invité à la fête.*",
+   "answer": "*On m'a invité(e) à la fête.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"The window was broken.\" / \"English is spoken here.\" (use on)",
+   "answer": "*La fenêtre a été cassée.* / *On parle anglais ici.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

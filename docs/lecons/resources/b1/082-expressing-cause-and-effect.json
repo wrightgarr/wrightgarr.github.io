@@ -1,0 +1,55 @@
+{
+ "id": "s82",
+ "subject": 82,
+ "level": "B1",
+ "title": "Expressing Cause and Effect",
+ "sections": [
+  {
+   "heading": "Cause (why something happens)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Type</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>parce que</strong></td>\n<td>+ clause (answers <em>pourquoi</em>)</td>\n<td><em>Il est absent </em><em>parce qu'</em><em>il est malade.</em></td>\n</tr>\n<tr>\n<td><strong>car</strong></td>\n<td>+ clause (formal, mid-sentence)</td>\n<td><em>Il est absent, </em><em>car</em><em> il est malade.</em></td>\n</tr>\n<tr>\n<td><strong>puisque</strong></td>\n<td>+ clause (known reason)</td>\n<td><em><strong>Puisque</strong> tu insistes, je viens.</em></td>\n</tr>\n<tr>\n<td><strong>comme</strong></td>\n<td>+ clause (start of sentence)</td>\n<td><em><strong>Comme</strong> il pleuvait, nous sommes restés.</em></td>\n</tr>\n<tr>\n<td><strong>étant donné que / vu que</strong></td>\n<td>+ clause</td>\n<td><em><strong>Vu qu'</strong>il est tard, on rentre.</em></td>\n</tr>\n<tr>\n<td><strong>sous prétexte que</strong></td>\n<td>+ clause (dubious reason)</td>\n<td><em>Il n'est pas venu </em><em>sous prétexte qu'</em><em>il était malade.</em></td>\n</tr>\n<tr>\n<td><strong>à cause de</strong></td>\n<td>+ noun (negative)</td>\n<td><em><strong>À cause de</strong> la grève, le métro est fermé.</em></td>\n</tr>\n<tr>\n<td><strong>grâce à</strong></td>\n<td>+ noun (positive)</td>\n<td><em><strong>Grâce à</strong> ton aide, j'ai réussi.</em></td>\n</tr>\n<tr>\n<td><strong>en raison de / du fait de</strong></td>\n<td>+ noun (formal)</td>\n<td><em>Le vol est annulé </em><em>en raison de</em><em> la tempête.</em></td>\n</tr>\n<tr>\n<td><strong>faute de</strong></td>\n<td>+ noun (for lack of)</td>\n<td><em><strong>Faute de</strong> temps, je n'ai pas fini.</em></td>\n</tr>\n<tr>\n<td><strong>à force de</strong></td>\n<td>+ noun / inf. (through repetition)</td>\n<td><em><strong>À force de</strong> pratiquer, il parle couramment.</em></td>\n</tr>\n<tr>\n<td><strong>pour</strong></td>\n<td>+ past infinitive / noun</td>\n<td><em>Il a été puni </em><em>pour avoir menti</em><em>.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Consequence (what results)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Type</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>donc</strong></td>\n<td></td>\n<td><em>Il pleut, </em><em>donc</em><em> je prends mon parapluie.</em></td>\n</tr>\n<tr>\n<td><strong>alors</strong></td>\n<td>(spoken)</td>\n<td><em>J'avais faim, </em><em>alors</em><em> j'ai mangé.</em></td>\n</tr>\n<tr>\n<td><strong>c'est pourquoi / c'est pour ça que</strong></td>\n<td></td>\n<td><em>Il était malade ; </em><em>c'est pourquoi</em><em> il est resté.</em></td>\n</tr>\n<tr>\n<td><strong>par conséquent / en conséquence</strong></td>\n<td>(formal)</td>\n<td><em>Les prix augmentent ; </em><em>par conséquent</em><em>, on consomme moins.</em></td>\n</tr>\n<tr>\n<td><strong>ainsi</strong></td>\n<td>(formal)</td>\n<td><em><strong>Ainsi</strong>, nous avons décidé de…</em></td>\n</tr>\n<tr>\n<td><strong>si bien que / de sorte que</strong></td>\n<td>+ indicatif</td>\n<td><em>Il a trop mangé, </em><em>si bien qu'</em><em>il a été malade.</em></td>\n</tr>\n<tr>\n<td><strong>tellement / si… que</strong></td>\n<td>intensity + result</td>\n<td><em>Il est </em><em>si</em><em> fatigué </em><em>qu'</em><em>il dort debout.</em> / <em>Il a </em><em>tellement</em><em> travaillé </em><em>qu'</em><em>il est épuisé.</em></td>\n</tr>\n<tr>\n<td><strong>tant de / tellement de… que</strong></td>\n<td>quantity + result</td>\n<td><em>Il y avait </em><em>tant de</em><em> monde </em><em>qu'</em><em>on ne pouvait pas entrer.</em></td>\n</tr>\n<tr>\n<td><strong>d'où</strong></td>\n<td>+ noun</td>\n<td><em>Il a menti, </em><em>d'où</em><em> ma colère.</em> — hence my anger</td>\n</tr>\n<tr>\n<td><strong>entraîner / provoquer / causer</strong></td>\n<td>verbs</td>\n<td><em>La pluie </em><em>a provoqué</em><em> des inondations.</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "___ la neige, l'école est fermée. (negative cause)",
+   "instruction": "Choose the best expression:",
+   "answer": "À cause de",
+   "id": "e1"
+  },
+  {
+   "prompt": "___ mon GPS, je ne me suis pas perdu. (positive cause)",
+   "answer": "Grâce à",
+   "id": "e2"
+  },
+  {
+   "prompt": "Il a raté son bus, ___ il est arrivé en retard.",
+   "answer": "donc / alors / si bien qu'",
+   "id": "e3"
+  },
+  {
+   "prompt": "Elle parle ___ vite ___ je ne comprends rien.",
+   "answer": "si / tellement … que",
+   "id": "e4"
+  },
+  {
+   "prompt": "___ tu es là, aide-moi à porter ça.",
+   "answer": "Puisque",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"Due to the strike, the flight is cancelled.\" (formal)",
+   "answer": "*En raison de la grève, le vol est annulé.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"He was so tired that he fell asleep at the table.\"",
+   "answer": "*Il était si (tellement) fatigué qu'il s'est endormi à table.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

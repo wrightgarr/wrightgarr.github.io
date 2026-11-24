@@ -1,0 +1,62 @@
+{
+ "id": "s54",
+ "subject": 54,
+ "level": "A2",
+ "title": "Possessive Pronouns (le mien, le tien, le sien, …)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Possessive pronouns replace a <strong>possessive adjective + noun</strong>: <em>mon livre → </em><em>le mien</em>** (mine).</p>"
+  },
+  {
+   "heading": "Forms",
+   "html": "<table>\n<thead>\n<tr>\n<th>Owner</th>\n<th>Masc. sing.</th>\n<th>Fem. sing.</th>\n<th>Masc. pl.</th>\n<th>Fem. pl.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je (mine)</td>\n<td><strong>le mien</strong></td>\n<td><strong>la mienne</strong></td>\n<td><strong>les miens</strong></td>\n<td><strong>les miennes</strong></td>\n</tr>\n<tr>\n<td>tu (yours)</td>\n<td><strong>le tien</strong></td>\n<td><strong>la tienne</strong></td>\n<td><strong>les tiens</strong></td>\n<td><strong>les tiennes</strong></td>\n</tr>\n<tr>\n<td>il/elle (his/hers)</td>\n<td><strong>le sien</strong></td>\n<td><strong>la sienne</strong></td>\n<td><strong>les siens</strong></td>\n<td><strong>les siennes</strong></td>\n</tr>\n<tr>\n<td>nous (ours)</td>\n<td><strong>le nôtre</strong></td>\n<td><strong>la nôtre</strong></td>\n<td><strong>les nôtres</strong></td>\n<td><strong>les nôtres</strong></td>\n</tr>\n<tr>\n<td>vous (yours)</td>\n<td><strong>le vôtre</strong></td>\n<td><strong>la vôtre</strong></td>\n<td><strong>les vôtres</strong></td>\n<td><strong>les vôtres</strong></td>\n</tr>\n<tr>\n<td>ils/elles (theirs)</td>\n<td><strong>le leur</strong></td>\n<td><strong>la leur</strong></td>\n<td><strong>les leurs</strong></td>\n<td><strong>les leurs</strong></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Note the accent:</strong> <em>notre / votre</em> (adjectives, no accent, short o) vs <em>le nôtre / le vôtre</em> (pronouns, circumflex, long \"oh\").</p>"
+  },
+  {
+   "heading": "Agreement: with the thing owned",
+   "html": "<p>Like possessive adjectives, they agree with the <strong>object</strong>, not the owner:\n- <em>C'est ta voiture ? — Oui, c'est </em><em>la mienne</em><em>.</em> (la voiture → la mienne, even if the speaker is a man)\n- <em>Paul a pris mon stylo et j'ai pris </em><em>le sien</em><em>.</em> (le stylo → le sien = his)\n- <em>Ma maison est grande, </em><em>la sienne</em><em> est petite.</em> (= his or hers)</p>"
+  },
+  {
+   "heading": "Contractions with à and de",
+   "html": "<p>The article <strong>le / les</strong> contracts:\n- à + le mien = <strong>au mien</strong>: <em>Je pense à ton projet et </em><em>au mien</em><em>.</em>\n- de + les tiens = <strong>des tiens</strong>: <em>Je parle de mes parents et toi, </em><em>des tiens</em><em>.</em> — I talk about my parents and you about yours.\n- de + le leur = <strong>du leur</strong>: <em>Notre jardin est plus petit que celui des voisins ; nous avons besoin </em><em>du leur</em><em> pour la fête.</em></p>"
+  },
+  {
+   "heading": "Être à + emphatic pronoun (alternative)",
+   "html": "<p>\"It's mine\" can also be said: <em>C'est </em><em>à moi</em><em>.</em> / <em>Ce livre est </em><em>à lui</em><em>.</em> — This book is his.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "C'est mon sac. → C'est ___.",
+   "instruction": "Replace with a possessive pronoun:",
+   "answer": "*le mien*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Ce sont tes clés ? → Ce sont ___ ?",
+   "answer": "*les tiennes*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Notre maison est plus grande que votre maison. → … que ___.",
+   "answer": "*la vôtre*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Leurs enfants et nos enfants. → Leurs enfants et ___.",
+   "answer": "*les nôtres*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Marie a oublié son parapluie. Tu peux lui prêter ___ ? (yours, tu)",
+   "answer": "*le tien*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"Is this your coffee? — No, it's hers.\"",
+   "answer": "*C'est ton café ? — Non, c'est le sien.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

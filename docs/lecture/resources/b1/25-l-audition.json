@@ -1,0 +1,186 @@
+{
+  "id": "b1-25",
+  "level": "B1",
+  "number": 25,
+  "title": "L'audition",
+  "grammar": "verbs + *à* / *de* + infinitive",
+  "theme": "a big audition",
+  "wordCount": 367,
+  "primer": [
+    "**verb + à + infinitif**: *commencer à, réussir à, hésiter à, apprendre à, renoncer à, arriver à*",
+    "**verb + de + infinitif**: *essayer de, décider de, refuser de, oublier de, arrêter de, risquer de*",
+    "**convaincre quelqu'un de**: to persuade someone to",
+    "**finir par + infinitif**: to end up (doing)",
+    "**une audition**: an audition",
+    "**un candidat**: a candidate"
+  ],
+  "passage": [
+    [
+      "En janvier, l'orchestre de l'Opéra de Marseille a annoncé une audition pour un poste de violon. Amina a hésité à s'inscrire. Elle n'avait que vingt-trois ans, elle n'avait pas fini ses études, et les autres candidats venaient de Paris, de Bruxelles, de Genève."
+    ],
+    [
+      "— Tu dois essayer, a insisté Karim. Tu ne risques rien.",
+      "— Je risque de me ridiculiser."
+    ],
+    [
+      "C'est finalement Delmas qui l'a décidée à se présenter. Un matin, il a posé le formulaire sur son pupitre."
+    ],
+    [
+      "— Je l'ai déjà rempli. Il ne vous reste plus qu'à signer. Et arrêtez de me regarder comme ça, mademoiselle. J'ai appris à reconnaître le talent il y a quarante ans."
+    ],
+    [
+      "Pendant six semaines, Amina a travaillé comme jamais. Elle se levait à six heures, commençait à jouer à sept, et ne s'arrêtait qu'à minuit. Elle a refusé de sortir, elle a oublié de manger, et elle a même renoncé à ses dimanches chez Fatima, ce qui était pour elle le plus grand des sacrifices."
+    ],
+    [
+      "Karim essayait de la soutenir sans la déranger. Il lui apportait des plats de sa mère, qu'il laissait devant la porte avec un petit mot : « Pense à manger. Je t'aime. »"
+    ],
+    [
+      "Léa, elle, a convaincu Josette de supporter le violon jusqu'à vingt-trois heures. Ce n'était pas facile, mais Josette a fini par accepter, à condition de recevoir deux places pour le premier concert."
+    ],
+    [
+      "Le jour de l'audition, Amina tremblait. Les candidats jouaient derrière un rideau, pour que le jury ne puisse pas les voir. Seule la musique comptait."
+    ],
+    [
+      "— Ne pense pas au jury, lui avait dit Delmas la veille. Pense à ton grand-père. Joue pour lui."
+    ],
+    [
+      "Quand son tour est arrivé, Amina a fermé les yeux. Elle a pensé au violon de Crémone, aux mariages de Fès, à la neige de Montréal, aux polyphonies de Corse. Ses mains ont cessé de trembler. Elle a joué comme elle n'avait jamais joué."
+    ],
+    [
+      "En sortant, elle s'est effondrée dans les bras de Karim."
+    ],
+    [
+      "— Je n'arrive pas à savoir si c'était bien ou horrible.",
+      "— Tu as réussi à jouer jusqu'au bout. C'est déjà une victoire."
+    ],
+    [
+      "Une femme du jury est passée à côté d'eux."
+    ],
+    [
+      "— Les résultats seront annoncés dans dix jours, mademoiselle. Essayez de dormir d'ici là. Vous en avez besoin."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "un poste",
+      "en": "a position"
+    },
+    {
+      "fr": "s'inscrire",
+      "en": "to sign up"
+    },
+    {
+      "fr": "me ridiculiser",
+      "en": "to make a fool of myself"
+    },
+    {
+      "fr": "l'a décidée à se présenter",
+      "en": "persuaded her to apply"
+    },
+    {
+      "fr": "le formulaire",
+      "en": "the form"
+    },
+    {
+      "fr": "son pupitre",
+      "en": "her music stand"
+    },
+    {
+      "fr": "Il ne vous reste plus qu'à signer",
+      "en": "All you have to do is sign"
+    },
+    {
+      "fr": "a renoncé à",
+      "en": "gave up",
+      "match": [
+        "a même renoncé à"
+      ]
+    },
+    {
+      "fr": "la soutenir",
+      "en": "to support her"
+    },
+    {
+      "fr": "la déranger",
+      "en": "to disturb her"
+    },
+    {
+      "fr": "un rideau",
+      "en": "a curtain"
+    },
+    {
+      "fr": "le jury",
+      "en": "the panel of judges"
+    },
+    {
+      "fr": "la veille",
+      "en": "the day before"
+    },
+    {
+      "fr": "s'est effondrée",
+      "en": "collapsed"
+    },
+    {
+      "fr": "d'ici là",
+      "en": "until then"
+    }
+  ],
+  "spotlight": [
+    "**Verbs + à + infinitive:** *Amina a hésité à s'inscrire. Elle commençait à jouer à sept heures. J'ai appris à reconnaître le talent. Tu as réussi à jouer jusqu'au bout. Je n'arrive pas à savoir.*",
+    "**Verbs + de + infinitive:** *Tu dois essayer… Je risque de me ridiculiser. Elle a refusé de sortir, elle a oublié de manger. Arrêtez de me regarder comme ça. Ses mains ont cessé de trembler.* There's no rule to predict which preposition a verb takes, so learn each verb with its preposition. *Finir par* means \"to end up\": *Josette a fini par accepter*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi Amina hésitait-elle à s'inscrire à l'audition ?",
+      "answer": "Elle était jeune, sans diplôme, face à des candidats de toute l'Europe",
+      "options": [
+        "Elle était jeune, sans diplôme, face à des candidats de toute l'Europe",
+        "Elle avait peur de Delmas",
+        "Elle ne voulait pas quitter le conservatoire",
+        "Karim ne voulait pas"
+      ],
+      "evidence": "Elle n'avait que vingt-trois ans, elle n'avait pas fini ses études, et les autres candidats venaient de Paris, de Bruxelles, de Genève."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quels sacrifices Amina a-t-elle faits pendant six semaines ?",
+      "answer": "Elle a refusé de sortir, oublié de manger et renoncé à ses dimanches chez Fatima",
+      "options": [
+        "Elle a refusé de sortir, oublié de manger et renoncé à ses dimanches chez Fatima",
+        "Elle a vendu son piano",
+        "Elle a arrêté le conservatoire",
+        "Elle a quitté son appartement"
+      ],
+      "evidence": "Elle a refusé de sortir, elle a oublié de manger, et elle a même renoncé à ses dimanches chez Fatima"
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi les candidats jouaient-ils derrière un rideau ?",
+      "answer": "Pour que le jury ne puisse pas les voir : seule la musique compte",
+      "options": [
+        "Pour que le jury ne puisse pas les voir : seule la musique compte",
+        "Parce que la salle était trop petite",
+        "Pour protéger les instruments",
+        "Parce que les candidats avaient le trac"
+      ],
+      "evidence": "Les candidats jouaient derrière un rideau, pour que le jury ne puisse pas les voir. Seule la musique comptait."
+    }
+  ],
+  "writing": {
+    "prompt": "Parlez d'un défi personnel en trois phrases avec trois verbes + *à* ou *de* (*j'ai décidé de, j'ai commencé à, j'ai réussi à*…).",
+    "model": "L'année dernière, j'ai décidé de courir un marathon. J'ai commencé à m'entraîner en janvier. Au début, j'avais peur de ne pas finir, mais j'ai réussi à arriver au bout.",
+    "targets": [
+      {
+        "label": "verbs + à + infinitive",
+        "pattern": "\\b(commenc[a-zà-ÿœæ]*|réuss[a-zà-ÿœæ]*|hésit[a-zà-ÿœæ]*|appri[a-zà-ÿœæ]*|apprend[a-zà-ÿœæ]*|renonc[a-zà-ÿœæ]*|arriv[a-zà-ÿœæ]*|continu[a-zà-ÿœæ]*|m'habitu[a-zà-ÿœæ]*|aid[a-zà-ÿœæ]*)\\s+à\\s+(m'|me |se |s')?[a-zà-ÿ]+(er|ir|re|oir)\\b",
+        "min": 1
+      },
+      {
+        "label": "verbs + de + infinitive",
+        "pattern": "\\b(décid[a-zà-ÿœæ]*|essay[a-zà-ÿœæ]*|refus[a-zà-ÿœæ]*|oubli[a-zà-ÿœæ]*|arrêt[a-zà-ÿœæ]*|risqu[a-zà-ÿœæ]*|peur|cess[a-zà-ÿœæ]*|envie|besoin|choisi[a-zà-ÿœæ]*)\\s+d(e|')\\s*(ne\\s+(pas\\s+)?)?(m'|me |se |s')?[a-zà-ÿ]+(er|ir|re|oir)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

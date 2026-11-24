@@ -1,0 +1,56 @@
+{
+ "id": "s12",
+ "subject": 12,
+ "level": "A1",
+ "title": "Le Présent Simple (3rd Group Verbs)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>3rd group</strong> contains all <strong>irregular</strong> verbs: verbs ending in -ir (without -iss-), -oir, -re, plus <em>aller</em>. They are the most common verbs in the language, so they must be memorized.</p>"
+  },
+  {
+   "heading": "The four essential irregular verbs",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th><strong>être</strong> (to be)</th>\n<th><strong>avoir</strong> (to have)</th>\n<th><strong>aller</strong> (to go)</th>\n<th><strong>faire</strong> (to do/make)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td>suis</td>\n<td>ai (j'ai)</td>\n<td>vais</td>\n<td>fais</td>\n</tr>\n<tr>\n<td>tu</td>\n<td>es</td>\n<td>as</td>\n<td>vas</td>\n<td>fais</td>\n</tr>\n<tr>\n<td>il/elle/on</td>\n<td>est</td>\n<td>a</td>\n<td>va</td>\n<td>fait</td>\n</tr>\n<tr>\n<td>nous</td>\n<td>sommes</td>\n<td>avons</td>\n<td>allons</td>\n<td>faisons</td>\n</tr>\n<tr>\n<td>vous</td>\n<td>êtes</td>\n<td>avez</td>\n<td>allez</td>\n<td>faites</td>\n</tr>\n<tr>\n<td>ils/elles</td>\n<td>sont</td>\n<td>ont</td>\n<td>vont</td>\n<td>font</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Other high-frequency verbs",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th><strong>venir</strong> (come)</th>\n<th><strong>prendre</strong> (take)</th>\n<th><strong>pouvoir</strong> (can)</th>\n<th><strong>vouloir</strong> (want)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td>viens</td>\n<td>prends</td>\n<td>peux</td>\n<td>veux</td>\n</tr>\n<tr>\n<td>tu</td>\n<td>viens</td>\n<td>prends</td>\n<td>peux</td>\n<td>veux</td>\n</tr>\n<tr>\n<td>il</td>\n<td>vient</td>\n<td>prend</td>\n<td>peut</td>\n<td>veut</td>\n</tr>\n<tr>\n<td>nous</td>\n<td>venons</td>\n<td>prenons</td>\n<td>pouvons</td>\n<td>voulons</td>\n</tr>\n<tr>\n<td>vous</td>\n<td>venez</td>\n<td>prenez</td>\n<td>pouvez</td>\n<td>voulez</td>\n</tr>\n<tr>\n<td>ils</td>\n<td>viennent</td>\n<td>prennent</td>\n<td>peuvent</td>\n<td>veulent</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th></th>\n<th><strong>devoir</strong> (must)</th>\n<th><strong>savoir</strong> (know)</th>\n<th><strong>dire</strong> (say)</th>\n<th><strong>voir</strong> (see)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td>dois</td>\n<td>sais</td>\n<td>dis</td>\n<td>vois</td>\n</tr>\n<tr>\n<td>tu</td>\n<td>dois</td>\n<td>sais</td>\n<td>dis</td>\n<td>vois</td>\n</tr>\n<tr>\n<td>il</td>\n<td>doit</td>\n<td>sait</td>\n<td>dit</td>\n<td>voit</td>\n</tr>\n<tr>\n<td>nous</td>\n<td>devons</td>\n<td>savons</td>\n<td>disons</td>\n<td>voyons</td>\n</tr>\n<tr>\n<td>vous</td>\n<td>devez</td>\n<td>savez</td>\n<td><strong>dites</strong></td>\n<td>voyez</td>\n</tr>\n<tr>\n<td>ils</td>\n<td>doivent</td>\n<td>savent</td>\n<td>disent</td>\n<td>voient</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th></th>\n<th><strong>partir</strong> (leave)</th>\n<th><strong>mettre</strong> (put)</th>\n<th><strong>lire</strong> (read)</th>\n<th><strong>boire</strong> (drink)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td>pars</td>\n<td>mets</td>\n<td>lis</td>\n<td>bois</td>\n</tr>\n<tr>\n<td>tu</td>\n<td>pars</td>\n<td>mets</td>\n<td>lis</td>\n<td>bois</td>\n</tr>\n<tr>\n<td>il</td>\n<td>part</td>\n<td>met</td>\n<td>lit</td>\n<td>boit</td>\n</tr>\n<tr>\n<td>nous</td>\n<td>partons</td>\n<td>mettons</td>\n<td>lisons</td>\n<td>buvons</td>\n</tr>\n<tr>\n<td>vous</td>\n<td>partez</td>\n<td>mettez</td>\n<td>lisez</td>\n<td>buvez</td>\n</tr>\n<tr>\n<td>ils</td>\n<td>partent</td>\n<td>mettent</td>\n<td>lisent</td>\n<td>boivent</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Patterns that help",
+   "html": "<ol>\n<li><strong>Singular endings</strong> are usually <strong>-s, -s, -t</strong> (<em>je pars, tu pars, il part</em>) or <strong>-x, -x, -t</strong> for <em>pouvoir/vouloir</em> (<em>je peux, tu peux, il peut</em>).</li>\n<li>Verbs ending in <strong>-dre</strong> usually have <strong>-ds, -ds, -d</strong>: <em>je prends, tu prends, il prend</em>; <em>j'attends, il attend</em>; <em>je vends, il vend</em>.</li>\n<li><strong>Verb families</strong> conjugate alike:\n   - like <em>partir</em>: sortir, dormir (<em>je dors</em>), sentir, servir\n   - like <em>venir</em>: tenir, devenir, revenir, se souvenir\n   - like <em>prendre</em>: apprendre, comprendre\n   - like <em>mettre</em>: permettre, promettre\n   - like <em>ouvrir</em> (uses -er endings!): <em>j'ouvre, tu ouvres, il ouvre</em>; offrir, découvrir, souffrir</li>\n<li>Many verbs have <strong>two stems</strong>: one for je/tu/il/ils and one for nous/vous (<em>je bois / nous buvons</em>; <em>je dois / nous devons</em>).</li>\n<li>Only three verbs have <strong>vous</strong> forms not ending in -ez: <em>vous êtes, vous faites, vous dites</em>.</li>\n</ol>"
+  },
+  {
+   "heading": "Examples",
+   "html": "<ul>\n<li><em>Je vais au travail en métro.</em></li>\n<li><em>Il fait beau aujourd'hui.</em> — The weather is nice today.</li>\n<li><em>Nous prenons un café ?</em> — Shall we have a coffee?</li>\n<li><em>Je ne peux pas venir.</em> — I can't come.</li>\n<li><em>Tu veux du thé ?</em> — Do you want some tea?</li>\n<li><em>Ils doivent partir.</em> — They have to leave.</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Conjugate *aller* and *faire* fully.",
+   "answer": "aller: vais, vas, va, allons, allez, vont. faire: fais, fais, fait, faisons, faites, font.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Fill in: (a) Nous ___ (être) canadiens. (b) Ils ___ (avoir) faim. (c) Vous ___ (faire) du sport ? (d) Elle ___ (venir) demain. (e) Je ___ (prendre) le bus.",
+   "answer": "(a) sommes (b) ont (c) faites (d) vient (e) prends",
+   "id": "e2"
+  },
+  {
+   "prompt": "Fill in: (a) Tu ___ (pouvoir) m'aider ? (b) Ils ___ (vouloir) partir. (c) Je ___ (savoir) nager. (d) Vous ___ (dire) la vérité.",
+   "answer": "(a) peux (b) veulent (c) sais (d) dites",
+   "id": "e3"
+  },
+  {
+   "prompt": "Conjugate *comprendre* for *nous* and *ils*.",
+   "answer": "nous comprenons, ils comprennent.",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"We are drinking water and they are reading a book.\"",
+   "answer": "*Nous buvons de l'eau et ils lisent un livre.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

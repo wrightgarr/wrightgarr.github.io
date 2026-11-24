@@ -1,0 +1,188 @@
+{
+  "id": "b2-09",
+  "level": "B2",
+  "number": 9,
+  "title": "À la une",
+  "grammar": "nominalization",
+  "theme": "writing headlines",
+  "wordCount": 509,
+  "primer": [
+    "**la nominalisation**: turning verbs and adjectives into nouns",
+    "**-tion / -sion**: *manifester → la manifestation, expulser → l'expulsion*",
+    "**-ment / -age**: *licencier → le licenciement, nettoyer → le nettoyage*",
+    "**-ure / -ée / -e**: *fermer → la fermeture, arriver → l'arrivée, hausser → la hausse*",
+    "**adjectives → -té / -ude / -esse**: *beau → la beauté, inquiet → l'inquiétude*",
+    "**un titre**: a headline"
+  ],
+  "passage": [
+    [
+      "En février, Le Mistral a accueilli une nouvelle stagiaire, Inès, dix-neuf ans, étudiante en journalisme. Le premier jour, Nadia l'a installée à côté de Lucas, devenu entre-temps journaliste à part entière."
+    ],
+    [
+      "— Ta première mission, c'est les titres, a dit Lucas. Les lecteurs ne lisent que ça. Si le titre est mauvais, l'article n'existe pas."
+    ],
+    [
+      "Il lui a tendu le texte qu'elle avait écrit la veille sur la manifestation des habitants du Panier. Son titre faisait trois lignes : « Les habitants du Panier ont manifesté samedi parce qu'ils refusent que les loyers augmentent et que les touristes envahissent le quartier. »"
+    ],
+    [
+      "— Tout est juste, a dit Lucas. Mais c'est une phrase, pas un titre. Dans un titre, on transforme les verbes en noms. Regarde."
+    ],
+    [
+      "Il a pris un stylo et il a écrit : « Manifestation au Panier contre la hausse des loyers »."
+    ],
+    [
+      "— « Ils ont manifesté » devient « manifestation ». « Les loyers augmentent » devient « la hausse des loyers ». C'est ce qu'on appelle la nominalisation. Le titre est plus court, plus fort, et il ne dépend plus d'un sujet."
+    ],
+    [
+      "Inès a pris des notes."
+    ],
+    [
+      "Toute la journée, Lucas l'a entraînée avec des exemples tirés de l'actualité. « La mairie a décidé de fermer le marché de Noailles le dimanche » est devenu « Fermeture dominicale du marché de Noailles : la décision de la mairie contestée ». « Les pêcheurs s'inquiètent parce que les poissons disparaissent » est devenu « Disparition des poissons : l'inquiétude des pêcheurs ». « Josette Vidal refuse de quitter son appartement » est devenu « Refus de partir : la résistance d'une habitante du Panier »."
+    ],
+    [
+      "— Attention, a ajouté Lucas. La nominalisation est pratique, mais elle peut cacher des choses. « Expulsion de locataires » ne dit pas qui expulse. Un bon journaliste se demande toujours : qui fait quoi ? Le titre est court, mais l'article, lui, doit nommer les responsables."
+    ],
+    [
+      "Inès a hoché la tête. Elle apprenait vite."
+    ],
+    [
+      "Le soir, en rentrant chez elle, elle s'est amusée à nominaliser sa propre journée : « Réveil difficile. Arrivée en retard. Découverte de la rédaction. Correction de mon titre. Humiliation légère. Apprentissage rapide. » Elle a envoyé la liste à sa mère, qui lui a répondu par un seul mot : « Fierté. »"
+    ],
+    [
+      "À la fin de la semaine, elle a rendu son premier vrai papier : un portrait de Josette, de sa vie dans le Panier, de ses séries télévisées et de son amour tardif pour Chopin. Son titre tenait en six mots : « Josette, quatre-vingts ans, refuse l'expulsion »."
+    ],
+    [
+      "— Pas mal, a dit Nadia en le lisant. Mais il manque quelque chose : l'émotion."
+    ],
+    [
+      "Elle a réfléchi, puis elle a corrigé : « Josette, 80 ans : \"Je partirai les pieds devant\" »."
+    ],
+    [
+      "— Une citation, a expliqué Nadia. Quand une personne dit mieux que toi ce que tu veux dire, laisse-la parler."
+    ],
+    [
+      "Le portrait a été publié la semaine suivante. Il a été partagé des milliers de fois. Trois jours plus tard, la société d'investissement a envoyé une nouvelle lettre à Josette : elle proposait de prolonger son bail « à titre exceptionnel »."
+    ],
+    [
+      "Nadia a affiché la lettre au mur de la rédaction, avec une légende écrite par Inès : « Victoire d'une habitante : maintien dans les lieux »."
+    ],
+    [
+      "— Tu vois, a dit Lucas. Tu as compris."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "à part entière",
+      "en": "fully-fledged"
+    },
+    {
+      "fr": "la manifestation",
+      "en": "the demonstration"
+    },
+    {
+      "fr": "envahissent",
+      "en": "overrun"
+    },
+    {
+      "fr": "la hausse",
+      "en": "the rise"
+    },
+    {
+      "fr": "l'a entraînée",
+      "en": "coached her"
+    },
+    {
+      "fr": "tirés de l'actualité",
+      "en": "taken from the news"
+    },
+    {
+      "fr": "dominicale",
+      "en": "Sunday (adjective)"
+    },
+    {
+      "fr": "contestée",
+      "en": "disputed"
+    },
+    {
+      "fr": "les locataires",
+      "en": "tenants"
+    },
+    {
+      "fr": "nommer les responsables",
+      "en": "to name those responsible"
+    },
+    {
+      "fr": "son premier vrai papier",
+      "en": "her first real article"
+    },
+    {
+      "fr": "tardif",
+      "en": "late in life"
+    },
+    {
+      "fr": "les pieds devant",
+      "en": "feet first (i.e., in a coffin)"
+    },
+    {
+      "fr": "à titre exceptionnel",
+      "en": "as an exception"
+    },
+    {
+      "fr": "maintien dans les lieux",
+      "en": "right to stay (legal)"
+    }
+  ],
+  "spotlight": [
+    "**Nominalization turns a sentence into a headline:** *Ils ont manifesté → Manifestation; les loyers augmentent → la hausse des loyers; les poissons disparaissent → Disparition des poissons; elle refuse de partir → Refus de partir.* It's typical of headlines, reports and formal writing.",
+    "**Its hidden risk:** a noun can erase who did the action. *« Expulsion de locataires » ne dit pas qui expulse.* Learn the common suffixes (*-tion, -ment, -ure, -ée, -ité*), and pay attention to what they leave out."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi le premier titre d'Inès ne convient-il pas, selon Lucas ?",
+      "answer": "C'est une phrase trop longue, pas un titre",
+      "options": [
+        "C'est une phrase trop longue, pas un titre",
+        "Il contient des fautes",
+        "Il est trop drôle",
+        "Il ne parle pas du Panier"
+      ],
+      "evidence": "Tout est juste, a dit Lucas. Mais c'est une phrase, pas un titre."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quel danger de la nominalisation Lucas mentionne-t-il ?",
+      "answer": "Elle peut cacher qui fait l'action",
+      "options": [
+        "Elle peut cacher qui fait l'action",
+        "Elle rend les titres trop longs",
+        "Elle est interdite dans la presse",
+        "Elle change le sens des mots"
+      ],
+      "evidence": "« Expulsion de locataires » ne dit pas qui expulse."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi Nadia ajoute-t-elle une citation dans le titre ?",
+      "answer": "Pour ajouter de l'émotion : la personne dit mieux les choses elle-même",
+      "options": [
+        "Pour ajouter de l'émotion : la personne dit mieux les choses elle-même",
+        "Pour rendre le titre plus long",
+        "Parce que Josette l'a exigé",
+        "Pour éviter un procès"
+      ],
+      "evidence": "Quand une personne dit mieux que toi ce que tu veux dire, laisse-la parler."
+    }
+  ],
+  "writing": {
+    "prompt": "Transformez ces phrases en titres avec la nominalisation : *Le prix du pain a augmenté. La mairie a fermé la piscine. Les étudiants ont protesté contre la réforme. Le musée rouvrira en mai.* Puis écrivez un titre sur une nouvelle de votre ville.",
+    "model": "Hausse du prix du pain. Fermeture de la piscine municipale. Protestation des étudiants contre la réforme. Réouverture du musée en mai. Inauguration d'une nouvelle bibliothèque à Laval.",
+    "targets": [
+      {
+        "label": "nominalized nouns (-tion, -sion, -ment, -ure, -ée, -age, hausse…)",
+        "pattern": "\\b[a-zà-ÿ]+(tion|sion|ment|ure|ée|age)\\b|\\bhausse\\b|\\bbaisse\\b",
+        "min": 5
+      }
+    ]
+  }
+}

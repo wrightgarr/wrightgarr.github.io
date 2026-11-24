@@ -1,0 +1,151 @@
+{
+  "id": "a1-01",
+  "level": "A1",
+  "number": 1,
+  "title": "Bonjour, Paris !",
+  "grammar": "*être* (to be), *un/une*",
+  "theme": "introductions",
+  "wordCount": 91,
+  "primer": [
+    "**je suis / il est / elle est**: I am / he is / she is",
+    "**je m'appelle… / il s'appelle…**: my name is… / his (its) name is…",
+    "**j'habite à…**: I live in…",
+    "**j'aime / il aime**: I like / he likes",
+    "**un, une / le, la, les**: a / the",
+    "**et / mais**: and / but",
+    "**voici**: here is, this is"
+  ],
+  "passage": [
+    [
+      "Bonjour ! Je m'appelle Léa. Je suis française et j'habite à Paris. Paris est une grande ville. J'habite dans un petit appartement. L'appartement est petit, mais il est confortable."
+    ],
+    [
+      "Voici Marco. Marco est mon ami. Il est italien, mais il habite à Paris aussi. Il est étudiant. Moi, je suis photographe."
+    ],
+    [
+      "Le matin, je suis dans un café. Le café s'appelle « Le Soleil ». J'aime le café et j'aime les croissants. Marco aime le chocolat chaud."
+    ],
+    [
+      "— Bonjour, Léa !",
+      "— Bonjour, Marco ! Un croissant ?",
+      "— Oui, merci !"
+    ],
+    [
+      "Paris est magnifique. J'aime Paris, et j'aime mon café."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "bonjour",
+      "en": "hello"
+    },
+    {
+      "fr": "française",
+      "en": "French (describing a woman)"
+    },
+    {
+      "fr": "une ville",
+      "en": "a city"
+    },
+    {
+      "fr": "grande / petit",
+      "en": "big / small"
+    },
+    {
+      "fr": "mon ami",
+      "en": "my friend"
+    },
+    {
+      "fr": "étudiant",
+      "en": "student"
+    },
+    {
+      "fr": "moi",
+      "en": "me (for emphasis: \"As for me…\")"
+    },
+    {
+      "fr": "aussi",
+      "en": "also, too"
+    },
+    {
+      "fr": "le matin",
+      "en": "in the morning"
+    },
+    {
+      "fr": "le café",
+      "en": "the café; also coffee"
+    },
+    {
+      "fr": "chaud",
+      "en": "hot"
+    }
+  ],
+  "spotlight": [
+    "**Être (to be):** *Je suis française.* / *Il est étudiant.* Note there's no \"a\" before a profession in French.",
+    "**Gender:** every noun is masculine or feminine, and adjectives match. *un petit appartement* (m.) vs. *une grande ville* (f.; the adjective adds *-e*)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Where does Léa live, and how does she describe her home?",
+      "answer": "In Paris, in a small but comfortable apartment",
+      "options": [
+        "In Paris, in a small but comfortable apartment",
+        "In Lyon, in a big apartment",
+        "In Paris, in a big modern house",
+        "In Italy, above a café"
+      ],
+      "evidence": "J'habite dans un petit appartement. L'appartement est petit, mais il est confortable."
+    },
+    {
+      "id": "q2",
+      "prompt": "Who is Marco? Give two facts about him.",
+      "answer": "Léa's Italian friend, a student who lives in Paris",
+      "options": [
+        "Léa's Italian friend, a student who lives in Paris",
+        "Léa's brother, a photographer",
+        "The owner of Café Le Soleil",
+        "An Italian tourist visiting for a week"
+      ],
+      "evidence": "Il est italien, mais il habite à Paris aussi. Il est étudiant."
+    },
+    {
+      "id": "q3",
+      "prompt": "What do Léa and Marco each like at the café?",
+      "answer": "Léa likes coffee and croissants; Marco likes hot chocolate",
+      "options": [
+        "Léa likes coffee and croissants; Marco likes hot chocolate",
+        "Léa likes hot chocolate; Marco likes croissants",
+        "They both like tea",
+        "Léa likes croissants only; Marco likes coffee"
+      ],
+      "evidence": "J'aime le café et j'aime les croissants. Marco aime le chocolat chaud."
+    }
+  ],
+  "writing": {
+    "prompt": "Introduce yourself in 2–3 sentences using *Je m'appelle…*, *Je suis…*, *J'habite à…*, *J'aime…*",
+    "model": "Je m'appelle Sam. Je suis canadien et j'habite à Montréal. J'aime le café et les croissants.",
+    "targets": [
+      {
+        "label": "Je m'appelle…",
+        "pattern": "je m'appelle",
+        "min": 1
+      },
+      {
+        "label": "Je suis…",
+        "pattern": "je suis",
+        "min": 1
+      },
+      {
+        "label": "J'habite à…",
+        "pattern": "j'habite",
+        "min": 1
+      },
+      {
+        "label": "J'aime…",
+        "pattern": "j'aime|j'adore",
+        "min": 1
+      }
+    ]
+  }
+}

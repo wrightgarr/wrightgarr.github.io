@@ -1,0 +1,148 @@
+{
+  "id": "a2-02",
+  "level": "A2",
+  "number": 2,
+  "title": "Premier jour au magazine",
+  "grammar": "irregular past participles",
+  "theme": "a first day at work",
+  "wordCount": 187,
+  "primer": [
+    "**faire → fait**: done, made (*j'ai fait*)",
+    "**prendre → pris**: taken (*j'ai pris le bus*)",
+    "**voir → vu**: seen",
+    "**avoir → eu / être → été**: had / been",
+    "**mettre → mis / dire → dit / écrire → écrit / lire → lu**: put / said / written / read",
+    "**la rédaction**: the newsroom",
+    "**la rédactrice en chef**: the editor-in-chief (woman)"
+  ],
+  "passage": [
+    [
+      "Lundi matin, Léa a mis une chemise blanche et elle a pris le bus pour le centre-ville. Le magazine s'appelle Le Mistral, comme le vent de Provence. Les bureaux sont près du Vieux-Port."
+    ],
+    [
+      "À la rédaction, la rédactrice en chef, Nadia Benali, a dit bonjour à Léa avec un grand sourire."
+    ],
+    [
+      "— Bienvenue ! Tu as fait bon voyage ?",
+      "— Oui, merci. J'ai eu un peu peur ce matin, mais ça va !"
+    ],
+    [
+      "Nadia a présenté l'équipe. Léa a vu beaucoup de nouveaux visages. Puis elle a fait la connaissance de Karim, un journaliste de trente ans."
+    ],
+    [
+      "— Moi, j'ai écrit l'article sur les calanques le mois dernier, a dit Karim. Tu as vu les photos ? Elles ne sont pas très belles. C'est pour ça que Nadia a cherché une vraie photographe !"
+    ],
+    [
+      "Léa a ri."
+    ],
+    [
+      "À midi, Karim et Léa ont pris un sandwich sur le port. L'après-midi, Léa a lu les anciens numéros du magazine et elle a pris des notes. Elle a été très occupée."
+    ],
+    [
+      "Le soir, elle a écrit un message à sa mère : « Premier jour : super ! Mes collègues sont sympas. J'ai déjà vu la mer trois fois aujourd'hui ! »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "une chemise",
+      "en": "a shirt"
+    },
+    {
+      "fr": "le centre-ville",
+      "en": "downtown"
+    },
+    {
+      "fr": "le vent",
+      "en": "the wind"
+    },
+    {
+      "fr": "les bureaux",
+      "en": "the offices"
+    },
+    {
+      "fr": "l'équipe",
+      "en": "the team"
+    },
+    {
+      "fr": "visages",
+      "en": "faces"
+    },
+    {
+      "fr": "a fait la connaissance de",
+      "en": "met (for the first time)"
+    },
+    {
+      "fr": "le mois dernier",
+      "en": "last month"
+    },
+    {
+      "fr": "a ri",
+      "en": "laughed"
+    },
+    {
+      "fr": "les anciens numéros",
+      "en": "back issues"
+    },
+    {
+      "fr": "collègues",
+      "en": "colleagues"
+    },
+    {
+      "fr": "déjà",
+      "en": "already"
+    }
+  ],
+  "spotlight": [
+    "**Irregular participles** have to be learned: *mettre → a mis, prendre → a pris, voir → a vu, faire → a fait, écrire → a écrit, lire → a lu, avoir → a eu, être → a été*.",
+    "**With avoir, the participle never changes:** *Léa a pris, Karim et Léa ont pris*. Only *avoir* changes: *j'ai, tu as, il a, nous avons, vous avez, ils ont*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why is the magazine called Le Mistral?",
+      "answer": "It's named after the wind of Provence",
+      "options": [
+        "It's named after the wind of Provence",
+        "It's the name of the street where the offices are",
+        "It's the name of Nadia's boat",
+        "It's a famous Marseille restaurant"
+      ],
+      "evidence": "Le magazine s'appelle Le Mistral, comme le vent de Provence."
+    },
+    {
+      "id": "q2",
+      "prompt": "What did Karim write last month, and what was the problem with it?",
+      "answer": "An article about the calanques — but the photos weren't very good",
+      "options": [
+        "An article about the calanques — but the photos weren't very good",
+        "A book about Paris — but nobody read it",
+        "An article about Léa — but it was too long",
+        "A guide to restaurants — but it had mistakes"
+      ],
+      "evidence": "Moi, j'ai écrit l'article sur les calanques le mois dernier, a dit Karim. … Elles ne sont pas très belles."
+    },
+    {
+      "id": "q3",
+      "prompt": "What did Léa do in the afternoon?",
+      "answer": "She read back issues of the magazine and took notes",
+      "options": [
+        "She read back issues of the magazine and took notes",
+        "She took photos of the port",
+        "She went home early",
+        "She wrote her first article"
+      ],
+      "evidence": "L'après-midi, Léa a lu les anciens numéros du magazine et elle a pris des notes."
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about a first day you remember (a job, a school, a club), using three different irregular participles.",
+    "model": "Le premier jour, j'ai pris le métro à huit heures. J'ai vu beaucoup de nouveaux collègues et j'ai fait la connaissance de mon chef. Le soir, j'ai écrit un message à ma sœur.",
+    "targets": [
+      {
+        "label": "three irregular participles (fait, pris, vu, eu, été, mis, dit, écrit, lu…)",
+        "pattern": "\\b(fait|pris|vu|eu|été|mis|dit|écrit|lu|bu|ouvert|appris|compris|su|pu|voulu|dû|reçu|connu)\\b",
+        "min": 3
+      }
+    ]
+  }
+}

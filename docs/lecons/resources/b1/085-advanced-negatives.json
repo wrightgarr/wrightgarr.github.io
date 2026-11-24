@@ -1,0 +1,83 @@
+{
+ "id": "s85",
+ "subject": 85,
+ "level": "B1",
+ "title": "Advanced Negatives (ne…jamais, ne…plus, ne…rien)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Beyond <em>ne… pas</em>, French has many negative structures. They all use <strong>ne</strong> before the verb and a second word replacing <em>pas</em>.</p>"
+  },
+  {
+   "heading": "The main negative structures",
+   "html": "<table>\n<thead>\n<tr>\n<th>Negative</th>\n<th>Meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>ne… pas</strong></td>\n<td>not</td>\n<td><em>Je </em><em>ne</em><em> fume </em><em>pas</em><em>.</em></td>\n</tr>\n<tr>\n<td><strong>ne… jamais</strong></td>\n<td>never</td>\n<td><em>Je </em><em>ne</em><em> fume </em><em>jamais</em><em>.</em></td>\n</tr>\n<tr>\n<td><strong>ne… plus</strong></td>\n<td>no longer, not anymore</td>\n<td><em>Je </em><em>ne</em><em> fume </em><em>plus</em><em>.</em> — I don't smoke anymore.</td>\n</tr>\n<tr>\n<td><strong>ne… rien</strong></td>\n<td>nothing</td>\n<td><em>Je </em><em>ne</em><em> vois </em><em>rien</em><em>.</em></td>\n</tr>\n<tr>\n<td><strong>ne… personne</strong></td>\n<td>no one</td>\n<td><em>Je </em><em>ne</em><em> connais </em><em>personne</em><em>.</em></td>\n</tr>\n<tr>\n<td><strong>ne… pas encore</strong></td>\n<td>not yet</td>\n<td><em>Il </em><em>n'</em><em>est </em><em>pas encore</em><em> arrivé.</em></td>\n</tr>\n<tr>\n<td><strong>ne… nulle part</strong></td>\n<td>nowhere</td>\n<td><em>Je </em><em>ne</em><em> le trouve </em><em>nulle part</em><em>.</em></td>\n</tr>\n<tr>\n<td><strong>ne… aucun(e)</strong></td>\n<td>not any, none</td>\n<td><em>Je </em><em>n'</em><em>ai </em><em>aucune</em><em> idée.</em></td>\n</tr>\n<tr>\n<td><strong>ne… ni… ni</strong></td>\n<td>neither… nor</td>\n<td><em>Je </em><em>n'</em><em>aime </em><em>ni</em><em> le thé </em><em>ni</em><em> le café.</em></td>\n</tr>\n<tr>\n<td><strong>ne… guère</strong></td>\n<td>hardly (formal)</td>\n<td><em>Il </em><em>ne</em><em> parle </em><em>guère</em><em>.</em></td>\n</tr>\n<tr>\n<td><strong>ne… que</strong></td>\n<td>only (restriction, not really negative)</td>\n<td><em>Je </em><em>n'</em><em>ai </em><em>que</em><em> 10 euros.</em> — I only have 10 euros.</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Opposites",
+   "html": "<table>\n<thead>\n<tr>\n<th>Affirmative</th>\n<th>Negative</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>toujours, souvent, parfois</td>\n<td>ne… jamais</td>\n</tr>\n<tr>\n<td>encore, toujours (still)</td>\n<td>ne… plus</td>\n</tr>\n<tr>\n<td>déjà</td>\n<td>ne… pas encore / ne… jamais</td>\n</tr>\n<tr>\n<td>quelque chose, tout</td>\n<td>ne… rien</td>\n</tr>\n<tr>\n<td>quelqu'un, tout le monde</td>\n<td>ne… personne</td>\n</tr>\n<tr>\n<td>quelque part, partout</td>\n<td>ne… nulle part</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Position in compound tenses",
+   "html": "<ul>\n<li><strong>Most</strong> go around the auxiliary: <em>Je </em><em>n'</em><em>ai </em><em>jamais</em><em> vu.</em> / <em>Il </em><em>n'</em><em>a </em><em>rien</em><em> dit.</em> / <em>Je </em><em>n'</em><em>ai </em><em>plus</em><em> fumé.</em></li>\n<li><strong>Personne, nulle part, aucun, que, ni… ni</strong> go <strong>after the participle</strong>: <em>Je </em><em>n'</em><em>ai vu </em><em>personne</em><em>.</em> / <em>Je </em><em>ne</em><em> suis allé </em><em>nulle part</em><em>.</em> / <em>Je </em><em>n'</em><em>ai lu </em><em>aucun</em><em> livre.</em> / <em>Je </em><em>n'</em><em>ai mangé </em><em>qu'</em><em>une pomme.</em></li>\n</ul>"
+  },
+  {
+   "heading": "With infinitives",
+   "html": "<ul>\n<li><em>ne pas, ne jamais, ne plus, ne rien</em> go together <strong>before</strong> the infinitive: <em>Il m'a dit de </em><em>ne rien</em><em> dire.</em> / <em>J'ai décidé de </em><em>ne plus</em><em> fumer.</em></li>\n<li><em>Personne</em> goes after: <em>Je préfère </em><em>ne</em><em> voir </em><em>personne</em><em>.</em></li>\n</ul>"
+  },
+  {
+   "heading": "As subjects",
+   "html": "<p><strong><em>Personne ne</em><em> sait.</em> / </strong><em>Rien n'</em><em>est facile.</em> / <strong><em>Aucun</em>* élève </strong>n'<strong>a compris.<em> / </em></strong>Ni<strong> Paul </strong>ni<strong> Marie </strong>ne*<em> sont venus.</em></p>"
+  },
+  {
+   "heading": "Combining negatives (no *pas*!)",
+   "html": "<ul>\n<li><em>Je </em><em>ne</em><em> dis </em><em>jamais rien</em><em>.</em> — I never say anything.</li>\n<li><em>Il </em><em>n'</em><em>y a </em><em>plus personne</em><em>.</em> — There's no one left.</li>\n<li><em>Je </em><em>ne</em><em> vais </em><em>plus jamais</em><em> faire ça.</em> — I'll never do that again.</li>\n<li>~~Je ne dis pas rien~~ is wrong (double negative with <em>pas</em>).</li>\n</ul>"
+  },
+  {
+   "heading": "Ne… que vs seulement",
+   "html": "<p><em>Je </em><em>n'</em><em>ai </em><em>que</em><em> deux enfants</em> = <em>J'ai </em><em>seulement</em><em> deux enfants.</em>\nArticles don't change after <em>ne… que</em> (not a true negative): <em>Il ne boit que </em><em>du</em><em> café.</em></p>"
+  },
+  {
+   "heading": "Short answers",
+   "html": "<p><em>Jamais ! / Rien. / Personne. / Plus maintenant. / Pas encore. / Aucun. / Moi non plus.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Tu vas souvent au cinéma ? → Non, …",
+   "instruction": "Answer negatively using the opposite:",
+   "answer": "*Non, je ne vais jamais au cinéma.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Il travaille encore ici ? → Non, …",
+   "answer": "*Non, il ne travaille plus ici.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Vous avez déjà mangé ? → Non, …",
+   "answer": "*Non, nous n'avons pas encore mangé.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Tu as vu quelqu'un ? → Non, …",
+   "answer": "*Non, je n'ai vu personne.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Elle a quelque chose à dire ? → Non, …",
+   "answer": "*Non, elle n'a rien à dire.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Rewrite with *ne… que*: *J'ai seulement une sœur.*",
+   "answer": "*Je n'ai qu'une sœur.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"I'll never do anything for him again.\"",
+   "answer": "*Je ne ferai plus jamais rien pour lui.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

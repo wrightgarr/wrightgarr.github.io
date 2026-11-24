@@ -1,0 +1,56 @@
+{
+ "id": "s29",
+ "subject": 29,
+ "level": "A1",
+ "title": "Fruits & Vegetables",
+ "sections": [
+  {
+   "heading": "Fruits (les fruits)",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>la pomme</td>\n<td>apple</td>\n<td>la fraise</td>\n<td>strawberry</td>\n</tr>\n<tr>\n<td>la poire</td>\n<td>pear</td>\n<td>la framboise</td>\n<td>raspberry</td>\n</tr>\n<tr>\n<td>la banane</td>\n<td>banana</td>\n<td>le bleuet (Québec) / la myrtille (France)</td>\n<td>blueberry</td>\n</tr>\n<tr>\n<td>l'orange (f)</td>\n<td>orange</td>\n<td>la cerise</td>\n<td>cherry</td>\n</tr>\n<tr>\n<td>le citron</td>\n<td>lemon</td>\n<td>le raisin</td>\n<td>grape(s)</td>\n</tr>\n<tr>\n<td>la pêche</td>\n<td>peach</td>\n<td>le melon</td>\n<td>melon</td>\n</tr>\n<tr>\n<td>l'abricot (m)</td>\n<td>apricot</td>\n<td>la pastèque / le melon d'eau</td>\n<td>watermelon</td>\n</tr>\n<tr>\n<td>la prune</td>\n<td>plum</td>\n<td>l'ananas (m)</td>\n<td>pineapple</td>\n</tr>\n<tr>\n<td>la mangue</td>\n<td>mango</td>\n<td>le kiwi</td>\n<td>kiwi</td>\n</tr>\n<tr>\n<td>la noix de coco</td>\n<td>coconut</td>\n<td>l'avocat (m)</td>\n<td>avocado</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Vegetables (les légumes)",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>la carotte</td>\n<td>carrot</td>\n<td>la pomme de terre / la patate (Québec)</td>\n<td>potato</td>\n</tr>\n<tr>\n<td>la tomate</td>\n<td>tomato</td>\n<td>l'oignon (m)</td>\n<td>onion</td>\n</tr>\n<tr>\n<td>la salade / la laitue</td>\n<td>lettuce</td>\n<td>l'ail (m)</td>\n<td>garlic</td>\n</tr>\n<tr>\n<td>le concombre</td>\n<td>cucumber</td>\n<td>le poivron</td>\n<td>bell pepper</td>\n</tr>\n<tr>\n<td>le brocoli</td>\n<td>broccoli</td>\n<td>le chou</td>\n<td>cabbage</td>\n</tr>\n<tr>\n<td>le chou-fleur</td>\n<td>cauliflower</td>\n<td>les épinards (m)</td>\n<td>spinach</td>\n</tr>\n<tr>\n<td>les haricots (verts) (m)</td>\n<td>(green) beans</td>\n<td>les petits pois (m)</td>\n<td>peas</td>\n</tr>\n<tr>\n<td>le maïs</td>\n<td>corn</td>\n<td>le champignon</td>\n<td>mushroom</td>\n</tr>\n<tr>\n<td>la courgette (France) / le zucchini (Québec)</td>\n<td>zucchini</td>\n<td>l'aubergine (f)</td>\n<td>eggplant</td>\n</tr>\n<tr>\n<td>le céleri</td>\n<td>celery</td>\n<td>le radis</td>\n<td>radish</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Notes",
+   "html": "<ul>\n<li><em>le raisin</em> = grapes (a bunch); one grape = <em>un grain de raisin</em>. Raisins = <em>les raisins secs</em>.</li>\n<li><em>les haricots</em> has an aspirated h: <em>les | haricots</em> (no liaison).</li>\n<li><em>l'avocat</em> is also \"lawyer\"!</li>\n<li><em>la pomme de terre</em> = literally \"apple of the earth\".</li>\n</ul>"
+  },
+  {
+   "heading": "Useful phrases at the market (au marché)",
+   "html": "<ul>\n<li><em>Je voudrais un kilo de pommes, s'il vous plaît.</em> — I'd like a kilo of apples, please.</li>\n<li><em>Combien coûtent les fraises ?</em> — How much are the strawberries?</li>\n<li><em>Elles sont mûres ?</em> — Are they ripe?</li>\n<li><em>C'est tout, merci.</em> — That's all, thanks.</li>\n<li><em>un panier</em> (basket), <em>une barquette</em> (punnet), <em>une botte de carottes</em> (a bunch of carrots)</li>\n<li><em>bio</em> — organic; <em>de saison</em> — in season; <em>frais</em> — fresh</li>\n</ul>"
+  },
+  {
+   "heading": "Expressions",
+   "html": "<ul>\n<li><em>Les carottes sont cuites !</em> — It's all over! (lit. \"The carrots are cooked\")</li>\n<li><em>Tomber dans les pommes</em> — to faint</li>\n<li><em>Ramener sa fraise</em> — to stick one's nose in (informal)</li>\n<li><em>Haut comme trois pommes</em> — knee-high to a grasshopper</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Give the French with article: apple, strawberry, potato, onion, mushroom.",
+   "answer": "*la pomme*, *la fraise*, *la pomme de terre*, *l'oignon*, *le champignon*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Which are fruits and which are vegetables? *le poivron, la cerise, l'épinard, la mangue, le chou.*",
+   "answer": "Fruits: *la cerise, la mangue*. Vegetables: *le poivron, l'épinard, le chou*.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"I would like a kilo of tomatoes and two lemons, please.\"",
+   "answer": "*Je voudrais un kilo de tomates et deux citrons, s'il vous plaît.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "What does *tomber dans les pommes* mean?",
+   "answer": "To faint.",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"I like strawberries but I don't like bananas.\"",
+   "answer": "*J'aime les fraises mais je n'aime pas les bananes.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

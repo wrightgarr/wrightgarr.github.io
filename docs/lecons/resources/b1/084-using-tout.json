@@ -1,0 +1,67 @@
+{
+ "id": "s84",
+ "subject": 84,
+ "level": "B1",
+ "title": "Using \"tout\"",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Tout</strong> can be an adjective, a pronoun, or an adverb, with different forms and meanings.</p>"
+  },
+  {
+   "heading": "1. Tout as an adjective (+ article / determiner + noun): all, whole, every",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Masc.</th>\n<th>Fem.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Singular</td>\n<td><strong>tout</strong></td>\n<td><strong>toute</strong></td>\n</tr>\n<tr>\n<td>Plural</td>\n<td><strong>tous</strong> (s silent)</td>\n<td><strong>toutes</strong></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em><strong>tout le</strong> temps</em> — all the time</li>\n<li><em><strong>toute la</strong> journée</em> — all day long</li>\n<li><em><strong>tous les</strong> jours</em> — every day</li>\n<li><em><strong>toutes les</strong> semaines</em> — every week</li>\n<li><strong><em>tout le</em><em> monde</em> — everyone (singular verb: *Tout le monde </strong>est*<em> là.</em>)</li>\n<li><strong><em>tous mes</em><em> amis</em> / </strong><em>toutes ces</em><em> fleurs</em></li>\n</ul>\n<p><strong>Without an article = any / every (formal):</strong> <em>Tout homme est mortel.</em> — Every man is mortal. / <em>à toute heure</em> — at any hour / <em>en tout cas</em> — in any case.</p>"
+  },
+  {
+   "heading": "2. Tout as a pronoun: everything, all",
+   "html": "<table>\n<thead>\n<tr>\n<th>Form</th>\n<th>Meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>tout</strong> (neutral)</td>\n<td>everything</td>\n<td><strong><em>Tout</em><em> va bien.</em> / *J'ai </strong>tout*<em> compris.</em></td>\n</tr>\n<tr>\n<td><strong>tous</strong> (s pronounced: \"tooss\")</td>\n<td>all (m.pl.)</td>\n<td><em>Ils sont </em><em>tous</em><em> venus.</em> / <em><strong>Tous</strong> sont d'accord.</em></td>\n</tr>\n<tr>\n<td><strong>toutes</strong></td>\n<td>all (f.pl.)</td>\n<td><em>Elles sont </em><em>toutes</em><em> parties.</em></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Pronunciation tip:</strong> <em>tous les jours</em> (\"too\") but <em>Ils sont tous là</em> (\"tooss\").</p>\n<p><strong>Position of pronoun tout in compound tenses:</strong> between auxiliary and participle: <em>J'ai </em><em>tout</em><em> mangé.</em> / <em>Elle a </em><em>tout</em><em> oublié.</em>\nWith infinitive: before the infinitive: <em>Je vais </em><em>tout</em><em> expliquer.</em></p>"
+  },
+  {
+   "heading": "3. Tout as an adverb: very, completely, quite",
+   "html": "<p>Before an adjective or adverb: means <em>très / complètement</em>.\n- <strong>Invariable</strong> before masculine adjectives and before feminine adjectives starting with a vowel or mute h:\n  - <em>Il est </em><em>tout</em><em> petit.</em> / <em>Ils sont </em><em>tout</em><em> contents.</em> / <em>Elle est </em><em>tout</em><em> étonnée.</em>\n- <strong>Agrees</strong> (toute / toutes) before feminine adjectives starting with a consonant or aspirated h (for pronunciation):\n  - <em>Elle est </em><em>toute</em><em> petite.</em> / <em>Elles sont </em><em>toutes</em><em> rouges.</em> / <em>Elle est </em><em>toute</em><em> honteuse.</em>\n- With adverbs: <em>tout près</em> (very near), <em>tout doucement</em>, <em>tout seul</em> (all alone), <em>tout droit</em> (straight ahead).</p>"
+  },
+  {
+   "heading": "Common expressions",
+   "html": "<table>\n<thead>\n<tr>\n<th>Expression</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>tout à fait</strong></td>\n<td>absolutely, exactly</td>\n</tr>\n<tr>\n<td><strong>tout de suite</strong></td>\n<td>right away</td>\n</tr>\n<tr>\n<td><strong>tout à l'heure</strong></td>\n<td>in a little while / a little while ago</td>\n</tr>\n<tr>\n<td><strong>tout de même</strong> / <strong>quand même</strong></td>\n<td>all the same, still</td>\n</tr>\n<tr>\n<td><strong>pas du tout</strong></td>\n<td>not at all</td>\n</tr>\n<tr>\n<td><strong>du tout au tout</strong></td>\n<td>completely</td>\n</tr>\n<tr>\n<td><strong>en tout</strong></td>\n<td>in total</td>\n</tr>\n<tr>\n<td><strong>malgré tout</strong></td>\n<td>despite everything</td>\n</tr>\n<tr>\n<td><strong>tout le monde</strong></td>\n<td>everybody</td>\n</tr>\n<tr>\n<td><strong>tout compris</strong></td>\n<td>all included</td>\n</tr>\n<tr>\n<td><strong>c'est tout</strong></td>\n<td>that's all</td>\n</tr>\n<tr>\n<td><strong>après tout</strong></td>\n<td>after all</td>\n</tr>\n<tr>\n<td><strong>avant tout / surtout</strong></td>\n<td>above all</td>\n</tr>\n<tr>\n<td><strong>tout d'un coup</strong></td>\n<td>suddenly</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "___ les enfants sont dans le jardin.",
+   "instruction": "Fill in with *tout, toute, tous, toutes*:",
+   "answer": "Tous",
+   "id": "e1"
+  },
+  {
+   "prompt": "J'ai travaillé ___ la nuit.",
+   "answer": "toute",
+   "id": "e2"
+  },
+  {
+   "prompt": "Elle est ___ seule à la maison.",
+   "answer": "toute",
+   "id": "e3"
+  },
+  {
+   "prompt": "Ils sont ___ arrivés à l'heure. (pronoun)",
+   "answer": "tous",
+   "id": "e4"
+  },
+  {
+   "prompt": "Elle est ___ contente. / Elle est ___ heureuse.",
+   "answer": "toute ; tout",
+   "id": "e5"
+  },
+  {
+   "prompt": "___ le monde aime le chocolat.",
+   "answer": "Tout",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"I understood everything.\" / \"Come right away!\"",
+   "answer": "*J'ai tout compris.* / *Viens tout de suite !*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

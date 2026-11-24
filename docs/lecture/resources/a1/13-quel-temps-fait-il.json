@@ -1,0 +1,130 @@
+{
+  "id": "a1-13",
+  "level": "A1",
+  "number": 13,
+  "title": "Quel temps fait-il ?",
+  "grammar": "*faire*, weather",
+  "theme": "a day in the park",
+  "wordCount": 89,
+  "primer": [
+    "**faire**: to do, make (*je fais, tu fais, il fait, nous faisons, vous faites, ils font*)",
+    "**il fait beau / chaud / froid**: it's nice / hot / cold",
+    "**il pleut**: it's raining",
+    "**faire du sport / du vélo**: to play sports / to ride a bike",
+    "**faire une promenade**: to go for a walk",
+    "**faire la cuisine**: to cook",
+    "**les devoirs**: homework"
+  ],
+  "passage": [
+    [
+      "Aujourd'hui, il fait beau à Paris. Il y a du soleil et il fait chaud. Léa et Marco font une promenade au jardin du Luxembourg. Beaucoup de Parisiens font du sport dans le parc. Un homme fait du jogging. Deux enfants font du vélo."
+    ],
+    [
+      "— Qu'est-ce que tu fais ce soir ? demande Marco.",
+      "— Je fais la cuisine avec Hugo. Et toi ?",
+      "— Je fais mes devoirs."
+    ],
+    [
+      "Mais à quatre heures, le ciel est gris. Il pleut ! Léa et Marco courent dans un café."
+    ],
+    [
+      "— Le temps à Paris… c'est toujours une surprise !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "le soleil",
+      "en": "the sun"
+    },
+    {
+      "fr": "le jardin du Luxembourg",
+      "en": "a famous park in Paris"
+    },
+    {
+      "fr": "beaucoup de",
+      "en": "many, a lot of"
+    },
+    {
+      "fr": "un homme",
+      "en": "a man"
+    },
+    {
+      "fr": "des enfants",
+      "en": "children"
+    },
+    {
+      "fr": "le ciel",
+      "en": "the sky"
+    },
+    {
+      "fr": "gris",
+      "en": "grey"
+    },
+    {
+      "fr": "courent",
+      "en": "run"
+    },
+    {
+      "fr": "le temps",
+      "en": "the weather (also: time)"
+    }
+  ],
+  "spotlight": [
+    "**Weather uses il fait:** *Il fait beau. Il fait chaud.* Rain is its own verb: *Il pleut.*",
+    "**Faire + du/de la for activities:** *faire du vélo, faire du jogging, faire de la natation* (swimming)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the weather like at the start?",
+      "answer": "Sunny and hot",
+      "options": [
+        "Sunny and hot",
+        "Rainy and cold",
+        "Grey and windy",
+        "Snowy"
+      ],
+      "evidence": "Il y a du soleil et il fait chaud."
+    },
+    {
+      "id": "q2",
+      "prompt": "What are people doing in the park? Name two activities.",
+      "answer": "Jogging and cycling",
+      "options": [
+        "Jogging and cycling",
+        "Swimming and tennis",
+        "Football and basketball",
+        "Skating and dancing"
+      ],
+      "evidence": "Un homme fait du jogging. Deux enfants font du vélo."
+    },
+    {
+      "id": "q3",
+      "prompt": "What happens at four o'clock?",
+      "answer": "The sky turns grey and it starts to rain",
+      "options": [
+        "The sky turns grey and it starts to rain",
+        "It starts to snow",
+        "The park closes",
+        "The sun comes out"
+      ],
+      "evidence": "Mais à quatre heures, le ciel est gris. Il pleut !"
+    }
+  ],
+  "writing": {
+    "prompt": "Describe today's weather where you are, and say what you do when it rains.",
+    "model": "Aujourd'hui, il fait froid. Quand il pleut, je fais la cuisine.",
+    "targets": [
+      {
+        "label": "weather (il fait…, il pleut, il neige)",
+        "pattern": "il fait|il pleut|il neige",
+        "min": 1
+      },
+      {
+        "label": "a form of faire",
+        "pattern": "\\b(fais|fait|faisons|faites|font|faire)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

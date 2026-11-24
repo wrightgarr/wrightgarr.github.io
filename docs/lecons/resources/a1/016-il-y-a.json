@@ -1,0 +1,56 @@
+{
+ "id": "s16",
+ "subject": 16,
+ "level": "A1",
+ "title": "Il y a",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Il y a</strong> means \"there is\" <strong>and</strong> \"there are\". It never changes for singular or plural.</p>"
+  },
+  {
+   "heading": "Uses",
+   "html": "<ol>\n<li><strong>Existence:</strong> <em>Il y a un chat dans le jardin.</em> — There is a cat in the garden. / <em>Il y a trois chambres.</em> — There are three bedrooms.</li>\n<li><strong>\"Ago\" (with time):</strong> <em>Je suis arrivé il y a deux ans.</em> — I arrived two years ago.</li>\n</ol>"
+  },
+  {
+   "heading": "Forms",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th>Form</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Affirmative</td>\n<td><strong>il y a</strong></td>\n<td><em>Il y a du lait.</em></td>\n</tr>\n<tr>\n<td>Negative</td>\n<td><strong>il n'y a pas de</strong></td>\n<td><em>Il n'y a pas de lait.</em> (un/une/des/du → de)</td>\n</tr>\n<tr>\n<td>Question (intonation)</td>\n<td><strong>il y a … ?</strong></td>\n<td><em>Il y a une pharmacie ici ?</em></td>\n</tr>\n<tr>\n<td>Question (est-ce que)</td>\n<td><strong>est-ce qu'il y a … ?</strong></td>\n<td><em>Est-ce qu'il y a une pharmacie ?</em></td>\n</tr>\n<tr>\n<td>Question (inversion)</td>\n<td><strong>y a-t-il … ?</strong></td>\n<td><em>Y a-t-il une pharmacie près d'ici ?</em></td>\n</tr>\n<tr>\n<td>With question word</td>\n<td><strong>qu'est-ce qu'il y a ?</strong></td>\n<td>What's wrong? / What's there?</td>\n</tr>\n<tr>\n<td></td>\n<td><strong>combien de … y a-t-il ?</strong></td>\n<td><em>Combien d'élèves y a-t-il ?</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Other tenses (for recognition)",
+   "html": "<ul>\n<li>Past: <em>il y avait</em> (there was/were), <em>il y a eu</em> (there has been)</li>\n<li>Future: <em>il y aura</em> (there will be), <em>il va y avoir</em> (there's going to be)</li>\n</ul>"
+  },
+  {
+   "heading": "Il y a vs c'est",
+   "html": "<ul>\n<li><strong>Il y a</strong> introduces something new / says it exists: <em>Il y a un restaurant.</em></li>\n<li><strong>C'est</strong> identifies or describes: <em>C'est un bon restaurant.</em></li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Translate: \"There are two cats in the house.\"",
+   "answer": "*Il y a deux chats dans la maison.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Make negative: *Il y a des pommes.*",
+   "answer": "*Il n'y a pas de pommes.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Ask formally: \"Is there a bank near here?\"",
+   "answer": "*Y a-t-il une banque près d'ici ?*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"I saw him three days ago.\" (*Je l'ai vu…*)",
+   "answer": "*Je l'ai vu il y a trois jours.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "What does *Qu'est-ce qu'il y a ?* mean?",
+   "answer": "\"What's wrong? / What's the matter?\" (also \"What is there?\")",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

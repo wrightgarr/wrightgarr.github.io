@@ -1,0 +1,78 @@
+{
+ "id": "s102",
+ "subject": 102,
+ "level": "B2",
+ "title": "Discourse Markers (tout d'abord, ensuite, de plus, …)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Discourse markers</strong> (<em>les connecteurs logiques</em>) structure an argument, essay, or presentation. Essential for B2 writing (DELF B2 essays) and formal speaking.</p>"
+  },
+  {
+   "heading": "1. Introducing / ordering",
+   "html": "<table>\n<thead>\n<tr>\n<th>Marker</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>tout d'abord / d'abord / premièrement / en premier lieu</strong></td>\n<td>first of all</td>\n</tr>\n<tr>\n<td><strong>ensuite / puis / deuxièmement / en second lieu</strong></td>\n<td>next, then, secondly</td>\n</tr>\n<tr>\n<td><strong>par ailleurs</strong></td>\n<td>moreover, in addition / on another note</td>\n</tr>\n<tr>\n<td><strong>enfin / finalement / en dernier lieu</strong></td>\n<td>finally, lastly</td>\n</tr>\n<tr>\n<td><strong>pour commencer / pour finir</strong></td>\n<td>to start / to finish</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "2. Adding",
+   "html": "<table>\n<thead>\n<tr>\n<th>Marker</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>de plus / en outre</strong> (formal)</td>\n<td>moreover, furthermore</td>\n</tr>\n<tr>\n<td><strong>également / aussi</strong></td>\n<td>also</td>\n</tr>\n<tr>\n<td><strong>non seulement… mais aussi / mais encore</strong></td>\n<td>not only… but also</td>\n</tr>\n<tr>\n<td><strong>d'une part… d'autre part</strong></td>\n<td>on the one hand… on the other hand (two complementary points)</td>\n</tr>\n<tr>\n<td><strong>sans oublier</strong></td>\n<td>not forgetting</td>\n</tr>\n<tr>\n<td><strong>qui plus est</strong></td>\n<td>what's more</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "3. Contrasting / opposing",
+   "html": "<table>\n<thead>\n<tr>\n<th>Marker</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>mais / cependant / pourtant / toutefois</strong></td>\n<td>but, however, yet</td>\n</tr>\n<tr>\n<td><strong>néanmoins</strong></td>\n<td>nevertheless</td>\n</tr>\n<tr>\n<td><strong>en revanche / par contre</strong> (spoken)</td>\n<td>on the other hand, in contrast</td>\n</tr>\n<tr>\n<td><strong>au contraire</strong></td>\n<td>on the contrary</td>\n</tr>\n<tr>\n<td><strong>alors que / tandis que</strong></td>\n<td>whereas</td>\n</tr>\n<tr>\n<td><strong>malgré + noun / bien que + subj.</strong></td>\n<td>despite / although</td>\n</tr>\n<tr>\n<td><strong>d'un côté… de l'autre</strong></td>\n<td>on one side… on the other</td>\n</tr>\n<tr>\n<td><strong>quand même / tout de même</strong></td>\n<td>still, all the same</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "4. Explaining / giving examples",
+   "html": "<table>\n<thead>\n<tr>\n<th>Marker</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>c'est-à-dire</strong></td>\n<td>that is to say</td>\n</tr>\n<tr>\n<td><strong>autrement dit</strong></td>\n<td>in other words</td>\n</tr>\n<tr>\n<td><strong>en effet</strong></td>\n<td>indeed (confirms and explains)</td>\n</tr>\n<tr>\n<td><strong>par exemple / notamment / entre autres</strong></td>\n<td>for example / notably / among others</td>\n</tr>\n<tr>\n<td><strong>ainsi</strong></td>\n<td>thus, for instance</td>\n</tr>\n<tr>\n<td><strong>comme</strong></td>\n<td>like, as</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "5. Cause and consequence",
+   "html": "<table>\n<thead>\n<tr>\n<th>Cause</th>\n<th>Consequence</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>parce que, car, puisque, étant donné que, en raison de, grâce à, à cause de</td>\n<td>donc, ainsi, c'est pourquoi, par conséquent, en conséquence, de ce fait, d'où</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "6. Concluding / summarizing",
+   "html": "<table>\n<thead>\n<tr>\n<th>Marker</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>en conclusion / pour conclure</strong></td>\n<td>in conclusion</td>\n</tr>\n<tr>\n<td><strong>en somme / en résumé / bref</strong></td>\n<td>in short</td>\n</tr>\n<tr>\n<td><strong>en définitive / finalement</strong></td>\n<td>ultimately</td>\n</tr>\n<tr>\n<td><strong>somme toute</strong></td>\n<td>all things considered</td>\n</tr>\n<tr>\n<td><strong>pour toutes ces raisons</strong></td>\n<td>for all these reasons</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "7. Giving opinion",
+   "html": "<p><em>À mon avis, selon moi, d'après moi, je considère que, il me semble que, je suis convaincu(e) que, force est de constater que (one has to admit that)…</em></p>"
+  },
+  {
+   "heading": "Sample paragraph",
+   "html": "<blockquote>\n<p><strong><em>Tout d'abord</em>*, le télétravail permet de gagner du temps. </strong>En effet<strong>, les employés n'ont plus besoin de se déplacer. </strong>De plus<strong>, il réduit la pollution. </strong>Cependant<strong>, il peut isoler les travailleurs. </strong>Par conséquent<strong>, il faut trouver un équilibre. </strong>En conclusion<strong>, le télétravail présente des avantages, </strong>à condition qu'*<em>il soit bien organisé.</em></p>\n</blockquote>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Le projet est intéressant. ___, il coûte trop cher. (contrast)",
+   "instruction": "Choose the best marker:",
+   "answer": "Cependant / Toutefois / Néanmoins",
+   "id": "e1"
+  },
+  {
+   "prompt": "Il parle anglais, espagnol et ___ chinois. (addition)",
+   "answer": "même / également",
+   "id": "e2"
+  },
+  {
+   "prompt": "Il fait beau ; ___, nous irons à la plage. (consequence)",
+   "answer": "par conséquent / donc",
+   "id": "e3"
+  },
+  {
+   "prompt": "Les fruits, ___ les pommes et les poires, sont bons pour la santé. (example)",
+   "answer": "notamment / par exemple",
+   "id": "e4"
+  },
+  {
+   "prompt": "___, je dirais que c'est une bonne décision. (conclusion)",
+   "answer": "En conclusion / Pour conclure",
+   "id": "e5"
+  },
+  {
+   "prompt": "Write a 5-sentence paragraph on \"the advantages and disadvantages of social media\" using at least 5 markers.",
+   "answer": "Example: *Tout d'abord, les réseaux sociaux permettent de rester en contact avec ses proches. De plus, ils facilitent l'accès à l'information. Cependant, ils peuvent créer une dépendance. En effet, beaucoup de gens passent des heures sur leur téléphone. En conclusion, il faut les utiliser avec modération.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

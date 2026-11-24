@@ -1,0 +1,71 @@
+{
+ "id": "s38",
+ "subject": 38,
+ "level": "A2",
+ "title": "COI & Indirect Object Pronouns (me, te, lui, nous, vous, leur)",
+ "sections": [
+  {
+   "heading": "What is a COI?",
+   "html": "<p>A <strong>COI</strong> (<em>complément d'objet indirect</em>) is a <strong>person</strong> linked to the verb by the preposition <strong>à</strong>. Ask \"verb + <strong>to whom</strong>?\"\n- <em>Je parle </em><em>à Marie</em><em>.</em> → I speak to whom? <em>à Marie</em> = COI.\n- <em>Il téléphone </em><em>à ses parents</em><em>.</em></p>"
+  },
+  {
+   "heading": "Indirect object pronouns",
+   "html": "<table>\n<thead>\n<tr>\n<th>Person</th>\n<th>Pronoun</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>(to) me</td>\n<td><strong>me (m')</strong></td>\n<td><em>Il </em><em>me</em><em> parle.</em></td>\n</tr>\n<tr>\n<td>(to) you</td>\n<td><strong>te (t')</strong></td>\n<td><em>Je </em><em>te</em><em> téléphone demain.</em></td>\n</tr>\n<tr>\n<td>(to) him / her</td>\n<td><strong>lui</strong></td>\n<td><em>Je </em><em>lui</em><em> donne un cadeau.</em></td>\n</tr>\n<tr>\n<td>(to) us</td>\n<td><strong>nous</strong></td>\n<td><em>Elle </em><em>nous</em><em> écrit.</em></td>\n</tr>\n<tr>\n<td>(to) you</td>\n<td><strong>vous</strong></td>\n<td><em>Je </em><em>vous</em><em> explique.</em></td>\n</tr>\n<tr>\n<td>(to) them</td>\n<td><strong>leur</strong></td>\n<td><em>Nous </em><em>leur</em><em> répondons.</em></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Lui</strong> = to him <strong>and</strong> to her. <strong>Leur</strong> (pronoun) never takes an s. Don't confuse it with <em>leurs</em> (their).</p>"
+  },
+  {
+   "heading": "Common verbs with à + person (take COI)",
+   "html": "<p><em>parler à, téléphoner à, répondre à, écrire à, donner à, dire à, demander à, envoyer à, offrir à, prêter à</em> (lend), <em>montrer à, expliquer à, sourire à, ressembler à</em> (to look like), <em>plaire à</em> (to please), <em>conseiller à</em>.</p>\n<p><strong>Careful:</strong> Some verbs take a COI in French but a direct object in English: <em>téléphoner à quelqu'un</em> (to call someone), <em>répondre à quelqu'un</em> (to answer someone), <em>ressembler à</em> (to resemble).\nSome take a COD in French but \"to/for\" in English: <em>écouter</em> (listen <strong>to</strong>), <em>regarder</em> (look <strong>at</strong>), <em>attendre</em> (wait <strong>for</strong>), <em>chercher</em> (look <strong>for</strong>).</p>"
+  },
+  {
+   "heading": "Position: same as COD",
+   "html": "<ul>\n<li><em>Je </em><em>lui</em><em> parle.</em> / <em>Je ne </em><em>lui</em><em> parle pas.</em></li>\n<li><em>Je vais </em><em>leur</em><em> écrire.</em></li>\n<li><em>Je </em><em>lui</em><em> ai téléphoné.</em> (No agreement with COI!)</li>\n<li>Imperative: <em>Parle-</em><em>lui</em><em> !</em> / <em>Dis-</em><em>moi</em><em> !</em> / <em>Ne </em><em>lui</em><em> dis pas !</em></li>\n</ul>"
+  },
+  {
+   "heading": "Exceptions: à + person but no COI pronoun",
+   "html": "<p>With <em>penser à, songer à, faire attention à, s'intéresser à, être à</em>, use <strong>à + emphatic pronoun</strong>:\n<em>Je pense </em><em>à lui</em><em>.</em> (not ~~je lui pense~~) — I'm thinking of him.</p>"
+  },
+  {
+   "heading": "Using both COD and COI (order)",
+   "html": "<table>\n<thead>\n<tr>\n<th>1</th>\n<th>2</th>\n<th>3</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>me, te, nous, vous</td>\n<td>le, la, les</td>\n<td>lui, leur</td>\n</tr>\n</tbody>\n</table>\n<p><em>Il </em><em>me le</em><em> donne.</em> / <em>Je </em><em>le lui</em><em> donne.</em> / <em>Elle </em><em>les leur</em><em> envoie.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je téléphone à ma mère.",
+   "instruction": "Replace the COI:",
+   "answer": "*Je lui téléphone.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Il parle à ses collègues.",
+   "answer": "*Il leur parle.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Tu écris à ton frère ?",
+   "answer": "*Tu lui écris ?*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Je n'ai pas répondu à Paul.",
+   "answer": "*Je ne lui ai pas répondu.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "COD or COI? (a) J'attends le bus. (b) Je ressemble à mon père. (c) J'écoute la radio.",
+   "answer": "(a) COD (*Je l'attends*) (b) COI (*Je lui ressemble*) (c) COD (*Je l'écoute*)",
+   "id": "e5"
+  },
+  {
+   "prompt": "Replace both: *Je donne le livre à Marie.*",
+   "answer": "*Je le lui donne.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"Tell me the truth!\"",
+   "answer": "*Dis-moi la vérité !*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

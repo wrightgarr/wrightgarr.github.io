@@ -1,0 +1,170 @@
+{
+  "id": "b2-12",
+  "level": "B2",
+  "number": 12,
+  "title": "Faut-il avoir peur des touristes ?",
+  "grammar": "advanced connectors",
+  "theme": "an opinion column",
+  "wordCount": 519,
+  "primer": [
+    "**certes… toutefois / mais**: admittedly… however",
+    "**en effet**: indeed (confirms or explains)",
+    "**or**: now, yet (introduces a decisive point)",
+    "**d'ailleurs**: besides, what's more",
+    "**quant à**: as for",
+    "**dès lors**: consequently",
+    "**en définitive**: ultimately"
+  ],
+  "passage": [
+    [
+      "Pour le numéro d'avril, Nadia a demandé à Léa d'écrire la chronique d'opinion. Le sujet s'est imposé de lui-même."
+    ],
+    [
+      "« Faut-il avoir peur des touristes ? Par Léa Moreau"
+    ],
+    [
+      "Il est devenu presque banal, à Marseille comme ailleurs, de dénoncer le tourisme. Les valises à roulettes, les locations de courte durée, les selfies devant la Bonne Mère : tout serait la faute des visiteurs. Certes, les excès sont réels. Le Panier se vide de ses habitants, les loyers explosent, et certains quartiers ressemblent à des décors. Toutefois, avant de désigner un coupable, il faut se demander de quoi l'on parle exactement."
+    ],
+    [
+      "En effet, le tourisme n'est pas un phénomène nouveau à Marseille. Dès le XIXe siècle, des voyageurs venaient y admirer le port, et la ville a toujours vécu de ceux qui passaient. Les carnets de Jean Ferrand, que je lis depuis bientôt un an, en témoignent : on y croise des marins grecs, des commerçants arméniens, des familles italiennes, algériennes, comoriennes. Marseille n'est pas une ville qui reçoit des étrangers ; c'est une ville faite d'étrangers."
+    ],
+    [
+      "Or, ce qui a changé, ce n'est pas la présence des visiteurs, c'est la manière dont on les accueille. Autrefois, le voyageur logeait chez l'habitant, mangeait dans les bistrots du quartier, apprenait quelques mots de provençal. Aujourd'hui, il loue un appartement vide, réservé sur une application, dont le propriétaire vit à Paris ou à Londres. Le problème n'est donc pas le touriste en lui-même, mais un modèle économique qui transforme les logements en marchandises."
+    ],
+    [
+      "D'ailleurs, il serait hypocrite de prétendre que les Marseillais n'ont rien à gagner du tourisme. Non seulement il fait vivre des milliers de restaurants, de musées et de commerces, mais il a aussi contribué à changer l'image d'une ville longtemps méprisée. Quant aux jeunes, nombreux sont ceux qui trouvent leur premier emploi dans ce secteur."
+    ],
+    [
+      "Dès lors, que faire ? Interdire les locations touristiques ? Ce serait sans doute efficace, mais injuste envers les familles qui louent une chambre pour boucler leurs fins de mois. Limiter leur nombre par quartier, en revanche, permettrait de protéger les zones les plus fragiles. Plusieurs villes européennes ont ainsi fixé des quotas, avec des résultats encourageants."
+    ],
+    [
+      "En définitive, la question n'est pas de savoir s'il faut avoir peur des touristes, mais de savoir quelle ville nous voulons leur montrer. Une ville vivante, habitée, avec ses boulangeries et ses disputes de voisins ? Ou une ville vitrine, belle et vide ? Les touristes eux-mêmes, d'ailleurs, ne viennent pas pour les décors. Ils viennent pour Marseille. Encore faut-il qu'il reste des Marseillais pour la leur montrer. »"
+    ],
+    [
+      "Le texte a provoqué plus de deux cents commentaires sur le site du Mistral. Certains lecteurs l'ont trouvé trop indulgent, d'autres trop sévère. Un hôtelier l'a accusée de « cracher dans la soupe », une association de locataires de « faire le jeu des investisseurs ». Nadia, elle, l'a affiché au mur de la rédaction."
+    ],
+    [
+      "— C'est la première chronique qui fâche tout le monde, a-t-elle dit. C'est sans doute qu'elle est juste."
+    ],
+    [
+      "Léa, elle, a surtout retenu un message parmi tous les autres, arrivé par la poste, écrit d'une main tremblante et signé Gaston : « Bien écrit, petite. Jean aurait été d'accord. »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "s'est imposé de lui-même",
+      "en": "was obvious"
+    },
+    {
+      "fr": "banal",
+      "en": "commonplace"
+    },
+    {
+      "fr": "dénoncer",
+      "en": "to condemn"
+    },
+    {
+      "fr": "la Bonne Mère",
+      "en": "nickname for Notre-Dame-de-la-Garde"
+    },
+    {
+      "fr": "désigner un coupable",
+      "en": "to point to a culprit"
+    },
+    {
+      "fr": "en témoignent",
+      "en": "bear witness to it"
+    },
+    {
+      "fr": "chez l'habitant",
+      "en": "in a local's home"
+    },
+    {
+      "fr": "des marchandises",
+      "en": "commodities"
+    },
+    {
+      "fr": "méprisée",
+      "en": "looked down on"
+    },
+    {
+      "fr": "boucler leurs fins de mois",
+      "en": "to make ends meet"
+    },
+    {
+      "fr": "une ville vitrine",
+      "en": "a showcase city"
+    },
+    {
+      "fr": "Encore faut-il que",
+      "en": "But only if",
+      "match": [
+        "Encore faut-il qu'"
+      ]
+    },
+    {
+      "fr": "cracher dans la soupe",
+      "en": "to bite the hand that feeds"
+    },
+    {
+      "fr": "faire le jeu de",
+      "en": "to play into the hands of",
+      "match": [
+        "faire le jeu des"
+      ]
+    }
+  ],
+  "spotlight": [
+    "**Conceding, then turning:** *Certes, les excès sont réels. Toutefois, avant de désigner un coupable…* Concede the point first, then turn with *toutefois, cependant* or *mais*. **Or** is the pivot of an argument: it brings in the fact that changes the reasoning (*Or, ce qui a changé, ce n'est pas la présence des visiteurs…*). Don't confuse it with *alors*.",
+    "**Building the reasoning:** *En effet* supports what you've just said; *D'ailleurs* adds a supporting point; *Non seulement… mais aussi* stacks two arguments; *Quant à* switches to a new subject; *Dès lors* draws the consequence; *En définitive* concludes. *Encore faut-il que* + subjunctive adds a final condition."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Selon Léa, qu'est-ce qui a vraiment changé dans le tourisme à Marseille ?",
+      "answer": "La manière d'accueillir les visiteurs : des logements transformés en marchandises",
+      "options": [
+        "La manière d'accueillir les visiteurs : des logements transformés en marchandises",
+        "Le nombre de touristes, qui a décuplé",
+        "Les touristes sont devenus impolis",
+        "Les musées ont fermé"
+      ],
+      "evidence": "Or, ce qui a changé, ce n'est pas la présence des visiteurs, c'est la manière dont on les accueille."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quels avantages du tourisme reconnaît-elle ?",
+      "answer": "Il fait vivre des commerces, améliore l'image de la ville et donne du travail aux jeunes",
+      "options": [
+        "Il fait vivre des commerces, améliore l'image de la ville et donne du travail aux jeunes",
+        "Il fait baisser les loyers",
+        "Il protège la nature",
+        "Il rend la ville plus calme"
+      ],
+      "evidence": "Non seulement il fait vivre des milliers de restaurants, de musées et de commerces, mais il a aussi contribué à changer l'image d'une ville longtemps méprisée."
+    },
+    {
+      "id": "q3",
+      "prompt": "Quelle solution juge-t-elle plus juste qu'une interdiction totale ?",
+      "answer": "Limiter le nombre de locations touristiques par quartier",
+      "options": [
+        "Limiter le nombre de locations touristiques par quartier",
+        "Fermer la ville aux touristes",
+        "Augmenter le prix des hôtels",
+        "Interdire les valises à roulettes"
+      ],
+      "evidence": "Limiter leur nombre par quartier, en revanche, permettrait de protéger les zones les plus fragiles."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez un paragraphe argumenté (6–7 phrases) sur une question de société, avec au moins cinq connecteurs : *certes, toutefois, en effet, or, d'ailleurs, quant à, en définitive*.",
+    "model": "Certes, le télétravail offre beaucoup de liberté. Toutefois, il peut isoler les employés. En effet, beaucoup de gens se sentent seuls à la maison. Or, le lien social est essentiel au bien-être. D'ailleurs, de nombreuses entreprises reviennent au bureau. Quant aux jeunes, ils préfèrent souvent un modèle hybride. En définitive, il faut trouver un équilibre.",
+    "targets": [
+      {
+        "label": "advanced connectors (certes, toutefois, en effet, or, d'ailleurs, quant à, dès lors, en définitive…)",
+        "pattern": "\\bcertes\\b|\\btoutefois\\b|en effet|^or\\b|\\.\\s*or\\b|\\bor,|d'ailleurs|quant (à|au|aux)|dès lors|en définitive|non seulement|en revanche|néanmoins|ainsi",
+        "min": 5
+      }
+    ]
+  }
+}

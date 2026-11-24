@@ -1,0 +1,61 @@
+{
+ "id": "s69",
+ "subject": 69,
+ "level": "B1",
+ "title": "Temporal Conjunctions (dès que, aussitôt que, avant que, …)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Temporal conjunctions place one action in time relative to another.</p>"
+  },
+  {
+   "heading": "With the indicatif",
+   "html": "<table>\n<thead>\n<tr>\n<th>Conjunction</th>\n<th>Meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>quand / lorsque</strong></td>\n<td>when</td>\n<td><em>Lorsqu'il est arrivé, nous mangions.</em></td>\n</tr>\n<tr>\n<td><strong>dès que / aussitôt que</strong></td>\n<td>as soon as</td>\n<td><em><strong>Dès que</strong> je reçois la réponse, je t'appelle.</em></td>\n</tr>\n<tr>\n<td><strong>pendant que</strong></td>\n<td>while (simultaneous)</td>\n<td><em><strong>Pendant que</strong> je dormais, il est parti.</em></td>\n</tr>\n<tr>\n<td><strong>tandis que</strong></td>\n<td>while / whereas</td>\n<td><em>Il lisait </em><em>tandis que</em><em> je cuisinais.</em></td>\n</tr>\n<tr>\n<td><strong>depuis que</strong></td>\n<td>since (ongoing)</td>\n<td><em><strong>Depuis qu'</strong>il a déménagé, je ne le vois plus.</em></td>\n</tr>\n<tr>\n<td><strong>après que</strong></td>\n<td>after</td>\n<td><em><strong>Après qu'</strong>il est parti, on a rangé.</em></td>\n</tr>\n<tr>\n<td><strong>chaque fois que / toutes les fois que</strong></td>\n<td>every time</td>\n<td><em><strong>Chaque fois que</strong> je le vois, il sourit.</em></td>\n</tr>\n<tr>\n<td><strong>une fois que</strong></td>\n<td>once</td>\n<td><em><strong>Une fois que</strong> tu auras fini, tu pourras sortir.</em></td>\n</tr>\n<tr>\n<td><strong>au moment où</strong></td>\n<td>at the moment when</td>\n<td><em><strong>Au moment où</strong> je partais, le téléphone a sonné.</em></td>\n</tr>\n<tr>\n<td><strong>maintenant que</strong></td>\n<td>now that</td>\n<td><em><strong>Maintenant que</strong> tu es là, on peut commencer.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "With the subjonctif",
+   "html": "<table>\n<thead>\n<tr>\n<th>Conjunction</th>\n<th>Meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>avant que</strong> (+ optional <em>ne</em>)</td>\n<td>before</td>\n<td><em>Rentre </em><em>avant qu'</em><em>il (ne) pleuve.</em></td>\n</tr>\n<tr>\n<td><strong>jusqu'à ce que</strong></td>\n<td>until</td>\n<td><em>J'attends </em><em>jusqu'à ce que</em><em> tu reviennes.</em></td>\n</tr>\n<tr>\n<td><strong>en attendant que</strong></td>\n<td>while waiting for / until</td>\n<td><em><strong>En attendant qu'</strong>il arrive, prenons un café.</em></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Why?</strong> These refer to something that hasn't happened yet (uncertain).</p>"
+  },
+  {
+   "heading": "Future after temporal conjunctions",
+   "html": "<p>With <em>quand, lorsque, dès que, aussitôt que, une fois que, après que</em>, French uses the <strong>future</strong> when the meaning is future (English uses the present):\n- <em>Je t'appellerai </em><em>dès que</em><em> j'</em><em>arriverai</em><em>.</em> — I'll call you as soon as I arrive.\n- For an action completed before another future action: <strong>futur antérieur</strong> (B2): <em>Dès que j'</em><em>aurai fini</em><em>, je sortirai.</em></p>"
+  },
+  {
+   "heading": "Infinitive when the subject is the same",
+   "html": "<table>\n<thead>\n<tr>\n<th>Conjunction</th>\n<th>Preposition + infinitive</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>avant que</td>\n<td><strong>avant de</strong> + inf.: <em>Je mange </em><em>avant de</em><em> partir.</em></td>\n</tr>\n<tr>\n<td>après que</td>\n<td><strong>après</strong> + past infinitive: <em><strong>Après avoir</strong> mangé, je pars.</em></td>\n</tr>\n<tr>\n<td>en attendant que</td>\n<td><strong>en attendant de</strong> + inf.</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je partirai ___ tu reviendras. (as soon as)",
+   "answer": "dès que / aussitôt que",
+   "id": "e1"
+  },
+  {
+   "prompt": "Reste ici ___ je revienne. (until)",
+   "answer": "jusqu'à ce que",
+   "id": "e2"
+  },
+  {
+   "prompt": "___ il pleuvait, nous jouions aux cartes. (while)",
+   "answer": "Pendant qu'",
+   "id": "e3"
+  },
+  {
+   "prompt": "Ferme la porte ___ le chat (sortir) ___. (before)",
+   "answer": "avant que le chat (ne) sorte",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"Every time I go to Montréal, I eat poutine.\"",
+   "answer": "*Chaque fois que je vais à Montréal, je mange une poutine.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Rewrite with an infinitive: *Je lis avant que je dorme.*",
+   "answer": "*Je lis avant de dormir.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

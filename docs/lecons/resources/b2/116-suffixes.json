@@ -1,0 +1,64 @@
+{
+ "id": "s116",
+ "subject": 116,
+ "level": "B2",
+ "title": "Suffixes",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Suffixes</strong> (<em>les suffixes</em>) are added to the <strong>end</strong> of a word. They often indicate the <strong>word type</strong> and <strong>gender</strong>.</p>"
+  },
+  {
+   "heading": "Noun suffixes — people",
+   "html": "<table>\n<thead>\n<tr>\n<th>Suffix</th>\n<th>Meaning</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>-eur / -euse</strong></td>\n<td>person who does</td>\n<td><em>chanteur / chanteuse, vendeur, danseur</em></td>\n</tr>\n<tr>\n<td><strong>-teur / -trice</strong></td>\n<td>person who does</td>\n<td><em>acteur / actrice, directeur / directrice</em></td>\n</tr>\n<tr>\n<td><strong>-ier / -ière</strong></td>\n<td>profession</td>\n<td><em>boulanger, pâtissier, infirmière, cuisinier</em></td>\n</tr>\n<tr>\n<td><strong>-iste</strong></td>\n<td>profession, follower</td>\n<td><em>dentiste, journaliste, artiste, optimiste</em></td>\n</tr>\n<tr>\n<td><strong>-ien / -ienne</strong></td>\n<td>profession, nationality</td>\n<td><em>musicien, pharmacien, canadien</em></td>\n</tr>\n<tr>\n<td><strong>-ais / -aise, -ois / -oise</strong></td>\n<td>inhabitant</td>\n<td><em>français, montréalais, québécois</em></td>\n</tr>\n<tr>\n<td><strong>-ant / -ante, -ent</strong></td>\n<td>person doing</td>\n<td><em>étudiant, habitant, président</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Noun suffixes — things and ideas",
+   "html": "<table>\n<thead>\n<tr>\n<th>Suffix</th>\n<th>Gender</th>\n<th>Meaning</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>-tion / -sion</strong></td>\n<td>f</td>\n<td>action, result</td>\n<td><em>création, décision</em></td>\n</tr>\n<tr>\n<td><strong>-ment</strong></td>\n<td>m</td>\n<td>action, result</td>\n<td><em>changement, logement</em></td>\n</tr>\n<tr>\n<td><strong>-age</strong></td>\n<td>m</td>\n<td>action, collection</td>\n<td><em>nettoyage, feuillage</em></td>\n</tr>\n<tr>\n<td><strong>-ure</strong></td>\n<td>f</td>\n<td>result</td>\n<td><em>coiffure, peinture</em></td>\n</tr>\n<tr>\n<td><strong>-té / -ité</strong></td>\n<td>f</td>\n<td>quality</td>\n<td><em>beauté, égalité</em></td>\n</tr>\n<tr>\n<td><strong>-esse</strong></td>\n<td>f</td>\n<td>quality</td>\n<td><em>jeunesse, tendresse</em></td>\n</tr>\n<tr>\n<td><strong>-isme</strong></td>\n<td>m</td>\n<td>doctrine</td>\n<td><em>capitalisme, tourisme</em></td>\n</tr>\n<tr>\n<td><strong>-erie</strong></td>\n<td>f</td>\n<td>shop, place, quality</td>\n<td><em>boulangerie, pâtisserie, épicerie, tromperie</em></td>\n</tr>\n<tr>\n<td><strong>-oir / -oire</strong></td>\n<td>m / f</td>\n<td>tool, place</td>\n<td><em>arrosoir</em> (watering can), <em>patinoire</em> (rink)</td>\n</tr>\n<tr>\n<td><strong>-ade</strong></td>\n<td>f</td>\n<td>action, collection</td>\n<td><em>promenade, limonade</em></td>\n</tr>\n<tr>\n<td><strong>-ance / -ence</strong></td>\n<td>f</td>\n<td>state</td>\n<td><em>confiance, patience</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Diminutives (small) and pejoratives",
+   "html": "<table>\n<thead>\n<tr>\n<th>Suffix</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>-et / -ette</strong></td>\n<td><em>garçonnet, maisonnette, fillette</em> (little girl), <em>camionnette</em> (van)</td>\n</tr>\n<tr>\n<td><strong>-on / -eau</strong></td>\n<td><em>chaton</em> (kitten), <em>ourson</em> (bear cub), <em>éléphanteau</em></td>\n</tr>\n<tr>\n<td><strong>-ard</strong> (pejorative)</td>\n<td><em>chauffard</em> (reckless driver), <em>vantard</em> (show-off), <em>richard</em></td>\n</tr>\n<tr>\n<td><strong>-âtre</strong> (-ish, pejorative)</td>\n<td><em>blanchâtre</em> (whitish), <em>rougeâtre</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Adjective suffixes",
+   "html": "<table>\n<thead>\n<tr>\n<th>Suffix</th>\n<th>Meaning</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>-able / -ible</strong></td>\n<td>can be</td>\n<td><em>lavable, mangeable, lisible, visible</em></td>\n</tr>\n<tr>\n<td><strong>-eux / -euse</strong></td>\n<td>full of</td>\n<td><em>dangereux, courageux, heureux</em></td>\n</tr>\n<tr>\n<td><strong>-if / -ive</strong></td>\n<td>tendency</td>\n<td><em>sportif, créatif, actif</em></td>\n</tr>\n<tr>\n<td><strong>-al / -el</strong></td>\n<td>relating to</td>\n<td><em>national, culturel, mondial</em></td>\n</tr>\n<tr>\n<td><strong>-ique</strong></td>\n<td>relating to</td>\n<td><em>politique, historique</em></td>\n</tr>\n<tr>\n<td><strong>-aire</strong></td>\n<td>relating to</td>\n<td><em>scolaire, solaire, alimentaire</em></td>\n</tr>\n<tr>\n<td><strong>-ais, -ois, -ien</strong></td>\n<td>nationality</td>\n<td><em>anglais, chinois, italien</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Verb suffixes",
+   "html": "<table>\n<thead>\n<tr>\n<th>Suffix</th>\n<th>Meaning</th>\n<th>Examples</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>-iser</strong></td>\n<td>make / become</td>\n<td><em>moderniser, organiser, réaliser</em></td>\n</tr>\n<tr>\n<td><strong>-ifier</strong></td>\n<td>make</td>\n<td><em>simplifier, clarifier, purifier</em></td>\n</tr>\n<tr>\n<td><strong>-ir</strong> (from adjective)</td>\n<td>become</td>\n<td><em>grandir, rougir, vieillir</em></td>\n</tr>\n<tr>\n<td><strong>-oter / -iller</strong></td>\n<td>small, repeated action</td>\n<td><em>toussoter</em> (cough lightly), <em>mordiller</em> (nibble), <em>sautiller</em> (hop)</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Adverb suffix",
+   "html": "<p><strong>-ment</strong> (Subject 52): <em>lentement, heureusement</em>.</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Create a person: *chanter, diriger, la dent, le piano, Montréal.*",
+   "answer": "*chanteur/chanteuse, directeur/directrice, dentiste, pianiste, Montréalais(e).*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Create a noun: *jeune, égal, nettoyer, changer.*",
+   "answer": "*la jeunesse, l'égalité, le nettoyage, le changement.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Create an adjective: *laver, le danger, le sport, la nation.*",
+   "answer": "*lavable, dangereux, sportif, national.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Create a verb: *simple, moderne, clair.*",
+   "answer": "*simplifier, moderniser, clarifier.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "What is *une maisonnette*? *un chaton*? *un chauffard*?",
+   "answer": "A little house; a kitten; a reckless driver.",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

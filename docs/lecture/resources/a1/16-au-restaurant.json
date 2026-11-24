@@ -1,0 +1,138 @@
+{
+  "id": "a1-16",
+  "level": "A1",
+  "number": 16,
+  "title": "Au restaurant",
+  "grammar": "*vouloir*, *pouvoir* + infinitive",
+  "theme": "dining out",
+  "wordCount": 97,
+  "primer": [
+    "**vouloir**: to want (*je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent*)",
+    "**pouvoir**: can, to be able (*je peux, tu peux, il peut, nous pouvons, vous pouvez*)",
+    "**Est-ce que je peux avoir… ?**: Can I have…?",
+    "**le serveur**: the waiter",
+    "**choisir**: to choose",
+    "**la viande / le poisson**: meat / fish",
+    "**goûter**: to taste"
+  ],
+  "passage": [
+    [
+      "Ce soir, Léa, Marco et Amina dînent au restaurant d'Hugo, La Petite Table. Le serveur arrive."
+    ],
+    [
+      "— Bonsoir ! Vous voulez boire quelque chose ?",
+      "— Je veux une eau minérale, dit Amina.",
+      "— Nous voulons une bouteille de vin rouge, dit Léa."
+    ],
+    [
+      "Marco regarde le menu. Il ne peut pas choisir."
+    ],
+    [
+      "— Euh… Est-ce que je peux avoir le steak-frites ?",
+      "— Bien sûr. Et pour vous, madame ?",
+      "— Je voudrais le poisson, s'il vous plaît, dit Amina. Elle ne mange pas de viande."
+    ],
+    [
+      "Hugo arrive de la cuisine."
+    ],
+    [
+      "— Vous pouvez goûter mon dessert spécial : une tarte Tatin !",
+      "— Oui ! On veut tous la tarte Tatin !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "dîner",
+      "en": "to have dinner",
+      "match": [
+        "dînent"
+      ]
+    },
+    {
+      "fr": "Bonsoir",
+      "en": "Good evening"
+    },
+    {
+      "fr": "quelque chose",
+      "en": "something"
+    },
+    {
+      "fr": "une bouteille",
+      "en": "a bottle"
+    },
+    {
+      "fr": "le steak-frites",
+      "en": "steak and fries"
+    },
+    {
+      "fr": "Bien sûr",
+      "en": "Of course"
+    },
+    {
+      "fr": "la tarte Tatin",
+      "en": "upside-down caramelized apple tart"
+    },
+    {
+      "fr": "On veut tous…",
+      "en": "We all want…"
+    }
+  ],
+  "spotlight": [
+    "**Vouloir / pouvoir + infinitive:** *Vous voulez boire quelque chose ?* / *Il ne peut pas choisir.* The second verb stays in its dictionary form.",
+    "**Je veux vs. je voudrais:** *je veux* is direct; *je voudrais* is the polite choice when ordering."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What do Amina and Léa order to drink?",
+      "answer": "Amina: mineral water · Léa: a bottle of red wine",
+      "options": [
+        "Amina: mineral water · Léa: a bottle of red wine",
+        "Amina: wine · Léa: water",
+        "Both: orange juice",
+        "Amina: a coffee · Léa: white wine"
+      ],
+      "evidence": "Je veux une eau minérale, dit Amina. — Nous voulons une bouteille de vin rouge, dit Léa."
+    },
+    {
+      "id": "q2",
+      "prompt": "Why does Amina order the fish?",
+      "answer": "She doesn't eat meat",
+      "options": [
+        "She doesn't eat meat",
+        "She's allergic to beef",
+        "It's the cheapest dish",
+        "Hugo recommends it"
+      ],
+      "evidence": "Elle ne mange pas de viande."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Hugo offer them?",
+      "answer": "His special dessert, a tarte Tatin",
+      "options": [
+        "His special dessert, a tarte Tatin",
+        "A free bottle of wine",
+        "A table by the window",
+        "A cheese plate"
+      ],
+      "evidence": "Vous pouvez goûter mon dessert spécial : une tarte Tatin !"
+    }
+  ],
+  "writing": {
+    "prompt": "Write one sentence with *je veux* and one with *je peux* (or *je ne peux pas*).",
+    "model": "Je veux visiter Paris. Je ne peux pas manger de viande.",
+    "targets": [
+      {
+        "label": "vouloir (veux, voulons…)",
+        "pattern": "\\b(veux|veut|voulons|voulez|veulent)\\b",
+        "min": 1
+      },
+      {
+        "label": "pouvoir (peux, pouvons…)",
+        "pattern": "\\b(peux|peut|pouvons|pouvez|peuvent)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

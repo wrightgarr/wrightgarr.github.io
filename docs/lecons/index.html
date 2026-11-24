@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f1f5f9">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="description" content="Leçons — a French grammar course from A1 to B2: 120 subjects with explanations, examples and self-checked exercises.">
+<title>Leçons — French Grammar Course</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%234f46e5'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='700' text-anchor='middle' fill='white'%3E%C3%87%3C/text%3E%3C/svg%3E">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<style>
+  :root { color-scheme: light; }
+  html, body { height: 100%; }
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    background:
+      radial-gradient(1100px 520px at 50% -180px, #e0e7ff 0%, rgba(224,231,255,0) 70%),
+      #f1f5f9;
+    background-attachment: fixed;
+  }
+  .font-display { font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+  .safe-top { padding-top: max(1rem, env(safe-area-inset-top)); }
+  .safe-bottom { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+  .tabular { font-variant-numeric: tabular-nums; }
+
+  @keyframes viewIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  .view-enter { animation: viewIn .3s ease-out; }
+  @keyframes pop { 0% { transform: scale(.6); opacity: 0; } 60% { transform: scale(1.08); opacity: 1; } 100% { transform: scale(1); } }
+  .pop { animation: pop .5s cubic-bezier(.2,.8,.2,1); }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .spin { animation: spin 1s linear infinite; }
+
+  .bar { transition: width .6s cubic-bezier(.2,.8,.2,1); }
+  .press { transition: transform .12s ease, box-shadow .2s ease, background-color .2s ease, border-color .2s ease, color .2s ease, opacity .2s ease; }
+  .press:active { transform: scale(.97); }
+  .lift:hover { transform: translateY(-2px); box-shadow: 0 14px 30px -18px rgba(30,41,59,.35); }
+  .lift:active { transform: scale(.985); }
+
+  .toggle { transition: background-color .2s ease; }
+  .toggle > span { transition: transform .2s cubic-bezier(.2,.8,.2,1); }
+  .toggle[aria-pressed="true"] { background-color: #4f46e5; }
+  .toggle[aria-pressed="true"] > span { transform: translateX(1.25rem); }
+  input[type="range"] { accent-color: #4f46e5; }
+
+  .steps::-webkit-scrollbar, .chips::-webkit-scrollbar { display: none; }
+  .steps, .chips { scrollbar-width: none; }
+
+  /* ---------- Lesson text ---------- */
+  .lesson { font-size: 1rem; line-height: 1.7; color: #334155; }
+  .lesson > * + * { margin-top: .75rem; }
+  .lesson p { margin: 0; }
+  .lesson strong { font-weight: 600; color: #0f172a; }
+  .lesson ul, .lesson ol { padding-left: 1.25rem; }
+  .lesson ul { list-style: disc; }
+  .lesson ol { list-style: decimal; }
+  .lesson li + li { margin-top: .3rem; }
+  .lesson li > ul, .lesson li > ol { margin-top: .3rem; }
+  .lesson li::marker { color: #a5b4fc; }
+  .lesson blockquote { border-left: 3px solid #c7d2fe; background: #f8fafc; border-radius: 0 .9rem .9rem 0; padding: .75rem 1rem; }
+  .lesson blockquote > * + * { margin-top: .4rem; }
+  .lesson pre { background: #0f172a; color: #e2e8f0; border-radius: .9rem; padding: .9rem 1rem; overflow-x: auto; font-size: .8rem; line-height: 1.5; }
+  .lesson code { font-size: .85em; background: #f1f5f9; border-radius: .35rem; padding: .05rem .3rem; }
+  .lesson pre code { background: none; padding: 0; }
+  .lesson .table-wrap { overflow-x: auto; border: 1px solid #e2e8f0; border-radius: .9rem; -webkit-overflow-scrolling: touch; }
+  .lesson table { width: 100%; border-collapse: collapse; font-size: .9rem; line-height: 1.45; }
+  .lesson th { background: #f8fafc; text-align: left; font-weight: 600; color: #475569; font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; }
+  .lesson th, .lesson td { padding: .55rem .75rem; border-bottom: 1px solid #f1f5f9; vertical-align: top; }
+  .lesson tr:last-child td { border-bottom: 0; }
+  .lesson td:first-child { white-space: nowrap; }
+  em.fr { font-style: italic; color: #3730a3; border-radius: .25rem; }
+  .speak-on em.fr { cursor: pointer; }
+  .speak-on em.fr:hover { background: #eef2ff; }
+  em.fr.speaking { background: #e0e7ff; }
+
+  .answer-text p + p { margin-top: .35rem; }
+  textarea { field-sizing: content; }
+
+  #toast { transition: opacity .25s ease, transform .25s ease; }
+  #toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .bar, .press, .toggle, .toggle > span { transition-duration: .01ms !important; }
+    .view-enter, .pop { animation: none !important; }
+  }
+</style>
+</head>
+<body class="text-slate-800">
+
+<div id="app" class="mx-auto flex min-h-full w-full max-w-3xl flex-col px-4 sm:px-6">
+
+  <!-- ======================= DASHBOARD ======================= -->
+  <main id="view-dashboard" class="safe-top safe-bottom flex-1">
+    <header class="flex items-center justify-between py-2">
+      <div class="flex items-center gap-3">
+        <div class="font-display grid h-10 w-10 place-items-center rounded-xl bg-indigo-600 text-xl font-bold text-white shadow-sm shadow-indigo-300">Ç</div>
+        <div>
+          <h1 class="text-lg font-semibold leading-tight tracking-tight text-slate-900">Leçons</h1>
+          <p id="app-sub" class="text-xs text-slate-500">French grammar course</p>
+        </div>
+      </div>
+      <button id="btn-settings" class="press grid h-10 w-10 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Settings">
+        <i data-lucide="settings" class="h-5 w-5"></i>
+      </button>
+    </header>
+
+    <section class="mt-5">
+      <p id="greeting" class="font-display text-3xl font-semibold tracking-tight text-slate-900">Bonjour !</p>
+      <p id="greeting-sub" class="mt-1 text-sm text-slate-500">Loading your lessons…</p>
+    </section>
+
+    <div id="loading" class="mt-6 flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-600">
+      <i data-lucide="loader-circle" class="spin h-5 w-5 text-indigo-600"></i> Loading the course from the resources folder…
+    </div>
+    <div id="load-error" class="mt-6 hidden rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">
+      <p class="font-semibold">The course could not be loaded.</p>
+      <p id="load-error-text" class="mt-1"></p>
+      <button id="btn-retry" class="press mt-3 rounded-xl bg-red-600 px-4 py-2 text-sm font-semibold text-white hover:bg-red-700">Try again</button>
+    </div>
+
+    <div id="dash-body" class="hidden">
+      <section class="mt-5 grid grid-cols-3 gap-3" aria-label="Your progress">
+        <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+          <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500"><i data-lucide="flame" class="h-4 w-4 text-orange-500"></i> Streak</div>
+          <p class="tabular mt-1 text-2xl font-semibold text-slate-900"><span id="stat-streak">0</span><span id="stat-streak-unit" class="ml-1 text-sm font-medium text-slate-400">days</span></p>
+          <p id="stat-streak-note" class="mt-0.5 truncate text-[11px] text-slate-400">Best: 0</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+          <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500"><i data-lucide="graduation-cap" class="h-4 w-4 text-emerald-600"></i> Done</div>
+          <p class="tabular mt-1 text-2xl font-semibold text-slate-900" id="stat-done">0</p>
+          <p id="stat-total" class="mt-0.5 truncate text-[11px] text-slate-400">of 0 subjects</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+          <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500"><i data-lucide="target" class="h-4 w-4 text-indigo-500"></i> Accuracy</div>
+          <p class="tabular mt-1 text-2xl font-semibold text-slate-900" id="stat-acc">–</p>
+          <p id="stat-answered" class="mt-0.5 truncate text-[11px] text-slate-400">0 exercises checked</p>
+        </div>
+      </section>
+
+      <section id="next-card" class="mt-3"></section>
+
+      <section class="mt-6">
+        <label for="search" class="sr-only">Find a subject</label>
+        <div class="relative">
+          <i data-lucide="search" class="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"></i>
+          <input id="search" type="search" autocomplete="off" placeholder="Find a subject — e.g. subjonctif, colors, dont"
+                 class="w-full rounded-2xl border border-slate-200 bg-white py-3 pl-10 pr-4 text-sm text-slate-900 outline-none placeholder:text-slate-400 focus:border-indigo-400 focus:ring-4 focus:ring-indigo-100">
+        </div>
+        <div id="search-results" class="mt-3 hidden grid gap-2.5"></div>
+      </section>
+
+      <section id="levels-section" class="mt-6">
+        <div class="flex items-end justify-between">
+          <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500">Choose your level</h2>
+          <span class="text-xs text-slate-400">CEFR</span>
+        </div>
+        <div id="level-list" class="mt-3 grid gap-3 sm:grid-cols-2"></div>
+      </section>
+
+      <p class="mt-6 pb-2 text-center text-xs text-slate-400">Progress is saved on this device. Read the lesson, then write your answers before you check them.</p>
+    </div>
+  </main>
+
+  <!-- ======================= LEVEL ======================= -->
+  <main id="view-level" class="safe-top safe-bottom hidden flex-1">
+    <header class="flex items-center gap-3 py-2">
+      <button id="btn-level-back" class="press grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Back to dashboard">
+        <i data-lucide="arrow-left" class="h-5 w-5"></i>
+      </button>
+      <div class="min-w-0 flex-1">
+        <h1 id="level-title" class="truncate text-lg font-semibold leading-tight tracking-tight text-slate-900"></h1>
+        <p id="level-sub" class="truncate text-xs text-slate-500"></p>
+      </div>
+      <span id="level-pct" class="tabular text-sm font-semibold"></span>
+    </header>
+    <div class="mt-2 h-2 overflow-hidden rounded-full bg-slate-200">
+      <div id="level-bar" class="bar h-full" style="width:0%"></div>
+    </div>
+    <p id="level-desc" class="mt-3 text-sm text-slate-500"></p>
+    <h2 class="mt-6 text-sm font-semibold uppercase tracking-wider text-slate-500">Subjects</h2>
+    <div id="subject-list" class="mt-3 grid gap-2.5 pb-4"></div>
+  </main>
+
+  <!-- ======================= SUBJECT ======================= -->
+  <main id="view-subject" class="safe-top safe-bottom hidden flex-1">
+    <header class="flex items-center gap-3 py-2">
+      <button id="btn-subject-back" class="press grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Back to subjects">
+        <i data-lucide="arrow-left" class="h-5 w-5"></i>
+      </button>
+      <div class="min-w-0 flex-1">
+        <p id="sub-kicker" class="truncate text-xs font-medium text-slate-500"></p>
+        <h1 id="sub-title" class="font-display line-clamp-2 text-xl font-semibold leading-tight tracking-tight text-slate-900"></h1>
+      </div>
+      <span id="sub-level" class="shrink-0 rounded-full px-2.5 py-1 text-xs font-bold tracking-wide"></span>
+    </header>
+
+    <nav id="steps" class="steps mt-3 grid grid-cols-2 gap-1 rounded-2xl bg-slate-200/70 p-1" aria-label="Subject sections"></nav>
+
+    <div id="sub-loading" class="mt-4 hidden items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-600">
+      <i data-lucide="loader-circle" class="spin h-5 w-5 text-indigo-600"></i> Loading this lesson…
+    </div>
+    <section id="step-body" class="mt-4"></section>
+
+    <div id="sub-nav" class="mt-4 grid grid-cols-2 gap-3 pb-4">
+      <button id="btn-prev" class="press flex min-w-0 items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-slate-700 hover:border-indigo-200 hover:text-indigo-700 disabled:opacity-40">
+        <i data-lucide="arrow-left" class="h-4 w-4 shrink-0"></i> <span id="btn-prev-label" class="truncate">Back</span>
+      </button>
+      <button id="btn-next" class="press flex min-w-0 items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-4 py-3.5 text-sm font-semibold text-white shadow-sm shadow-indigo-300 hover:bg-indigo-700 disabled:opacity-40">
+        <span id="btn-next-label" class="truncate">Next</span> <i data-lucide="arrow-right" class="h-4 w-4 shrink-0"></i>
+      </button>
+    </div>
+  </main>
+</div>
+
+<!-- Settings -->
+<div id="settings" class="fixed inset-0 z-40 hidden items-end justify-center bg-slate-900/40 backdrop-blur-sm sm:items-center" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+  <div class="view-enter safe-bottom max-h-[92vh] w-full max-w-md overflow-y-auto rounded-t-3xl bg-white p-5 shadow-2xl sm:rounded-3xl">
+    <div class="flex items-center justify-between">
+      <h2 id="settings-title" class="text-lg font-semibold tracking-tight text-slate-900">Settings</h2>
+      <button id="btn-settings-close" class="press grid h-9 w-9 place-items-center rounded-xl bg-slate-100 text-slate-600 hover:bg-slate-200" aria-label="Close settings">
+        <i data-lucide="x" class="h-4 w-4"></i>
+      </button>
+    </div>
+    <div class="mt-4 divide-y divide-slate-100">
+      <div class="flex items-center justify-between gap-4 py-3">
+        <div>
+          <p class="text-sm font-medium text-slate-700">Tap to hear</p>
+          <p class="text-xs text-slate-400">Tap any French example in a lesson to hear it read aloud</p>
+        </div>
+        <button id="toggle-speak" class="toggle relative h-7 w-12 shrink-0 rounded-full bg-slate-300 p-1" aria-pressed="false" aria-label="Tap to hear"><span class="block h-5 w-5 rounded-full bg-white shadow"></span></button>
+      </div>
+      <div class="flex items-center justify-between gap-4 py-3">
+        <div>
+          <p class="text-sm font-medium text-slate-700">Write before checking</p>
+          <p class="text-xs text-slate-400">Keep "Show answer" locked until you've typed something</p>
+        </div>
+        <button id="toggle-require" class="toggle relative h-7 w-12 shrink-0 rounded-full bg-slate-300 p-1" aria-pressed="false" aria-label="Write before checking"><span class="block h-5 w-5 rounded-full bg-white shadow"></span></button>
+      </div>
+      <div class="py-3">
+        <div class="flex items-center justify-between">
+          <label for="rate" class="text-sm font-medium text-slate-700">Speech speed</label>
+          <span id="rate-label" class="tabular text-xs font-semibold text-indigo-600">0.9×</span>
+        </div>
+        <input id="rate" type="range" min="0.5" max="1.2" step="0.1" value="0.9" class="mt-2 w-full">
+        <button id="btn-test-voice" class="press mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-600 hover:text-indigo-800">
+          <i data-lucide="volume-2" class="h-3.5 w-3.5"></i> Test the French voice
+        </button>
+      </div>
+    </div>
+    <button id="btn-reset" class="press mt-4 w-full rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-semibold text-red-700 hover:bg-red-100">Reset all progress</button>
+  </div>
+</div>
+
+<div id="toast" class="pointer-events-none fixed bottom-6 left-1/2 z-50 max-w-[90vw] -translate-x-1/2 translate-y-3 rounded-full bg-slate-900 px-4 py-2 text-center text-sm font-medium text-white opacity-0 shadow-lg" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* =========================================================
+     1. CONFIGURATION
+     resources/index.json lists the levels and, for each, its
+     subjects (file, number, title, exercise count). Each subject
+     file holds the lesson sections (HTML) and the exercises.
+     ========================================================= */
+  const RESOURCES_DIR = "resources/";
+  const MANIFEST_FILE = "index.json";
+
+  const LEVEL_STYLE = {
+    A1: { color: "#047857", soft: "#d1fae5", tint: "#a7f3d0" },
+    A2: { color: "#0369a1", soft: "#e0f2fe", tint: "#bae6fd" },
+    B1: { color: "#4338ca", soft: "#e0e7ff", tint: "#c7d2fe" },
+    B2: { color: "#6d28d9", soft: "#ede9fe", tint: "#ddd6fe" },
+    C1: { color: "#be123c", soft: "#ffe4e6", tint: "#fecdd3" },
+    C2: { color: "#b45309", soft: "#fef3c7", tint: "#fde68a" }
+  };
+  const FALLBACK_STYLE = { color: "#334155", soft: "#e2e8f0", tint: "#cbd5e1" };
+  const STEPS = [
+    { id: "lesson",   label: "Lesson",   icon: "book-open" },
+    { id: "practice", label: "Practice", icon: "pencil-line" }
+  ];
+  const ACCENT_KEYS = ["é", "è", "ê", "ë", "à", "â", "ç", "î", "ï", "ô", "ù", "û", "œ", "«", "»"];
+
+  /* =========================================================
+     2. LOADING
+     ========================================================= */
+  let LEVELS = [];            // [{ id, name, description, style, subjects: [meta] }]
+  let META_BY_ID = {};        // "s12" -> { id, subject, title, exercises, sections, file, level }
+  let ORDER = [];             // every subject meta, in course order
+  const CONTENT = {};         // "s12" -> loaded subject JSON
+
+  function fetchJson(path) {
+    return fetch(RESOURCES_DIR + path, { cache: "no-cache" }).then(res => {
+      if (!res.ok) throw new Error(path + " (" + res.status + ")");
+      return res.json();
+    });
+  }
+  function loadManifest() {
+    return fetchJson(MANIFEST_FILE).then(manifest => {
+      LEVELS = []; META_BY_ID = {}; ORDER = [];
+      ((manifest && manifest.levels) || []).forEach(lv => {
+        const id = String(lv.id || "").toUpperCase();
+        if (!id) return;
+        const level = { id: id, name: lv.name || "Level " + id, description: lv.description || "", style: LEVEL_STYLE[id] || FALLBACK_STYLE, subjects: [] };
+        (lv.subjects || []).forEach(s => {
+          if (!s || !s.file || !s.id || META_BY_ID[s.id]) return;
+          const meta = Object.assign({}, s, { level: id, sections: s.sections || [], exercises: Number(s.exercises) || 0 });
+          level.subjects.push(meta);
+          META_BY_ID[meta.id] = meta;
+        });
+        level.subjects.sort((a, b) => a.subject - b.subject);
+        LEVELS.push(level);
+        ORDER = ORDER.concat(level.subjects);
+      });
+      if (!ORDER.length) throw new Error("No subjects are listed in " + RESOURCES_DIR + MANIFEST_FILE);
+    });
+  }
+  function loadSubject(id) {
+    if (CONTENT[id]) return Promise.resolve(CONTENT[id]);
+    const meta = META_BY_ID[id];
+    return fetchJson(meta.file).then(data => {
+      if (!data || !Array.isArray(data.sections) || !Array.isArray(data.exercises)) throw new Error(meta.file + " is not a lesson file");
+      CONTENT[id] = data;
+      if (meta.exercises !== data.exercises.length) meta.exercises = data.exercises.length;
+      return data;
+    });
+  }
+
+  /* =========================================================
+     3. STATE
+     ========================================================= */
+  const STORAGE_KEY = "lecons-french-v1";
+  function defaultState() {
+    return {
+      progress: {},     // subject id -> { answers: {exId: text}, grades: {exId: true|false}, revealed: {exId: true}, read: bool, completed: bool, step }
+      streak: { count: 0, best: 0, last: null },
+      settings: { rate: 0.9, speak: true, require: false },
+      lastSubject: null
+    };
+  }
+  function loadState() {
+    const base = defaultState();
+    try {
+      const saved = JSON.parse(window.localStorage.getItem(STORAGE_KEY) || "null");
+      if (!saved || typeof saved !== "object") return base;
+      return {
+        progress: (saved.progress && typeof saved.progress === "object") ? saved.progress : {},
+        streak: Object.assign(base.streak, saved.streak || {}),
+        settings: Object.assign(base.settings, saved.settings || {}),
+        lastSubject: saved.lastSubject || null
+      };
+    } catch (err) { return base; }
+  }
+  let storageWarned = false;
+  function saveState() {
+    try { window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+    catch (err) { if (!storageWarned) { storageWarned = true; toast("Progress can't be saved in this browser mode"); } }
+  }
+  let state = loadState();
+  function prog(id) {
+    if (!state.progress[id]) state.progress[id] = { answers: {}, grades: {}, revealed: {}, read: false, completed: false, step: "lesson" };
+    const p = state.progress[id];
+    p.answers = p.answers || {}; p.grades = p.grades || {}; p.revealed = p.revealed || {};
+    return p;
+  }
+  function peek(id) { return state.progress[id] || null; }
+
+  /* =========================================================
+     4. HELPERS
+     ========================================================= */
+  const $ = id => document.getElementById(id);
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+  // Inline markdown used in exercises: **bold**, *French* (tap to hear), line breaks before (b), (c)…
+  function md(s) {
+    return esc(s)
+      .replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold text-slate-900">$1</strong>')
+      .replace(/(^|[^\\*])\*(?!\s)(.+?)\*/g, '$1<em lang="fr" class="fr">$2</em>')
+      .replace(/\\\*/g, "*")
+      .replace(/\s\(([b-h])\)\s/g, '<br>($1) ')
+      .replace(/\n/g, "<br>");
+  }
+  function plural(n, one, many) { return n + " " + (n === 1 ? one : many); }
+  function dateKey(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+  function yesterdayKey() { const d = new Date(); d.setDate(d.getDate() - 1); return dateKey(d); }
+  function currentStreak() {
+    const last = state.streak.last;
+    return (last === dateKey(new Date()) || last === yesterdayKey()) ? state.streak.count : 0;
+  }
+  function touchStreak() {
+    const today = dateKey(new Date());
+    if (state.streak.last === today) return;
+    state.streak.count = (state.streak.last === yesterdayKey()) ? state.streak.count + 1 : 1;
+    state.streak.last = today;
+    if (state.streak.count > state.streak.best) state.streak.best = state.streak.count;
+  }
+  function levelOf(id) { return LEVELS.find(l => l.id === id) || null; }
+  function indexOf(id) { return ORDER.findIndex(m => m.id === id); }
+  let toastTimer = null;
+  function toast(message) {
+    const el = $("toast");
+    el.textContent = message;
+    el.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => el.classList.remove("show"), 2600);
+  }
+  function refreshIcons() {
+    if (window.lucide && typeof window.lucide.createIcons === "function") window.lucide.createIcons();
+  }
+
+  /* ---------- Progress maths ---------- */
+  function subjectStats(meta) {
+    const p = peek(meta.id);
+    const graded = p ? Object.keys(p.grades).length : 0;
+    const correct = p ? Object.keys(p.grades).filter(k => p.grades[k]).length : 0;
+    const done = !!(p && p.completed);
+    let status = "new";
+    if (done) status = "done";
+    else if (p && (p.read || graded > 0 || Object.keys(p.answers).some(k => p.answers[k]))) status = "started";
+    return { graded: graded, correct: correct, total: meta.exercises, done: done, status: status };
+  }
+  function levelStats(level) {
+    let done = 0, started = 0;
+    level.subjects.forEach(m => { const s = subjectStats(m); if (s.done) done++; else if (s.status === "started") started++; });
+    return { total: level.subjects.length, done: done, started: started };
+  }
+  function overallStats() {
+    let done = 0, graded = 0, correct = 0;
+    ORDER.forEach(m => { const s = subjectStats(m); if (s.done) done++; graded += s.graded; correct += s.correct; });
+    return { total: ORDER.length, done: done, graded: graded, correct: correct };
+  }
+  function nextSubject() {
+    const last = state.lastSubject && META_BY_ID[state.lastSubject];
+    if (last && !subjectStats(last).done) return { meta: last, resume: true };
+    const start = last ? indexOf(last.id) + 1 : 0;
+    for (let i = 0; i < ORDER.length; i++) {
+      const m = ORDER[(start + i) % ORDER.length];
+      if (!subjectStats(m).done) return { meta: m, resume: subjectStats(m).status === "started" };
+    }
+    return null;
+  }
+
+  /* =========================================================
+     5. SPEECH (Web Speech API, fr-FR)
+     ========================================================= */
+  const speechSupported = ("speechSynthesis" in window) && ("SpeechSynthesisUtterance" in window);
+  let frenchVoice = null;
+  function pickFrenchVoice() {
+    if (!speechSupported) return;
+    const voices = window.speechSynthesis.getVoices() || [];
+    const lang = v => (v.lang || "").replace("_", "-").toLowerCase();
+    frenchVoice =
+      voices.find(v => lang(v) === "fr-fr" && v.localService) ||
+      voices.find(v => lang(v) === "fr-fr") ||
+      voices.find(v => lang(v).indexOf("fr") === 0) || null;
+  }
+  if (speechSupported) {
+    pickFrenchVoice();
+    if (typeof window.speechSynthesis.addEventListener === "function") window.speechSynthesis.addEventListener("voiceschanged", pickFrenchVoice);
+    else window.speechSynthesis.onvoiceschanged = pickFrenchVoice;
+  }
+  let speakingEl = null;
+  function speak(text, el) {
+    if (!text) return;
+    if (!speechSupported) { toast("Speech isn't supported in this browser"); return; }
+    try {
+      const synth = window.speechSynthesis;
+      synth.cancel();
+      if (speakingEl) speakingEl.classList.remove("speaking");
+      if (!frenchVoice) pickFrenchVoice();
+      const clean = String(text).replace(/___+/g, " … ").replace(/\s*\/\s*/g, ", ").replace(/[~*]/g, "");
+      const u = new SpeechSynthesisUtterance(clean);
+      u.lang = "fr-FR";
+      if (frenchVoice) u.voice = frenchVoice;
+      u.rate = Number(state.settings.rate) || 0.9;
+      if (el) {
+        speakingEl = el; el.classList.add("speaking");
+        u.onend = u.onerror = () => { el.classList.remove("speaking"); if (speakingEl === el) speakingEl = null; };
+      }
+      synth.speak(u);
+    } catch (err) { toast("Couldn't play audio"); }
+  }
+  function stopSpeaking() {
+    if (speechSupported) { try { window.speechSynthesis.cancel(); } catch (err) {} }
+    if (speakingEl) { speakingEl.classList.remove("speaking"); speakingEl = null; }
+  }
+  document.addEventListener("click", e => {
+    const em = e.target.closest && e.target.closest("em.fr");
+    if (!em || !state.settings.speak) return;
+    speak(em.textContent, em);
+  });
+  function applySpeakClass() { document.body.classList.toggle("speak-on", !!state.settings.speak); }
+
+  /* =========================================================
+     6. VIEWS & ROUTING
+     Hash routes: (none) dashboard · #level-a1 · #subject-12 · #subject-12-practice
+     ========================================================= */
+  const VIEWS = ["view-dashboard", "view-level", "view-subject"];
+  let currentView = null;
+  function showView(id) {
+    VIEWS.forEach(v => {
+      const el = $(v);
+      const active = v === id;
+      el.classList.toggle("hidden", !active);
+      if (active && currentView !== id) {
+        el.classList.remove("view-enter");
+        void el.offsetWidth;
+        el.classList.add("view-enter");
+      }
+    });
+    currentView = id;
+  }
+  function go(hash) {
+    const target = hash ? "#" + hash : "";
+    if (location.hash === target || (!hash && (location.hash === "" || location.hash === "#"))) route();
+    else location.hash = target;
+  }
+  function route() {
+    if (!ORDER.length) return;
+    stopSpeaking();
+    const h = (location.hash || "").replace(/^#/, "");
+    let m;
+    if ((m = /^level-([a-z0-9]+)$/i.exec(h)) && levelOf(m[1].toUpperCase())) { openLevel(m[1].toUpperCase()); return; }
+    if ((m = /^subject-(\d+)(-practice)?$/.exec(h)) && META_BY_ID["s" + m[1]]) { openSubject("s" + m[1], m[2] ? "practice" : null); return; }
+    renderDashboard();
+    showView("view-dashboard");
+    window.scrollTo(0, 0);
+  }
+
+  function barHtml(pctDone, pctStarted, style) {
+    return '<div class="mt-3 flex h-2 overflow-hidden rounded-full bg-slate-100">' +
+      '<div class="bar h-full" style="width:' + pctDone + '%;background:' + style.color + '"></div>' +
+      '<div class="bar h-full" style="width:' + pctStarted + '%;background:' + style.tint + '"></div></div>';
+  }
+  function statusLine(meta) {
+    const s = subjectStats(meta);
+    if (s.done) return '<span class="inline-flex items-center gap-1 font-medium text-emerald-700"><i data-lucide="check" class="h-3.5 w-3.5"></i> Done' + (s.graded ? " · " + s.correct + "/" + s.graded + " correct" : "") + "</span>";
+    if (s.status === "started") return '<span class="font-medium text-slate-700">In progress</span>' + (s.graded ? " · " + s.graded + "/" + s.total + " checked" : " · lesson read");
+    return plural(s.total, "exercise", "exercises");
+  }
+  function subjectButton(meta, opts) {
+    const level = levelOf(meta.level);
+    const s = subjectStats(meta);
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "press lift group rounded-2xl border bg-white p-4 text-left " +
+      (state.lastSubject === meta.id ? "border-indigo-300 ring-2 ring-indigo-100" : "border-slate-200 hover:border-indigo-200");
+    const badge = s.done
+      ? '<span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg" style="background:' + level.style.color + ';color:#fff"><i data-lucide="check" class="h-4 w-4"></i></span>'
+      : '<span class="tabular grid h-9 w-9 shrink-0 place-items-center rounded-lg text-xs font-bold" style="background:' + level.style.soft + ';color:' + level.style.color + '">' + meta.subject + '</span>';
+    btn.innerHTML =
+      '<div class="flex items-center gap-3">' + badge +
+        '<div class="min-w-0 flex-1">' +
+          (opts && opts.showLevel ? '<p class="text-[11px] font-semibold" style="color:' + level.style.color + '">' + level.id + ' · Subject ' + meta.subject + '</p>' : "") +
+          '<p class="text-sm font-semibold leading-snug text-slate-900">' + esc(meta.title) + '</p>' +
+          '<p class="mt-0.5 text-xs text-slate-500">' + (opts && opts.match ? esc(opts.match) : statusLine(meta)) + '</p>' +
+        '</div>' +
+        '<i data-lucide="chevron-right" class="h-4 w-4 shrink-0 text-slate-300 transition-transform group-hover:translate-x-0.5 group-hover:text-slate-500"></i>' +
+      '</div>';
+    btn.addEventListener("click", () => go("subject-" + meta.subject));
+    return btn;
+  }
+
+  /* ---------- Dashboard ---------- */
+  function renderDashboard() {
+    const all = overallStats();
+    const streak = currentStreak();
+    $("greeting").textContent = new Date().getHours() < 18 ? "Bonjour !" : "Bonsoir !";
+    $("greeting-sub").textContent = all.done === 0 ? "Start with Subject 1, or jump to your level."
+      : all.done === all.total ? "You've finished the whole course. Bravo !"
+      : plural(all.done, "subject", "subjects") + " done · " + (all.total - all.done) + " to go.";
+    $("app-sub").textContent = "A1–B2 · " + plural(ORDER.length, "subject", "subjects");
+    $("stat-streak").textContent = streak;
+    $("stat-streak-unit").textContent = streak === 1 ? "day" : "days";
+    $("stat-streak-note").textContent = (state.streak.last === dateKey(new Date())) ? "Studied today ✓" : "Best: " + state.streak.best;
+    $("stat-done").textContent = all.done;
+    $("stat-total").textContent = "of " + plural(all.total, "subject", "subjects");
+    $("stat-acc").textContent = all.graded ? Math.round(all.correct / all.graded * 100) + "%" : "–";
+    $("stat-answered").textContent = plural(all.graded, "exercise", "exercises") + " checked";
+
+    // Up next
+    const next = nextSubject();
+    const card = $("next-card");
+    card.innerHTML = "";
+    if (next) {
+      const level = levelOf(next.meta.level);
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "press lift group flex w-full items-center gap-4 rounded-2xl border border-indigo-200 bg-white p-4 text-left ring-2 ring-indigo-100";
+      btn.innerHTML =
+        '<span class="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-indigo-600 text-white shadow-sm shadow-indigo-300"><i data-lucide="' + (next.resume ? "play" : "book-open") + '" class="h-5 w-5"></i></span>' +
+        '<div class="min-w-0 flex-1">' +
+          '<p class="text-[11px] font-semibold uppercase tracking-wider text-indigo-600">' + (next.resume ? "Continue" : "Up next") + ' · ' + level.id + ' · Subject ' + next.meta.subject + '</p>' +
+          '<p class="font-display mt-0.5 truncate text-lg font-semibold text-slate-900">' + esc(next.meta.title) + '</p>' +
+          '<p class="truncate text-xs text-slate-500">' + statusLine(next.meta) + '</p>' +
+        '</div>' +
+        '<i data-lucide="arrow-right" class="h-5 w-5 shrink-0 text-indigo-400 transition-transform group-hover:translate-x-0.5"></i>';
+      btn.addEventListener("click", () => go("subject-" + next.meta.subject));
+      card.appendChild(btn);
+    }
+
+    // Levels
+    const list = $("level-list");
+    list.innerHTML = "";
+    LEVELS.forEach(level => {
+      const s = levelStats(level);
+      const p = s.total ? Math.round(s.done / s.total * 100) : 0;
+      const btn = document.createElement("button");
+      btn.type = "button";
+      const isCurrent = state.lastSubject && META_BY_ID[state.lastSubject] && META_BY_ID[state.lastSubject].level === level.id;
+      btn.className = "press lift group rounded-2xl border bg-white p-4 text-left " + (isCurrent ? "border-indigo-300 ring-2 ring-indigo-100" : "border-slate-200 hover:border-indigo-200");
+      const first = level.subjects[0], last = level.subjects[level.subjects.length - 1];
+      btn.innerHTML =
+        '<div class="flex items-center gap-3">' +
+          '<span class="grid h-11 w-11 shrink-0 place-items-center rounded-xl text-sm font-bold" style="background:' + level.style.soft + ';color:' + level.style.color + '">' + esc(level.id) + '</span>' +
+          '<div class="min-w-0 flex-1">' +
+            '<p class="truncate text-sm font-semibold text-slate-900">' + esc(level.name) + '</p>' +
+            '<p class="truncate text-xs text-slate-500">Subjects ' + (first ? first.subject : "") + '–' + (last ? last.subject : "") + ' · ' + s.done + ' done' + (s.started ? ' · ' + s.started + ' started' : "") + '</p>' +
+          '</div>' +
+          '<span class="tabular text-sm font-semibold" style="color:' + level.style.color + '">' + p + '%</span>' +
+          '<i data-lucide="chevron-right" class="h-4 w-4 text-slate-300 transition-transform group-hover:translate-x-0.5 group-hover:text-slate-500"></i>' +
+        '</div>' + barHtml(s.total ? s.done / s.total * 100 : 0, s.total ? s.started / s.total * 100 : 0, level.style);
+      btn.addEventListener("click", () => go("level-" + level.id.toLowerCase()));
+      list.appendChild(btn);
+    });
+    renderSearch();
+    refreshIcons();
+  }
+
+  /* ---------- Search ---------- */
+  function fold(s) { return String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+  function renderSearch() {
+    const q = fold($("search").value.trim());
+    const box = $("search-results");
+    $("levels-section").classList.toggle("hidden", !!q);
+    $("next-card").classList.toggle("hidden", !!q);
+    if (!q) { box.classList.add("hidden"); box.innerHTML = ""; return; }
+    box.classList.remove("hidden");
+    box.innerHTML = "";
+    const num = /^\d+$/.test(q) ? Number(q) : null;
+    const hits = [];
+    ORDER.forEach(m => {
+      if (num !== null && m.subject === num) { hits.push({ m: m, score: 0 }); return; }
+      if (fold(m.title).indexOf(q) !== -1) { hits.push({ m: m, score: 1 }); return; }
+      const sec = m.sections.find(h => fold(h).indexOf(q) !== -1);
+      if (sec) hits.push({ m: m, score: 2, match: "Section: " + sec });
+    });
+    hits.sort((a, b) => a.score - b.score || a.m.subject - b.m.subject);
+    if (!hits.length) {
+      box.innerHTML = '<p class="rounded-2xl border border-dashed border-slate-300 p-4 text-center text-sm text-slate-500">No subject matches “' + esc($("search").value.trim()) + '”.</p>';
+      return;
+    }
+    hits.slice(0, 30).forEach(h => box.appendChild(subjectButton(h.m, { showLevel: true, match: h.match })));
+    refreshIcons();
+  }
+
+  /* ---------- Level ---------- */
+  function openLevel(levelId) {
+    const level = levelOf(levelId);
+    const s = levelStats(level);
+    const pct = s.total ? Math.round(s.done / s.total * 100) : 0;
+    $("level-title").textContent = level.id + " · " + level.name;
+    $("level-sub").textContent = plural(s.total, "subject", "subjects") + " · " + s.done + " done";
+    $("level-pct").textContent = pct + "%";
+    $("level-pct").style.color = level.style.color;
+    $("level-bar").style.width = pct + "%";
+    $("level-bar").style.background = level.style.color;
+    $("level-desc").textContent = level.description;
+    const list = $("subject-list");
+    list.innerHTML = "";
+    level.subjects.forEach(m => list.appendChild(subjectButton(m)));
+    showView("view-level");
+    window.scrollTo(0, 0);
+    refreshIcons();
+  }
+
+  /* ---------- Subject ---------- */
+  let current = null;   // { meta, data, step }
+
+  function openSubject(id, step) {
+    const meta = META_BY_ID[id];
+    const level = levelOf(meta.level);
+    const p = prog(id);
+    state.lastSubject = id;
+    saveState();
+    $("sub-kicker").textContent = level.id + " · " + level.name + " · Subject " + meta.subject + " of " + ORDER.length;
+    $("sub-title").textContent = meta.title;
+    $("sub-title").title = meta.title;
+    const badge = $("sub-level");
+    badge.textContent = level.id;
+    badge.style.background = level.style.soft;
+    badge.style.color = level.style.color;
+    current = { meta: meta, data: CONTENT[id] || null, step: step || p.step || "lesson" };
+    showView("view-subject");
+    window.scrollTo(0, 0);
+
+    if (current.data) { renderStep(); return; }
+    $("step-body").innerHTML = "";
+    $("sub-nav").classList.add("hidden");
+    $("sub-loading").classList.remove("hidden");
+    $("sub-loading").classList.add("flex");
+    renderSteps();
+    loadSubject(id).then(data => {
+      if (!current || current.meta.id !== id) return;
+      current.data = data;
+      renderStep();
+    }).catch(err => {
+      $("step-body").innerHTML = '<div class="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-800"><p class="font-semibold">This lesson could not be loaded.</p><p class="mt-1">' + esc(err && err.message ? err.message : "Unknown error") + '</p></div>';
+    }).finally(() => {
+      $("sub-loading").classList.add("hidden");
+      $("sub-loading").classList.remove("flex");
+    });
+  }
+
+  function renderSteps() {
+    const nav = $("steps");
+    nav.innerHTML = "";
+    const s = subjectStats(current.meta);
+    STEPS.forEach(st => {
+      const active = st.id === current.step;
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "press flex items-center justify-center gap-2 rounded-xl px-3 py-2.5 text-sm font-semibold " +
+        (active ? "bg-white text-indigo-700 shadow-sm" : "text-slate-500 hover:text-slate-800");
+      btn.setAttribute("aria-current", active ? "step" : "false");
+      let extra = "";
+      if (st.id === "lesson" && prog(current.meta.id).read) extra = '<i data-lucide="check" class="h-3.5 w-3.5 text-emerald-600"></i>';
+      if (st.id === "practice") extra = s.done ? '<i data-lucide="check" class="h-3.5 w-3.5 text-emerald-600"></i>'
+        : '<span class="tabular rounded-full bg-slate-100 px-1.5 py-0.5 text-[10px] font-bold text-slate-500">' + s.graded + "/" + s.total + "</span>";
+      btn.innerHTML = '<i data-lucide="' + st.icon + '" class="h-4 w-4"></i>' + st.label + extra;
+      btn.addEventListener("click", () => setStep(st.id));
+      nav.appendChild(btn);
+    });
+    refreshIcons();
+  }
+  function setStep(step) {
+    if (!current) return;
+    stopSpeaking();
+    current.step = step;
+    const p = prog(current.meta.id);
+    p.step = step;
+    saveState();
+    const target = "subject-" + current.meta.subject + (step === "practice" ? "-practice" : "");
+    if (location.hash.replace(/^#/, "") !== target) {
+      try { history.replaceState(null, "", "#" + target); } catch (err) {}
+    }
+    renderStep();
+    window.scrollTo(0, 0);
+  }
+  function renderStep() {
+    renderSteps();
+    $("sub-nav").classList.remove("hidden");
+    if (current.step === "practice") renderPractice(); else renderLesson();
+    renderNav();
+    refreshIcons();
+  }
+
+  function decorateFrench(root) {
+    root.querySelectorAll("em").forEach(em => { em.classList.add("fr"); em.setAttribute("lang", "fr"); });
+    root.querySelectorAll("table").forEach(t => {
+      if (t.parentElement.classList.contains("table-wrap")) return;
+      const wrap = document.createElement("div");
+      wrap.className = "table-wrap";
+      t.parentNode.insertBefore(wrap, t);
+      wrap.appendChild(t);
+    });
+  }
+
+  function sectionId(i) { return "sec-" + current.meta.subject + "-" + i; }
+  function renderLesson() {
+    const data = current.data;
+    const body = $("step-body");
+    body.innerHTML = "";
+
+    const headed = data.sections.filter(s => s.heading);
+    if (headed.length > 2) {
+      const chips = document.createElement("nav");
+      chips.className = "chips -mx-4 mb-3 flex gap-1.5 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0";
+      chips.setAttribute("aria-label", "Jump to a section");
+      data.sections.forEach((s, i) => {
+        if (!s.heading) return;
+        const c = document.createElement("button");
+        c.type = "button";
+        c.className = "press shrink-0 rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-600 hover:border-indigo-200 hover:text-indigo-700";
+        c.textContent = s.heading.replace(/\*/g, "");
+        c.addEventListener("click", () => {
+          const el = $(sectionId(i));
+          if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+        chips.appendChild(c);
+      });
+      body.appendChild(chips);
+    }
+
+    data.sections.forEach((s, i) => {
+      const card = document.createElement("article");
+      card.id = sectionId(i);
+      card.className = "mb-3 scroll-mt-4 rounded-2xl border border-slate-200 bg-white p-4 sm:p-5";
+      card.innerHTML = (s.heading ? '<h2 class="mb-3 text-base font-semibold tracking-tight text-slate-900">' + md(s.heading) + '</h2>' : "") +
+        '<div class="lesson">' + s.html + '</div>';
+      decorateFrench(card);
+      body.appendChild(card);
+    });
+
+    const p = prog(current.meta.id);
+    const done = document.createElement("div");
+    done.className = "mt-1 flex flex-col items-center gap-2 rounded-2xl border border-dashed border-slate-300 p-4 text-center";
+    done.innerHTML = p.read
+      ? '<p class="inline-flex items-center gap-1.5 text-sm font-medium text-emerald-700"><i data-lucide="check-circle-2" class="h-4 w-4"></i> Lesson read</p><p class="text-xs text-slate-500">Now try the ' + plural(data.exercises.length, "exercise", "exercises") + ' in Practice.</p>'
+      : '<p class="text-sm text-slate-600">Finished reading? ' + plural(data.exercises.length, "exercise", "exercises") + ' are waiting in Practice.</p>' +
+        '<button id="btn-mark-read" class="press inline-flex items-center gap-1.5 rounded-full bg-indigo-50 px-4 py-2 text-sm font-semibold text-indigo-700 hover:bg-indigo-100"><i data-lucide="check" class="h-4 w-4"></i> Mark lesson as read</button>';
+    body.appendChild(done);
+    const markBtn = $("btn-mark-read");
+    if (markBtn) markBtn.addEventListener("click", () => { markRead(); renderStep(); });
+  }
+  function markRead() {
+    const p = prog(current.meta.id);
+    if (!p.read) { p.read = true; touchStreak(); saveState(); }
+  }
+
+  /* ---------- Practice ---------- */
+  function renderPractice() {
+    const data = current.data;
+    const p = prog(current.meta.id);
+    const body = $("step-body");
+    body.innerHTML = "";
+
+    const summary = document.createElement("div");
+    summary.id = "practice-summary";
+    body.appendChild(summary);
+    renderSummary();
+
+    let lastInstruction = null;
+    data.exercises.forEach((ex, i) => {
+      if (ex.instruction && ex.instruction !== lastInstruction) {
+        const ins = document.createElement("p");
+        ins.className = "mb-2 mt-4 px-1 text-sm font-semibold text-slate-700";
+        ins.innerHTML = md(ex.instruction);
+        body.appendChild(ins);
+        lastInstruction = ex.instruction;
+      }
+      body.appendChild(exerciseCard(ex, i, p));
+    });
+
+    if (data.outro) {
+      const out = document.createElement("div");
+      out.className = "lesson mt-3 rounded-2xl bg-indigo-50 p-4 text-center text-sm text-indigo-900";
+      out.innerHTML = data.outro;
+      body.appendChild(out);
+    }
+
+    const tools = document.createElement("div");
+    tools.className = "mt-3 flex flex-wrap items-center justify-center gap-2";
+    tools.innerHTML =
+      '<button id="btn-reveal-all" class="press inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3.5 py-2 text-xs font-semibold text-slate-600 hover:border-indigo-200 hover:text-indigo-700"><i data-lucide="eye" class="h-3.5 w-3.5"></i> Show all answers</button>' +
+      '<button id="btn-retry-practice" class="press inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3.5 py-2 text-xs font-semibold text-slate-600 hover:border-red-200 hover:text-red-700"><i data-lucide="rotate-ccw" class="h-3.5 w-3.5"></i> Start practice again</button>';
+    body.appendChild(tools);
+    $("btn-reveal-all").addEventListener("click", () => {
+      data.exercises.forEach(ex => { p.revealed[ex.id] = true; });
+      saveState(); renderPractice(); refreshIcons();
+    });
+    let armed = false, timer = null;
+    $("btn-retry-practice").addEventListener("click", e => {
+      const btn = e.currentTarget;
+      if (!armed) { armed = true; btn.lastChild.textContent = " Tap again to clear your answers"; timer = setTimeout(() => { armed = false; btn.lastChild.textContent = " Start practice again"; }, 3500); return; }
+      clearTimeout(timer);
+      p.answers = {}; p.grades = {}; p.revealed = {}; p.completed = false;
+      saveState(); renderStep(); toast("Practice cleared — have another go");
+    });
+  }
+
+  function renderSummary() {
+    const box = $("practice-summary");
+    if (!box) return;
+    const s = subjectStats(current.meta);
+    const level = levelOf(current.meta.level);
+    const pct = s.total ? s.graded / s.total * 100 : 0;
+    box.className = "rounded-2xl border bg-white p-4 " + (s.done ? "border-emerald-200" : "border-slate-200");
+    box.innerHTML = s.done
+      ? '<div class="flex items-center gap-3"><span class="pop grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-emerald-50 text-emerald-600"><i data-lucide="party-popper" class="h-5 w-5"></i></span>' +
+          '<div class="min-w-0"><p class="font-display text-lg font-semibold text-slate-900">' + (s.correct === s.total ? "Parfait !" : "Bien joué !") + '</p>' +
+          '<p class="text-xs text-slate-500">' + s.correct + ' of ' + s.total + ' correct · subject complete</p></div></div>'
+      : '<div class="flex items-center justify-between text-sm"><span class="font-medium text-slate-700">Write your answer, show the model answer, then mark yourself.</span></div>' +
+        '<div class="mt-3 flex items-center gap-3"><div class="h-2 flex-1 overflow-hidden rounded-full bg-slate-100"><div class="bar h-full" style="width:' + pct + '%;background:' + level.style.color + '"></div></div>' +
+        '<span class="tabular text-xs font-semibold text-slate-500">' + s.graded + ' / ' + s.total + '</span></div>';
+    refreshIcons();
+  }
+
+  function exerciseCard(ex, i, p) {
+    const card = document.createElement("div");
+    card.className = "mb-2.5 rounded-2xl border border-slate-200 bg-white p-4";
+    card.dataset.id = ex.id;
+
+    const head = document.createElement("div");
+    head.className = "flex items-start gap-3";
+    head.innerHTML = '<span class="tabular grid h-7 w-7 shrink-0 place-items-center rounded-lg bg-slate-100 text-xs font-bold text-slate-500">' + (i + 1) + '</span>' +
+      '<p class="min-w-0 flex-1 pt-0.5 text-[15px] leading-relaxed text-slate-800">' + md(ex.prompt) + '</p>';
+    card.appendChild(head);
+
+    const ta = document.createElement("textarea");
+    ta.rows = 2;
+    ta.lang = "fr";
+    ta.spellcheck = false;
+    ta.setAttribute("autocapitalize", "off");
+    ta.setAttribute("aria-label", "Your answer to exercise " + (i + 1));
+    ta.placeholder = "Your answer…";
+    ta.value = p.answers[ex.id] || "";
+    ta.className = "mt-3 block w-full resize-y rounded-xl border border-slate-300 bg-white px-3 py-2.5 text-base text-slate-900 outline-none placeholder:text-slate-400 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100";
+    card.appendChild(ta);
+
+    const keys = document.createElement("div");
+    keys.className = "mt-2 hidden flex-wrap gap-1.5";
+    keys.setAttribute("aria-label", "Accented letters");
+    ACCENT_KEYS.forEach(ch => {
+      const k = document.createElement("button");
+      k.type = "button";
+      k.textContent = ch;
+      k.setAttribute("aria-label", "Insert " + ch);
+      k.className = "press h-8 min-w-[2rem] rounded-lg border border-slate-200 bg-slate-50 px-1.5 text-sm text-slate-700 hover:border-indigo-300 hover:bg-indigo-50";
+      k.addEventListener("pointerdown", e => e.preventDefault());
+      k.addEventListener("click", () => {
+        const start = ta.selectionStart == null ? ta.value.length : ta.selectionStart;
+        const end = ta.selectionEnd == null ? ta.value.length : ta.selectionEnd;
+        ta.setRangeText(ch, start, end, "end");
+        ta.focus();
+        ta.dispatchEvent(new Event("input"));
+      });
+      keys.appendChild(k);
+    });
+    card.appendChild(keys);
+    ta.addEventListener("focus", () => { keys.classList.remove("hidden"); keys.classList.add("flex"); });
+    ta.addEventListener("blur", () => { setTimeout(() => { if (document.activeElement !== ta) { keys.classList.add("hidden"); keys.classList.remove("flex"); } }, 150); });
+
+    const foot = document.createElement("div");
+    card.appendChild(foot);
+
+    let saveTimer = null;
+    ta.addEventListener("input", () => {
+      clearTimeout(saveTimer);
+      saveTimer = setTimeout(() => { p.answers[ex.id] = ta.value; saveState(); }, 300);
+      if (!p.revealed[ex.id]) renderFoot();
+    });
+
+    function renderFoot() {
+      const revealed = !!p.revealed[ex.id];
+      const grade = p.grades[ex.id];
+      if (!revealed) {
+        const locked = state.settings.require && !ta.value.trim();
+        foot.innerHTML = '<div class="mt-3 flex justify-end"><button class="btn-show press inline-flex items-center gap-1.5 rounded-full bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm shadow-indigo-200 hover:bg-indigo-700 disabled:cursor-not-allowed disabled:bg-slate-300 disabled:shadow-none"' + (locked ? " disabled" : "") + '><i data-lucide="eye" class="h-4 w-4"></i> Show answer</button></div>';
+        foot.querySelector(".btn-show").addEventListener("click", () => {
+          p.answers[ex.id] = ta.value;
+          p.revealed[ex.id] = true;
+          saveState(); renderFoot(); refreshIcons();
+        });
+        card.className = "mb-2.5 rounded-2xl border border-slate-200 bg-white p-4";
+        return;
+      }
+      const tone = grade === true ? "border-emerald-200" : grade === false ? "border-red-200" : "border-indigo-200";
+      card.className = "mb-2.5 rounded-2xl border bg-white p-4 " + tone;
+      foot.innerHTML =
+        '<div class="mt-3 rounded-xl bg-slate-50 p-3">' +
+          '<p class="text-[10px] font-semibold uppercase tracking-widest text-slate-400">Model answer</p>' +
+          '<div class="answer-text mt-1 text-[15px] leading-relaxed text-slate-900">' + md(ex.answer) + '</div>' +
+        '</div>' +
+        '<div class="mt-3 flex flex-wrap items-center justify-between gap-2">' +
+          '<span class="text-xs text-slate-500">' + (grade === undefined ? "How did you do?" : grade ? '<span class="inline-flex items-center gap-1 font-semibold text-emerald-700"><i data-lucide="check" class="h-3.5 w-3.5"></i> Got it</span>' : '<span class="inline-flex items-center gap-1 font-semibold text-red-700"><i data-lucide="rotate-ccw" class="h-3.5 w-3.5"></i> Worth another look</span>') + '</span>' +
+          '<div class="flex gap-2">' +
+            '<button class="btn-miss press inline-flex items-center gap-1.5 rounded-full px-3.5 py-2 text-sm font-semibold ' + (grade === false ? "bg-red-600 text-white" : "border border-red-200 bg-white text-red-700 hover:bg-red-50") + '"><i data-lucide="x" class="h-4 w-4"></i> Not quite</button>' +
+            '<button class="btn-got press inline-flex items-center gap-1.5 rounded-full px-3.5 py-2 text-sm font-semibold ' + (grade === true ? "bg-emerald-600 text-white" : "border border-emerald-200 bg-white text-emerald-700 hover:bg-emerald-50") + '"><i data-lucide="check" class="h-4 w-4"></i> Got it</button>' +
+          '</div>' +
+        '</div>';
+      foot.querySelector(".btn-got").addEventListener("click", () => setGrade(true));
+      foot.querySelector(".btn-miss").addEventListener("click", () => setGrade(false));
+    }
+    function setGrade(value) {
+      const wasDone = !!p.completed;
+      p.answers[ex.id] = ta.value;
+      p.grades[ex.id] = value;
+      touchStreak();
+      const total = current.data.exercises.length;
+      if (Object.keys(p.grades).length >= total) { p.completed = true; p.read = true; }
+      saveState();
+      renderFoot();
+      renderSteps();
+      renderSummary();
+      renderNav();
+      refreshIcons();
+      if (p.completed && !wasDone) {
+        toast("Subject " + current.meta.subject + " complete !");
+        const sum = $("practice-summary");
+        if (sum) sum.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        // Move focus to the next unanswered exercise
+        const next = card.nextElementSibling;
+        if (next && next.querySelector && next.querySelector("textarea") && !p.revealed[next.dataset.id]) {
+          try { next.querySelector("textarea").focus({ preventScroll: true }); } catch (err) {}
+          next.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }
+    }
+    renderFoot();
+    return card;
+  }
+
+  /* ---------- Bottom navigation ---------- */
+  function renderNav() {
+    const i = indexOf(current.meta.id);
+    const prev = ORDER[i - 1], next = ORDER[i + 1];
+    const prevBtn = $("btn-prev"), nextBtn = $("btn-next");
+    if (current.step === "lesson") {
+      prevBtn.disabled = !prev;
+      $("btn-prev-label").textContent = prev ? "Subject " + prev.subject : "Start";
+      prevBtn.onclick = () => { if (prev) go("subject-" + prev.subject); };
+      nextBtn.disabled = false;
+      $("btn-next-label").textContent = "Practice";
+      nextBtn.onclick = () => { markRead(); setStep("practice"); };
+    } else {
+      prevBtn.disabled = false;
+      $("btn-prev-label").textContent = "Lesson";
+      prevBtn.onclick = () => setStep("lesson");
+      nextBtn.disabled = !next;
+      $("btn-next-label").textContent = next ? "Subject " + next.subject : "Course complete";
+      nextBtn.onclick = () => { if (next) { const np = prog(next.id); np.step = "lesson"; saveState(); go("subject-" + next.subject); } };
+    }
+  }
+
+  /* ---------- Settings ---------- */
+  function renderSettings() {
+    $("toggle-speak").setAttribute("aria-pressed", String(!!state.settings.speak));
+    $("toggle-require").setAttribute("aria-pressed", String(!!state.settings.require));
+    $("rate").value = state.settings.rate;
+    $("rate-label").textContent = Number(state.settings.rate).toFixed(1) + "×";
+  }
+  let resetArmed = false, resetTimer = null;
+  function disarmReset() { resetArmed = false; clearTimeout(resetTimer); $("btn-reset").textContent = "Reset all progress"; }
+  function openSettings() {
+    renderSettings(); disarmReset();
+    $("settings").classList.remove("hidden"); $("settings").classList.add("flex");
+    $("btn-settings-close").focus();
+  }
+  function closeSettings() {
+    $("settings").classList.add("hidden"); $("settings").classList.remove("flex");
+    stopSpeaking();
+    if (ORDER.length && currentView === "view-dashboard") renderDashboard();
+  }
+  function settingsOpen() { return !$("settings").classList.contains("hidden"); }
+
+  /* =========================================================
+     7. EVENTS
+     ========================================================= */
+  $("btn-settings").addEventListener("click", openSettings);
+  $("btn-settings-close").addEventListener("click", closeSettings);
+  $("settings").addEventListener("click", e => { if (e.target === $("settings")) closeSettings(); });
+  $("toggle-speak").addEventListener("click", () => { state.settings.speak = !state.settings.speak; saveState(); renderSettings(); applySpeakClass(); });
+  $("toggle-require").addEventListener("click", () => { state.settings.require = !state.settings.require; saveState(); renderSettings(); });
+  $("rate").addEventListener("input", e => {
+    state.settings.rate = Number(e.target.value);
+    $("rate-label").textContent = state.settings.rate.toFixed(1) + "×";
+    saveState();
+  });
+  $("btn-test-voice").addEventListener("click", () => speak("Bonjour ! Bienvenue dans votre cours de français."));
+  $("btn-reset").addEventListener("click", () => {
+    if (!resetArmed) {
+      resetArmed = true;
+      $("btn-reset").textContent = "Tap again to erase everything";
+      resetTimer = setTimeout(disarmReset, 4000);
+      return;
+    }
+    const keep = state.settings;
+    state = defaultState();
+    state.settings = Object.assign(state.settings, keep);
+    saveState(); disarmReset(); closeSettings();
+    toast("Progress reset");
+    go("");
+  });
+
+  $("btn-level-back").addEventListener("click", () => go(""));
+  $("btn-subject-back").addEventListener("click", () => { if (current) go("level-" + current.meta.level.toLowerCase()); else go(""); });
+  $("btn-retry").addEventListener("click", init);
+  $("search").addEventListener("input", renderSearch);
+  $("search").addEventListener("keydown", e => {
+    if (e.key === "Escape") { $("search").value = ""; renderSearch(); }
+    if (e.key === "Enter") { const first = $("search-results").querySelector("button"); if (first) first.click(); }
+  });
+  window.addEventListener("hashchange", route);
+  document.addEventListener("keydown", e => {
+    if (e.key !== "Escape") return;
+    if (settingsOpen()) { closeSettings(); return; }
+    const tag = e.target && e.target.tagName;
+    if (tag === "TEXTAREA" || tag === "INPUT") { e.target.blur(); return; }
+    if (currentView === "view-subject" && current) go("level-" + current.meta.level.toLowerCase());
+    else if (currentView === "view-level") go("");
+  });
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden && ORDER.length && currentView === "view-dashboard") renderDashboard();
+  });
+
+  /* =========================================================
+     8. INIT
+     ========================================================= */
+  function init() {
+    $("loading").classList.remove("hidden");
+    $("load-error").classList.add("hidden");
+    $("dash-body").classList.add("hidden");
+    applySpeakClass();
+    loadManifest().then(() => {
+      $("loading").classList.add("hidden");
+      $("dash-body").classList.remove("hidden");
+      route();
+    }).catch(err => {
+      $("loading").classList.add("hidden");
+      $("load-error").classList.remove("hidden");
+      $("greeting-sub").textContent = "Something went wrong while loading.";
+      $("load-error-text").textContent = (location.protocol === "file:")
+        ? "This page was opened straight from a file. Browsers block it from reading the resources folder that way — serve the folder from a web server instead."
+        : "Check that resources/index.json exists and lists the subject files. (" + (err && err.message ? err.message : "unknown error") + ")";
+    });
+  }
+  refreshIcons();
+  init();
+})();
+</script>
+<script src="../shared/bridge.js"></script>
+<script>
+/* Mémo: subject switcher (Leçon · Lecture · Cartes) on every lesson. */
+(function () {
+  var steps = document.getElementById("steps");
+  if (!steps || !window.memoSwitcher) return;
+  memoSwitcher.mount(steps.parentNode, steps, "mt-3");
+  function sync() {
+    var m = /^#subject-(\d+)/.exec(location.hash || "");
+    memoSwitcher.set(m ? { app: "lecons", subject: Number(m[1]) } : null);
+  }
+  window.addEventListener("memo:navigate", sync);
+  sync();
+})();
+</script>
+</body>
+</html>

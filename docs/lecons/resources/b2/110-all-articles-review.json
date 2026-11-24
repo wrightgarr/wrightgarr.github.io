@@ -1,0 +1,78 @@
+{
+ "id": "s110",
+ "subject": 110,
+ "level": "B2",
+ "title": "All Articles Review",
+ "sections": [
+  {
+   "heading": "The four types of articles",
+   "html": "<table>\n<thead>\n<tr>\n<th>Type</th>\n<th>Masc.</th>\n<th>Fem.</th>\n<th>Before vowel</th>\n<th>Plural</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Definite</strong> (the)</td>\n<td>le</td>\n<td>la</td>\n<td>l'</td>\n<td>les</td>\n</tr>\n<tr>\n<td><strong>Indefinite</strong> (a/an, some)</td>\n<td>un</td>\n<td>une</td>\n<td>—</td>\n<td>des</td>\n</tr>\n<tr>\n<td><strong>Partitive</strong> (some, any)</td>\n<td>du</td>\n<td>de la</td>\n<td>de l'</td>\n<td>des</td>\n</tr>\n<tr>\n<td><strong>Contracted</strong> (à/de + definite)</td>\n<td>au / du</td>\n<td>à la / de la</td>\n<td>à l' / de l'</td>\n<td>aux / des</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "When to use each",
+   "html": "<table>\n<thead>\n<tr>\n<th>Use</th>\n<th>Article</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Specific known thing</td>\n<td>definite</td>\n<td><em>Passe-moi </em><em>le</em><em> sel.</em></td>\n</tr>\n<tr>\n<td>General statements, categories</td>\n<td>definite</td>\n<td><strong><em>Les</em><em> chiens sont fidèles.</em> / </strong><em>La</em><em> patience est une vertu.</em></td>\n</tr>\n<tr>\n<td>Likes / dislikes (aimer, adorer, préférer, détester)</td>\n<td>definite</td>\n<td><em>J'adore </em><em>le</em><em> chocolat.</em></td>\n</tr>\n<tr>\n<td>Languages, countries, seasons, days (habits)</td>\n<td>definite</td>\n<td><strong><em>Le</em>* français, </strong>la<strong> France, </strong>l'<strong>hiver, </strong>le*<em> lundi</em></td>\n</tr>\n<tr>\n<td>Body parts (with reflexives / avoir)</td>\n<td>definite</td>\n<td><em>Il a </em><em>les</em><em> yeux bleus.</em> / <em>Je me lave </em><em>les</em><em> mains.</em></td>\n</tr>\n<tr>\n<td>Rates / price per</td>\n<td>definite</td>\n<td><em>5 $ </em><em>le</em><em> kilo</em>, <em>deux fois </em><em>par</em><em> semaine</em> (exception: par)</td>\n</tr>\n<tr>\n<td>Titles</td>\n<td>definite</td>\n<td><em><strong>Le</strong> docteur Martin est arrivé.</em></td>\n</tr>\n<tr>\n<td>One countable thing, first mention</td>\n<td>indefinite</td>\n<td><em>J'ai </em><em>un</em><em> chien.</em></td>\n</tr>\n<tr>\n<td>Plural non-specific</td>\n<td>indefinite</td>\n<td><em>J'ai </em><em>des</em><em> amis à Québec.</em></td>\n</tr>\n<tr>\n<td>Uncountable quantity</td>\n<td>partitive</td>\n<td><em>Je bois </em><em>de l'</em><em>eau.</em> / <em>Il a </em><em>du</em><em> courage.</em></td>\n</tr>\n<tr>\n<td>Activities with faire / jouer de</td>\n<td>partitive</td>\n<td><em>faire </em><em>du</em><em> sport, jouer </em><em>du</em><em> piano</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "When the article becomes de / d'",
+   "html": "<ol>\n<li><strong>After a negative</strong> (indefinite and partitive only): <em>Je n'ai pas </em><em>de</em><em> voiture.</em> / <em>Il ne boit pas </em><em>de</em><em> vin.</em> — <strong>but not after être</strong>: <em>Ce n'est pas </em><em>un</em><em> problème.</em></li>\n<li><strong>After expressions of quantity</strong>: <em>beaucoup </em><em>de</em><em>, peu </em><em>de</em><em>, assez </em><em>de</em><em>, trop </em><em>de</em><em>, un kilo </em><em>de</em><em>, une bouteille </em><em>de</em><em>, plein </em><em>de</em><em>…</em> — Exceptions: <em>la plupart </em><em>des</em><em>, bien </em><em>des</em>**.</li>\n<li><strong>Before a plural adjective</strong> (formal): <em>de </em><em>belles</em><em> fleurs</em>, <em>de </em><em>bons</em><em> amis</em>. (In speech, <em>des belles fleurs</em> is common.) Not for compound nouns: <em>des petits pois, des jeunes filles</em>.</li>\n<li><strong>After certain verbs/expressions with de</strong>: <em>avoir besoin </em><em>de</em><em>, manquer </em><em>de</em><em>, se passer </em><em>de</em><em>, être plein </em><em>de</em><em>, couvert </em><em>de</em><em>, entouré </em><em>de</em><strong>: *J'ai besoin </strong>d'<strong>argent.<em> (not ~~de l'argent~~ when general) / </em>La table est couverte </strong>de*<em> livres.</em></li>\n</ol>"
+  },
+  {
+   "heading": "When there's no article",
+   "html": "<table>\n<thead>\n<tr>\n<th>Case</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Profession, nationality, religion after être / devenir</td>\n<td><em>Il est </em><em>médecin</em><em>.</em> / <em>Elle est </em><em>canadienne</em><em>.</em></td>\n</tr>\n<tr>\n<td>After <em>sans, avec</em> (abstract, sometimes)</td>\n<td><em>sans </em><em>sucre</em><em>, avec </em><em>plaisir</em><em>, avec </em><em>patience</em>**</td>\n</tr>\n<tr>\n<td>After <em>en</em></td>\n<td><em>en </em><em>voiture</em><em>, en </em><em>France</em><em>, en </em><em>été</em><em>, en </em><em>bois</em>**</td>\n</tr>\n<tr>\n<td>After <em>ni… ni</em></td>\n<td><em>Je n'ai ni </em><em>frère</em><em> ni </em><em>sœur</em><em>.</em></td>\n</tr>\n<tr>\n<td>Noun + de + noun (type / material / purpose)</td>\n<td><em>un jus </em><em>d'orange</em><em>, une salle </em><em>de bain</em><em>, une tasse </em><em>de</em><em> thé</em></td>\n</tr>\n<tr>\n<td>Lists, signs, headlines, proverbs</td>\n<td><em>Entrée </em><em>interdite</em><em>.</em> / <em>Patience et longueur de temps…</em></td>\n</tr>\n<tr>\n<td>Apposition</td>\n<td><em>Paris, </em><em>capitale</em><em> de la France</em></td>\n</tr>\n<tr>\n<td>Many fixed expressions</td>\n<td><em>avoir faim, avoir peur, faire attention, prendre feu, rendre visite</em></td>\n</tr>\n<tr>\n<td>Vocative / addressing</td>\n<td><em><strong>Garçon</strong>, l'addition !</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "J'aime ___ musique classique, alors j'écoute souvent ___ Mozart.",
+   "instruction": "Fill in with the correct article (or nothing):",
+   "answer": "la ; du (also accepted: *écouter Mozart* with no article)",
+   "id": "e1"
+  },
+  {
+   "prompt": "Il n'a pas ___ voiture, il va au travail en ___ vélo.",
+   "answer": "de ; à vélo (no article; *en vélo* colloquial)",
+   "id": "e2"
+  },
+  {
+   "prompt": "Elle est ___ avocate.",
+   "answer": "(nothing)",
+   "id": "e3"
+  },
+  {
+   "prompt": "Je voudrais un verre ___ eau et ___ pain.",
+   "answer": "d' ; du",
+   "id": "e4"
+  },
+  {
+   "prompt": "La plupart ___ gens aiment voyager.",
+   "answer": "des",
+   "id": "e5"
+  },
+  {
+   "prompt": "Il a ___ cheveux longs et ___ yeux verts.",
+   "answer": "les ; les",
+   "id": "e6"
+  },
+  {
+   "prompt": "Ce n'est pas ___ problème.",
+   "answer": "un",
+   "id": "e7"
+  },
+  {
+   "prompt": "Nous avons ___ bons amis à Montréal. (formal)",
+   "answer": "de",
+   "id": "e8"
+  },
+  {
+   "prompt": "Je n'ai besoin ni ___ aide ni ___ conseils.",
+   "answer": "d' ; de — *Je n'ai besoin ni d'aide ni de conseils.* (the *de* belongs to *avoir besoin de*)",
+   "id": "e9"
+  },
+  {
+   "prompt": "Ça coûte 3 $ ___ kilo.",
+   "answer": "le",
+   "id": "e10"
+  }
+ ],
+ "outro": ""
+}

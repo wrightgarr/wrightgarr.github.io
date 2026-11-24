@@ -1,0 +1,50 @@
+{
+ "id": "s67",
+ "subject": 67,
+ "level": "B1",
+ "title": "Coordinating Conjunctions (mais, ou, et, donc, or, ni, car)",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Coordinating conjunctions join <strong>two elements of equal value</strong> (two words, two phrases, or two independent clauses). French students memorize them with: <strong>\"Mais où est donc Ornicar ?\"</strong> (<em>mais, ou, et, donc, or, ni, car</em>).</p>\n<table>\n<thead>\n<tr>\n<th>Conjunction</th>\n<th>Meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>mais</strong></td>\n<td>but (opposition)</td>\n<td><em>Il est riche </em><em>mais</em><em> malheureux.</em></td>\n</tr>\n<tr>\n<td><strong>ou</strong></td>\n<td>or (choice)</td>\n<td><em>Tu veux du thé </em><em>ou</em><em> du café ?</em></td>\n</tr>\n<tr>\n<td><strong>et</strong></td>\n<td>and (addition)</td>\n<td><em>J'ai faim </em><em>et</em><em> soif.</em></td>\n</tr>\n<tr>\n<td><strong>donc</strong></td>\n<td>so, therefore (consequence)</td>\n<td><em>Je pense, </em><em>donc</em><em> je suis.</em></td>\n</tr>\n<tr>\n<td><strong>or</strong></td>\n<td>yet, now (introduces a contradicting fact)</td>\n<td><em>Il devait venir ; </em><em>or</em><em>, il n'est jamais arrivé.</em></td>\n</tr>\n<tr>\n<td><strong>ni</strong></td>\n<td>neither / nor (negative addition)</td>\n<td><em>Je n'aime </em><em>ni</em><em> le thé </em><em>ni</em><em> le café.</em></td>\n</tr>\n<tr>\n<td><strong>car</strong></td>\n<td>because, for (explanation)</td>\n<td><em>Je reste à la maison, </em><em>car</em><em> il pleut.</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Notes on each",
+   "html": "<p><strong>Mais</strong>\n- Also used for emphasis: <em>Mais oui !</em> (Of course!), <em>Mais non !</em> (No way!).\n- <em>Non seulement… mais aussi / mais encore</em> — not only… but also.</p>\n<p><strong>Ou</strong>\n- <em>ou… ou</em> / <em>soit… soit</em> = either… or: <em>Soit tu viens, soit tu restes.</em>\n- <em>ou bien</em> = or else.\n- Don't confuse with <strong>où</strong> (where).</p>\n<p><strong>Donc</strong>\n- Can move inside the sentence: <em>Il est </em><em>donc</em><em> parti.</em> — So he left.\n- Used in questions for emphasis: <em>Qu'est-ce que tu fais </em><em>donc</em><em> ?</em> — What on earth are you doing?</p>\n<p><strong>Or</strong>\n- Formal/written. Introduces a new fact that changes the reasoning: <em>Tous les hommes sont mortels. </em><em>Or</em><em>, Socrate est un homme. </em><em>Donc</em><em>, Socrate est mortel.</em>\n- Not \"or\"! Usually translated as \"yet / however / now\".</p>\n<p><strong>Ni</strong>\n- Used with <strong>ne</strong> before the verb and repeated before each element: <em>Il </em><em>ne</em><em> boit </em><em>ni</em><em> vin </em><em>ni</em><em> bière.</em>\n- Articles <em>du, de la, des, un</em> disappear after <em>ni</em>: <em>Je n'ai </em><em>ni</em><em> frère </em><em>ni</em><em> sœur.</em>\n- <em>Ni moi non plus.</em> — Me neither.</p>\n<p><strong>Car</strong>\n- More formal than <em>parce que</em>. Cannot start a sentence and cannot answer <em>pourquoi</em>.\n- <em>Je suis fatigué, </em><em>car</em><em> j'ai mal dormi.</em> (formal) = <em>…parce que j'ai mal dormi.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je voudrais venir, ___ je n'ai pas le temps.",
+   "instruction": "Choose the correct conjunction:",
+   "answer": "mais",
+   "id": "e1"
+  },
+  {
+   "prompt": "Il a beaucoup travaillé, ___ il a réussi.",
+   "answer": "donc",
+   "id": "e2"
+  },
+  {
+   "prompt": "Elle ne parle ___ anglais ___ espagnol.",
+   "answer": "ni… ni",
+   "id": "e3"
+  },
+  {
+   "prompt": "Prends un parapluie, ___ il va pleuvoir.",
+   "answer": "car",
+   "id": "e4"
+  },
+  {
+   "prompt": "Il dit qu'il est malade ; ___, je l'ai vu au restaurant hier soir.",
+   "answer": "or",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I have neither the time nor the money.\"",
+   "answer": "*Je n'ai ni le temps ni l'argent.*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

@@ -1,0 +1,56 @@
+{
+ "id": "s26",
+ "subject": 26,
+ "level": "A1",
+ "title": "Colors",
+ "sections": [
+  {
+   "heading": "The colors (les couleurs)",
+   "html": "<table>\n<thead>\n<tr>\n<th>French (m. / f.)</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>blanc / blanche</td>\n<td>white</td>\n</tr>\n<tr>\n<td>noir / noire</td>\n<td>black</td>\n</tr>\n<tr>\n<td>rouge / rouge</td>\n<td>red</td>\n</tr>\n<tr>\n<td>bleu / bleue</td>\n<td>blue</td>\n</tr>\n<tr>\n<td>vert / verte</td>\n<td>green</td>\n</tr>\n<tr>\n<td>jaune / jaune</td>\n<td>yellow</td>\n</tr>\n<tr>\n<td>gris / grise</td>\n<td>grey</td>\n</tr>\n<tr>\n<td>violet / violette</td>\n<td>purple</td>\n</tr>\n<tr>\n<td>rose / rose</td>\n<td>pink</td>\n</tr>\n<tr>\n<td>brun / brune</td>\n<td>brown (hair, skin; common in Québec)</td>\n</tr>\n<tr>\n<td>marron (invariable)</td>\n<td>brown (objects, eyes; France)</td>\n</tr>\n<tr>\n<td>orange (invariable)</td>\n<td>orange</td>\n</tr>\n<tr>\n<td>beige / beige</td>\n<td>beige</td>\n</tr>\n<tr>\n<td>doré / dorée</td>\n<td>golden</td>\n</tr>\n<tr>\n<td>argenté / argentée</td>\n<td>silver</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Rules",
+   "html": "<ol>\n<li><strong>Colors go after the noun</strong>: <em>une voiture </em><em>rouge</em><strong>, <em>des yeux **bleus</em></strong>.</li>\n<li><strong>Colors agree</strong> like adjectives: <em>un pull vert / une robe verte / des chaussures vertes</em>.</li>\n<li><strong>Colors that come from nouns are invariable</strong> (don't change): <em>orange</em> (the fruit), <em>marron</em> (chestnut), <em>cerise</em>, <em>turquoise</em>. → <em>des chaussures </em><em>orange</em><em>, des yeux </em><em>marron</em>*<em>. (Exception: </em>rose<em>, </em>mauve<em> do agree: </em>des fleurs roses*.)</li>\n<li><strong>Compound colors are invariable</strong>: <em>une chemise </em><em>bleu clair</em><strong> (light blue), <em>des yeux **vert foncé</em></strong> (dark green), <em>une robe </em><em>bleu marine</em>** (navy blue).</li>\n<li>As a <strong>noun</strong>, a color is masculine: <em>Le bleu est ma couleur préférée.</em> <em>J'aime </em><em>le</em><em> rouge.</em></li>\n</ol>"
+  },
+  {
+   "heading": "Shades",
+   "html": "<ul>\n<li><strong>clair</strong> — light: <em>bleu clair</em></li>\n<li><strong>foncé</strong> — dark: <em>vert foncé</em></li>\n<li><strong>vif</strong> — bright: <em>rouge vif</em></li>\n<li><strong>pâle</strong> — pale: <em>jaune pâle</em></li>\n</ul>"
+  },
+  {
+   "heading": "Asking about colors",
+   "html": "<ul>\n<li><em>De quelle couleur est ta voiture ?</em> — What color is your car? → <em>Elle est grise.</em></li>\n<li><em>Quelle est ta couleur préférée ?</em> — What's your favorite color?</li>\n</ul>"
+  },
+  {
+   "heading": "Color expressions",
+   "html": "<ul>\n<li><em>voir la vie en rose</em> — to see life through rose-tinted glasses</li>\n<li><em>être vert de peur / de jalousie</em> — to be green with fear / envy</li>\n<li><em>rire jaune</em> — to give a forced laugh</li>\n<li><em>une nuit blanche</em> — a sleepless night</li>\n<li><em>être fleur bleue</em> — to be sentimental / romantic</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Agree the color: (a) une chemise (blanc) (b) des pantalons (noir) (c) des yeux (marron) (d) une jupe (bleu foncé) (e) des fleurs (rose).",
+   "answer": "(a) blanche (b) noirs (c) marron (d) bleu foncé (e) roses",
+   "id": "e1"
+  },
+  {
+   "prompt": "Translate: \"My favorite color is green.\"",
+   "answer": "*Ma couleur préférée est le vert.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"She has light blue eyes.\"",
+   "answer": "*Elle a les yeux bleu clair.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"What color is the house? — It's white.\"",
+   "answer": "*De quelle couleur est la maison ? — Elle est blanche.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "What is *une nuit blanche*?",
+   "answer": "A sleepless night (an \"all-nighter\").",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

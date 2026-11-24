@@ -1,0 +1,56 @@
+{
+ "id": "s94",
+ "subject": 94,
+ "level": "B2",
+ "title": "Le Subjonctif Imparfait",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>subjonctif imparfait</strong> is a <strong>literary</strong> tense. It's almost never used in speech or modern writing, where it's replaced by the subjonctif présent. You need to <strong>recognize</strong> it in classic literature (19th century and earlier) and very formal writing.</p>"
+  },
+  {
+   "heading": "Formation: from the passé simple",
+   "html": "<ol>\n<li>Take the <strong>il/elle</strong> form of the <strong>passé simple</strong> (Subject 95): <em>il parla, il finit, il eut, il fut, il vint</em>.</li>\n<li>For <strong>-a</strong> verbs, remove the -a and add: <strong>-asse, -asses, -ât, -assions, -assiez, -assent</strong>.</li>\n<li>For <strong>-i, -u, -in</strong> verbs, add: <strong>-sse, -sses, -^t, -ssions, -ssiez, -ssent</strong>.</li>\n</ol>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>parler (il parla)</th>\n<th>finir (il finit)</th>\n<th>avoir (il eut)</th>\n<th>être (il fut)</th>\n<th>venir (il vint)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>que je</td>\n<td>parlasse</td>\n<td>finisse</td>\n<td>eusse</td>\n<td>fusse</td>\n<td>vinsse</td>\n</tr>\n<tr>\n<td>que tu</td>\n<td>parlasses</td>\n<td>finisses</td>\n<td>eusses</td>\n<td>fusses</td>\n<td>vinsses</td>\n</tr>\n<tr>\n<td>qu'il</td>\n<td><strong>parlât</strong></td>\n<td><strong>finît</strong></td>\n<td><strong>eût</strong></td>\n<td><strong>fût</strong></td>\n<td><strong>vînt</strong></td>\n</tr>\n<tr>\n<td>que nous</td>\n<td>parlassions</td>\n<td>finissions</td>\n<td>eussions</td>\n<td>fussions</td>\n<td>vinssions</td>\n</tr>\n<tr>\n<td>que vous</td>\n<td>parlassiez</td>\n<td>finissiez</td>\n<td>eussiez</td>\n<td>fussiez</td>\n<td>vinssiez</td>\n</tr>\n<tr>\n<td>qu'ils</td>\n<td>parlassent</td>\n<td>finissent</td>\n<td>eussent</td>\n<td>fussent</td>\n<td>vinssent</td>\n</tr>\n</tbody>\n</table>\n<p>The <strong>3rd person singular</strong> (with circumflex) is the form you'll see most: <em>qu'il fût, qu'il eût, qu'il fît, qu'il pût, qu'il vînt, qu'il dût, qu'il sût</em>.</p>"
+  },
+  {
+   "heading": "Usage (literary)",
+   "html": "<p>In classical style, when the main verb is in a <strong>past tense</strong> or the conditional, the subordinate subjunctive is put in the imparfait (sequence of tenses):\n| Main clause | Modern French | Literary French |\n|---|---|---|\n| <em>Je voulais que…</em> | <em>…qu'il </em><em>vienne</em><em>.</em> | <em>…qu'il </em><em>vînt</em><em>.</em> |\n| <em>Il fallait que…</em> | <em>…nous </em><em>partions</em><em>.</em> | <em>…nous </em><em>partissions</em><em>.</em> |\n| <em>Elle craignait que…</em> | <em>…il ne </em><em>soit</em><em> trop tard.</em> | <em>…il ne </em><em>fût</em><em> trop tard.</em> |</p>"
+  },
+  {
+   "heading": "Fixed expressions still in use",
+   "html": "<ul>\n<li><strong><em>Fût-ce</em></strong> — even if it were: <em>Je l'aiderai, fût-ce une seule fois.</em></li>\n<li><strong><em>Ne fût-ce que</em></strong> — if only, even just: <em>Viens, ne fût-ce que pour une heure.</em></li>\n<li><strong><em>Qu'il fût</em></strong> in formal speeches.</li>\n<li><strong><em>Plût au ciel !</em></strong> — Would to heaven!</li>\n</ul>"
+  },
+  {
+   "heading": "Plus-que-parfait du subjonctif (recognition)",
+   "html": "<p><em>qu'il </em><em>eût</em><em> fini / qu'il </em><em>fût</em><em> parti</em> — literary replacement for the subjonctif passé, and also for the conditionnel passé: <em>Il </em><em>eût</em><em> été préférable de partir.</em> = <em>Il </em><em>aurait</em><em> été préférable…</em> (It would have been better…)</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Give the modern equivalent: *Il fallait qu'il partît.*",
+   "answer": "*Il fallait qu'il parte.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Give the modern equivalent: *Je craignais qu'elle ne fût malade.*",
+   "answer": "*Je craignais qu'elle (ne) soit malade.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Identify the verb (infinitive): *qu'il eût*, *qu'il fît*, *qu'il pût*, *qu'il vînt*.",
+   "answer": "avoir, faire, pouvoir, venir.",
+   "id": "e3"
+  },
+  {
+   "prompt": "What does *ne fût-ce que* mean?",
+   "answer": "\"If only / even if only\".",
+   "id": "e4"
+  },
+  {
+   "prompt": "Modernize: *Il eût mieux valu se taire.*",
+   "answer": "*Il aurait mieux valu se taire.* (It would have been better to keep quiet.)",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

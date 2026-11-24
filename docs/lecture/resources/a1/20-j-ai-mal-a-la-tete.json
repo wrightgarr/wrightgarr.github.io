@@ -1,0 +1,129 @@
+{
+  "id": "a1-20",
+  "level": "A1",
+  "number": 20,
+  "title": "J'ai mal à la tête",
+  "grammar": "*avoir mal à*, *avoir* expressions",
+  "theme": "health and the body",
+  "wordCount": 111,
+  "primer": [
+    "**avoir mal à**: to hurt, have a pain in (*j'ai mal à la tête*)",
+    "**la tête, la gorge, les oreilles, la bouche**: head, throat, ears, mouth",
+    "**avoir chaud / froid**: to feel hot / cold",
+    "**avoir de la fièvre**: to have a fever",
+    "**malade**: sick",
+    "**chez le médecin**: at / to the doctor's",
+    "**rester**: to stay"
+  ],
+  "passage": [
+    [
+      "Ce matin, Marco ne va pas bien. Il a mal à la tête et il a mal à la gorge. Il a chaud, puis il a froid. Il a de la fièvre. Il téléphone à Léa."
+    ],
+    [
+      "— Allô, Léa ? Je suis malade. Je ne peux pas aller à l'université.",
+      "— Oh non ! Va chez le médecin !"
+    ],
+    [
+      "L'après-midi, Marco est chez le docteur Lambert."
+    ],
+    [
+      "— Qu'est-ce qui ne va pas ?",
+      "— J'ai mal à la tête, à la gorge et aux oreilles.",
+      "— Ouvrez la bouche, s'il vous plaît… Ah oui. C'est une grippe. Restez au lit trois jours et buvez beaucoup d'eau."
+    ],
+    [
+      "Le soir, Léa apporte une soupe à Marco. C'est une soupe d'Hugo, bien sûr !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "ne va pas bien",
+      "en": "isn't well"
+    },
+    {
+      "fr": "Allô ?",
+      "en": "Hello? (on the phone only)"
+    },
+    {
+      "fr": "Va… !",
+      "en": "Go…! (tu imperative of *aller*)",
+      "match": [
+        "Va chez"
+      ]
+    },
+    {
+      "fr": "Qu'est-ce qui ne va pas ?",
+      "en": "What's wrong?"
+    },
+    {
+      "fr": "ouvrez",
+      "en": "open"
+    },
+    {
+      "fr": "une grippe",
+      "en": "the flu"
+    },
+    {
+      "fr": "buvez",
+      "en": "drink (imperative)"
+    }
+  ],
+  "spotlight": [
+    "**Avoir mal à + body part**, with *à* + article: *mal à la tête, mal au dos, mal aux oreilles*.",
+    "**Avoir for feelings:** French \"has\" heat, cold, hunger, thirst: *Il a chaud. Il a froid. J'ai faim. J'ai soif.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "List three of Marco's symptoms.",
+      "answer": "A headache, a sore throat and a fever",
+      "options": [
+        "A headache, a sore throat and a fever",
+        "A stomach ache, a cough and back pain",
+        "Sore feet, a headache and sneezing",
+        "A toothache, a fever and sore eyes"
+      ],
+      "evidence": "Il a mal à la tête et il a mal à la gorge. … Il a de la fièvre."
+    },
+    {
+      "id": "q2",
+      "prompt": "What is the diagnosis, and what does the doctor recommend?",
+      "answer": "The flu — stay in bed three days and drink lots of water",
+      "options": [
+        "The flu — stay in bed three days and drink lots of water",
+        "A cold — go for a walk",
+        "A cold — go back to university tomorrow",
+        "Food poisoning — eat only soup"
+      ],
+      "evidence": "C'est une grippe. Restez au lit trois jours et buvez beaucoup d'eau."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Léa bring, and who made it?",
+      "answer": "Soup, made by Hugo",
+      "options": [
+        "Soup, made by Hugo",
+        "Medicine from the pharmacy",
+        "Croissants from Madame Martin",
+        "Hot chocolate from the café"
+      ],
+      "evidence": "Le soir, Léa apporte une soupe à Marco. C'est une soupe d'Hugo, bien sûr !"
+    }
+  ],
+  "writing": {
+    "prompt": "Write two sentences: one with *j'ai mal à…* and one with *j'ai faim/soif/chaud/froid*.",
+    "model": "Aujourd'hui, j'ai mal au dos. Et j'ai très faim !",
+    "targets": [
+      {
+        "label": "j'ai mal à / au / aux",
+        "pattern": "mal (à|au|aux)\\b",
+        "min": 1
+      },
+      {
+        "label": "j'ai faim / soif / chaud / froid",
+        "pattern": "\\b(faim|soif|chaud|froid)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

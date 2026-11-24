@@ -1,0 +1,167 @@
+{
+  "id": "b1-15",
+  "level": "B1",
+  "number": 15,
+  "title": "Les bouchons de Lyon",
+  "grammar": "expressing consequence",
+  "theme": "Lyon's food culture",
+  "wordCount": 380,
+  "primer": [
+    "**donc / alors**: so, therefore",
+    "**c'est pourquoi / c'est pour ça que**: that's why",
+    "**si bien que**: so, with the result that",
+    "**si / tellement + adjectif + que**: so … that",
+    "**tellement de / tant de + nom + que**: so much / so many … that",
+    "**du coup** (familiar): so, as a result"
+  ],
+  "passage": [
+    [
+      "En mai, Horizons a commandé un deuxième reportage à Léa : la cuisine lyonnaise. Comme ses parents habitaient à Lyon, elle a logé chez eux. Son père, Paul, était si fier qu'il a pris trois jours de congé pour lui servir de guide."
+    ],
+    [
+      "— Un vrai bouchon, ce n'est pas un restaurant chic, a-t-il expliqué le premier soir. C'est une petite salle, des nappes à carreaux rouges et blancs, une cuisine simple et généreuse. Donc pas de menus en anglais, pas de musique, et surtout pas de lumière bleue !"
+    ],
+    [
+      "Ils sont entrés chez Germaine, dans le Vieux-Lyon. La patronne, une femme imposante au rire puissant, connaissait Paul depuis trente ans, si bien qu'elle les a installés à la meilleure table sans même demander."
+    ],
+    [
+      "— Alors, ma petite, tu veux photographier ma cuisine ? Du coup, il faut que tu la goûtes d'abord. Je ne fais pas poser mes plats pour des gens qui ne les mangent pas !"
+    ],
+    [
+      "Les plats sont arrivés : saucisson brioché, salade lyonnaise avec ses lardons et son œuf poché, quenelles de brochet sauce Nantua, puis cervelle de canut, un fromage blanc aux herbes qui n'a rien à voir avec une cervelle. Il y en avait tellement que Léa a dû desserrer sa ceinture."
+    ],
+    [
+      "— Je n'ai jamais autant mangé de ma vie, a-t-elle soupiré.",
+      "— C'est pourquoi les Lyonnais marchent beaucoup, a répondu son père en riant."
+    ],
+    [
+      "Le lendemain, Germaine a laissé Léa entrer dans sa cuisine. Il y faisait si chaud que l'objectif de son appareil s'est couvert de buée. Léa a dû attendre dix minutes, si bien qu'elle a eu le temps de regarder Germaine travailler : des gestes rapides, précis, répétés depuis quarante ans."
+    ],
+    [
+      "— Ma mère faisait les quenelles comme ça, et sa mère avant elle. Les jeunes chefs, ils veulent tout changer. Alors moi, je ne change rien. C'est pour ça que les clients reviennent."
+    ],
+    [
+      "Le dernier soir, Paul a emmené Léa sur la colline de Fourvière. En bas, la ville brillait entre le Rhône et la Saône."
+    ],
+    [
+      "— Tu sais, a-t-il dit, j'avais peur que tu oublies Lyon. Marseille, la mer, ta nouvelle vie… Du coup, j'ai organisé tout ce programme pour te retenir un peu."
+    ],
+    [
+      "Léa a pris le bras de son père."
+    ],
+    [
+      "— Papa, après trois jours chez Germaine, je ne pourrai jamais oublier Lyon. Mon estomac non plus."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "a commandé",
+      "en": "commissioned"
+    },
+    {
+      "fr": "a logé",
+      "en": "stayed"
+    },
+    {
+      "fr": "de congé",
+      "en": "off work"
+    },
+    {
+      "fr": "un bouchon",
+      "en": "a traditional Lyon bistro"
+    },
+    {
+      "fr": "des nappes à carreaux",
+      "en": "checked tablecloths"
+    },
+    {
+      "fr": "la patronne",
+      "en": "the (woman) owner"
+    },
+    {
+      "fr": "sans même demander",
+      "en": "without even asking"
+    },
+    {
+      "fr": "poser",
+      "en": "to pose"
+    },
+    {
+      "fr": "quenelles de brochet",
+      "en": "pike dumplings"
+    },
+    {
+      "fr": "cervelle de canut",
+      "en": "herbed fresh cheese (literally \"silk-weaver's brain\")"
+    },
+    {
+      "fr": "n'a rien à voir avec",
+      "en": "has nothing to do with"
+    },
+    {
+      "fr": "desserrer sa ceinture",
+      "en": "loosen her belt"
+    },
+    {
+      "fr": "s'est couvert de buée",
+      "en": "fogged up"
+    },
+    {
+      "fr": "te retenir",
+      "en": "to keep you here"
+    }
+  ],
+  "spotlight": [
+    "**Linking a result to its cause:** *Donc pas de menus en anglais. C'est pourquoi les Lyonnais marchent beaucoup. Alors moi, je ne change rien.* *Si bien que* tacks the result onto the same sentence: *Germaine connaissait Paul depuis trente ans, si bien qu'elle les a installés à la meilleure table.* *Du coup* is everywhere in spoken French, but keep it out of formal writing.",
+    "**So … that:** use *si* or *tellement* + adjective + *que* (*Il y faisait si chaud que l'objectif s'est couvert de buée; Paul était si fier qu'il a pris trois jours de congé*). With a noun or a quantity, use *tellement (de)* or *tant (de)*: *Il y en avait tellement que Léa a dû desserrer sa ceinture.*"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Qu'est-ce qu'un vrai bouchon, selon Paul ?",
+      "answer": "Une petite salle simple et généreuse, avec des nappes à carreaux",
+      "options": [
+        "Une petite salle simple et généreuse, avec des nappes à carreaux",
+        "Un restaurant chic avec un chef étoilé",
+        "Un café pour touristes",
+        "Un restaurant qui sert du poisson"
+      ],
+      "evidence": "Un vrai bouchon, ce n'est pas un restaurant chic, a-t-il expliqué le premier soir. C'est une petite salle, des nappes à carreaux rouges et blancs, une cuisine simple et généreuse."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi Léa a-t-elle dû attendre dix minutes dans la cuisine ?",
+      "answer": "Il faisait si chaud que son objectif s'est couvert de buée",
+      "options": [
+        "Il faisait si chaud que son objectif s'est couvert de buée",
+        "Germaine n'était pas prête",
+        "Sa batterie était vide",
+        "Son père lui parlait"
+      ],
+      "evidence": "Il y faisait si chaud que l'objectif de son appareil s'est couvert de buée."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi Paul a-t-il organisé tout ce programme ?",
+      "answer": "Il avait peur que Léa oublie Lyon",
+      "options": [
+        "Il avait peur que Léa oublie Lyon",
+        "Il voulait écrire un livre de cuisine",
+        "Germaine le lui avait demandé",
+        "Il voulait vendre sa maison"
+      ],
+      "evidence": "j'avais peur que tu oublies Lyon."
+    }
+  ],
+  "writing": {
+    "prompt": "Racontez un repas mémorable en trois phrases avec trois expressions de conséquence (*donc, si bien que, tellement… que*…).",
+    "model": "Le restaurant était tellement bon que nous y sommes retournés le lendemain. Il y avait tant de plats que je n'ai pas pu finir. Donc, j'ai rapporté les restes à la maison.",
+    "targets": [
+      {
+        "label": "three consequence expressions (donc, alors, si bien que, tellement… que, c'est pourquoi…)",
+        "pattern": "\\bdonc\\b|\\balors\\b|si bien qu|c'est pourquoi|c'est pour ça qu|\\b(si|tellement|tant)\\b[^.!?]*\\bqu(e|')|du coup",
+        "min": 3
+      }
+    ]
+  }
+}

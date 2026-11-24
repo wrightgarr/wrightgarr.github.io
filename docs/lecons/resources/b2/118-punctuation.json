@@ -1,0 +1,66 @@
+{
+ "id": "s118",
+ "subject": 118,
+ "level": "B2",
+ "title": "Punctuation",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>French punctuation is similar to English, with some important differences — especially <strong>spacing</strong> and <strong>quotation marks</strong>.</p>"
+  },
+  {
+   "heading": "Spacing rules (France)",
+   "html": "<table>\n<thead>\n<tr>\n<th>Mark</th>\n<th>Space before?</th>\n<th>Space after?</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>. ,</td>\n<td>no</td>\n<td>yes</td>\n<td><em>Bonjour, ça va.</em></td>\n</tr>\n<tr>\n<td><strong>; : ! ?</strong></td>\n<td><strong>yes</strong> (non-breaking)</td>\n<td>yes</td>\n<td><em>Quoi ? Vraiment ! Attention : danger ; prudence</em></td>\n</tr>\n<tr>\n<td><strong>« »</strong> (guillemets)</td>\n<td>space inside</td>\n<td></td>\n<td><em>« Bonjour »</em></td>\n</tr>\n<tr>\n<td>( )</td>\n<td>outside</td>\n<td></td>\n<td><em>(voir p. 5)</em></td>\n</tr>\n<tr>\n<td>– (dash)</td>\n<td>yes</td>\n<td>yes</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Québec:</strong> the Office québécois de la langue française recommends a space before <strong>:</strong> but <strong>no space</strong> (or a thin one) before <strong>; ! ?</strong>. In practice, both conventions are seen in Canada.</p>"
+  },
+  {
+   "heading": "Quotation marks: les guillemets « »",
+   "html": "<ul>\n<li>French uses <strong>« »</strong> with spaces inside: <em>Il a dit : « Je viens. »</em></li>\n<li>Nested quotes: <em>“ ”</em> inside <em>« »</em>.</li>\n<li>In dialogue (novels), a <strong>dash (—)</strong> marks each change of speaker:<blockquote>\n<p>— Tu viens ?\n— Oui, j'arrive.</p>\n</blockquote>\n</li>\n</ul>"
+  },
+  {
+   "heading": "Comma differences",
+   "html": "<ul>\n<li><strong>No comma before <em>et / ou</em></strong> in a list: <em>des pommes, des poires et des oranges</em> (no Oxford comma).</li>\n<li>Comma after an introductory element: <em>Hier soir, nous sommes sortis.</em></li>\n<li><strong>Decimal comma:</strong> <em>3,5 km</em> (= 3.5 km); thousands with spaces: <em>1 000 000</em>.</li>\n<li>No comma before <em>que</em> (that): <em>Je pense que tu as raison.</em></li>\n<li>Comma before <em>mais</em>, and around <em>donc</em> when it begins a clause: <em>Il pleut, donc je reste.</em></li>\n<li>Commas around incises / appositions: <em>Paris, la capitale, est magnifique.</em></li>\n</ul>"
+  },
+  {
+   "heading": "Other marks",
+   "html": "<table>\n<thead>\n<tr>\n<th>Mark</th>\n<th>French name</th>\n<th>Use</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>.</td>\n<td>le point</td>\n<td>end of sentence</td>\n</tr>\n<tr>\n<td>,</td>\n<td>la virgule</td>\n<td>pause, lists</td>\n</tr>\n<tr>\n<td>;</td>\n<td>le point-virgule</td>\n<td>between related clauses</td>\n</tr>\n<tr>\n<td>:</td>\n<td>les deux-points</td>\n<td>introduce explanation, list, quote</td>\n</tr>\n<tr>\n<td>?</td>\n<td>le point d'interrogation</td>\n<td>question</td>\n</tr>\n<tr>\n<td>!</td>\n<td>le point d'exclamation</td>\n<td>exclamation</td>\n</tr>\n<tr>\n<td>…</td>\n<td>les points de suspension</td>\n<td>trailing off, unfinished list (<em>etc.</em> is never followed by …)</td>\n</tr>\n<tr>\n<td>( )</td>\n<td>les parenthèses</td>\n<td></td>\n</tr>\n<tr>\n<td>[ ]</td>\n<td>les crochets</td>\n<td></td>\n</tr>\n<tr>\n<td>— / –</td>\n<td>le tiret</td>\n<td>dialogue, incise</td>\n</tr>\n<tr>\n<td>-</td>\n<td>le trait d'union</td>\n<td>compound words, inversion (<em>viens-tu</em>)</td>\n</tr>\n<tr>\n<td>'</td>\n<td>l'apostrophe</td>\n<td>elision</td>\n</tr>\n<tr>\n<td>*</td>\n<td>l'astérisque (m)</td>\n<td></td>\n</tr>\n<tr>\n<td>@</td>\n<td>l'arobase (f)</td>\n<td></td>\n</tr>\n<tr>\n<td>/</td>\n<td>la barre oblique</td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Capital letters (majuscules)",
+   "html": "<p>French uses <strong>fewer</strong> capitals than English:\n- <strong>No capitals:</strong> days, months, languages, nationality adjectives, religions: <em>lundi, janvier, le français, un livre français.</em>\n- <strong>Capitals:</strong> nationality <strong>nouns</strong> (people): <em>un Français, les Canadiens</em>; proper nouns; first word of titles (<em>Le Petit Prince</em>); institutions (<em>l'Assemblée nationale</em> — only the first noun).\n- Accents on capitals are recommended: <em>ÉCOLE, À bientôt.</em></p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Tu viens? Oui!",
+   "instruction": "Correct the punctuation (France rules):",
+   "answer": "*Tu viens ? Oui !*",
+   "id": "e1"
+  },
+  {
+   "prompt": "Il a dit: \"Je suis fatigué\".",
+   "answer": "*Il a dit : « Je suis fatigué. »*",
+   "id": "e2"
+  },
+  {
+   "prompt": "J'ai acheté des pommes, des poires, et des bananes.",
+   "answer": "*J'ai acheté des pommes, des poires et des bananes.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Il pèse 70.5 kg.",
+   "answer": "*Il pèse 70,5 kg.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "J'aime le Français et la cuisine Italienne.",
+   "answer": "*J'aime le français et la cuisine italienne.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Lundi, 3 Janvier",
+   "answer": "*lundi 3 janvier*",
+   "id": "e6"
+  }
+ ],
+ "outro": ""
+}

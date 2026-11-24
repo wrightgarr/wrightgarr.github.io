@@ -1,0 +1,4289 @@
+{
+ "id": "a1-irregular-verbs-present",
+ "level": "A1",
+ "title": "Irregular Verbs – Present Tense",
+ "description": "57 irregular verbs, every subject pronoun.",
+ "items": [
+  {
+   "kind": "flashcard",
+   "word": "Être",
+   "type": "Irregular verb",
+   "translation": "to be",
+   "exampleFr": "Nous sommes très contents d'être ici.",
+   "exampleEn": "We are very happy to be here.",
+   "hint": "je suis · nous sommes · ils sont",
+   "id": "001"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I am”  (être)",
+   "answer": "je suis",
+   "id": "002"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ à la maison.",
+   "answer": "es",
+   "hint": "verb: être",
+   "id": "003"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he is”  (être)",
+   "answer": "il est",
+   "id": "004"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she is”  (être)",
+   "answer": "elle est",
+   "id": "005"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ à la maison.",
+   "answer": "est",
+   "hint": "verb: être",
+   "id": "006"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we are”  (être)",
+   "answer": "nous sommes",
+   "id": "007"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ à la maison.  (être)",
+   "options": [
+    "êtes",
+    "suis",
+    "es",
+    "est"
+   ],
+   "answer": "êtes",
+   "explain": "être → vous êtes",
+   "speak": "Vous êtes à la maison.",
+   "id": "008"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) are”  (être)",
+   "answer": "ils sont",
+   "id": "009"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ à la maison.",
+   "answer": "sont",
+   "hint": "verb: être",
+   "id": "010"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Avoir",
+   "type": "Irregular verb",
+   "translation": "to have",
+   "exampleFr": "J'ai deux frères et une sœur.",
+   "exampleEn": "I have two brothers and a sister.",
+   "hint": "je ai · nous avons · ils ont",
+   "id": "011"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ un chat.",
+   "answer": "ai",
+   "hint": "verb: avoir",
+   "id": "012"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) have”  (avoir)",
+   "answer": "tu as",
+   "id": "013"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he has”  (avoir)",
+   "answer": "il a",
+   "id": "014"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ un chat.",
+   "answer": "a",
+   "hint": "verb: avoir",
+   "id": "015"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) have”  (avoir)",
+   "answer": "on a",
+   "id": "016"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ un chat.  (avoir)",
+   "options": [
+    "avons",
+    "ai",
+    "as",
+    "a"
+   ],
+   "answer": "avons",
+   "explain": "avoir → nous avons",
+   "speak": "Nous avons un chat.",
+   "id": "017"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) have”  (avoir)",
+   "answer": "vous avez",
+   "id": "018"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ un chat.",
+   "answer": "ont",
+   "hint": "verb: avoir",
+   "id": "019"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) have”  (avoir)",
+   "answer": "elles ont",
+   "id": "020"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Aller",
+   "type": "Irregular verb",
+   "translation": "to go",
+   "exampleFr": "Je vais au travail à pied.",
+   "exampleEn": "I go to work on foot.",
+   "hint": "je vais · nous allons · ils vont",
+   "id": "021"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I go”  (aller)",
+   "answer": "je vais",
+   "id": "022"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) go”  (aller)",
+   "answer": "tu vas",
+   "id": "023"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ au marché.",
+   "answer": "va",
+   "hint": "verb: aller",
+   "id": "024"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she goes”  (aller)",
+   "answer": "elle va",
+   "id": "025"
+  },
+  {
+   "kind": "choice",
+   "prompt": "On ___ au marché.  (aller)",
+   "options": [
+    "va",
+    "vais",
+    "vas",
+    "allons"
+   ],
+   "answer": "va",
+   "explain": "aller → on va",
+   "speak": "On va au marché.",
+   "id": "026"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we go”  (aller)",
+   "answer": "nous allons",
+   "id": "027"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ au marché.",
+   "answer": "allez",
+   "hint": "verb: aller",
+   "id": "028"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) go”  (aller)",
+   "answer": "ils vont",
+   "id": "029"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ au marché.",
+   "answer": "vont",
+   "hint": "verb: aller",
+   "id": "030"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Faire",
+   "type": "Irregular verb",
+   "translation": "to do / to make",
+   "exampleFr": "Qu'est-ce que tu fais ce soir ?",
+   "exampleEn": "What are you doing tonight?",
+   "hint": "je fais · nous faisons · ils font",
+   "id": "031"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I do”  (faire)",
+   "answer": "je fais",
+   "id": "032"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ du sport.",
+   "answer": "fais",
+   "hint": "verb: faire",
+   "id": "033"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he does”  (faire)",
+   "answer": "il fait",
+   "id": "034"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elle ___ du sport.  (faire)",
+   "options": [
+    "fait",
+    "fais",
+    "faisons",
+    "faites"
+   ],
+   "answer": "fait",
+   "explain": "faire → elle fait",
+   "speak": "Elle fait du sport.",
+   "id": "035"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) do”  (faire)",
+   "answer": "on fait",
+   "id": "036"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ du sport.",
+   "answer": "faisons",
+   "hint": "verb: faire",
+   "id": "037"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) do”  (faire)",
+   "answer": "vous faites",
+   "id": "038"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ du sport.",
+   "answer": "font",
+   "hint": "verb: faire",
+   "id": "039"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) do”  (faire)",
+   "answer": "elles font",
+   "id": "040"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Dire",
+   "type": "Irregular verb",
+   "translation": "to say / to tell",
+   "exampleFr": "Il dit toujours bonjour aux voisins.",
+   "exampleEn": "He always says hello to the neighbours.",
+   "hint": "je dis · nous disons · ils disent",
+   "id": "041"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ la vérité.",
+   "answer": "dis",
+   "hint": "verb: dire",
+   "id": "042"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) say”  (dire)",
+   "answer": "tu dis",
+   "id": "043"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ la vérité.  (dire)",
+   "options": [
+    "dit",
+    "dis",
+    "disons",
+    "dites"
+   ],
+   "answer": "dit",
+   "explain": "dire → il dit",
+   "speak": "Il dit la vérité.",
+   "id": "044"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she says”  (dire)",
+   "answer": "elle dit",
+   "id": "045"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ la vérité.",
+   "answer": "dit",
+   "hint": "verb: dire",
+   "id": "046"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we say”  (dire)",
+   "answer": "nous disons",
+   "id": "047"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ la vérité.",
+   "answer": "dites",
+   "hint": "verb: dire",
+   "id": "048"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) say”  (dire)",
+   "answer": "ils disent",
+   "id": "049"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) say”  (dire)",
+   "answer": "elles disent",
+   "id": "050"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Prendre",
+   "type": "Irregular verb",
+   "translation": "to take",
+   "exampleFr": "Je prends un café le matin.",
+   "exampleEn": "I have a coffee in the morning.",
+   "hint": "je prends · nous prenons · ils prennent",
+   "id": "051"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I take”  (prendre)",
+   "answer": "je prends",
+   "id": "052"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ le bus.  (prendre)",
+   "options": [
+    "prends",
+    "prend",
+    "prenons",
+    "prenez"
+   ],
+   "answer": "prends",
+   "explain": "prendre → tu prends",
+   "speak": "Tu prends le bus.",
+   "id": "053"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he takes”  (prendre)",
+   "answer": "il prend",
+   "id": "054"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ le bus.",
+   "answer": "prend",
+   "hint": "verb: prendre",
+   "id": "055"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) take”  (prendre)",
+   "answer": "on prend",
+   "id": "056"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ le bus.",
+   "answer": "prenons",
+   "hint": "verb: prendre",
+   "id": "057"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) take”  (prendre)",
+   "answer": "vous prenez",
+   "id": "058"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) take”  (prendre)",
+   "answer": "ils prennent",
+   "id": "059"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ le bus.",
+   "answer": "prennent",
+   "hint": "verb: prendre",
+   "id": "060"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Venir",
+   "type": "Irregular verb",
+   "translation": "to come",
+   "exampleFr": "Tu viens avec nous ?",
+   "exampleEn": "Are you coming with us?",
+   "hint": "je viens · nous venons · ils viennent",
+   "id": "061"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ demain.  (venir)",
+   "options": [
+    "viens",
+    "vient",
+    "venons",
+    "venez"
+   ],
+   "answer": "viens",
+   "explain": "venir → je viens",
+   "speak": "Je viens demain.",
+   "id": "062"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) come”  (venir)",
+   "answer": "tu viens",
+   "id": "063"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ demain.",
+   "answer": "vient",
+   "hint": "verb: venir",
+   "id": "064"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she comes”  (venir)",
+   "answer": "elle vient",
+   "id": "065"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ demain.",
+   "answer": "vient",
+   "hint": "verb: venir",
+   "id": "066"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we come”  (venir)",
+   "answer": "nous venons",
+   "id": "067"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) come”  (venir)",
+   "answer": "vous venez",
+   "id": "068"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ demain.",
+   "answer": "viennent",
+   "hint": "verb: venir",
+   "id": "069"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) come”  (venir)",
+   "answer": "elles viennent",
+   "id": "070"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Pouvoir",
+   "type": "Irregular verb",
+   "translation": "can / to be able to",
+   "exampleFr": "Est-ce que je peux entrer ?",
+   "exampleEn": "May I come in?",
+   "hint": "je peux · nous pouvons · ils peuvent",
+   "id": "071"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I can”  (pouvoir)",
+   "answer": "je peux",
+   "id": "072"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ venir.",
+   "answer": "peux",
+   "hint": "verb: pouvoir",
+   "id": "073"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he can”  (pouvoir)",
+   "answer": "il peut",
+   "id": "074"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ venir.",
+   "answer": "peut",
+   "hint": "verb: pouvoir",
+   "id": "075"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) can”  (pouvoir)",
+   "answer": "on peut",
+   "id": "076"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we can”  (pouvoir)",
+   "answer": "nous pouvons",
+   "id": "077"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ venir.",
+   "answer": "pouvez",
+   "hint": "verb: pouvoir",
+   "id": "078"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) can”  (pouvoir)",
+   "answer": "ils peuvent",
+   "id": "079"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ venir.  (pouvoir)",
+   "options": [
+    "peuvent",
+    "peux",
+    "peut",
+    "pouvons"
+   ],
+   "answer": "peuvent",
+   "explain": "pouvoir → elles peuvent",
+   "speak": "Elles peuvent venir.",
+   "id": "080"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Vouloir",
+   "type": "Irregular verb",
+   "translation": "to want",
+   "exampleFr": "Nous voulons visiter le musée.",
+   "exampleEn": "We want to visit the museum.",
+   "hint": "je veux · nous voulons · ils veulent",
+   "id": "081"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ partir.",
+   "answer": "veux",
+   "hint": "verb: vouloir",
+   "id": "082"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) want”  (vouloir)",
+   "answer": "tu veux",
+   "id": "083"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ partir.",
+   "answer": "veut",
+   "hint": "verb: vouloir",
+   "id": "084"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she wants”  (vouloir)",
+   "answer": "elle veut",
+   "id": "085"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) want”  (vouloir)",
+   "answer": "on veut",
+   "id": "086"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ partir.",
+   "answer": "voulons",
+   "hint": "verb: vouloir",
+   "id": "087"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) want”  (vouloir)",
+   "answer": "vous voulez",
+   "id": "088"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Ils ___ partir.  (vouloir)",
+   "options": [
+    "veulent",
+    "veux",
+    "veut",
+    "voulons"
+   ],
+   "answer": "veulent",
+   "explain": "vouloir → ils veulent",
+   "speak": "Ils veulent partir.",
+   "id": "089"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) want”  (vouloir)",
+   "answer": "elles veulent",
+   "id": "090"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Devoir",
+   "type": "Irregular verb",
+   "translation": "must / to have to",
+   "exampleFr": "Tu dois finir tes devoirs.",
+   "exampleEn": "You must finish your homework.",
+   "hint": "je dois · nous devons · ils doivent",
+   "id": "091"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I must”  (devoir)",
+   "answer": "je dois",
+   "id": "092"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ travailler.",
+   "answer": "dois",
+   "hint": "verb: devoir",
+   "id": "093"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he must”  (devoir)",
+   "answer": "il doit",
+   "id": "094"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she must”  (devoir)",
+   "answer": "elle doit",
+   "id": "095"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ travailler.",
+   "answer": "doit",
+   "hint": "verb: devoir",
+   "id": "096"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we must”  (devoir)",
+   "answer": "nous devons",
+   "id": "097"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ travailler.  (devoir)",
+   "options": [
+    "devez",
+    "dois",
+    "doit",
+    "devons"
+   ],
+   "answer": "devez",
+   "explain": "devoir → vous devez",
+   "speak": "Vous devez travailler.",
+   "id": "098"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) must”  (devoir)",
+   "answer": "ils doivent",
+   "id": "099"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ travailler.",
+   "answer": "doivent",
+   "hint": "verb: devoir",
+   "id": "100"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Voir",
+   "type": "Irregular verb",
+   "translation": "to see",
+   "exampleFr": "D'ici, on voit la tour Eiffel.",
+   "exampleEn": "From here, you can see the Eiffel Tower.",
+   "hint": "je vois · nous voyons · ils voient",
+   "id": "101"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ la mer.",
+   "answer": "vois",
+   "hint": "verb: voir",
+   "id": "102"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) see”  (voir)",
+   "answer": "tu vois",
+   "id": "103"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he sees”  (voir)",
+   "answer": "il voit",
+   "id": "104"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ la mer.",
+   "answer": "voit",
+   "hint": "verb: voir",
+   "id": "105"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) see”  (voir)",
+   "answer": "on voit",
+   "id": "106"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ la mer.  (voir)",
+   "options": [
+    "voyons",
+    "vois",
+    "voit",
+    "voyez"
+   ],
+   "answer": "voyons",
+   "explain": "voir → nous voyons",
+   "speak": "Nous voyons la mer.",
+   "id": "107"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) see”  (voir)",
+   "answer": "vous voyez",
+   "id": "108"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ la mer.",
+   "answer": "voient",
+   "hint": "verb: voir",
+   "id": "109"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) see”  (voir)",
+   "answer": "elles voient",
+   "id": "110"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Savoir",
+   "type": "Irregular verb",
+   "translation": "to know (a fact / how to)",
+   "exampleFr": "Elle sait parler trois langues.",
+   "exampleEn": "She can speak three languages.",
+   "hint": "je sais · nous savons · ils savent",
+   "id": "111"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I know”  (savoir)",
+   "answer": "je sais",
+   "id": "112"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) know”  (savoir)",
+   "answer": "tu sais",
+   "id": "113"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ nager.",
+   "answer": "sait",
+   "hint": "verb: savoir",
+   "id": "114"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she knows”  (savoir)",
+   "answer": "elle sait",
+   "id": "115"
+  },
+  {
+   "kind": "choice",
+   "prompt": "On ___ nager.  (savoir)",
+   "options": [
+    "sait",
+    "sais",
+    "savons",
+    "savez"
+   ],
+   "answer": "sait",
+   "explain": "savoir → on sait",
+   "speak": "On sait nager.",
+   "id": "116"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we know”  (savoir)",
+   "answer": "nous savons",
+   "id": "117"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ nager.",
+   "answer": "savez",
+   "hint": "verb: savoir",
+   "id": "118"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) know”  (savoir)",
+   "answer": "ils savent",
+   "id": "119"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ nager.",
+   "answer": "savent",
+   "hint": "verb: savoir",
+   "id": "120"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Connaître",
+   "type": "Irregular verb",
+   "translation": "to know (a person / place)",
+   "exampleFr": "Tu connais mon frère ?",
+   "exampleEn": "Do you know my brother?",
+   "hint": "je connais · nous connaissons · ils connaissent",
+   "id": "121"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I know”  (connaître)",
+   "answer": "je connais",
+   "id": "122"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ Paris.",
+   "answer": "connais",
+   "hint": "verb: connaître",
+   "id": "123"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he knows”  (connaître)",
+   "answer": "il connaît",
+   "accept": [
+    "il connait"
+   ],
+   "id": "124"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elle ___ Paris.  (connaître)",
+   "options": [
+    "connaît",
+    "connais",
+    "connaissons",
+    "connaissez"
+   ],
+   "answer": "connaît",
+   "explain": "connaître → elle connaît",
+   "speak": "Elle connaît Paris.",
+   "id": "125"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) know”  (connaître)",
+   "answer": "on connaît",
+   "accept": [
+    "on connait"
+   ],
+   "id": "126"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ Paris.",
+   "answer": "connaissons",
+   "hint": "verb: connaître",
+   "id": "127"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) know”  (connaître)",
+   "answer": "vous connaissez",
+   "id": "128"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ Paris.",
+   "answer": "connaissent",
+   "hint": "verb: connaître",
+   "id": "129"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) know”  (connaître)",
+   "answer": "elles connaissent",
+   "id": "130"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Boire",
+   "type": "Irregular verb",
+   "translation": "to drink",
+   "exampleFr": "Il boit beaucoup d'eau.",
+   "exampleEn": "He drinks a lot of water.",
+   "hint": "je bois · nous buvons · ils boivent",
+   "id": "131"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ du café.",
+   "answer": "bois",
+   "hint": "verb: boire",
+   "id": "132"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) drink”  (boire)",
+   "answer": "tu bois",
+   "id": "133"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ du café.  (boire)",
+   "options": [
+    "boit",
+    "bois",
+    "buvons",
+    "buvez"
+   ],
+   "answer": "boit",
+   "explain": "boire → il boit",
+   "speak": "Il boit du café.",
+   "id": "134"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she drinks”  (boire)",
+   "answer": "elle boit",
+   "id": "135"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ du café.",
+   "answer": "boit",
+   "hint": "verb: boire",
+   "id": "136"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we drink”  (boire)",
+   "answer": "nous buvons",
+   "id": "137"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ du café.",
+   "answer": "buvez",
+   "hint": "verb: boire",
+   "id": "138"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) drink”  (boire)",
+   "answer": "ils boivent",
+   "id": "139"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) drink”  (boire)",
+   "answer": "elles boivent",
+   "id": "140"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Mettre",
+   "type": "Irregular verb",
+   "translation": "to put / to put on",
+   "exampleFr": "Je mets la clé dans mon sac.",
+   "exampleEn": "I put the key in my bag.",
+   "hint": "je mets · nous mettons · ils mettent",
+   "id": "141"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I put”  (mettre)",
+   "answer": "je mets",
+   "id": "142"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ un manteau.  (mettre)",
+   "options": [
+    "mets",
+    "met",
+    "mettons",
+    "mettez"
+   ],
+   "answer": "mets",
+   "explain": "mettre → tu mets",
+   "speak": "Tu mets un manteau.",
+   "id": "143"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he puts”  (mettre)",
+   "answer": "il met",
+   "id": "144"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ un manteau.",
+   "answer": "met",
+   "hint": "verb: mettre",
+   "id": "145"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) put”  (mettre)",
+   "answer": "on met",
+   "id": "146"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ un manteau.",
+   "answer": "mettons",
+   "hint": "verb: mettre",
+   "id": "147"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) put”  (mettre)",
+   "answer": "vous mettez",
+   "id": "148"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) put”  (mettre)",
+   "answer": "ils mettent",
+   "id": "149"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ un manteau.",
+   "answer": "mettent",
+   "hint": "verb: mettre",
+   "id": "150"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Partir",
+   "type": "Irregular verb",
+   "translation": "to leave",
+   "exampleFr": "Le train part à midi.",
+   "exampleEn": "The train leaves at noon.",
+   "hint": "je pars · nous partons · ils partent",
+   "id": "151"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ demain.  (partir)",
+   "options": [
+    "pars",
+    "part",
+    "partons",
+    "partez"
+   ],
+   "answer": "pars",
+   "explain": "partir → je pars",
+   "speak": "Je pars demain.",
+   "id": "152"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) leave”  (partir)",
+   "answer": "tu pars",
+   "id": "153"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ demain.",
+   "answer": "part",
+   "hint": "verb: partir",
+   "id": "154"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she leaves”  (partir)",
+   "answer": "elle part",
+   "id": "155"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ demain.",
+   "answer": "part",
+   "hint": "verb: partir",
+   "id": "156"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we leave”  (partir)",
+   "answer": "nous partons",
+   "id": "157"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) leave”  (partir)",
+   "answer": "vous partez",
+   "id": "158"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ demain.",
+   "answer": "partent",
+   "hint": "verb: partir",
+   "id": "159"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) leave”  (partir)",
+   "answer": "elles partent",
+   "id": "160"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Sortir",
+   "type": "Irregular verb",
+   "translation": "to go out",
+   "exampleFr": "Nous sortons avec des amis le samedi.",
+   "exampleEn": "We go out with friends on Saturdays.",
+   "hint": "je sors · nous sortons · ils sortent",
+   "id": "161"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I go out”  (sortir)",
+   "answer": "je sors",
+   "id": "162"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ ce soir.",
+   "answer": "sors",
+   "hint": "verb: sortir",
+   "id": "163"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he goes out”  (sortir)",
+   "answer": "il sort",
+   "id": "164"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ ce soir.",
+   "answer": "sort",
+   "hint": "verb: sortir",
+   "id": "165"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) go out”  (sortir)",
+   "answer": "on sort",
+   "id": "166"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we go out”  (sortir)",
+   "answer": "nous sortons",
+   "id": "167"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ ce soir.",
+   "answer": "sortez",
+   "hint": "verb: sortir",
+   "id": "168"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) go out”  (sortir)",
+   "answer": "ils sortent",
+   "id": "169"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ ce soir.  (sortir)",
+   "options": [
+    "sortent",
+    "sors",
+    "sort",
+    "sortons"
+   ],
+   "answer": "sortent",
+   "explain": "sortir → elles sortent",
+   "speak": "Elles sortent ce soir.",
+   "id": "170"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Dormir",
+   "type": "Irregular verb",
+   "translation": "to sleep",
+   "exampleFr": "Le bébé dort dans sa chambre.",
+   "exampleEn": "The baby is sleeping in his room.",
+   "hint": "je dors · nous dormons · ils dorment",
+   "id": "171"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ bien.",
+   "answer": "dors",
+   "hint": "verb: dormir",
+   "id": "172"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) sleep”  (dormir)",
+   "answer": "tu dors",
+   "id": "173"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ bien.",
+   "answer": "dort",
+   "hint": "verb: dormir",
+   "id": "174"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she sleeps”  (dormir)",
+   "answer": "elle dort",
+   "id": "175"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) sleep”  (dormir)",
+   "answer": "on dort",
+   "id": "176"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ bien.",
+   "answer": "dormons",
+   "hint": "verb: dormir",
+   "id": "177"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) sleep”  (dormir)",
+   "answer": "vous dormez",
+   "id": "178"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Ils ___ bien.  (dormir)",
+   "options": [
+    "dorment",
+    "dors",
+    "dort",
+    "dormons"
+   ],
+   "answer": "dorment",
+   "explain": "dormir → ils dorment",
+   "speak": "Ils dorment bien.",
+   "id": "179"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) sleep”  (dormir)",
+   "answer": "elles dorment",
+   "id": "180"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Lire",
+   "type": "Irregular verb",
+   "translation": "to read",
+   "exampleFr": "Je lis un roman policier.",
+   "exampleEn": "I am reading a detective novel.",
+   "hint": "je lis · nous lisons · ils lisent",
+   "id": "181"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I read”  (lire)",
+   "answer": "je lis",
+   "id": "182"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ le journal.",
+   "answer": "lis",
+   "hint": "verb: lire",
+   "id": "183"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he reads”  (lire)",
+   "answer": "il lit",
+   "id": "184"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she reads”  (lire)",
+   "answer": "elle lit",
+   "id": "185"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ le journal.",
+   "answer": "lit",
+   "hint": "verb: lire",
+   "id": "186"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we read”  (lire)",
+   "answer": "nous lisons",
+   "id": "187"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ le journal.  (lire)",
+   "options": [
+    "lisez",
+    "lis",
+    "lit",
+    "lisons"
+   ],
+   "answer": "lisez",
+   "explain": "lire → vous lisez",
+   "speak": "Vous lisez le journal.",
+   "id": "188"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) read”  (lire)",
+   "answer": "ils lisent",
+   "id": "189"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ le journal.",
+   "answer": "lisent",
+   "hint": "verb: lire",
+   "id": "190"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Écrire",
+   "type": "Irregular verb",
+   "translation": "to write",
+   "exampleFr": "Elle écrit à sa grand-mère.",
+   "exampleEn": "She writes to her grandmother.",
+   "hint": "je écris · nous écrivons · ils écrivent",
+   "id": "191"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ une lettre.",
+   "answer": "écris",
+   "hint": "verb: écrire",
+   "id": "192"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) write”  (écrire)",
+   "answer": "tu écris",
+   "id": "193"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he writes”  (écrire)",
+   "answer": "il écrit",
+   "id": "194"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ une lettre.",
+   "answer": "écrit",
+   "hint": "verb: écrire",
+   "id": "195"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) write”  (écrire)",
+   "answer": "on écrit",
+   "id": "196"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ une lettre.  (écrire)",
+   "options": [
+    "écrivons",
+    "écris",
+    "écrit",
+    "écrivez"
+   ],
+   "answer": "écrivons",
+   "explain": "écrire → nous écrivons",
+   "speak": "Nous écrivons une lettre.",
+   "id": "197"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) write”  (écrire)",
+   "answer": "vous écrivez",
+   "id": "198"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ une lettre.",
+   "answer": "écrivent",
+   "hint": "verb: écrire",
+   "id": "199"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) write”  (écrire)",
+   "answer": "elles écrivent",
+   "id": "200"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Recevoir",
+   "type": "Irregular verb",
+   "translation": "to receive",
+   "exampleFr": "Je reçois beaucoup de messages.",
+   "exampleEn": "I receive a lot of messages.",
+   "hint": "je reçois · nous recevons · ils reçoivent",
+   "id": "201"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I receive”  (recevoir)",
+   "answer": "je reçois",
+   "id": "202"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) receive”  (recevoir)",
+   "answer": "tu reçois",
+   "id": "203"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ un colis.",
+   "answer": "reçoit",
+   "hint": "verb: recevoir",
+   "id": "204"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she receives”  (recevoir)",
+   "answer": "elle reçoit",
+   "id": "205"
+  },
+  {
+   "kind": "choice",
+   "prompt": "On ___ un colis.  (recevoir)",
+   "options": [
+    "reçoit",
+    "reçois",
+    "recevons",
+    "recevez"
+   ],
+   "answer": "reçoit",
+   "explain": "recevoir → on reçoit",
+   "speak": "On reçoit un colis.",
+   "id": "206"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we receive”  (recevoir)",
+   "answer": "nous recevons",
+   "id": "207"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ un colis.",
+   "answer": "recevez",
+   "hint": "verb: recevoir",
+   "id": "208"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) receive”  (recevoir)",
+   "answer": "ils reçoivent",
+   "id": "209"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ un colis.",
+   "answer": "reçoivent",
+   "hint": "verb: recevoir",
+   "id": "210"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Apercevoir",
+   "type": "Irregular verb",
+   "translation": "to notice / to catch sight of",
+   "exampleFr": "J'aperçois la mer depuis ma fenêtre.",
+   "exampleEn": "I can see the sea from my window.",
+   "hint": "je aperçois · nous apercevons · ils aperçoivent",
+   "id": "211"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I notice”  (apercevoir)",
+   "answer": "j'aperçois",
+   "id": "212"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ la tour Eiffel.",
+   "answer": "aperçois",
+   "hint": "verb: apercevoir",
+   "id": "213"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he notices”  (apercevoir)",
+   "answer": "il aperçoit",
+   "id": "214"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elle ___ la tour Eiffel.  (apercevoir)",
+   "options": [
+    "aperçoit",
+    "aperçois",
+    "apercevons",
+    "apercevez"
+   ],
+   "answer": "aperçoit",
+   "explain": "apercevoir → elle aperçoit",
+   "speak": "Elle aperçoit la tour Eiffel.",
+   "id": "215"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) notice”  (apercevoir)",
+   "answer": "on aperçoit",
+   "id": "216"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ la tour Eiffel.",
+   "answer": "apercevons",
+   "hint": "verb: apercevoir",
+   "id": "217"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) notice”  (apercevoir)",
+   "answer": "vous apercevez",
+   "id": "218"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ la tour Eiffel.",
+   "answer": "aperçoivent",
+   "hint": "verb: apercevoir",
+   "id": "219"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) notice”  (apercevoir)",
+   "answer": "elles aperçoivent",
+   "id": "220"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Ouvrir",
+   "type": "Irregular verb",
+   "translation": "to open",
+   "exampleFr": "Le magasin ouvre à neuf heures.",
+   "exampleEn": "The shop opens at nine.",
+   "hint": "je ouvre · nous ouvrons · ils ouvrent",
+   "id": "221"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ la fenêtre.",
+   "answer": "ouvre",
+   "hint": "verb: ouvrir",
+   "id": "222"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) open”  (ouvrir)",
+   "answer": "tu ouvres",
+   "id": "223"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ la fenêtre.  (ouvrir)",
+   "options": [
+    "ouvre",
+    "ouvres",
+    "ouvrons",
+    "ouvrez"
+   ],
+   "answer": "ouvre",
+   "explain": "ouvrir → il ouvre",
+   "speak": "Il ouvre la fenêtre.",
+   "id": "224"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she opens”  (ouvrir)",
+   "answer": "elle ouvre",
+   "id": "225"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ la fenêtre.",
+   "answer": "ouvre",
+   "hint": "verb: ouvrir",
+   "id": "226"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we open”  (ouvrir)",
+   "answer": "nous ouvrons",
+   "id": "227"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ la fenêtre.",
+   "answer": "ouvrez",
+   "hint": "verb: ouvrir",
+   "id": "228"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) open”  (ouvrir)",
+   "answer": "ils ouvrent",
+   "id": "229"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) open”  (ouvrir)",
+   "answer": "elles ouvrent",
+   "id": "230"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Offrir",
+   "type": "Irregular verb",
+   "translation": "to offer / to give (a gift)",
+   "exampleFr": "Il offre un cadeau à sa mère.",
+   "exampleEn": "He gives his mother a present.",
+   "hint": "je offre · nous offrons · ils offrent",
+   "id": "231"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I offer”  (offrir)",
+   "answer": "j'offre",
+   "id": "232"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ des fleurs.  (offrir)",
+   "options": [
+    "offres",
+    "offre",
+    "offrons",
+    "offrez"
+   ],
+   "answer": "offres",
+   "explain": "offrir → tu offres",
+   "speak": "Tu offres des fleurs.",
+   "id": "233"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he offers”  (offrir)",
+   "answer": "il offre",
+   "id": "234"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ des fleurs.",
+   "answer": "offre",
+   "hint": "verb: offrir",
+   "id": "235"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) offer”  (offrir)",
+   "answer": "on offre",
+   "id": "236"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ des fleurs.",
+   "answer": "offrons",
+   "hint": "verb: offrir",
+   "id": "237"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) offer”  (offrir)",
+   "answer": "vous offrez",
+   "id": "238"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) offer”  (offrir)",
+   "answer": "ils offrent",
+   "id": "239"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ des fleurs.",
+   "answer": "offrent",
+   "hint": "verb: offrir",
+   "id": "240"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Couvrir",
+   "type": "Irregular verb",
+   "translation": "to cover",
+   "exampleFr": "La neige couvre les montagnes.",
+   "exampleEn": "Snow covers the mountains.",
+   "hint": "je couvre · nous couvrons · ils couvrent",
+   "id": "241"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ la casserole.  (couvrir)",
+   "options": [
+    "couvre",
+    "couvres",
+    "couvrons",
+    "couvrez"
+   ],
+   "answer": "couvre",
+   "explain": "couvrir → je couvre",
+   "speak": "Je couvre la casserole.",
+   "id": "242"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) cover”  (couvrir)",
+   "answer": "tu couvres",
+   "id": "243"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ la casserole.",
+   "answer": "couvre",
+   "hint": "verb: couvrir",
+   "id": "244"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she covers”  (couvrir)",
+   "answer": "elle couvre",
+   "id": "245"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ la casserole.",
+   "answer": "couvre",
+   "hint": "verb: couvrir",
+   "id": "246"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we cover”  (couvrir)",
+   "answer": "nous couvrons",
+   "id": "247"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) cover”  (couvrir)",
+   "answer": "vous couvrez",
+   "id": "248"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ la casserole.",
+   "answer": "couvrent",
+   "hint": "verb: couvrir",
+   "id": "249"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) cover”  (couvrir)",
+   "answer": "elles couvrent",
+   "id": "250"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Courir",
+   "type": "Irregular verb",
+   "translation": "to run",
+   "exampleFr": "Je cours dans le parc le matin.",
+   "exampleEn": "I run in the park in the morning.",
+   "hint": "je cours · nous courons · ils courent",
+   "id": "251"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I run”  (courir)",
+   "answer": "je cours",
+   "id": "252"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ vite.",
+   "answer": "cours",
+   "hint": "verb: courir",
+   "id": "253"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he runs”  (courir)",
+   "answer": "il court",
+   "id": "254"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ vite.",
+   "answer": "court",
+   "hint": "verb: courir",
+   "id": "255"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) run”  (courir)",
+   "answer": "on court",
+   "id": "256"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we run”  (courir)",
+   "answer": "nous courons",
+   "id": "257"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ vite.",
+   "answer": "courez",
+   "hint": "verb: courir",
+   "id": "258"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) run”  (courir)",
+   "answer": "ils courent",
+   "id": "259"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ vite.  (courir)",
+   "options": [
+    "courent",
+    "cours",
+    "court",
+    "courons"
+   ],
+   "answer": "courent",
+   "explain": "courir → elles courent",
+   "speak": "Elles courent vite.",
+   "id": "260"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Mourir",
+   "type": "Irregular verb",
+   "translation": "to die",
+   "exampleFr": "Je meurs de faim, on mange ?",
+   "exampleEn": "I'm starving, shall we eat?",
+   "hint": "je meurs · nous mourons · ils meurent",
+   "id": "261"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ de faim.",
+   "answer": "meurs",
+   "hint": "verb: mourir",
+   "id": "262"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) die”  (mourir)",
+   "answer": "tu meurs",
+   "id": "263"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ de faim.",
+   "answer": "meurt",
+   "hint": "verb: mourir",
+   "id": "264"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she dies”  (mourir)",
+   "answer": "elle meurt",
+   "id": "265"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) die”  (mourir)",
+   "answer": "on meurt",
+   "id": "266"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ de faim.",
+   "answer": "mourons",
+   "hint": "verb: mourir",
+   "id": "267"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) die”  (mourir)",
+   "answer": "vous mourez",
+   "id": "268"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Ils ___ de faim.  (mourir)",
+   "options": [
+    "meurent",
+    "meurs",
+    "meurt",
+    "mourons"
+   ],
+   "answer": "meurent",
+   "explain": "mourir → ils meurent",
+   "speak": "Ils meurent de faim.",
+   "id": "269"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) die”  (mourir)",
+   "answer": "elles meurent",
+   "id": "270"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Vivre",
+   "type": "Irregular verb",
+   "translation": "to live",
+   "exampleFr": "Ils vivent à la campagne.",
+   "exampleEn": "They live in the countryside.",
+   "hint": "je vis · nous vivons · ils vivent",
+   "id": "271"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I live”  (vivre)",
+   "answer": "je vis",
+   "id": "272"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ à Montréal.",
+   "answer": "vis",
+   "hint": "verb: vivre",
+   "id": "273"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he lives”  (vivre)",
+   "answer": "il vit",
+   "id": "274"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she lives”  (vivre)",
+   "answer": "elle vit",
+   "id": "275"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ à Montréal.",
+   "answer": "vit",
+   "hint": "verb: vivre",
+   "id": "276"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we live”  (vivre)",
+   "answer": "nous vivons",
+   "id": "277"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ à Montréal.  (vivre)",
+   "options": [
+    "vivez",
+    "vis",
+    "vit",
+    "vivons"
+   ],
+   "answer": "vivez",
+   "explain": "vivre → vous vivez",
+   "speak": "Vous vivez à Montréal.",
+   "id": "278"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) live”  (vivre)",
+   "answer": "ils vivent",
+   "id": "279"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ à Montréal.",
+   "answer": "vivent",
+   "hint": "verb: vivre",
+   "id": "280"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Suivre",
+   "type": "Irregular verb",
+   "translation": "to follow",
+   "exampleFr": "Je suis un cours de français.",
+   "exampleEn": "I am taking a French course.",
+   "hint": "je suis · nous suivons · ils suivent",
+   "id": "281"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ le guide.",
+   "answer": "suis",
+   "hint": "verb: suivre",
+   "id": "282"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) follow”  (suivre)",
+   "answer": "tu suis",
+   "id": "283"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he follows”  (suivre)",
+   "answer": "il suit",
+   "id": "284"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ le guide.",
+   "answer": "suit",
+   "hint": "verb: suivre",
+   "id": "285"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) follow”  (suivre)",
+   "answer": "on suit",
+   "id": "286"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ le guide.  (suivre)",
+   "options": [
+    "suivons",
+    "suis",
+    "suit",
+    "suivez"
+   ],
+   "answer": "suivons",
+   "explain": "suivre → nous suivons",
+   "speak": "Nous suivons le guide.",
+   "id": "287"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) follow”  (suivre)",
+   "answer": "vous suivez",
+   "id": "288"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ le guide.",
+   "answer": "suivent",
+   "hint": "verb: suivre",
+   "id": "289"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) follow”  (suivre)",
+   "answer": "elles suivent",
+   "id": "290"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Rire",
+   "type": "Irregular verb",
+   "translation": "to laugh",
+   "exampleFr": "Les enfants rient beaucoup.",
+   "exampleEn": "The children laugh a lot.",
+   "hint": "je ris · nous rions · ils rient",
+   "id": "291"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I laugh”  (rire)",
+   "answer": "je ris",
+   "id": "292"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) laugh”  (rire)",
+   "answer": "tu ris",
+   "id": "293"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ souvent.",
+   "answer": "rit",
+   "hint": "verb: rire",
+   "id": "294"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she laughs”  (rire)",
+   "answer": "elle rit",
+   "id": "295"
+  },
+  {
+   "kind": "choice",
+   "prompt": "On ___ souvent.  (rire)",
+   "options": [
+    "rit",
+    "ris",
+    "rions",
+    "riez"
+   ],
+   "answer": "rit",
+   "explain": "rire → on rit",
+   "speak": "On rit souvent.",
+   "id": "296"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we laugh”  (rire)",
+   "answer": "nous rions",
+   "id": "297"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ souvent.",
+   "answer": "riez",
+   "hint": "verb: rire",
+   "id": "298"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) laugh”  (rire)",
+   "answer": "ils rient",
+   "id": "299"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ souvent.",
+   "answer": "rient",
+   "hint": "verb: rire",
+   "id": "300"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Sourire",
+   "type": "Irregular verb",
+   "translation": "to smile",
+   "exampleFr": "Elle sourit sur la photo.",
+   "exampleEn": "She is smiling in the photo.",
+   "hint": "je souris · nous sourions · ils sourient",
+   "id": "301"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I smile”  (sourire)",
+   "answer": "je souris",
+   "id": "302"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ toujours.",
+   "answer": "souris",
+   "hint": "verb: sourire",
+   "id": "303"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he smiles”  (sourire)",
+   "answer": "il sourit",
+   "id": "304"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elle ___ toujours.  (sourire)",
+   "options": [
+    "sourit",
+    "souris",
+    "sourions",
+    "souriez"
+   ],
+   "answer": "sourit",
+   "explain": "sourire → elle sourit",
+   "speak": "Elle sourit toujours.",
+   "id": "305"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) smile”  (sourire)",
+   "answer": "on sourit",
+   "id": "306"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ toujours.",
+   "answer": "sourions",
+   "hint": "verb: sourire",
+   "id": "307"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) smile”  (sourire)",
+   "answer": "vous souriez",
+   "id": "308"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ toujours.",
+   "answer": "sourient",
+   "hint": "verb: sourire",
+   "id": "309"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) smile”  (sourire)",
+   "answer": "elles sourient",
+   "id": "310"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Tenir",
+   "type": "Irregular verb",
+   "translation": "to hold",
+   "exampleFr": "Il tient la main de sa fille.",
+   "exampleEn": "He is holding his daughter's hand.",
+   "hint": "je tiens · nous tenons · ils tiennent",
+   "id": "311"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ la porte.",
+   "answer": "tiens",
+   "hint": "verb: tenir",
+   "id": "312"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) hold”  (tenir)",
+   "answer": "tu tiens",
+   "id": "313"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ la porte.  (tenir)",
+   "options": [
+    "tient",
+    "tiens",
+    "tenons",
+    "tenez"
+   ],
+   "answer": "tient",
+   "explain": "tenir → il tient",
+   "speak": "Il tient la porte.",
+   "id": "314"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she holds”  (tenir)",
+   "answer": "elle tient",
+   "id": "315"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ la porte.",
+   "answer": "tient",
+   "hint": "verb: tenir",
+   "id": "316"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we hold”  (tenir)",
+   "answer": "nous tenons",
+   "id": "317"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ la porte.",
+   "answer": "tenez",
+   "hint": "verb: tenir",
+   "id": "318"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) hold”  (tenir)",
+   "answer": "ils tiennent",
+   "id": "319"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) hold”  (tenir)",
+   "answer": "elles tiennent",
+   "id": "320"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Devenir",
+   "type": "Irregular verb",
+   "translation": "to become",
+   "exampleFr": "Il fait froid, le ciel devient gris.",
+   "exampleEn": "It is cold; the sky is turning grey.",
+   "hint": "je deviens · nous devenons · ils deviennent",
+   "id": "321"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I become”  (devenir)",
+   "answer": "je deviens",
+   "id": "322"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ célèbre.  (devenir)",
+   "options": [
+    "deviens",
+    "devient",
+    "devenons",
+    "devenez"
+   ],
+   "answer": "deviens",
+   "explain": "devenir → tu deviens",
+   "speak": "Tu deviens célèbre.",
+   "id": "323"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he becomes”  (devenir)",
+   "answer": "il devient",
+   "id": "324"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ célèbre.",
+   "answer": "devient",
+   "hint": "verb: devenir",
+   "id": "325"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) become”  (devenir)",
+   "answer": "on devient",
+   "id": "326"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ célèbre.",
+   "answer": "devenons",
+   "hint": "verb: devenir",
+   "id": "327"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) become”  (devenir)",
+   "answer": "vous devenez",
+   "id": "328"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) become”  (devenir)",
+   "answer": "ils deviennent",
+   "id": "329"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ célèbre.",
+   "answer": "deviennent",
+   "hint": "verb: devenir",
+   "id": "330"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Revenir",
+   "type": "Irregular verb",
+   "translation": "to come back",
+   "exampleFr": "Je reviens dans cinq minutes.",
+   "exampleEn": "I'll be back in five minutes.",
+   "hint": "je reviens · nous revenons · ils reviennent",
+   "id": "331"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ demain.  (revenir)",
+   "options": [
+    "reviens",
+    "revient",
+    "revenons",
+    "revenez"
+   ],
+   "answer": "reviens",
+   "explain": "revenir → je reviens",
+   "speak": "Je reviens demain.",
+   "id": "332"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) come back”  (revenir)",
+   "answer": "tu reviens",
+   "id": "333"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ demain.",
+   "answer": "revient",
+   "hint": "verb: revenir",
+   "id": "334"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she comes back”  (revenir)",
+   "answer": "elle revient",
+   "id": "335"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ demain.",
+   "answer": "revient",
+   "hint": "verb: revenir",
+   "id": "336"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we come back”  (revenir)",
+   "answer": "nous revenons",
+   "id": "337"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) come back”  (revenir)",
+   "answer": "vous revenez",
+   "id": "338"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ demain.",
+   "answer": "reviennent",
+   "hint": "verb: revenir",
+   "id": "339"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) come back”  (revenir)",
+   "answer": "elles reviennent",
+   "id": "340"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Obtenir",
+   "type": "Irregular verb",
+   "translation": "to obtain / to get",
+   "exampleFr": "Elle obtient toujours de bonnes notes.",
+   "exampleEn": "She always gets good marks.",
+   "hint": "je obtiens · nous obtenons · ils obtiennent",
+   "id": "341"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I obtain”  (obtenir)",
+   "answer": "j'obtiens",
+   "id": "342"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ un visa.",
+   "answer": "obtiens",
+   "hint": "verb: obtenir",
+   "id": "343"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he obtains”  (obtenir)",
+   "answer": "il obtient",
+   "id": "344"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ un visa.",
+   "answer": "obtient",
+   "hint": "verb: obtenir",
+   "id": "345"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) obtain”  (obtenir)",
+   "answer": "on obtient",
+   "id": "346"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we obtain”  (obtenir)",
+   "answer": "nous obtenons",
+   "id": "347"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ un visa.",
+   "answer": "obtenez",
+   "hint": "verb: obtenir",
+   "id": "348"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) obtain”  (obtenir)",
+   "answer": "ils obtiennent",
+   "id": "349"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ un visa.  (obtenir)",
+   "options": [
+    "obtiennent",
+    "obtiens",
+    "obtient",
+    "obtenons"
+   ],
+   "answer": "obtiennent",
+   "explain": "obtenir → elles obtiennent",
+   "speak": "Elles obtiennent un visa.",
+   "id": "350"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Permettre",
+   "type": "Irregular verb",
+   "translation": "to allow",
+   "exampleFr": "Mes parents me permettent de sortir.",
+   "exampleEn": "My parents allow me to go out.",
+   "hint": "je permets · nous permettons · ils permettent",
+   "id": "351"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ les photos.",
+   "answer": "permets",
+   "hint": "verb: permettre",
+   "id": "352"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) allow”  (permettre)",
+   "answer": "tu permets",
+   "id": "353"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ les photos.",
+   "answer": "permet",
+   "hint": "verb: permettre",
+   "id": "354"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she allows”  (permettre)",
+   "answer": "elle permet",
+   "id": "355"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) allow”  (permettre)",
+   "answer": "on permet",
+   "id": "356"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ les photos.",
+   "answer": "permettons",
+   "hint": "verb: permettre",
+   "id": "357"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) allow”  (permettre)",
+   "answer": "vous permettez",
+   "id": "358"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Ils ___ les photos.  (permettre)",
+   "options": [
+    "permettent",
+    "permets",
+    "permet",
+    "permettons"
+   ],
+   "answer": "permettent",
+   "explain": "permettre → ils permettent",
+   "speak": "Ils permettent les photos.",
+   "id": "359"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) allow”  (permettre)",
+   "answer": "elles permettent",
+   "id": "360"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Promettre",
+   "type": "Irregular verb",
+   "translation": "to promise",
+   "exampleFr": "Je te promets de t'appeler.",
+   "exampleEn": "I promise to call you.",
+   "hint": "je promets · nous promettons · ils promettent",
+   "id": "361"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I promise”  (promettre)",
+   "answer": "je promets",
+   "id": "362"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ de venir.",
+   "answer": "promets",
+   "hint": "verb: promettre",
+   "id": "363"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he promises”  (promettre)",
+   "answer": "il promet",
+   "id": "364"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she promises”  (promettre)",
+   "answer": "elle promet",
+   "id": "365"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ de venir.",
+   "answer": "promet",
+   "hint": "verb: promettre",
+   "id": "366"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we promise”  (promettre)",
+   "answer": "nous promettons",
+   "id": "367"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ de venir.  (promettre)",
+   "options": [
+    "promettez",
+    "promets",
+    "promet",
+    "promettons"
+   ],
+   "answer": "promettez",
+   "explain": "promettre → vous promettez",
+   "speak": "Vous promettez de venir.",
+   "id": "368"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) promise”  (promettre)",
+   "answer": "ils promettent",
+   "id": "369"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ de venir.",
+   "answer": "promettent",
+   "hint": "verb: promettre",
+   "id": "370"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Interdire",
+   "type": "Irregular verb",
+   "translation": "to forbid",
+   "exampleFr": "Le règlement interdit de fumer ici.",
+   "exampleEn": "The rules forbid smoking here.",
+   "hint": "je interdis · nous interdisons · ils interdisent",
+   "id": "371"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ les téléphones.",
+   "answer": "interdis",
+   "hint": "verb: interdire",
+   "id": "372"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) forbid”  (interdire)",
+   "answer": "tu interdis",
+   "id": "373"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he forbids”  (interdire)",
+   "answer": "il interdit",
+   "id": "374"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ les téléphones.",
+   "answer": "interdit",
+   "hint": "verb: interdire",
+   "id": "375"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) forbid”  (interdire)",
+   "answer": "on interdit",
+   "id": "376"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ les téléphones.  (interdire)",
+   "options": [
+    "interdisons",
+    "interdis",
+    "interdit",
+    "interdisez"
+   ],
+   "answer": "interdisons",
+   "explain": "interdire → nous interdisons",
+   "speak": "Nous interdisons les téléphones.",
+   "id": "377"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) forbid”  (interdire)",
+   "answer": "vous interdisez",
+   "id": "378"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ les téléphones.",
+   "answer": "interdisent",
+   "hint": "verb: interdire",
+   "id": "379"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) forbid”  (interdire)",
+   "answer": "elles interdisent",
+   "id": "380"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Conduire",
+   "type": "Irregular verb",
+   "translation": "to drive",
+   "exampleFr": "Mon père conduit une vieille voiture.",
+   "exampleEn": "My father drives an old car.",
+   "hint": "je conduis · nous conduisons · ils conduisent",
+   "id": "381"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I drive”  (conduire)",
+   "answer": "je conduis",
+   "id": "382"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) drive”  (conduire)",
+   "answer": "tu conduis",
+   "id": "383"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ prudemment.",
+   "answer": "conduit",
+   "hint": "verb: conduire",
+   "id": "384"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she drives”  (conduire)",
+   "answer": "elle conduit",
+   "id": "385"
+  },
+  {
+   "kind": "choice",
+   "prompt": "On ___ prudemment.  (conduire)",
+   "options": [
+    "conduit",
+    "conduis",
+    "conduisons",
+    "conduisez"
+   ],
+   "answer": "conduit",
+   "explain": "conduire → on conduit",
+   "speak": "On conduit prudemment.",
+   "id": "386"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we drive”  (conduire)",
+   "answer": "nous conduisons",
+   "id": "387"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ prudemment.",
+   "answer": "conduisez",
+   "hint": "verb: conduire",
+   "id": "388"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) drive”  (conduire)",
+   "answer": "ils conduisent",
+   "id": "389"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ prudemment.",
+   "answer": "conduisent",
+   "hint": "verb: conduire",
+   "id": "390"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Traduire",
+   "type": "Irregular verb",
+   "translation": "to translate",
+   "exampleFr": "Elle traduit des livres en anglais.",
+   "exampleEn": "She translates books into English.",
+   "hint": "je traduis · nous traduisons · ils traduisent",
+   "id": "391"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I translate”  (traduire)",
+   "answer": "je traduis",
+   "id": "392"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ le texte.",
+   "answer": "traduis",
+   "hint": "verb: traduire",
+   "id": "393"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he translates”  (traduire)",
+   "answer": "il traduit",
+   "id": "394"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elle ___ le texte.  (traduire)",
+   "options": [
+    "traduit",
+    "traduis",
+    "traduisons",
+    "traduisez"
+   ],
+   "answer": "traduit",
+   "explain": "traduire → elle traduit",
+   "speak": "Elle traduit le texte.",
+   "id": "395"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) translate”  (traduire)",
+   "answer": "on traduit",
+   "id": "396"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ le texte.",
+   "answer": "traduisons",
+   "hint": "verb: traduire",
+   "id": "397"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) translate”  (traduire)",
+   "answer": "vous traduisez",
+   "id": "398"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ le texte.",
+   "answer": "traduisent",
+   "hint": "verb: traduire",
+   "id": "399"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) translate”  (traduire)",
+   "answer": "elles traduisent",
+   "id": "400"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Construire",
+   "type": "Irregular verb",
+   "translation": "to build",
+   "exampleFr": "On construit un nouveau pont.",
+   "exampleEn": "They are building a new bridge.",
+   "hint": "je construis · nous construisons · ils construisent",
+   "id": "401"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ une maison.",
+   "answer": "construis",
+   "hint": "verb: construire",
+   "id": "402"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) build”  (construire)",
+   "answer": "tu construis",
+   "id": "403"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ une maison.  (construire)",
+   "options": [
+    "construit",
+    "construis",
+    "construisons",
+    "construisez"
+   ],
+   "answer": "construit",
+   "explain": "construire → il construit",
+   "speak": "Il construit une maison.",
+   "id": "404"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she builds”  (construire)",
+   "answer": "elle construit",
+   "id": "405"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ une maison.",
+   "answer": "construit",
+   "hint": "verb: construire",
+   "id": "406"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we build”  (construire)",
+   "answer": "nous construisons",
+   "id": "407"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ une maison.",
+   "answer": "construisez",
+   "hint": "verb: construire",
+   "id": "408"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) build”  (construire)",
+   "answer": "ils construisent",
+   "id": "409"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) build”  (construire)",
+   "answer": "elles construisent",
+   "id": "410"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Vendre",
+   "type": "Irregular verb",
+   "translation": "to sell",
+   "exampleFr": "Le boulanger vend du pain frais.",
+   "exampleEn": "The baker sells fresh bread.",
+   "hint": "je vends · nous vendons · ils vendent",
+   "id": "411"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I sell”  (vendre)",
+   "answer": "je vends",
+   "id": "412"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ la voiture.  (vendre)",
+   "options": [
+    "vends",
+    "vend",
+    "vendons",
+    "vendez"
+   ],
+   "answer": "vends",
+   "explain": "vendre → tu vends",
+   "speak": "Tu vends la voiture.",
+   "id": "413"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he sells”  (vendre)",
+   "answer": "il vend",
+   "id": "414"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ la voiture.",
+   "answer": "vend",
+   "hint": "verb: vendre",
+   "id": "415"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) sell”  (vendre)",
+   "answer": "on vend",
+   "id": "416"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ la voiture.",
+   "answer": "vendons",
+   "hint": "verb: vendre",
+   "id": "417"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) sell”  (vendre)",
+   "answer": "vous vendez",
+   "id": "418"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) sell”  (vendre)",
+   "answer": "ils vendent",
+   "id": "419"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ la voiture.",
+   "answer": "vendent",
+   "hint": "verb: vendre",
+   "id": "420"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Attendre",
+   "type": "Irregular verb",
+   "translation": "to wait (for)",
+   "exampleFr": "J'attends mon ami devant le cinéma.",
+   "exampleEn": "I am waiting for my friend outside the cinema.",
+   "hint": "je attends · nous attendons · ils attendent",
+   "id": "421"
+  },
+  {
+   "kind": "choice",
+   "prompt": "J'___ le bus.  (attendre)",
+   "options": [
+    "attends",
+    "attend",
+    "attendons",
+    "attendez"
+   ],
+   "answer": "attends",
+   "explain": "attendre → j'attends",
+   "speak": "J'attends le bus.",
+   "id": "422"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) wait for”  (attendre)",
+   "answer": "tu attends",
+   "id": "423"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le bus.",
+   "answer": "attend",
+   "hint": "verb: attendre",
+   "id": "424"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she waits for”  (attendre)",
+   "answer": "elle attend",
+   "id": "425"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ le bus.",
+   "answer": "attend",
+   "hint": "verb: attendre",
+   "id": "426"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we wait for”  (attendre)",
+   "answer": "nous attendons",
+   "id": "427"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) wait for”  (attendre)",
+   "answer": "vous attendez",
+   "id": "428"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ le bus.",
+   "answer": "attendent",
+   "hint": "verb: attendre",
+   "id": "429"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) wait for”  (attendre)",
+   "answer": "elles attendent",
+   "id": "430"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Entendre",
+   "type": "Irregular verb",
+   "translation": "to hear",
+   "exampleFr": "Tu entends ce bruit ?",
+   "exampleEn": "Do you hear that noise?",
+   "hint": "je entends · nous entendons · ils entendent",
+   "id": "431"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I hear”  (entendre)",
+   "answer": "j'entends",
+   "id": "432"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ la musique.",
+   "answer": "entends",
+   "hint": "verb: entendre",
+   "id": "433"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he hears”  (entendre)",
+   "answer": "il entend",
+   "id": "434"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ la musique.",
+   "answer": "entend",
+   "hint": "verb: entendre",
+   "id": "435"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) hear”  (entendre)",
+   "answer": "on entend",
+   "id": "436"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we hear”  (entendre)",
+   "answer": "nous entendons",
+   "id": "437"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ la musique.",
+   "answer": "entendez",
+   "hint": "verb: entendre",
+   "id": "438"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) hear”  (entendre)",
+   "answer": "ils entendent",
+   "id": "439"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ la musique.  (entendre)",
+   "options": [
+    "entendent",
+    "entends",
+    "entend",
+    "entendons"
+   ],
+   "answer": "entendent",
+   "explain": "entendre → elles entendent",
+   "speak": "Elles entendent la musique.",
+   "id": "440"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Répondre",
+   "type": "Irregular verb",
+   "translation": "to answer",
+   "exampleFr": "Il ne répond jamais à mes messages.",
+   "exampleEn": "He never answers my messages.",
+   "hint": "je réponds · nous répondons · ils répondent",
+   "id": "441"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ au téléphone.",
+   "answer": "réponds",
+   "hint": "verb: répondre",
+   "id": "442"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) answer”  (répondre)",
+   "answer": "tu réponds",
+   "id": "443"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ au téléphone.",
+   "answer": "répond",
+   "hint": "verb: répondre",
+   "id": "444"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she answers”  (répondre)",
+   "answer": "elle répond",
+   "id": "445"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) answer”  (répondre)",
+   "answer": "on répond",
+   "id": "446"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ au téléphone.",
+   "answer": "répondons",
+   "hint": "verb: répondre",
+   "id": "447"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) answer”  (répondre)",
+   "answer": "vous répondez",
+   "id": "448"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Ils ___ au téléphone.  (répondre)",
+   "options": [
+    "répondent",
+    "réponds",
+    "répond",
+    "répondons"
+   ],
+   "answer": "répondent",
+   "explain": "répondre → ils répondent",
+   "speak": "Ils répondent au téléphone.",
+   "id": "449"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) answer”  (répondre)",
+   "answer": "elles répondent",
+   "id": "450"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Perdre",
+   "type": "Irregular verb",
+   "translation": "to lose",
+   "exampleFr": "Je perds toujours mes clés.",
+   "exampleEn": "I always lose my keys.",
+   "hint": "je perds · nous perdons · ils perdent",
+   "id": "451"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I lose”  (perdre)",
+   "answer": "je perds",
+   "id": "452"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ patience.",
+   "answer": "perds",
+   "hint": "verb: perdre",
+   "id": "453"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he loses”  (perdre)",
+   "answer": "il perd",
+   "id": "454"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she loses”  (perdre)",
+   "answer": "elle perd",
+   "id": "455"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ patience.",
+   "answer": "perd",
+   "hint": "verb: perdre",
+   "id": "456"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we lose”  (perdre)",
+   "answer": "nous perdons",
+   "id": "457"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ patience.  (perdre)",
+   "options": [
+    "perdez",
+    "perds",
+    "perd",
+    "perdons"
+   ],
+   "answer": "perdez",
+   "explain": "perdre → vous perdez",
+   "speak": "Vous perdez patience.",
+   "id": "458"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) lose”  (perdre)",
+   "answer": "ils perdent",
+   "id": "459"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ patience.",
+   "answer": "perdent",
+   "hint": "verb: perdre",
+   "id": "460"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Descendre",
+   "type": "Irregular verb",
+   "translation": "to go down",
+   "exampleFr": "Nous descendons à la prochaine station.",
+   "exampleEn": "We are getting off at the next stop.",
+   "hint": "je descends · nous descendons · ils descendent",
+   "id": "461"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ l'escalier.",
+   "answer": "descends",
+   "hint": "verb: descendre",
+   "id": "462"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) go down”  (descendre)",
+   "answer": "tu descends",
+   "id": "463"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he goes down”  (descendre)",
+   "answer": "il descend",
+   "id": "464"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ l'escalier.",
+   "answer": "descend",
+   "hint": "verb: descendre",
+   "id": "465"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) go down”  (descendre)",
+   "answer": "on descend",
+   "id": "466"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ l'escalier.  (descendre)",
+   "options": [
+    "descendons",
+    "descends",
+    "descend",
+    "descendez"
+   ],
+   "answer": "descendons",
+   "explain": "descendre → nous descendons",
+   "speak": "Nous descendons l'escalier.",
+   "id": "467"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) go down”  (descendre)",
+   "answer": "vous descendez",
+   "id": "468"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ l'escalier.",
+   "answer": "descendent",
+   "hint": "verb: descendre",
+   "id": "469"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) go down”  (descendre)",
+   "answer": "elles descendent",
+   "id": "470"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Défendre",
+   "type": "Irregular verb",
+   "translation": "to defend",
+   "exampleFr": "L'avocat défend son client.",
+   "exampleEn": "The lawyer defends his client.",
+   "hint": "je défends · nous défendons · ils défendent",
+   "id": "471"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I defend”  (défendre)",
+   "answer": "je défends",
+   "id": "472"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) defend”  (défendre)",
+   "answer": "tu défends",
+   "id": "473"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ la nature.",
+   "answer": "défend",
+   "hint": "verb: défendre",
+   "id": "474"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she defends”  (défendre)",
+   "answer": "elle défend",
+   "id": "475"
+  },
+  {
+   "kind": "choice",
+   "prompt": "On ___ la nature.  (défendre)",
+   "options": [
+    "défend",
+    "défends",
+    "défendons",
+    "défendez"
+   ],
+   "answer": "défend",
+   "explain": "défendre → on défend",
+   "speak": "On défend la nature.",
+   "id": "476"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we defend”  (défendre)",
+   "answer": "nous défendons",
+   "id": "477"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ la nature.",
+   "answer": "défendez",
+   "hint": "verb: défendre",
+   "id": "478"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) defend”  (défendre)",
+   "answer": "ils défendent",
+   "id": "479"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ la nature.",
+   "answer": "défendent",
+   "hint": "verb: défendre",
+   "id": "480"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Battre",
+   "type": "Irregular verb",
+   "translation": "to beat",
+   "exampleFr": "Mon cœur bat très vite.",
+   "exampleEn": "My heart is beating very fast.",
+   "hint": "je bats · nous battons · ils battent",
+   "id": "481"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I beat”  (battre)",
+   "answer": "je bats",
+   "id": "482"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ les œufs.",
+   "answer": "bats",
+   "hint": "verb: battre",
+   "id": "483"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he beats”  (battre)",
+   "answer": "il bat",
+   "id": "484"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elle ___ les œufs.  (battre)",
+   "options": [
+    "bat",
+    "bats",
+    "battons",
+    "battez"
+   ],
+   "answer": "bat",
+   "explain": "battre → elle bat",
+   "speak": "Elle bat les œufs.",
+   "id": "485"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) beat”  (battre)",
+   "answer": "on bat",
+   "id": "486"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ les œufs.",
+   "answer": "battons",
+   "hint": "verb: battre",
+   "id": "487"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) beat”  (battre)",
+   "answer": "vous battez",
+   "id": "488"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ les œufs.",
+   "answer": "battent",
+   "hint": "verb: battre",
+   "id": "489"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) beat”  (battre)",
+   "answer": "elles battent",
+   "id": "490"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Se battre",
+   "type": "Irregular verb",
+   "translation": "to fight",
+   "exampleFr": "Les deux frères se battent souvent.",
+   "exampleEn": "The two brothers often fight.",
+   "hint": "je me bats · nous nous battons · ils se battent",
+   "id": "491"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ pour la liberté.",
+   "answer": "me bats",
+   "hint": "verb: se battre",
+   "id": "492"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) fight”  (se battre)",
+   "answer": "tu te bats",
+   "id": "493"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Il ___ pour la liberté.  (se battre)",
+   "options": [
+    "se bat",
+    "me bats",
+    "te bats",
+    "nous battons"
+   ],
+   "answer": "se bat",
+   "explain": "se battre → il se bat",
+   "speak": "Il se bat pour la liberté.",
+   "id": "494"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she fights”  (se battre)",
+   "answer": "elle se bat",
+   "id": "495"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ pour la liberté.",
+   "answer": "se bat",
+   "hint": "verb: se battre",
+   "id": "496"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we fight”  (se battre)",
+   "answer": "nous nous battons",
+   "id": "497"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ pour la liberté.",
+   "answer": "vous battez",
+   "hint": "verb: se battre",
+   "id": "498"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) fight”  (se battre)",
+   "answer": "ils se battent",
+   "id": "499"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) fight”  (se battre)",
+   "answer": "elles se battent",
+   "id": "500"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Combattre",
+   "type": "Irregular verb",
+   "translation": "to fight against / to combat",
+   "exampleFr": "Ce médicament combat la fièvre.",
+   "exampleEn": "This medicine fights fever.",
+   "hint": "je combats · nous combattons · ils combattent",
+   "id": "501"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I fight”  (combattre)",
+   "answer": "je combats",
+   "id": "502"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Tu ___ la pauvreté.  (combattre)",
+   "options": [
+    "combats",
+    "combat",
+    "combattons",
+    "combattez"
+   ],
+   "answer": "combats",
+   "explain": "combattre → tu combats",
+   "speak": "Tu combats la pauvreté.",
+   "id": "503"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he fights”  (combattre)",
+   "answer": "il combat",
+   "id": "504"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ la pauvreté.",
+   "answer": "combat",
+   "hint": "verb: combattre",
+   "id": "505"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) fight”  (combattre)",
+   "answer": "on combat",
+   "id": "506"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ la pauvreté.",
+   "answer": "combattons",
+   "hint": "verb: combattre",
+   "id": "507"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) fight”  (combattre)",
+   "answer": "vous combattez",
+   "id": "508"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) fight”  (combattre)",
+   "answer": "ils combattent",
+   "id": "509"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ la pauvreté.",
+   "answer": "combattent",
+   "hint": "verb: combattre",
+   "id": "510"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Rejoindre",
+   "type": "Irregular verb",
+   "translation": "to join / to meet up with",
+   "exampleFr": "Je te rejoins au café à midi.",
+   "exampleEn": "I'll meet you at the café at noon.",
+   "hint": "je rejoins · nous rejoignons · ils rejoignent",
+   "id": "511"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Je ___ le groupe.  (rejoindre)",
+   "options": [
+    "rejoins",
+    "rejoint",
+    "rejoignons",
+    "rejoignez"
+   ],
+   "answer": "rejoins",
+   "explain": "rejoindre → je rejoins",
+   "speak": "Je rejoins le groupe.",
+   "id": "512"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) join”  (rejoindre)",
+   "answer": "tu rejoins",
+   "id": "513"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le groupe.",
+   "answer": "rejoint",
+   "hint": "verb: rejoindre",
+   "id": "514"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she joins”  (rejoindre)",
+   "answer": "elle rejoint",
+   "id": "515"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ le groupe.",
+   "answer": "rejoint",
+   "hint": "verb: rejoindre",
+   "id": "516"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we join”  (rejoindre)",
+   "answer": "nous rejoignons",
+   "id": "517"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) join”  (rejoindre)",
+   "answer": "vous rejoignez",
+   "id": "518"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ le groupe.",
+   "answer": "rejoignent",
+   "hint": "verb: rejoindre",
+   "id": "519"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) join”  (rejoindre)",
+   "answer": "elles rejoignent",
+   "id": "520"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Craindre",
+   "type": "Irregular verb",
+   "translation": "to fear",
+   "exampleFr": "Le chat craint l'eau.",
+   "exampleEn": "The cat is afraid of water.",
+   "hint": "je crains · nous craignons · ils craignent",
+   "id": "521"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I fear”  (craindre)",
+   "answer": "je crains",
+   "id": "522"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ l'orage.",
+   "answer": "crains",
+   "hint": "verb: craindre",
+   "id": "523"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he fears”  (craindre)",
+   "answer": "il craint",
+   "id": "524"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ l'orage.",
+   "answer": "craint",
+   "hint": "verb: craindre",
+   "id": "525"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) fear”  (craindre)",
+   "answer": "on craint",
+   "id": "526"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we fear”  (craindre)",
+   "answer": "nous craignons",
+   "id": "527"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ l'orage.",
+   "answer": "craignez",
+   "hint": "verb: craindre",
+   "id": "528"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) fear”  (craindre)",
+   "answer": "ils craignent",
+   "id": "529"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Elles ___ l'orage.  (craindre)",
+   "options": [
+    "craignent",
+    "crains",
+    "craint",
+    "craignons"
+   ],
+   "answer": "craignent",
+   "explain": "craindre → elles craignent",
+   "speak": "Elles craignent l'orage.",
+   "id": "530"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Peindre",
+   "type": "Irregular verb",
+   "translation": "to paint",
+   "exampleFr": "Elle peint des paysages.",
+   "exampleEn": "She paints landscapes.",
+   "hint": "je peins · nous peignons · ils peignent",
+   "id": "531"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Je ___ le salon.",
+   "answer": "peins",
+   "hint": "verb: peindre",
+   "id": "532"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) paint”  (peindre)",
+   "answer": "tu peins",
+   "id": "533"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ le salon.",
+   "answer": "peint",
+   "hint": "verb: peindre",
+   "id": "534"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she paints”  (peindre)",
+   "answer": "elle peint",
+   "id": "535"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) paint”  (peindre)",
+   "answer": "on peint",
+   "id": "536"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Nous ___ le salon.",
+   "answer": "peignons",
+   "hint": "verb: peindre",
+   "id": "537"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) paint”  (peindre)",
+   "answer": "vous peignez",
+   "id": "538"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Ils ___ le salon.  (peindre)",
+   "options": [
+    "peignent",
+    "peins",
+    "peint",
+    "peignons"
+   ],
+   "answer": "peignent",
+   "explain": "peindre → ils peignent",
+   "speak": "Ils peignent le salon.",
+   "id": "539"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) paint”  (peindre)",
+   "answer": "elles peignent",
+   "id": "540"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Éteindre",
+   "type": "Irregular verb",
+   "translation": "to turn off",
+   "exampleFr": "J'éteins mon téléphone au cinéma.",
+   "exampleEn": "I turn off my phone at the cinema.",
+   "hint": "je éteins · nous éteignons · ils éteignent",
+   "id": "541"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I turn off”  (éteindre)",
+   "answer": "j'éteins",
+   "id": "542"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Tu ___ la lumière.",
+   "answer": "éteins",
+   "hint": "verb: éteindre",
+   "id": "543"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he turns off”  (éteindre)",
+   "answer": "il éteint",
+   "id": "544"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she turns off”  (éteindre)",
+   "answer": "elle éteint",
+   "id": "545"
+  },
+  {
+   "kind": "fill",
+   "prompt": "On ___ la lumière.",
+   "answer": "éteint",
+   "hint": "verb: éteindre",
+   "id": "546"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we turn off”  (éteindre)",
+   "answer": "nous éteignons",
+   "id": "547"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Vous ___ la lumière.  (éteindre)",
+   "options": [
+    "éteignez",
+    "éteins",
+    "éteint",
+    "éteignons"
+   ],
+   "answer": "éteignez",
+   "explain": "éteindre → vous éteignez",
+   "speak": "Vous éteignez la lumière.",
+   "id": "548"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) turn off”  (éteindre)",
+   "answer": "ils éteignent",
+   "id": "549"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ la lumière.",
+   "answer": "éteignent",
+   "hint": "verb: éteindre",
+   "id": "550"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Atteindre",
+   "type": "Irregular verb",
+   "translation": "to reach",
+   "exampleFr": "Nous atteignons enfin le village.",
+   "exampleEn": "We finally reach the village.",
+   "hint": "je atteins · nous atteignons · ils atteignent",
+   "id": "551"
+  },
+  {
+   "kind": "fill",
+   "prompt": "J'___ le sommet.",
+   "answer": "atteins",
+   "hint": "verb: atteindre",
+   "id": "552"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) reach”  (atteindre)",
+   "answer": "tu atteins",
+   "id": "553"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “he reaches”  (atteindre)",
+   "answer": "il atteint",
+   "id": "554"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elle ___ le sommet.",
+   "answer": "atteint",
+   "hint": "verb: atteindre",
+   "id": "555"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we (on, informal) reach”  (atteindre)",
+   "answer": "on atteint",
+   "id": "556"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Nous ___ le sommet.  (atteindre)",
+   "options": [
+    "atteignons",
+    "atteins",
+    "atteint",
+    "atteignez"
+   ],
+   "answer": "atteignons",
+   "explain": "atteindre → nous atteignons",
+   "speak": "Nous atteignons le sommet.",
+   "id": "557"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (vous) reach”  (atteindre)",
+   "answer": "vous atteignez",
+   "id": "558"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Ils ___ le sommet.",
+   "answer": "atteignent",
+   "hint": "verb: atteindre",
+   "id": "559"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (f.) reach”  (atteindre)",
+   "answer": "elles atteignent",
+   "id": "560"
+  },
+  {
+   "kind": "flashcard",
+   "word": "Joindre",
+   "type": "Irregular verb",
+   "translation": "to join / to attach",
+   "exampleFr": "Je joins le document à mon e-mail.",
+   "exampleEn": "I am attaching the document to my email.",
+   "hint": "je joins · nous joignons · ils joignent",
+   "id": "561"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “I attach”  (joindre)",
+   "answer": "je joins",
+   "id": "562"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “you (tu) attach”  (joindre)",
+   "answer": "tu joins",
+   "id": "563"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Il ___ un fichier.",
+   "answer": "joint",
+   "hint": "verb: joindre",
+   "id": "564"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “she attaches”  (joindre)",
+   "answer": "elle joint",
+   "id": "565"
+  },
+  {
+   "kind": "choice",
+   "prompt": "On ___ un fichier.  (joindre)",
+   "options": [
+    "joint",
+    "joins",
+    "joignons",
+    "joignez"
+   ],
+   "answer": "joint",
+   "explain": "joindre → on joint",
+   "speak": "On joint un fichier.",
+   "id": "566"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “we attach”  (joindre)",
+   "answer": "nous joignons",
+   "id": "567"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Vous ___ un fichier.",
+   "answer": "joignez",
+   "hint": "verb: joindre",
+   "id": "568"
+  },
+  {
+   "kind": "typed",
+   "prompt": "In French: “they (m.) attach”  (joindre)",
+   "answer": "ils joignent",
+   "id": "569"
+  },
+  {
+   "kind": "fill",
+   "prompt": "Elles ___ un fichier.",
+   "answer": "joignent",
+   "hint": "verb: joindre",
+   "id": "570"
+  }
+ ]
+}

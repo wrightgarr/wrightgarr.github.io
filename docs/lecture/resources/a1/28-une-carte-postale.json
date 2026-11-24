@@ -1,0 +1,134 @@
+{
+  "id": "a1-28",
+  "level": "A1",
+  "number": 28,
+  "title": "Une carte postale",
+  "grammar": "prepositions with cities and countries",
+  "theme": "writing from Italy",
+  "wordCount": 91,
+  "primer": [
+    "**à + city**: in / to a city (*à Turin*)",
+    "**en + feminine country**: *en Italie, en France, en Suisse*",
+    "**au + masculine country**: *au Canada, au Portugal*",
+    "**aux + plural country**: *aux États-Unis*",
+    "**Cher / Chère…**: Dear… (letter opening)",
+    "**Gros bisous**: Big kisses (friendly sign-off)",
+    "**demain**: tomorrow"
+  ],
+  "passage": [
+    [
+      "Chère Amina,"
+    ],
+    [
+      "Je suis en Italie, à Turin, chez mes parents. Il fait froid, mais la ville est belle. Ma mère fait des pâtes tous les jours : je mange trop !"
+    ],
+    [
+      "Demain, je vais à Milan avec mon frère. Après, nous allons en Suisse pour deux jours. Mon frère adore la montagne."
+    ],
+    [
+      "Et toi ? Tu restes à Paris ou tu vas au Canada pour Noël ?"
+    ],
+    [
+      "Dis bonjour à Léa et à Hugo. Je rentre en France le 5 janvier."
+    ],
+    [
+      "Gros bisous,",
+      "Marco"
+    ],
+    [
+      "P.-S. : J'apporte du vrai café italien pour Monsieur Dubois !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "une carte postale",
+      "en": "a postcard"
+    },
+    {
+      "fr": "des pâtes",
+      "en": "pasta"
+    },
+    {
+      "fr": "trop",
+      "en": "too much"
+    },
+    {
+      "fr": "la montagne",
+      "en": "the mountains"
+    },
+    {
+      "fr": "Tu restes… ?",
+      "en": "Are you staying…?"
+    },
+    {
+      "fr": "Noël",
+      "en": "Christmas"
+    },
+    {
+      "fr": "Dis bonjour à…",
+      "en": "Say hi to…"
+    },
+    {
+      "fr": "vrai",
+      "en": "real"
+    }
+  ],
+  "spotlight": [
+    "**Cities take à:** *à Turin, à Milan, à Paris*.",
+    "**Countries depend on gender:** most ending in *-e* are feminine (*en Italie, en Suisse, en France*); others are masculine (*au Canada*); plural takes *aux*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Where is Marco, and what does his mother do every day?",
+      "answer": "In Turin, at his parents' — his mother makes pasta every day",
+      "options": [
+        "In Turin, at his parents' — his mother makes pasta every day",
+        "In Milan with his brother — his mother makes pizza",
+        "In Rome at a hotel — his mother makes soup",
+        "In Switzerland — his mother bakes bread"
+      ],
+      "evidence": "Je suis en Italie, à Turin, chez mes parents. … Ma mère fait des pâtes tous les jours."
+    },
+    {
+      "id": "q2",
+      "prompt": "What is Marco's travel plan for the next few days?",
+      "answer": "Milan tomorrow with his brother, then two days in Switzerland",
+      "options": [
+        "Milan tomorrow with his brother, then two days in Switzerland",
+        "Rome tomorrow, then back to Paris",
+        "Switzerland tomorrow, then a week in Milan",
+        "Nowhere — he stays in Turin until Christmas"
+      ],
+      "evidence": "Demain, je vais à Milan avec mon frère. Après, nous allons en Suisse pour deux jours."
+    },
+    {
+      "id": "q3",
+      "prompt": "When does Marco return, and what will he bring?",
+      "answer": "January 5th — with real Italian coffee for Monsieur Dubois",
+      "options": [
+        "January 5th — with real Italian coffee for Monsieur Dubois",
+        "December 25th — with pasta for Amina",
+        "January 15th — with cheese for Hugo",
+        "January 5th — with chocolate for Léa"
+      ],
+      "evidence": "Je rentre en France le 5 janvier. … J'apporte du vrai café italien pour Monsieur Dubois !"
+    }
+  ],
+  "writing": {
+    "prompt": "Write a 3-sentence postcard from a place you'd like to visit, using *à* and *en/au*.",
+    "model": "Chère Léa,\nJe suis au Portugal, à Lisbonne. Il fait beau et la ville est magnifique. Demain, je vais à Porto.\nBisous,\nSam",
+    "targets": [
+      {
+        "label": "à + city",
+        "pattern": "\\bà [a-zà-ÿ]+",
+        "min": 1
+      },
+      {
+        "label": "en / au / aux + country",
+        "pattern": "\\b(en|au|aux) (france|italie|suisse|espagne|allemagne|belgique|angleterre|chine|inde|grèce|irlande|écosse|australie|canada|portugal|japon|mexique|brésil|maroc|sénégal|pérou|états-unis|pays-bas|[a-zà-ÿ]+)",
+        "min": 1
+      }
+    ]
+  }
+}

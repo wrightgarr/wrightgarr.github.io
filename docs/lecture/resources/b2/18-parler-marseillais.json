@@ -1,0 +1,165 @@
+{
+  "id": "b2-18",
+  "level": "B2",
+  "number": 18,
+  "title": "Parler marseillais",
+  "grammar": "familiar register and regional French",
+  "theme": "how Marseille talks",
+  "wordCount": 507,
+  "primer": [
+    "**familiar French**: *ne* dropped, *t'as / t'es, y a*, *ça*, *on* for *nous*",
+    "**le verlan**: syllables swapped (*louche → chelou, lourd → relou, fou → ouf*)",
+    "**tarpin** (Marseille): very",
+    "**dégun** (Marseille): nobody",
+    "**fada** (Marseille): crazy",
+    "**un minot** (Marseille): a kid",
+    "**peuchère / boulègue !** (Marseille): poor thing! / get moving!"
+  ],
+  "passage": [
+    [
+      "Pour le numéro d'été, Inès a proposé un sujet léger : le parler marseillais. Elle a passé trois semaines à enregistrer des conversations sur les marchés, dans les bus et à la sortie des lycées. Voici un extrait de son article."
+    ],
+    [
+      "« Parlez-vous marseillais ?"
+    ],
+    [
+      "\"Oh fada, t'as vu le monde ? C'est cafi, on peut même plus s'asseoir !\" La phrase, entendue un samedi matin au marché de Noailles, laisserait perplexe n'importe quel visiteur. Pourtant, chaque Marseillais la comprend immédiatement : \"Oh là là, tu as vu tout ce monde ? C'est plein, on ne peut même plus s'asseoir !\""
+    ],
+    [
+      "Le français de Marseille est l'un des plus colorés de France. Il mélange des mots venus du provençal, de l'italien, de l'arabe, de l'arménien et de l'argot des quartiers. \"Tarpin\" signifie \"très\" : il fait tarpin chaud. \"Dégun\" veut dire \"personne\" : y a dégun dans la rue. Un \"minot\", c'est un enfant. Et quand quelque chose vous fatigue ou vous énerve, on dit volontiers que \"ça vous escagasse\"."
+    ],
+    [
+      "\"Moi, quand je parle avec mes potes, je parle marseillais, mais avec mon patron, je fais gaffe\", explique Yanis, 17 ans, rencontré devant un lycée du centre-ville. \"Sinon il me prend pour un fada.\" Comme beaucoup de jeunes, Yanis passe d'un registre à l'autre sans y penser. Avec ses amis, il dit \"t'es relou\" (en verlan, \"lourd\", c'est-à-dire pénible) ou \"c'est chelou\" (\"louche\", donc bizarre). Avec sa grand-mère, il dit \"peuchère\" et \"boulègue\". Avec ses professeurs, il dit… presque toujours \"vous\"."
+    ],
+    [
+      "Les linguistes s'intéressent de près à ce phénomène. \"Le marseillais n'est pas une langue fautive\", souligne une chercheuse en sociolinguistique. \"C'est une variété régionale du français, avec son vocabulaire, son accent et sa musique. Ce qui compte, c'est de savoir l'utiliser au bon moment.\""
+    ],
+    [
+      "Encore faut-il que ces mots survivent. Avec les réseaux sociaux et les séries, les jeunes Marseillais parlent de plus en plus comme les jeunes Parisiens. Certains mots disparaissent, d'autres apparaissent. \"Ma grand-mère disait 'fan de chichourle' quand elle était surprise\", raconte Laurie, 24 ans. \"Moi je dis 'c'est ouf'. Mes enfants, je sais pas ce qu'ils diront.\" Puis elle ajoute en riant : \"Peu importe les mots. Tant qu'on garde l'accent.\" »"
+    ],
+    [
+      "L'article a eu un succès fou. Des dizaines de lecteurs ont écrit pour proposer leurs expressions préférées. Madame Ferrand, elle, a appelé la rédaction pour se plaindre."
+    ],
+    [
+      "— Votre stagiaire a oublié le plus important : « escagasser », on ne le dit pas comme ça. On le dit avec les mains !"
+    ],
+    [
+      "Puis elle a envoyé une liste de cinquante mots recopiés dans les carnets de Jean. Il les avait notés dès 1965, avec une remarque dans la marge : « Un jour, plus personne ne parlera comme ça. Il faut les garder. »"
+    ],
+    [
+      "Inès en a fait un deuxième article. Le titre, cette fois, c'est Madame Ferrand qui l'a choisi : « Les mots de Jean ». Et pour la première fois depuis la création du Mistral, un article a été affiché dans la vitrine de la boulangerie du coin, entre les croissants et les navettes, avec une petite note écrite à la main par la boulangère : « Lisez ça, c'est nous. »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "cafi",
+      "en": "packed, full (Marseille)"
+    },
+    {
+      "fr": "perplexe",
+      "en": "puzzled"
+    },
+    {
+      "fr": "l'argot",
+      "en": "slang"
+    },
+    {
+      "fr": "volontiers",
+      "en": "readily"
+    },
+    {
+      "fr": "escagasse",
+      "en": "wears out, annoys (Marseille)"
+    },
+    {
+      "fr": "mes potes",
+      "en": "my mates (familiar)"
+    },
+    {
+      "fr": "je fais gaffe",
+      "en": "I'm careful (familiar)"
+    },
+    {
+      "fr": "pénible",
+      "en": "annoying"
+    },
+    {
+      "fr": "louche",
+      "en": "shady"
+    },
+    {
+      "fr": "fautive",
+      "en": "incorrect"
+    },
+    {
+      "fr": "fan de chichourle",
+      "en": "old Marseille exclamation of surprise"
+    },
+    {
+      "fr": "un succès fou",
+      "en": "a huge hit"
+    },
+    {
+      "fr": "dans la marge",
+      "en": "in the margin"
+    }
+  ],
+  "spotlight": [
+    "**Signs of familiar spoken French:** *ne* disappears (*on peut même plus s'asseoir, je sais pas*), *tu as* shrinks to *t'as*, *il y a* becomes *y a*, and slang replaces standard words (*mes potes, je fais gaffe*). It isn't \"bad French\": it's a register, at the opposite end of the scale from the formal letter in Module 16.",
+    "**Regional and generational words:** Marseille French borrows from Provençal (*peuchère, boulègue, cafi*) and from the city's many languages. *Verlan* (*chelou, relou, ouf*) belongs to young speakers all over France. As Yanis shows, the real skill is switching: the same speaker uses different words with friends, with a grandmother and with the boss."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "D'où viennent les mots du français de Marseille, selon l'article ?",
+      "answer": "Du provençal, de l'italien, de l'arabe, de l'arménien et de l'argot",
+      "options": [
+        "Du provençal, de l'italien, de l'arabe, de l'arménien et de l'argot",
+        "Uniquement du provençal",
+        "De l'anglais et de l'espagnol",
+        "Du latin et du grec ancien"
+      ],
+      "evidence": "Il mélange des mots venus du provençal, de l'italien, de l'arabe, de l'arménien et de l'argot des quartiers."
+    },
+    {
+      "id": "q2",
+      "prompt": "Comment Yanis adapte-t-il sa manière de parler ?",
+      "answer": "Il change de registre selon qu'il parle à ses amis, à sa grand-mère ou à son patron",
+      "options": [
+        "Il change de registre selon qu'il parle à ses amis, à sa grand-mère ou à son patron",
+        "Il parle toujours en verlan",
+        "Il refuse de parler marseillais",
+        "Il parle anglais avec son patron"
+      ],
+      "evidence": "Moi, quand je parle avec mes potes, je parle marseillais, mais avec mon patron, je fais gaffe"
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi Jean avait-il noté des mots marseillais dans ses carnets ?",
+      "answer": "Il pensait que ces mots allaient disparaître et qu'il fallait les garder",
+      "options": [
+        "Il pensait que ces mots allaient disparaître et qu'il fallait les garder",
+        "Il voulait écrire un dictionnaire pour gagner de l'argent",
+        "Son patron le lui avait demandé",
+        "Il apprenait le français"
+      ],
+      "evidence": "Un jour, plus personne ne parlera comme ça. Il faut les garder."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez la même idée dans deux registres : d'abord en français familier (avec *t'as, y a*, sans *ne*), puis en français standard ou soutenu. Sujet possible : vous êtes fatigué(e) et il y a trop de monde au marché.",
+    "model": "Familier : Je suis crevé, y a trop de monde au marché, on peut même pas bouger ! Standard : Je suis très fatigué, il y a beaucoup trop de monde au marché, on ne peut même pas bouger.",
+    "targets": [
+      {
+        "label": "familiar features (y a, t'as, t'es, crevé, pas without ne…)",
+        "pattern": "\\by a\\b|\\bt'as\\b|\\bt'es\\b|\\bcrevé|\\bmec\\b|\\bpotes?\\b|\\bgaffe\\b|\\btarpin\\b|\\bdégun\\b|\\bfada\\b|\\bouf\\b|\\bchelou\\b|\\brelou\\b|\\bcafi\\b",
+        "min": 1
+      },
+      {
+        "label": "standard features (il y a, ne… pas)",
+        "pattern": "il y a|\\bne\\b[^.!?]*\\bpas\\b|\\bn'[a-zà-ÿ]+\\b[^.!?]*\\bpas\\b",
+        "min": 1
+      }
+    ]
+  }
+}

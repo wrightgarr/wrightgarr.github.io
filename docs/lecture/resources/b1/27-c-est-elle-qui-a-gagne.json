@@ -1,0 +1,184 @@
+{
+  "id": "b1-27",
+  "level": "B1",
+  "number": 27,
+  "title": "C'est elle qui a gagné",
+  "grammar": "emphasis with *c'est… qui / que* and *ce qui… c'est*",
+  "theme": "good news",
+  "wordCount": 389,
+  "primer": [
+    "**C'est… qui + verbe**: it's … who (*C'est moi qui ai le poste.*)",
+    "**C'est… que + sujet + verbe**: it's … that (*C'est elle que le jury a choisie.*)",
+    "**Ce qui…, c'est…**: what… is…",
+    "**Ce que…, c'est…**: what… is…",
+    "**the verb agrees with the pronoun**: *c'est moi qui ai, c'est toi qui as*",
+    "**agrandir**: to enlarge"
+  ],
+  "passage": [
+    [
+      "C'étaient des larmes de joie. Amina avait été choisie. Sur quarante-deux candidats venus de toute l'Europe, c'est elle que le jury avait retenue."
+    ],
+    [
+      "— C'est moi qui ai le poste ! a-t-elle enfin réussi à dire. C'est moi !"
+    ],
+    [
+      "Dans le futur studio, ça a été l'explosion. Karim l'a soulevée dans ses bras, Lucas a renversé un pot de peinture, Hugo a ouvert la seule bouteille qu'il avait apportée, et Madame Ferrand s'est mise à chanter une vieille chanson marseillaise que personne ne connaissait."
+    ],
+    [
+      "Le soir, ils ont tous dîné chez Mehdi. Pendant le repas, Amina a raconté le coup de téléphone en détail."
+    ],
+    [
+      "— Ce qui m'a le plus surprise, c'est la directrice musicale. C'est elle qui m'a appelée personnellement. Elle m'a dit : « Ce n'est pas votre technique que nous avons choisie, c'est votre son. » Mon son ! Vous vous rendez compte ?",
+      "— C'est le violon de Crémone qui a joué, a plaisanté Karim.",
+      "— Non, a répondu Amina sérieusement. C'est Delmas qui m'a appris à le faire chanter. Et c'est lui qui a rempli le formulaire, je vous le rappelle."
+    ],
+    [
+      "Elle a pris son téléphone pour appeler son professeur. Delmas a décroché à la première sonnerie, comme s'il attendait."
+    ],
+    [
+      "— Monsieur Delmas, c'est Amina. J'ai le poste."
+    ],
+    [
+      "Il y a eu un long silence. Puis une voix un peu enrouée :"
+    ],
+    [
+      "— Je sais, mademoiselle. C'est moi qui ai téléphoné à l'Opéra ce matin pour leur demander. Je n'arrivais pas à attendre.",
+      "— Vous voulez dîner avec nous ?",
+      "— Non, non. Ce que je veux, c'est vous voir lundi à huit heures. Un orchestre, c'est encore plus de travail."
+    ],
+    [
+      "Amina a raccroché en riant."
+    ],
+    [
+      "Deux semaines plus tard, le studio de Léa a été inauguré. Sur les murs blancs, Léa avait accroché vingt portraits en noir et blanc des gens du quartier : de Josette à Monsieur Bérenger, de Mehdi à Monsieur Garcia et son Leica. Au centre, il y avait une photo plus grande que les autres : Amina, seule dans sa cuisine à minuit, le violon levé, éclairée par une seule lampe."
+    ],
+    [
+      "— C'est toi qui as pris ça ? a demandé Amina, stupéfaite.",
+      "— Non, a répondu Léa. C'est Karim qui l'a prise, avec son téléphone, un soir où il t'apportait à manger. Moi, je l'ai seulement agrandie. Ce qui compte, ce n'est pas l'appareil. C'est le regard."
+    ],
+    [
+      "Sous la photo, une petite étiquette disait simplement : « Amina, 23 ans. Le son. »"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "avait été choisie",
+      "en": "had been chosen"
+    },
+    {
+      "fr": "retenue",
+      "en": "selected"
+    },
+    {
+      "fr": "l'a soulevée",
+      "en": "lifted her up"
+    },
+    {
+      "fr": "a renversé",
+      "en": "knocked over"
+    },
+    {
+      "fr": "s'est mise à chanter",
+      "en": "started singing"
+    },
+    {
+      "fr": "la directrice musicale",
+      "en": "the music director"
+    },
+    {
+      "fr": "Vous vous rendez compte ?",
+      "en": "Can you believe it?"
+    },
+    {
+      "fr": "a plaisanté",
+      "en": "joked"
+    },
+    {
+      "fr": "je vous le rappelle",
+      "en": "let me remind you"
+    },
+    {
+      "fr": "à la première sonnerie",
+      "en": "on the first ring"
+    },
+    {
+      "fr": "enrouée",
+      "en": "hoarse"
+    },
+    {
+      "fr": "inauguré",
+      "en": "opened"
+    },
+    {
+      "fr": "éclairée",
+      "en": "lit"
+    },
+    {
+      "fr": "stupéfaite",
+      "en": "astonished"
+    }
+  ],
+  "spotlight": [
+    "**Highlighting with c'est… qui / c'est… que:** *C'est moi qui ai le poste. C'est elle qui m'a appelée personnellement. Ce n'est pas votre technique que nous avons choisie.* After *c'est moi qui*, the verb agrees with *moi*: *c'est moi qui ai, c'est toi qui as*.",
+    "**Ce qui… c'est / Ce que… c'est** saves the key idea for the end: *Ce qui m'a le plus surprise, c'est la directrice musicale. Ce que je veux, c'est vous voir lundi à huit heures. Ce qui compte, ce n'est pas l'appareil.* It's a very natural way to stress something in speech."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Combien de candidats ont passé l'audition, et qui a été choisi ?",
+      "answer": "Quarante-deux candidats, et c'est Amina qui a été choisie",
+      "options": [
+        "Quarante-deux candidats, et c'est Amina qui a été choisie",
+        "Dix candidats, et c'est une Parisienne qui a gagné",
+        "Quarante-deux candidats, et personne n'a été choisi",
+        "Vingt candidats, et Amina est deuxième"
+      ],
+      "evidence": "Sur quarante-deux candidats venus de toute l'Europe, c'est elle que le jury avait retenue."
+    },
+    {
+      "id": "q2",
+      "prompt": "Qu'est-ce que la directrice musicale a dit à Amina ?",
+      "answer": "Que le jury a choisi son son, pas sa technique",
+      "options": [
+        "Que le jury a choisi son son, pas sa technique",
+        "Qu'elle doit changer d'archet",
+        "Qu'elle commencera l'année prochaine",
+        "Que Delmas a beaucoup insisté"
+      ],
+      "evidence": "Ce n'est pas votre technique que nous avons choisie, c'est votre son."
+    },
+    {
+      "id": "q3",
+      "prompt": "Qui a pris la grande photo d'Amina, et quand ?",
+      "answer": "Karim, avec son téléphone, un soir où il lui apportait à manger",
+      "options": [
+        "Karim, avec son téléphone, un soir où il lui apportait à manger",
+        "Léa, pendant l'audition",
+        "Delmas, au conservatoire",
+        "Madame Ferrand, sur le toit"
+      ],
+      "evidence": "C'est Karim qui l'a prise, avec son téléphone, un soir où il t'apportait à manger."
+    }
+  ],
+  "writing": {
+    "prompt": "Parlez d'une réussite (la vôtre ou celle d'un proche) en trois phrases avec *c'est… qui, c'est… que* et *ce qui…, c'est…*",
+    "model": "C'est ma sœur qui a gagné le concours de piano. C'est elle que le jury a préférée. Ce qui m'a le plus ému, c'est son sourire à la fin.",
+    "targets": [
+      {
+        "label": "c'est… qui",
+        "pattern": "c'est\\s+[^.!?]*\\bqui\\b",
+        "min": 1
+      },
+      {
+        "label": "c'est… que",
+        "pattern": "c'est\\s+[^.!?]*\\bqu(e|')",
+        "min": 1
+      },
+      {
+        "label": "ce qui… c'est / ce que… c'est",
+        "pattern": "ce qu(i|e|')[^.!?]*,\\s*c'est",
+        "min": 1
+      }
+    ]
+  }
+}

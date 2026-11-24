@@ -1,0 +1,60 @@
+{
+ "id": "s21",
+ "subject": 21,
+ "level": "A1",
+ "title": "Days & Months",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Days and months are <strong>masculine</strong> and written <strong>without a capital letter</strong>.</p>"
+  },
+  {
+   "heading": "Days of the week (les jours de la semaine)",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>lundi</td>\n<td>Monday</td>\n</tr>\n<tr>\n<td>mardi</td>\n<td>Tuesday</td>\n</tr>\n<tr>\n<td>mercredi</td>\n<td>Wednesday</td>\n</tr>\n<tr>\n<td>jeudi</td>\n<td>Thursday</td>\n</tr>\n<tr>\n<td>vendredi</td>\n<td>Friday</td>\n</tr>\n<tr>\n<td>samedi</td>\n<td>Saturday</td>\n</tr>\n<tr>\n<td>dimanche</td>\n<td>Sunday</td>\n</tr>\n</tbody>\n</table>\n<p>The French week starts on <strong>Monday</strong>.</p>"
+  },
+  {
+   "heading": "Using days",
+   "html": "<table>\n<thead>\n<tr>\n<th>Form</th>\n<th>Meaning</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>lundi</strong> (no article)</td>\n<td>this coming / last Monday (one time)</td>\n<td><em>Je pars lundi.</em> — I'm leaving on Monday.</td>\n</tr>\n<tr>\n<td><strong>le lundi</strong></td>\n<td>every Monday (habit)</td>\n<td><em>Le lundi, je vais à la gym.</em> — On Mondays, I go to the gym.</td>\n</tr>\n<tr>\n<td><strong>tous les lundis</strong></td>\n<td>every Monday</td>\n<td><em>Il travaille tous les lundis.</em></td>\n</tr>\n<tr>\n<td><strong>lundi prochain</strong></td>\n<td>next Monday</td>\n<td></td>\n</tr>\n<tr>\n<td><strong>lundi dernier</strong></td>\n<td>last Monday</td>\n<td></td>\n</tr>\n<tr>\n<td><strong>lundi matin / soir</strong></td>\n<td>Monday morning / evening</td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Months (les mois)",
+   "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th></th>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>janvier</td>\n<td>février</td>\n<td>mars</td>\n<td>avril</td>\n</tr>\n<tr>\n<td>mai</td>\n<td>juin</td>\n<td>juillet</td>\n<td>août</td>\n</tr>\n<tr>\n<td>septembre</td>\n<td>octobre</td>\n<td>novembre</td>\n<td>décembre</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li>\"In January\" = <strong>en janvier</strong> or <strong>au mois de janvier</strong>.</li>\n<li><em>août</em> is pronounced \"oot\" (or \"oo\").</li>\n<li><em>juin</em> (\"zhwan\") vs <em>juillet</em> (\"zhwee-yeh\") — easy to confuse!</li>\n</ul>"
+  },
+  {
+   "heading": "Useful time words",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>aujourd'hui</td>\n<td>today</td>\n</tr>\n<tr>\n<td>hier</td>\n<td>yesterday</td>\n</tr>\n<tr>\n<td>demain</td>\n<td>tomorrow</td>\n</tr>\n<tr>\n<td>avant-hier</td>\n<td>the day before yesterday</td>\n</tr>\n<tr>\n<td>après-demain</td>\n<td>the day after tomorrow</td>\n</tr>\n<tr>\n<td>la semaine prochaine / dernière</td>\n<td>next / last week</td>\n</tr>\n<tr>\n<td>le mois prochain</td>\n<td>next month</td>\n</tr>\n<tr>\n<td>le week-end (France) / la fin de semaine (Québec)</td>\n<td>the weekend</td>\n</tr>\n<tr>\n<td>un jour férié</td>\n<td>a public holiday</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Questions",
+   "html": "<ul>\n<li><em>Quel jour sommes-nous ?</em> / <em>On est quel jour ?</em> — What day is it? → <em>Nous sommes jeudi.</em> / <em>On est jeudi.</em></li>\n<li><em>C'est quand, ton anniversaire ?</em> — When is your birthday? → <em>C'est en mars.</em></li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "What day comes after *mercredi*? Before *lundi*?",
+   "answer": "*jeudi*; *dimanche*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Translate: \"On Saturdays, I play tennis.\"",
+   "answer": "*Le samedi, je joue au tennis.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"I'm leaving on Friday.\" (one time)",
+   "answer": "*Je pars vendredi.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"My birthday is in August.\"",
+   "answer": "*Mon anniversaire est en août.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Correct the mistakes: *Je travaille le Lundi et en Juillet.*",
+   "answer": "*Je travaille le lundi et en juillet.* (no capitals)",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

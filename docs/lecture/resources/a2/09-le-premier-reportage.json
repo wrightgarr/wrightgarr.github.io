@@ -1,0 +1,160 @@
+{
+  "id": "a2-09",
+  "level": "A2",
+  "number": 9,
+  "title": "Le premier reportage",
+  "grammar": "telling a story with both past tenses",
+  "theme": "a festival goes wrong",
+  "wordCount": 190,
+  "primer": [
+    "**un reportage**: a news story (in words or photos)",
+    "**la fête du port**: the harbour festival",
+    "**le défilé**: the parade",
+    "**la foule**: the crowd",
+    "**au début / à la fin**: at the beginning / at the end",
+    "**heureusement**: fortunately",
+    "**le mistral**: the strong north wind of Provence"
+  ],
+  "passage": [
+    [
+      "En avril, Nadia a envoyé Léa et Karim à Cassis, une petite ville au bord de la mer. C'était la fête du port et le magazine voulait un reportage."
+    ],
+    [
+      "Quand ils sont arrivés, il faisait un temps magnifique. Il y avait déjà une foule énorme sur le port. Des musiciens jouaient, des enfants dansaient et ça sentait les sardines grillées."
+    ],
+    [
+      "Au début, tout allait bien. Léa prenait des photos du défilé pendant que Karim interviewait les habitants. Puis, à trois heures, le vent s'est levé. Le mistral ! En quelques minutes, les parasols se sont envolés et les nappes sont tombées dans l'eau. Les gens criaient et couraient partout."
+    ],
+    [
+      "Léa n'a pas arrêté de photographier. Un vieux pêcheur aidait une petite fille à attraper son chapeau. Un serveur courait après une pile d'assiettes… Clic, clic, clic !"
+    ],
+    [
+      "Heureusement, une heure plus tard, le vent s'est calmé et la fête a recommencé."
+    ],
+    [
+      "Le lundi suivant, Nadia a regardé les photos."
+    ],
+    [
+      "— C'est extraordinaire, Léa ! On voulait une petite fête de village… et tu as rapporté une vraie histoire !"
+    ],
+    [
+      "L'article de Karim et les photos de Léa ont fait la couverture du numéro de mai."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "a envoyé",
+      "en": "sent"
+    },
+    {
+      "fr": "voulait",
+      "en": "wanted"
+    },
+    {
+      "fr": "énorme",
+      "en": "huge"
+    },
+    {
+      "fr": "les sardines grillées",
+      "en": "grilled sardines"
+    },
+    {
+      "fr": "les habitants",
+      "en": "the locals"
+    },
+    {
+      "fr": "le vent s'est levé",
+      "en": "the wind picked up"
+    },
+    {
+      "fr": "les parasols",
+      "en": "beach umbrellas"
+    },
+    {
+      "fr": "se sont envolés",
+      "en": "blew away"
+    },
+    {
+      "fr": "les nappes",
+      "en": "tablecloths"
+    },
+    {
+      "fr": "n'a pas arrêté de",
+      "en": "didn't stop"
+    },
+    {
+      "fr": "attraper",
+      "en": "to catch"
+    },
+    {
+      "fr": "s'est calmé",
+      "en": "died down"
+    },
+    {
+      "fr": "tu as rapporté",
+      "en": "you brought back"
+    },
+    {
+      "fr": "la couverture",
+      "en": "the cover"
+    }
+  ],
+  "spotlight": [
+    "**Two tenses, two jobs:** the imparfait paints what was going on (*des musiciens jouaient, des enfants dansaient*). The passé composé lists the events that changed things (*le vent s'est levé, les parasols se sont envolés, la fête a recommencé*).",
+    "**Ask yourself: backdrop or step?** *Tout allait bien* (a state, the backdrop) vs. *Nadia a envoyé Léa et Karim* (one completed step in the story)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What was the atmosphere when Léa and Karim arrived?",
+      "answer": "Beautiful weather, a huge crowd, music and dancing",
+      "options": [
+        "Beautiful weather, a huge crowd, music and dancing",
+        "Rainy and quiet, with few people",
+        "Windy and cold, with the stalls closing",
+        "Calm, with only a few fishermen"
+      ],
+      "evidence": "Quand ils sont arrivés, il faisait un temps magnifique. Il y avait déjà une foule énorme sur le port. Des musiciens jouaient, des enfants dansaient"
+    },
+    {
+      "id": "q2",
+      "prompt": "What happened at three o'clock?",
+      "answer": "The mistral blew up and umbrellas and tablecloths flew away",
+      "options": [
+        "The mistral blew up and umbrellas and tablecloths flew away",
+        "It started to rain heavily",
+        "The parade was cancelled",
+        "Léa's camera broke"
+      ],
+      "evidence": "Puis, à trois heures, le vent s'est levé. Le mistral ! En quelques minutes, les parasols se sont envolés et les nappes sont tombées dans l'eau."
+    },
+    {
+      "id": "q3",
+      "prompt": "Why was Nadia so pleased?",
+      "answer": "They expected a small village festival and got a real story",
+      "options": [
+        "They expected a small village festival and got a real story",
+        "The photos were perfectly calm and pretty",
+        "Karim's article was very short",
+        "The festival paid for an advert"
+      ],
+      "evidence": "On voulait une petite fête de village… et tu as rapporté une vraie histoire !"
+    }
+  ],
+  "writing": {
+    "prompt": "Write 3–4 sentences about an event that went wrong, with the scene in the imparfait and the events in the passé composé.",
+    "model": "C'était mon anniversaire et il faisait beau. Nous mangions dans le jardin. Tout à coup, il a commencé à pleuvoir et le gâteau est tombé !",
+    "targets": [
+      {
+        "label": "imparfait for the scene",
+        "pattern": "\\b(?!(?:mais|jamais|français|anglais|frais|vrais|mauvais|fait|parfait|lait|souhait)\\b)(?![a-zà-ÿ]*tions\\b)[a-zà-ÿ]+(ais|ait|ions|iez|aient)\\b",
+        "min": 2
+      },
+      {
+        "label": "passé composé for events",
+        "pattern": "\\b(ai|as|a|avons|avez|ont)\\s+(pas\\s+|jamais\\s+)?[a-zà-ÿ]+(é|i|u|is|it|ert|eint|ait)\\b|\\b(suis|es|est|sommes|êtes|sont)\\s+(pas\\s+)?(allé|venu|arrivé|parti|monté|descendu|resté|tombé|sorti|entré|rentré|né|mort|devenu|revenu|reparti|retourné|passé)e?s?\\b|\\b(est|a)\\s+tombée?\\b",
+        "min": 1
+      }
+    ]
+  }
+}

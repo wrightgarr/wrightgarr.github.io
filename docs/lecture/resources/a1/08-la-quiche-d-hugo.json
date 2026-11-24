@@ -1,0 +1,131 @@
+{
+  "id": "a1-08",
+  "level": "A1",
+  "number": 8,
+  "title": "La quiche d'Hugo",
+  "grammar": "partitive articles",
+  "theme": "cooking",
+  "wordCount": 99,
+  "primer": [
+    "**du** (m.), **de la** (f.), **de l'** (vowel), **des** (pl.): some",
+    "**préparer**: to prepare",
+    "**ce soir**: tonight",
+    "**le fromage / le beurre / la crème**: cheese / butter / cream",
+    "**un peu de**: a little (of)",
+    "**apporter**: to bring",
+    "**délicieux**: delicious"
+  ],
+  "passage": [
+    [
+      "Hugo est cuisinier. Ce soir, il prépare une quiche lorraine pour Léa et Marco. Dans la quiche, il y a des œufs, de la crème, du fromage et du jambon. Il y a aussi de la farine et du beurre pour la pâte."
+    ],
+    [
+      "Marco regarde Hugo."
+    ],
+    [
+      "— Tu mets du sel ?",
+      "— Oui, un peu de sel et un peu de poivre."
+    ],
+    [
+      "Pour le dessert, Hugo prépare une salade de fruits avec des fraises, des pommes et du sucre. Léa apporte du pain et de l'eau. Marco n'apporte pas de vin. Il apporte du jus d'orange."
+    ],
+    [
+      "— C'est délicieux, Hugo ! dit Léa."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "des œufs",
+      "en": "eggs"
+    },
+    {
+      "fr": "le jambon",
+      "en": "ham"
+    },
+    {
+      "fr": "la farine",
+      "en": "flour"
+    },
+    {
+      "fr": "la pâte",
+      "en": "the pastry, dough"
+    },
+    {
+      "fr": "tu mets",
+      "en": "you put (in)"
+    },
+    {
+      "fr": "le sel / le poivre",
+      "en": "salt / pepper"
+    },
+    {
+      "fr": "des fraises / des pommes",
+      "en": "strawberries / apples"
+    },
+    {
+      "fr": "l'eau",
+      "en": "water"
+    },
+    {
+      "fr": "le vin",
+      "en": "wine"
+    },
+    {
+      "fr": "le jus",
+      "en": "juice"
+    }
+  ],
+  "spotlight": [
+    "**Partitive = \"some\" (often left out in English):** *du fromage*, *de la crème*, *de l'eau*, *des œufs*.",
+    "**Negative → de:** *Marco n'apporte pas de vin.* (Same rule as Module 6.)"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Name four ingredients in the quiche.",
+      "answer": "Eggs, cream, cheese and ham",
+      "options": [
+        "Eggs, cream, cheese and ham",
+        "Tomatoes, onions, cheese and fish",
+        "Eggs, milk, chicken and mushrooms",
+        "Strawberries, apples, sugar and cream"
+      ],
+      "evidence": "Dans la quiche, il y a des œufs, de la crème, du fromage et du jambon."
+    },
+    {
+      "id": "q2",
+      "prompt": "What fruits are in the dessert?",
+      "answer": "Strawberries and apples",
+      "options": [
+        "Strawberries and apples",
+        "Bananas and oranges",
+        "Pears and cherries",
+        "Apples and grapes"
+      ],
+      "evidence": "Hugo prépare une salade de fruits avec des fraises, des pommes et du sucre."
+    },
+    {
+      "id": "q3",
+      "prompt": "What do Léa and Marco bring?",
+      "answer": "Léa brings bread and water; Marco brings orange juice",
+      "options": [
+        "Léa brings bread and water; Marco brings orange juice",
+        "Léa brings wine; Marco brings bread",
+        "Léa brings orange juice; Marco brings wine",
+        "Léa brings cheese; Marco brings dessert"
+      ],
+      "evidence": "Léa apporte du pain et de l'eau. Marco n'apporte pas de vin. Il apporte du jus d'orange."
+    }
+  ],
+  "writing": {
+    "prompt": "Describe your breakfast in one sentence with at least two partitive articles.",
+    "model": "Le matin, je mange du pain avec de la confiture et je bois du café.",
+    "targets": [
+      {
+        "label": "two partitives (du / de la / de l' / des)",
+        "pattern": "\\b(du|de la|de l'|des)\\b",
+        "min": 2
+      }
+    ]
+  }
+}

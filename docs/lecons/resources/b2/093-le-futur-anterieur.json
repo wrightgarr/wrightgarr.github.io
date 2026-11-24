@@ -1,0 +1,67 @@
+{
+ "id": "s93",
+ "subject": 93,
+ "level": "B2",
+ "title": "Le Futur Antérieur",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>futur antérieur</strong> (future perfect) expresses an action that <strong>will have been completed</strong> before another future action or moment: \"will have done\".</p>"
+  },
+  {
+   "heading": "Formation: auxiliary in the FUTUR SIMPLE + past participle",
+   "html": "<table>\n<thead>\n<tr>\n<th>avoir</th>\n<th>être</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>j'<strong>aurai</strong> fini</td>\n<td>je <strong>serai</strong> parti(e)</td>\n</tr>\n<tr>\n<td>tu <strong>auras</strong> fini</td>\n<td>tu <strong>seras</strong> parti(e)</td>\n</tr>\n<tr>\n<td>il/elle <strong>aura</strong> fini</td>\n<td>il <strong>sera</strong> parti / elle <strong>sera</strong> partie</td>\n</tr>\n<tr>\n<td>nous <strong>aurons</strong> fini</td>\n<td>nous <strong>serons</strong> parti(e)s</td>\n</tr>\n<tr>\n<td>vous <strong>aurez</strong> fini</td>\n<td>vous <strong>serez</strong> parti(e)(s)</td>\n</tr>\n<tr>\n<td>ils/elles <strong>auront</strong> fini</td>\n<td>ils <strong>seront</strong> partis / elles <strong>seront</strong> parties</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Uses",
+   "html": "<ol>\n<li><strong>Completed before a future moment:</strong> <em>À 20 h, j'</em><em>aurai fini</em><em> mon travail.</em> — By 8 pm, I'll have finished my work. / <em>Dans dix ans, nous </em><em>aurons remboursé</em><em> la maison.</em></li>\n<li><strong>Before another future action</strong> (after <em>quand, lorsque, dès que, aussitôt que, une fois que, après que</em>):\n   <em>Quand tu </em><em>auras fini</em><em> tes devoirs, tu pourras jouer.</em> — When you've finished your homework, you can play.\n   <em>Je t'appellerai dès que je </em><em>serai arrivé</em><em>.</em> — I'll call you as soon as I've arrived.\n   <em>English uses the present perfect here (\"when you have finished\"); French requires the futur antérieur.</em></li>\n<li><strong>Supposition about the past:</strong> <em>Il n'est pas là ? Il </em><em>aura oublié</em><em>.</em> — He's not here? He must have forgotten. / <em>Elle </em><em>aura</em><em> encore </em><em>raté</em><em> son bus.</em></li>\n<li><strong>Review / summing-up:</strong> <em>Il </em><em>aura passé</em><em> sa vie à aider les autres.</em> — He will have spent his life helping others.</li>\n</ol>"
+  },
+  {
+   "heading": "Futur simple vs futur antérieur",
+   "html": "<table>\n<thead>\n<tr>\n<th>Futur simple</th>\n<th>Futur antérieur</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Quand il </em><em>arrivera</em><em>, nous mangerons.</em> (both at the same time)</td>\n<td><em>Quand il </em><em>sera arrivé</em><em>, nous mangerons.</em> (arrival first, then eating)</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Timeline",
+   "html": "<pre><code> now ─────────● (futur antérieur) ─────────● (futur simple) ────→\n           j'aurai fini                je sortirai\n</code></pre>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Quand tu (lire) ___ ce livre, prête-le-moi.",
+   "instruction": "Put the verb in the futur antérieur:",
+   "answer": "auras lu",
+   "id": "e1"
+  },
+  {
+   "prompt": "Dès que nous (manger) ___, nous partirons.",
+   "answer": "aurons mangé",
+   "id": "e2"
+  },
+  {
+   "prompt": "À la fin de l'année, j'(économiser) ___ 5000 dollars.",
+   "answer": "aurai économisé",
+   "id": "e3"
+  },
+  {
+   "prompt": "Elle (partir) ___ avant ton arrivée.",
+   "answer": "sera partie",
+   "id": "e4"
+  },
+  {
+   "prompt": "Il est en retard ; il (se perdre) ___.",
+   "answer": "se sera perdu",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I'll call you once I've finished.\"",
+   "answer": "*Je t'appellerai une fois que j'aurai fini.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"By tomorrow, they will have left.\"",
+   "answer": "*D'ici demain, ils seront partis.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

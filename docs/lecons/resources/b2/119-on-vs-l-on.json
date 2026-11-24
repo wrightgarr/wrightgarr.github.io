@@ -1,0 +1,57 @@
+{
+ "id": "s119",
+ "subject": 119,
+ "level": "B2",
+ "title": "On vs L'on",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>L'on</strong> is simply <strong>on</strong> with an added <strong>l'</strong> for <strong>sound</strong> (euphony). It means exactly the same thing. It's used in <strong>formal or careful written French</strong> to avoid an awkward vowel clash or an unwanted sound.</p>"
+  },
+  {
+   "heading": "When l'on is used (optional, formal)",
+   "html": "<ol>\n<li><strong>After et, ou, où, si, que, qui, quoi</strong> (vowel sounds) to avoid a hiatus:\n   - <em>Si </em><em>l'on</em><em> veut réussir, il faut travailler.</em> (instead of <em>si on</em>)\n   - <em>C'est un endroit où </em><em>l'on</em><em> se sent bien.</em>\n   - <em>Je ne sais pas ce que </em><em>l'on</em><em> doit faire.</em>\n   - <em>…et </em><em>l'on</em><em> comprend pourquoi.</em></li>\n<li><strong>After que</strong> especially to avoid <em>qu'on</em> sounding like <em>con</em> (a vulgar word):\n   - <em>Il faut </em><em>que l'on</em><em> parte.</em> (instead of <em>qu'on parte</em>)</li>\n<li>At the <strong>start of a sentence</strong> in very formal style: <em><strong>L'on</strong> dit que…</em> (rare, literary).</li>\n</ol>"
+  },
+  {
+   "heading": "When NOT to use l'on",
+   "html": "<ul>\n<li><strong>Before a word starting with l-</strong> (to avoid \"l'on l…\"): <em>Si </em><em>on</em><em> le voit…</em> (not ~~si l'on le voit~~), <em>…où </em><em>on</em><em> lit</em>.</li>\n<li>In <strong>everyday speech</strong>: just say <em>on</em>.</li>\n<li>After <strong>dont</strong> (consonant sound — no hiatus): <em>dont on parle</em>.</li>\n</ul>"
+  },
+  {
+   "heading": "Origin",
+   "html": "<p><em>On</em> comes from the Latin <em>homo</em> (man), and <em>l'on</em> comes from <em>l'homme</em>, \"the man\". The article survived as a sound filler.</p>"
+  },
+  {
+   "heading": "Comparison",
+   "html": "<table>\n<thead>\n<tr>\n<th>Everyday</th>\n<th>Formal / written</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><em>Si on veut…</em></td>\n<td><em>Si l'on veut…</em></td>\n</tr>\n<tr>\n<td><em>C'est là où on habite.</em></td>\n<td><em>C'est là où l'on habite.</em></td>\n</tr>\n<tr>\n<td><em>Il faut qu'on parle.</em></td>\n<td><em>Il faut que l'on parle.</em></td>\n</tr>\n<tr>\n<td><em>Si on le fait…</em></td>\n<td><em>Si on le fait…</em> (no change: l-)</td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Si on part maintenant, on arrivera à l'heure.",
+   "instruction": "Rewrite in formal style using *l'on* where appropriate:",
+   "answer": "*Si l'on part maintenant, on arrivera à l'heure.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "C'est le restaurant où on a mangé.",
+   "answer": "*C'est le restaurant où l'on a mangé.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "Il faut qu'on trouve une solution.",
+   "answer": "*Il faut que l'on trouve une solution.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Si on lit ce livre, on comprend mieux.",
+   "answer": "*Si on lit ce livre, on comprend mieux.* (no change: *lit* starts with l)",
+   "id": "e4"
+  },
+  {
+   "prompt": "Les gens dont on parle sont ici.",
+   "answer": "*Les gens dont on parle sont ici.* (no change: no vowel clash after *dont*)",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

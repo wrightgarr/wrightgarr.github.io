@@ -1,0 +1,174 @@
+{
+  "id": "b1-18",
+  "level": "B1",
+  "number": 18,
+  "title": "Dès que la banque répondra",
+  "grammar": "the future after *quand, dès que, lorsque, tant que*",
+  "theme": "a business plan",
+  "wordCount": 334,
+  "primer": [
+    "**quand / lorsque + futur**: when (in the future)",
+    "**dès que / aussitôt que + futur**: as soon as",
+    "**tant que + futur**: as long as",
+    "**English uses the present here**: \"as soon as the bank answers\"",
+    "**le calendrier**: the schedule",
+    "**une part**: a share"
+  ],
+  "passage": [
+    [
+      "Fin juin, Nadia a présenté son plan à toute l'équipe. Elle avait passé des semaines avec un avocat, un comptable et l'oncle de Lucas, celui qui travaillait dans une coopérative à Lyon."
+    ],
+    [
+      "— Voici le calendrier, a-t-elle annoncé en projetant un tableau sur le mur. Dès que la banque donnera son accord, nous créerons la coopérative. Lorsque les statuts seront signés, chacun de vous pourra acheter des parts. Et quand la coopérative existera, Médias Plus ne pourra plus rien faire.",
+      "— Et quand est-ce que la banque répondra ? a demandé Théo.",
+      "— Le 15 juillet. Aussitôt que je recevrai la réponse, je vous enverrai un message.",
+      "— Et si elle dit non ? a demandé Lucas.",
+      "— Alors nous chercherons d'autres solutions : les lecteurs, la région, une campagne de financement participatif. Tant que nous serons unis, nous trouverons une solution."
+    ],
+    [
+      "Karim a levé la main."
+    ],
+    [
+      "— Combien coûtera une part ?",
+      "— Cinq cents euros. Vous pourrez payer en plusieurs fois. Personne ne sera obligé, mais chacun aura une voix, quel que soit le nombre de parts. Que vous soyez stagiaire ou rédactrice en chef, votre voix comptera autant que la mienne."
+    ],
+    [
+      "Un murmure a parcouru la salle. Lucas avait les yeux brillants."
+    ],
+    [
+      "— Moi aussi, je pourrai voter ?",
+      "— Dès que tu seras salarié. Et tu le seras en septembre, si tu acceptes le contrat que je vais te proposer."
+    ],
+    [
+      "Lucas est resté bouche bée. Puis toute l'équipe a applaudi."
+    ],
+    [
+      "Le soir, dans son carnet, Léa a fait la liste de ce qui l'attendait cet été :"
+    ],
+    [
+      "« Quand Thomas arrivera, le 12 juillet, je lui montrerai les calanques. Dès que je recevrai la réponse de la banque, j'appellerai Amina. Lorsque Amina passera son concours, le 20 juillet, je serai au premier rang avec Madame Ferrand. Quand la coopérative existera, j'achèterai deux parts. Et quand tout sera fini, je dormirai une semaine entière. »"
+    ],
+    [
+      "Elle a relu la liste en souriant. Tout semblait possible. Puis elle a ajouté une dernière ligne, plus petite : « Quand je saurai ce que je veux vraiment… »"
+    ],
+    [
+      "Elle n'a pas terminé la phrase."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "un avocat",
+      "en": "a lawyer"
+    },
+    {
+      "fr": "un comptable",
+      "en": "an accountant"
+    },
+    {
+      "fr": "en projetant",
+      "en": "projecting"
+    },
+    {
+      "fr": "son accord",
+      "en": "its approval"
+    },
+    {
+      "fr": "les statuts",
+      "en": "the company articles"
+    },
+    {
+      "fr": "le financement participatif",
+      "en": "crowdfunding"
+    },
+    {
+      "fr": "unis",
+      "en": "united"
+    },
+    {
+      "fr": "en plusieurs fois",
+      "en": "in instalments"
+    },
+    {
+      "fr": "quel que soit le nombre",
+      "en": "whatever the number"
+    },
+    {
+      "fr": "Que vous soyez … ou …",
+      "en": "Whether you are … or …",
+      "match": [
+        "Que vous soyez"
+      ]
+    },
+    {
+      "fr": "Un murmure a parcouru la salle",
+      "en": "A murmur ran through the room"
+    },
+    {
+      "fr": "bouche bée",
+      "en": "speechless, open-mouthed"
+    }
+  ],
+  "spotlight": [
+    "**The future after time conjunctions:** when the main verb is in the future, French puts the *quand* clause in the future too: *Dès que la banque donnera son accord, nous créerons la coopérative. Aussitôt que je recevrai la réponse, je vous enverrai un message. Quand Thomas arrivera, je lui montrerai les calanques.* English uses the present here (\"as soon as the bank agrees\").",
+    "**Tant que** means \"as long as\": *Tant que nous serons unis, nous trouverons une solution.* *Lorsque* is a more formal *quand*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Que se passera-t-il dès que la banque donnera son accord ?",
+      "answer": "Ils créeront la coopérative",
+      "options": [
+        "Ils créeront la coopérative",
+        "Ils vendront le magazine",
+        "Ils déménageront à Paris",
+        "Nadia prendra sa retraite"
+      ],
+      "evidence": "Dès que la banque donnera son accord, nous créerons la coopérative."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quelle règle de vote Nadia propose-t-elle pour la coopérative ?",
+      "answer": "Chaque personne aura une voix, quel que soit son nombre de parts",
+      "options": [
+        "Chaque personne aura une voix, quel que soit son nombre de parts",
+        "Ceux qui ont le plus de parts décideront",
+        "Seule Nadia pourra voter",
+        "Les stagiaires ne voteront pas"
+      ],
+      "evidence": "Personne ne sera obligé, mais chacun aura une voix, quel que soit le nombre de parts."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi Lucas reste-t-il « bouche bée » ?",
+      "answer": "Nadia lui propose un contrat de salarié en septembre",
+      "options": [
+        "Nadia lui propose un contrat de salarié en septembre",
+        "Il est renvoyé",
+        "Il doit acheter dix parts",
+        "Il devient rédacteur en chef"
+      ],
+      "evidence": "Et tu le seras en septembre, si tu acceptes le contrat que je vais te proposer."
+    }
+  ],
+  "writing": {
+    "prompt": "Écrivez trois phrases sur vos projets avec *quand, dès que* et *tant que* + futur.",
+    "model": "Quand je finirai mes études, je chercherai un travail à l'étranger. Dès que j'aurai un peu d'argent, je voyagerai. Tant que je serai jeune, je profiterai de la vie.",
+    "targets": [
+      {
+        "label": "quand / lorsque + future",
+        "pattern": "\\b(quand|lorsqu)\\b[^.!?]*\\b[a-zà-ÿ]+r(ai|as|a|ons|ez|ont)\\b",
+        "min": 1
+      },
+      {
+        "label": "dès que / aussitôt que",
+        "pattern": "dès qu|aussitôt qu",
+        "min": 1
+      },
+      {
+        "label": "tant que",
+        "pattern": "tant qu",
+        "min": 1
+      }
+    ]
+  }
+}

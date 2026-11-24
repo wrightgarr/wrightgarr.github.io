@@ -1,0 +1,201 @@
+{
+  "id": "b2-25",
+  "level": "B2",
+  "number": 25,
+  "title": "Au fil des pages",
+  "grammar": "advanced time expressions",
+  "theme": "correcting the proofs",
+  "wordCount": 515,
+  "primer": [
+    "**au fur et à mesure que / à mesure que**: as (gradually)",
+    "**depuis que**: since (+ verb)",
+    "**jusqu'à ce que / en attendant que + subj.**: until / while waiting for",
+    "**une fois que / dès lors que**: once / from the moment that",
+    "**d'ici à ce que + subj.**: between now and when",
+    "**sitôt + participe passé**: as soon as (*sitôt les épreuves envoyées*)"
+  ],
+  "passage": [
+    [
+      "De février à avril, la vie de Léa a tourné autour des épreuves du livre. Au fur et à mesure que les pages arrivaient de l'imprimerie, elle les relisait avec Madame Ferrand, puis les renvoyait à Hélène, couvertes de petites corrections au crayon rouge."
+    ],
+    [
+      "Depuis qu'elle était sortie de l'hôpital, Madame Ferrand marchait avec une canne, mais elle n'avait rien perdu de son énergie. Elle s'installait chaque matin à sa table de cuisine, les épreuves devant elle, et elle n'en bougeait plus jusqu'à ce que la dernière page de la journée soit lue."
+    ],
+    [
+      "— Une fois que ce chapitre sera fini, on fera une pause, promettait-elle."
+    ],
+    [
+      "Elle ne faisait jamais de pause."
+    ],
+    [
+      "À mesure que le livre prenait forme, quelque chose changeait aussi chez Léa. Elle avait commencé ce projet pour Jean, puis pour Madame Ferrand. Mais en relisant les épreuves, elle s'apercevait qu'il parlait aussi d'elle : d'une Parisienne arrivée un soir de janvier avec un chat et des cartons, et qui avait fini par appartenir à une ville."
+    ],
+    [
+      "Thomas, lui, l'observait avec patience. Il préparait le dîner tous les soirs en attendant qu'elle rentre, et il ne posait pas de questions tant qu'elle n'avait pas envie d'en parler. Un soir d'avril, pourtant, il a posé sa fourchette."
+    ],
+    [
+      "— Je peux te dire quelque chose ?",
+      "— Bien sûr.",
+      "— Dès lors que ce livre sera sorti, il faudra que tu penses un peu à toi. Pas au Mistral, pas à Horizons, pas aux carnets. À toi. À nous."
+    ],
+    [
+      "Léa l'a regardé longtemps."
+    ],
+    [
+      "— Tu as raison. D'ici à ce que le livre sorte, je n'ai pas le temps de penser à autre chose. Mais après…",
+      "— Après ?",
+      "— Après, sitôt les épreuves envoyées, je t'emmène en Bretagne. Je voudrais te présenter Yann et ses phares."
+    ],
+    [
+      "Thomas a souri."
+    ],
+    [
+      "— Marché conclu."
+    ],
+    [
+      "Ce soir-là, pour la première fois depuis des semaines, ils ont dîné sans parler du livre. Ils ont parlé de la Bretagne, de la mer, des phares, et de la valise rouge qui avait tout commencé."
+    ],
+    [
+      "Il restait un dernier carnet, le numéro 40. Madame Ferrand avait refusé qu'on l'ouvre."
+    ],
+    [
+      "— Pas tant que le livre ne sera pas terminé, avait-elle dit. Jean l'a écrit à la fin de sa vie. Je veux le lire en dernier, quand tout le reste sera fait."
+    ],
+    [
+      "Léa avait respecté sa décision. Le carnet attendait sur l'étagère pendant qu'elles relisaient le chapitre 10, consacré aux dernières années de Jean."
+    ],
+    [
+      "— Et si le carnet 40 contenait quelque chose d'important pour le livre ? avait demandé Hélène, inquiète.",
+      "— Alors on le mettra dans la deuxième édition, avait répondu Madame Ferrand."
+    ],
+    [
+      "Le 28 avril, à onze heures du soir, Léa a corrigé la dernière virgule de la dernière page. Elle a refermé le paquet d'épreuves, l'a glissé dans une grande enveloppe, et elle est restée un moment immobile, les mains à plat sur la table."
+    ],
+    [
+      "Madame Ferrand, qui somnolait dans son fauteuil, a ouvert un œil."
+    ],
+    [
+      "— C'est fini ?",
+      "— C'est fini.",
+      "— Alors le carnet 40 attendra encore un peu, a dit la vieille dame en refermant les yeux. Je l'ouvrirai le jour où je tiendrai le livre dans mes mains. Pas avant."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "les épreuves",
+      "en": "the proofs"
+    },
+    {
+      "fr": "l'imprimerie",
+      "en": "the printer's"
+    },
+    {
+      "fr": "elle n'en bougeait plus",
+      "en": "she didn't budge from it"
+    },
+    {
+      "fr": "prenait forme",
+      "en": "was taking shape"
+    },
+    {
+      "fr": "s'apercevait",
+      "en": "was realizing"
+    },
+    {
+      "fr": "appartenir à",
+      "en": "to belong to"
+    },
+    {
+      "fr": "tant que",
+      "en": "as long as"
+    },
+    {
+      "fr": "Marché conclu",
+      "en": "It's a deal"
+    },
+    {
+      "fr": "consacré aux",
+      "en": "devoted to"
+    },
+    {
+      "fr": "la deuxième édition",
+      "en": "the second edition"
+    },
+    {
+      "fr": "à plat",
+      "en": "flat"
+    },
+    {
+      "fr": "somnolait",
+      "en": "was dozing"
+    }
+  ],
+  "spotlight": [
+    "**Time as a process:** *Au fur et à mesure que les pages arrivaient, elle les relisait* and *À mesure que le livre prenait forme, quelque chose changeait* describe two things moving forward together. *Depuis qu'elle était sortie de l'hôpital* marks a starting point; *tant qu'elle n'avait pas envie d'en parler* means \"as long as\".",
+    "**Waiting and limits take the subjunctive:** *jusqu'à ce que la dernière page soit lue, en attendant qu'elle rentre, d'ici à ce que le livre sorte*. **Completion takes the indicative, often the future:** *Une fois que ce chapitre sera fini, Dès lors que ce livre sera sorti*. The compact *sitôt les épreuves envoyées* (as soon as the proofs have gone) uses just a past participle."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Comment Madame Ferrand travaille-t-elle sur les épreuves ?",
+      "answer": "Chaque matin à la table de la cuisine, sans s'arrêter jusqu'à la dernière page de la journée",
+      "options": [
+        "Chaque matin à la table de la cuisine, sans s'arrêter jusqu'à la dernière page de la journée",
+        "Seulement le dimanche",
+        "Elle laisse Léa tout faire",
+        "À l'hôpital, avec les infirmières"
+      ],
+      "evidence": "Elle s'installait chaque matin à sa table de cuisine, les épreuves devant elle, et elle n'en bougeait plus jusqu'à ce que la dernière page de la journée soit lue."
+    },
+    {
+      "id": "q2",
+      "prompt": "Que demande Thomas à Léa, et que lui promet-elle ?",
+      "answer": "De penser à elle et à leur couple après le livre ; elle promet un voyage en Bretagne",
+      "options": [
+        "De penser à elle et à leur couple après le livre ; elle promet un voyage en Bretagne",
+        "De quitter Le Mistral ; elle accepte",
+        "De déménager à Strasbourg ; elle refuse",
+        "De l'épouser ; elle dit oui"
+      ],
+      "evidence": "Après, sitôt les épreuves envoyées, je t'emmène en Bretagne."
+    },
+    {
+      "id": "q3",
+      "prompt": "Pourquoi Madame Ferrand refuse-t-elle d'ouvrir le carnet 40 ?",
+      "answer": "Elle veut le lire en dernier, quand le livre sera terminé",
+      "options": [
+        "Elle veut le lire en dernier, quand le livre sera terminé",
+        "Il est perdu",
+        "Il est trop abîmé",
+        "Anne le lui a interdit"
+      ],
+      "evidence": "Je veux le lire en dernier, quand tout le reste sera fait."
+    }
+  ],
+  "writing": {
+    "prompt": "Décrivez un long projet que vous avez mené (des études, un déménagement, une rénovation…) en 4–5 phrases, avec *au fur et à mesure que, depuis que, jusqu'à ce que* et *une fois que*.",
+    "model": "Depuis que j'ai commencé mes études, je travaille le soir. Au fur et à mesure que les examens approchaient, je dormais moins. J'ai révisé jusqu'à ce que je connaisse tout par cœur. Une fois que j'aurai mon diplôme, je partirai en voyage.",
+    "targets": [
+      {
+        "label": "au fur et à mesure que / à mesure que",
+        "pattern": "au fur et à mesure qu|à mesure qu",
+        "min": 1
+      },
+      {
+        "label": "depuis que",
+        "pattern": "depuis qu",
+        "min": 1
+      },
+      {
+        "label": "jusqu'à ce que / en attendant que / d'ici à ce que",
+        "pattern": "jusqu'à ce qu|en attendant qu|d'ici (à )?ce qu",
+        "min": 1
+      },
+      {
+        "label": "une fois que / dès lors que",
+        "pattern": "une fois qu|dès lors qu",
+        "min": 1
+      }
+    ]
+  }
+}

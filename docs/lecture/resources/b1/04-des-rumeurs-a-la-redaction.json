@@ -1,0 +1,164 @@
+{
+  "id": "b1-04",
+  "level": "B1",
+  "number": 4,
+  "title": "Des rumeurs à la rédaction",
+  "grammar": "subjunctive after doubt; indicative after certainty",
+  "theme": "office rumours",
+  "wordCount": 314,
+  "primer": [
+    "**je doute que / il est possible que + subj.**: I doubt that / it's possible that",
+    "**je ne pense pas que / je ne crois pas que + subj.**: I don't think that",
+    "**je pense que / je suis sûr(e) que + indicatif**: I think / I'm sure that",
+    "**une rumeur**: a rumour",
+    "**les ventes**: sales",
+    "**racheter**: to buy out"
+  ],
+  "passage": [
+    [
+      "En novembre, une rumeur a commencé à circuler à la rédaction du Mistral. Quelqu'un avait vu Nadia sortir d'un rendez-vous avec deux hommes en costume, des Parisiens apparemment. Depuis, personne ne parlait d'autre chose."
+    ],
+    [
+      "— Il est possible que le magazine soit vendu, a chuchoté Lucas devant la machine à café. Mon cousin travaille dans une banque, il dit que les ventes ont baissé de vingt pour cent.",
+      "— Je doute que ton cousin sache tout, a répondu Karim. Les ventes baissent partout. Ça ne veut pas dire que Nadia va tout abandonner.",
+      "— Moi, je ne pense pas qu'elle vende, a dit Léa. Elle a créé ce magazine il y a quinze ans. C'est son bébé.",
+      "— Les bébés grandissent, a dit Lucas."
+    ],
+    [
+      "Les jours suivants, l'ambiance est devenue lourde. Les journalistes se taisaient quand Nadia passait. Certains mettaient à jour leur CV. Le graphiste, Théo, était persuadé qu'on allait licencier la moitié de l'équipe."
+    ],
+    [
+      "— Je suis sûr qu'ils vont garder seulement le site internet, répétait-il. Le papier, c'est fini.",
+      "— Tu regardes trop de séries, lui a dit Karim."
+    ],
+    [
+      "Léa, elle, ne savait plus quoi croire. Un soir, elle est restée tard pour finir des retouches photo. Nadia était encore dans son bureau, la tête entre les mains. Léa a frappé doucement."
+    ],
+    [
+      "— Tout va bien ?"
+    ],
+    [
+      "Nadia a soupiré."
+    ],
+    [
+      "— Je ne crois pas que je puisse cacher la vérité plus longtemps. Oui, un groupe parisien veut racheter Le Mistral. Non, je n'ai rien signé. Je ne suis même pas certaine qu'ils fassent une vraie offre.",
+      "— Et si c'est le cas ?",
+      "— Alors il faudra que nous en parlions tous ensemble. Je ne veux pas que l'équipe apprenne la nouvelle par des rumeurs.",
+      "— C'est un peu tard pour ça, a dit Léa avec un petit sourire."
+    ],
+    [
+      "Nadia a ri, pour la première fois depuis des semaines."
+    ],
+    [
+      "— Je pense que tu as raison. Réunion lundi matin, neuf heures. Tout le monde."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "circuler",
+      "en": "to go around"
+    },
+    {
+      "fr": "en costume",
+      "en": "in suits"
+    },
+    {
+      "fr": "a chuchoté",
+      "en": "whispered"
+    },
+    {
+      "fr": "ont baissé",
+      "en": "have dropped"
+    },
+    {
+      "fr": "l'ambiance",
+      "en": "the atmosphere"
+    },
+    {
+      "fr": "lourde",
+      "en": "heavy, tense"
+    },
+    {
+      "fr": "se taisaient",
+      "en": "went quiet"
+    },
+    {
+      "fr": "mettaient à jour leur CV",
+      "en": "were updating their CVs"
+    },
+    {
+      "fr": "persuadé",
+      "en": "convinced"
+    },
+    {
+      "fr": "licencier",
+      "en": "to lay off"
+    },
+    {
+      "fr": "des retouches photo",
+      "en": "photo edits"
+    },
+    {
+      "fr": "a soupiré",
+      "en": "sighed"
+    }
+  ],
+  "spotlight": [
+    "**Doubt and possibility take the subjunctive:** *Il est possible que le magazine soit vendu. Je doute que ton cousin sache tout. Je ne pense pas qu'elle vende. Je ne suis même pas certaine qu'ils fassent une vraie offre.*",
+    "**Certainty takes the indicative:** *Je suis sûr qu'ils vont garder seulement le site. Je pense que tu as raison.* The same verb switches when it's negative: *je pense que tu as raison* (indicative) vs. *je ne pense pas qu'elle vende* (subjunctive)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Quelle rumeur circule à la rédaction, et d'où vient-elle ?",
+      "answer": "Le magazine pourrait être vendu : quelqu'un a vu Nadia avec deux hommes en costume",
+      "options": [
+        "Le magazine pourrait être vendu : quelqu'un a vu Nadia avec deux hommes en costume",
+        "Nadia va prendre sa retraite",
+        "Le magazine va s'installer à Lyon",
+        "Karim va devenir rédacteur en chef"
+      ],
+      "evidence": "Quelqu'un avait vu Nadia sortir d'un rendez-vous avec deux hommes en costume, des Parisiens apparemment."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi Léa ne croit-elle pas que Nadia vendra le magazine ?",
+      "answer": "Nadia a créé le magazine il y a quinze ans : c'est son bébé",
+      "options": [
+        "Nadia a créé le magazine il y a quinze ans : c'est son bébé",
+        "Nadia a beaucoup d'argent",
+        "Les ventes ont augmenté",
+        "Nadia l'a promis à l'équipe"
+      ],
+      "evidence": "Elle a créé ce magazine il y a quinze ans. C'est son bébé."
+    },
+    {
+      "id": "q3",
+      "prompt": "Qu'est-ce que Nadia avoue à Léa ce soir-là ?",
+      "answer": "Un groupe parisien veut racheter Le Mistral, mais elle n'a rien signé",
+      "options": [
+        "Un groupe parisien veut racheter Le Mistral, mais elle n'a rien signé",
+        "Elle a déjà vendu le magazine",
+        "Elle va licencier la moitié de l'équipe",
+        "Elle part travailler à Paris"
+      ],
+      "evidence": "Oui, un groupe parisien veut racheter Le Mistral. Non, je n'ai rien signé."
+    }
+  ],
+  "writing": {
+    "prompt": "Donnez votre avis sur l'avenir des journaux papier en trois phrases : une certitude (indicatif), un doute et une possibilité (subjonctif).",
+    "model": "Je suis sûr que les journaux papier vont devenir plus rares. Je doute qu'ils disparaissent complètement. Il est possible que les lecteurs reviennent au papier un jour.",
+    "targets": [
+      {
+        "label": "certainty + indicative (je suis sûr que, je pense que…)",
+        "pattern": "je suis (sûr|sûre|certain|certaine) qu|je pense qu|je crois qu",
+        "min": 1
+      },
+      {
+        "label": "doubt / possibility + que",
+        "pattern": "je doute qu|il est possible qu|je ne pense pas qu|je ne crois pas qu|il se peut qu",
+        "min": 2
+      }
+    ]
+  }
+}

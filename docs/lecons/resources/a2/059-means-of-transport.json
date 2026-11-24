@@ -1,0 +1,67 @@
+{
+ "id": "s59",
+ "subject": 59,
+ "level": "A2",
+ "title": "Means of Transport",
+ "sections": [
+  {
+   "heading": "en vs à",
+   "html": "<table>\n<thead>\n<tr>\n<th><strong>en</strong> = inside the vehicle (enclosed)</th>\n<th><strong>à</strong> = on top of / using your body</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>en voiture / en auto (Qc)</td>\n<td>à vélo (or en vélo, colloquial)</td>\n</tr>\n<tr>\n<td>en bus / en autobus</td>\n<td>à moto</td>\n</tr>\n<tr>\n<td>en train</td>\n<td>à pied (on foot)</td>\n</tr>\n<tr>\n<td>en avion</td>\n<td>à cheval</td>\n</tr>\n<tr>\n<td>en bateau</td>\n<td>à trottinette (scooter)</td>\n</tr>\n<tr>\n<td>en métro</td>\n<td>à ski</td>\n</tr>\n<tr>\n<td>en taxi</td>\n<td></td>\n</tr>\n<tr>\n<td>en tramway</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<p><em>Je vais au travail </em><em>en</em><em> métro.</em> / <em>Il vient </em><em>à</em><em> pied.</em></p>"
+  },
+  {
+   "heading": "Vocabulary",
+   "html": "<table>\n<thead>\n<tr>\n<th>French</th>\n<th>English</th>\n<th>French</th>\n<th>English</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>la voiture</td>\n<td>car</td>\n<td>le camion</td>\n<td>truck</td>\n</tr>\n<tr>\n<td>le bus / l'autobus</td>\n<td>bus</td>\n<td>le car (Fr)</td>\n<td>coach</td>\n</tr>\n<tr>\n<td>le train</td>\n<td>train</td>\n<td>le TGV</td>\n<td>high-speed train (France)</td>\n</tr>\n<tr>\n<td>l'avion (m)</td>\n<td>plane</td>\n<td>l'hélicoptère (m)</td>\n<td>helicopter</td>\n</tr>\n<tr>\n<td>le bateau</td>\n<td>boat</td>\n<td>le traversier (Qc) / le ferry</td>\n<td>ferry</td>\n</tr>\n<tr>\n<td>le métro</td>\n<td>subway</td>\n<td>le tramway</td>\n<td>streetcar / tram</td>\n</tr>\n<tr>\n<td>le vélo</td>\n<td>bike</td>\n<td>la moto</td>\n<td>motorcycle</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Places and people",
+   "html": "<p><em>la gare</em> (train station), <em>la gare routière</em> / <em>le terminus</em> (bus station), <em>l'arrêt d'autobus</em> (bus stop), <em>la station de métro</em>, <em>l'aéroport</em>, <em>le port</em>, <em>le quai</em> (platform), <em>le conducteur / le chauffeur</em> (driver), <em>le pilote</em>, <em>le passager / la passagère</em>.</p>"
+  },
+  {
+   "heading": "Key verbs",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verb</th>\n<th>Meaning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>prendre</strong> (le bus, le train)</td>\n<td>to take</td>\n</tr>\n<tr>\n<td><strong>conduire</strong></td>\n<td>to drive (<em>je conduis, j'ai conduit</em>)</td>\n</tr>\n<tr>\n<td><strong>monter dans</strong> / <strong>descendre de</strong></td>\n<td>to get on / get off</td>\n</tr>\n<tr>\n<td><strong>rater / manquer</strong></td>\n<td>to miss (a bus)</td>\n</tr>\n<tr>\n<td><strong>attendre</strong></td>\n<td>to wait for</td>\n</tr>\n<tr>\n<td><strong>réserver un billet</strong></td>\n<td>to book a ticket</td>\n</tr>\n<tr>\n<td><strong>atterrir / décoller</strong></td>\n<td>to land / take off</td>\n</tr>\n<tr>\n<td><strong>se garer / stationner</strong> (Qc)</td>\n<td>to park</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Useful phrases",
+   "html": "<ul>\n<li><em>Un aller simple / un aller-retour pour Québec, s'il vous plaît.</em> — A one-way / return ticket to Québec, please.</li>\n<li><em>Le train part de quel quai ?</em> — Which platform does the train leave from?</li>\n<li><em>Le vol est en retard / annulé.</em> — The flight is delayed / cancelled.</li>\n<li><em>Il y a beaucoup de circulation / de bouchons / de trafic (Qc).</em> — There's a lot of traffic.</li>\n<li><em>Ça prend combien de temps ?</em> — How long does it take? → <em>Ça prend 20 minutes en métro.</em></li>\n<li><em>J'ai raté le dernier bus.</em> — I missed the last bus.</li>\n<li><em>Mon permis de conduire</em> — my driver's licence</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Je vais à Paris ___ avion.",
+   "instruction": "*en* or *à*?",
+   "answer": "en",
+   "id": "e1"
+  },
+  {
+   "prompt": "Elle va à l'école ___ pied.",
+   "answer": "à",
+   "id": "e2"
+  },
+  {
+   "prompt": "Nous voyageons ___ train.",
+   "answer": "en",
+   "id": "e3"
+  },
+  {
+   "prompt": "Il fait le tour du lac ___ vélo.",
+   "answer": "à",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"I take the subway to go to work.\"",
+   "answer": "*Je prends le métro pour aller au travail.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "Translate: \"I missed my flight!\"",
+   "answer": "*J'ai raté mon vol !*",
+   "id": "e6"
+  },
+  {
+   "prompt": "Translate: \"A return ticket to Ottawa, please.\"",
+   "answer": "*Un aller-retour pour Ottawa, s'il vous plaît.*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}

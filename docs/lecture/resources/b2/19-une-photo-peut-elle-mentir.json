@@ -1,0 +1,184 @@
+{
+  "id": "b2-19",
+  "level": "B2",
+  "number": 19,
+  "title": "Une photo peut-elle mentir ?",
+  "grammar": "*quoi que, qui que, où que, quel que soit, si… que* + subjunctive",
+  "theme": "AI images and the truth",
+  "wordCount": 513,
+  "primer": [
+    "**quoi que + subj.**: whatever (*quoi qu'on en dise*)",
+    "**qui que + subj.**: whoever",
+    "**où que + subj.**: wherever",
+    "**quel(le)(s) que soit / soient + nom**: whatever (the…)",
+    "**si + adjectif + que + subj.**: however (*si objective qu'elle paraisse*)",
+    "**non que / pour autant que + subj.**: not that / provided that, as far as"
+  ],
+  "passage": [
+    [
+      "Au début de l'été, une photo a fait le tour des réseaux sociaux : un vieux pêcheur marseillais, le visage creusé de rides, tenant dans ses bras un énorme thon sous un ciel d'orage. L'image était superbe. Des milliers de personnes l'ont partagée. Un grand quotidien l'a même publiée en une."
+    ],
+    [
+      "Le problème, c'est que ce pêcheur n'existait pas. L'image avait été entièrement fabriquée par une intelligence artificielle."
+    ],
+    [
+      "À la rédaction du Mistral, la nouvelle a provoqué un débat passionné."
+    ],
+    [
+      "— Quoi qu'on en dise, c'est une œuvre, a soutenu Théo, le graphiste. Quelqu'un a eu l'idée, a choisi la lumière, le cadrage. C'est un outil, comme un pinceau.",
+      "— Un pinceau ne prétend pas montrer la réalité, a répondu Karim. Qui que soit l'auteur de cette image, il a trompé les lecteurs. Ce n'est pas une œuvre, c'est un faux."
+    ],
+    [
+      "Nadia s'est tournée vers Léa."
+    ],
+    [
+      "— Et toi ? Tu es la seule photographe ici. Écris-nous quelque chose."
+    ],
+    [
+      "Voici l'éditorial que Léa a publié la semaine suivante."
+    ],
+    [
+      "« Une photo peut-elle mentir ?"
+    ],
+    [
+      "Les photos ont toujours un peu menti. Quel que soit le photographe, il choisit un cadre, un moment, une lumière ; il laisse hors champ ce qui dérange. Si objective qu'elle paraisse, une image est toujours un point de vue. Je le sais mieux que personne : chaque jour, je décide de ce que vous verrez."
+    ],
+    [
+      "Mais il y a une différence entre choisir dans le réel et inventer le réel. Le pêcheur que des millions de personnes ont admiré n'a jamais respiré, jamais pêché, jamais vu la mer. Où que l'on cherche, on ne trouvera ni son village, ni son bateau, ni sa famille. Il n'a pas d'histoire, parce qu'il n'a pas de vie."
+    ],
+    [
+      "Non que je rejette ces outils. Ils ouvrent des possibilités fascinantes aux artistes, aux illustrateurs, aux cinéastes. Pour autant que l'on sache ce que l'on regarde, je n'y vois aucun mal. Le mensonge ne commence pas avec la machine ; il commence avec l'étiquette. Une image fabriquée présentée comme une photographie, c'est une fausse information, quelle que soit sa beauté."
+    ],
+    [
+      "Il y a quelques mois, j'ai photographié Gaston Rinaldi, quatre-vingt-huit ans, ancien docker du port de Marseille. Ses mains ne sont pas aussi spectaculaires que celles du pêcheur imaginaire, et la lumière était médiocre, ce jour-là. Mais Gaston existe. Il a porté des sacs de soixante kilos pendant quarante ans. Il a connu Jean Ferrand. Il m'a raconté sa vie. Quoi que puisse produire une machine, elle ne pourra jamais produire cela : un témoin."
+    ],
+    [
+      "C'est pourquoi Le Mistral s'engage aujourd'hui, comme d'autres journaux, à indiquer clairement l'origine de chaque image publiée. Quelles que soient les évolutions de la technique, nos lecteurs ont le droit de savoir ce qui est vrai. »"
+    ],
+    [
+      "L'éditorial a été repris par plusieurs écoles de journalisme. Théo, qui n'était pas d'accord au départ, a fini par dessiner le petit logo que Le Mistral appose désormais sous chaque photo : un œil, et la mention « Photo réelle »."
+    ],
+    [
+      "— Je ne suis pas convaincu à cent pour cent, a-t-il avoué à Léa. Mais j'aime bien le logo.",
+      "— C'est toi qui l'as dessiné, a-t-elle répondu.",
+      "— Justement."
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "a fait le tour des réseaux sociaux",
+      "en": "went viral"
+    },
+    {
+      "fr": "creusé de rides",
+      "en": "deeply lined"
+    },
+    {
+      "fr": "un quotidien",
+      "en": "a daily newspaper"
+    },
+    {
+      "fr": "en une",
+      "en": "on the front page"
+    },
+    {
+      "fr": "a soutenu",
+      "en": "argued"
+    },
+    {
+      "fr": "le cadrage",
+      "en": "the framing"
+    },
+    {
+      "fr": "un pinceau",
+      "en": "a paintbrush"
+    },
+    {
+      "fr": "un faux",
+      "en": "a fake"
+    },
+    {
+      "fr": "hors champ",
+      "en": "out of frame"
+    },
+    {
+      "fr": "médiocre",
+      "en": "poor"
+    },
+    {
+      "fr": "repris par",
+      "en": "taken up by"
+    },
+    {
+      "fr": "appose",
+      "en": "puts on"
+    },
+    {
+      "fr": "Justement",
+      "en": "Exactly (that's the point)"
+    }
+  ],
+  "spotlight": [
+    "**\"-ever\" expressions take the subjunctive:** *Quoi qu'on en dise* (whatever people say), *Qui que soit l'auteur* (whoever the author is), *Où que l'on cherche* (wherever you look), *Quel que soit le photographe, quelle que soit sa beauté, Quelles que soient les évolutions*. *Quel que* agrees with the noun after *être*. Don't confuse *quoi que* (whatever, two words) with *quoique* (although).",
+    "**Nuancing an argument:** *Si objective qu'elle paraisse* (however objective it may seem) concedes a point. *Non que je rejette ces outils* (not that I reject these tools) heads off an objection. *Pour autant que l'on sache ce que l'on regarde* (provided we know what we're looking at) sets a condition. All three take the subjunctive."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Pourquoi la photo du pêcheur a-t-elle provoqué un scandale ?",
+      "answer": "Le pêcheur n'existait pas : l'image avait été fabriquée par une IA",
+      "options": [
+        "Le pêcheur n'existait pas : l'image avait été fabriquée par une IA",
+        "La photo avait été volée à un photographe",
+        "Le pêcheur avait menti sur son poisson",
+        "La photo montrait une pêche interdite"
+      ],
+      "evidence": "Le problème, c'est que ce pêcheur n'existait pas."
+    },
+    {
+      "id": "q2",
+      "prompt": "Quelle différence Léa fait-elle entre « choisir dans le réel » et « inventer le réel » ?",
+      "answer": "Tout photographe choisit un cadre, mais une image fabriquée invente une personne qui n'a jamais vécu",
+      "options": [
+        "Tout photographe choisit un cadre, mais une image fabriquée invente une personne qui n'a jamais vécu",
+        "Une photo en noir et blanc est plus vraie",
+        "Seuls les professionnels disent la vérité",
+        "Il n'y a aucune différence"
+      ],
+      "evidence": "Mais il y a une différence entre choisir dans le réel et inventer le réel."
+    },
+    {
+      "id": "q3",
+      "prompt": "Quelle décision Le Mistral prend-il à la fin ?",
+      "answer": "Indiquer clairement l'origine de chaque image publiée, avec un logo « Photo réelle »",
+      "options": [
+        "Indiquer clairement l'origine de chaque image publiée, avec un logo « Photo réelle »",
+        "Ne plus publier de photos",
+        "Utiliser seulement des images d'IA",
+        "Interdire les téléphones à la rédaction"
+      ],
+      "evidence": "C'est pourquoi Le Mistral s'engage aujourd'hui, comme d'autres journaux, à indiquer clairement l'origine de chaque image publiée."
+    }
+  ],
+  "writing": {
+    "prompt": "Donnez un avis nuancé sur les images créées par intelligence artificielle en 4–5 phrases, avec au moins trois structures de ce module (*quoi que, quel que soit, si… que, non que, pour autant que*).",
+    "model": "Quoi qu'on en dise, ces images sont impressionnantes. Si réalistes qu'elles soient, elles ne remplacent pas un vrai témoin. Non que je sois contre la technologie, mais il faut être honnête. Quel que soit l'outil, le public doit savoir ce qu'il regarde.",
+    "targets": [
+      {
+        "label": "quoi que / qui que / où que",
+        "pattern": "\\bquoi qu(e|')|\\bqui que\\b|\\boù qu(e|')",
+        "min": 1
+      },
+      {
+        "label": "quel(le)(s) que soi(en)t",
+        "pattern": "\\bquel(le)?s? que soi(en)?t\\b",
+        "min": 1
+      },
+      {
+        "label": "si … que / non que / pour autant que",
+        "pattern": "\\bsi\\s+[a-zà-ÿ]+\\s+qu(e|')|\\bnon qu(e|')|pour autant qu(e|')",
+        "min": 1
+      }
+    ]
+  }
+}

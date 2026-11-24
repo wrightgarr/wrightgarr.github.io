@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f1f5f9">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="description" content="Lecture — learn French through graded reading: short stories with word hints, grammar notes, comprehension questions and writing practice, organised by CEFR level.">
+<title>Lecture — French Through Reading</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%234f46e5'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='700' text-anchor='middle' fill='white'%3EL%3C/text%3E%3C/svg%3E">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<style>
+  :root { color-scheme: light; }
+  html, body { height: 100%; }
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    background:
+      radial-gradient(1100px 520px at 50% -180px, #e0e7ff 0%, rgba(224,231,255,0) 70%),
+      #f1f5f9;
+    background-attachment: fixed;
+  }
+  .font-display { font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+  .safe-top { padding-top: max(1rem, env(safe-area-inset-top)); }
+  .safe-bottom { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+  .tabular { font-variant-numeric: tabular-nums; }
+
+  @keyframes viewIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  .view-enter { animation: viewIn .3s ease-out; }
+  @keyframes pop { 0% { transform: scale(.6); opacity: 0; } 60% { transform: scale(1.08); opacity: 1; } 100% { transform: scale(1); } }
+  .pop { animation: pop .5s cubic-bezier(.2,.8,.2,1); }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .spin { animation: spin 1s linear infinite; }
+
+  .bar { transition: width .6s cubic-bezier(.2,.8,.2,1); }
+  .press { transition: transform .12s ease, box-shadow .2s ease, background-color .2s ease, border-color .2s ease, color .2s ease, opacity .2s ease; }
+  .press:active { transform: scale(.97); }
+  .lift:hover { transform: translateY(-2px); box-shadow: 0 14px 30px -18px rgba(30,41,59,.35); }
+  .lift:active { transform: scale(.985); }
+
+  .toggle { transition: background-color .2s ease; }
+  .toggle > span { transition: transform .2s cubic-bezier(.2,.8,.2,1); }
+  .toggle[aria-pressed="true"] { background-color: #4f46e5; }
+  .toggle[aria-pressed="true"] > span { transform: translateX(1.25rem); }
+  input[type="range"] { accent-color: #4f46e5; }
+
+  /* Reading text */
+  .passage { font-size: 1.2rem; line-height: 1.85; }
+  .passage .para { border-radius: .9rem; padding: .35rem .6rem; margin: 0 -.6rem; transition: background-color .25s ease; }
+  .passage .para.speaking { background: #eef2ff; }
+  .passage .line + .line { margin-top: .15rem; }
+  .passage .dialogue { padding-left: .9rem; text-indent: -.9rem; }
+  .gl {
+    color: inherit; font: inherit; background: none; padding: 0; border: 0; cursor: pointer;
+    text-decoration: underline dotted #a5b4fc; text-decoration-thickness: 2px; text-underline-offset: 5px;
+    border-radius: .3rem;
+  }
+  .gl:hover, .gl.active { background: #eef2ff; color: #3730a3; text-decoration-color: #6366f1; }
+  .hints-off .gl { text-decoration: none; cursor: text; }
+  .hints-off .gl:hover { background: none; color: inherit; }
+  mark.ev { background: #fef3c7; color: #78350f; border-radius: .3rem; padding: .05rem .15rem; box-shadow: 0 0 0 2px #fde68a; }
+
+  /* Inline French examples (primer, grammar) */
+  em.fr { font-style: italic; color: #3730a3; cursor: pointer; border-radius: .25rem; }
+  em.fr:hover { background: #eef2ff; }
+
+  .steps::-webkit-scrollbar { display: none; }
+  .steps { scrollbar-width: none; }
+
+  #toast { transition: opacity .25s ease, transform .25s ease; }
+  #toast.show { opacity: 1; transform: translate(-50%, 0); }
+  #pop { transition: opacity .15s ease; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .bar, .press, .toggle, .toggle > span, .passage .para { transition-duration: .01ms !important; }
+    .view-enter, .pop { animation: none !important; }
+  }
+</style>
+</head>
+<body class="text-slate-800">
+
+<div id="app" class="mx-auto flex min-h-full w-full max-w-3xl flex-col px-4 sm:px-6">
+
+  <!-- ======================= DASHBOARD ======================= -->
+  <main id="view-dashboard" class="safe-top safe-bottom flex-1">
+    <header class="flex items-center justify-between py-2">
+      <div class="flex items-center gap-3">
+        <div class="font-display grid h-10 w-10 place-items-center rounded-xl bg-indigo-600 text-xl font-bold text-white shadow-sm shadow-indigo-300">L</div>
+        <div>
+          <h1 class="text-lg font-semibold leading-tight tracking-tight text-slate-900">Lecture</h1>
+          <p id="app-sub" class="text-xs text-slate-500">French through reading</p>
+        </div>
+      </div>
+      <button id="btn-settings" class="press grid h-10 w-10 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Settings">
+        <i data-lucide="settings" class="h-5 w-5"></i>
+      </button>
+    </header>
+
+    <section class="mt-5">
+      <p id="greeting" class="font-display text-3xl font-semibold tracking-tight text-slate-900">Bonjour !</p>
+      <p id="greeting-sub" class="mt-1 text-sm text-slate-500">Loading your readings…</p>
+    </section>
+
+    <div id="loading" class="mt-6 flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-600">
+      <i data-lucide="loader-circle" class="spin h-5 w-5 text-indigo-600"></i> Loading modules from the resources folder…
+    </div>
+    <div id="load-error" class="mt-6 hidden rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">
+      <p class="font-semibold">The modules could not be loaded.</p>
+      <p id="load-error-text" class="mt-1"></p>
+      <button id="btn-retry" class="press mt-3 rounded-xl bg-red-600 px-4 py-2 text-sm font-semibold text-white hover:bg-red-700">Try again</button>
+    </div>
+
+    <div id="dash-body" class="hidden">
+      <section class="mt-5 grid grid-cols-3 gap-3" aria-label="Your progress">
+        <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+          <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500"><i data-lucide="flame" class="h-4 w-4 text-orange-500"></i> Streak</div>
+          <p class="tabular mt-1 text-2xl font-semibold text-slate-900"><span id="stat-streak">0</span><span id="stat-streak-unit" class="ml-1 text-sm font-medium text-slate-400">days</span></p>
+          <p id="stat-streak-note" class="mt-0.5 truncate text-[11px] text-slate-400">Best: 0</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+          <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500"><i data-lucide="book-check" class="h-4 w-4 text-emerald-600"></i> Read</div>
+          <p class="tabular mt-1 text-2xl font-semibold text-slate-900" id="stat-done">0</p>
+          <p id="stat-total" class="mt-0.5 truncate text-[11px] text-slate-400">of 0 modules</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-3 sm:p-4">
+          <div class="flex items-center gap-1.5 text-xs font-medium text-slate-500"><i data-lucide="target" class="h-4 w-4 text-indigo-500"></i> Accuracy</div>
+          <p class="tabular mt-1 text-2xl font-semibold text-slate-900" id="stat-acc">–</p>
+          <p id="stat-answered" class="mt-0.5 truncate text-[11px] text-slate-400">0 questions answered</p>
+        </div>
+      </section>
+
+      <!-- Up next -->
+      <section id="next-card" class="mt-3"></section>
+
+      <section class="mt-7">
+        <div class="flex items-end justify-between">
+          <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500">Choose your level</h2>
+          <span class="text-xs text-slate-400">CEFR</span>
+        </div>
+        <div id="level-list" class="mt-3 grid gap-3 sm:grid-cols-2"></div>
+      </section>
+
+      <p class="mt-6 pb-2 text-center text-xs text-slate-400">Progress is saved on this device. Read each story twice: once for the gist, once slowly.</p>
+    </div>
+  </main>
+
+  <!-- ======================= LEVEL ======================= -->
+  <main id="view-level" class="safe-top safe-bottom hidden flex-1">
+    <header class="flex items-center gap-3 py-2">
+      <button id="btn-level-back" class="press grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Back to dashboard">
+        <i data-lucide="arrow-left" class="h-5 w-5"></i>
+      </button>
+      <div class="min-w-0 flex-1">
+        <h1 id="level-title" class="truncate text-lg font-semibold leading-tight tracking-tight text-slate-900"></h1>
+        <p id="level-sub" class="truncate text-xs text-slate-500"></p>
+      </div>
+      <span id="level-pct" class="tabular text-sm font-semibold"></span>
+    </header>
+    <div class="mt-2 h-2 overflow-hidden rounded-full bg-slate-200">
+      <div id="level-bar" class="bar h-full" style="width:0%"></div>
+    </div>
+    <p id="level-desc" class="mt-3 text-sm text-slate-500"></p>
+    <h2 class="mt-6 text-sm font-semibold uppercase tracking-wider text-slate-500">Modules</h2>
+    <div id="module-list" class="mt-3 grid gap-2.5 pb-4"></div>
+  </main>
+
+  <!-- ======================= MODULE ======================= -->
+  <main id="view-module" class="safe-top safe-bottom hidden flex-1">
+    <header class="flex items-center gap-3 py-2">
+      <button id="btn-module-back" class="press grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-600" aria-label="Back to modules">
+        <i data-lucide="arrow-left" class="h-5 w-5"></i>
+      </button>
+      <div class="min-w-0 flex-1">
+        <p id="mod-kicker" class="truncate text-xs font-medium text-slate-500"></p>
+        <h1 id="mod-title" lang="fr" class="font-display truncate text-xl font-semibold leading-tight tracking-tight text-slate-900"></h1>
+      </div>
+      <span id="mod-level" class="shrink-0 rounded-full px-2.5 py-1 text-xs font-bold tracking-wide"></span>
+    </header>
+    <p id="mod-focus" class="mt-1 text-sm text-slate-500"></p>
+
+    <nav id="steps" class="steps -mx-4 mt-4 flex gap-1.5 overflow-x-auto px-4 pb-1 sm:mx-0 sm:px-0" aria-label="Module sections"></nav>
+
+    <section id="step-body" class="mt-3"></section>
+
+    <div class="mt-4 grid grid-cols-2 gap-3 pb-4">
+      <button id="btn-prev" class="press flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-slate-700 hover:border-indigo-200 hover:text-indigo-700">
+        <i data-lucide="arrow-left" class="h-4 w-4"></i> <span id="btn-prev-label">Back</span>
+      </button>
+      <button id="btn-next" class="press flex items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-4 py-3.5 text-sm font-semibold text-white shadow-sm shadow-indigo-300 hover:bg-indigo-700">
+        <span id="btn-next-label">Next</span> <i data-lucide="arrow-right" class="h-4 w-4"></i>
+      </button>
+    </div>
+  </main>
+</div>
+
+<!-- Word popover -->
+<div id="pop" class="pointer-events-none fixed z-30 w-64 max-w-[85vw] rounded-2xl border border-slate-200 bg-white p-3 opacity-0 shadow-xl shadow-slate-300/50" role="dialog" aria-live="polite">
+  <div class="flex items-start justify-between gap-3">
+    <div class="min-w-0">
+      <p id="pop-fr" lang="fr" class="font-display text-lg font-semibold leading-snug text-slate-900"></p>
+      <p id="pop-en" class="mt-0.5 text-sm leading-snug text-slate-600"></p>
+    </div>
+    <button id="pop-speak" class="press grid h-9 w-9 shrink-0 place-items-center rounded-full bg-indigo-50 text-indigo-600 hover:bg-indigo-100" aria-label="Hear the word">
+      <i data-lucide="volume-2" class="h-4 w-4"></i>
+    </button>
+  </div>
+</div>
+
+<!-- Settings -->
+<div id="settings" class="fixed inset-0 z-40 hidden items-end justify-center bg-slate-900/40 backdrop-blur-sm sm:items-center" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+  <div class="view-enter safe-bottom max-h-[92vh] w-full max-w-md overflow-y-auto rounded-t-3xl bg-white p-5 shadow-2xl sm:rounded-3xl">
+    <div class="flex items-center justify-between">
+      <h2 id="settings-title" class="text-lg font-semibold tracking-tight text-slate-900">Settings</h2>
+      <button id="btn-settings-close" class="press grid h-9 w-9 place-items-center rounded-xl bg-slate-100 text-slate-600 hover:bg-slate-200" aria-label="Close settings">
+        <i data-lucide="x" class="h-4 w-4"></i>
+      </button>
+    </div>
+    <div class="mt-4 divide-y divide-slate-100">
+      <div class="flex items-center justify-between py-3">
+        <div>
+          <p class="text-sm font-medium text-slate-700">Word hints</p>
+          <p class="text-xs text-slate-400">Underline glossary words in the story; tap one to see its meaning</p>
+        </div>
+        <button id="toggle-hints" class="toggle relative h-7 w-12 shrink-0 rounded-full bg-slate-300 p-1" aria-pressed="false" aria-label="Word hints"><span class="block h-5 w-5 rounded-full bg-white shadow"></span></button>
+      </div>
+      <div class="py-3">
+        <div class="flex items-center justify-between">
+          <label for="rate" class="text-sm font-medium text-slate-700">Speech speed</label>
+          <span id="rate-label" class="tabular text-xs font-semibold text-indigo-600">0.9×</span>
+        </div>
+        <input id="rate" type="range" min="0.5" max="1.2" step="0.1" value="0.9" class="mt-2 w-full">
+        <button id="btn-test-voice" class="press mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-600 hover:text-indigo-800">
+          <i data-lucide="volume-2" class="h-3.5 w-3.5"></i> Test the French voice
+        </button>
+      </div>
+    </div>
+    <button id="btn-reset" class="press mt-4 w-full rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-semibold text-red-700 hover:bg-red-100">Reset all progress</button>
+  </div>
+</div>
+
+<div id="toast" class="pointer-events-none fixed bottom-6 left-1/2 z-50 max-w-[90vw] -translate-x-1/2 translate-y-3 rounded-full bg-slate-900 px-4 py-2 text-center text-sm font-medium text-white opacity-0 shadow-lg" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* =========================================================
+     1. CONFIGURATION
+     resources/index.json lists the levels and, for each, its
+     module files in reading order. See README.md to add a level.
+     ========================================================= */
+  const RESOURCES_DIR = "resources/";
+  const MANIFEST_FILE = "index.json";
+
+  const LEVEL_STYLE = {
+    A1: { color: "#047857", soft: "#d1fae5", tint: "#a7f3d0" },
+    A2: { color: "#0369a1", soft: "#e0f2fe", tint: "#bae6fd" },
+    B1: { color: "#4338ca", soft: "#e0e7ff", tint: "#c7d2fe" },
+    B2: { color: "#6d28d9", soft: "#ede9fe", tint: "#ddd6fe" },
+    C1: { color: "#be123c", soft: "#ffe4e6", tint: "#fecdd3" },
+    C2: { color: "#b45309", soft: "#fef3c7", tint: "#fde68a" }
+  };
+  const FALLBACK_STYLE = { color: "#334155", soft: "#e2e8f0", tint: "#cbd5e1" };
+
+  const STEPS = [
+    { id: "primer",  label: "Primer",  icon: "lightbulb" },
+    { id: "read",    label: "Read",    icon: "book-open" },
+    { id: "words",   label: "Words",   icon: "languages" },
+    { id: "grammar", label: "Grammar", icon: "puzzle" },
+    { id: "check",   label: "Check",   icon: "circle-check" }
+  ];
+  const ACCENT_KEYS = ["é", "è", "ê", "à", "â", "ç", "î", "ô", "ù", "û", "œ", "«", "»"];
+
+  /* =========================================================
+     2. LOADING
+     ========================================================= */
+  let LEVELS = [];          // [{ id, name, description, style, modules: [module] }]
+  let MODULE_BY_ID = {};
+  let ORDER = [];           // every module, in course order
+
+  function fetchJson(path) {
+    return fetch(RESOURCES_DIR + path, { cache: "no-cache" }).then(res => {
+      if (!res.ok) throw new Error(path + " (" + res.status + ")");
+      return res.json();
+    });
+  }
+  function validModule(m) {
+    return m && m.id && m.title && Array.isArray(m.passage) && m.passage.length &&
+      Array.isArray(m.questions) && m.questions.every(q => q.prompt && q.answer && Array.isArray(q.options) && q.options.indexOf(q.answer) !== -1);
+  }
+  function loadAll() {
+    return fetchJson(MANIFEST_FILE).then(manifest => {
+      const levels = (manifest && manifest.levels) || [];
+      return Promise.all(levels.map(lv =>
+        Promise.all((lv.modules || []).map(file =>
+          fetchJson(file).catch(err => ({ failed: file, error: err }))
+        )).then(mods => ({ raw: lv, mods: mods }))
+      ));
+    }).then(results => {
+      let failed = 0;
+      LEVELS = []; MODULE_BY_ID = {}; ORDER = [];
+      results.forEach(r => {
+        const id = String(r.raw.id || "").toUpperCase();
+        if (!id) return;
+        const level = {
+          id: id, name: r.raw.name || "Level " + id, description: r.raw.description || "",
+          style: LEVEL_STYLE[id] || FALLBACK_STYLE, modules: []
+        };
+        r.mods.forEach((m, i) => {
+          if (m && m.failed) { failed++; return; }
+          if (!validModule(m) || MODULE_BY_ID[m.id]) { failed++; return; }
+          m.level = id;
+          m.number = typeof m.number === "number" ? m.number : i + 1;
+          m.glossary = m.glossary || []; m.primer = m.primer || []; m.spotlight = m.spotlight || [];
+          m.questions.forEach((q, qi) => { q.id = q.id || "q" + (qi + 1); });
+          level.modules.push(m);
+          MODULE_BY_ID[m.id] = m;
+        });
+        level.modules.sort((a, b) => a.number - b.number);
+        LEVELS.push(level);
+        ORDER = ORDER.concat(level.modules);
+      });
+      if (failed) toast(failed === 1 ? "1 module could not be loaded" : failed + " modules could not be loaded");
+      if (!ORDER.length) throw new Error("No modules are listed in " + RESOURCES_DIR + MANIFEST_FILE);
+    });
+  }
+
+  /* =========================================================
+     3. STATE
+     ========================================================= */
+  const STORAGE_KEY = "lecture-french-v1";
+  function defaultState() {
+    return {
+      progress: {},     // module id -> { answers, firstScore, best, writing, checked, writingDone, completed, step, visited }
+      streak: { count: 0, best: 0, last: null },
+      totals: { answered: 0, correct: 0 },
+      settings: { rate: 0.9, hints: true },
+      lastModule: null
+    };
+  }
+  function loadState() {
+    const base = defaultState();
+    try {
+      const saved = JSON.parse(window.localStorage.getItem(STORAGE_KEY) || "null");
+      if (!saved || typeof saved !== "object") return base;
+      return {
+        progress: (saved.progress && typeof saved.progress === "object") ? saved.progress : {},
+        streak: Object.assign(base.streak, saved.streak || {}),
+        totals: Object.assign(base.totals, saved.totals || {}),
+        settings: Object.assign(base.settings, saved.settings || {}),
+        lastModule: saved.lastModule || null
+      };
+    } catch (err) { return base; }
+  }
+  let storageWarned = false;
+  function saveState() {
+    try { window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+    catch (err) { if (!storageWarned) { storageWarned = true; toast("Progress can't be saved in this browser mode"); } }
+  }
+  let state = loadState();
+  function prog(id) {
+    if (!state.progress[id]) state.progress[id] = { answers: {}, firstScore: null, best: null, writing: "", checked: false, writingDone: false, completed: false, step: "primer", visited: {} };
+    const p = state.progress[id];
+    p.answers = p.answers || {}; p.visited = p.visited || {};
+    return p;
+  }
+  function peek(id) { return state.progress[id] || null; }
+
+  /* =========================================================
+     4. HELPERS
+     ========================================================= */
+  const $ = id => document.getElementById(id);
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+  // Minimal inline markdown: **bold**, *French example* (tap to hear).
+  function md(s) {
+    return esc(s)
+      .replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold text-slate-900">$1</strong>')
+      .replace(/\*(.+?)\*/g, '<em lang="fr" class="fr" title="Tap to hear">$1</em>');
+  }
+  function plain(s) { return String(s).replace(/\*+/g, ""); }
+  function plural(n, one, many) { return n + " " + (n === 1 ? one : many); }
+  function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); const t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  }
+  function dateKey(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+  function yesterdayKey() { const d = new Date(); d.setDate(d.getDate() - 1); return dateKey(d); }
+  function currentStreak() {
+    const last = state.streak.last;
+    return (last === dateKey(new Date()) || last === yesterdayKey()) ? state.streak.count : 0;
+  }
+  function touchStreak() {
+    const today = dateKey(new Date());
+    if (state.streak.last === today) return;
+    state.streak.count = (state.streak.last === yesterdayKey()) ? state.streak.count + 1 : 1;
+    state.streak.last = today;
+    if (state.streak.count > state.streak.best) state.streak.best = state.streak.count;
+  }
+  let toastTimer = null;
+  function toast(message) {
+    const el = $("toast");
+    el.textContent = message;
+    el.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => el.classList.remove("show"), 2600);
+  }
+  function refreshIcons() { if (window.lucide && typeof window.lucide.createIcons === "function") window.lucide.createIcons(); }
+  function levelById(id) { return LEVELS.find(l => l.id === id) || null; }
+  function moduleIndexInLevel(m) { const lv = levelById(m.level); return lv ? lv.modules.indexOf(m) : -1; }
+  function nextModule(m) { const i = ORDER.indexOf(m); return i >= 0 && i < ORDER.length - 1 ? ORDER[i + 1] : null; }
+  function answeredCount(m) { const p = peek(m.id); return p ? m.questions.filter(q => p.answers[q.id]).length : 0; }
+  function correctCount(m) { const p = peek(m.id); return p ? m.questions.filter(q => p.answers[q.id] === q.answer).length : 0; }
+  function statusOf(m) {
+    const p = peek(m.id);
+    if (!p) return "new";
+    if (p.completed) return "done";
+    return (Object.keys(p.visited).length || answeredCount(m) || p.writing) ? "started" : "new";
+  }
+  function upNext(levelId) {
+    const pool = levelId ? (levelById(levelId) || { modules: [] }).modules : ORDER;
+    const last = state.lastModule && MODULE_BY_ID[state.lastModule];
+    if (last && (!levelId || last.level === levelId) && statusOf(last) === "started") return last;
+    return pool.find(m => statusOf(m) !== "done") || null;
+  }
+
+  /* Unicode-aware word boundaries for the writing checker (JS \b only knows ASCII). */
+  const UB = "(?:(?<=[\\p{L}\\p{N}_])(?![\\p{L}\\p{N}_])|(?<![\\p{L}\\p{N}_])(?=[\\p{L}\\p{N}_]))";
+  function compileTarget(pattern) {
+    try { return new RegExp(pattern.replace(/\\b/g, UB), "giu"); } catch (err) { return null; }
+  }
+  function normWriting(s) {
+    return String(s).normalize("NFC").toLowerCase().replace(/[’‘`´]/g, "'").replace(/\s+/g, " ");
+  }
+  function countMatches(re, text) { if (!re) return 0; re.lastIndex = 0; const m = text.match(re); return m ? m.length : 0; }
+
+  /* =========================================================
+     5. SPEECH (Web Speech API, fr-FR)
+     ========================================================= */
+  const speechSupported = ("speechSynthesis" in window) && ("SpeechSynthesisUtterance" in window);
+  let frenchVoice = null;
+  let speakToken = 0;
+  function pickFrenchVoice() {
+    if (!speechSupported) return;
+    const voices = window.speechSynthesis.getVoices() || [];
+    const lang = v => (v.lang || "").replace("_", "-").toLowerCase();
+    frenchVoice = voices.find(v => lang(v) === "fr-fr" && v.localService) || voices.find(v => lang(v) === "fr-fr") || voices.find(v => lang(v).indexOf("fr") === 0) || null;
+  }
+  if (speechSupported) {
+    pickFrenchVoice();
+    if (typeof window.speechSynthesis.addEventListener === "function") window.speechSynthesis.addEventListener("voiceschanged", pickFrenchVoice);
+    else window.speechSynthesis.onvoiceschanged = pickFrenchVoice;
+  }
+  function utter(text) {
+    const u = new SpeechSynthesisUtterance(String(text).replace(/^—\s*/gm, "").replace(/\s*\/\s*/g, ", "));
+    u.lang = "fr-FR";
+    if (frenchVoice) u.voice = frenchVoice;
+    u.rate = Number(state.settings.rate) || 0.9;
+    return u;
+  }
+  function stopSpeaking() {
+    speakToken++;
+    if (speechSupported) { try { window.speechSynthesis.cancel(); } catch (err) {} }
+    document.querySelectorAll(".para.speaking").forEach(el => el.classList.remove("speaking"));
+    const btn = $("btn-listen");
+    if (btn) setListenButton(false);
+  }
+  function speak(text, quiet) {
+    if (!text) return;
+    if (!speechSupported) { if (!quiet) toast("Speech isn't supported in this browser"); return; }
+    stopSpeaking();
+    try { if (!frenchVoice) pickFrenchVoice(); window.speechSynthesis.speak(utter(text)); }
+    catch (err) { if (!quiet) toast("Couldn't play audio"); }
+  }
+  // Read a list of paragraphs one after another, highlighting each.
+  function speakSequence(items, onStart, onDone) {
+    if (!speechSupported) { toast("Speech isn't supported in this browser"); return; }
+    stopSpeaking();
+    const token = speakToken;
+    let i = 0;
+    const next = () => {
+      if (token !== speakToken) return;
+      if (i >= items.length) { onDone && onDone(); return; }
+      const idx = i++;
+      onStart && onStart(idx);
+      const u = utter(items[idx]);
+      u.onend = next;
+      u.onerror = () => { if (token === speakToken) { onDone && onDone(); } };
+      try { window.speechSynthesis.speak(u); } catch (err) { onDone && onDone(); }
+    };
+    if (!frenchVoice) pickFrenchVoice();
+    next();
+  }
+
+  /* =========================================================
+     6. VIEWS & ROUTING (#a1, #a1-06)
+     ========================================================= */
+  const VIEWS = ["view-dashboard", "view-level", "view-module"];
+  function showView(id) {
+    VIEWS.forEach(v => {
+      const el = $(v), active = v === id;
+      el.classList.toggle("hidden", !active);
+      if (active) { el.classList.remove("view-enter"); void el.offsetWidth; el.classList.add("view-enter"); }
+    });
+    window.scrollTo(0, 0);
+  }
+  function setHash(h) {
+    const want = h ? "#" + h : "";
+    if (location.hash !== want) {
+      try { history.replaceState(null, "", want || location.pathname + location.search); } catch (err) { location.hash = h; }
+    }
+  }
+  function route() {
+    const h = (location.hash || "").replace(/^#/, "").toLowerCase();
+    const mod = ORDER.find(m => m.id.toLowerCase() === h);
+    if (mod) { openModule(mod.id); return; }
+    const lv = LEVELS.find(l => l.id.toLowerCase() === h);
+    if (lv && lv.modules.length) { openLevel(lv.id); return; }
+    goHome();
+  }
+
+  /* ---------- Dashboard ---------- */
+  function renderDashboard() {
+    const total = ORDER.length;
+    const done = ORDER.filter(m => statusOf(m) === "done").length;
+    const streak = currentStreak();
+    const next = upNext(null);
+
+    $("greeting").textContent = new Date().getHours() < 18 ? "Bonjour !" : "Bonsoir !";
+    $("greeting-sub").textContent = done === total ? "You've read every module. Félicitations !"
+      : done === 0 ? "Start with a short story. Every word you need is in the primer."
+      : plural(total - done, "module is", "modules are") + " waiting for you.";
+    $("app-sub").textContent = plural(LEVELS.filter(l => l.modules.length).length, "level", "levels") + " · " + plural(total, "module", "modules");
+
+    $("stat-streak").textContent = streak;
+    $("stat-streak-unit").textContent = streak === 1 ? "day" : "days";
+    $("stat-streak-note").textContent = state.streak.last === dateKey(new Date()) ? "Read today ✓" : "Best: " + state.streak.best;
+    $("stat-done").textContent = done;
+    $("stat-total").textContent = "of " + plural(total, "module", "modules");
+    const a = state.totals;
+    $("stat-acc").textContent = a.answered ? Math.round(a.correct / a.answered * 100) + "%" : "–";
+    $("stat-answered").textContent = plural(a.answered, "question", "questions") + " answered";
+
+    const nc = $("next-card");
+    if (next) {
+      const st = next.level && levelById(next.level).style;
+      const started = statusOf(next) === "started";
+      nc.innerHTML =
+        '<button type="button" id="btn-next-up" class="press lift group w-full rounded-2xl border border-slate-200 bg-white p-4 text-left hover:border-indigo-200">' +
+          '<p class="text-xs font-semibold uppercase tracking-wider text-indigo-600">' + (started ? "Continue reading" : "Up next") + '</p>' +
+          '<div class="mt-2 flex items-center gap-3">' +
+            '<span class="tabular grid h-11 w-11 shrink-0 place-items-center rounded-xl text-sm font-bold" style="background:' + st.soft + ';color:' + st.color + '">' + next.number + '</span>' +
+            '<div class="min-w-0 flex-1">' +
+              '<p lang="fr" class="font-display truncate text-lg font-semibold leading-tight text-slate-900">' + esc(next.title) + '</p>' +
+              '<p class="truncate text-xs text-slate-500">' + esc(next.level + " · Module " + next.number + " · " + plain(next.grammar)) + '</p>' +
+            '</div>' +
+            '<span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-indigo-600 text-white shadow-sm shadow-indigo-300"><i data-lucide="' + (started ? "play" : "arrow-right") + '" class="h-4 w-4"></i></span>' +
+          '</div>' +
+        '</button>';
+      $("btn-next-up").addEventListener("click", () => openModule(next.id));
+    } else {
+      nc.innerHTML = '<div class="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900"><p class="font-semibold">Every module is complete.</p><p class="mt-0.5">Reread a favourite story, or come back when the next level is added.</p></div>';
+    }
+
+    const list = $("level-list");
+    list.innerHTML = "";
+    LEVELS.forEach(level => {
+      const n = level.modules.length;
+      const d = level.modules.filter(m => statusOf(m) === "done").length;
+      const empty = n === 0;
+      const pct = n ? Math.round(d / n * 100) : 0;
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.disabled = empty;
+      btn.className = "group rounded-2xl border bg-white p-4 text-left " + (empty ? "cursor-default border-slate-200 opacity-60" : "press lift border-slate-200 hover:border-indigo-200");
+      btn.innerHTML =
+        '<div class="flex items-center gap-3">' +
+          '<span class="grid h-11 w-11 shrink-0 place-items-center rounded-xl text-sm font-bold" style="background:' + level.style.soft + ';color:' + level.style.color + '">' + esc(level.id) + '</span>' +
+          '<div class="min-w-0 flex-1">' +
+            '<p class="truncate text-sm font-semibold text-slate-900">' + esc(level.name) + '</p>' +
+            '<p class="truncate text-xs text-slate-500">' + (empty ? "Coming soon" : plural(n, "module", "modules") + " · " + d + " read") + '</p>' +
+          '</div>' +
+          (empty ? '<i data-lucide="lock" class="h-4 w-4 text-slate-300"></i>' :
+            '<span class="tabular text-sm font-semibold" style="color:' + level.style.color + '">' + pct + '%</span>' +
+            '<i data-lucide="chevron-right" class="h-4 w-4 text-slate-300 transition-transform group-hover:translate-x-0.5 group-hover:text-slate-500"></i>') +
+        '</div>' +
+        '<div class="mt-3 h-2 overflow-hidden rounded-full bg-slate-100"><div class="bar h-full" style="width:' + pct + '%;background:' + level.style.color + '"></div></div>';
+      if (!empty) btn.addEventListener("click", () => openLevel(level.id));
+      list.appendChild(btn);
+    });
+    refreshIcons();
+  }
+  function goHome() {
+    stopSpeaking(); hidePop();
+    currentModule = null;
+    renderDashboard();
+    showView("view-dashboard");
+    setHash("");
+  }
+
+  /* ---------- Level ---------- */
+  let currentLevel = null;
+  function renderLevel() {
+    const level = levelById(currentLevel);
+    const n = level.modules.length;
+    const d = level.modules.filter(m => statusOf(m) === "done").length;
+    const pct = n ? Math.round(d / n * 100) : 0;
+    const next = upNext(level.id);
+    $("level-title").textContent = level.id + " · " + level.name;
+    $("level-sub").textContent = plural(n, "module", "modules") + " · " + d + " read";
+    $("level-pct").textContent = pct + "%";
+    $("level-pct").style.color = level.style.color;
+    $("level-bar").style.width = pct + "%";
+    $("level-bar").style.background = level.style.color;
+    $("level-desc").textContent = level.description;
+
+    const list = $("module-list");
+    list.innerHTML = "";
+    level.modules.forEach(m => {
+      const st = statusOf(m);
+      const p = peek(m.id);
+      const isNext = next === m;
+      let badge;
+      if (st === "done") badge = '<span class="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[11px] font-semibold text-emerald-700"><i data-lucide="check" class="h-3 w-3"></i>' + (p.best !== null ? p.best + "/" + m.questions.length : "Done") + '</span>';
+      else if (st === "started") badge = '<span class="rounded-full bg-amber-50 px-2 py-0.5 text-[11px] font-semibold text-amber-700">In progress</span>';
+      else badge = '<span class="text-[11px] font-medium text-slate-400">' + (m.wordCount ? m.wordCount + " words" : "New") + '</span>';
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "press lift group rounded-2xl border bg-white p-3.5 text-left " + (isNext ? "border-indigo-300 ring-2 ring-indigo-100" : "border-slate-200 hover:border-indigo-200");
+      btn.innerHTML =
+        '<div class="flex items-center gap-3">' +
+          '<span class="tabular grid h-9 w-9 shrink-0 place-items-center rounded-lg text-xs font-bold" style="' +
+            (st === "done" ? "background:" + level.style.color + ";color:#fff" : "background:" + level.style.soft + ";color:" + level.style.color) + '">' + m.number + '</span>' +
+          '<div class="min-w-0 flex-1">' +
+            '<p lang="fr" class="truncate text-sm font-semibold leading-snug text-slate-900">' + esc(m.title) + '</p>' +
+            '<p class="truncate text-xs text-slate-500">' + esc(plain(m.grammar)) + '</p>' +
+          '</div>' + badge +
+          '<i data-lucide="chevron-right" class="h-4 w-4 shrink-0 text-slate-300 transition-transform group-hover:translate-x-0.5 group-hover:text-slate-500"></i>' +
+        '</div>';
+      btn.addEventListener("click", () => openModule(m.id));
+      list.appendChild(btn);
+    });
+    refreshIcons();
+  }
+  function openLevel(id) {
+    stopSpeaking(); hidePop();
+    currentModule = null;
+    currentLevel = id;
+    renderLevel();
+    showView("view-level");
+    setHash(id.toLowerCase());
+  }
+
+  /* ---------- Module ---------- */
+  let currentModule = null;
+  let currentStep = "primer";
+  let highlight = null;      // evidence sentences to mark in the passage
+  let optionOrder = {};      // question id -> shuffled options for this visit
+
+  function openModule(id) {
+    const m = MODULE_BY_ID[id];
+    if (!m) { goHome(); return; }
+    stopSpeaking(); hidePop();
+    currentModule = m;
+    currentLevel = m.level;
+    highlight = null;
+    optionOrder = {};
+    m.questions.forEach(q => { optionOrder[q.id] = shuffle(q.options); });
+    state.lastModule = m.id;
+    const p = prog(m.id);
+    saveState();
+
+    const st = levelById(m.level).style;
+    $("mod-kicker").textContent = m.level + " · Module " + m.number + " of " + levelById(m.level).modules.length + (m.theme ? " · " + plain(m.theme) : "");
+    $("mod-title").textContent = m.title;
+    $("mod-level").textContent = m.level;
+    $("mod-level").style.background = st.soft;
+    $("mod-level").style.color = st.color;
+    $("mod-focus").innerHTML = '<span class="font-medium text-slate-700">Focus:</span> ' + md(m.grammar);
+    showView("view-module");
+    setHash(m.id.toLowerCase());
+    goStep(STEPS.some(s => s.id === p.step) ? p.step : "primer", true);
+  }
+
+  function goStep(stepId, noScroll) {
+    stopSpeaking(); hidePop();
+    currentStep = stepId;
+    const p = prog(currentModule.id);
+    p.step = stepId;
+    p.visited[stepId] = true;
+    saveState();
+    renderSteps();
+    renderStep();
+    const i = STEPS.findIndex(s => s.id === stepId);
+    $("btn-prev-label").textContent = i === 0 ? "Modules" : STEPS[i - 1].label;
+    const nxt = nextModule(currentModule);
+    $("btn-next-label").textContent = i < STEPS.length - 1 ? STEPS[i + 1].label : (nxt ? "Next module" : "Finish");
+    if (!noScroll) {
+      const top = $("steps").getBoundingClientRect().top + window.scrollY - 12;
+      if (window.scrollY > top) window.scrollTo({ top: top, behavior: "smooth" });
+    }
+  }
+
+  function renderSteps() {
+    const p = prog(currentModule.id);
+    const nav = $("steps");
+    nav.innerHTML = "";
+    STEPS.forEach(s => {
+      const active = s.id === currentStep;
+      const doneMark = s.id === "check" ? p.completed : !!p.visited[s.id];
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("aria-current", active ? "step" : "false");
+      b.className = "press flex shrink-0 items-center gap-1.5 rounded-full px-3.5 py-2 text-sm font-semibold " +
+        (active ? "bg-indigo-600 text-white shadow-sm shadow-indigo-300" : "border border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-700");
+      b.innerHTML = '<i data-lucide="' + s.icon + '" class="h-4 w-4"></i>' + s.label +
+        (doneMark && !active ? '<span class="ml-0.5 h-1.5 w-1.5 rounded-full ' + (s.id === "check" ? "bg-emerald-500" : "bg-indigo-300") + '"></span>' : "");
+      b.addEventListener("click", () => goStep(s.id));
+      nav.appendChild(b);
+    });
+  }
+
+  function card(inner, extra) {
+    return '<div class="rounded-3xl border border-slate-200 bg-white p-5 shadow-xl shadow-slate-300/30 sm:p-6 ' + (extra || "") + '">' + inner + '</div>';
+  }
+  function sectionTitle(text, sub) {
+    return '<p class="text-xs font-semibold uppercase tracking-widest text-slate-400">' + esc(text) + '</p>' + (sub ? '<p class="mt-1 text-sm text-slate-500">' + sub + '</p>' : "");
+  }
+
+  function renderStep() {
+    const m = currentModule;
+    const body = $("step-body");
+    if (currentStep === "primer") body.innerHTML = renderPrimer(m);
+    else if (currentStep === "read") body.innerHTML = renderRead(m);
+    else if (currentStep === "words") body.innerHTML = renderWords(m);
+    else if (currentStep === "grammar") body.innerHTML = renderGrammar(m);
+    else body.innerHTML = renderCheck(m);
+    body.classList.remove("view-enter"); void body.offsetWidth; body.classList.add("view-enter");
+    bindStep();
+    refreshIcons();
+  }
+
+  /* Primer */
+  function renderPrimer(m) {
+    const items = m.primer.map((t, i) =>
+      '<li class="flex gap-3 py-3"><span class="tabular mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-md bg-indigo-50 text-xs font-semibold text-indigo-600">' + (i + 1) + '</span>' +
+      '<p class="min-w-0 leading-relaxed text-slate-700">' + md(t) + '</p></li>').join("");
+    return card(
+      sectionTitle("Pre-reading primer", "The few words and patterns you need to unlock the story. Tap any <em class='fr not-italic'>French example</em> to hear it.") +
+      '<ul class="mt-3 divide-y divide-slate-100">' + items + '</ul>'
+    );
+  }
+
+  /* Passage rendering */
+  let glossRe = null, glossLookup = {};
+  function buildGlossary(m) {
+    const variants = [];
+    glossLookup = {};
+    m.glossary.forEach((g, i) => {
+      String(g.fr).split(/\s*\/\s*/).concat(Array.isArray(g.match) ? g.match : []).forEach(v => {
+        v = String(v).trim().replace(/[\s?!…]+$/, ""); if (!v) return;
+        const forms = [v];
+        const bare = v.replace(/^(?:(?:une|un|les|le|la|des|du|de la)\s+|de l'|l')/i, "");
+        if (bare !== v && bare.length >= 3) forms.push(bare);
+        forms.forEach(f => { const k = f.toLowerCase(); if (!(k in glossLookup)) { glossLookup[k] = i; variants.push(f); } });
+      });
+    });
+    variants.sort((a, b) => b.length - a.length);
+    const alt = variants.map(v => v.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|");
+    try { glossRe = alt ? new RegExp("(?<![\\p{L}])(" + alt + ")(?:(?<=['’])|(?![\\p{L}]))", "giu") : null; } catch (err) { glossRe = null; }
+  }
+  function evidencePieces(ev) {
+    return String(ev).split(/…| — |(?<=[.!?])\s+/).map(s => s.replace(/^[\s—«»"]+|[\s«»".]+$/g, "")).filter(s => s.length >= 3);
+  }
+  function renderLine(line) {
+    if (highlight) {
+      const lower = line.toLowerCase();
+      const ranges = [];
+      highlight.forEach(piece => {
+        const at = lower.indexOf(piece.toLowerCase());
+        if (at >= 0) ranges.push([at, at + piece.length]);
+      });
+      ranges.sort((a, b) => a[0] - b[0]);
+      let out = "", pos = 0;
+      ranges.forEach(([s, e]) => {
+        if (s < pos) return;
+        out += esc(line.slice(pos, s)) + '<mark class="ev">' + esc(line.slice(s, e)) + "</mark>";
+        pos = e;
+      });
+      return out + esc(line.slice(pos));
+    }
+    if (!glossRe) return esc(line);
+    let out = "", pos = 0, match;
+    glossRe.lastIndex = 0;
+    while ((match = glossRe.exec(line))) {
+      const i = glossLookup[match[1].toLowerCase()];
+      out += esc(line.slice(pos, match.index)) +
+        '<button type="button" class="gl" data-g="' + i + '">' + esc(match[1]) + "</button>";
+      pos = match.index + match[1].length;
+    }
+    return out + esc(line.slice(pos));
+  }
+  function passageHtml(m) {
+    buildGlossary(m);
+    return '<div id="passage" lang="fr" class="passage font-display mt-4 space-y-3 text-slate-900 ' + (state.settings.hints ? "" : "hints-off") + '">' +
+      m.passage.map((para, pi) =>
+        '<div class="para" data-p="' + pi + '">' +
+          para.map(line => '<p class="line' + (/^—/.test(line) ? " dialogue" : "") + '">' + renderLine(line) + "</p>").join("") +
+        "</div>").join("") +
+      "</div>";
+  }
+  function setListenButton(on) {
+    const b = $("btn-listen");
+    if (!b) return;
+    b.dataset.on = on ? "1" : "";
+    b.innerHTML = '<i data-lucide="' + (on ? "square" : "volume-2") + '" class="h-4 w-4"></i>' + (on ? "Stop" : "Listen");
+    refreshIcons();
+  }
+
+  /* Read */
+  function renderRead(m) {
+    return card(
+      '<div class="flex flex-wrap items-center justify-between gap-2">' +
+        sectionTitle("Reading passage") +
+        '<div class="flex items-center gap-2">' +
+          (m.wordCount ? '<span class="tabular text-xs text-slate-400">' + m.wordCount + ' words</span>' : "") +
+          '<button id="btn-listen" type="button" class="press inline-flex items-center gap-1.5 rounded-full bg-indigo-50 px-3.5 py-1.5 text-sm font-semibold text-indigo-700 hover:bg-indigo-100"><i data-lucide="volume-2" class="h-4 w-4"></i>Listen</button>' +
+        '</div>' +
+      '</div>' +
+      (highlight
+        ? '<div class="mt-3 flex items-center justify-between gap-3 rounded-2xl bg-amber-50 px-4 py-2.5 text-sm text-amber-900"><span>The highlighted sentence answers your question.</span><button id="btn-clear-hl" type="button" class="press shrink-0 font-semibold underline underline-offset-2">Back to questions</button></div>'
+        : (state.settings.hints && m.glossary.length ? '<p class="mt-2 text-xs text-slate-400">Read it through once for the gist. Stuck on a dotted word? Tap it.</p>' : "")) +
+      passageHtml(m)
+    );
+  }
+
+  /* Words */
+  function renderWords(m) {
+    const rows = m.glossary.map((g, i) =>
+      '<li class="flex items-center gap-3 py-3">' +
+        '<div class="min-w-0 flex-1">' +
+          '<p lang="fr" class="font-display text-lg font-semibold leading-snug text-slate-900">' + esc(g.fr) + '</p>' +
+          '<p class="text-sm leading-snug text-slate-500">' + esc(g.en) + '</p>' +
+        '</div>' +
+        '<button type="button" data-say="' + i + '" class="press grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white text-indigo-600 shadow-sm ring-1 ring-slate-200 hover:bg-indigo-50" aria-label="Hear ' + esc(g.fr) + '"><i data-lucide="volume-2" class="h-4 w-4"></i></button>' +
+      '</li>').join("");
+    return card(sectionTitle("Contextual glossary", "Meanings as they're used in this story.") + '<ul class="mt-2 divide-y divide-slate-100">' + rows + '</ul>');
+  }
+
+  /* Grammar */
+  function renderGrammar(m) {
+    const blocks = m.spotlight.map(t => '<div class="rounded-2xl bg-slate-50 p-4 leading-relaxed text-slate-700">' + md(t) + '</div>').join("");
+    return card(sectionTitle("Grammar spotlight", "Patterns from the story, with its own sentences as examples. Tap a French example to hear it.") + '<div class="mt-4 space-y-3">' + blocks + '</div>');
+  }
+
+  /* Check */
+  function questionHtml(m, q, qi) {
+    const p = prog(m.id);
+    const chosen = p.answers[q.id];
+    const locked = !!chosen;
+    const opts = optionOrder[q.id].map((opt, oi) => {
+      let cls = "border-slate-200 bg-white text-slate-800 hover:border-indigo-300 hover:bg-indigo-50";
+      let icon = '<span class="tabular grid h-6 w-6 shrink-0 place-items-center rounded-md bg-slate-100 text-xs font-semibold text-slate-500">' + String.fromCharCode(65 + oi) + '</span>';
+      if (locked) {
+        if (opt === q.answer) { cls = "border-emerald-500 bg-emerald-50 text-emerald-900"; icon = '<span class="grid h-6 w-6 shrink-0 place-items-center rounded-md bg-emerald-500 text-white"><i data-lucide="check" class="h-3.5 w-3.5"></i></span>'; }
+        else if (opt === chosen) { cls = "border-red-500 bg-red-50 text-red-900"; icon = '<span class="grid h-6 w-6 shrink-0 place-items-center rounded-md bg-red-500 text-white"><i data-lucide="x" class="h-3.5 w-3.5"></i></span>'; }
+        else cls = "border-slate-200 bg-white text-slate-800 opacity-50";
+      }
+      return '<button type="button" ' + (locked ? "disabled " : "") + 'data-q="' + qi + '" data-o="' + oi + '" class="press flex w-full items-center gap-3 rounded-2xl border px-4 py-3 text-left text-[15px] leading-snug ' + cls + '">' + icon + '<span class="min-w-0 break-words">' + esc(opt) + '</span></button>';
+    }).join("");
+    let fb = "";
+    if (locked) {
+      const ok = chosen === q.answer;
+      fb = '<div class="mt-3 rounded-2xl p-4 ' + (ok ? "bg-emerald-50 text-emerald-900" : "bg-red-50 text-red-900") + '" role="status">' +
+        '<p class="text-sm font-semibold">' + (ok ? "Correct !" : "Not quite — the answer is highlighted above.") + '</p>' +
+        (q.evidence ? '<div class="mt-2 flex items-start justify-between gap-3"><p class="min-w-0 text-sm"><span class="opacity-75">From the text:</span> <span lang="fr" class="font-display text-base italic">« ' + esc(q.evidence) + ' »</span></p>' +
+          '<button type="button" data-say-ev="' + qi + '" class="press grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white text-indigo-600 shadow-sm ring-1 ring-slate-200 hover:bg-indigo-50" aria-label="Hear this sentence"><i data-lucide="volume-2" class="h-4 w-4"></i></button></div>' +
+          '<button type="button" data-show-ev="' + qi + '" class="press mt-2 inline-flex items-center gap-1 text-xs font-semibold underline underline-offset-2"><i data-lucide="search" class="h-3.5 w-3.5"></i>Show me in the story</button>' : "") +
+      '</div>';
+    }
+    return '<div class="py-5 first:pt-2 last:pb-1">' +
+      '<p class="flex gap-2 font-semibold leading-snug text-slate-900"><span class="tabular text-indigo-600">' + (qi + 1) + '.</span><span>' + esc(q.prompt) + '</span></p>' +
+      '<div class="mt-3 grid gap-2">' + opts + '</div>' + fb + '</div>';
+  }
+
+  function writingFeedbackHtml(m) {
+    const p = prog(m.id);
+    if (!p.checked) return "";
+    const text = normWriting(p.writing || "");
+    const rows = m.writing.targets.map(t => {
+      const n = countMatches(compileTarget(t.pattern), text);
+      const need = Math.max(1, t.min || 0);
+      const optional = t.min === 0;
+      const ok = n >= need;
+      const icon = ok ? '<span class="grid h-5 w-5 shrink-0 place-items-center rounded-full bg-emerald-500 text-white"><i data-lucide="check" class="h-3 w-3"></i></span>'
+                      : '<span class="h-5 w-5 shrink-0 rounded-full border-2 ' + (optional ? "border-slate-200" : "border-amber-300") + '"></span>';
+      const count = need > 1 ? ' <span class="tabular text-xs ' + (ok ? "text-emerald-700" : "text-slate-400") + '">' + Math.min(n, need) + "/" + need + "</span>" : "";
+      return '<li class="flex items-center gap-2.5 py-1.5 text-sm ' + (ok ? "text-slate-800" : "text-slate-500") + '">' + icon + '<span>' + md(t.label) + count + '</span></li>';
+    }).join("");
+    return '<div class="mt-4 rounded-2xl bg-slate-50 p-4">' +
+      '<p class="text-xs font-semibold uppercase tracking-widest text-slate-400">What I spotted</p>' +
+      '<ul class="mt-2">' + rows + '</ul>' +
+      '<p class="mt-2 text-xs text-slate-500">This checks for the target structures, not for every spelling or agreement. Copy your answers below to get full feedback from your tutor.</p>' +
+      '</div>' +
+      '<div class="mt-3 rounded-2xl bg-indigo-50 p-4">' +
+        '<div class="flex items-start justify-between gap-3">' +
+          '<div class="min-w-0"><p class="text-xs font-semibold uppercase tracking-widest text-indigo-500">A model answer</p>' +
+          '<p lang="fr" class="font-display mt-1 whitespace-pre-line text-lg leading-snug text-indigo-950">' + esc(m.writing.model) + '</p></div>' +
+          '<button type="button" id="btn-say-model" class="press grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white text-indigo-600 shadow-sm ring-1 ring-slate-200 hover:bg-indigo-50" aria-label="Hear the model answer"><i data-lucide="volume-2" class="h-4 w-4"></i></button>' +
+        '</div>' +
+      '</div>';
+  }
+
+  function summaryHtml(m) {
+    const p = prog(m.id);
+    const all = answeredCount(m) === m.questions.length;
+    if (!all) return "";
+    const score = correctCount(m);
+    const total = m.questions.length;
+    const nxt = nextModule(m);
+    const perfect = score === total;
+    return card(
+      '<div class="text-center">' +
+        '<div class="pop mx-auto grid h-14 w-14 place-items-center rounded-2xl ' + (p.completed ? "bg-emerald-50 text-emerald-600" : "bg-indigo-50 text-indigo-600") + '"><i data-lucide="' + (p.completed ? "party-popper" : "pencil-line") + '" class="h-7 w-7"></i></div>' +
+        '<p class="font-display mt-3 text-2xl font-semibold tracking-tight text-slate-900">' + (p.completed ? (perfect ? "Parfait !" : "Bien joué !") : "Presque fini !") + '</p>' +
+        '<p class="mt-1 text-sm text-slate-500">' + score + " of " + total + " correct" + (p.best !== null && p.best > score ? " · best " + p.best + "/" + total : "") +
+          (p.completed ? " · module complete" : " · finish the writing task to complete the module") + '</p>' +
+      '</div>' +
+      '<div class="mt-5 grid gap-2">' +
+        (p.completed && nxt ? '<button type="button" id="btn-sum-next" class="press w-full rounded-2xl bg-indigo-600 px-4 py-3.5 text-sm font-semibold text-white shadow-sm shadow-indigo-300 hover:bg-indigo-700">Next: ' + esc(nxt.title) + '</button>' : "") +
+        '<button type="button" id="btn-copy" class="press flex w-full items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-slate-700 hover:border-indigo-200 hover:text-indigo-700"><i data-lucide="clipboard-copy" class="h-4 w-4"></i>Copy my answers for my tutor</button>' +
+        '<button type="button" id="btn-retry-q" class="press w-full rounded-2xl px-4 py-2.5 text-sm font-semibold text-slate-500 hover:text-indigo-700">Try the questions again</button>' +
+      '</div>', "mt-3");
+  }
+
+  function renderCheck(m) {
+    const p = prog(m.id);
+    const qs = m.questions.map((q, qi) => questionHtml(m, q, qi)).join("");
+    const hasText = (p.writing || "").trim().length > 0;
+    return card(
+        sectionTitle("Comprehension", "Answer from the story. If you're unsure, reread it first.") +
+        '<div class="divide-y divide-slate-100">' + qs + '</div>') +
+      card(
+        sectionTitle("Your turn to write") +
+        '<p class="mt-2 leading-relaxed text-slate-800">' + md(m.writing.prompt) + '</p>' +
+        '<label for="writing" class="sr-only">Your answer in French</label>' +
+        '<textarea id="writing" lang="fr" rows="4" spellcheck="false" autocapitalize="sentences" placeholder="Écrivez ici…" class="font-display mt-3 w-full resize-y rounded-2xl border border-slate-300 bg-white px-4 py-3 text-lg leading-snug text-slate-900 outline-none placeholder:text-slate-400 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100">' + esc(p.writing || "") + '</textarea>' +
+        '<div id="accent-keys" class="mt-2 flex flex-wrap gap-1.5" aria-label="Accented letters">' +
+          ACCENT_KEYS.map(ch => '<button type="button" data-key="' + ch + '" class="press h-9 min-w-[2.25rem] rounded-lg border border-slate-200 bg-slate-50 px-2 text-base text-slate-700 hover:border-indigo-300 hover:bg-indigo-50" aria-label="Insert ' + ch + '">' + ch + '</button>').join("") +
+        '</div>' +
+        '<div class="mt-4 grid grid-cols-2 gap-2">' +
+          '<button type="button" id="btn-check-writing" ' + (hasText ? "" : "disabled ") + 'class="press rounded-2xl bg-slate-900 px-4 py-3 text-sm font-semibold text-white hover:bg-slate-800 disabled:opacity-40">Check my writing</button>' +
+          '<button type="button" id="btn-writing-done" ' + (hasText ? "" : "disabled ") + 'class="press flex items-center justify-center gap-1.5 rounded-2xl px-4 py-3 text-sm font-semibold disabled:opacity-40 ' +
+            (p.writingDone ? "bg-emerald-50 text-emerald-700 ring-1 ring-emerald-200" : "bg-emerald-600 text-white shadow-sm shadow-emerald-200 hover:bg-emerald-700") + '">' +
+            (p.writingDone ? '<i data-lucide="check" class="h-4 w-4"></i>Done' : "Mark as done") + '</button>' +
+        '</div>' +
+        '<div id="writing-fb">' + writingFeedbackHtml(m) + '</div>', "mt-3") +
+      '<div id="summary">' + summaryHtml(m) + '</div>';
+  }
+
+  function answerQuestion(qi, oi) {
+    const m = currentModule, q = m.questions[qi], p = prog(m.id);
+    if (p.answers[q.id]) return;
+    const opt = optionOrder[q.id][oi];
+    p.answers[q.id] = opt;
+    state.totals.answered++;
+    if (opt === q.answer) state.totals.correct++;
+    touchStreak();
+    if (answeredCount(m) === m.questions.length) {
+      const score = correctCount(m);
+      if (p.firstScore === null) p.firstScore = score;
+      p.best = p.best === null ? score : Math.max(p.best, score);
+    }
+    updateCompletion(m);
+    saveState();
+    const y = window.scrollY;
+    renderStep();
+    window.scrollTo(0, y);
+  }
+  function updateCompletion(m) {
+    const p = prog(m.id);
+    const was = p.completed;
+    p.completed = p.completed || (answeredCount(m) === m.questions.length && p.writingDone);
+    if (p.completed && !was) { p.completedAt = Date.now(); toast("Module " + m.number + " complete !"); }
+    renderSteps(); refreshIcons();
+  }
+  function refreshCheckParts() {
+    const m = currentModule;
+    $("writing-fb").innerHTML = writingFeedbackHtml(m);
+    $("summary").innerHTML = summaryHtml(m);
+    bindSummary();
+    bindWritingFb();
+    refreshIcons();
+  }
+
+  function copyAnswers() {
+    const m = currentModule, p = prog(m.id);
+    const lines = ["Lecture · " + m.level + " Module " + m.number + " — " + m.title, ""];
+    m.questions.forEach((q, i) => {
+      const a = p.answers[q.id];
+      lines.push((i + 1) + ". " + q.prompt);
+      lines.push("   → " + (a || "(not answered)") + (a ? (a === q.answer ? "  ✓" : "  ✗ (correct: " + q.answer + ")") : ""));
+    });
+    lines.push("", "Writing: " + plain(m.writing.prompt), (p.writing || "(not written yet)").trim());
+    const text = lines.join("\n");
+    const done = () => toast("Copied — paste it into your chat with your tutor");
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, () => fallbackCopy(text, done));
+      else fallbackCopy(text, done);
+    } catch (err) { fallbackCopy(text, done); }
+  }
+  function fallbackCopy(text, done) {
+    const ta = document.createElement("textarea");
+    ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    let ok = false;
+    try { ok = document.execCommand("copy"); } catch (err) {}
+    document.body.removeChild(ta);
+    if (ok) done(); else toast("Couldn't copy in this browser");
+  }
+
+  /* Binding for whichever step is rendered */
+  function bindStep() {
+    const m = currentModule;
+    const body = $("step-body");
+    body.querySelectorAll("em.fr").forEach(el => el.addEventListener("click", () => speak(el.textContent.replace(/\s*\/\s*/g, ", "))));
+
+    if (currentStep === "read") {
+      body.querySelectorAll(".gl").forEach(el => el.addEventListener("click", e => {
+        if (!state.settings.hints) return;
+        e.stopPropagation();
+        showPop(el, m.glossary[Number(el.dataset.g)]);
+      }));
+      const listen = $("btn-listen");
+      listen.addEventListener("click", () => {
+        if (listen.dataset.on) { stopSpeaking(); return; }
+        const paras = Array.prototype.slice.call(body.querySelectorAll(".para"));
+        setListenButton(true);
+        speakSequence(m.passage.map(p => p.join(" ")),
+          idx => { paras.forEach((el, i) => el.classList.toggle("speaking", i === idx)); },
+          () => { paras.forEach(el => el.classList.remove("speaking")); setListenButton(false); });
+      });
+      const clear = $("btn-clear-hl");
+      if (clear) clear.addEventListener("click", () => { highlight = null; goStep("check"); });
+      if (highlight) {
+        const mk = body.querySelector("mark.ev");
+        if (mk) setTimeout(() => mk.scrollIntoView({ behavior: "smooth", block: "center" }), 120);
+      }
+    }
+    if (currentStep === "words") {
+      body.querySelectorAll("[data-say]").forEach(el => el.addEventListener("click", () => speak(m.glossary[Number(el.dataset.say)].fr)));
+    }
+    if (currentStep === "check") {
+      body.querySelectorAll("button[data-o]").forEach(el => el.addEventListener("click", () => answerQuestion(Number(el.dataset.q), Number(el.dataset.o))));
+      body.querySelectorAll("[data-say-ev]").forEach(el => el.addEventListener("click", () => speak(m.questions[Number(el.dataset.sayEv)].evidence.replace(/…/g, ". "))));
+      body.querySelectorAll("[data-show-ev]").forEach(el => el.addEventListener("click", () => {
+        highlight = evidencePieces(m.questions[Number(el.dataset.showEv)].evidence);
+        goStep("read");
+      }));
+      const ta = $("writing");
+      let saveTimer = null;
+      ta.addEventListener("input", () => {
+        const p = prog(m.id);
+        p.writing = ta.value;
+        const has = ta.value.trim().length > 0;
+        $("btn-check-writing").disabled = !has;
+        $("btn-writing-done").disabled = !has;
+        clearTimeout(saveTimer);
+        saveTimer = setTimeout(saveState, 400);
+      });
+      body.querySelectorAll("[data-key]").forEach(btn => {
+        btn.addEventListener("pointerdown", e => e.preventDefault());
+        btn.addEventListener("click", () => {
+          const ch = btn.dataset.key;
+          const s = ta.selectionStart == null ? ta.value.length : ta.selectionStart;
+          const e = ta.selectionEnd == null ? ta.value.length : ta.selectionEnd;
+          ta.setRangeText(ch, s, e, "end");
+          ta.focus();
+          ta.dispatchEvent(new Event("input"));
+        });
+      });
+      $("btn-check-writing").addEventListener("click", () => {
+        const p = prog(m.id);
+        p.writing = ta.value; p.checked = true;
+        touchStreak(); saveState();
+        refreshCheckParts();
+        $("writing-fb").scrollIntoView({ behavior: "smooth", block: "nearest" });
+      });
+      $("btn-writing-done").addEventListener("click", () => {
+        const p = prog(m.id);
+        p.writing = ta.value;
+        p.writingDone = !p.writingDone;
+        if (p.writingDone && !p.checked) p.checked = true;
+        touchStreak();
+        updateCompletion(m);
+        saveState();
+        const y = window.scrollY;
+        renderStep();
+        window.scrollTo(0, y);
+      });
+      bindWritingFb();
+      bindSummary();
+    }
+  }
+  function bindWritingFb() {
+    const b = $("btn-say-model");
+    if (b) b.addEventListener("click", () => speak(currentModule.writing.model.replace(/\n/g, ". ")));
+  }
+  function bindSummary() {
+    const m = currentModule;
+    const n = $("btn-sum-next");
+    if (n) n.addEventListener("click", () => { const nx = nextModule(m); if (nx) { prog(nx.id).step = "primer"; openModule(nx.id); } });
+    const c = $("btn-copy");
+    if (c) c.addEventListener("click", copyAnswers);
+    const r = $("btn-retry-q");
+    if (r) r.addEventListener("click", () => {
+      prog(m.id).answers = {};
+      m.questions.forEach(q => { optionOrder[q.id] = shuffle(q.options); });
+      saveState(); renderStep();
+      $("step-body").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
+  /* Word popover */
+  let popWord = null;
+  function showPop(el, g) {
+    if (!g) return;
+    document.querySelectorAll(".gl.active").forEach(x => x.classList.remove("active"));
+    el.classList.add("active");
+    popWord = g.fr;
+    $("pop-fr").textContent = g.fr;
+    $("pop-en").textContent = g.en;
+    const pop = $("pop");
+    pop.style.opacity = "1";
+    pop.classList.remove("pointer-events-none");
+    const r = el.getBoundingClientRect();
+    const w = pop.offsetWidth, h = pop.offsetHeight;
+    let left = Math.min(Math.max(8, r.left + r.width / 2 - w / 2), window.innerWidth - w - 8);
+    let top = r.bottom + 8;
+    if (top + h > window.innerHeight - 8) top = Math.max(8, r.top - h - 8);
+    pop.style.left = left + "px";
+    pop.style.top = top + "px";
+  }
+  function hidePop() {
+    const pop = $("pop");
+    pop.style.opacity = "0";
+    pop.classList.add("pointer-events-none");
+    document.querySelectorAll(".gl.active").forEach(x => x.classList.remove("active"));
+    popWord = null;
+  }
+
+  /* ---------- Settings ---------- */
+  function renderSettings() {
+    $("toggle-hints").setAttribute("aria-pressed", String(!!state.settings.hints));
+    $("rate").value = state.settings.rate;
+    $("rate-label").textContent = Number(state.settings.rate).toFixed(1) + "×";
+  }
+  let resetArmed = false, resetTimer = null;
+  function disarmReset() { resetArmed = false; clearTimeout(resetTimer); $("btn-reset").textContent = "Reset all progress"; }
+  function openSettings() { renderSettings(); disarmReset(); hidePop(); $("settings").classList.remove("hidden"); $("settings").classList.add("flex"); $("btn-settings-close").focus(); }
+  function closeSettings() {
+    $("settings").classList.add("hidden"); $("settings").classList.remove("flex");
+    stopSpeaking();
+    if (!ORDER.length) return;
+    if (currentModule) renderStep(); else if (!$("view-level").classList.contains("hidden")) renderLevel(); else renderDashboard();
+  }
+  function settingsOpen() { return !$("settings").classList.contains("hidden"); }
+
+  /* =========================================================
+     7. EVENTS
+     ========================================================= */
+  $("btn-settings").addEventListener("click", openSettings);
+  $("btn-settings-close").addEventListener("click", closeSettings);
+  $("settings").addEventListener("click", e => { if (e.target === $("settings")) closeSettings(); });
+  $("toggle-hints").addEventListener("click", () => { state.settings.hints = !state.settings.hints; saveState(); renderSettings(); });
+  $("rate").addEventListener("input", e => { state.settings.rate = Number(e.target.value); $("rate-label").textContent = state.settings.rate.toFixed(1) + "×"; saveState(); });
+  $("btn-test-voice").addEventListener("click", () => speak("Bonjour ! Je m'appelle Léa et j'habite à Paris."));
+  $("btn-reset").addEventListener("click", () => {
+    if (!resetArmed) { resetArmed = true; $("btn-reset").textContent = "Tap again to erase everything"; resetTimer = setTimeout(disarmReset, 4000); return; }
+    const keep = state.settings;
+    state = defaultState(); state.settings = keep;
+    saveState(); disarmReset();
+    $("settings").classList.add("hidden"); $("settings").classList.remove("flex");
+    goHome(); toast("Progress reset");
+  });
+  $("btn-retry").addEventListener("click", init);
+  $("btn-level-back").addEventListener("click", goHome);
+  $("btn-module-back").addEventListener("click", () => { if (currentModule) openLevel(currentModule.level); else goHome(); });
+  $("btn-prev").addEventListener("click", () => {
+    const i = STEPS.findIndex(s => s.id === currentStep);
+    if (i <= 0) openLevel(currentModule.level); else goStep(STEPS[i - 1].id);
+  });
+  $("btn-next").addEventListener("click", () => {
+    const i = STEPS.findIndex(s => s.id === currentStep);
+    if (currentStep === "read") highlight = null;
+    if (i < STEPS.length - 1) { goStep(STEPS[i + 1].id); return; }
+    const nx = nextModule(currentModule);
+    if (nx) { prog(nx.id).step = "primer"; openModule(nx.id); } else openLevel(currentModule.level);
+  });
+  $("pop-speak").addEventListener("click", e => { e.stopPropagation(); if (popWord) speak(popWord); });
+  document.addEventListener("click", e => { if (!e.target.closest("#pop") && !e.target.closest(".gl")) hidePop(); });
+  window.addEventListener("resize", hidePop);
+  window.addEventListener("scroll", () => { if (popWord) hidePop(); }, { passive: true });
+  document.addEventListener("keydown", e => {
+    if (e.key !== "Escape") return;
+    if (settingsOpen()) closeSettings(); else if (popWord) hidePop();
+  });
+  window.addEventListener("hashchange", () => { if (ORDER.length) route(); });
+
+  /* =========================================================
+     8. INIT
+     ========================================================= */
+  function init() {
+    $("loading").classList.remove("hidden");
+    $("load-error").classList.add("hidden");
+    $("dash-body").classList.add("hidden");
+    loadAll().then(() => {
+      $("loading").classList.add("hidden");
+      $("dash-body").classList.remove("hidden");
+      route();
+    }).catch(err => {
+      $("loading").classList.add("hidden");
+      $("load-error").classList.remove("hidden");
+      $("greeting-sub").textContent = "Something went wrong while loading.";
+      $("load-error-text").textContent = (location.protocol === "file:")
+        ? "This page was opened straight from a file. Browsers block it from reading the resources folder that way. Serve the folder from a web server instead (GitHub Pages, or python3 -m http.server)."
+        : "Check that resources/index.json exists and lists your module files. (" + (err && err.message ? err.message : "unknown error") + ")";
+    });
+  }
+  refreshIcons();
+  init();
+})();
+</script>
+<script src="../shared/bridge.js"></script>
+<script>
+/* Mémo: subject switcher (Leçon · Lecture · Cartes) on every reading module. */
+(function () {
+  var steps = document.getElementById("steps");
+  if (!steps || !window.memoSwitcher) return;
+  memoSwitcher.mount(steps.parentNode, steps, "mt-4");
+  function sync() {
+    var h = (location.hash || "").replace(/^#/, "").toLowerCase();
+    memoSwitcher.set(/^[a-z]\d-\d+$/.test(h) ? { app: "lecture", moduleId: h } : null);
+  }
+  window.addEventListener("memo:navigate", sync);
+  sync();
+})();
+</script>
+</body>
+</html>

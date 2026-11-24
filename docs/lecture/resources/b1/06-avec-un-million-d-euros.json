@@ -1,0 +1,163 @@
+{
+  "id": "b1-06",
+  "level": "B1",
+  "number": 6,
+  "title": "Avec un million d'euros",
+  "grammar": "conditional present",
+  "theme": "dreams and advice",
+  "wordCount": 333,
+  "primer": [
+    "**conditionnel présent**: future stem + imparfait endings (*je ferais, nous serions*)",
+    "**tu devrais / vous devriez**: you should",
+    "**on pourrait**: we could",
+    "**j'aimerais que + subj.**: I'd like (that)",
+    "**à votre place**: if I were you",
+    "**embaucher**: to hire"
+  ],
+  "passage": [
+    [
+      "Un vendredi soir de décembre, les amis se sont retrouvés chez Léa pour une soirée raclette. Dehors, le mistral soufflait si fort que les volets tremblaient. Dedans, il faisait chaud et le fromage fondait doucement."
+    ],
+    [
+      "C'est Théo qui a lancé le jeu."
+    ],
+    [
+      "— Imaginons que Le Mistral reçoive un million d'euros demain. Qu'est-ce que vous en feriez ?",
+      "— Moi, je partirais en reportage autour de la Méditerranée pendant un an, a répondu Léa immédiatement. J'irais en Grèce, en Tunisie, au Liban, en Espagne… Je photographierais les ports, les marchés, les gens. Ça ferait un numéro spécial magnifique.",
+      "— Moi, j'embaucherais deux journalistes de plus, a dit Karim. On pourrait enfin faire de vraies enquêtes. Et je n'écrirais plus les horoscopes le dimanche soir !"
+    ],
+    [
+      "Tout le monde a ri : Karim détestait les horoscopes."
+    ],
+    [
+      "— Et toi, Amina ?",
+      "— Moi, je ne travaille pas au magazine, mais j'aimerais qu'il y ait une soirée musicale chaque mois dans vos bureaux. Je jouerais avec des amis du conservatoire, les gens viendraient, ils achèteraient des abonnements…",
+      "— Ce serait génial, a dit Théo. Tu devrais en parler à Nadia.",
+      "— Et toi, Théo ? Tu ne réponds pas à ta propre question !"
+    ],
+    [
+      "Théo a rougi."
+    ],
+    [
+      "— Moi… je referais toute la maquette. Le magazine serait plus moderne, plus coloré. Et j'achèterais une vraie chaise de bureau, parce que la mienne va me tuer."
+    ],
+    [
+      "Madame Ferrand, invitée d'honneur, écoutait en silence depuis le début."
+    ],
+    [
+      "— Et vous, madame ? a demandé Léa.",
+      "— Moi ? Avec un million, je ne changerais rien. Je resterais dans mon appartement, je ferais mon marché le samedi et je continuerais à vous nourrir tous. Mais je vous donnerais un conseil, à vous les jeunes : vous devriez arrêter de rêver d'argent et commencer à vous battre pour votre magazine. À votre place, je n'attendrais pas qu'un million tombe du ciel."
+    ],
+    [
+      "Un silence a suivi. Puis Karim a levé son verre."
+    ],
+    [
+      "— Elle a raison. On pourrait commencer dès lundi.",
+      "— À Madame Ferrand, a dit Léa, la seule personne ici qui n'aurait pas besoin d'un million pour être heureuse !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "les volets",
+      "en": "the shutters"
+    },
+    {
+      "fr": "fondait",
+      "en": "was melting"
+    },
+    {
+      "fr": "a lancé le jeu",
+      "en": "started the game"
+    },
+    {
+      "fr": "de vraies enquêtes",
+      "en": "real investigations"
+    },
+    {
+      "fr": "ta propre question",
+      "en": "your own question"
+    },
+    {
+      "fr": "la maquette",
+      "en": "the page layout"
+    },
+    {
+      "fr": "va me tuer",
+      "en": "is going to kill me"
+    },
+    {
+      "fr": "invitée d'honneur",
+      "en": "guest of honour"
+    },
+    {
+      "fr": "nourrir",
+      "en": "to feed"
+    },
+    {
+      "fr": "vous battre",
+      "en": "to fight"
+    },
+    {
+      "fr": "tombe du ciel",
+      "en": "falls from the sky"
+    }
+  ],
+  "spotlight": [
+    "**Conditional = future stem + imparfait endings:** *je partirais, j'irais, ça ferait, on pourrait, ce serait, les gens viendraient*. Irregular verbs use the same stems as the future: *aller → ir-, faire → fer-, venir → viendr-, pouvoir → pourr-*.",
+    "**What it's used for:** imagining (*je ne changerais rien*), giving advice (*Tu devrais en parler à Nadia, vous devriez arrêter de rêver*), polite wishes (*j'aimerais qu'il y ait une soirée*) and suggestions (*On pourrait commencer dès lundi*). *À votre place* means \"if I were you\"."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Que ferait Léa avec un million d'euros ?",
+      "answer": "Elle partirait en reportage autour de la Méditerranée pendant un an",
+      "options": [
+        "Elle partirait en reportage autour de la Méditerranée pendant un an",
+        "Elle achèterait une maison en Bretagne",
+        "Elle embaucherait deux journalistes",
+        "Elle ne changerait rien"
+      ],
+      "evidence": "Moi, je partirais en reportage autour de la Méditerranée pendant un an, a répondu Léa immédiatement."
+    },
+    {
+      "id": "q2",
+      "prompt": "Pourquoi Théo achèterait-il une nouvelle chaise ?",
+      "answer": "Parce que la sienne va le tuer",
+      "options": [
+        "Parce que la sienne va le tuer",
+        "Parce qu'il travaille debout",
+        "Parce qu'il veut un bureau plus grand",
+        "Parce que Nadia le lui a demandé"
+      ],
+      "evidence": "Et j'achèterais une vraie chaise de bureau, parce que la mienne va me tuer."
+    },
+    {
+      "id": "q3",
+      "prompt": "Quel conseil Madame Ferrand donne-t-elle aux jeunes ?",
+      "answer": "Arrêter de rêver d'argent et se battre pour le magazine",
+      "options": [
+        "Arrêter de rêver d'argent et se battre pour le magazine",
+        "Jouer au loto chaque semaine",
+        "Quitter Marseille",
+        "Demander de l'argent à Médias Plus"
+      ],
+      "evidence": "vous devriez arrêter de rêver d'argent et commencer à vous battre pour votre magazine."
+    }
+  ],
+  "writing": {
+    "prompt": "Si vous receviez une grosse somme d'argent, que feriez-vous ? Écrivez trois phrases au conditionnel, dont un conseil (*tu devrais…*).",
+    "model": "Avec beaucoup d'argent, j'achèterais une petite maison près de la mer. Je voyagerais en Asie avec ma famille. Et toi, tu devrais aussi penser à ta retraite !",
+    "targets": [
+      {
+        "label": "conditional verbs (×3)",
+        "pattern": "\\b(?!(?:courais|courait|mourait)\\b)[a-zà-ÿ]+r(ais|ait|ions|iez|aient)\\b",
+        "min": 3
+      },
+      {
+        "label": "advice: tu devrais / vous devriez",
+        "pattern": "\\b(devrais|devrait|devriez|devrions)\\b",
+        "min": 1
+      }
+    ]
+  }
+}

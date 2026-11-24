@@ -1,0 +1,129 @@
+{
+  "id": "a1-11",
+  "level": "A1",
+  "number": 11,
+  "title": "Quelle heure est-il ?",
+  "grammar": "telling time",
+  "theme": "a workday",
+  "wordCount": 101,
+  "primer": [
+    "**Quelle heure est-il ?**: What time is it?",
+    "**Il est sept heures.**: It's seven o'clock.",
+    "**et quart / et demie**: quarter past / half past",
+    "**moins le quart / moins dix**: quarter to / ten to",
+    "**midi / minuit**: noon / midnight",
+    "**à + time**: at (*à neuf heures*)",
+    "**de… à…**: from… to…"
+  ],
+  "passage": [
+    [
+      "Il est sept heures. Le réveil de Léa sonne. Léa est fatiguée. À sept heures et quart, elle prend une douche. À sept heures et demie, elle mange une tartine et boit un café."
+    ],
+    [
+      "À huit heures moins le quart, elle va au métro. Le musée ouvre à neuf heures. Léa travaille de neuf heures à cinq heures."
+    ],
+    [
+      "À midi, elle mange avec Marco dans un petit restaurant."
+    ],
+    [
+      "— Quelle heure est-il ? demande Léa.",
+      "— Il est une heure moins dix.",
+      "— Oh non ! Je travaille à une heure !",
+      "— Vite, vite !"
+    ],
+    [
+      "Le soir, à onze heures, Léa est dans son lit. Bonne nuit, Léa !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "le réveil",
+      "en": "the alarm clock"
+    },
+    {
+      "fr": "sonne",
+      "en": "rings"
+    },
+    {
+      "fr": "elle prend une douche",
+      "en": "she takes a shower"
+    },
+    {
+      "fr": "une tartine",
+      "en": "a slice of bread with butter or jam"
+    },
+    {
+      "fr": "ouvre",
+      "en": "opens"
+    },
+    {
+      "fr": "vite",
+      "en": "quickly, hurry"
+    },
+    {
+      "fr": "le soir",
+      "en": "in the evening"
+    },
+    {
+      "fr": "le lit",
+      "en": "the bed"
+    },
+    {
+      "fr": "Bonne nuit !",
+      "en": "Good night!"
+    }
+  ],
+  "spotlight": [
+    "**Telling time:** *Il est* + number + *heure(s)*. Add minutes after (*sept heures et demie*), subtract with *moins* (*une heure moins dix* = 12:50).",
+    "**Singular for one:** *une heure* but *deux heures*. And *midi* has no *heures*: *À midi*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does Léa do at 7:15 and at 7:30?",
+      "answer": "7:15 she showers; 7:30 she eats and has a coffee",
+      "options": [
+        "7:15 she showers; 7:30 she eats and has a coffee",
+        "7:15 she leaves for the metro; 7:30 she starts work",
+        "7:15 her alarm rings; 7:30 she showers",
+        "7:15 she eats; 7:30 she goes back to bed"
+      ],
+      "evidence": "À sept heures et quart, elle prend une douche. À sept heures et demie, elle mange une tartine et boit un café."
+    },
+    {
+      "id": "q2",
+      "prompt": "What are Léa's working hours?",
+      "answer": "From 9:00 to 5:00",
+      "options": [
+        "From 9:00 to 5:00",
+        "From 8:00 to 4:00",
+        "From 10:00 to 6:00",
+        "From 9:00 to noon"
+      ],
+      "evidence": "Léa travaille de neuf heures à cinq heures."
+    },
+    {
+      "id": "q3",
+      "prompt": "Why does Léa panic at lunch?",
+      "answer": "It's 12:50 and she starts work again at 1:00",
+      "options": [
+        "It's 12:50 and she starts work again at 1:00",
+        "She has forgotten her wallet",
+        "The restaurant is closing",
+        "Marco is late"
+      ],
+      "evidence": "Il est une heure moins dix. — Oh non ! Je travaille à une heure !"
+    }
+  ],
+  "writing": {
+    "prompt": "Write three sentences about your day with three different times.",
+    "model": "Je mange à sept heures et demie. Je travaille de neuf heures à cinq heures. À midi, je mange avec un ami.",
+    "targets": [
+      {
+        "label": "three times (… heures, midi, minuit)",
+        "pattern": "\\bheures?\\b|\\bmidi\\b|\\bminuit\\b",
+        "min": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "s19",
+ "subject": 19,
+ "level": "A1",
+ "title": "Possessive Adjectives",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Possessive adjectives (my, your, his…) agree with the <strong>thing owned</strong>, not the owner.</p>\n<table>\n<thead>\n<tr>\n<th>Owner</th>\n<th>Masc. singular</th>\n<th>Fem. singular</th>\n<th>Plural (both)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je (my)</td>\n<td><strong>mon</strong></td>\n<td><strong>ma</strong></td>\n<td><strong>mes</strong></td>\n</tr>\n<tr>\n<td>tu (your)</td>\n<td><strong>ton</strong></td>\n<td><strong>ta</strong></td>\n<td><strong>tes</strong></td>\n</tr>\n<tr>\n<td>il / elle / on (his/her/its)</td>\n<td><strong>son</strong></td>\n<td><strong>sa</strong></td>\n<td><strong>ses</strong></td>\n</tr>\n<tr>\n<td>nous (our)</td>\n<td><strong>notre</strong></td>\n<td><strong>notre</strong></td>\n<td><strong>nos</strong></td>\n</tr>\n<tr>\n<td>vous (your)</td>\n<td><strong>votre</strong></td>\n<td><strong>votre</strong></td>\n<td><strong>vos</strong></td>\n</tr>\n<tr>\n<td>ils / elles (their)</td>\n<td><strong>leur</strong></td>\n<td><strong>leur</strong></td>\n<td><strong>leurs</strong></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "The big difference from English",
+   "html": "<p><em>Son, sa, ses</em> mean <strong>his OR her</strong>. The choice depends on the gender of the <strong>object</strong>, not the owner:\n- <em>Paul aime </em><em>sa</em><em> voiture.</em> — Paul loves <strong>his</strong> car. (la voiture → sa)\n- <em>Marie aime </em><em>son</em><em> vélo.</em> — Marie loves <strong>her</strong> bike. (le vélo → son)\n- <em>Il aime </em><em>sa</em><em> mère / Elle aime </em><em>sa</em><em> mère.</em> — His mother / her mother.</p>"
+  },
+  {
+   "heading": "Before a vowel or mute h: ma, ta, sa → mon, ton, son",
+   "html": "<p>For pronunciation, feminine nouns starting with a vowel use the masculine form:\n- <em>une amie</em> → <strong><em>mon</em><em> amie</em> (not ~~ma amie~~)\n- <em>une école</em> → </strong><em>ton</em><em> école</em>\n- <em>une histoire</em> → <em><strong>son</strong> histoire</em></p>"
+  },
+  {
+   "heading": "Leur vs leurs",
+   "html": "<ul>\n<li><em>leur</em> = their (one thing): <em>leur maison</em></li>\n<li><em>leurs</em> = their (several things): <em>leurs enfants</em></li>\n</ul>"
+  },
+  {
+   "heading": "Body parts",
+   "html": "<p>French usually uses the <strong>definite article</strong> with body parts when the owner is obvious: <em>J'ai mal </em><em>à la</em><em> tête.</em> — My head hurts. <em>Il se lave </em><em>les</em><em> mains.</em> — He washes his hands.</p>"
+  },
+  {
+   "heading": "Examples",
+   "html": "<ul>\n<li><em>Voici </em><em>mes</em><em> parents et </em><em>ma</em><em> sœur.</em></li>\n<li><em>C'est </em><em>votre</em><em> passeport, madame ?</em></li>\n<li><em>Les enfants jouent avec </em><em>leurs</em><em> amis.</em></li>\n<li><em>Nous adorons </em><em>notre</em><em> quartier.</em></li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Fill in \"my\": ___ frère, ___ sœur, ___ amis, ___ amie, ___ adresse.",
+   "answer": "mon frère, ma sœur, mes amis, mon amie, mon adresse.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Fill in \"his\" or \"her\": (a) Paul et ___ chien. (b) Julie et ___ chien. (c) Paul et ___ maison. (d) Julie et ___ parents.",
+   "answer": "(a) son (b) son (c) sa (d) ses",
+   "id": "e2"
+  },
+  {
+   "prompt": "Fill in \"their\": (a) ___ voiture (b) ___ enfants.",
+   "answer": "(a) leur (b) leurs",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"Our house and your (vous) garden.\"",
+   "answer": "*Notre maison et votre jardin.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"She is talking to her friend (fem.) and her brother.\"",
+   "answer": "*Elle parle à son amie et à son frère.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

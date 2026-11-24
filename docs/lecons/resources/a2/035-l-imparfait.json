@@ -1,0 +1,64 @@
+{
+ "id": "s35",
+ "subject": 35,
+ "level": "A2",
+ "title": "L'Imparfait",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The <strong>imparfait</strong> is the second main past tense. It describes <strong>background, habits and ongoing states</strong> in the past: \"used to\", \"was doing\", \"was\".</p>"
+  },
+  {
+   "heading": "Formation",
+   "html": "<ol>\n<li>Take the <strong>nous</strong> form of the present: <em>nous parl</em><em>ons</em><strong>, <em>nous fin**issons</em></strong>, <em>nous pren</em><em>ons</em>**.</li>\n<li>Remove <strong>-ons</strong> → stem: <em>parl-</em>, <em>finiss-</em>, <em>pren-</em>.</li>\n<li>Add endings:</li>\n</ol>\n<table>\n<thead>\n<tr>\n<th>Pronoun</th>\n<th>Ending</th>\n<th>parler</th>\n<th>finir</th>\n<th>prendre</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>je</td>\n<td><strong>-ais</strong></td>\n<td>parlais</td>\n<td>finissais</td>\n<td>prenais</td>\n</tr>\n<tr>\n<td>tu</td>\n<td><strong>-ais</strong></td>\n<td>parlais</td>\n<td>finissais</td>\n<td>prenais</td>\n</tr>\n<tr>\n<td>il/elle/on</td>\n<td><strong>-ait</strong></td>\n<td>parlait</td>\n<td>finissait</td>\n<td>prenait</td>\n</tr>\n<tr>\n<td>nous</td>\n<td><strong>-ions</strong></td>\n<td>parlions</td>\n<td>finissions</td>\n<td>prenions</td>\n</tr>\n<tr>\n<td>vous</td>\n<td><strong>-iez</strong></td>\n<td>parliez</td>\n<td>finissiez</td>\n<td>preniez</td>\n</tr>\n<tr>\n<td>ils/elles</td>\n<td><strong>-aient</strong></td>\n<td>parlaient</td>\n<td>finissaient</td>\n<td>prenaient</td>\n</tr>\n</tbody>\n</table>\n<p><em>-ais, -ais, -ait, -aient</em> all sound the same (\"eh\").</p>"
+  },
+  {
+   "heading": "The only irregular stem: être → **ét-**",
+   "html": "<p><em>j'étais, tu étais, il était, nous étions, vous étiez, ils étaient</em></p>"
+  },
+  {
+   "heading": "Spelling changes",
+   "html": "<ul>\n<li><strong>-ger</strong>: keep the e before a: <em>je mang</em><em>e</em><em>ais</em>, but <em>nous mangions</em>.</li>\n<li><strong>-cer</strong>: ç before a: <em>je commen</em><em>ç</em><em>ais</em>, but <em>nous commencions</em>.</li>\n<li>Verbs with <strong>-i-</strong> stem: <em>étudier</em> → <em>nous étudiions</em> (double i is correct!).</li>\n</ul>"
+  },
+  {
+   "heading": "Other common verbs",
+   "html": "<table>\n<thead>\n<tr>\n<th>Verb</th>\n<th>Nous present</th>\n<th>Imparfait</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>avoir</td>\n<td>avons</td>\n<td>j'avais</td>\n</tr>\n<tr>\n<td>faire</td>\n<td>faisons</td>\n<td>je faisais</td>\n</tr>\n<tr>\n<td>aller</td>\n<td>allons</td>\n<td>j'allais</td>\n</tr>\n<tr>\n<td>boire</td>\n<td>buvons</td>\n<td>je buvais</td>\n</tr>\n<tr>\n<td>voir</td>\n<td>voyons</td>\n<td>je voyais</td>\n</tr>\n<tr>\n<td>pouvoir</td>\n<td>pouvons</td>\n<td>je pouvais</td>\n</tr>\n<tr>\n<td>vouloir</td>\n<td>voulons</td>\n<td>je voulais</td>\n</tr>\n<tr>\n<td>il pleut</td>\n<td>—</td>\n<td>il pleuvait</td>\n</tr>\n<tr>\n<td>il faut</td>\n<td>—</td>\n<td>il fallait</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "When to use it",
+   "html": "<ol>\n<li><strong>Habits / repeated actions</strong> (\"used to\"): <em>Quand j'étais petit, je </em><em>jouais</em><em> au hockey tous les samedis.</em></li>\n<li><strong>Descriptions</strong> (people, places, weather, time, age, feelings): <em>Il </em><em>faisait</em><em> froid. La maison </em><em>était</em><em> grande. J'</em><em>avais</em><em> 10 ans. Elle </em><em>était</em><em> triste.</em></li>\n<li><strong>Ongoing actions</strong> (\"was doing\"): <em>Je </em><em>regardais</em><em> la télé.</em> — I was watching TV.</li>\n<li><strong>Polite requests / suggestions</strong>: <em>Je </em><em>voulais</em><em> vous demander…</em> — I wanted to ask you… / <em>Si on </em><em>allait</em><em> au cinéma ?</em> — How about going to the movies?</li>\n</ol>"
+  },
+  {
+   "heading": "Key time markers",
+   "html": "<p><em>avant</em> (before / in the past), <em>autrefois</em> (in the past), <em>quand j'étais jeune / petit(e)</em>, <em>tous les jours</em>, <em>d'habitude</em> (usually), <em>souvent</em>, <em>toujours</em>, <em>le lundi</em> (every Monday).</p>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Conjugate *avoir* and *être* in the imparfait.",
+   "answer": "avoir: j'avais, tu avais, il avait, nous avions, vous aviez, ils avaient. être: j'étais, tu étais, il était, nous étions, vous étiez, ils étaient.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Put into the imparfait: (a) Je mange. (b) Nous finissons. (c) Ils font. (d) Tu vas. (e) Vous buvez.",
+   "answer": "(a) Je mangeais. (b) Nous finissions. (c) Ils faisaient. (d) Tu allais. (e) Vous buviez.",
+   "id": "e2"
+  },
+  {
+   "prompt": "Translate: \"When I was young, I lived in Montréal.\"",
+   "answer": "*Quand j'étais jeune, j'habitais à Montréal.*",
+   "id": "e3"
+  },
+  {
+   "prompt": "Translate: \"It was nice and the children were playing in the garden.\"",
+   "answer": "*Il faisait beau et les enfants jouaient dans le jardin.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "Write 3 sentences about your childhood habits.",
+   "answer": "Example: *Quand j'étais petit, j'allais à l'école à pied. Je jouais au soccer. Ma mère faisait des gâteaux le dimanche.*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

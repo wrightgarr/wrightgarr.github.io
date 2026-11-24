@@ -1,0 +1,132 @@
+{
+  "id": "a1-04",
+  "level": "A1",
+  "number": 4,
+  "title": "C'est combien ?",
+  "grammar": "numbers 1–30, *avoir* + age",
+  "theme": "shopping at the market",
+  "wordCount": 87,
+  "primer": [
+    "**un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix**: 1–10",
+    "**onze, douze, treize, quatorze, quinze, seize**: 11–16; then **dix-sept, dix-huit, dix-neuf**",
+    "**vingt, vingt-deux… trente**: 20, 22… 30",
+    "**il a vingt ans**: he is 20 (literally \"he has 20 years\")",
+    "**C'est combien ?**: How much is it?",
+    "**acheter**: to buy (*il achète*)",
+    "**voilà**: there you go, here it is"
+  ],
+  "passage": [
+    [
+      "Hugo a vingt-six ans. Léa a vingt-huit ans. Marco a vingt-deux ans. Et Minou, le chat ? Il a cinq ans."
+    ],
+    [
+      "Aujourd'hui, Hugo et Léa sont au marché. Hugo achète des tomates pour le restaurant."
+    ],
+    [
+      "— Bonjour, madame. Les tomates, c'est combien ?",
+      "— Trois euros le kilo.",
+      "— Je voudrais deux kilos, s'il vous plaît.",
+      "— Voilà. Six euros, s'il vous plaît."
+    ],
+    [
+      "Léa achète des fleurs pour sa mère. Les fleurs coûtent douze euros. Léa a quinze euros."
+    ],
+    [
+      "— Voilà quinze euros, madame.",
+      "— Merci. Et voilà trois euros pour vous.",
+      "— Merci, bonne journée !"
+    ]
+  ],
+  "glossary": [
+    {
+      "fr": "ans",
+      "en": "years (of age)"
+    },
+    {
+      "fr": "le marché",
+      "en": "the market"
+    },
+    {
+      "fr": "des tomates",
+      "en": "(some) tomatoes"
+    },
+    {
+      "fr": "pour",
+      "en": "for"
+    },
+    {
+      "fr": "le kilo",
+      "en": "per kilo"
+    },
+    {
+      "fr": "des fleurs",
+      "en": "(some) flowers"
+    },
+    {
+      "fr": "coûtent",
+      "en": "cost"
+    },
+    {
+      "fr": "bonne journée",
+      "en": "have a good day"
+    }
+  ],
+  "spotlight": [
+    "**Age uses avoir:** *Hugo a vingt-six ans.* Never *Hugo est 26*.",
+    "**Numbers 21–29:** *vingt* + number with a hyphen (*vingt-deux, vingt-six, vingt-huit*), except 21: *vingt et un*."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Who is the oldest of the three friends? How old is Minou?",
+      "answer": "Léa (28) — and Minou is 5",
+      "options": [
+        "Léa (28) — and Minou is 5",
+        "Hugo (26) — and Minou is 2",
+        "Marco (22) — and Minou is 5",
+        "Léa (28) — and Minou is 15"
+      ],
+      "evidence": "Léa a vingt-huit ans. … Et Minou, le chat ? Il a cinq ans."
+    },
+    {
+      "id": "q2",
+      "prompt": "How much do Hugo's tomatoes cost in total?",
+      "answer": "€6 — two kilos at €3 a kilo",
+      "options": [
+        "€6 — two kilos at €3 a kilo",
+        "€3",
+        "€12",
+        "€9"
+      ],
+      "evidence": "Trois euros le kilo. … Voilà. Six euros, s'il vous plaît."
+    },
+    {
+      "id": "q3",
+      "prompt": "How much change does Léa get, and why?",
+      "answer": "€3, because the flowers cost €12 and she pays €15",
+      "options": [
+        "€3, because the flowers cost €12 and she pays €15",
+        "€5, because she pays with €20",
+        "€2, because the flowers cost €13",
+        "None — she pays the exact price"
+      ],
+      "evidence": "Les fleurs coûtent douze euros. Léa a quinze euros."
+    }
+  ],
+  "writing": {
+    "prompt": "State your age and the age of one person you know, then ask the price of something.",
+    "model": "J'ai trente ans. Ma sœur a vingt-cinq ans. Pardon, les pommes, c'est combien ?",
+    "targets": [
+      {
+        "label": "an age with … ans",
+        "pattern": "\\bans\\b",
+        "min": 1
+      },
+      {
+        "label": "C'est combien ?",
+        "pattern": "c'est combien|combien",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "s1",
+ "subject": 1,
+ "level": "A1",
+ "title": "The French Alphabet",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>French uses the same 26 letters as English, but they are pronounced differently. Knowing the letter names lets you spell your name, an email address or a street name — something you will do constantly in France or Québec.</p>"
+  },
+  {
+   "heading": "The letters and their names",
+   "html": "<table>\n<thead>\n<tr>\n<th>Letter</th>\n<th>Sounds like (approx.)</th>\n<th>Letter</th>\n<th>Sounds like (approx.)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A</td>\n<td><em>ah</em></td>\n<td>N</td>\n<td><em>enn</em></td>\n</tr>\n<tr>\n<td>B</td>\n<td><em>bay</em></td>\n<td>O</td>\n<td><em>oh</em></td>\n</tr>\n<tr>\n<td>C</td>\n<td><em>say</em></td>\n<td>P</td>\n<td><em>pay</em></td>\n</tr>\n<tr>\n<td>D</td>\n<td><em>day</em></td>\n<td>Q</td>\n<td><em>kü</em> (lips rounded, like \"ee\" with pursed lips)</td>\n</tr>\n<tr>\n<td>E</td>\n<td><em>uh</em> (like the \"e\" in \"the\")</td>\n<td>R</td>\n<td><em>air</em> (throaty R)</td>\n</tr>\n<tr>\n<td>F</td>\n<td><em>eff</em></td>\n<td>S</td>\n<td><em>ess</em></td>\n</tr>\n<tr>\n<td>G</td>\n<td><em>zhay</em> (like the \"s\" in \"measure\")</td>\n<td>T</td>\n<td><em>tay</em></td>\n</tr>\n<tr>\n<td>H</td>\n<td><em>ahsh</em></td>\n<td>U</td>\n<td><em>ü</em> (say \"ee\" with rounded lips)</td>\n</tr>\n<tr>\n<td>I</td>\n<td><em>ee</em></td>\n<td>V</td>\n<td><em>vay</em></td>\n</tr>\n<tr>\n<td>J</td>\n<td><em>zhee</em></td>\n<td>W</td>\n<td><em>doo-bluh-vay</em> (\"double V\")</td>\n</tr>\n<tr>\n<td>K</td>\n<td><em>kah</em></td>\n<td>X</td>\n<td><em>eeks</em></td>\n</tr>\n<tr>\n<td>L</td>\n<td><em>ell</em></td>\n<td>Y</td>\n<td><em>ee-grek</em> (\"Greek i\")</td>\n</tr>\n<tr>\n<td>M</td>\n<td><em>emm</em></td>\n<td>Z</td>\n<td><em>zed</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "The tricky pairs for English speakers",
+   "html": "<ul>\n<li><strong>E</strong> (<em>uh</em>) vs <strong>I</strong> (<em>ee</em>): an English speaker naturally says \"ee\" for E. In French, <strong>I</strong> is \"ee\".</li>\n<li><strong>G</strong> (<em>zhay</em>) vs <strong>J</strong> (<em>zhee</em>): they are reversed compared to English.</li>\n<li><strong>U</strong> has no English equivalent. Say \"ee\", keep your tongue where it is, and round your lips as if to whistle.</li>\n<li><strong>R</strong> is pronounced at the back of the throat, close to a light gargle.</li>\n<li><strong>W</strong> is literally \"double V\", not \"double U\".</li>\n</ul>"
+  },
+  {
+   "heading": "Spelling aloud",
+   "html": "<p>When spelling, the French say:\n- <strong>deux L</strong> / <strong>double L</strong> for \"ll\" (e.g. <em>Gilles</em>: G - I - deux L - E - S)\n- <strong>majuscule</strong> = capital letter, <strong>minuscule</strong> = lowercase\n- <strong>trait d'union</strong> = hyphen, <strong>apostrophe</strong> = apostrophe\n- For email: <strong>arobase</strong> = @, <strong>point</strong> = dot, <strong>tiret</strong> = dash, <strong>tiret bas</strong> = underscore</p>\n<p><strong>Examples</strong>\n- <em>Comment ça s'écrit ?</em> — How is that spelled?\n- <em>Martin : M - A - R - T - I - N.</em>\n- <em>Mon adresse, c'est paul point durand arobase mail point com.</em> — paul.durand@mail.com</p>"
+  },
+  {
+   "heading": "Basic sounds of the vowels inside words",
+   "html": "<table>\n<thead>\n<tr>\n<th>Letter</th>\n<th>Usual sound in words</th>\n<th>Example</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>a</td>\n<td>\"ah\"</td>\n<td><em>papa</em></td>\n</tr>\n<tr>\n<td>e (no accent)</td>\n<td>\"uh\" or silent</td>\n<td><em>le</em>, <em>petite</em></td>\n</tr>\n<tr>\n<td>i / y</td>\n<td>\"ee\"</td>\n<td><em>lit</em>, <em>stylo</em></td>\n</tr>\n<tr>\n<td>o</td>\n<td>\"oh\"</td>\n<td><em>moto</em></td>\n</tr>\n<tr>\n<td>u</td>\n<td>\"ü\"</td>\n<td><em>tu</em>, <em>lune</em></td>\n</tr>\n</tbody>\n</table>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "Write how you would say these letters in French using the approximate sounds above: G, J, E, I, U, W, Y.",
+   "answer": "G = *zhay*, J = *zhee*, E = *uh*, I = *ee*, U = *ü*, W = *doo-bluh-vay*, Y = *ee-grek*.",
+   "id": "e1"
+  },
+  {
+   "prompt": "Spell these names aloud (write out the letter names): *Hugo*, *Julie*, *Yves*.",
+   "answer": "Hugo: *ahsh – ü – zhay – oh*. Julie: *zhee – ü – ell – ee – uh*. Yves: *ee-grek – vay – uh – ess*.",
+   "id": "e2"
+  },
+  {
+   "prompt": "How do you say \"@\" and \".\" when giving an email address?",
+   "answer": "@ = *arobase*, . = *point*.",
+   "id": "e3"
+  },
+  {
+   "prompt": "Which two letters are \"reversed\" compared to English pronunciation?",
+   "answer": "G and J.",
+   "id": "e4"
+  },
+  {
+   "prompt": "Translate: \"How is that spelled?\"",
+   "answer": "*Comment ça s'écrit ?*",
+   "id": "e5"
+  }
+ ],
+ "outro": ""
+}

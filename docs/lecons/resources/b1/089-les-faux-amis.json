@@ -1,0 +1,55 @@
+{
+ "id": "s89",
+ "subject": 89,
+ "level": "B1",
+ "title": "Les Faux Amis",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p><strong>Faux amis</strong> (\"false friends\") are French words that look like English words but have a <strong>different meaning</strong>. They cause some of the most common mistakes.</p>\n<table>\n<thead>\n<tr>\n<th>French</th>\n<th>Actually means</th>\n<th>Not</th>\n<th>English word → French</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>actuellement</strong></td>\n<td>currently</td>\n<td>actually</td>\n<td>actually → <em>en fait</em></td>\n</tr>\n<tr>\n<td><strong>assister à</strong></td>\n<td>to attend</td>\n<td>to assist</td>\n<td>to assist → <em>aider</em></td>\n</tr>\n<tr>\n<td><strong>attendre</strong></td>\n<td>to wait</td>\n<td>to attend</td>\n<td>to attend → <em>assister à</em></td>\n</tr>\n<tr>\n<td><strong>blesser</strong></td>\n<td>to injure</td>\n<td>to bless</td>\n<td>to bless → <em>bénir</em></td>\n</tr>\n<tr>\n<td><strong>bras</strong></td>\n<td>arm</td>\n<td>bra</td>\n<td>bra → <em>soutien-gorge</em></td>\n</tr>\n<tr>\n<td><strong>caractère</strong></td>\n<td>temperament</td>\n<td>character (in a story)</td>\n<td>character → <em>personnage</em></td>\n</tr>\n<tr>\n<td><strong>chance</strong></td>\n<td>luck</td>\n<td>chance</td>\n<td>chance → <em>occasion / possibilité</em></td>\n</tr>\n<tr>\n<td><strong>collège</strong></td>\n<td>middle school</td>\n<td>college</td>\n<td>college → <em>cégep (Qc) / université</em></td>\n</tr>\n<tr>\n<td><strong>commander</strong></td>\n<td>to order (food)</td>\n<td>to command</td>\n<td></td>\n</tr>\n<tr>\n<td><strong>crayon</strong></td>\n<td>pencil</td>\n<td>crayon</td>\n<td>crayon → <em>crayon de cire / de couleur</em></td>\n</tr>\n<tr>\n<td><strong>déception</strong></td>\n<td>disappointment</td>\n<td>deception</td>\n<td>deception → <em>tromperie</em></td>\n</tr>\n<tr>\n<td><strong>demander</strong></td>\n<td>to ask</td>\n<td>to demand</td>\n<td>to demand → <em>exiger</em></td>\n</tr>\n<tr>\n<td><strong>éventuellement</strong></td>\n<td>possibly</td>\n<td>eventually</td>\n<td>eventually → <em>finalement</em></td>\n</tr>\n<tr>\n<td><strong>excité</strong></td>\n<td>(often) aroused, overexcited</td>\n<td>excited (happy)</td>\n<td>excited → <em>enthousiaste / j'ai hâte</em></td>\n</tr>\n<tr>\n<td><strong>formidable</strong></td>\n<td>great, wonderful</td>\n<td>formidable (fearsome)</td>\n<td></td>\n</tr>\n<tr>\n<td><strong>gentil</strong></td>\n<td>kind, nice</td>\n<td>gentle</td>\n<td>gentle → <em>doux</em></td>\n</tr>\n<tr>\n<td><strong>journée</strong></td>\n<td>day</td>\n<td>journey</td>\n<td>journey → <em>voyage / trajet</em></td>\n</tr>\n<tr>\n<td><strong>librairie</strong></td>\n<td>bookstore</td>\n<td>library</td>\n<td>library → <em>bibliothèque</em></td>\n</tr>\n<tr>\n<td><strong>location</strong></td>\n<td>rental</td>\n<td>location</td>\n<td>location → <em>endroit / lieu</em></td>\n</tr>\n<tr>\n<td><strong>monnaie</strong></td>\n<td>change (coins), currency</td>\n<td>money</td>\n<td>money → <em>argent</em></td>\n</tr>\n<tr>\n<td><strong>passer un examen</strong></td>\n<td>to take an exam</td>\n<td>to pass an exam</td>\n<td>to pass → <em>réussir un examen</em></td>\n</tr>\n<tr>\n<td><strong>préservatif</strong></td>\n<td>condom</td>\n<td>preservative</td>\n<td>preservative → <em>conservateur</em></td>\n</tr>\n<tr>\n<td><strong>rester</strong></td>\n<td>to stay</td>\n<td>to rest</td>\n<td>to rest → <em>se reposer</em></td>\n</tr>\n<tr>\n<td><strong>sensible</strong></td>\n<td>sensitive</td>\n<td>sensible</td>\n<td>sensible → <em>raisonnable</em></td>\n</tr>\n<tr>\n<td><strong>sympathique</strong></td>\n<td>nice, friendly</td>\n<td>sympathetic</td>\n<td>sympathetic → <em>compatissant</em></td>\n</tr>\n<tr>\n<td><strong>travailler</strong></td>\n<td>to work</td>\n<td>to travel</td>\n<td>to travel → <em>voyager</em></td>\n</tr>\n<tr>\n<td><strong>user</strong></td>\n<td>to wear out</td>\n<td>to use</td>\n<td>to use → <em>utiliser</em></td>\n</tr>\n<tr>\n<td><strong>veste</strong></td>\n<td>jacket</td>\n<td>vest</td>\n<td>vest → <em>gilet</em></td>\n</tr>\n<tr>\n<td><strong>raisin</strong></td>\n<td>grape</td>\n<td>raisin</td>\n<td>raisin → <em>raisin sec</em></td>\n</tr>\n<tr>\n<td><strong>lecture</strong></td>\n<td>reading</td>\n<td>lecture</td>\n<td>lecture → <em>conférence / cours magistral</em></td>\n</tr>\n<tr>\n<td><strong>avertissement</strong></td>\n<td>warning</td>\n<td>advertisement</td>\n<td>advertisement → <em>publicité</em></td>\n</tr>\n<tr>\n<td><strong>coin</strong></td>\n<td>corner</td>\n<td>coin</td>\n<td>coin → <em>pièce de monnaie</em></td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "heading": "Most embarrassing ones",
+   "html": "<ul>\n<li><em>Je suis </em><em>excité</em><em> !</em> can sound sexual. Say <strong><em>J'ai hâte !</em></strong> (I can't wait) or <em>Je suis </em><em>enthousiaste</em>**.</li>\n<li><em>Je suis </em><em>plein(e)</em><strong> (I'm full after eating) can mean pregnant (animal) or drunk. Say </strong><em>J'ai bien mangé</em>*<em> / </em>Je n'ai plus faim*.</li>\n<li><em>Un </em><em>préservatif</em>** is a condom, not a food preservative.</li>\n</ul>"
+  }
+ ],
+ "exercises": [
+  {
+   "prompt": "\"I'm currently working in Toronto.\"",
+   "instruction": "Translate (avoid the false friends!):",
+   "answer": "*Actuellement, je travaille à Toronto.*",
+   "id": "e1"
+  },
+  {
+   "prompt": "\"I'm going to the library.\"",
+   "answer": "*Je vais à la bibliothèque.*",
+   "id": "e2"
+  },
+  {
+   "prompt": "\"I passed my exam!\"",
+   "answer": "*J'ai réussi mon examen !*",
+   "id": "e3"
+  },
+  {
+   "prompt": "\"She is very sensible.\"",
+   "answer": "*Elle est très raisonnable.*",
+   "id": "e4"
+  },
+  {
+   "prompt": "\"Actually, I prefer tea.\"",
+   "answer": "*En fait, je préfère le thé.*",
+   "id": "e5"
+  },
+  {
+   "prompt": "\"I attended the meeting.\"",
+   "answer": "*J'ai assisté à la réunion.*",
+   "id": "e6"
+  },
+  {
+   "prompt": "\"I'm so excited about the trip!\"",
+   "answer": "*J'ai tellement hâte de faire ce voyage !*",
+   "id": "e7"
+  }
+ ],
+ "outro": ""
+}
