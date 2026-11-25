@@ -1,0 +1,17 @@
+{
+  "name": "Mémo — French",
+  "short_name": "Mémo",
+  "description": "Learn French from A1 to B2: grammar lessons, graded reading and spaced-repetition flashcards.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f1f5f9",
+  "theme_color": "#f1f5f9",
+  "icons": [
+    { "src": "icons/memo-logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

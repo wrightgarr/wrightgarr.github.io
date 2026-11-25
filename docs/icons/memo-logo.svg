@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Mémo</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.55" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.28" cy="0.18" r="0.75">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Tile -->
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="116" fill="url(#glow)"/>
+
+  <!-- M: one continuous stroke, its centre dipping like the spine of an open book -->
+  <path d="M150 380 V196 L256 316 L362 196 V380"
+        fill="none" stroke="#ffffff" stroke-width="62" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Accent aigu, the é of mémo -->
+  <path d="M292 142 L340 102" fill="none" stroke="#fbbf24" stroke-width="40" stroke-linecap="round"/>
+</svg>
