@@ -135,6 +135,7 @@
     {
       "id": "q1",
       "prompt": "Que veut faire Léa de son nouveau local ?",
+      "prompt_en": "What does Léa want to do with her new premises?",
       "answer": "Un studio où elle fera poser les gens du quartier",
       "options": [
         "Un studio où elle fera poser les gens du quartier",
@@ -142,11 +143,18 @@
         "Un appartement pour Thomas",
         "Une galerie pour vendre des tableaux"
       ],
+      "options_en": [
+        "A studio where she'll photograph people from the neighbourhood",
+        "A café for musicians",
+        "A flat for Thomas",
+        "A gallery to sell paintings"
+      ],
       "evidence": "Léa voulait en faire un studio, où elle ferait poser les gens du quartier."
     },
     {
       "id": "q2",
       "prompt": "Comment chacun des amis aide-t-il Léa ?",
+      "prompt_en": "How does each of the friends help Léa?",
       "answer": "Peinture, électricité, cuisine, étagères… et Madame Ferrand fait travailler tout le monde",
       "options": [
         "Peinture, électricité, cuisine, étagères… et Madame Ferrand fait travailler tout le monde",
@@ -154,17 +162,30 @@
         "Ils ne font rien et regardent Léa",
         "Ils vont acheter des meubles chez IKEA"
       ],
+      "options_en": [
+        "Painting, wiring, cooking, shelves… and Madame Ferrand keeps everyone working",
+        "They each pay a tradesman",
+        "They do nothing and watch Léa",
+        "They go and buy furniture at IKEA"
+      ],
       "evidence": "Même Madame Ferrand est venue. Elle n'a rien porté, mais elle a fait travailler tout le monde."
     },
     {
       "id": "q3",
       "prompt": "Que se passe-t-il vers cinq heures ?",
+      "prompt_en": "What happens at around five o'clock?",
       "answer": "L'Opéra appelle Amina",
       "options": [
         "L'Opéra appelle Amina",
         "Le mur tombe",
         "Thomas arrive",
         "Madame Ferrand se fâche"
+      ],
+      "options_en": [
+        "The Opera calls Amina",
+        "The wall falls down",
+        "Thomas arrives",
+        "Madame Ferrand gets angry"
       ],
       "evidence": "Mais vers cinq heures, son téléphone a vibré. Elle a regardé l'écran et elle est devenue toute pâle. — C'est l'Opéra."
     }

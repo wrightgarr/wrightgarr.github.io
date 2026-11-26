@@ -154,6 +154,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi Léa ne peut-elle pas écrire le même message à tout le monde ?",
+      "prompt_en": "Why can't Léa write the same message to everyone?",
       "answer": "Chaque destinataire demande un registre différent selon la relation",
       "options": [
         "Chaque destinataire demande un registre différent selon la relation",
@@ -161,11 +162,18 @@
         "Son ordinateur est en panne",
         "Madame Ferrand le lui interdit"
       ],
+      "options_en": [
+        "Each recipient calls for a different register depending on the relationship",
+        "She doesn't have time",
+        "Her computer is broken",
+        "Madame Ferrand forbids it"
+      ],
       "evidence": "Elle a vite compris qu'elle ne pourrait pas écrire le même message à tout le monde."
     },
     {
       "id": "q2",
       "prompt": "Quelles expressions rendent la lettre au maire très formelle ?",
+      "prompt_en": "Which expressions make the letter to the mayor very formal?",
       "answer": "« la parution de l'ouvrage », « compte tenu de », « nous serions honorées que vous puissiez assister »",
       "options": [
         "« la parution de l'ouvrage », « compte tenu de », « nous serions honorées que vous puissiez assister »",
@@ -173,17 +181,30 @@
         "« Bisous »",
         "« Bien amicalement »"
       ],
+      "options_en": [
+        "\"the publication of the work\", \"in view of\", \"we would be honoured if you were able to attend\"",
+        "\"You'd better come\"",
+        "\"Kisses\"",
+        "\"Best wishes\""
+      ],
       "evidence": "nous serions honorées que vous puissiez assister à la présentation de cet ouvrage"
     },
     {
       "id": "q3",
       "prompt": "Que reproche Madame Ferrand au message envoyé à Hugo ?",
+      "prompt_en": "What does Madame Ferrand object to in the message sent to Hugo?",
       "answer": "Les trois points d'exclamation : elle préfère des mots",
       "options": [
         "Les trois points d'exclamation : elle préfère des mots",
         "Les fautes d'orthographe",
         "Le ton trop formel",
         "Il est trop long"
+      ],
+      "options_en": [
+        "The three exclamation marks: she prefers words",
+        "The spelling mistakes",
+        "The tone is too formal",
+        "It's too long"
       ],
       "evidence": "Pourquoi trois points d'exclamation ? Un seul ne suffit pas ?"
     }

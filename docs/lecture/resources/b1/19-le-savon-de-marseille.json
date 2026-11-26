@@ -124,6 +124,7 @@
     {
       "id": "q1",
       "prompt": "Quelles sont les règles du vrai savon de Marseille ?",
+      "prompt_en": "What are the rules for real Marseille soap?",
       "answer": "Au moins 72 % d'huile végétale, sans parfum ni colorant",
       "options": [
         "Au moins 72 % d'huile végétale, sans parfum ni colorant",
@@ -131,11 +132,18 @@
         "Du lait de chèvre et du miel",
         "50 % d'huile et beaucoup de couleurs"
       ],
+      "options_en": [
+        "At least 72% vegetable oil, with no perfume or colouring",
+        "Only olive oil and lavender scent",
+        "Goat's milk and honey",
+        "50% oil and lots of colours"
+      ],
       "evidence": "Le vrai savon de Marseille est fait avec au moins soixante-douze pour cent d'huile végétale. Il n'est jamais parfumé, jamais coloré."
     },
     {
       "id": "q2",
       "prompt": "Quelles sont les étapes de la fabrication ?",
+      "prompt_en": "What are the steps in making it?",
       "answer": "Cuisson avec la soude, lavage à l'eau salée, séchage, découpe et marquage",
       "options": [
         "Cuisson avec la soude, lavage à l'eau salée, séchage, découpe et marquage",
@@ -143,17 +151,30 @@
         "Cuisson d'une heure, puis emballage",
         "Moulage, puis parfum, puis cuisson"
       ],
+      "options_en": [
+        "Cooking with soda, washing in salt water, drying, cutting and stamping",
+        "Cold mixing, then drying in the sun",
+        "One hour of cooking, then wrapping",
+        "Moulding, then perfume, then cooking"
+      ],
       "evidence": "Enfin, les blocs sont découpés et chaque cube est marqué à la main."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Monsieur Bérenger parle-t-il d'un « scandale » ?",
+      "prompt_en": "Why does Monsieur Bérenger talk about a \"scandal\"?",
       "answer": "Des savons fabriqués ailleurs sont vendus comme « savon de Marseille »",
       "options": [
         "Des savons fabriqués ailleurs sont vendus comme « savon de Marseille »",
         "Les savonneries ferment le dimanche",
         "Le prix du savon a doublé",
         "Les touristes n'achètent plus de savon"
+      ],
+      "options_en": [
+        "Soaps made elsewhere are sold as \"Marseille soap\"",
+        "Soap factories close on Sundays",
+        "The price of soap has doubled",
+        "Tourists don't buy soap any more"
       ],
       "evidence": "Le marché est envahi par des savons fabriqués à l'autre bout du monde et vendus comme « savon de Marseille » dans les boutiques de souvenirs."
     }

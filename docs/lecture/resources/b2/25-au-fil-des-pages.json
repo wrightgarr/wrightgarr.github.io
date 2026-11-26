@@ -138,6 +138,7 @@
     {
       "id": "q1",
       "prompt": "Comment Madame Ferrand travaille-t-elle sur les épreuves ?",
+      "prompt_en": "How does Madame Ferrand work on the proofs?",
       "answer": "Chaque matin à la table de la cuisine, sans s'arrêter jusqu'à la dernière page de la journée",
       "options": [
         "Chaque matin à la table de la cuisine, sans s'arrêter jusqu'à la dernière page de la journée",
@@ -145,11 +146,18 @@
         "Elle laisse Léa tout faire",
         "À l'hôpital, avec les infirmières"
       ],
+      "options_en": [
+        "Every morning at the kitchen table, not stopping until the day's last page",
+        "Only on Sundays",
+        "She lets Léa do everything",
+        "In hospital, with the nurses"
+      ],
       "evidence": "Elle s'installait chaque matin à sa table de cuisine, les épreuves devant elle, et elle n'en bougeait plus jusqu'à ce que la dernière page de la journée soit lue."
     },
     {
       "id": "q2",
       "prompt": "Que demande Thomas à Léa, et que lui promet-elle ?",
+      "prompt_en": "What does Thomas ask Léa, and what does she promise him?",
       "answer": "De penser à elle et à leur couple après le livre ; elle promet un voyage en Bretagne",
       "options": [
         "De penser à elle et à leur couple après le livre ; elle promet un voyage en Bretagne",
@@ -157,17 +165,30 @@
         "De déménager à Strasbourg ; elle refuse",
         "De l'épouser ; elle dit oui"
       ],
+      "options_en": [
+        "To think about herself and their relationship after the book; she promises a trip to Brittany",
+        "To leave Le Mistral; she agrees",
+        "To move to Strasbourg; she refuses",
+        "To marry him; she says yes"
+      ],
       "evidence": "Après, sitôt les épreuves envoyées, je t'emmène en Bretagne."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Madame Ferrand refuse-t-elle d'ouvrir le carnet 40 ?",
+      "prompt_en": "Why does Madame Ferrand refuse to open notebook 40?",
       "answer": "Elle veut le lire en dernier, quand le livre sera terminé",
       "options": [
         "Elle veut le lire en dernier, quand le livre sera terminé",
         "Il est perdu",
         "Il est trop abîmé",
         "Anne le lui a interdit"
+      ],
+      "options_en": [
+        "She wants to read it last, when the book is finished",
+        "It's lost",
+        "It's too damaged",
+        "Anne forbade her"
       ],
       "evidence": "Je veux le lire en dernier, quand tout le reste sera fait."
     }

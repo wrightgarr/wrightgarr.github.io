@@ -112,6 +112,7 @@
     {
       "id": "q1",
       "prompt": "Comment Jean a-t-il amené son père à raconter son histoire ?",
+      "prompt_en": "How did Jean get his father to tell his story?",
       "answer": "Il lui a demandé pourquoi il ne passait jamais par la rue de la Loge",
       "options": [
         "Il lui a demandé pourquoi il ne passait jamais par la rue de la Loge",
@@ -119,11 +120,18 @@
         "Il lui a lu un livre d'histoire",
         "Sa mère lui a demandé de le faire"
       ],
+      "options_en": [
+        "He asked him why he never went down the rue de la Loge",
+        "He found an old photo",
+        "He read him a history book",
+        "His mother asked him to do it"
+      ],
       "evidence": "je lui ai demandé pourquoi il ne passait jamais par la rue de la Loge."
     },
     {
       "id": "q2",
       "prompt": "Que s'est-il passé le 24 janvier 1943 dans le quartier Saint-Jean ?",
+      "prompt_en": "What happened on 24 January 1943 in the Saint-Jean district?",
       "answer": "Les habitants ont été évacués de force ; beaucoup ont été envoyés à Fréjus, d'autres déportés, puis le quartier a été dynamité",
       "options": [
         "Les habitants ont été évacués de force ; beaucoup ont été envoyés à Fréjus, d'autres déportés, puis le quartier a été dynamité",
@@ -131,17 +139,30 @@
         "Un incendie a détruit les maisons",
         "Les habitants ont fui la ville d'eux-mêmes"
       ],
+      "options_en": [
+        "The residents were forcibly evacuated; many were sent to Fréjus, others deported, then the district was dynamited",
+        "The district was bombed from the air during the night",
+        "A fire destroyed the houses",
+        "The residents fled the city of their own accord"
+      ],
       "evidence": "Près de vingt mille personnes ont été évacuées ce jour-là. Beaucoup ont été envoyées dans un camp à Fréjus. D'autres, plus d'un millier, ont été déportées"
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Jean a-t-il décidé de tout écrire ?",
+      "prompt_en": "Why did Jean decide to write everything down?",
       "answer": "Pour que cette histoire ne se perde pas",
       "options": [
         "Pour que cette histoire ne se perde pas",
         "Pour devenir journaliste",
         "Parce que son professeur le lui demandait",
         "Pour la publier dans un journal"
+      ],
+      "options_en": [
+        "So that this story wouldn't be lost",
+        "To become a journalist",
+        "Because his teacher asked him to",
+        "To publish it in a newspaper"
       ],
       "evidence": "Il ne faut pas que ça se perde."
     }

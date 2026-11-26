@@ -126,6 +126,7 @@
     {
       "id": "q1",
       "prompt": "Combien de candidats ont passé l'audition, et qui a été choisi ?",
+      "prompt_en": "How many candidates auditioned, and who was chosen?",
       "answer": "Quarante-deux candidats, et c'est Amina qui a été choisie",
       "options": [
         "Quarante-deux candidats, et c'est Amina qui a été choisie",
@@ -133,11 +134,18 @@
         "Quarante-deux candidats, et personne n'a été choisi",
         "Vingt candidats, et Amina est deuxième"
       ],
+      "options_en": [
+        "Forty-two candidates, and Amina was chosen",
+        "Ten candidates, and a Parisian won",
+        "Forty-two candidates, and no one was chosen",
+        "Twenty candidates, and Amina came second"
+      ],
       "evidence": "Sur quarante-deux candidats venus de toute l'Europe, c'est elle que le jury avait retenue."
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce que la directrice musicale a dit à Amina ?",
+      "prompt_en": "What did the music director tell Amina?",
       "answer": "Que le jury a choisi son son, pas sa technique",
       "options": [
         "Que le jury a choisi son son, pas sa technique",
@@ -145,17 +153,30 @@
         "Qu'elle commencera l'année prochaine",
         "Que Delmas a beaucoup insisté"
       ],
+      "options_en": [
+        "That the jury chose her sound, not her technique",
+        "That she must change her bow",
+        "That she'll start next year",
+        "That Delmas insisted a lot"
+      ],
       "evidence": "Ce n'est pas votre technique que nous avons choisie, c'est votre son."
     },
     {
       "id": "q3",
       "prompt": "Qui a pris la grande photo d'Amina, et quand ?",
+      "prompt_en": "Who took the big photo of Amina, and when?",
       "answer": "Karim, avec son téléphone, un soir où il lui apportait à manger",
       "options": [
         "Karim, avec son téléphone, un soir où il lui apportait à manger",
         "Léa, pendant l'audition",
         "Delmas, au conservatoire",
         "Madame Ferrand, sur le toit"
+      ],
+      "options_en": [
+        "Karim, with his phone, one evening when he was bringing her food",
+        "Léa, during the audition",
+        "Delmas, at the conservatoire",
+        "Madame Ferrand, on the roof"
       ],
       "evidence": "C'est Karim qui l'a prise, avec son téléphone, un soir où il t'apportait à manger."
     }

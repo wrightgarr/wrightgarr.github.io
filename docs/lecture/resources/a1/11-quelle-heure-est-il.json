@@ -80,9 +80,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What does Léa do at 7:15 and at 7:30?",
-      "answer": "7:15 she showers; 7:30 she eats and has a coffee",
+      "prompt": "Qu'est-ce que Léa fait à 7 h 15 et à 7 h 30 ?",
+      "prompt_en": "What does Léa do at 7:15 and at 7:30?",
+      "answer": "À 7 h 15, elle prend sa douche ; à 7 h 30, elle mange et boit un café",
       "options": [
+        "À 7 h 15, elle prend sa douche ; à 7 h 30, elle mange et boit un café",
+        "À 7 h 15, elle part au métro ; à 7 h 30, elle commence le travail",
+        "À 7 h 15, son réveil sonne ; à 7 h 30, elle prend sa douche",
+        "À 7 h 15, elle mange ; à 7 h 30, elle retourne au lit"
+      ],
+      "options_en": [
         "7:15 she showers; 7:30 she eats and has a coffee",
         "7:15 she leaves for the metro; 7:30 she starts work",
         "7:15 her alarm rings; 7:30 she showers",
@@ -92,9 +99,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What are Léa's working hours?",
-      "answer": "From 9:00 to 5:00",
+      "prompt": "Quels sont les horaires de travail de Léa ?",
+      "prompt_en": "What are Léa's working hours?",
+      "answer": "De 9 h à 17 h",
       "options": [
+        "De 9 h à 17 h",
+        "De 8 h à 16 h",
+        "De 10 h à 18 h",
+        "De 9 h à midi"
+      ],
+      "options_en": [
         "From 9:00 to 5:00",
         "From 8:00 to 4:00",
         "From 10:00 to 6:00",
@@ -104,9 +118,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Why does Léa panic at lunch?",
-      "answer": "It's 12:50 and she starts work again at 1:00",
+      "prompt": "Pourquoi Léa panique-t-elle au déjeuner ?",
+      "prompt_en": "Why does Léa panic at lunch?",
+      "answer": "Il est 12 h 50 et elle recommence le travail à 13 h",
       "options": [
+        "Il est 12 h 50 et elle recommence le travail à 13 h",
+        "Elle a oublié son portefeuille",
+        "Le restaurant ferme",
+        "Marco est en retard"
+      ],
+      "options_en": [
         "It's 12:50 and she starts work again at 1:00",
         "She has forgotten her wallet",
         "The restaurant is closing",

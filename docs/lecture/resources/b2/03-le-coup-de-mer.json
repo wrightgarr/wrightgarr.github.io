@@ -134,6 +134,7 @@
     {
       "id": "q1",
       "prompt": "Comment Baptiste a-t-il décidé qu'ils pouvaient sortir en mer ?",
+      "prompt_en": "How did Baptiste decide they could go out to sea?",
       "answer": "Il a regardé l'horizon et reniflé le vent",
       "options": [
         "Il a regardé l'horizon et reniflé le vent",
@@ -141,11 +142,18 @@
         "Il a demandé conseil à Toni",
         "Il a regardé un baromètre"
       ],
+      "options_en": [
+        "He looked at the horizon and sniffed the wind",
+        "He listened to the forecast on the radio",
+        "He asked Toni's advice",
+        "He looked at a barometer"
+      ],
       "evidence": "Mon oncle Baptiste regarda l'horizon, renifla le vent comme un chien, et déclara que nous pouvions sortir."
     },
     {
       "id": "q2",
       "prompt": "Que s'est-il passé vers dix heures, et comment chacun a-t-il réagi ?",
+      "prompt_en": "What happened at around ten o'clock, and how did each of them react?",
       "answer": "Le vent a tourné ; Baptiste s'est tu et a pris la barre, Jean s'est accroché, terrifié",
       "options": [
         "Le vent a tourné ; Baptiste s'est tu et a pris la barre, Jean s'est accroché, terrifié",
@@ -153,17 +161,30 @@
         "Le moteur est tombé en panne",
         "Toni est tombé à l'eau"
       ],
+      "options_en": [
+        "The wind turned; Baptiste went quiet and took the helm, Jean held on, terrified",
+        "They caught an enormous fish",
+        "The engine broke down",
+        "Toni fell overboard"
+      ],
       "evidence": "Vers dix heures, le vent tourna. Baptiste se tut."
     },
     {
       "id": "q3",
       "prompt": "Qu'est-ce que Jean a compris ce soir-là, et pourquoi une de ses phrases touche-t-elle Madame Ferrand ?",
+      "prompt_en": "What did Jean understand that evening, and why does one of his sentences move Madame Ferrand?",
       "answer": "Qu'il ne serait jamais pêcheur, mais qu'il écrirait toute sa vie ; elle découvre qu'il avait peur que personne ne lise ses carnets",
       "options": [
         "Qu'il ne serait jamais pêcheur, mais qu'il écrirait toute sa vie ; elle découvre qu'il avait peur que personne ne lise ses carnets",
         "Qu'il voulait devenir capitaine ; elle ne le savait pas",
         "Qu'il quitterait Marseille ; cela l'avait rendue triste",
         "Qu'il épouserait Simone ; elle trouve cela romantique"
+      ],
+      "options_en": [
+        "That he would never be a fisherman, but he would write all his life; she discovers he was afraid no one would read his notebooks",
+        "That he wanted to become a captain; she didn't know",
+        "That he would leave Marseille; it had made her sad",
+        "That he would marry Simone; she finds it romantic"
       ],
       "evidence": "Ce soir-là, je sus que je ne serais jamais pêcheur. Mais je sus aussi que j'écrirais toute ma vie."
     }

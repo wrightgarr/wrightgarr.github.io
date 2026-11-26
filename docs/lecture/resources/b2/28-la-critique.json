@@ -149,6 +149,7 @@
     {
       "id": "q1",
       "prompt": "Quelles qualités le critique reconnaît-il au livre ?",
+      "prompt_en": "What qualities does the critic recognise in the book?",
       "answer": "Un véritable écrivain, un choix de textes remarquable et un dialogue saisissant entre les photos",
       "options": [
         "Un véritable écrivain, un choix de textes remarquable et un dialogue saisissant entre les photos",
@@ -156,11 +157,18 @@
         "Une enquête policière passionnante",
         "Un livre de cuisine marseillaise"
       ],
+      "options_en": [
+        "A true writer, a remarkable selection of texts and a striking dialogue with the photos",
+        "A very short, easy read",
+        "A gripping detective story",
+        "A Marseille cookbook"
+      ],
       "evidence": "Loin d'être un simple document, ce journal révèle un véritable écrivain"
     },
     {
       "id": "q2",
       "prompt": "Quelles réserves exprime-t-il ?",
+      "prompt_en": "What reservations does he express?",
       "answer": "Des longueurs dans les années 90 et pas assez sur les dockers étrangers",
       "options": [
         "Des longueurs dans les années 90 et pas assez sur les dockers étrangers",
@@ -168,17 +176,30 @@
         "Une couverture laide",
         "Des erreurs historiques"
       ],
+      "options_en": [
+        "Some slow passages in the 90s and not enough about foreign dockers",
+        "Too many photos and not enough text",
+        "An ugly cover",
+        "Historical errors"
+      ],
       "evidence": "On regrettera toutefois que certains chapitres, notamment ceux consacrés aux années quatre-vingt-dix, souffrent de longueurs."
     },
     {
       "id": "q3",
       "prompt": "Comment Madame Ferrand réagit-elle à la critique ?",
+      "prompt_en": "How does Madame Ferrand react to the review?",
       "answer": "Elle conteste les « longueurs », apprécie « véritable écrivain » et garde l'article dans son livre",
       "options": [
         "Elle conteste les « longueurs », apprécie « véritable écrivain » et garde l'article dans son livre",
         "Elle jette le journal",
         "Elle écrit une lettre de protestation",
         "Elle pleure toute la nuit"
+      ],
+      "options_en": [
+        "She disputes the \"slow passages\", likes \"true writer\" and keeps the article in her book",
+        "She throws the newspaper away",
+        "She writes a letter of protest",
+        "She cries all night"
       ],
       "evidence": "Madame Ferrand a pris le journal, l'a plié soigneusement en quatre et l'a glissé entre les pages de son exemplaire du livre."
     }

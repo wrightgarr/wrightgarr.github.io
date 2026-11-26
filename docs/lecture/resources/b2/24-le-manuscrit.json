@@ -147,6 +147,7 @@
     {
       "id": "q1",
       "prompt": "Quel problème pose le carnet numéro 28, et quelle solution Hélène propose-t-elle ?",
+      "prompt_en": "What problem does notebook 28 raise, and what solution does Hélène suggest?",
       "answer": "Jean y nomme un contremaître accusé de dénonciation ; Hélène propose de remplacer le nom par une initiale",
       "options": [
         "Jean y nomme un contremaître accusé de dénonciation ; Hélène propose de remplacer le nom par une initiale",
@@ -154,11 +155,18 @@
         "Le carnet contient des insultes ; il faut le supprimer",
         "Le carnet est perdu ; il faut le chercher"
       ],
+      "options_en": [
+        "Jean names a foreman accused of informing; Hélène suggests replacing the name with an initial",
+        "The notebook is illegible; it has to be rewritten",
+        "The notebook contains insults; it must be removed",
+        "The notebook is lost; they must look for it"
+      ],
       "evidence": "Je vous propose de remplacer le nom par une initiale."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi sortir le livre en juin est-il « un pari risqué » ?",
+      "prompt_en": "Why is bringing the book out in June \"a risky bet\"?",
       "answer": "Il faut que l'imprimeur passe le livre en priorité et qu'il n'y ait aucun retard dans les corrections",
       "options": [
         "Il faut que l'imprimeur passe le livre en priorité et qu'il n'y ait aucun retard dans les corrections",
@@ -166,17 +174,30 @@
         "Juin est une mauvaise période pour vendre",
         "L'éditrice part en vacances"
       ],
+      "options_en": [
+        "The printer has to prioritise the book and there can be no delays in the corrections",
+        "The book is too expensive",
+        "June is a bad time to sell",
+        "The publisher is going on holiday"
+      ],
       "evidence": "Pourvu que l'imprimeur accepte de nous faire passer en priorité, c'est faisable."
     },
     {
       "id": "q3",
       "prompt": "Quelle idée Hélène a-t-elle pour la couverture, et pourquoi Léa la surprend-elle ?",
+      "prompt_en": "What idea does Hélène have for the cover, and why does Léa surprise her?",
       "answer": "Deux photos du même quai à soixante ans d'écart ; Léa a déjà la photo d'aujourd'hui",
       "options": [
         "Deux photos du même quai à soixante ans d'écart ; Léa a déjà la photo d'aujourd'hui",
         "Un portrait de Madame Ferrand ; Léa refuse",
         "Une photo des carnets ; Léa la trouve banale",
         "Un dessin de Théo ; Léa l'a déjà commandé"
+      ],
+      "options_en": [
+        "Two photos of the same quay sixty years apart; Léa already has today's photo",
+        "A portrait of Madame Ferrand; Léa refuses",
+        "A photo of the notebooks; Léa finds it dull",
+        "A drawing by Théo; Léa has already ordered it"
       ],
       "evidence": "Imaginons qu'on mette côte à côte deux photos : une de Jean sur le quai, en 1965, et une de Léa, prise au même endroit aujourd'hui."
     }

@@ -124,6 +124,7 @@
     {
       "id": "q1",
       "prompt": "Qu'est-ce qu'une « procédure-bâillon », selon l'avocate et selon Nadia ?",
+      "prompt_en": "According to the lawyer and to Nadia, what is a \"gag lawsuit\"?",
       "answer": "Une plainte qui vise à épuiser et faire taire un média, plus qu'à gagner",
       "options": [
         "Une plainte qui vise à épuiser et faire taire un média, plus qu'à gagner",
@@ -131,11 +132,18 @@
         "Une amende pour une faute d'orthographe",
         "Une enquête de la police sur le magazine"
       ],
+      "options_en": [
+        "A lawsuit aimed at exhausting and silencing a media outlet rather than winning",
+        "A trial the newspaper is sure to win",
+        "A fine for a spelling mistake",
+        "A police investigation into the magazine"
+      ],
       "evidence": "Ils ne veulent pas gagner, a expliqué l'avocate du Mistral. Ils veulent vous épuiser."
     },
     {
       "id": "q2",
       "prompt": "Qui souffre le plus de ces procédures, d'après l'éditorial ?",
+      "prompt_en": "According to the editorial, who suffers most from these lawsuits?",
       "answer": "Les petits titres, les journalistes indépendants et les lanceurs d'alerte",
       "options": [
         "Les petits titres, les journalistes indépendants et les lanceurs d'alerte",
@@ -143,17 +151,30 @@
         "Les lecteurs âgés",
         "Les sociétés d'investissement"
       ],
+      "options_en": [
+        "Small publications, independent journalists and whistle-blowers",
+        "Big newsrooms",
+        "Elderly readers",
+        "Investment companies"
+      ],
       "evidence": "Ce sont les petits titres, les journalistes indépendants, les lanceurs d'alerte."
     },
     {
       "id": "q3",
       "prompt": "Comment le public a-t-il réagi ?",
+      "prompt_en": "How did the public react?",
       "answer": "Une pétition de 40 000 signatures, des soutiens internationaux et des affiches dans le Panier",
       "options": [
         "Une pétition de 40 000 signatures, des soutiens internationaux et des affiches dans le Panier",
         "Indifférence totale",
         "Le magazine a fermé",
         "Les lecteurs ont résilié leurs abonnements"
+      ],
+      "options_en": [
+        "A petition with 40,000 signatures, international support and posters in the Panier",
+        "Complete indifference",
+        "The magazine closed",
+        "Readers cancelled their subscriptions"
       ],
       "evidence": "Une pétition de soutien a recueilli quarante mille signatures en dix jours."
     }

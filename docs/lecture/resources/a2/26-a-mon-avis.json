@@ -96,9 +96,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What topic does Nadia propose?",
-      "answer": "Should tourists be limited in the calanques?",
+      "prompt": "Quel sujet Nadia propose-t-elle ?",
+      "prompt_en": "What topic does Nadia propose?",
+      "answer": "Faut-il limiter les touristes dans les calanques ?",
       "options": [
+        "Faut-il limiter les touristes dans les calanques ?",
+        "Le magazine doit-il partir à Paris ?",
+        "Marseille doit-elle construire une nouvelle plage ?",
+        "Faut-il faire des calanques une station de ski ?"
+      ],
+      "options_en": [
         "Should tourists be limited in the calanques?",
         "Should the magazine move to Paris?",
         "Should Marseille build a new beach?",
@@ -108,9 +115,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What are Karim's and Lucas's opinions?",
-      "answer": "Karim wants to protect nature; Lucas says the calanques belong to everyone",
+      "prompt": "Quelles sont les opinions de Karim et de Lucas ?",
+      "prompt_en": "What are Karim's and Lucas's opinions?",
+      "answer": "Karim veut protéger la nature ; Lucas dit que les calanques sont à tout le monde",
       "options": [
+        "Karim veut protéger la nature ; Lucas dit que les calanques sont à tout le monde",
+        "Karim veut plus de touristes ; Lucas en veut moins",
+        "Ils pensent tous les deux que les limites sont une mauvaise idée",
+        "Karim veut les fermer ; Lucas veut y construire un hôtel"
+      ],
+      "options_en": [
         "Karim wants to protect nature; Lucas says the calanques belong to everyone",
         "Karim wants more tourists; Lucas wants fewer",
         "Both agree the limits are bad",
@@ -120,9 +134,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What compromise does Léa suggest?",
-      "answer": "Find a balance, for example by keeping places for locals",
+      "prompt": "Quel compromis Léa propose-t-elle ?",
+      "prompt_en": "What compromise does Léa suggest?",
+      "answer": "Trouver un équilibre, par exemple en gardant des places pour les habitants",
       "options": [
+        "Trouver un équilibre, par exemple en gardant des places pour les habitants",
+        "Fermer complètement les calanques",
+        "Faire payer très cher chaque visiteur",
+        "Ne rien faire et attendre"
+      ],
+      "options_en": [
         "Find a balance, for example by keeping places for locals",
         "Close the calanques completely",
         "Charge every visitor a high price",

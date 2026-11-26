@@ -134,6 +134,7 @@
     {
       "id": "q1",
       "prompt": "Dans quelles circonstances Madame Ferrand avait-elle reçu les carnets ?",
+      "prompt_en": "In what circumstances had Madame Ferrand received the notebooks?",
       "answer": "Jean les lui avait confiés quelques mois avant sa mort, en disant de les lire quand elle serait prête",
       "options": [
         "Jean les lui avait confiés quelques mois avant sa mort, en disant de les lire quand elle serait prête",
@@ -141,11 +142,18 @@
         "Anne les lui avait envoyés de Québec",
         "Un éditeur les lui avait rendus"
       ],
+      "options_en": [
+        "Jean had entrusted them to her a few months before he died, telling her to read them when she was ready",
+        "She had found them by chance after his death",
+        "Anne had sent them to her from Quebec",
+        "A publisher had returned them to her"
+      ],
       "evidence": "Jean me les avait confiés quelques mois avant sa mort. Il m'avait dit : « Tu les liras quand tu seras prête. »"
     },
     {
       "id": "q2",
       "prompt": "Que révèle la photo trouvée dans le carnet numéro 7 ?",
+      "prompt_en": "What does the photo found in notebook 7 reveal?",
       "answer": "Jean avait photographié Simone avant leur rencontre officielle",
       "options": [
         "Jean avait photographié Simone avant leur rencontre officielle",
@@ -153,17 +161,30 @@
         "Simone avait été pêcheuse",
         "Jean avait déjà publié un livre"
       ],
+      "options_en": [
+        "Jean had photographed Simone before they officially met",
+        "Jean had another wife",
+        "Simone had been a fisherwoman",
+        "Jean had already published a book"
+      ],
       "evidence": "Je ne savais même pas qu'il m'avait photographiée avant notre rencontre."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Jean n'avait-il jamais rien publié, selon sa femme ?",
+      "prompt_en": "According to his wife, why had Jean never published anything?",
       "answer": "Il pensait n'avoir pas fait assez d'études et que personne ne s'intéresserait à un docker",
       "options": [
         "Il pensait n'avoir pas fait assez d'études et que personne ne s'intéresserait à un docker",
         "Il n'avait jamais fini un texte",
         "Sa femme le lui avait interdit",
         "Les éditeurs avaient tous refusé"
+      ],
+      "options_en": [
+        "He thought he hadn't had enough education and that no one would be interested in a docker",
+        "He had never finished a text",
+        "His wife had forbidden him",
+        "Every publisher had turned him down"
       ],
       "evidence": "Il disait qu'il n'avait pas fait assez d'études, que personne ne s'intéresserait à la vie d'un docker."
     }

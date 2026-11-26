@@ -119,6 +119,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi Léa refuse-t-elle le poste de chef photo ?",
+      "prompt_en": "Why does Léa turn down the head of photography job?",
       "answer": "Ses meilleures photos viennent des gens dont elle est proche, à Marseille",
       "options": [
         "Ses meilleures photos viennent des gens dont elle est proche, à Marseille",
@@ -126,11 +127,18 @@
         "Elle n'aime pas Claire Dumas",
         "Elle a peur de l'avion"
       ],
+      "options_en": [
+        "Her best photos come from people she is close to, in Marseille",
+        "The salary is too low",
+        "She doesn't like Claire Dumas",
+        "She's afraid of flying"
+      ],
       "evidence": "Ce que j'ai compris cette semaine, c'est que mes meilleures photos ne viennent pas de mon talent, mais des gens dont je suis proche."
     },
     {
       "id": "q2",
       "prompt": "Quelle contre-proposition fait-elle à Claire Dumas ?",
+      "prompt_en": "What counter-proposal does she make to Claire Dumas?",
       "answer": "Devenir la correspondante d'Horizons en Méditerranée, basée à Marseille",
       "options": [
         "Devenir la correspondante d'Horizons en Méditerranée, basée à Marseille",
@@ -138,17 +146,30 @@
         "Envoyer Lucas à sa place",
         "Ouvrir un bureau d'Horizons à Lyon"
       ],
+      "options_en": [
+        "To become Horizons' Mediterranean correspondent, based in Marseille",
+        "To work in Paris two days a week",
+        "To send Lucas instead",
+        "To open a Horizons office in Lyon"
+      ],
       "evidence": "Si vous le souhaitez, je pourrais devenir votre correspondante, basée à Marseille."
     },
     {
       "id": "q3",
       "prompt": "Que demande Madame Ferrand à Léa à la fin ?",
+      "prompt_en": "What does Madame Ferrand ask Léa at the end?",
       "answer": "Lire les quarante carnets de son mari Jean",
       "options": [
         "Lire les quarante carnets de son mari Jean",
         "Prendre sa place dans la cuisine",
         "Écrire un article sur la fête",
         "Garder Minou pendant ses voyages"
+      ],
+      "options_en": [
+        "To read her husband Jean's forty notebooks",
+        "To take her place in the kitchen",
+        "To write an article about the party",
+        "To look after Minou while she travels"
       ],
       "evidence": "Des carnets de Jean. Il y en a quarante."
     }

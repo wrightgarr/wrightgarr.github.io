@@ -133,6 +133,7 @@
     {
       "id": "q1",
       "prompt": "Que s'est-il passé lors de l'inauguration du mur du souvenir ?",
+      "prompt_en": "What happened at the unveiling of the memorial wall?",
       "answer": "Des centaines de personnes sont venues, dont des descendants ; une femme a retrouvé le nom de sa grand-mère",
       "options": [
         "Des centaines de personnes sont venues, dont des descendants ; une femme a retrouvé le nom de sa grand-mère",
@@ -140,11 +141,18 @@
         "Le maire a annulé la cérémonie",
         "Léa a pris des centaines de photos"
       ],
+      "options_en": [
+        "Hundreds of people came, including descendants; one woman found her grandmother's name",
+        "No one came because of the mistral",
+        "The mayor cancelled the ceremony",
+        "Léa took hundreds of photos"
+      ],
       "evidence": "Une femme d'environ soixante-dix ans a cherché longtemps un nom sur le mur, puis elle a posé la main dessus et elle n'a plus bougé."
     },
     {
       "id": "q2",
       "prompt": "Selon Léa, qu'est-ce que la mémoire, et comment se transmet-elle ?",
+      "prompt_en": "According to Léa, what is memory, and how is it passed on?",
       "answer": "Une affaire de voisins, qui se transmet à condition que quelqu'un écoute",
       "options": [
         "Une affaire de voisins, qui se transmet à condition que quelqu'un écoute",
@@ -152,17 +160,30 @@
         "Un devoir réservé aux historiens",
         "Une chose qu'on ne peut pas transmettre"
       ],
+      "options_en": [
+        "A matter between neighbours, passed on as long as someone listens",
+        "A matter for museums and archives",
+        "A duty reserved for historians",
+        "Something that can't be passed on"
+      ],
       "evidence": "Ce que j'ai appris en lisant Jean, c'est que la mémoire n'est pas une affaire de musées. C'est une affaire de voisins."
     },
     {
       "id": "q3",
       "prompt": "Quel nouveau projet Léa annonce-t-elle, et que signifie la phrase qu'elle écrit dans son carnet ?",
+      "prompt_en": "What new project does Léa announce, and what does the sentence she writes in her notebook mean?",
       "answer": "Un livre sur les gens qui arrivent aujourd'hui ; elle reprend le geste de Jean et se déclare marseillaise",
       "options": [
         "Un livre sur les gens qui arrivent aujourd'hui ; elle reprend le geste de Jean et se déclare marseillaise",
         "Un roman policier ; elle veut devenir célèbre",
         "Un guide touristique ; elle quitte Marseille",
         "Rien : elle arrête d'écrire"
+      ],
+      "options_en": [
+        "A book about the people arriving today; she takes up Jean's gesture and declares herself a Marseillaise",
+        "A detective novel; she wants to become famous",
+        "A tourist guide; she's leaving Marseille",
+        "Nothing: she's giving up writing"
       ],
       "evidence": "J'ai pensé à un autre livre. Sur les gens qui arrivent. Ceux d'aujourd'hui."
     }

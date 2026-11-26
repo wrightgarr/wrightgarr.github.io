@@ -119,6 +119,7 @@
     {
       "id": "q1",
       "prompt": "Que dit l'article de La Gazette du Sud sur Le Mistral ?",
+      "prompt_en": "What does the Gazette du Sud article say about Le Mistral?",
       "answer": "Qu'il serait au bord de la faillite et que Médias Plus serait prêt à le racheter",
       "options": [
         "Qu'il serait au bord de la faillite et que Médias Plus serait prêt à le racheter",
@@ -126,11 +127,18 @@
         "Qu'il aurait gagné un prix",
         "Que Nadia aurait démissionné"
       ],
+      "options_en": [
+        "That it is supposedly on the brink of bankruptcy and Médias Plus is supposedly ready to buy it",
+        "That it is supposedly the best magazine in the South",
+        "That it supposedly won a prize",
+        "That Nadia supposedly resigned"
+      ],
       "evidence": "Selon nos informations, le magazine Le Mistral serait au bord de la faillite."
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce que Karim a découvert pendant son enquête ?",
+      "prompt_en": "What did Karim discover during his investigation?",
       "answer": "Que La Gazette appartient à une filiale de Médias Plus",
       "options": [
         "Que La Gazette appartient à une filiale de Médias Plus",
@@ -138,17 +146,30 @@
         "Que la banque veut fermer Le Mistral",
         "Que Nadia a vraiment des dettes énormes"
       ],
+      "options_en": [
+        "That La Gazette belongs to a subsidiary of Médias Plus",
+        "That Fabien Rocher is Lucas's cousin",
+        "That the bank wants to close Le Mistral",
+        "That Nadia really does have huge debts"
+      ],
       "evidence": "Il a aussi découvert que La Gazette du Sud elle-même appartenait… à une filiale de Médias Plus."
     },
     {
       "id": "q3",
       "prompt": "Comment Le Mistral a-t-il répondu, et avec quel résultat ?",
+      "prompt_en": "How did Le Mistral respond, and with what result?",
       "answer": "En publiant ses comptes et l'enquête : mille abonnés de plus et un rectificatif",
       "options": [
         "En publiant ses comptes et l'enquête : mille abonnés de plus et un rectificatif",
         "En portant plainte : un procès de deux ans",
         "En ne disant rien : la rumeur a disparu",
         "En rachetant La Gazette"
+      ],
+      "options_en": [
+        "By publishing its accounts and the investigation: a thousand more subscribers and a correction",
+        "By suing: a two-year trial",
+        "By saying nothing: the rumour disappeared",
+        "By buying La Gazette"
       ],
       "evidence": "En une semaine, le magazine a gagné mille abonnés de plus. La Gazette du Sud a dû publier un rectificatif."
     }

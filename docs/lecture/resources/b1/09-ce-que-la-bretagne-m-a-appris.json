@@ -102,6 +102,7 @@
     {
       "id": "q1",
       "prompt": "Qu'est-ce qui a surpris Léa en arrivant en Bretagne ?",
+      "prompt_en": "What surprised Léa when she arrived in Brittany?",
       "answer": "La lumière, qui change toutes les dix minutes",
       "options": [
         "La lumière, qui change toutes les dix minutes",
@@ -109,11 +110,18 @@
         "Le froid",
         "Le prix des restaurants"
       ],
+      "options_en": [
+        "The light, which changes every ten minutes",
+        "The wind",
+        "The cold",
+        "The price of restaurants"
+      ],
       "evidence": "Ce qui m'a frappée d'abord, ce n'est pas le vent — je viens de Marseille, je connais le vent — mais la lumière."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Léa n'a-t-elle pas pris de photo au pied du phare du Créac'h ?",
+      "prompt_en": "Why didn't Léa take a photo at the foot of the Créac'h lighthouse?",
       "answer": "C'était un moment de silence que l'appareil ne devait pas déranger",
       "options": [
         "C'était un moment de silence que l'appareil ne devait pas déranger",
@@ -121,17 +129,30 @@
         "Sa batterie était vide",
         "Yann le lui avait interdit"
       ],
+      "options_en": [
+        "It was a moment of silence the camera mustn't disturb",
+        "It was raining too hard",
+        "Her battery was flat",
+        "Yann had forbidden it"
+      ],
       "evidence": "Je n'ai pas pris de photo à ce moment-là. Il y a des instants où l'appareil doit rester dans le sac."
     },
     {
       "id": "q3",
       "prompt": "Quels points communs Léa trouve-t-elle entre la Bretagne et Marseille ?",
+      "prompt_en": "What does Léa find that Brittany and Marseille have in common?",
       "answer": "La mer décide de tout, on parle et on rit fort, et on accueille les gens comme la famille",
       "options": [
         "La mer décide de tout, on parle et on rit fort, et on accueille les gens comme la famille",
         "Le climat et la cuisine",
         "Le même accent et les mêmes plages",
         "Les mêmes monuments"
+      ],
+      "options_en": [
+        "The sea decides everything, people talk and laugh loudly, and they welcome people like family",
+        "The climate and the food",
+        "The same accent and the same beaches",
+        "The same monuments"
       ],
       "evidence": "Ici aussi, la mer décide de tout. Ici aussi, on parle fort, on rit fort"
     }

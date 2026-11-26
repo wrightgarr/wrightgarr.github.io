@@ -126,6 +126,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi la photo du pêcheur a-t-elle provoqué un scandale ?",
+      "prompt_en": "Why did the photo of the fisherman cause a scandal?",
       "answer": "Le pêcheur n'existait pas : l'image avait été fabriquée par une IA",
       "options": [
         "Le pêcheur n'existait pas : l'image avait été fabriquée par une IA",
@@ -133,11 +134,18 @@
         "Le pêcheur avait menti sur son poisson",
         "La photo montrait une pêche interdite"
       ],
+      "options_en": [
+        "The fisherman didn't exist: the image had been made by AI",
+        "The photo had been stolen from a photographer",
+        "The fisherman had lied about his fish",
+        "The photo showed illegal fishing"
+      ],
       "evidence": "Le problème, c'est que ce pêcheur n'existait pas."
     },
     {
       "id": "q2",
       "prompt": "Quelle différence Léa fait-elle entre « choisir dans le réel » et « inventer le réel » ?",
+      "prompt_en": "What distinction does Léa draw between \"choosing within reality\" and \"inventing reality\"?",
       "answer": "Tout photographe choisit un cadre, mais une image fabriquée invente une personne qui n'a jamais vécu",
       "options": [
         "Tout photographe choisit un cadre, mais une image fabriquée invente une personne qui n'a jamais vécu",
@@ -145,17 +153,30 @@
         "Seuls les professionnels disent la vérité",
         "Il n'y a aucune différence"
       ],
+      "options_en": [
+        "Every photographer chooses a frame, but a fabricated image invents a person who never lived",
+        "A black-and-white photo is truer",
+        "Only professionals tell the truth",
+        "There's no difference"
+      ],
       "evidence": "Mais il y a une différence entre choisir dans le réel et inventer le réel."
     },
     {
       "id": "q3",
       "prompt": "Quelle décision Le Mistral prend-il à la fin ?",
+      "prompt_en": "What decision does Le Mistral take at the end?",
       "answer": "Indiquer clairement l'origine de chaque image publiée, avec un logo « Photo réelle »",
       "options": [
         "Indiquer clairement l'origine de chaque image publiée, avec un logo « Photo réelle »",
         "Ne plus publier de photos",
         "Utiliser seulement des images d'IA",
         "Interdire les téléphones à la rédaction"
+      ],
+      "options_en": [
+        "To clearly state the origin of every image it publishes, with a \"Real photo\" logo",
+        "To stop publishing photos",
+        "To use only AI images",
+        "To ban phones in the newsroom"
       ],
       "evidence": "C'est pourquoi Le Mistral s'engage aujourd'hui, comme d'autres journaux, à indiquer clairement l'origine de chaque image publiée."
     }

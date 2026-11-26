@@ -110,6 +110,7 @@
     {
       "id": "q1",
       "prompt": "Que ferait Léa avec un million d'euros ?",
+      "prompt_en": "What would Léa do with a million euros?",
       "answer": "Elle partirait en reportage autour de la Méditerranée pendant un an",
       "options": [
         "Elle partirait en reportage autour de la Méditerranée pendant un an",
@@ -117,11 +118,18 @@
         "Elle embaucherait deux journalistes",
         "Elle ne changerait rien"
       ],
+      "options_en": [
+        "She'd go on assignment around the Mediterranean for a year",
+        "She'd buy a house in Brittany",
+        "She'd hire two journalists",
+        "She wouldn't change anything"
+      ],
       "evidence": "Moi, je partirais en reportage autour de la Méditerranée pendant un an, a répondu Léa immédiatement."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Théo achèterait-il une nouvelle chaise ?",
+      "prompt_en": "Why would Théo buy a new chair?",
       "answer": "Parce que la sienne va le tuer",
       "options": [
         "Parce que la sienne va le tuer",
@@ -129,17 +137,30 @@
         "Parce qu'il veut un bureau plus grand",
         "Parce que Nadia le lui a demandé"
       ],
+      "options_en": [
+        "Because his current one is going to kill him",
+        "Because he works standing up",
+        "Because he wants a bigger desk",
+        "Because Nadia asked him to"
+      ],
       "evidence": "Et j'achèterais une vraie chaise de bureau, parce que la mienne va me tuer."
     },
     {
       "id": "q3",
       "prompt": "Quel conseil Madame Ferrand donne-t-elle aux jeunes ?",
+      "prompt_en": "What advice does Madame Ferrand give the young people?",
       "answer": "Arrêter de rêver d'argent et se battre pour le magazine",
       "options": [
         "Arrêter de rêver d'argent et se battre pour le magazine",
         "Jouer au loto chaque semaine",
         "Quitter Marseille",
         "Demander de l'argent à Médias Plus"
+      ],
+      "options_en": [
+        "Stop dreaming about money and fight for the magazine",
+        "Play the lottery every week",
+        "Leave Marseille",
+        "Ask Médias Plus for money"
       ],
       "evidence": "vous devriez arrêter de rêver d'argent et commencer à vous battre pour votre magazine."
     }

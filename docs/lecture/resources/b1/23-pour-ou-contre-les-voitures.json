@@ -123,6 +123,7 @@
     {
       "id": "q1",
       "prompt": "Quels sont les trois arguments de Lucas ?",
+      "prompt_en": "What are Lucas's three arguments?",
       "answer": "Le port est fait pour les gens, les centres piétons attirent des commerces, et Marseille doit retrouver la mer",
       "options": [
         "Le port est fait pour les gens, les centres piétons attirent des commerces, et Marseille doit retrouver la mer",
@@ -130,11 +131,18 @@
         "Le métro est excellent, les vélos sont bon marché, les touristes sont nombreux",
         "Les commerçants le demandent, la mairie a de l'argent, et il fait beau"
       ],
+      "options_en": [
+        "The port is made for people, pedestrian centres attract shops, and Marseille must get its sea back",
+        "Cars pollute, cost a lot and are dangerous",
+        "The metro is excellent, bikes are cheap, there are lots of tourists",
+        "Shopkeepers want it, the city has money, and the weather is good"
+      ],
       "evidence": "En somme, fermer le Vieux-Port aux voitures, ce n'est pas punir les automobilistes : c'est rendre la ville à ses habitants."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Théo dit-il que « Marseille n'est pas Copenhague » ?",
+      "prompt_en": "Why does Théo say \"Marseille isn't Copenhagen\"?",
       "answer": "Les transports en commun y sont insuffisants et beaucoup de gens ont besoin de leur voiture",
       "options": [
         "Les transports en commun y sont insuffisants et beaucoup de gens ont besoin de leur voiture",
@@ -142,17 +150,30 @@
         "Marseille n'a pas de port",
         "Les Marseillais n'aiment pas les vélos"
       ],
+      "options_en": [
+        "Public transport there is inadequate and many people need their cars",
+        "It's too hot in Marseille",
+        "Marseille has no port",
+        "People in Marseille don't like bikes"
+      ],
       "evidence": "D'une part, les transports en commun y sont insuffisants : le métro n'a que deux lignes, et de nombreux quartiers du nord sont mal desservis."
     },
     {
       "id": "q3",
       "prompt": "Quel est le point de vue de Madame Ferrand ?",
+      "prompt_en": "What is Madame Ferrand's point of view?",
       "answer": "Les deux ont raison, mais on ne demande jamais l'avis des personnes âgées",
       "options": [
         "Les deux ont raison, mais on ne demande jamais l'avis des personnes âgées",
         "Elle est pour, parce qu'elle n'a pas de voiture",
         "Elle est contre, parce qu'elle conduit tous les jours",
         "Elle n'a pas d'avis"
+      ],
+      "options_en": [
+        "Both are right, but nobody ever asks elderly people what they think",
+        "She's for it, because she doesn't have a car",
+        "She's against it, because she drives every day",
+        "She has no opinion"
       ],
       "evidence": "Ils ont raison tous les deux. Mais moi, j'ai soixante-seize ans, je vais partout à pied, et personne ne me demande jamais mon avis."
     }

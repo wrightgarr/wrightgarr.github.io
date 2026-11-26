@@ -76,9 +76,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is the weather like at the start?",
-      "answer": "Sunny and hot",
+      "prompt": "Quel temps fait-il au début ?",
+      "prompt_en": "What is the weather like at the start?",
+      "answer": "Il fait beau et chaud",
       "options": [
+        "Il fait beau et chaud",
+        "Il pleut et il fait froid",
+        "Il fait gris et il y a du vent",
+        "Il neige"
+      ],
+      "options_en": [
         "Sunny and hot",
         "Rainy and cold",
         "Grey and windy",
@@ -88,9 +95,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What are people doing in the park? Name two activities.",
-      "answer": "Jogging and cycling",
+      "prompt": "Qu'est-ce que les gens font au parc ? Nomme deux activités.",
+      "prompt_en": "What are people doing in the park? Name two activities.",
+      "answer": "Ils courent et font du vélo",
       "options": [
+        "Ils courent et font du vélo",
+        "Ils nagent et jouent au tennis",
+        "Ils jouent au football et au basket",
+        "Ils font du patin et dansent"
+      ],
+      "options_en": [
         "Jogging and cycling",
         "Swimming and tennis",
         "Football and basketball",
@@ -100,9 +114,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What happens at four o'clock?",
-      "answer": "The sky turns grey and it starts to rain",
+      "prompt": "Qu'est-ce qui se passe à quatre heures ?",
+      "prompt_en": "What happens at four o'clock?",
+      "answer": "Le ciel devient gris et il commence à pleuvoir",
       "options": [
+        "Le ciel devient gris et il commence à pleuvoir",
+        "Il commence à neiger",
+        "Le parc ferme",
+        "Le soleil sort"
+      ],
+      "options_en": [
         "The sky turns grey and it starts to rain",
         "It starts to snow",
         "The park closes",

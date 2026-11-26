@@ -82,9 +82,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Name four ingredients in the quiche.",
-      "answer": "Eggs, cream, cheese and ham",
+      "prompt": "Nomme quatre ingrédients de la quiche.",
+      "prompt_en": "Name four ingredients in the quiche.",
+      "answer": "Des œufs, de la crème, du fromage et du jambon",
       "options": [
+        "Des œufs, de la crème, du fromage et du jambon",
+        "Des tomates, des oignons, du fromage et du poisson",
+        "Des œufs, du lait, du poulet et des champignons",
+        "Des fraises, des pommes, du sucre et de la crème"
+      ],
+      "options_en": [
         "Eggs, cream, cheese and ham",
         "Tomatoes, onions, cheese and fish",
         "Eggs, milk, chicken and mushrooms",
@@ -94,9 +101,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What fruits are in the dessert?",
-      "answer": "Strawberries and apples",
+      "prompt": "Quels fruits y a-t-il dans le dessert ?",
+      "prompt_en": "What fruits are in the dessert?",
+      "answer": "Des fraises et des pommes",
       "options": [
+        "Des fraises et des pommes",
+        "Des bananes et des oranges",
+        "Des poires et des cerises",
+        "Des pommes et du raisin"
+      ],
+      "options_en": [
         "Strawberries and apples",
         "Bananas and oranges",
         "Pears and cherries",
@@ -106,9 +120,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What do Léa and Marco bring?",
-      "answer": "Léa brings bread and water; Marco brings orange juice",
+      "prompt": "Qu'est-ce que Léa et Marco apportent ?",
+      "prompt_en": "What do Léa and Marco bring?",
+      "answer": "Léa apporte du pain et de l'eau ; Marco apporte du jus d'orange",
       "options": [
+        "Léa apporte du pain et de l'eau ; Marco apporte du jus d'orange",
+        "Léa apporte du vin ; Marco apporte du pain",
+        "Léa apporte du jus d'orange ; Marco apporte du vin",
+        "Léa apporte du fromage ; Marco apporte le dessert"
+      ],
+      "options_en": [
         "Léa brings bread and water; Marco brings orange juice",
         "Léa brings wine; Marco brings bread",
         "Léa brings orange juice; Marco brings wine",

@@ -122,6 +122,7 @@
     {
       "id": "q1",
       "prompt": "Selon Léa, qu'est-ce qui a vraiment changé dans le tourisme à Marseille ?",
+      "prompt_en": "According to Léa, what has really changed about tourism in Marseille?",
       "answer": "La manière d'accueillir les visiteurs : des logements transformés en marchandises",
       "options": [
         "La manière d'accueillir les visiteurs : des logements transformés en marchandises",
@@ -129,11 +130,18 @@
         "Les touristes sont devenus impolis",
         "Les musées ont fermé"
       ],
+      "options_en": [
+        "The way visitors are welcomed: homes turned into commodities",
+        "The number of tourists, which has increased tenfold",
+        "Tourists have become rude",
+        "The museums have closed"
+      ],
       "evidence": "Or, ce qui a changé, ce n'est pas la présence des visiteurs, c'est la manière dont on les accueille."
     },
     {
       "id": "q2",
       "prompt": "Quels avantages du tourisme reconnaît-elle ?",
+      "prompt_en": "What benefits of tourism does she acknowledge?",
       "answer": "Il fait vivre des commerces, améliore l'image de la ville et donne du travail aux jeunes",
       "options": [
         "Il fait vivre des commerces, améliore l'image de la ville et donne du travail aux jeunes",
@@ -141,17 +149,30 @@
         "Il protège la nature",
         "Il rend la ville plus calme"
       ],
+      "options_en": [
+        "It keeps shops going, improves the city's image and gives young people work",
+        "It brings rents down",
+        "It protects nature",
+        "It makes the city quieter"
+      ],
       "evidence": "Non seulement il fait vivre des milliers de restaurants, de musées et de commerces, mais il a aussi contribué à changer l'image d'une ville longtemps méprisée."
     },
     {
       "id": "q3",
       "prompt": "Quelle solution juge-t-elle plus juste qu'une interdiction totale ?",
+      "prompt_en": "What solution does she consider fairer than a total ban?",
       "answer": "Limiter le nombre de locations touristiques par quartier",
       "options": [
         "Limiter le nombre de locations touristiques par quartier",
         "Fermer la ville aux touristes",
         "Augmenter le prix des hôtels",
         "Interdire les valises à roulettes"
+      ],
+      "options_en": [
+        "Limiting the number of tourist rentals per district",
+        "Closing the city to tourists",
+        "Raising hotel prices",
+        "Banning wheeled suitcases"
       ],
       "evidence": "Limiter leur nombre par quartier, en revanche, permettrait de protéger les zones les plus fragiles."
     }

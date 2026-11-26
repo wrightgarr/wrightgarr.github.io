@@ -109,6 +109,7 @@
     {
       "id": "q1",
       "prompt": "Qui est venu à la fête de Madame Ferrand ?",
+      "prompt_en": "Who came to Madame Ferrand's party?",
       "answer": "Ses voisins, ses anciens élèves, des pêcheurs, l'équipe du Mistral, Josette et même Delmas",
       "options": [
         "Ses voisins, ses anciens élèves, des pêcheurs, l'équipe du Mistral, Josette et même Delmas",
@@ -116,11 +117,18 @@
         "Seulement Léa et Amina",
         "Les journalistes de La Gazette"
       ],
+      "options_en": [
+        "Her neighbours, her former pupils, fishermen, the Mistral team, Josette and even Delmas",
+        "Only her family",
+        "Only Léa and Amina",
+        "The journalists from La Gazette"
+      ],
       "evidence": "son appartement était plein : ses voisins, ses anciens élèves, quelques pêcheurs, toute l'équipe du Mistral, Josette aux cheveux violets, et même le professeur Delmas"
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Karim parle-t-il de lettres de Madame Ferrand ?",
+      "prompt_en": "Why does Karim mention Madame Ferrand's letters?",
       "answer": "Elle leur écrit pour les critiquer, et elle a toujours eu raison",
       "options": [
         "Elle leur écrit pour les critiquer, et elle a toujours eu raison",
@@ -128,17 +136,30 @@
         "Elle est abonnée depuis le début",
         "Elle a donné de l'argent au magazine"
       ],
+      "options_en": [
+        "She writes to criticise them, and she has always been right",
+        "She writes all the articles",
+        "She has subscribed since the beginning",
+        "She gave money to the magazine"
+      ],
       "evidence": "vous êtes la première lectrice du Mistral qui nous ait écrit pour nous engueuler… et la seule qui ait eu raison à chaque fois."
     },
     {
       "id": "q3",
       "prompt": "Quel cadeau Madame Ferrand demande-t-elle à Léa, et pourquoi ?",
+      "prompt_en": "What present does Madame Ferrand ask Léa for, and why?",
       "answer": "Venir apprendre la bouillabaisse tous les samedis, pour que quelqu'un sache la faire après elle",
       "options": [
         "Venir apprendre la bouillabaisse tous les samedis, pour que quelqu'un sache la faire après elle",
         "Organiser une autre fête l'année prochaine",
         "Faire des photos de ses petits-enfants",
         "Écrire un article sur elle"
+      ],
+      "options_en": [
+        "To come and learn bouillabaisse every Saturday, so someone will know how to make it after her",
+        "To organise another party next year",
+        "To take photos of her grandchildren",
+        "To write an article about her"
       ],
       "evidence": "Moi, je cherche quelqu'un qui sache faire la bouillabaisse quand je ne serai plus là."
     }

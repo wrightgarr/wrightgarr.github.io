@@ -140,6 +140,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi le premier titre d'Inès ne convient-il pas, selon Lucas ?",
+      "prompt_en": "According to Lucas, why doesn't Inès's first headline work?",
       "answer": "C'est une phrase trop longue, pas un titre",
       "options": [
         "C'est une phrase trop longue, pas un titre",
@@ -147,11 +148,18 @@
         "Il est trop drôle",
         "Il ne parle pas du Panier"
       ],
+      "options_en": [
+        "It's a sentence that's too long, not a headline",
+        "It has mistakes in it",
+        "It's too funny",
+        "It doesn't mention the Panier"
+      ],
       "evidence": "Tout est juste, a dit Lucas. Mais c'est une phrase, pas un titre."
     },
     {
       "id": "q2",
       "prompt": "Quel danger de la nominalisation Lucas mentionne-t-il ?",
+      "prompt_en": "What danger of nominalisation does Lucas mention?",
       "answer": "Elle peut cacher qui fait l'action",
       "options": [
         "Elle peut cacher qui fait l'action",
@@ -159,17 +167,30 @@
         "Elle est interdite dans la presse",
         "Elle change le sens des mots"
       ],
+      "options_en": [
+        "It can hide who is doing the action",
+        "It makes headlines too long",
+        "It's banned in the press",
+        "It changes the meaning of words"
+      ],
       "evidence": "« Expulsion de locataires » ne dit pas qui expulse."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Nadia ajoute-t-elle une citation dans le titre ?",
+      "prompt_en": "Why does Nadia add a quotation to the headline?",
       "answer": "Pour ajouter de l'émotion : la personne dit mieux les choses elle-même",
       "options": [
         "Pour ajouter de l'émotion : la personne dit mieux les choses elle-même",
         "Pour rendre le titre plus long",
         "Parce que Josette l'a exigé",
         "Pour éviter un procès"
+      ],
+      "options_en": [
+        "To add emotion: the person says things better themselves",
+        "To make the headline longer",
+        "Because Josette insisted",
+        "To avoid a lawsuit"
       ],
       "evidence": "Quand une personne dit mieux que toi ce que tu veux dire, laisse-la parler."
     }

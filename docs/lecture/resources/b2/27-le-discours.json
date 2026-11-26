@@ -128,6 +128,7 @@
     {
       "id": "q1",
       "prompt": "Qui est présent à la présentation du livre ?",
+      "prompt_en": "Who is at the book launch?",
       "answer": "L'équipe du Mistral, le maire, Gaston, Mourad et Fatima, Josette, Yann, Claire Dumas… et Hugo, en retard",
       "options": [
         "L'équipe du Mistral, le maire, Gaston, Mourad et Fatima, Josette, Yann, Claire Dumas… et Hugo, en retard",
@@ -135,11 +136,18 @@
         "Des journalistes parisiens uniquement",
         "Personne de Bretagne ni de Paris"
       ],
+      "options_en": [
+        "The Mistral team, the mayor, Gaston, Mourad and Fatima, Josette, Yann, Claire Dumas… and Hugo, late",
+        "Only the Ferrand family",
+        "Only Paris journalists",
+        "No one from Brittany or Paris"
+      ],
       "evidence": "Il y avait là toute l'équipe du magazine, Hélène Castel, le maire, venu sans cravate, Gaston Rinaldi dans son plus beau costume"
     },
     {
       "id": "q2",
       "prompt": "Quel vœu Léa formule-t-elle à la fin de son discours ?",
+      "prompt_en": "What wish does Léa express at the end of her speech?",
       "answer": "Que le livre soit lu et qu'il donne envie de poser des questions à ses parents avant qu'il ne soit trop tard",
       "options": [
         "Que le livre soit lu et qu'il donne envie de poser des questions à ses parents avant qu'il ne soit trop tard",
@@ -147,17 +155,30 @@
         "Qu'il soit traduit en anglais",
         "Qu'il gagne un prix littéraire"
       ],
+      "options_en": [
+        "That the book be read and make people want to ask their parents questions before it's too late",
+        "That it sell a million copies",
+        "That it be translated into English",
+        "That it win a literary prize"
+      ],
       "evidence": "Que ce livre soit lu."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Madame Ferrand dit-elle « Pardon, Jean. On a désobéi » ?",
+      "prompt_en": "Why does Madame Ferrand say \"Sorry, Jean. We disobeyed\"?",
       "answer": "Jean avait écrit « Défense de lire » sur son premier carnet, et ils l'ont tous lu",
       "options": [
         "Jean avait écrit « Défense de lire » sur son premier carnet, et ils l'ont tous lu",
         "Elle a oublié son discours",
         "Elle a fait tomber le livre",
         "Jean ne voulait pas de présentation"
+      ],
+      "options_en": [
+        "Jean had written \"Do not read\" on his first notebook, and they all read it",
+        "She forgot her speech",
+        "She dropped the book",
+        "Jean didn't want a launch"
       ],
       "evidence": "« Ce carnet appartient à Jean Ferrand, futur écrivain. Défense de lire. »"
     }

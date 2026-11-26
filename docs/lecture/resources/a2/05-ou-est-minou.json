@@ -97,9 +97,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Where did Léa look first in her apartment?",
-      "answer": "Under the bed, on the balcony and in the boxes",
+      "prompt": "Où Léa a-t-elle cherché d'abord dans son appartement ?",
+      "prompt_en": "Where did Léa look first in her apartment?",
+      "answer": "Sous le lit, sur le balcon et dans les cartons",
       "options": [
+        "Sous le lit, sur le balcon et dans les cartons",
+        "Dans la cuisine et la salle de bains",
+        "Sur le toit et dans la cour",
+        "Dans son sac et son armoire"
+      ],
+      "options_en": [
         "Under the bed, on the balcony and in the boxes",
         "In the kitchen and the bathroom",
         "On the roof and in the courtyard",
@@ -109,9 +116,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What idea did Karim have?",
-      "answer": "To look on the roof, because cats love roofs",
+      "prompt": "Quelle idée Karim a-t-il eue ?",
+      "prompt_en": "What idea did Karim have?",
+      "answer": "Chercher sur le toit, parce que les chats adorent les toits",
       "options": [
+        "Chercher sur le toit, parce que les chats adorent les toits",
+        "Appeler la police",
+        "Mettre des affiches dans la rue",
+        "Demander à Madame Ferrand"
+      ],
+      "options_en": [
         "To look on the roof, because cats love roofs",
         "To call the police",
         "To put up posters in the street",
@@ -121,9 +135,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Where did Léa find Minou, and who was with him?",
-      "answer": "On the roof, sleeping in the sun next to a big ginger cat",
+      "prompt": "Où Léa a-t-elle trouvé Minou, et qui était avec lui ?",
+      "prompt_en": "Where did Léa find Minou, and who was with him?",
+      "answer": "Sur le toit, il dormait au soleil à côté d'un gros chat roux",
       "options": [
+        "Sur le toit, il dormait au soleil à côté d'un gros chat roux",
+        "Dans la cour, avec Madame Ferrand",
+        "À la boulangerie, il mangeait des croissants",
+        "Dans un carton, à côté de l'ascenseur"
+      ],
+      "options_en": [
         "On the roof, sleeping in the sun next to a big ginger cat",
         "In the courtyard, with Madame Ferrand",
         "At the bakery, eating croissants",

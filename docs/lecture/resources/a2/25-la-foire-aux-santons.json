@@ -109,9 +109,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "How old is the santon fair tradition?",
-      "answer": "Over two hundred years",
+      "prompt": "Depuis combien de temps la foire aux santons existe-t-elle ?",
+      "prompt_en": "How old is the santon fair tradition?",
+      "answer": "Depuis plus de deux cents ans",
       "options": [
+        "Depuis plus de deux cents ans",
+        "Depuis environ vingt ans",
+        "Depuis cinquante ans",
+        "Depuis l'année dernière"
+      ],
+      "options_en": [
         "Over two hundred years",
         "About twenty years",
         "Fifty years",
@@ -121,9 +128,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Which santon did Léa choose for Hugo, and why?",
-      "answer": "The one carrying a cooking pot — because Hugo is a cook",
+      "prompt": "Quel santon Léa a-t-elle choisi pour Hugo, et pourquoi ?",
+      "prompt_en": "Which santon did Léa choose for Hugo, and why?",
+      "answer": "Celui qui porte une marmite — parce qu'Hugo est cuisinier",
       "options": [
+        "Celui qui porte une marmite — parce qu'Hugo est cuisinier",
+        "Le boulanger — parce qu'Hugo adore le pain",
+        "Le pêcheur — parce qu'Hugo aime le poisson",
+        "Le Ravi — parce qu'Hugo est toujours content"
+      ],
+      "options_en": [
         "The one carrying a cooking pot — because Hugo is a cook",
         "The baker — because Hugo loves bread",
         "The fisherman — because Hugo likes fish",
@@ -133,9 +147,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Why doesn't Madame Ferrand buy anything?",
-      "answer": "She already has her mother's and grandmother's santons — eighty figures",
+      "prompt": "Pourquoi Madame Ferrand n'achète-t-elle rien ?",
+      "prompt_en": "Why doesn't Madame Ferrand buy anything?",
+      "answer": "Elle a déjà les santons de sa mère et de sa grand-mère — quatre-vingts figurines",
       "options": [
+        "Elle a déjà les santons de sa mère et de sa grand-mère — quatre-vingts figurines",
+        "Elle n'aime pas les santons",
+        "Ils sont trop chers",
+        "Elle a oublié son portefeuille"
+      ],
+      "options_en": [
         "She already has her mother's and grandmother's santons — eighty figures",
         "She doesn't like santons",
         "They're too expensive",

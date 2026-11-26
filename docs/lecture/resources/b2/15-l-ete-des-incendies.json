@@ -137,6 +137,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi l'officier pense-t-il qu'il ne pourra pas arrêter le feu ce jour-là ?",
+      "prompt_en": "Why does the officer think he won't be able to stop the fire that day?",
       "answer": "Il pense que c'est impossible à moins que le vent ne tourne",
       "options": [
         "Il pense que c'est impossible à moins que le vent ne tourne",
@@ -144,11 +145,18 @@
         "Les Canadair sont en panne",
         "La route est coupée"
       ],
+      "options_en": [
+        "He thinks it's impossible unless the wind turns",
+        "He doesn't have enough firefighters",
+        "The water bombers have broken down",
+        "The road is cut off"
+      ],
       "evidence": "À moins que le vent ne tourne, non. Pas aujourd'hui."
     },
     {
       "id": "q2",
       "prompt": "Comment les habitants réagissent-ils à l'ordre d'évacuation ?",
+      "prompt_en": "How do the residents react to the evacuation order?",
       "answer": "La plupart partent en silence, d'autres refusent comme un vieil homme assis devant sa porte",
       "options": [
         "La plupart partent en silence, d'autres refusent comme un vieil homme assis devant sa porte",
@@ -156,17 +164,30 @@
         "Personne ne veut partir",
         "Ils restent pour aider les pompiers"
       ],
+      "options_en": [
+        "Most leave in silence; others refuse, like an old man sitting in front of his door",
+        "Everyone panics and shouts",
+        "No one wants to leave",
+        "They stay to help the firefighters"
+      ],
       "evidence": "Les habitants partaient en silence, de peur que les flammes n'atteignent leurs voitures. Certains refusaient."
     },
     {
       "id": "q3",
       "prompt": "Que dit Jean sur le feu dans son carnet de 1979 ?",
+      "prompt_en": "What does Jean say about the fire in his 1979 notebook?",
       "answer": "Le feu n'est pas un accident mais une conséquence de l'oubli de la forêt",
       "options": [
         "Le feu n'est pas un accident mais une conséquence de l'oubli de la forêt",
         "Le feu est une punition du ciel",
         "Le feu est toujours causé par les touristes",
         "Le feu est utile à la forêt"
+      ],
+      "options_en": [
+        "The fire isn't an accident but a consequence of neglecting the forest",
+        "The fire is a punishment from heaven",
+        "The fire is always caused by tourists",
+        "The fire is good for the forest"
       ],
       "evidence": "On dit que le feu est un accident. Ce n'est pas tout à fait vrai. Le feu est une conséquence. Il arrive quand on a oublié la forêt."
     }

@@ -116,6 +116,7 @@
     {
       "id": "q1",
       "prompt": "Comment Léa et Karim ont-ils reconnu Josette sur la photo ?",
+      "prompt_en": "How did Léa and Karim recognise Josette in the photo?",
       "answer": "Grâce à ses cheveux violets",
       "options": [
         "Grâce à ses cheveux violets",
@@ -123,11 +124,18 @@
         "Grâce à sa voix",
         "Grâce à sa signature"
       ],
+      "options_en": [
+        "By her purple hair",
+        "By her dressing gown",
+        "By her voice",
+        "By her signature"
+      ],
       "evidence": "On y voyait une petite femme de dos, et surtout des cheveux violets impossibles à oublier."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Josette avait-elle le tableau chez elle ?",
+      "prompt_en": "Why did Josette have the painting at her place?",
       "answer": "Bastien le lui a prêté pour la nuit, pour qu'elle le compare avec une lettre de famille",
       "options": [
         "Bastien le lui a prêté pour la nuit, pour qu'elle le compare avec une lettre de famille",
@@ -135,17 +143,30 @@
         "Sylvie le lui a donné",
         "Elle l'a acheté pendant le vernissage"
       ],
+      "options_en": [
+        "Bastien lent it to her for the night so she could compare it with a family letter",
+        "She stole it to sell it",
+        "Sylvie gave it to her",
+        "She bought it during the opening"
+      ],
       "evidence": "Bastien était si ému qu'il me l'a prêté pour la nuit, pour que je compare."
     },
     {
       "id": "q3",
       "prompt": "Que demande Josette à Sylvie à la fin ?",
+      "prompt_en": "What does Josette ask Sylvie at the end?",
       "answer": "Garder le tableau et écrire enfin le nom du peintre à côté",
       "options": [
         "Garder le tableau et écrire enfin le nom du peintre à côté",
         "Lui rendre le tableau",
         "Vendre le tableau très cher",
         "Renvoyer Bastien"
+      ],
+      "options_en": [
+        "To keep the painting and finally write the painter's name beside it",
+        "To give her the painting back",
+        "To sell the painting for a lot of money",
+        "To fire Bastien"
       ],
       "evidence": "Gardez-le. Mais écrivez enfin son nom à côté : Antoine Vidal, peintre du port."
     }

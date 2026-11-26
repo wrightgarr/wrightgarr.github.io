@@ -135,6 +135,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi Madame Ferrand a-t-elle choisi La Fille du port ?",
+      "prompt_en": "Why did Madame Ferrand choose La Fille du port?",
       "answer": "C'était le livre préféré de Jean, qui en avait recopié des pages entières",
       "options": [
         "C'était le livre préféré de Jean, qui en avait recopié des pages entières",
@@ -142,11 +143,18 @@
         "Inès l'avait écrit",
         "C'était le moins cher"
       ],
+      "options_en": [
+        "It was Jean's favourite book; he had copied out whole pages of it",
+        "It had just come out in the shops",
+        "Inès had written it",
+        "It was the cheapest"
+      ],
       "evidence": "C'était le livre préféré de Jean ; il en avait recopié des pages entières dans ses carnets."
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce qu'Inès prend pour des « fautes de frappe », et comment Madame Ferrand les explique-t-elle ?",
+      "prompt_en": "What does Inès mistake for \"typos\", and how does Madame Ferrand explain them?",
       "answer": "Des verbes à l'imparfait du subjonctif, un temps littéraire qu'on ne parle plus",
       "options": [
         "Des verbes à l'imparfait du subjonctif, un temps littéraire qu'on ne parle plus",
@@ -154,17 +162,30 @@
         "Des erreurs de l'éditeur",
         "Des verbes au futur"
       ],
+      "options_en": [
+        "Verbs in the imperfect subjunctive, a literary tense nobody speaks any more",
+        "Words in Provençal",
+        "Mistakes by the publisher",
+        "Verbs in the future tense"
+      ],
       "evidence": "C'est l'imparfait du subjonctif, ma petite."
     },
     {
       "id": "q3",
       "prompt": "Que signifie la note de Jean dans la marge du carnet numéro 9 ?",
+      "prompt_en": "What does Jean's note in the margin of notebook 9 mean?",
       "answer": "Jean pensait que revenir trop tard est pire que rester ou ne jamais revenir",
       "options": [
         "Jean pensait que revenir trop tard est pire que rester ou ne jamais revenir",
         "Il n'avait pas aimé la fin",
         "Il voulait partir à Paris",
         "Il trouvait Rosine égoïste"
+      ],
+      "options_en": [
+        "Jean thought coming back too late is worse than staying or never coming back",
+        "He hadn't liked the ending",
+        "He wanted to leave for Paris",
+        "He found Rosine selfish"
       ],
       "evidence": "Le pire, c'est de revenir trop tard."
     }

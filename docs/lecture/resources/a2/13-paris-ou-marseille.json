@@ -107,9 +107,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Name two advantages of Marseille that Léa mentions.",
-      "answer": "More sun and less rain, plus the sea and the hills",
+      "prompt": "Nomme deux avantages de Marseille cités par Léa.",
+      "prompt_en": "Name two advantages of Marseille that Léa mentions.",
+      "answer": "Plus de soleil et moins de pluie, et puis la mer et les collines",
       "options": [
+        "Plus de soleil et moins de pluie, et puis la mer et les collines",
+        "Plus de musées et plus de théâtres",
+        "Moins de vent et moins de touristes",
+        "Plus d'amis et de meilleures pizzas"
+      ],
+      "options_en": [
         "More sun and less rain, plus the sea and the hills",
         "More museums and more theatres",
         "Less wind and fewer tourists",
@@ -119,9 +126,16 @@
     },
     {
       "id": "q2",
-      "prompt": "How does Léa's Marseille apartment compare with her Paris one?",
-      "answer": "The rent is lower, and the apartment is bigger with a balcony",
+      "prompt": "Comparé à celui de Paris, comment est l'appartement de Léa à Marseille ?",
+      "prompt_en": "How does Léa's Marseille apartment compare with her Paris one?",
+      "answer": "Le loyer est moins cher, et l'appartement est plus grand, avec un balcon",
       "options": [
+        "Le loyer est moins cher, et l'appartement est plus grand, avec un balcon",
+        "Le loyer est plus cher, mais c'est plus près du travail",
+        "Il est plus petit mais beaucoup moins cher",
+        "Il a la même taille et le même prix"
+      ],
+      "options_en": [
         "The rent is lower, and the apartment is bigger with a balcony",
         "The rent is higher, but it's closer to work",
         "It's smaller but much cheaper",
@@ -131,9 +145,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Why does Marco disagree about pizza?",
-      "answer": "He's Italian, and says Naples pizzas are better than anything",
+      "prompt": "Pourquoi Marco n'est-il pas d'accord sur la pizza ?",
+      "prompt_en": "Why does Marco disagree about pizza?",
+      "answer": "Il est italien, et il dit que les pizzas de Naples sont les meilleures",
       "options": [
+        "Il est italien, et il dit que les pizzas de Naples sont les meilleures",
+        "Il déteste la bouillabaisse",
+        "Il préfère la cuisine parisienne",
+        "Il pense que la pizza de Marseille est la meilleure"
+      ],
+      "options_en": [
         "He's Italian, and says Naples pizzas are better than anything",
         "He hates bouillabaisse",
         "He prefers Parisian food",

@@ -124,6 +124,7 @@
     {
       "id": "q1",
       "prompt": "Quelles règles les amis ont-ils décidées le premier matin ?",
+      "prompt_en": "What rules did the friends decide on the first morning?",
       "answer": "Aucun écran avant midi, chacun cuisine à son tour, et on mange n'importe quoi, n'importe quand",
       "options": [
         "Aucun écran avant midi, chacun cuisine à son tour, et on mange n'importe quoi, n'importe quand",
@@ -131,11 +132,18 @@
         "Personne ne parle de Marseille",
         "On ne mange que du fromage corse"
       ],
+      "options_en": [
+        "No screens before noon, everyone takes a turn cooking, and you eat anything, any time",
+        "Everyone gets up at six",
+        "No one talks about Marseille",
+        "They only eat Corsican cheese"
+      ],
       "evidence": "Règle numéro un, a annoncé Karim : aucun ordinateur, aucun téléphone avant midi."
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce qui a ému Amina, et que lui a expliqué le chanteur ?",
+      "prompt_en": "What moved Amina, and what did the singer explain to her?",
       "answer": "Les polyphonies corses ; le chanteur explique que ça s'apprend en famille et au village, pas à l'école",
       "options": [
         "Les polyphonies corses ; le chanteur explique que ça s'apprend en famille et au village, pas à l'école",
@@ -143,17 +151,30 @@
         "Le coucher de soleil ; un berger lui parle de la mer",
         "Un violon ancien ; le luthier lui raconte son histoire"
       ],
+      "options_en": [
+        "Corsican polyphony; the singer explains it's learnt in the family and the village, not at school",
+        "An organ concert; the musician explains he studied in Paris",
+        "The sunset; a shepherd tells her about the sea",
+        "An old violin; the luthier tells her its story"
+      ],
       "evidence": "Ça ne s'apprend pas à l'école. Ça s'apprend à table, avec la famille, et à l'église, avec tout le village."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Lucas dit-il qu'Amina triche ?",
+      "prompt_en": "Why does Lucas say Amina is cheating?",
       "answer": "Elle refuse de choisir un seul moment",
       "options": [
         "Elle refuse de choisir un seul moment",
         "Elle a mangé tous les beignets",
         "Elle a gagné aux cartes",
         "Elle n'a pas cuisiné"
+      ],
+      "options_en": [
+        "She refuses to choose just one moment",
+        "She ate all the fritters",
+        "She won at cards",
+        "She didn't cook"
       ],
       "evidence": "Moi, c'est tout. Tous les moments. Toute la semaine. Je ne veux pas choisir."
     }

@@ -135,6 +135,7 @@
     {
       "id": "q1",
       "prompt": "Qu'est-ce qui rend Anne triste au début ?",
+      "prompt_en": "What makes Anne sad at the beginning?",
       "answer": "Sa mère ne lui a pas parlé du livre avant",
       "options": [
         "Sa mère ne lui a pas parlé du livre avant",
@@ -142,11 +143,18 @@
         "Léa a pris sa chambre",
         "Son frère ne l'a pas invitée"
       ],
+      "options_en": [
+        "Her mother didn't tell her about the book earlier",
+        "Her mother sold the notebooks",
+        "Léa took her room",
+        "Her brother didn't invite her"
+      ],
       "evidence": "Mais je suis un peu triste que tu ne m'en aies pas parlé avant."
     },
     {
       "id": "q2",
       "prompt": "Que révèle le carnet numéro 31 sur Jean ?",
+      "prompt_en": "What does notebook 31 reveal about Jean?",
       "answer": "Il était fier du courage d'Anne et savait qu'elle n'écrirait pas : il écrirait pour deux",
       "options": [
         "Il était fier du courage d'Anne et savait qu'elle n'écrirait pas : il écrirait pour deux",
@@ -154,17 +162,30 @@
         "Il voulait la suivre au Canada",
         "Il lui avait interdit de partir"
       ],
+      "options_en": [
+        "He was proud of Anne's courage and knew she wouldn't write: he would write for two",
+        "He was angry that she left",
+        "He wanted to follow her to Canada",
+        "He had forbidden her to leave"
+      ],
       "evidence": "Je suis fier qu'elle ait eu le courage de partir, moi qui n'ai jamais quitté ce port."
     },
     {
       "id": "q3",
       "prompt": "Quelle contribution Anne propose-t-elle pour le livre, et pourquoi ?",
+      "prompt_en": "What contribution does Anne offer for the book, and why?",
       "answer": "Écrire la postface, une lettre à son père, pour qu'il ait enfin une réponse",
       "options": [
         "Écrire la postface, une lettre à son père, pour qu'il ait enfin une réponse",
         "Faire les photos de Québec",
         "Traduire le livre en anglais",
         "Choisir le titre du livre"
+      ],
+      "options_en": [
+        "To write the afterword, a letter to her father, so that he finally gets an answer",
+        "To take the photos of Quebec",
+        "To translate the book into English",
+        "To choose the book's title"
       ],
       "evidence": "j'aimerais écrire la postface. Une lettre à mon père. Pour qu'il ait enfin une réponse."
     }

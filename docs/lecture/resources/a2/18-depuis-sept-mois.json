@@ -101,9 +101,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "How long has Léa been a photographer, and when did she start?",
-      "answer": "For ten years — she started at nineteen",
+      "prompt": "Depuis combien de temps Léa est-elle photographe, et quand a-t-elle commencé ?",
+      "prompt_en": "How long has Léa been a photographer, and when did she start?",
+      "answer": "Depuis dix ans — elle a commencé à dix-neuf ans",
       "options": [
+        "Depuis dix ans — elle a commencé à dix-neuf ans",
+        "Depuis cinq ans — elle a commencé au magazine",
+        "Depuis vingt ans — elle a commencé enfant",
+        "Depuis dix ans — elle a commencé à Marseille"
+      ],
+      "options_en": [
         "For ten years — she started at nineteen",
         "For five years — she started at the magazine",
         "For twenty years — she started as a child",
@@ -113,9 +120,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What did she do after her studies?",
-      "answer": "She worked for six years in a museum in Paris",
+      "prompt": "Qu'est-ce qu'elle a fait après ses études ?",
+      "prompt_en": "What did she do after her studies?",
+      "answer": "Elle a travaillé pendant six ans dans un musée à Paris",
       "options": [
+        "Elle a travaillé pendant six ans dans un musée à Paris",
+        "Elle a travaillé pour un journal à Lyon",
+        "Elle a fait le tour du monde",
+        "Elle a enseigné la photo à Paris"
+      ],
+      "options_en": [
         "She worked for six years in a museum in Paris",
         "She worked for a newspaper in Lyon",
         "She travelled around the world",
@@ -125,9 +139,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What will she do in two months?",
-      "answer": "Exhibit her photos of Marseille in a small gallery",
+      "prompt": "Qu'est-ce qu'elle fera dans deux mois ?",
+      "prompt_en": "What will she do in two months?",
+      "answer": "Elle exposera ses photos de Marseille dans une petite galerie",
       "options": [
+        "Elle exposera ses photos de Marseille dans une petite galerie",
+        "Elle retournera à Paris",
+        "Elle commencera un nouveau travail à Lyon",
+        "Elle publiera un livre avec Karim"
+      ],
+      "options_en": [
         "Exhibit her photos of Marseille in a small gallery",
         "Move back to Paris",
         "Start a new job in Lyon",

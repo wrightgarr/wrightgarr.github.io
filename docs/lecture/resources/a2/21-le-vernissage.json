@@ -105,9 +105,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is Léa doing when Amina calls?",
-      "answer": "Hanging her photos in the gallery",
+      "prompt": "Qu'est-ce que Léa est en train de faire quand Amina appelle ?",
+      "prompt_en": "What is Léa doing when Amina calls?",
+      "answer": "Elle accroche ses photos dans la galerie",
       "options": [
+        "Elle accroche ses photos dans la galerie",
+        "Elle s'habille chez elle",
+        "Elle va à la gare en voiture",
+        "Elle écrit un discours"
+      ],
+      "options_en": [
         "Hanging her photos in the gallery",
         "Getting dressed at home",
         "Driving to the station",
@@ -117,9 +124,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Who comes to the opening? Name four people.",
-      "answer": "Amina, Marco, Hugo and Madame Ferrand (and her parents)",
+      "prompt": "Qui vient au vernissage ? Nomme quatre personnes.",
+      "prompt_en": "Who comes to the opening? Name four people.",
+      "answer": "Amina, Marco, Hugo et Madame Ferrand (et ses parents)",
       "options": [
+        "Amina, Marco, Hugo et Madame Ferrand (et ses parents)",
+        "Seulement Nadia et Karim",
+        "Lucas, Thomas et Mehdi",
+        "Sa grand-mère et Hugo"
+      ],
+      "options_en": [
         "Amina, Marco, Hugo and Madame Ferrand (and her parents)",
         "Only Nadia and Karim",
         "Lucas, Thomas and Mehdi",
@@ -129,9 +143,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What does Léa realize at the end?",
-      "answer": "That Marseille is now really her home",
+      "prompt": "Qu'est-ce que Léa comprend à la fin ?",
+      "prompt_en": "What does Léa realize at the end?",
+      "answer": "Que Marseille est maintenant vraiment chez elle",
       "options": [
+        "Que Marseille est maintenant vraiment chez elle",
+        "Qu'elle veut retourner à Paris",
+        "Qu'elle a oublié d'inviter Karim",
+        "Qu'elle préfère la peinture à la photo"
+      ],
+      "options_en": [
         "That Marseille is now really her home",
         "That she wants to move back to Paris",
         "That she forgot to invite Karim",

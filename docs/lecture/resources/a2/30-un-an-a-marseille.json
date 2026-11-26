@@ -93,9 +93,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "How did Léa feel when she arrived a year ago?",
-      "answer": "Scared, but also very curious",
+      "prompt": "Comment Léa se sentait-elle quand elle est arrivée, il y a un an ?",
+      "prompt_en": "How did Léa feel when she arrived a year ago?",
+      "answer": "Elle avait peur, mais elle était aussi très curieuse",
       "options": [
+        "Elle avait peur, mais elle était aussi très curieuse",
+        "Elle était triste et seule",
+        "Elle était complètement détendue",
+        "Elle était en colère de quitter Paris"
+      ],
+      "options_en": [
         "Scared, but also very curious",
         "Sad and lonely",
         "Completely relaxed",
@@ -105,9 +112,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Name three things she has learned or done this year.",
-      "answer": "Driving, making bouillabaisse, and swimming in the calanques",
+      "prompt": "Nomme trois choses qu'elle a apprises ou faites cette année.",
+      "prompt_en": "Name three things she has learned or done this year.",
+      "answer": "Conduire, faire la bouillabaisse et nager dans les calanques",
       "options": [
+        "Conduire, faire la bouillabaisse et nager dans les calanques",
+        "Parler italien, skier et peindre",
+        "Jouer du piano, faire du vélo et faire des pizzas",
+        "Écrire des articles, faire de la voile et chanter"
+      ],
+      "options_en": [
         "Driving, making bouillabaisse, and swimming in the calanques",
         "Speaking Italian, skiing and painting",
         "Playing piano, cycling and cooking pizza",
@@ -117,9 +131,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What will happen in September, and what has Léa decided?",
-      "answer": "Amina is moving to Marseille — and Léa is staying for good",
+      "prompt": "Que se passera-t-il en septembre, et qu'est-ce que Léa a décidé ?",
+      "prompt_en": "What will happen in September, and what has Léa decided?",
+      "answer": "Amina s'installe à Marseille — et Léa reste pour de bon",
       "options": [
+        "Amina s'installe à Marseille — et Léa reste pour de bon",
+        "Léa retourne à Paris",
+        "Karim quitte le magazine",
+        "Madame Ferrand part vivre au Québec"
+      ],
+      "options_en": [
         "Amina is moving to Marseille — and Léa is staying for good",
         "Léa is moving back to Paris",
         "Karim is leaving the magazine",

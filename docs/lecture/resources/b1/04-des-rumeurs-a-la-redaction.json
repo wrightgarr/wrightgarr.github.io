@@ -111,6 +111,7 @@
     {
       "id": "q1",
       "prompt": "Quelle rumeur circule à la rédaction, et d'où vient-elle ?",
+      "prompt_en": "What rumour is going round the newsroom, and where does it come from?",
       "answer": "Le magazine pourrait être vendu : quelqu'un a vu Nadia avec deux hommes en costume",
       "options": [
         "Le magazine pourrait être vendu : quelqu'un a vu Nadia avec deux hommes en costume",
@@ -118,11 +119,18 @@
         "Le magazine va s'installer à Lyon",
         "Karim va devenir rédacteur en chef"
       ],
+      "options_en": [
+        "The magazine might be sold: someone saw Nadia with two men in suits",
+        "Nadia is going to retire",
+        "The magazine is moving to Lyon",
+        "Karim is going to become editor-in-chief"
+      ],
       "evidence": "Quelqu'un avait vu Nadia sortir d'un rendez-vous avec deux hommes en costume, des Parisiens apparemment."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Léa ne croit-elle pas que Nadia vendra le magazine ?",
+      "prompt_en": "Why doesn't Léa believe Nadia will sell the magazine?",
       "answer": "Nadia a créé le magazine il y a quinze ans : c'est son bébé",
       "options": [
         "Nadia a créé le magazine il y a quinze ans : c'est son bébé",
@@ -130,17 +138,30 @@
         "Les ventes ont augmenté",
         "Nadia l'a promis à l'équipe"
       ],
+      "options_en": [
+        "Nadia founded the magazine fifteen years ago: it's her baby",
+        "Nadia has a lot of money",
+        "Sales have gone up",
+        "Nadia promised the team"
+      ],
       "evidence": "Elle a créé ce magazine il y a quinze ans. C'est son bébé."
     },
     {
       "id": "q3",
       "prompt": "Qu'est-ce que Nadia avoue à Léa ce soir-là ?",
+      "prompt_en": "What does Nadia confess to Léa that evening?",
       "answer": "Un groupe parisien veut racheter Le Mistral, mais elle n'a rien signé",
       "options": [
         "Un groupe parisien veut racheter Le Mistral, mais elle n'a rien signé",
         "Elle a déjà vendu le magazine",
         "Elle va licencier la moitié de l'équipe",
         "Elle part travailler à Paris"
+      ],
+      "options_en": [
+        "A Paris group wants to buy Le Mistral, but she hasn't signed anything",
+        "She has already sold the magazine",
+        "She is going to lay off half the team",
+        "She is leaving to work in Paris"
       ],
       "evidence": "Oui, un groupe parisien veut racheter Le Mistral. Non, je n'ai rien signé."
     }

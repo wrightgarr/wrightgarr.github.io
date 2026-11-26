@@ -87,9 +87,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Where does Léa live, and how does she describe her home?",
-      "answer": "In Paris, in a small but comfortable apartment",
+      "prompt": "Où habite Léa, et comment est son logement ?",
+      "prompt_en": "Where does Léa live, and how does she describe her home?",
+      "answer": "À Paris, dans un petit appartement confortable",
       "options": [
+        "À Paris, dans un petit appartement confortable",
+        "À Lyon, dans un grand appartement",
+        "À Paris, dans une grande maison moderne",
+        "En Italie, au-dessus d'un café"
+      ],
+      "options_en": [
         "In Paris, in a small but comfortable apartment",
         "In Lyon, in a big apartment",
         "In Paris, in a big modern house",
@@ -99,9 +106,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Who is Marco? Give two facts about him.",
-      "answer": "Léa's Italian friend, a student who lives in Paris",
+      "prompt": "Qui est Marco ? Donne deux informations sur lui.",
+      "prompt_en": "Who is Marco? Give two facts about him.",
+      "answer": "L'ami italien de Léa, un étudiant qui habite à Paris",
       "options": [
+        "L'ami italien de Léa, un étudiant qui habite à Paris",
+        "Le frère de Léa, un photographe",
+        "Le patron du Café Le Soleil",
+        "Un touriste italien à Paris pour une semaine"
+      ],
+      "options_en": [
         "Léa's Italian friend, a student who lives in Paris",
         "Léa's brother, a photographer",
         "The owner of Café Le Soleil",
@@ -111,9 +125,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What do Léa and Marco each like at the café?",
-      "answer": "Léa likes coffee and croissants; Marco likes hot chocolate",
+      "prompt": "Qu'est-ce que Léa et Marco aiment au café ?",
+      "prompt_en": "What do Léa and Marco each like at the café?",
+      "answer": "Léa aime le café et les croissants ; Marco aime le chocolat chaud",
       "options": [
+        "Léa aime le café et les croissants ; Marco aime le chocolat chaud",
+        "Léa aime le chocolat chaud ; Marco aime les croissants",
+        "Ils aiment tous les deux le thé",
+        "Léa aime seulement les croissants ; Marco aime le café"
+      ],
+      "options_en": [
         "Léa likes coffee and croissants; Marco likes hot chocolate",
         "Léa likes hot chocolate; Marco likes croissants",
         "They both like tea",

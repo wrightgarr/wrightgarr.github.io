@@ -143,6 +143,7 @@
     {
       "id": "q1",
       "prompt": "Quel est le projet de Madame Ferrand ?",
+      "prompt_en": "What is Madame Ferrand's plan?",
       "answer": "Installer derrière l'hôtel de ville un mur portant les noms des habitants expulsés en 1943",
       "options": [
         "Installer derrière l'hôtel de ville un mur portant les noms des habitants expulsés en 1943",
@@ -150,11 +151,18 @@
         "Construire un musée des dockers",
         "Publier les carnets gratuitement"
       ],
+      "options_en": [
+        "To put up a wall behind the town hall bearing the names of the residents expelled in 1943",
+        "To rename a street after Jean",
+        "To build a dockers' museum",
+        "To publish the notebooks for free"
+      ],
       "evidence": "obtenir de la ville qu'elle installe, derrière l'hôtel de ville, un mur portant les noms des habitants du quartier Saint-Jean expulsés en 1943."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi son premier brouillon ne convient-il pas ?",
+      "prompt_en": "Why doesn't her first draft work?",
       "answer": "Il est trop familier et agressif pour une lettre au maire",
       "options": [
         "Il est trop familier et agressif pour une lettre au maire",
@@ -162,17 +170,30 @@
         "Il contient des fautes d'orthographe",
         "Il est écrit en marseillais"
       ],
+      "options_en": [
+        "It's too familiar and aggressive for a letter to the mayor",
+        "It's too long",
+        "It has spelling mistakes",
+        "It's written in Marseille dialect"
+      ],
       "evidence": "Mais si on veut qu'il nous réponde, il faudrait peut-être changer de ton."
     },
     {
       "id": "q3",
       "prompt": "Qu'a de particulier la réponse du maire ?",
+      "prompt_en": "What is special about the mayor's reply?",
       "answer": "Il ajoute lui aussi un mot à la main : sa grand-mère habitait rue de la Loge",
       "options": [
         "Il ajoute lui aussi un mot à la main : sa grand-mère habitait rue de la Loge",
         "Il refuse le projet",
         "Il envoie un chèque",
         "Il demande un exemplaire gratuit"
+      ],
+      "options_en": [
+        "He too adds a handwritten note: his grandmother lived on the rue de la Loge",
+        "He rejects the plan",
+        "He sends a cheque",
+        "He asks for a free copy"
       ],
       "evidence": "« Je ne tarderai pas. Ma grand-mère habitait rue de la Loge. »"
     }

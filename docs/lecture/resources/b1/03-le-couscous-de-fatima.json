@@ -119,6 +119,7 @@
     {
       "id": "q1",
       "prompt": "De quoi Amina a-t-elle peur avant le déjeuner ?",
+      "prompt_en": "What is Amina afraid of before the lunch?",
       "answer": "Que la mère de Karim la trouve trop timide",
       "options": [
         "Que la mère de Karim la trouve trop timide",
@@ -126,11 +127,18 @@
         "Que Karim la quitte",
         "Que le bus soit en retard"
       ],
+      "options_en": [
+        "That Karim's mother will find her too shy",
+        "That the couscous will be too spicy",
+        "That Karim will leave her",
+        "That the bus will be late"
+      ],
       "evidence": "J'ai peur que ta mère me trouve trop timide, a-t-elle avoué dans le bus."
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce qu'Amina découvre sur Karim pendant le repas ?",
+      "prompt_en": "What does Amina discover about Karim during the meal?",
       "answer": "Un Karim plus jeune et plus détendu, qui se dispute avec sa sœur",
       "options": [
         "Un Karim plus jeune et plus détendu, qui se dispute avec sa sœur",
@@ -138,17 +146,30 @@
         "Un Karim qui joue de l'oud",
         "Un Karim qui cuisine pour toute la famille"
       ],
+      "options_en": [
+        "A younger, more relaxed Karim, who argues with his sister",
+        "A very serious, silent Karim",
+        "A Karim who plays the oud",
+        "A Karim who cooks for the whole family"
+      ],
       "evidence": "Pendant le repas, Amina a découvert un autre Karim : plus jeune, plus détendu, qui se disputait avec sa sœur Nora pour la dernière cuillère de sauce."
     },
     {
       "id": "q3",
       "prompt": "Que promet Fatima à Amina ?",
+      "prompt_en": "What does Fatima promise Amina?",
       "answer": "Qu'Amina aura toujours une famille à Marseille",
       "options": [
         "Qu'Amina aura toujours une famille à Marseille",
         "De lui apprendre à faire le couscous",
         "De lui trouver un appartement",
         "De venir à tous ses concerts"
+      ],
+      "options_en": [
+        "That Amina will always have a family in Marseille",
+        "To teach her how to make couscous",
+        "To find her a flat",
+        "To come to all her concerts"
       ],
       "evidence": "Mais ici, vous aurez toujours une famille, d'accord ?"
     }

@@ -125,6 +125,7 @@
     {
       "id": "q1",
       "prompt": "Qui sont les nouveaux arrivants, d'après les chiffres de Théo ?",
+      "prompt_en": "According to Théo's figures, who are the newcomers?",
       "answer": "Près de la moitié ont 25 à 40 ans, environ un tiers travaillent à distance, et plus de 60 % viennent de la région parisienne",
       "options": [
         "Près de la moitié ont 25 à 40 ans, environ un tiers travaillent à distance, et plus de 60 % viennent de la région parisienne",
@@ -132,11 +133,18 @@
         "Des étudiants venus de Lyon",
         "Des familles venues de Marseille même"
       ],
+      "options_en": [
+        "Nearly half are 25 to 40, about a third work remotely, and over 60% come from the Paris region",
+        "Mostly retired people from Germany",
+        "Students from Lyon",
+        "Families from Marseille itself"
+      ],
       "evidence": "Près de la moitié des nouveaux arrivants ont entre vingt-cinq et quarante ans."
     },
     {
       "id": "q2",
       "prompt": "Quelle conséquence négative Lucas souligne-t-il ?",
+      "prompt_en": "What negative consequence does Lucas highlight?",
       "answer": "Les loyers augmentent et ce sont les Marseillais modestes qui en paient le prix",
       "options": [
         "Les loyers augmentent et ce sont les Marseillais modestes qui en paient le prix",
@@ -144,17 +152,30 @@
         "Les écoles ferment",
         "Il n'y a plus de travail"
       ],
+      "options_en": [
+        "Rents are rising and it's people of modest means in Marseille who pay the price",
+        "The beaches are too crowded",
+        "Schools are closing",
+        "There's no more work"
+      ],
       "evidence": "Dans certains quartiers, les loyers ont augmenté d'une vingtaine de pour cent en cinq ans. Et ce sont les Marseillais modestes qui en paient le prix."
     },
     {
       "id": "q3",
       "prompt": "Que veut dire Mourad avec sa phrase sur les « ordinateurs » ?",
+      "prompt_en": "What does Mourad mean with his remark about \"computers\"?",
       "answer": "Les nouveaux arrivants, à la différence des anciens immigrés ouvriers, ont les moyens de faire monter les loyers",
       "options": [
         "Les nouveaux arrivants, à la différence des anciens immigrés ouvriers, ont les moyens de faire monter les loyers",
         "Les ordinateurs remplacent les ouvriers au port",
         "Les Parisiens n'aiment pas Marseille",
         "Internet a tué la pétanque"
+      ],
+      "options_en": [
+        "Unlike the working-class immigrants of the past, the newcomers can afford to push rents up",
+        "Computers are replacing workers at the port",
+        "Parisians don't like Marseille",
+        "The internet killed pétanque"
       ],
       "evidence": "La seule différence, c'est que nous, on n'avait pas les moyens de faire monter les loyers."
     }

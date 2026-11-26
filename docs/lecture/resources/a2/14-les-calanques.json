@@ -106,9 +106,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Which calanque is best for families, and why?",
-      "answer": "Sormiou — it's the easiest to visit and has the best beach for families",
+      "prompt": "Quelle calanque est la meilleure pour les familles, et pourquoi ?",
+      "prompt_en": "Which calanque is best for families, and why?",
+      "answer": "Sormiou — c'est la plus facile à visiter et sa plage est la meilleure pour les familles",
       "options": [
+        "Sormiou — c'est la plus facile à visiter et sa plage est la meilleure pour les familles",
+        "Sugiton — le chemin part de l'université",
+        "En-Vau — son eau est la plus claire",
+        "Cassis — elle a le plus de restaurants"
+      ],
+      "options_en": [
         "Sormiou — it's the easiest to visit and has the best beach for families",
         "Sugiton — the path starts at the university",
         "En-Vau — it has the clearest water",
@@ -118,9 +125,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What is the problem with Sugiton in summer?",
-      "answer": "It's the busiest — full of people",
+      "prompt": "Quel est le problème de Sugiton en été ?",
+      "prompt_en": "What is the problem with Sugiton in summer?",
+      "answer": "C'est la plus fréquentée — il y a beaucoup trop de monde",
       "options": [
+        "C'est la plus fréquentée — il y a beaucoup trop de monde",
+        "Le chemin est fermé",
+        "L'eau est trop froide",
+        "Il n'y a pas de plage"
+      ],
+      "options_en": [
         "It's the busiest — full of people",
         "The path is closed",
         "The water is too cold",
@@ -130,9 +144,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Why is En-Vau the least accessible?",
-      "answer": "You have to walk an hour and a half on a difficult path",
+      "prompt": "Pourquoi En-Vau est-elle la moins accessible ?",
+      "prompt_en": "Why is En-Vau the least accessible?",
+      "answer": "Il faut marcher une heure et demie sur un chemin difficile",
       "options": [
+        "Il faut marcher une heure et demie sur un chemin difficile",
+        "Il faut un bateau pour y aller",
+        "Elle est ouverte seulement en hiver",
+        "Elle est trop loin de la ville en voiture"
+      ],
+      "options_en": [
         "You have to walk an hour and a half on a difficult path",
         "You need a boat to get there",
         "It's only open in winter",

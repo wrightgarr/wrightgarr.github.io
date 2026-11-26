@@ -107,9 +107,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Why was Léa in a hurry on Monday morning?",
-      "answer": "She had a 9 o'clock appointment to photograph a famous chef",
+      "prompt": "Pourquoi Léa était-elle pressée lundi matin ?",
+      "prompt_en": "Why was Léa in a hurry on Monday morning?",
+      "answer": "Elle avait rendez-vous à 9 heures pour photographier un chef célèbre",
       "options": [
+        "Elle avait rendez-vous à 9 heures pour photographier un chef célèbre",
+        "Elle avait un train à prendre",
+        "Elle avait un entretien d'embauche",
+        "Sa patronne avait organisé une réunion"
+      ],
+      "options_en": [
         "She had a 9 o'clock appointment to photograph a famous chef",
         "She had a train to catch",
         "She had a job interview",
@@ -119,9 +126,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Where was the memory card, and how did the problem get solved?",
-      "answer": "At the office — Karim brought it to her",
+      "prompt": "Où était la carte mémoire, et comment le problème a-t-il été résolu ?",
+      "prompt_en": "Where was the memory card, and how did the problem get solved?",
+      "answer": "Au bureau — Karim la lui a apportée",
       "options": [
+        "Au bureau — Karim la lui a apportée",
+        "Dans sa poche — elle l'a trouvée elle-même",
+        "Chez le chef — il l'avait gardée",
+        "Dans l'appareil — elle y était depuis le début"
+      ],
+      "options_en": [
         "At the office — Karim brought it to her",
         "In her pocket — she found it herself",
         "At the chef's — he had kept it",
@@ -131,9 +145,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Where were Léa's keys the whole time?",
-      "answer": "In her door, on the outside, all night",
+      "prompt": "Où étaient les clés de Léa pendant tout ce temps ?",
+      "prompt_en": "Where were Léa's keys the whole time?",
+      "answer": "Sur sa porte, à l'extérieur, toute la nuit",
       "options": [
+        "Sur sa porte, à l'extérieur, toute la nuit",
+        "Dans son sac",
+        "Chez Karim",
+        "Sur la table de la cuisine"
+      ],
+      "options_en": [
         "In her door, on the outside, all night",
         "In her bag",
         "At Karim's place",

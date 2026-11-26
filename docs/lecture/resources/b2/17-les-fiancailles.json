@@ -127,6 +127,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi la demande en mariage ne s'est-elle pas passée comme prévu ?",
+      "prompt_en": "Why didn't the marriage proposal go as planned?",
       "answer": "Il pleuvait des cordes, donc ils ont fini dans la cuisine de Madame Ferrand",
       "options": [
         "Il pleuvait des cordes, donc ils ont fini dans la cuisine de Madame Ferrand",
@@ -134,11 +135,18 @@
         "Karim a perdu la bague",
         "Léa est tombée du toit"
       ],
+      "options_en": [
+        "It was pouring with rain, so they ended up in Madame Ferrand's kitchen",
+        "Amina said no",
+        "Karim lost the ring",
+        "Léa fell off the roof"
+      ],
       "evidence": "Le seul problème, c'est qu'il pleuvait des cordes ce soir-là."
     },
     {
       "id": "q2",
       "prompt": "Quelle question d'Hugo provoque un silence glacial, et pourquoi ?",
+      "prompt_en": "Which question of Hugo's causes an icy silence, and why?",
       "answer": "Il demande où aura lieu le mariage, alors que les deux mères ne sont pas d'accord",
       "options": [
         "Il demande où aura lieu le mariage, alors que les deux mères ne sont pas d'accord",
@@ -146,17 +154,30 @@
         "Il critique le couscous",
         "Il annonce qu'il ne viendra pas"
       ],
+      "options_en": [
+        "He asks where the wedding will be, when the two mothers don't agree",
+        "He asks how much the ring cost",
+        "He criticises the couscous",
+        "He announces he won't come"
+      ],
       "evidence": "Et alors, le mariage, c'est pour quand ? Et où ? À Marseille ou à Montréal ?"
     },
     {
       "id": "q3",
       "prompt": "Quelle solution Madame Ferrand propose-t-elle ?",
+      "prompt_en": "What solution does Madame Ferrand suggest?",
       "answer": "Organiser deux fêtes, une à Marseille en été et une à Montréal en hiver",
       "options": [
         "Organiser deux fêtes, une à Marseille en été et une à Montréal en hiver",
         "Se marier à Paris",
         "Annuler le mariage",
         "Tirer au sort"
+      ],
+      "options_en": [
+        "Hold two celebrations, one in Marseille in summer and one in Montreal in winter",
+        "Get married in Paris",
+        "Call off the wedding",
+        "Draw lots"
       ],
       "evidence": "Faites deux fêtes : une ici en été, une là-bas en hiver."
     }

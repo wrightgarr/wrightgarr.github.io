@@ -118,6 +118,7 @@
     {
       "id": "q1",
       "prompt": "Quelles conditions le groupe Médias Plus pose-t-il ?",
+      "prompt_en": "What conditions does the Médias Plus group set?",
       "answer": "Déménager à Paris et supprimer l'édition papier",
       "options": [
         "Déménager à Paris et supprimer l'édition papier",
@@ -125,11 +126,18 @@
         "Augmenter le prix du magazine",
         "Publier seulement en anglais"
       ],
+      "options_en": [
+        "Move to Paris and drop the print edition",
+        "Fire Nadia and keep Karim",
+        "Raise the magazine's price",
+        "Publish only in English"
+      ],
       "evidence": "Ils proposent de racheter le magazine à condition que nous déménagions à Paris et que nous supprimions l'édition papier."
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce qu'une coopérative, selon Lucas ?",
+      "prompt_en": "According to Lucas, what is a cooperative?",
       "answer": "Chaque salarié est propriétaire d'une partie de l'entreprise",
       "options": [
         "Chaque salarié est propriétaire d'une partie de l'entreprise",
@@ -137,17 +145,30 @@
         "Un magazine gratuit",
         "Un groupe de magazines parisiens"
       ],
+      "options_en": [
+        "Each employee owns part of the business",
+        "A company with no boss and no salaries",
+        "A free magazine",
+        "A group of Paris magazines"
+      ],
       "evidence": "Chaque salarié est propriétaire d'une partie de l'entreprise."
     },
     {
       "id": "q3",
       "prompt": "À quelle condition Théo accepte-t-il le projet ?",
+      "prompt_en": "On what condition does Théo agree to the plan?",
       "answer": "À condition qu'on garde le papier",
       "options": [
         "À condition qu'on garde le papier",
         "À condition d'avoir une augmentation",
         "À condition de travailler à Paris",
         "À condition que Nadia parte"
+      ],
+      "options_en": [
+        "Provided they keep the print edition",
+        "Provided he gets a pay rise",
+        "Provided he works in Paris",
+        "Provided Nadia leaves"
       ],
       "evidence": "Moi aussi, a dit Théo, à condition qu'on garde le papier !"
     }

@@ -107,9 +107,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Where and when should you buy the fish, according to Madame Ferrand?",
-      "answer": "At the port, that same morning — never at the supermarket",
+      "prompt": "D'après Madame Ferrand, où et quand faut-il acheter le poisson ?",
+      "prompt_en": "Where and when should you buy the fish, according to Madame Ferrand?",
+      "answer": "Au port, le matin même — jamais au supermarché",
       "options": [
+        "Au port, le matin même — jamais au supermarché",
+        "Au supermarché, la veille",
+        "Au marché de Noailles, l'après-midi",
+        "Au restaurant, surgelé"
+      ],
+      "options_en": [
         "At the port, that same morning — never at the supermarket",
         "At the supermarket, the day before",
         "At Noailles market, in the afternoon",
@@ -119,9 +126,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What is her \"secret\"?",
-      "answer": "Cooking on high heat — the fire must be strong",
+      "prompt": "Quel est son « secret » ?",
+      "prompt_en": "What is her \"secret\"?",
+      "answer": "Cuire à feu vif — le feu doit être fort",
       "options": [
+        "Cuire à feu vif — le feu doit être fort",
+        "Mettre beaucoup de sel",
+        "Utiliser une seule sorte de poisson",
+        "La faire cuire doucement pendant trois heures"
+      ],
+      "options_en": [
         "Cooking on high heat — the fire must be strong",
         "Adding lots of salt",
         "Using only one kind of fish",
@@ -131,9 +145,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Why is Hugo's compliment a little funny?",
-      "answer": "He didn't actually cook anything — she did it all",
+      "prompt": "Pourquoi le compliment d'Hugo est-il un peu drôle ?",
+      "prompt_en": "Why is Hugo's compliment a little funny?",
+      "answer": "Il n'a rien cuisiné — c'est elle qui a tout fait",
       "options": [
+        "Il n'a rien cuisiné — c'est elle qui a tout fait",
+        "C'est un cuisinier qui déteste le poisson",
+        "Il a mis trop de safran",
+        "Il a dit que la soupe de Léa était meilleure"
+      ],
+      "options_en": [
         "He didn't actually cook anything — she did it all",
         "He's a cook who hates fish",
         "He added too much saffron",

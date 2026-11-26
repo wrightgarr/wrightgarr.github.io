@@ -75,9 +75,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "List three of Marco's symptoms.",
-      "answer": "A headache, a sore throat and a fever",
+      "prompt": "Nomme trois symptômes de Marco.",
+      "prompt_en": "List three of Marco's symptoms.",
+      "answer": "Il a mal à la tête, mal à la gorge et de la fièvre",
       "options": [
+        "Il a mal à la tête, mal à la gorge et de la fièvre",
+        "Il a mal au ventre, il tousse et il a mal au dos",
+        "Il a mal aux pieds, mal à la tête et il éternue",
+        "Il a mal aux dents, de la fièvre et mal aux yeux"
+      ],
+      "options_en": [
         "A headache, a sore throat and a fever",
         "A stomach ache, a cough and back pain",
         "Sore feet, a headache and sneezing",
@@ -87,9 +94,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What is the diagnosis, and what does the doctor recommend?",
-      "answer": "The flu — stay in bed three days and drink lots of water",
+      "prompt": "Qu'est-ce qu'il a, et qu'est-ce que le médecin recommande ?",
+      "prompt_en": "What is the diagnosis, and what does the doctor recommend?",
+      "answer": "La grippe — rester au lit trois jours et boire beaucoup d'eau",
       "options": [
+        "La grippe — rester au lit trois jours et boire beaucoup d'eau",
+        "Un rhume — faire une promenade",
+        "Un rhume — retourner à l'université demain",
+        "Une intoxication alimentaire — manger seulement de la soupe"
+      ],
+      "options_en": [
         "The flu — stay in bed three days and drink lots of water",
         "A cold — go for a walk",
         "A cold — go back to university tomorrow",
@@ -99,9 +113,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What does Léa bring, and who made it?",
-      "answer": "Soup, made by Hugo",
+      "prompt": "Qu'est-ce que Léa apporte, et qui l'a préparé ?",
+      "prompt_en": "What does Léa bring, and who made it?",
+      "answer": "De la soupe, préparée par Hugo",
       "options": [
+        "De la soupe, préparée par Hugo",
+        "Des médicaments de la pharmacie",
+        "Des croissants de Madame Martin",
+        "Du chocolat chaud du café"
+      ],
+      "options_en": [
         "Soup, made by Hugo",
         "Medicine from the pharmacy",
         "Croissants from Madame Martin",

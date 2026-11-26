@@ -98,9 +98,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "How old were Léa and Hugo in the photo?",
-      "answer": "Léa was seven and Hugo was five",
+      "prompt": "Quel âge avaient Léa et Hugo sur la photo ?",
+      "prompt_en": "How old were Léa and Hugo in the photo?",
+      "answer": "Léa avait sept ans et Hugo cinq ans",
       "options": [
+        "Léa avait sept ans et Hugo cinq ans",
+        "Léa avait cinq ans et Hugo sept ans",
+        "Léa avait dix ans et Hugo huit ans",
+        "Ils avaient sept ans tous les deux"
+      ],
+      "options_en": [
         "Léa was seven and Hugo was five",
         "Léa was five and Hugo was seven",
         "Léa was ten and Hugo was eight",
@@ -110,9 +117,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Describe the grandmother's house with two details.",
-      "answer": "It was old, with yellow walls and a big garden",
+      "prompt": "Décris la maison de la grand-mère avec deux détails.",
+      "prompt_en": "Describe the grandmother's house with two details.",
+      "answer": "Elle était vieille, avec des murs jaunes et un grand jardin",
       "options": [
+        "Elle était vieille, avec des murs jaunes et un grand jardin",
+        "Elle était moderne, avec une piscine",
+        "Elle était petite, avec une porte bleue et sans jardin",
+        "Elle était au bord de la mer, avec une vue sur le port"
+      ],
+      "options_en": [
         "It was old, with yellow walls and a big garden",
         "It was modern, with a swimming pool",
         "It was small, with a blue door and no garden",
@@ -122,9 +136,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What was special about the camera in the photo?",
-      "answer": "It was a gift from her grandfather, and she started photography with it",
+      "prompt": "Qu'est-ce que l'appareil photo de la photo avait de spécial ?",
+      "prompt_en": "What was special about the camera in the photo?",
+      "answer": "C'était un cadeau de son grand-père, et elle a commencé la photo avec lui",
       "options": [
+        "C'était un cadeau de son grand-père, et elle a commencé la photo avec lui",
+        "C'était le premier appareil de sa mère",
+        "C'est l'appareil qu'elle utilise aujourd'hui au magazine",
+        "C'était un cadeau d'Hugo pour son anniversaire"
+      ],
+      "options_en": [
         "It was a gift from her grandfather, and she started photography with it",
         "It was her mother's first camera",
         "It was the camera she uses at the magazine today",

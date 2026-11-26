@@ -68,9 +68,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "How much does Léa finally pay for the camera?",
-      "answer": "€35",
+      "prompt": "Combien Léa paie-t-elle l'appareil photo, finalement ?",
+      "prompt_en": "How much does Léa finally pay for the camera?",
+      "answer": "35 €",
       "options": [
+        "35 €",
+        "40 €",
+        "30 €",
+        "25 €"
+      ],
+      "options_en": [
         "€35",
         "€40",
         "€30",
@@ -80,9 +87,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Why doesn't she buy the lamp?",
-      "answer": "It's too big for her apartment",
+      "prompt": "Pourquoi n'achète-t-elle pas la lampe ?",
+      "prompt_en": "Why doesn't she buy the lamp?",
+      "answer": "Elle est trop grande pour son appartement",
       "options": [
+        "Elle est trop grande pour son appartement",
+        "Elle est trop chère",
+        "Elle n'aime pas le vert",
+        "Elle est cassée"
+      ],
+      "options_en": [
         "It's too big for her apartment",
         "It's too expensive",
         "She doesn't like green",
@@ -92,9 +106,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Who are the postcards for?",
-      "answer": "Amina",
+      "prompt": "Pour qui sont les cartes postales ?",
+      "prompt_en": "Who are the postcards for?",
+      "answer": "Pour Amina",
       "options": [
+        "Pour Amina",
+        "Pour Marco",
+        "Pour sa mère",
+        "Pour elle-même"
+      ],
+      "options_en": [
         "Amina",
         "Marco",
         "Her mother",

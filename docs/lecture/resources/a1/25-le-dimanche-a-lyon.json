@@ -69,9 +69,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What do Paul and Sophie cook?",
-      "answer": "Paul makes roast chicken; Sophie makes apple tart",
+      "prompt": "Qu'est-ce que Paul et Sophie préparent ?",
+      "prompt_en": "What do Paul and Sophie cook?",
+      "answer": "Paul fait un poulet rôti ; Sophie fait une tarte aux pommes",
       "options": [
+        "Paul fait un poulet rôti ; Sophie fait une tarte aux pommes",
+        "Paul fait une tarte aux pommes ; Sophie fait un poulet rôti",
+        "Paul fait une fondue ; Sophie fait une quiche",
+        "Paul fait du poisson ; Sophie fait une soupe"
+      ],
+      "options_en": [
         "Paul makes roast chicken; Sophie makes apple tart",
         "Paul makes apple tart; Sophie makes roast chicken",
         "Paul makes fondue; Sophie makes quiche",
@@ -81,9 +88,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What does the family never do at the table?",
-      "answer": "Watch TV",
+      "prompt": "Qu'est-ce que la famille ne fait jamais à table ?",
+      "prompt_en": "What does the family never do at the table?",
+      "answer": "Regarder la télé",
       "options": [
+        "Regarder la télé",
+        "Parler du travail",
+        "Boire du café",
+        "Manger un dessert"
+      ],
+      "options_en": [
         "Watch TV",
         "Talk about work",
         "Drink coffee",
@@ -93,9 +107,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What do they always do after lunch?",
-      "answer": "A walk along the Rhône",
+      "prompt": "Qu'est-ce qu'ils font toujours après le déjeuner ?",
+      "prompt_en": "What do they always do after lunch?",
+      "answer": "Une promenade le long du Rhône",
       "options": [
+        "Une promenade le long du Rhône",
+        "Une sieste",
+        "Une partie de cartes",
+        "Une visite au marché"
+      ],
+      "options_en": [
         "A walk along the Rhône",
         "A nap",
         "A game of cards",

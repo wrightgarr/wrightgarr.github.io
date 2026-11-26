@@ -113,6 +113,7 @@
     {
       "id": "q1",
       "prompt": "Combien de billets faut-il vendre pour imprimer le numéro de février ?",
+      "prompt_en": "How many tickets must they sell to print the February issue?",
       "answer": "Deux cents",
       "options": [
         "Deux cents",
@@ -120,11 +121,18 @@
         "Cinquante",
         "Quarante"
       ],
+      "options_en": [
+        "Two hundred",
+        "One hundred",
+        "Fifty",
+        "Forty"
+      ],
       "evidence": "Si on en vend deux cents, on gagnera assez pour imprimer le numéro de février."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Amina a-t-elle peur que Delmas apprenne qu'elle joue à la soirée ?",
+      "prompt_en": "Why is Amina afraid Delmas will find out she's playing at the evening event?",
       "answer": "Elle joue dans un bureau au lieu de réviser",
       "options": [
         "Elle joue dans un bureau au lieu de réviser",
@@ -132,17 +140,30 @@
         "Elle a promis de ne jamais jouer en public",
         "Delmas veut jouer à sa place"
       ],
+      "options_en": [
+        "She's playing in an office instead of practising",
+        "Delmas doesn't like Schubert",
+        "She promised never to play in public",
+        "Delmas wants to play instead of her"
+      ],
       "evidence": "Si Delmas apprend que je joue dans un bureau au lieu de réviser, il me tuera, a-t-elle dit à Léa."
     },
     {
       "id": "q3",
       "prompt": "Comment Madame Ferrand aide-t-elle à vendre les billets, et que demande-t-elle en échange ?",
+      "prompt_en": "How does Madame Ferrand help sell the tickets, and what does she ask for in return?",
       "answer": "Elle partage l'invitation sur les réseaux, en échange d'une place au premier rang",
       "options": [
         "Elle partage l'invitation sur les réseaux, en échange d'une place au premier rang",
         "Elle achète cent billets, en échange d'un article",
         "Elle prépare le buffet, en échange d'une photo",
         "Elle appelle le maire, en échange d'un concert privé"
+      ],
+      "options_en": [
+        "She shares the invitation on social media, in exchange for a front-row seat",
+        "She buys a hundred tickets, in exchange for an article",
+        "She makes the buffet, in exchange for a photo",
+        "She calls the mayor, in exchange for a private concert"
       ],
       "evidence": "Mais si je fais ça, je veux une place au premier rang pour écouter Amina."
     }
