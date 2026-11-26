@@ -78,9 +78,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What are the jobs of Léa's mother, father, and brother?",
-      "answer": "Mother: teacher · Father: doctor · Hugo: cook",
+      "prompt": "Quel est le métier de la mère, du père et du frère de Léa ?",
+      "prompt_en": "What are the jobs of Léa's mother, father, and brother?",
+      "answer": "Mère : professeure · Père : médecin · Hugo : cuisinier",
       "options": [
+        "Mère : professeure · Père : médecin · Hugo : cuisinier",
+        "Mère : médecin · Père : professeur · Hugo : étudiant",
+        "Mère : cuisinière · Père : photographe · Hugo : médecin",
+        "Mère : professeure · Père : cuisinier · Hugo : photographe"
+      ],
+      "options_en": [
         "Mother: teacher · Father: doctor · Hugo: cook",
         "Mother: doctor · Father: teacher · Hugo: student",
         "Mother: cook · Father: photographer · Hugo: doctor",
@@ -90,9 +97,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Where do her parents live? Where does Hugo work?",
-      "answer": "Her parents live in Lyon; Hugo works in a restaurant in Paris",
+      "prompt": "Où habitent ses parents ? Où travaille Hugo ?",
+      "prompt_en": "Where do her parents live? Where does Hugo work?",
+      "answer": "Ses parents habitent à Lyon ; Hugo travaille dans un restaurant à Paris",
       "options": [
+        "Ses parents habitent à Lyon ; Hugo travaille dans un restaurant à Paris",
+        "Ses parents habitent à Paris ; Hugo travaille à Lyon",
+        "Ses parents habitent à Lyon ; Hugo travaille dans un café à Lyon",
+        "Ses parents habitent en Italie ; Hugo travaille dans un musée"
+      ],
+      "options_en": [
         "Her parents live in Lyon; Hugo works in a restaurant in Paris",
         "Her parents live in Paris; Hugo works in Lyon",
         "Her parents live in Lyon; Hugo works in a café in Lyon",
@@ -102,9 +116,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Describe Minou in two words.",
-      "answer": "Black and lazy",
+      "prompt": "Décris Minou en deux mots.",
+      "prompt_en": "Describe Minou in two words.",
+      "answer": "Noir et paresseux",
       "options": [
+        "Noir et paresseux",
+        "Blanc et joueur",
+        "Petit et bruyant",
+        "Noir et rapide"
+      ],
+      "options_en": [
         "Black and lazy",
         "White and playful",
         "Small and noisy",

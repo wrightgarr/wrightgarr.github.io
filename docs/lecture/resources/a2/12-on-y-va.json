@@ -110,9 +110,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "How long does it take to get from Marseille to Aix by bus?",
-      "answer": "Thirty minutes",
+      "prompt": "Combien de temps faut-il pour aller de Marseille à Aix en car ?",
+      "prompt_en": "How long does it take to get from Marseille to Aix by bus?",
+      "answer": "Trente minutes",
       "options": [
+        "Trente minutes",
+        "Deux heures",
+        "Dix minutes",
+        "Une heure et demie"
+      ],
+      "options_en": [
         "Thirty minutes",
         "Two hours",
         "Ten minutes",
@@ -122,9 +129,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Why did Amina buy three boxes of calissons?",
-      "answer": "For her mother, her piano teacher and herself",
+      "prompt": "Pourquoi Amina a-t-elle acheté trois boîtes de calissons ?",
+      "prompt_en": "Why did Amina buy three boxes of calissons?",
+      "answer": "Pour sa mère, pour sa professeure de piano et pour elle",
       "options": [
+        "Pour sa mère, pour sa professeure de piano et pour elle",
+        "Pour Léa, Karim et Hugo",
+        "Pour ses trois sœurs",
+        "Parce qu'il y en avait trois pour le prix d'une"
+      ],
+      "options_en": [
         "For her mother, her piano teacher and herself",
         "For Léa, Karim and Hugo",
         "For her three sisters",
@@ -134,9 +148,16 @@
     },
     {
       "id": "q3",
-      "prompt": "How many boxes are left at the end of the day?",
-      "answer": "Only one box out of three",
+      "prompt": "Combien de boîtes reste-t-il à la fin de la journée ?",
+      "prompt_en": "How many boxes are left at the end of the day?",
+      "answer": "Une seule boîte sur trois",
       "options": [
+        "Une seule boîte sur trois",
+        "Les trois boîtes",
+        "Aucune — elle les a toutes mangées",
+        "Deux boîtes"
+      ],
+      "options_en": [
         "Only one box out of three",
         "All three boxes",
         "None — she ate them all",

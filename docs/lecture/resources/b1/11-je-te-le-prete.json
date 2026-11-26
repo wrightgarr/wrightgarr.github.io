@@ -126,6 +126,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi Lucas a-t-il besoin du Leica de Léa ?",
+      "prompt_en": "Why does Lucas need Léa's Leica?",
       "answer": "Pour son premier reportage, il n'a pas d'appareil digne de ce nom",
       "options": [
         "Pour son premier reportage, il n'a pas d'appareil digne de ce nom",
@@ -133,11 +134,18 @@
         "Nadia le lui a demandé",
         "Il veut le vendre"
       ],
+      "options_en": [
+        "For his first assignment — he doesn't have a camera worthy of the name",
+        "His camera is broken",
+        "Nadia asked him to borrow it",
+        "He wants to sell it"
+      ],
       "evidence": "Lucas était ravi, mais il avait un problème : il n'avait pas d'appareil photo digne de ce nom."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Karim donne-t-il son carnet d'adresses à Lucas ?",
+      "prompt_en": "Why does Karim give Lucas his address book?",
       "answer": "Les pêcheurs ne parlent pas aux inconnus",
       "options": [
         "Les pêcheurs ne parlent pas aux inconnus",
@@ -145,17 +153,30 @@
         "Karim part en vacances",
         "Il veut que Lucas appelle sa famille"
       ],
+      "options_en": [
+        "The fishermen don't talk to strangers",
+        "Lucas lost his own",
+        "Karim is going on holiday",
+        "He wants Lucas to call his family"
+      ],
       "evidence": "Les pêcheurs ne parlent pas aux inconnus, mais si tu leur dis que tu viens de ma part, ils te parleront."
     },
     {
       "id": "q3",
       "prompt": "Que décide Léa à la fin, et pourquoi ?",
+      "prompt_en": "What does Léa decide in the end, and why?",
       "answer": "Elle offre le Leica au poissonnier, qui va perdre sa boutique",
       "options": [
         "Elle offre le Leica au poissonnier, qui va perdre sa boutique",
         "Elle vend le Leica pour aider le magazine",
         "Elle garde le Leica et en achète un autre à Lucas",
         "Elle donne le Leica à Lucas"
+      ],
+      "options_en": [
+        "She gives the Leica to the fishmonger, who is about to lose his shop",
+        "She sells the Leica to help the magazine",
+        "She keeps the Leica and buys Lucas another one",
+        "She gives the Leica to Lucas"
       ],
       "evidence": "Ne le lui vends pas : offre-le-lui."
     }

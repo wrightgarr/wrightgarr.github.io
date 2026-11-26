@@ -80,9 +80,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is saint-marcellin?",
-      "answer": "A small cheese from the local region",
+      "prompt": "Qu'est-ce que le saint-marcellin ?",
+      "prompt_en": "What is saint-marcellin?",
+      "answer": "Un petit fromage de la région",
       "options": [
+        "Un petit fromage de la région",
+        "Un fromage dur affiné 18 mois",
+        "Un fromage de chèvre de Paris",
+        "Une sorte de fondue"
+      ],
+      "options_en": [
         "A small cheese from the local region",
         "A hard cheese aged 18 months",
         "A goat cheese from Paris",
@@ -92,9 +99,16 @@
     },
     {
       "id": "q2",
-      "prompt": "How old is the comté?",
-      "answer": "18 months",
+      "prompt": "Quel âge a le comté ?",
+      "prompt_en": "How old is the comté?",
+      "answer": "18 mois",
       "options": [
+        "18 mois",
+        "8 mois",
+        "3 ans",
+        "18 jours"
+      ],
+      "options_en": [
         "18 months",
         "8 months",
         "3 years",
@@ -104,9 +118,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What does Sophie buy, and what does Léa suggest?",
-      "answer": "Three goat cheeses and the comté — and Léa suggests a fondue",
+      "prompt": "Qu'est-ce que Sophie achète, et qu'est-ce que Léa propose ?",
+      "prompt_en": "What does Sophie buy, and what does Léa suggest?",
+      "answer": "Trois fromages de chèvre et le comté — et Léa propose une fondue",
       "options": [
+        "Trois fromages de chèvre et le comté — et Léa propose une fondue",
+        "Seulement du saint-marcellin — et Léa propose un pique-nique",
+        "Seulement le comté — et Léa propose de rentrer",
+        "Seulement du fromage de chèvre — et Léa propose un restaurant"
+      ],
+      "options_en": [
         "Three goat cheeses and the comté — and Léa suggests a fondue",
         "Saint-marcellin only — and Léa suggests a picnic",
         "The comté only — and Léa suggests going home",

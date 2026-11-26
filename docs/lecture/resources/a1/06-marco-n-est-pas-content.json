@@ -82,9 +82,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Why is Marco unhappy? Give two reasons.",
-      "answer": "He's tired, and his coffee machine doesn't work",
+      "prompt": "Pourquoi Marco n'est-il pas content ? Donne deux raisons.",
+      "prompt_en": "Why is Marco unhappy? Give two reasons.",
+      "answer": "Il est fatigué, et sa machine à café ne marche pas",
       "options": [
+        "Il est fatigué, et sa machine à café ne marche pas",
+        "Il est malade et il a perdu son téléphone",
+        "Il est en retard pour son cours et il pleut",
+        "Il n'aime pas le café"
+      ],
+      "options_en": [
         "He's tired, and his coffee machine doesn't work",
         "He's sick and has lost his phone",
         "He's late for class and it's raining",
@@ -94,9 +101,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Name two things Marco doesn't do at the café.",
-      "answer": "He doesn't eat a croissant or look at his phone",
+      "prompt": "Nomme deux choses que Marco ne fait pas au café.",
+      "prompt_en": "Name two things Marco doesn't do at the café.",
+      "answer": "Il ne mange pas de croissant et il ne regarde pas son téléphone",
       "options": [
+        "Il ne mange pas de croissant et il ne regarde pas son téléphone",
+        "Il ne boit pas de café et il ne parle pas à Léa",
+        "Il ne s'assoit pas et il ne paie pas",
+        "Il ne commande pas et il ne dit pas bonjour"
+      ],
+      "options_en": [
         "He doesn't eat a croissant or look at his phone",
         "He doesn't drink coffee or talk to Léa",
         "He doesn't sit down or pay",
@@ -106,9 +120,16 @@
     },
     {
       "id": "q3",
-      "prompt": "How does Marco feel at the end?",
-      "answer": "Better — he smiles and says he's OK now",
+      "prompt": "Comment va Marco à la fin ?",
+      "prompt_en": "How does Marco feel at the end?",
+      "answer": "Mieux — il sourit et dit que ça va maintenant",
       "options": [
+        "Mieux — il sourit et dit que ça va maintenant",
+        "Toujours fatigué et de mauvaise humeur",
+        "En colère contre Léa",
+        "Malade, il veut rentrer à la maison"
+      ],
+      "options_en": [
         "Better — he smiles and says he's OK now",
         "Still tired and grumpy",
         "Angry at Léa",

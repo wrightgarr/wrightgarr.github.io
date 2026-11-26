@@ -104,9 +104,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What are Marco's two resolutions?",
-      "answer": "No more chocolate after 10 p.m., and no more going to bed at 2 a.m.",
+      "prompt": "Quelles sont les deux bonnes résolutions de Marco ?",
+      "prompt_en": "What are Marco's two resolutions?",
+      "answer": "Plus de chocolat après 22 heures, et plus de coucher à 2 heures du matin",
       "options": [
+        "Plus de chocolat après 22 heures, et plus de coucher à 2 heures du matin",
+        "Plus de café, et plus de jeux vidéo",
+        "Ne jamais regarder la télé, et manger seulement des légumes",
+        "Courir tous les jours, et lire plus"
+      ],
+      "options_en": [
         "No more chocolate after 10 p.m., and no more going to bed at 2 a.m.",
         "No more coffee, and no more video games",
         "Never watching TV, and only eating vegetables",
@@ -116,9 +123,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Why does Karim's plan worry Léa?",
-      "answer": "He'll cycle to work among Marseille's scooters",
+      "prompt": "Pourquoi le projet de Karim inquiète-t-il Léa ?",
+      "prompt_en": "Why does Karim's plan worry Léa?",
+      "answer": "Il ira au travail à vélo au milieu des scooters de Marseille",
       "options": [
+        "Il ira au travail à vélo au milieu des scooters de Marseille",
+        "Il marchera quatre kilomètres tous les jours",
+        "Il arrêtera de conduire et prendra des taxis",
+        "Il travaillera de chez lui"
+      ],
+      "options_en": [
         "He'll cycle to work among Marseille's scooters",
         "He'll walk four kilometres every day",
         "He'll stop driving and take taxis",
@@ -128,9 +142,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What is Amina's big news?",
-      "answer": "She's moving to Marseille in September to study at the conservatoire",
+      "prompt": "Quelle est la grande nouvelle d'Amina ?",
+      "prompt_en": "What is Amina's big news?",
+      "answer": "Elle s'installe à Marseille en septembre pour étudier au conservatoire",
       "options": [
+        "Elle s'installe à Marseille en septembre pour étudier au conservatoire",
+        "Elle va se marier",
+        "Elle retourne vivre à Montréal",
+        "Elle arrête la musique"
+      ],
+      "options_en": [
         "She's moving to Marseille in September to study at the conservatoire",
         "She's getting married",
         "She's moving back to Montréal",

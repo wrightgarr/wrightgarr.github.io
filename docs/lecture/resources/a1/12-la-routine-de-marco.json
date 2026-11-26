@@ -71,9 +71,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "At what time does Marco wake up, and at what time does he get up?",
-      "answer": "He wakes up at 9:00 and gets up at 9:30",
+      "prompt": "À quelle heure Marco se réveille-t-il, et à quelle heure se lève-t-il ?",
+      "prompt_en": "At what time does Marco wake up, and at what time does he get up?",
+      "answer": "Il se réveille à 9 h et il se lève à 9 h 30",
       "options": [
+        "Il se réveille à 9 h et il se lève à 9 h 30",
+        "Il se réveille à 7 h et il se lève à 7 h 30",
+        "Il se réveille à 9 h 30 et il se lève à 10 h",
+        "Il se réveille à 13 h et il se lève à midi"
+      ],
+      "options_en": [
         "He wakes up at 9:00 and gets up at 9:30",
         "He wakes up at 7:00 and gets up at 7:30",
         "He wakes up at 9:30 and gets up at 10:00",
@@ -83,9 +90,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What does Marco not do in the morning?",
-      "answer": "He doesn't do his hair",
+      "prompt": "Qu'est-ce que Marco ne fait pas le matin ?",
+      "prompt_en": "What does Marco not do in the morning?",
+      "answer": "Il ne se coiffe pas",
       "options": [
+        "Il ne se coiffe pas",
+        "Il ne se douche pas",
+        "Il ne se brosse pas les dents",
+        "Il ne s'habille pas"
+      ],
+      "options_en": [
         "He doesn't do his hair",
         "He doesn't shower",
         "He doesn't brush his teeth",
@@ -95,9 +109,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What does Marco do on weekends?",
-      "answer": "He rests",
+      "prompt": "Qu'est-ce que Marco fait le week-end ?",
+      "prompt_en": "What does Marco do on weekends?",
+      "answer": "Il se repose",
       "options": [
+        "Il se repose",
+        "Il étudie toute la journée",
+        "Il retourne à Turin",
+        "Il se lève tôt"
+      ],
+      "options_en": [
         "He rests",
         "He studies all day",
         "He goes back to Turin",

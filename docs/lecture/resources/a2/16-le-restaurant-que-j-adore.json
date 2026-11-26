@@ -104,9 +104,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Describe the Panier neighbourhood with two details.",
-      "answer": "Narrow alleys and colourful houses climbing behind the Old Port",
+      "prompt": "Décris le quartier du Panier avec deux détails.",
+      "prompt_en": "Describe the Panier neighbourhood with two details.",
+      "answer": "Des ruelles étroites et des maisons colorées qui montent derrière le Vieux-Port",
       "options": [
+        "Des ruelles étroites et des maisons colorées qui montent derrière le Vieux-Port",
+        "De larges avenues et des immeubles modernes",
+        "Une plage avec des restaurants",
+        "De grands parcs et des fontaines"
+      ],
+      "options_en": [
         "Narrow alleys and colourful houses climbing behind the Old Port",
         "Wide avenues and modern buildings",
         "A beach with restaurants",
@@ -116,9 +123,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Who is Mehdi?",
-      "answer": "The chef of the restaurant, and Karim's childhood friend",
+      "prompt": "Qui est Mehdi ?",
+      "prompt_en": "Who is Mehdi?",
+      "answer": "Le chef du restaurant, et un ami d'enfance de Karim",
       "options": [
+        "Le chef du restaurant, et un ami d'enfance de Karim",
+        "Le frère de Karim, qui est pêcheur",
+        "Un artiste célèbre du Panier",
+        "Un collègue d'Hugo à Paris"
+      ],
+      "options_en": [
         "The chef of the restaurant, and Karim's childhood friend",
         "Karim's brother, who is a fisherman",
         "A famous artist from the Panier",
@@ -128,9 +142,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Where does the panisse recipe come from?",
-      "answer": "It's a secret from Mehdi's grandmother",
+      "prompt": "D'où vient la recette de la panisse ?",
+      "prompt_en": "Where does the panisse recipe come from?",
+      "answer": "C'est un secret de la grand-mère de Mehdi",
       "options": [
+        "C'est un secret de la grand-mère de Mehdi",
+        "D'un livre de cuisine célèbre",
+        "De Madame Ferrand",
+        "Mehdi l'a inventée l'année dernière"
+      ],
+      "options_en": [
         "It's a secret from Mehdi's grandmother",
         "From a famous cookbook",
         "From Madame Ferrand",

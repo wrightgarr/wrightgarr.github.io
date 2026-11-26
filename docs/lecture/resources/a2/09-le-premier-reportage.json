@@ -106,9 +106,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What was the atmosphere when Léa and Karim arrived?",
-      "answer": "Beautiful weather, a huge crowd, music and dancing",
+      "prompt": "Quelle était l'ambiance quand Léa et Karim sont arrivés ?",
+      "prompt_en": "What was the atmosphere when Léa and Karim arrived?",
+      "answer": "Il faisait beau, il y avait une foule énorme, de la musique et des danses",
       "options": [
+        "Il faisait beau, il y avait une foule énorme, de la musique et des danses",
+        "Il pleuvait, c'était calme, il y avait peu de monde",
+        "Il y avait du vent et il faisait froid, les stands fermaient",
+        "C'était calme, avec seulement quelques pêcheurs"
+      ],
+      "options_en": [
         "Beautiful weather, a huge crowd, music and dancing",
         "Rainy and quiet, with few people",
         "Windy and cold, with the stalls closing",
@@ -118,9 +125,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What happened at three o'clock?",
-      "answer": "The mistral blew up and umbrellas and tablecloths flew away",
+      "prompt": "Qu'est-ce qui s'est passé à trois heures ?",
+      "prompt_en": "What happened at three o'clock?",
+      "answer": "Le mistral s'est levé et les parasols et les nappes se sont envolés",
       "options": [
+        "Le mistral s'est levé et les parasols et les nappes se sont envolés",
+        "Il a commencé à pleuvoir très fort",
+        "Le défilé a été annulé",
+        "L'appareil photo de Léa s'est cassé"
+      ],
+      "options_en": [
         "The mistral blew up and umbrellas and tablecloths flew away",
         "It started to rain heavily",
         "The parade was cancelled",
@@ -130,9 +144,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Why was Nadia so pleased?",
-      "answer": "They expected a small village festival and got a real story",
+      "prompt": "Pourquoi Nadia était-elle si contente ?",
+      "prompt_en": "Why was Nadia so pleased?",
+      "answer": "Ils attendaient une petite fête de village et ils ont eu une vraie histoire",
       "options": [
+        "Ils attendaient une petite fête de village et ils ont eu une vraie histoire",
+        "Les photos étaient parfaitement calmes et jolies",
+        "L'article de Karim était très court",
+        "La fête a payé une publicité"
+      ],
+      "options_en": [
         "They expected a small village festival and got a real story",
         "The photos were perfectly calm and pretty",
         "Karim's article was very short",

@@ -127,6 +127,7 @@
     {
       "id": "q1",
       "prompt": "À qui Jean adresse-t-il le carnet 40 ?",
+      "prompt_en": "Who does Jean address notebook 40 to?",
       "answer": "À Simone, et à ceux qui viendront après",
       "options": [
         "À Simone, et à ceux qui viendront après",
@@ -134,11 +135,18 @@
         "À son éditeur",
         "À Salvatore"
       ],
+      "options_en": [
+        "To Simone, and to those who will come after",
+        "Only to Anne",
+        "To his publisher",
+        "To Salvatore"
+      ],
       "evidence": "« Pour Simone, qu'elle lira quand elle sera prête. Et pour ceux qui viendront après. »"
     },
     {
       "id": "q2",
       "prompt": "Quel rôle Salvatore Lo Bianco a-t-il joué dans la vie de Jean ?",
+      "prompt_en": "What role did Salvatore Lo Bianco play in Jean's life?",
       "answer": "Il lui a prêté son premier vrai roman, et sans lui il n'y aurait pas eu de carnets",
       "options": [
         "Il lui a prêté son premier vrai roman, et sans lui il n'y aurait pas eu de carnets",
@@ -146,17 +154,30 @@
         "Il lui a acheté son premier appareil photo",
         "Il l'a présenté à Simone"
       ],
+      "options_en": [
+        "He lent him his first real novel, and without him there would have been no notebooks",
+        "He taught him to fish",
+        "He bought him his first camera",
+        "He introduced him to Simone"
+      ],
       "evidence": "Si un jour quelqu'un passe par là-bas, qu'il dise à sa famille que sans lui, il n'y aurait pas eu de carnets."
     },
     {
       "id": "q3",
       "prompt": "Que veut dire Madame Ferrand quand elle dit : « Il savait que tu viendrais » ?",
+      "prompt_en": "What does Madame Ferrand mean when she says \"He knew you would come\"?",
       "answer": "Jean espérait que quelqu'un comme Léa viendrait aider Simone",
       "options": [
         "Jean espérait que quelqu'un comme Léa viendrait aider Simone",
         "Jean connaissait Léa",
         "Jean avait prévu sa date d'arrivée",
         "Jean lui avait écrit une lettre"
+      ],
+      "options_en": [
+        "Jean hoped someone like Léa would come and help Simone",
+        "Jean knew Léa",
+        "Jean had predicted the date she would arrive",
+        "Jean had written her a letter"
       ],
       "evidence": "Il savait que tu viendrais."
     }

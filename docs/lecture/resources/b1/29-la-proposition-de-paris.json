@@ -137,6 +137,7 @@
     {
       "id": "q1",
       "prompt": "Qu'est-ce que Claire Dumas propose à Léa, et à quelle condition ?",
+      "prompt_en": "What does Claire Dumas offer Léa, and on what condition?",
       "answer": "Le poste de chef photo d'Horizons, à condition d'habiter à Paris",
       "options": [
         "Le poste de chef photo d'Horizons, à condition d'habiter à Paris",
@@ -144,11 +145,18 @@
         "Un reportage d'un an en Asie",
         "Le poste de rédactrice en chef du Mistral"
       ],
+      "options_en": [
+        "The job of head of photography at Horizons, provided she lives in Paris",
+        "A photo book about Marseille",
+        "A year-long assignment in Asia",
+        "The editor-in-chief job at Le Mistral"
+      ],
       "evidence": "Il faudrait seulement que vous habitiez à Paris."
     },
     {
       "id": "q2",
       "prompt": "Quelle nouvelle Thomas annonce-t-il à Léa ?",
+      "prompt_en": "What news does Thomas give Léa?",
       "answer": "Il a obtenu sa mutation dans un lycée de Marseille",
       "options": [
         "Il a obtenu sa mutation dans un lycée de Marseille",
@@ -156,17 +164,30 @@
         "Il veut se marier",
         "Il a perdu son travail"
       ],
+      "options_en": [
+        "He has got a transfer to a secondary school in Marseille",
+        "He's leaving to work in Germany",
+        "He wants to get married",
+        "He has lost his job"
+      ],
       "evidence": "J'ai demandé ma mutation. À Marseille."
     },
     {
       "id": "q3",
       "prompt": "Quel conseil Madame Ferrand donne-t-elle finalement ?",
+      "prompt_en": "What advice does Madame Ferrand finally give?",
       "answer": "Savoir ce qu'elle cherche vraiment, pas ce que les autres trouveraient bien pour elle",
       "options": [
         "Savoir ce qu'elle cherche vraiment, pas ce que les autres trouveraient bien pour elle",
         "Partir à Paris tout de suite",
         "Rester pour lui faire plaisir",
         "Demander conseil à son père"
+      ],
+      "options_en": [
+        "To know what she is really looking for, not what others would think good for her",
+        "To leave for Paris straight away",
+        "To stay to please her",
+        "To ask her father's advice"
       ],
       "evidence": "Il faut que tu saches ce que tu cherches vraiment, Léa. Pas ce que les autres trouveraient bien pour toi."
     }

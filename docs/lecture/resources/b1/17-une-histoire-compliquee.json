@@ -116,6 +116,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi Léa pense-t-elle que son histoire avec Thomas n'est pas réaliste ?",
+      "prompt_en": "Why does Léa think her relationship with Thomas isn't realistic?",
       "answer": "Thomas habite à huit cents kilomètres",
       "options": [
         "Thomas habite à huit cents kilomètres",
@@ -123,11 +124,18 @@
         "Thomas est marié",
         "Léa veut retourner à Paris"
       ],
+      "options_en": [
+        "Thomas lives eight hundred kilometres away",
+        "Thomas doesn't speak French",
+        "Thomas is married",
+        "Léa wants to go back to Paris"
+      ],
       "evidence": "Bien qu'il soit charmant, il habite à huit cents kilomètres, a-t-elle expliqué à Amina"
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce que Léa apprécie chez Thomas, par rapport aux autres hommes ?",
+      "prompt_en": "What does Léa appreciate about Thomas compared with other men?",
       "answer": "Il pose des questions et écoute les réponses",
       "options": [
         "Il pose des questions et écoute les réponses",
@@ -135,17 +143,30 @@
         "Il prend de belles photos",
         "Il est très riche"
       ],
+      "options_en": [
+        "He asks questions and listens to the answers",
+        "He talks a lot about himself",
+        "He takes beautiful photos",
+        "He's very rich"
+      ],
       "evidence": "Alors que les autres hommes qu'elle avait rencontrés parlaient toujours d'eux-mêmes, lui posait des questions et écoutait les réponses."
     },
     {
       "id": "q3",
       "prompt": "Que veut dire Madame Ferrand avec « La distance, ce n'est pas toujours des kilomètres » ?",
+      "prompt_en": "What does Madame Ferrand mean by \"Distance isn't always kilometres\"?",
       "answer": "Les différences entre deux personnes comptent plus que la distance géographique",
       "options": [
         "Les différences entre deux personnes comptent plus que la distance géographique",
         "Jean habitait loin de Marseille",
         "Elle n'aime pas les longs voyages",
         "Thomas devrait rester en Alsace"
+      ],
+      "options_en": [
+        "The differences between two people matter more than geographical distance",
+        "Jean lived far from Marseille",
+        "She doesn't like long journeys",
+        "Thomas should stay in Alsace"
       ],
       "evidence": "La distance, ce n'est pas toujours des kilomètres, ma belle."
     }

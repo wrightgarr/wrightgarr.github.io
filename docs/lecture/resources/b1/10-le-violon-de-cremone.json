@@ -128,6 +128,7 @@
     {
       "id": "q1",
       "prompt": "Comment le violon est-il arrivé au Canada ?",
+      "prompt_en": "How did the violin get to Canada?",
       "answer": "Son grand-père l'a emporté quand il est parti au Canada",
       "options": [
         "Son grand-père l'a emporté quand il est parti au Canada",
@@ -135,11 +136,18 @@
         "Delmas l'a prêté à Amina",
         "Sa mère l'a trouvé à Crémone"
       ],
+      "options_en": [
+        "Her grandfather took it with him when he left for Canada",
+        "Amina bought it in Montreal",
+        "Delmas lent it to Amina",
+        "Her mother found it in Cremona"
+      ],
       "evidence": "Quand il est parti au Canada, c'est la seule chose qu'il a emportée."
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce que Léa a découvert grâce à son objectif macro ?",
+      "prompt_en": "What did Léa discover thanks to her macro lens?",
       "answer": "Une étiquette avec des lettres : « …ini, Cremona, 18.. »",
       "options": [
         "Une étiquette avec des lettres : « …ini, Cremona, 18.. »",
@@ -147,17 +155,30 @@
         "Une fissure dans le bois",
         "Un prix écrit au crayon"
       ],
+      "options_en": [
+        "A label with letters: \"…ini, Cremona, 18..\"",
+        "Her grandfather's signature",
+        "A crack in the wood",
+        "A price written in pencil"
+      ],
       "evidence": "Sous la lumière, des lettres sont apparues : « …ini, Cremona, 18.. »."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi la valeur du violon n'a-t-elle pas d'importance pour Amina ?",
+      "prompt_en": "Why doesn't the violin's value matter to Amina?",
       "answer": "Le violon porte l'histoire de sa famille",
       "options": [
         "Le violon porte l'histoire de sa famille",
         "Elle va le vendre de toute façon",
         "Il ne vaut rien",
         "Delmas lui en donnera un autre"
+      ],
+      "options_en": [
+        "The violin carries her family's history",
+        "She's going to sell it anyway",
+        "It's worth nothing",
+        "Delmas will give her another one"
       ],
       "evidence": "C'est le violon sur lequel mon grand-père a appris la musique à ma mère, et ma mère à moi."
     }

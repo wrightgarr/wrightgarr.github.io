@@ -77,9 +77,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is Léa's big news?",
-      "answer": "She has a job with a magazine in Marseille",
+      "prompt": "Quelle est la grande nouvelle de Léa ?",
+      "prompt_en": "What is Léa's big news?",
+      "answer": "Elle a un travail dans un magazine à Marseille",
       "options": [
+        "Elle a un travail dans un magazine à Marseille",
+        "Elle va se marier",
+        "Elle retourne vivre à Lyon",
+        "Elle achète le Café Le Soleil"
+      ],
+      "options_en": [
         "She has a job with a magazine in Marseille",
         "She's getting married",
         "She's moving back to Lyon",
@@ -89,9 +96,16 @@
     },
     {
       "id": "q2",
-      "prompt": "How do Marco and Amina react?",
-      "answer": "Marco says nothing; Amina's eyes go wide",
+      "prompt": "Comment Marco et Amina réagissent-ils ?",
+      "prompt_en": "How do Marco and Amina react?",
+      "answer": "Marco ne dit rien ; Amina ouvre de grands yeux",
       "options": [
+        "Marco ne dit rien ; Amina ouvre de grands yeux",
+        "Ils crient de joie tous les deux",
+        "Marco rit ; Amina pleure",
+        "Ils se lèvent et partent tous les deux"
+      ],
+      "options_en": [
         "Marco says nothing; Amina's eyes go wide",
         "They both cheer loudly",
         "Marco laughs; Amina cries",
@@ -101,9 +115,16 @@
     },
     {
       "id": "q3",
-      "prompt": "How long does the TGV take to Marseille, and what does Monsieur Dubois do?",
-      "answer": "Three hours — and Monsieur Dubois pays for the coffees",
+      "prompt": "Combien de temps le TGV met-il pour aller à Marseille, et qu'est-ce que fait Monsieur Dubois ?",
+      "prompt_en": "How long does the TGV take to Marseille, and what does Monsieur Dubois do?",
+      "answer": "Trois heures — et Monsieur Dubois paie les cafés",
       "options": [
+        "Trois heures — et Monsieur Dubois paie les cafés",
+        "Deux heures — et il lui donne un gâteau",
+        "Cinq heures — et il ferme le café",
+        "Trois heures — et il les prend en photo"
+      ],
+      "options_en": [
         "Three hours — and Monsieur Dubois pays for the coffees",
         "Two hours — and he gives her a cake",
         "Five hours — and he closes the café",

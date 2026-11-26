@@ -74,9 +74,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Where is Amina from, and what does she study?",
-      "answer": "Montréal, Canada — she studies music",
+      "prompt": "D'où vient Amina, et qu'est-ce qu'elle étudie ?",
+      "prompt_en": "Where is Amina from, and what does she study?",
+      "answer": "De Montréal, au Canada — elle étudie la musique",
       "options": [
+        "De Montréal, au Canada — elle étudie la musique",
+        "De Paris — elle étudie la photographie",
+        "De Lyon — elle étudie la médecine",
+        "De Montréal, au Canada — elle étudie la cuisine"
+      ],
+      "options_en": [
         "Montréal, Canada — she studies music",
         "Paris — she studies photography",
         "Lyon — she studies medicine",
@@ -86,9 +93,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Which floor does Amina live on?",
-      "answer": "The third floor",
+      "prompt": "À quel étage habite Amina ?",
+      "prompt_en": "Which floor does Amina live on?",
+      "answer": "Au troisième étage",
       "options": [
+        "Au troisième étage",
+        "Au quatrième étage",
+        "Au rez-de-chaussée",
+        "Au deuxième étage"
+      ],
+      "options_en": [
         "The third floor",
         "The fourth floor",
         "The ground floor",
@@ -98,9 +112,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Where exactly is Café Le Soleil?",
-      "answer": "Across from the building, next to the bakery",
+      "prompt": "Où est exactement le Café Le Soleil ?",
+      "prompt_en": "Where exactly is Café Le Soleil?",
+      "answer": "En face de l'immeuble, à côté de la boulangerie",
       "options": [
+        "En face de l'immeuble, à côté de la boulangerie",
+        "À côté du parc, en face du musée",
+        "Dans l'immeuble, au troisième étage",
+        "Près du métro, loin de la boulangerie"
+      ],
+      "options_en": [
         "Across from the building, next to the bakery",
         "Next to the park, across from the museum",
         "Inside the building, on the third floor",

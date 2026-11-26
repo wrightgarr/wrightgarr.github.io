@@ -129,6 +129,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi Léa cherche-t-elle toujours quelqu'un du pays ?",
+      "prompt_en": "Why does Léa always look for someone local?",
       "answer": "Pour ne pas photographier seulement des cartes postales",
       "options": [
         "Pour ne pas photographier seulement des cartes postales",
@@ -136,11 +137,18 @@
         "Parce qu'elle ne parle pas alsacien",
         "Parce que Claire l'exige"
       ],
+      "options_en": [
+        "So she doesn't just photograph postcards",
+        "To save on hotels",
+        "Because she doesn't speak Alsatian",
+        "Because Claire insists on it"
+      ],
       "evidence": "elle a cherché quelqu'un du pays afin de ne pas photographier seulement des cartes postales."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi le grand-père du vigneron cachait-il les bouteilles ?",
+      "prompt_en": "Why did the winemaker's grandfather hide the bottles?",
       "answer": "De peur que les soldats les prennent pendant la guerre",
       "options": [
         "De peur que les soldats les prennent pendant la guerre",
@@ -148,17 +156,30 @@
         "Parce qu'elles étaient interdites",
         "Pour les vendre plus cher"
       ],
+      "options_en": [
+        "For fear the soldiers would take them during the war",
+        "To age them longer",
+        "Because they were forbidden",
+        "To sell them for more"
+      ],
       "evidence": "Pendant la guerre, il cachait les bouteilles dans la cave, de peur que les soldats les prennent."
     },
     {
       "id": "q3",
       "prompt": "Que signifie le cadeau de Thomas ?",
+      "prompt_en": "What does Thomas's present mean?",
       "answer": "Un ruban vert pour sa valise, pour qu'elle ne se trompe plus jamais",
       "options": [
         "Un ruban vert pour sa valise, pour qu'elle ne se trompe plus jamais",
         "Une bouteille de riesling",
         "Une photo de Strasbourg",
         "Un billet de train pour Strasbourg"
+      ],
+      "options_en": [
+        "A green ribbon for her suitcase, so she never mixes it up again",
+        "A bottle of Riesling",
+        "A photo of Strasbourg",
+        "A train ticket to Strasbourg"
       ],
       "evidence": "Dedans, il y avait un ruban vert. — Pour ta valise. Afin que tu ne te trompes plus jamais."
     }

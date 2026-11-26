@@ -60,9 +60,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is Marco going to do on Saturday?",
-      "answer": "Visit a new exhibition at the Musée d'Orsay",
+      "prompt": "Qu'est-ce que Marco va faire samedi ?",
+      "prompt_en": "What is Marco going to do on Saturday?",
+      "answer": "Visiter une nouvelle exposition au musée d'Orsay",
       "options": [
+        "Visiter une nouvelle exposition au musée d'Orsay",
+        "Prendre des photos à Montmartre",
+        "Faire des sandwichs avec Hugo",
+        "Dormir toute la journée"
+      ],
+      "options_en": [
         "Visit a new exhibition at the Musée d'Orsay",
         "Take photos in Montmartre",
         "Make sandwiches with Hugo",
@@ -72,9 +79,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Who is going to the picnic, and what will Hugo bring?",
-      "answer": "Léa, Marco, Amina and Hugo — Hugo will make sandwiches",
+      "prompt": "Qui va au pique-nique, et qu'est-ce qu'Hugo va apporter ?",
+      "prompt_en": "Who is going to the picnic, and what will Hugo bring?",
+      "answer": "Léa, Marco, Amina et Hugo — Hugo va faire des sandwichs",
       "options": [
+        "Léa, Marco, Amina et Hugo — Hugo va faire des sandwichs",
+        "Seulement Léa et Marco — Marco va apporter du vin",
+        "Léa, Amina et Hugo — Amina va faire des sandwichs",
+        "Léa et Hugo — Léa va apporter des fruits"
+      ],
+      "options_en": [
         "Léa, Marco, Amina and Hugo — Hugo will make sandwiches",
         "Only Léa and Marco — Marco will bring wine",
         "Léa, Amina and Hugo — Amina will make sandwiches",
@@ -84,9 +98,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What does Léa tease Marco about?",
-      "answer": "Whether he'll get up before noon",
+      "prompt": "Pourquoi Léa taquine-t-elle Marco ?",
+      "prompt_en": "What does Léa tease Marco about?",
+      "answer": "Elle se demande s'il va se lever avant midi",
       "options": [
+        "Elle se demande s'il va se lever avant midi",
+        "Il est toujours en retard au musée",
+        "Il ne sait pas cuisiner",
+        "Il oublie toujours son parapluie"
+      ],
+      "options_en": [
         "Whether he'll get up before noon",
         "That he's always late to the museum",
         "That he can't cook",

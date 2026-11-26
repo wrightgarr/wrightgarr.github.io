@@ -113,9 +113,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Why does Léa need to drive in Marseille?",
-      "answer": "It's really handy for her reportages",
+      "prompt": "Pourquoi Léa a-t-elle besoin de conduire à Marseille ?",
+      "prompt_en": "Why does Léa need to drive in Marseille?",
+      "answer": "C'est vraiment pratique pour ses reportages",
       "options": [
+        "C'est vraiment pratique pour ses reportages",
+        "Elle habite loin de la ville",
+        "Il n'y a pas de métro à Marseille",
+        "Ses parents lui ont donné une voiture"
+      ],
+      "options_en": [
         "It's really handy for her reportages",
         "She lives far from the city",
         "There's no metro in Marseille",
@@ -125,9 +132,16 @@
     },
     {
       "id": "q2",
-      "prompt": "How did Monsieur Blanc react when Léa made mistakes?",
-      "answer": "He stayed calm and smiled patiently",
+      "prompt": "Comment Monsieur Blanc a-t-il réagi quand Léa faisait des erreurs ?",
+      "prompt_en": "How did Monsieur Blanc react when Léa made mistakes?",
+      "answer": "Il restait calme et souriait patiemment",
       "options": [
+        "Il restait calme et souriait patiemment",
+        "Il criait",
+        "Il prenait le volant",
+        "Il arrêtait la leçon"
+      ],
+      "options_en": [
         "He stayed calm and smiled patiently",
         "He shouted at her",
         "He took the wheel",
@@ -137,9 +151,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Why is Madame Ferrand happy that Léa drives slowly?",
-      "answer": "Because she'll be riding in Léa's car tomorrow",
+      "prompt": "Pourquoi Madame Ferrand est-elle contente que Léa conduise lentement ?",
+      "prompt_en": "Why is Madame Ferrand happy that Léa drives slowly?",
+      "answer": "Parce que demain, elle montera dans la voiture de Léa",
       "options": [
+        "Parce que demain, elle montera dans la voiture de Léa",
+        "Parce qu'elle a peur des scooters",
+        "Parce qu'un jour, Léa a heurté sa voiture",
+        "Parce qu'elle veut apprendre à conduire, elle aussi"
+      ],
+      "options_en": [
         "Because she'll be riding in Léa's car tomorrow",
         "Because she's scared of scooters",
         "Because Léa once crashed into her car",

@@ -114,6 +114,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi la disparition des herbiers de posidonie est-elle grave ?",
+      "prompt_en": "Why is the disappearance of the posidonia meadows serious?",
       "answer": "Ils sont les poumons de la mer, et sans eux il y a moins de poissons",
       "options": [
         "Ils sont les poumons de la mer, et sans eux il y a moins de poissons",
@@ -121,11 +122,18 @@
         "Ils attirent les requins",
         "Ils rendent l'eau plus chaude"
       ],
+      "options_en": [
+        "They are the lungs of the sea, and without them there are fewer fish",
+        "They block boats",
+        "They attract sharks",
+        "They make the water warmer"
+      ],
       "evidence": "Les herbiers de posidonie, qui sont les poumons de notre mer, disparaissent peu à peu. Et moins il y a d'herbiers, moins il y a de poissons."
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce qui a changé pour le pêcheur Joseph ?",
+      "prompt_en": "What has changed for Joseph the fisherman?",
       "answer": "Il y a moins de rougets et plus de poissons tropicaux inconnus",
       "options": [
         "Il y a moins de rougets et plus de poissons tropicaux inconnus",
@@ -133,17 +141,30 @@
         "Il pêche maintenant en Corse",
         "Il y a plus de rougets qu'avant"
       ],
+      "options_en": [
+        "There are fewer red mullet and more unknown tropical fish",
+        "There are no fish at all any more",
+        "He now fishes in Corsica",
+        "There are more red mullet than before"
+      ],
       "evidence": "Il y a de moins en moins de rougets et de plus en plus de poissons tropicaux que nous ne connaissions pas"
     },
     {
       "id": "q3",
       "prompt": "Quelle bonne nouvelle l'article donne-t-il ?",
+      "prompt_en": "What good news does the article give?",
       "answer": "Dans les zones protégées, les poissons reviennent",
       "options": [
         "Dans les zones protégées, les poissons reviennent",
         "La mer se refroidit",
         "Le tourisme diminue",
         "Les herbiers poussent plus vite qu'avant"
+      ],
+      "options_en": [
+        "In protected areas, the fish are coming back",
+        "The sea is cooling down",
+        "Tourism is decreasing",
+        "The meadows are growing faster than before"
       ],
       "evidence": "là où la pêche est interdite, les poissons reviennent de plus en plus nombreux."
     }

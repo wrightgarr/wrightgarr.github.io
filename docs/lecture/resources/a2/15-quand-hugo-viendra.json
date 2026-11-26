@@ -107,9 +107,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "When will Hugo arrive, and what does he ask Léa?",
-      "answer": "Around 10 p.m. on a Friday — and he asks her to pick him up at the station",
+      "prompt": "Quand Hugo arrivera-t-il, et qu'est-ce qu'il demande à Léa ?",
+      "prompt_en": "When will Hugo arrive, and what does he ask Léa?",
+      "answer": "Vers 22 heures un vendredi — et il lui demande de venir le chercher à la gare",
       "options": [
+        "Vers 22 heures un vendredi — et il lui demande de venir le chercher à la gare",
+        "À midi samedi — et il demande à dormir à l'hôtel",
+        "Dimanche matin — et il lui demande de cuisiner",
+        "Vers 22 heures — et il lui demande de réserver un taxi"
+      ],
+      "options_en": [
         "Around 10 p.m. on a Friday — and he asks her to pick him up at the station",
         "At noon on Saturday — and he asks to stay at a hotel",
         "On Sunday morning — and he asks her to cook",
@@ -119,9 +126,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Who will teach Hugo the bouillabaisse recipe, and what does Léa warn him about?",
-      "answer": "Madame Ferrand — and he mustn't say his fish soup is better",
+      "prompt": "Qui apprendra à Hugo la recette de la bouillabaisse, et contre quoi Léa le met-elle en garde ?",
+      "prompt_en": "Who will teach Hugo the bouillabaisse recipe, and what does Léa warn him about?",
+      "answer": "Madame Ferrand — et il ne doit pas dire que sa soupe de poisson est meilleure",
       "options": [
+        "Madame Ferrand — et il ne doit pas dire que sa soupe de poisson est meilleure",
+        "Karim — et il ne doit pas être en retard",
+        "Léa — et il doit apporter du safran",
+        "Mehdi — et il doit garder le secret"
+      ],
+      "options_en": [
         "Madame Ferrand — and he mustn't say his fish soup is better",
         "Karim — and he mustn't be late",
         "Léa — and he must bring saffron",
@@ -131,9 +145,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What will Karim do on Monday and Tuesday?",
-      "answer": "Show Hugo the Panier, the oldest neighbourhood",
+      "prompt": "Qu'est-ce que Karim fera lundi et mardi ?",
+      "prompt_en": "What will Karim do on Monday and Tuesday?",
+      "answer": "Il fera visiter le Panier, le plus vieux quartier, à Hugo",
       "options": [
+        "Il fera visiter le Panier, le plus vieux quartier, à Hugo",
+        "Il emmènera Hugo nager à Sormiou",
+        "Il préparera le dîner pour Hugo",
+        "Il conduira Hugo à Aix"
+      ],
+      "options_en": [
         "Show Hugo the Panier, the oldest neighbourhood",
         "Take Hugo swimming at Sormiou",
         "Cook dinner for Hugo",

@@ -125,6 +125,7 @@
     {
       "id": "q1",
       "prompt": "Dans quelles conditions Mourad est-il arrivé à Marseille ?",
+      "prompt_en": "In what circumstances did Mourad arrive in Marseille?",
       "answer": "En bateau depuis Alger, à 21 ans, avec une valise en carton et l'adresse d'un cousin",
       "options": [
         "En bateau depuis Alger, à 21 ans, avec une valise en carton et l'adresse d'un cousin",
@@ -132,11 +133,18 @@
         "En train depuis l'Italie, avec sa famille",
         "En voiture, avec Fatima"
       ],
+      "options_en": [
+        "By boat from Algiers, aged 21, with a cardboard suitcase and a cousin's address",
+        "By plane from Paris, with a work contract",
+        "By train from Italy, with his family",
+        "By car, with Fatima"
+      ],
       "evidence": "Je suis arrivé à Marseille en octobre 1975, sur un bateau en provenance d'Alger, à bord duquel nous étions des centaines."
     },
     {
       "id": "q2",
       "prompt": "Quel rôle le chef d'équipe italien a-t-il joué dans sa vie ?",
+      "prompt_en": "What role did the Italian foreman play in his life?",
       "answer": "Il lui a appris le français et lui a rappelé que tout le monde vient d'ailleurs",
       "options": [
         "Il lui a appris le français et lui a rappelé que tout le monde vient d'ailleurs",
@@ -144,17 +152,30 @@
         "Il lui a présenté Fatima",
         "Il lui a appris à jouer de l'oud"
       ],
+      "options_en": [
+        "He taught him French and reminded him that everyone comes from somewhere else",
+        "He fired him from the building site",
+        "He introduced him to Fatima",
+        "He taught him to play the oud"
+      ],
       "evidence": "Le chef d'équipe, grâce à qui j'ai appris à parler correctement le français, était un vieil Italien arrivé lui-même quarante ans plus tôt."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi cette conversation fait-elle penser Léa à Jean et Marcel ?",
+      "prompt_en": "Why does this conversation make Léa think of Jean and Marcel?",
       "answer": "Comme Marcel avec Jean, Mourad n'avait jamais raconté cette histoire à son fils avant qu'il pose la question",
       "options": [
         "Comme Marcel avec Jean, Mourad n'avait jamais raconté cette histoire à son fils avant qu'il pose la question",
         "Mourad a travaillé avec Jean",
         "Mourad a connu Marcel en 1943",
         "Karim veut écrire un livre"
+      ],
+      "options_en": [
+        "Like Marcel with Jean, Mourad had never told his son this story until he asked",
+        "Mourad worked with Jean",
+        "Mourad knew Marcel in 1943",
+        "Karim wants to write a book"
       ],
       "evidence": "Les mêmes silences, les mêmes questions qu'on finit par poser trop tard, ou juste à temps."
     }

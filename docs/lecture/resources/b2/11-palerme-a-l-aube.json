@@ -125,6 +125,7 @@
     {
       "id": "q1",
       "prompt": "Quelles ressemblances Léa trouve-t-elle entre Palerme et Marseille ?",
+      "prompt_en": "What similarities does Léa find between Palermo and Marseille?",
       "answer": "La lumière, le bruit, la vie dans la rue et la façon de parler avec les mains",
       "options": [
         "La lumière, le bruit, la vie dans la rue et la façon de parler avec les mains",
@@ -132,11 +133,18 @@
         "Le même climat froid",
         "La même langue"
       ],
+      "options_en": [
+        "The light, the noise, life in the street and the way of talking with your hands",
+        "The same Roman monuments",
+        "The same cold climate",
+        "The same language"
+      ],
       "evidence": "Marchant entre les étals, je pense à Marseille. Même lumière, même bruit, même façon de vivre dans la rue."
     },
     {
       "id": "q2",
       "prompt": "Quel lien historique fait-elle entre les deux villes ?",
+      "prompt_en": "What historical link does she make between the two cities?",
       "answer": "Les deux villes ont été blessées en 1943 et en portent encore les cicatrices",
       "options": [
         "Les deux villes ont été blessées en 1943 et en portent encore les cicatrices",
@@ -144,17 +152,30 @@
         "Elles ont le même maire",
         "Elles ont été détruites par un tremblement de terre"
       ],
+      "options_en": [
+        "Both cities were wounded in 1943 and still bear the scars",
+        "They were founded by the same Greeks",
+        "They have the same mayor",
+        "They were destroyed by an earthquake"
+      ],
       "evidence": "Les deux villes, ne se connaissant pas, portent les mêmes cicatrices."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi les dernières paroles de la signora Lo Bianco surprennent-elles Léa ?",
+      "prompt_en": "Why do Signora Lo Bianco's last words surprise Léa?",
       "answer": "Son père travaillait sur le port de Marseille et parlait d'un jeune docker qui lisait : peut-être Jean",
       "options": [
         "Son père travaillait sur le port de Marseille et parlait d'un jeune docker qui lisait : peut-être Jean",
         "Elle connaît Madame Ferrand depuis l'enfance",
         "Elle a lu le livre de Jean",
         "Elle a été photographe à Marseille"
+      ],
+      "options_en": [
+        "Her father worked in the port of Marseille and talked about a young docker who read: perhaps Jean",
+        "She has known Madame Ferrand since childhood",
+        "She has read Jean's book",
+        "She was a photographer in Marseille"
       ],
       "evidence": "Il parlait toujours d'un jeune docker qui lisait pendant les pauses."
     }

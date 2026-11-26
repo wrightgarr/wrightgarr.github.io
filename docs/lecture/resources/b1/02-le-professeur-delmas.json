@@ -122,6 +122,7 @@
     {
       "id": "q1",
       "prompt": "Quelles règles le professeur Delmas impose-t-il le premier jour ?",
+      "prompt_en": "What rules does Professor Delmas set on the first day?",
       "answer": "Être là à huit heures, connaître ses partitions par cœur et ne pas parler quand quelqu'un joue",
       "options": [
         "Être là à huit heures, connaître ses partitions par cœur et ne pas parler quand quelqu'un joue",
@@ -129,11 +130,18 @@
         "Arriver à neuf heures et travailler en groupe",
         "Ne jamais jouer de Bach"
       ],
+      "options_en": [
+        "Be there at eight, know your scores by heart and don't talk while someone is playing",
+        "Play six hours a day and buy a new violin",
+        "Arrive at nine and work in groups",
+        "Never play Bach"
+      ],
       "evidence": "Je veux que vous soyez là à huit heures, chaque matin, sans exception, a-t-il dit. J'exige que vous connaissiez vos partitions par cœur avant chaque cours."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Amina ne veut-elle pas que Karim vienne l'écouter ?",
+      "prompt_en": "Why doesn't Amina want Karim to come and hear her?",
       "answer": "Elle ne veut pas qu'il la voie trembler",
       "options": [
         "Elle ne veut pas qu'il la voie trembler",
@@ -141,17 +149,30 @@
         "Delmas interdit les visiteurs",
         "Karim arrive toujours en retard"
       ],
+      "options_en": [
+        "She doesn't want him to see her shaking",
+        "She doesn't love him any more",
+        "Delmas doesn't allow visitors",
+        "Karim is always late"
+      ],
       "evidence": "Je ne veux pas que tu me voies trembler."
     },
     {
       "id": "q3",
       "prompt": "Que signifie la réaction de Delmas, selon l'autre étudiante ?",
+      "prompt_en": "According to the other student, what does Delmas's reaction mean?",
       "answer": "Il attend beaucoup d'Amina",
       "options": [
         "Il attend beaucoup d'Amina",
         "Il va renvoyer Amina",
         "Il est malade",
         "Il préfère une autre étudiante"
+      ],
+      "options_en": [
+        "He expects a lot from Amina",
+        "He's going to throw Amina out",
+        "He's ill",
+        "He prefers another student"
       ],
       "evidence": "Ça veut dire qu'il attend beaucoup de toi."
     }

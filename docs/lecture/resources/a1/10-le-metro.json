@@ -73,9 +73,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "How do Léa, Marco, and Amina each travel?",
-      "answer": "Léa by metro, Marco by bike, Amina on foot",
+      "prompt": "Comment voyagent Léa, Marco et Amina ?",
+      "prompt_en": "How do Léa, Marco, and Amina each travel?",
+      "answer": "Léa en métro, Marco à vélo, Amina à pied",
       "options": [
+        "Léa en métro, Marco à vélo, Amina à pied",
+        "Léa à vélo, Marco à pied, Amina en métro",
+        "Tous les trois en métro",
+        "Léa à pied, Marco en métro, Amina à vélo"
+      ],
+      "options_en": [
         "Léa by metro, Marco by bike, Amina on foot",
         "Léa by bike, Marco on foot, Amina by metro",
         "All three by metro",
@@ -85,9 +92,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What do the friends do on Saturdays?",
-      "answer": "They go to the market together",
+      "prompt": "Qu'est-ce que les amis font le samedi ?",
+      "prompt_en": "What do the friends do on Saturdays?",
+      "answer": "Ils vont au marché ensemble",
       "options": [
+        "Ils vont au marché ensemble",
+        "Ils vont au cinéma",
+        "Ils mangent au restaurant d'Hugo",
+        "Ils étudient à la bibliothèque"
+      ],
+      "options_en": [
         "They go to the market together",
         "They go to the cinema",
         "They eat at Hugo's restaurant",
@@ -97,9 +111,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Where is Marco going, and where will he go afterwards?",
-      "answer": "To the library, then to the cinema",
+      "prompt": "Où va Marco, et où va-t-il ensuite ?",
+      "prompt_en": "Where is Marco going, and where will he go afterwards?",
+      "answer": "À la bibliothèque, puis au cinéma",
       "options": [
+        "À la bibliothèque, puis au cinéma",
+        "Au cinéma, puis à la bibliothèque",
+        "Au marché, puis à la maison",
+        "À l'université, puis au musée"
+      ],
+      "options_en": [
         "To the library, then to the cinema",
         "To the cinema, then to the library",
         "To the market, then home",

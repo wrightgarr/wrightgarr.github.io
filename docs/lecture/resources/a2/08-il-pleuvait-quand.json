@@ -94,9 +94,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What was Léa doing when the lights went out?",
-      "answer": "Reading a novel on the sofa",
+      "prompt": "Qu'est-ce que Léa faisait quand la lumière s'est éteinte ?",
+      "prompt_en": "What was Léa doing when the lights went out?",
+      "answer": "Elle lisait un roman sur le canapé",
       "options": [
+        "Elle lisait un roman sur le canapé",
+        "Elle préparait le dîner",
+        "Elle prenait une douche",
+        "Elle parlait au téléphone"
+      ],
+      "options_en": [
         "Reading a novel on the sofa",
         "Cooking dinner",
         "Taking a shower",
@@ -106,9 +113,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Who knocked on the door, and what did she offer?",
-      "answer": "Madame Ferrand — candles, tea and cookies at her place",
+      "prompt": "Qui a frappé à la porte, et qu'est-ce qu'elle a proposé ?",
+      "prompt_en": "Who knocked on the door, and what did she offer?",
+      "answer": "Madame Ferrand — des bougies, du thé et des biscuits chez elle",
       "options": [
+        "Madame Ferrand — des bougies, du thé et des biscuits chez elle",
+        "Karim — de l'emmener chez lui en voiture",
+        "La boulangère — du pain frais",
+        "Une voisine — une lampe de poche à garder"
+      ],
+      "options_en": [
         "Madame Ferrand — candles, tea and cookies at her place",
         "Karim — a lift to his apartment",
         "The baker — fresh bread",
@@ -118,9 +132,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What story did Madame Ferrand tell?",
-      "answer": "In 1978, during a storm, the sea came up to her door",
+      "prompt": "Quelle histoire Madame Ferrand a-t-elle racontée ?",
+      "prompt_en": "What story did Madame Ferrand tell?",
+      "answer": "En 1978, pendant une tempête, la mer est montée jusqu'à sa porte",
       "options": [
+        "En 1978, pendant une tempête, la mer est montée jusqu'à sa porte",
+        "Un jour, son mari s'est perdu dans une tempête",
+        "En 1978, il n'y a pas eu d'électricité pendant une semaine",
+        "Son chat a disparu pendant une tempête"
+      ],
+      "options_en": [
         "In 1978, during a storm, the sea came up to her door",
         "Her husband once got lost in a storm",
         "The lights went out for a whole week in 1978",

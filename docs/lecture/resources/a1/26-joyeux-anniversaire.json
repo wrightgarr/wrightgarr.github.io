@@ -69,9 +69,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What kind of cake will Hugo make?",
-      "answer": "Chocolate",
+      "prompt": "Quel gâteau Hugo va-t-il faire ?",
+      "prompt_en": "What kind of cake will Hugo make?",
+      "answer": "Au chocolat",
       "options": [
+        "Au chocolat",
+        "À la fraise",
+        "Au citron",
+        "Aux pommes"
+      ],
+      "options_en": [
         "Chocolate",
         "Strawberry",
         "Lemon",
@@ -81,9 +88,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What will Amina bring?",
-      "answer": "Her guitar",
+      "prompt": "Qu'est-ce qu'Amina va apporter ?",
+      "prompt_en": "What will Amina bring?",
+      "answer": "Sa guitare",
       "options": [
+        "Sa guitare",
+        "Des ballons",
+        "Le gâteau",
+        "Un livre"
+      ],
+      "options_en": [
         "Her guitar",
         "Balloons",
         "The cake",
@@ -93,9 +107,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What gift does Marco plan to buy, and why?",
-      "answer": "A book of photos of Paris — Léa loves photography and books",
+      "prompt": "Quel cadeau Marco veut-il acheter, et pourquoi ?",
+      "prompt_en": "What gift does Marco plan to buy, and why?",
+      "answer": "Un livre de photos de Paris — Léa adore la photo et les livres",
       "options": [
+        "Un livre de photos de Paris — Léa adore la photo et les livres",
+        "Un appareil photo — celui de Léa est cassé",
+        "Des fleurs — Léa les adore",
+        "Une écharpe — il fait froid en octobre"
+      ],
+      "options_en": [
         "A book of photos of Paris — Léa loves photography and books",
         "A camera — Léa's is broken",
         "Flowers — Léa loves them",

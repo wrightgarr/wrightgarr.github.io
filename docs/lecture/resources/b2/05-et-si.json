@@ -128,6 +128,7 @@
     {
       "id": "q1",
       "prompt": "Selon Karim, à quoi servent les « si » en histoire ?",
+      "prompt_en": "According to Karim, what are \"what ifs\" for in history?",
       "answer": "À comprendre que rien n'était inévitable",
       "options": [
         "À comprendre que rien n'était inévitable",
@@ -135,11 +136,18 @@
         "À écrire des romans",
         "À oublier le passé"
       ],
+      "options_en": [
+        "To understand that nothing was inevitable",
+        "To make fun of history",
+        "To write novels",
+        "To forget the past"
+      ],
       "evidence": "Les « si » servent à comprendre que rien n'était inévitable."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Thomas n'aime-t-il pas les « si » ?",
+      "prompt_en": "Why doesn't Thomas like \"what ifs\"?",
       "answer": "On peut tout imaginer et on n'apprend rien",
       "options": [
         "On peut tout imaginer et on n'apprend rien",
@@ -147,17 +155,30 @@
         "Il préfère les mathématiques",
         "Il trouve ça trop triste"
       ],
+      "options_en": [
+        "You can imagine anything and you learn nothing",
+        "He hates talking about the war",
+        "He prefers mathematics",
+        "He finds it too sad"
+      ],
       "evidence": "On peut tout imaginer, et on n'apprend rien."
     },
     {
       "id": "q3",
       "prompt": "Quelle phrase Léa écrit-elle dans son carnet, et pourquoi ?",
+      "prompt_en": "What sentence does Léa write in her notebook, and why?",
       "answer": "« Le livre commencera par un “si” » : sa vie, comme celle de Jean, dépend de nombreux hasards",
       "options": [
         "« Le livre commencera par un “si” » : sa vie, comme celle de Jean, dépend de nombreux hasards",
         "« Je ne ferai jamais ce livre » : elle a trop peur",
         "« Thomas a raison » : les « si » sont inutiles",
         "« Il faut tout refaire » : le projet est mauvais"
+      ],
+      "options_en": [
+        "\"The book will begin with an 'if'\": her life, like Jean's, depends on many chance events",
+        "\"I'll never make this book\": she's too afraid",
+        "\"Thomas is right\": \"what ifs\" are pointless",
+        "\"It all has to be redone\": the project is bad"
       ],
       "evidence": "Tant de hasards. Tant de portes qui auraient pu rester fermées."
     }

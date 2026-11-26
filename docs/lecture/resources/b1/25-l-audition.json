@@ -133,6 +133,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi Amina hésitait-elle à s'inscrire à l'audition ?",
+      "prompt_en": "Why was Amina hesitant to sign up for the audition?",
       "answer": "Elle était jeune, sans diplôme, face à des candidats de toute l'Europe",
       "options": [
         "Elle était jeune, sans diplôme, face à des candidats de toute l'Europe",
@@ -140,11 +141,18 @@
         "Elle ne voulait pas quitter le conservatoire",
         "Karim ne voulait pas"
       ],
+      "options_en": [
+        "She was young, without a diploma, up against candidates from all over Europe",
+        "She was afraid of Delmas",
+        "She didn't want to leave the conservatoire",
+        "Karim didn't want her to"
+      ],
       "evidence": "Elle n'avait que vingt-trois ans, elle n'avait pas fini ses études, et les autres candidats venaient de Paris, de Bruxelles, de Genève."
     },
     {
       "id": "q2",
       "prompt": "Quels sacrifices Amina a-t-elle faits pendant six semaines ?",
+      "prompt_en": "What sacrifices did Amina make for six weeks?",
       "answer": "Elle a refusé de sortir, oublié de manger et renoncé à ses dimanches chez Fatima",
       "options": [
         "Elle a refusé de sortir, oublié de manger et renoncé à ses dimanches chez Fatima",
@@ -152,17 +160,30 @@
         "Elle a arrêté le conservatoire",
         "Elle a quitté son appartement"
       ],
+      "options_en": [
+        "She refused to go out, forgot to eat and gave up her Sundays at Fatima's",
+        "She sold her piano",
+        "She quit the conservatoire",
+        "She left her flat"
+      ],
       "evidence": "Elle a refusé de sortir, elle a oublié de manger, et elle a même renoncé à ses dimanches chez Fatima"
     },
     {
       "id": "q3",
       "prompt": "Pourquoi les candidats jouaient-ils derrière un rideau ?",
+      "prompt_en": "Why did the candidates play behind a curtain?",
       "answer": "Pour que le jury ne puisse pas les voir : seule la musique compte",
       "options": [
         "Pour que le jury ne puisse pas les voir : seule la musique compte",
         "Parce que la salle était trop petite",
         "Pour protéger les instruments",
         "Parce que les candidats avaient le trac"
+      ],
+      "options_en": [
+        "So the jury couldn't see them: only the music counts",
+        "Because the hall was too small",
+        "To protect the instruments",
+        "Because the candidates had stage fright"
       ],
       "evidence": "Les candidats jouaient derrière un rideau, pour que le jury ne puisse pas les voir. Seule la musique comptait."
     }

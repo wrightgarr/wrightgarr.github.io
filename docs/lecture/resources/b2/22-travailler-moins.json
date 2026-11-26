@@ -123,6 +123,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi la question de la semaine de quatre jours se pose-t-elle cette année-là ?",
+      "prompt_en": "Why does the question of a four-day week come up that year?",
       "answer": "Le magazine a enfin gagné de l'argent",
       "options": [
         "Le magazine a enfin gagné de l'argent",
@@ -130,11 +131,18 @@
         "Une loi l'impose",
         "Nadia part à la retraite"
       ],
+      "options_en": [
+        "The magazine has finally made money",
+        "The journalists went on strike",
+        "A law requires it",
+        "Nadia is retiring"
+      ],
       "evidence": "Les comptes étaient enfin positifs : pour la première fois depuis sa création, le magazine avait gagné de l'argent."
     },
     {
       "id": "q2",
       "prompt": "Quels sont les arguments de Théo contre la proposition ?",
+      "prompt_en": "What are Théo's arguments against the proposal?",
       "answer": "Rien ne garantit les bénéfices futurs et l'équipe est trop petite",
       "options": [
         "Rien ne garantit les bénéfices futurs et l'équipe est trop petite",
@@ -142,17 +150,30 @@
         "Il trouve les lecteurs paresseux",
         "Il veut publier deux numéros par mois"
       ],
+      "options_en": [
+        "Nothing guarantees future profits and the team is too small",
+        "He wants to work more",
+        "He thinks readers are lazy",
+        "He wants to publish two issues a month"
+      ],
       "evidence": "On a beau avoir gagné de l'argent cette année, a commencé Théo, rien ne garantit qu'on en gagnera l'année prochaine."
     },
     {
       "id": "q3",
       "prompt": "Quel argument Léa tire-t-elle de la vie de Jean ?",
+      "prompt_en": "What argument does Léa draw from Jean's life?",
       "answer": "Jean n'a jamais rien publié parce qu'il n'avait ni le temps ni la force : l'épuisement empêche de bien écrire",
       "options": [
         "Jean n'a jamais rien publié parce qu'il n'avait ni le temps ni la force : l'épuisement empêche de bien écrire",
         "Jean travaillait quatre jours par semaine",
         "Jean était contre les syndicats",
         "Jean voulait devenir journaliste"
+      ],
+      "options_en": [
+        "Jean never published anything because he had neither the time nor the energy: exhaustion stops you writing well",
+        "Jean worked four days a week",
+        "Jean was against the unions",
+        "Jean wanted to become a journalist"
       ],
       "evidence": "Toujours est-il que si on s'épuise, on n'écrira plus rien de bon."
     }

@@ -115,9 +115,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "How did Léa know the suitcase wasn't hers?",
-      "answer": "Hers has a green ribbon on the handle",
+      "prompt": "Comment Léa a-t-elle su que la valise n'était pas la sienne ?",
+      "prompt_en": "How did Léa know the suitcase wasn't hers?",
+      "answer": "La sienne a un ruban vert sur la poignée",
       "options": [
+        "La sienne a un ruban vert sur la poignée",
+        "La sienne est jaune",
+        "La sienne a son nom dessus",
+        "La sienne est beaucoup plus grande"
+      ],
+      "options_en": [
         "Hers has a green ribbon on the handle",
         "Hers is yellow",
         "Hers has her name on it",
@@ -127,9 +134,16 @@
     },
     {
       "id": "q2",
-      "prompt": "How did she contact the owner?",
-      "answer": "She called the number on the luggage tag",
+      "prompt": "Comment a-t-elle contacté le propriétaire ?",
+      "prompt_en": "How did she contact the owner?",
+      "answer": "Elle a appelé le numéro sur l'étiquette de la valise",
       "options": [
+        "Elle a appelé le numéro sur l'étiquette de la valise",
+        "Elle est retournée à la gare",
+        "Elle a publié un message sur les réseaux sociaux",
+        "Elle a demandé au personnel du TGV"
+      ],
+      "options_en": [
         "She called the number on the luggage tag",
         "She went back to the station",
         "She posted on social media",
@@ -139,9 +153,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Who is Thomas? Give two facts about him.",
-      "answer": "A German teacher from Strasbourg",
+      "prompt": "Qui est Thomas ? Donne deux informations sur lui.",
+      "prompt_en": "Who is Thomas? Give two facts about him.",
+      "answer": "Un professeur d'allemand de Strasbourg",
       "options": [
+        "Un professeur d'allemand de Strasbourg",
+        "Un médecin de Lyon",
+        "Un journaliste de Marseille",
+        "Un étudiant de Paris"
+      ],
+      "options_en": [
         "A German teacher from Strasbourg",
         "A doctor from Lyon",
         "A journalist from Marseille",

@@ -119,6 +119,7 @@
     {
       "id": "q1",
       "prompt": "Qu'est-ce qu'un vrai bouchon, selon Paul ?",
+      "prompt_en": "According to Paul, what is a real bouchon?",
       "answer": "Une petite salle simple et généreuse, avec des nappes à carreaux",
       "options": [
         "Une petite salle simple et généreuse, avec des nappes à carreaux",
@@ -126,11 +127,18 @@
         "Un café pour touristes",
         "Un restaurant qui sert du poisson"
       ],
+      "options_en": [
+        "A small, simple, generous room with checked tablecloths",
+        "A smart restaurant with a starred chef",
+        "A café for tourists",
+        "A restaurant that serves fish"
+      ],
       "evidence": "Un vrai bouchon, ce n'est pas un restaurant chic, a-t-il expliqué le premier soir. C'est une petite salle, des nappes à carreaux rouges et blancs, une cuisine simple et généreuse."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Léa a-t-elle dû attendre dix minutes dans la cuisine ?",
+      "prompt_en": "Why did Léa have to wait ten minutes in the kitchen?",
       "answer": "Il faisait si chaud que son objectif s'est couvert de buée",
       "options": [
         "Il faisait si chaud que son objectif s'est couvert de buée",
@@ -138,17 +146,30 @@
         "Sa batterie était vide",
         "Son père lui parlait"
       ],
+      "options_en": [
+        "It was so hot that her lens fogged up",
+        "Germaine wasn't ready",
+        "Her battery was flat",
+        "Her father was talking to her"
+      ],
       "evidence": "Il y faisait si chaud que l'objectif de son appareil s'est couvert de buée."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Paul a-t-il organisé tout ce programme ?",
+      "prompt_en": "Why did Paul organise this whole programme?",
       "answer": "Il avait peur que Léa oublie Lyon",
       "options": [
         "Il avait peur que Léa oublie Lyon",
         "Il voulait écrire un livre de cuisine",
         "Germaine le lui avait demandé",
         "Il voulait vendre sa maison"
+      ],
+      "options_en": [
+        "He was afraid Léa would forget Lyon",
+        "He wanted to write a cookbook",
+        "Germaine had asked him to",
+        "He wanted to sell his house"
       ],
       "evidence": "j'avais peur que tu oublies Lyon."
     }

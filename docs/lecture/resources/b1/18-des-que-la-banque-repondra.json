@@ -116,6 +116,7 @@
     {
       "id": "q1",
       "prompt": "Que se passera-t-il dès que la banque donnera son accord ?",
+      "prompt_en": "What will happen as soon as the bank gives its approval?",
       "answer": "Ils créeront la coopérative",
       "options": [
         "Ils créeront la coopérative",
@@ -123,11 +124,18 @@
         "Ils déménageront à Paris",
         "Nadia prendra sa retraite"
       ],
+      "options_en": [
+        "They'll set up the cooperative",
+        "They'll sell the magazine",
+        "They'll move to Paris",
+        "Nadia will retire"
+      ],
       "evidence": "Dès que la banque donnera son accord, nous créerons la coopérative."
     },
     {
       "id": "q2",
       "prompt": "Quelle règle de vote Nadia propose-t-elle pour la coopérative ?",
+      "prompt_en": "What voting rule does Nadia propose for the cooperative?",
       "answer": "Chaque personne aura une voix, quel que soit son nombre de parts",
       "options": [
         "Chaque personne aura une voix, quel que soit son nombre de parts",
@@ -135,17 +143,30 @@
         "Seule Nadia pourra voter",
         "Les stagiaires ne voteront pas"
       ],
+      "options_en": [
+        "Each person will have one vote, however many shares they hold",
+        "Those with the most shares will decide",
+        "Only Nadia will be able to vote",
+        "Interns won't vote"
+      ],
       "evidence": "Personne ne sera obligé, mais chacun aura une voix, quel que soit le nombre de parts."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Lucas reste-t-il « bouche bée » ?",
+      "prompt_en": "Why is Lucas left \"speechless\"?",
       "answer": "Nadia lui propose un contrat de salarié en septembre",
       "options": [
         "Nadia lui propose un contrat de salarié en septembre",
         "Il est renvoyé",
         "Il doit acheter dix parts",
         "Il devient rédacteur en chef"
+      ],
+      "options_en": [
+        "Nadia offers him a staff contract in September",
+        "He's fired",
+        "He has to buy ten shares",
+        "He becomes editor-in-chief"
       ],
       "evidence": "Et tu le seras en septembre, si tu acceptes le contrat que je vais te proposer."
     }

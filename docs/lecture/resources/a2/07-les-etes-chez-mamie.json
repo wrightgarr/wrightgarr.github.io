@@ -96,9 +96,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "How long did Léa and Hugo stay at their grandmother's each summer?",
-      "answer": "Two months, from July 1st",
+      "prompt": "Combien de temps Léa et Hugo restaient-ils chez leur grand-mère chaque été ?",
+      "prompt_en": "How long did Léa and Hugo stay at their grandmother's each summer?",
+      "answer": "Deux mois, à partir du 1er juillet",
       "options": [
+        "Deux mois, à partir du 1er juillet",
+        "Deux semaines en août",
+        "Toute l'année",
+        "Un mois, en juin"
+      ],
+      "options_en": [
         "Two months, from July 1st",
         "Two weeks in August",
         "The whole year",
@@ -108,9 +115,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Why didn't they go out before four o'clock?",
-      "answer": "It was very hot in the afternoon",
+      "prompt": "Pourquoi ne sortaient-ils pas avant quatre heures ?",
+      "prompt_en": "Why didn't they go out before four o'clock?",
+      "answer": "Il faisait très chaud l'après-midi",
       "options": [
+        "Il faisait très chaud l'après-midi",
+        "Leur grand-mère dormait",
+        "Ils devaient faire leurs devoirs",
+        "Il pleuvait tous les après-midi"
+      ],
+      "options_en": [
         "It was very hot in the afternoon",
         "Their grandmother was sleeping",
         "They had to do homework",
@@ -120,9 +134,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What did Léa do at the river while Hugo swam?",
-      "answer": "She took photos with her grandfather's old camera",
+      "prompt": "Qu'est-ce que Léa faisait à la rivière pendant qu'Hugo nageait ?",
+      "prompt_en": "What did Léa do at the river while Hugo swam?",
+      "answer": "Elle prenait des photos avec le vieil appareil de son grand-père",
       "options": [
+        "Elle prenait des photos avec le vieil appareil de son grand-père",
+        "Elle lisait des livres sous un arbre",
+        "Elle nageait aussi",
+        "Elle allait à la pêche avec Mamie"
+      ],
+      "options_en": [
         "She took photos with her grandfather's old camera",
         "She read books under a tree",
         "She swam too",

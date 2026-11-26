@@ -78,9 +78,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Who is the oldest of the three friends? How old is Minou?",
-      "answer": "Léa (28) — and Minou is 5",
+      "prompt": "Qui est le plus âgé des trois amis ? Quel âge a Minou ?",
+      "prompt_en": "Who is the oldest of the three friends? How old is Minou?",
+      "answer": "Léa (28 ans) — et Minou a 5 ans",
       "options": [
+        "Léa (28 ans) — et Minou a 5 ans",
+        "Hugo (26 ans) — et Minou a 2 ans",
+        "Marco (22 ans) — et Minou a 5 ans",
+        "Léa (28 ans) — et Minou a 15 ans"
+      ],
+      "options_en": [
         "Léa (28) — and Minou is 5",
         "Hugo (26) — and Minou is 2",
         "Marco (22) — and Minou is 5",
@@ -90,9 +97,16 @@
     },
     {
       "id": "q2",
-      "prompt": "How much do Hugo's tomatoes cost in total?",
-      "answer": "€6 — two kilos at €3 a kilo",
+      "prompt": "Combien coûtent les tomates d'Hugo au total ?",
+      "prompt_en": "How much do Hugo's tomatoes cost in total?",
+      "answer": "6 € — deux kilos à 3 € le kilo",
       "options": [
+        "6 € — deux kilos à 3 € le kilo",
+        "3 €",
+        "12 €",
+        "9 €"
+      ],
+      "options_en": [
         "€6 — two kilos at €3 a kilo",
         "€3",
         "€12",
@@ -102,9 +116,16 @@
     },
     {
       "id": "q3",
-      "prompt": "How much change does Léa get, and why?",
-      "answer": "€3, because the flowers cost €12 and she pays €15",
+      "prompt": "Combien d'argent Léa reçoit-elle en retour, et pourquoi ?",
+      "prompt_en": "How much change does Léa get, and why?",
+      "answer": "3 €, parce que les fleurs coûtent 12 € et elle paie 15 €",
       "options": [
+        "3 €, parce que les fleurs coûtent 12 € et elle paie 15 €",
+        "5 €, parce qu'elle paie avec 20 €",
+        "2 €, parce que les fleurs coûtent 13 €",
+        "Rien — elle paie le prix exact"
+      ],
+      "options_en": [
         "€3, because the flowers cost €12 and she pays €15",
         "€5, because she pays with €20",
         "€2, because the flowers cost €13",

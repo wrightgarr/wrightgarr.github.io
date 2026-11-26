@@ -112,6 +112,7 @@
     {
       "id": "q1",
       "prompt": "D'où viennent les mots du français de Marseille, selon l'article ?",
+      "prompt_en": "According to the article, where do the words of Marseille French come from?",
       "answer": "Du provençal, de l'italien, de l'arabe, de l'arménien et de l'argot",
       "options": [
         "Du provençal, de l'italien, de l'arabe, de l'arménien et de l'argot",
@@ -119,11 +120,18 @@
         "De l'anglais et de l'espagnol",
         "Du latin et du grec ancien"
       ],
+      "options_en": [
+        "From Provençal, Italian, Arabic, Armenian and slang",
+        "Only from Provençal",
+        "From English and Spanish",
+        "From Latin and ancient Greek"
+      ],
       "evidence": "Il mélange des mots venus du provençal, de l'italien, de l'arabe, de l'arménien et de l'argot des quartiers."
     },
     {
       "id": "q2",
       "prompt": "Comment Yanis adapte-t-il sa manière de parler ?",
+      "prompt_en": "How does Yanis adapt the way he speaks?",
       "answer": "Il change de registre selon qu'il parle à ses amis, à sa grand-mère ou à son patron",
       "options": [
         "Il change de registre selon qu'il parle à ses amis, à sa grand-mère ou à son patron",
@@ -131,17 +139,30 @@
         "Il refuse de parler marseillais",
         "Il parle anglais avec son patron"
       ],
+      "options_en": [
+        "He changes register depending on whether he's talking to his friends, his grandmother or his boss",
+        "He always speaks in verlan",
+        "He refuses to speak Marseille slang",
+        "He speaks English with his boss"
+      ],
       "evidence": "Moi, quand je parle avec mes potes, je parle marseillais, mais avec mon patron, je fais gaffe"
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Jean avait-il noté des mots marseillais dans ses carnets ?",
+      "prompt_en": "Why had Jean noted down Marseille words in his notebooks?",
       "answer": "Il pensait que ces mots allaient disparaître et qu'il fallait les garder",
       "options": [
         "Il pensait que ces mots allaient disparaître et qu'il fallait les garder",
         "Il voulait écrire un dictionnaire pour gagner de l'argent",
         "Son patron le lui avait demandé",
         "Il apprenait le français"
+      ],
+      "options_en": [
+        "He thought these words would disappear and needed to be kept",
+        "He wanted to write a dictionary to make money",
+        "His boss had asked him to",
+        "He was learning French"
       ],
       "evidence": "Un jour, plus personne ne parlera comme ça. Il faut les garder."
     }

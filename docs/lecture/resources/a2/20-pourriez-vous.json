@@ -96,9 +96,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Why are Léa's parents coming to the South?",
-      "answer": "For their wedding anniversary",
+      "prompt": "Pourquoi les parents de Léa viennent-ils dans le Sud ?",
+      "prompt_en": "Why are Léa's parents coming to the South?",
+      "answer": "Pour leur anniversaire de mariage",
       "options": [
+        "Pour leur anniversaire de mariage",
+        "Pour l'anniversaire de Léa",
+        "Pour des vacances au bord de la mer",
+        "Pour aider Léa à déménager"
+      ],
+      "options_en": [
         "For their wedding anniversary",
         "For Léa's birthday",
         "For a holiday by the sea",
@@ -108,9 +115,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What extra will the guesthouse provide, and at what cost?",
-      "answer": "A bottle of Cassis wine in the room, for an extra charge",
+      "prompt": "Qu'est-ce que la maison d'hôtes offrira en plus, et à quel prix ?",
+      "prompt_en": "What extra will the guesthouse provide, and at what cost?",
+      "answer": "Une bouteille de vin de Cassis dans la chambre, avec un supplément",
       "options": [
+        "Une bouteille de vin de Cassis dans la chambre, avec un supplément",
+        "Un dîner gratuit sur la terrasse",
+        "Un gâteau, sans supplément",
+        "Des fleurs et des chocolats, gratuitement"
+      ],
+      "options_en": [
         "A bottle of Cassis wine in the room, for an extra charge",
         "A free dinner on the terrace",
         "A cake, at no cost",
@@ -120,9 +134,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What does Léa ask the woman to do if her father calls?",
-      "answer": "Say nothing, to keep the surprise",
+      "prompt": "Qu'est-ce que Léa demande à la femme de faire si son père appelle ?",
+      "prompt_en": "What does Léa ask the woman to do if her father calls?",
+      "answer": "Ne rien dire, pour garder la surprise",
       "options": [
+        "Ne rien dire, pour garder la surprise",
+        "Lui donner le numéro de la chambre",
+        "Rappeler Léa",
+        "Lui envoyer la confirmation"
+      ],
+      "options_en": [
         "Say nothing, to keep the surprise",
         "Give him the room number",
         "Call Léa back",

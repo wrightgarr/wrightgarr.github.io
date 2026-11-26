@@ -102,9 +102,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Why is the Sainte-Victoire famous?",
-      "answer": "Cézanne painted it many times",
+      "prompt": "Pourquoi la Sainte-Victoire est-elle célèbre ?",
+      "prompt_en": "Why is the Sainte-Victoire famous?",
+      "answer": "Cézanne l'a peinte de nombreuses fois",
       "options": [
+        "Cézanne l'a peinte de nombreuses fois",
+        "C'est la plus haute montagne de France",
+        "Elle a une station de ski célèbre",
+        "Napoléon l'a traversée"
+      ],
+      "options_en": [
         "Cézanne painted it many times",
         "It's the highest mountain in France",
         "It has a famous ski resort",
@@ -114,9 +121,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What problem did they have around noon, and what was Karim's solution?",
-      "answer": "They got lost — Karim said to keep climbing, because from the top you can see everything",
+      "prompt": "Quel problème ont-ils eu vers midi, et quelle a été la solution de Karim ?",
+      "prompt_en": "What problem did they have around noon, and what was Karim's solution?",
+      "answer": "Ils se sont perdus — Karim a dit de continuer à monter, parce que du sommet on voit tout",
       "options": [
+        "Ils se sont perdus — Karim a dit de continuer à monter, parce que du sommet on voit tout",
+        "Ils n'avaient plus d'eau — Karim a trouvé une source",
+        "Il a commencé à pleuvoir — ils se sont abrités dans une grotte",
+        "Léa s'est fait mal au pied — Karim l'a portée"
+      ],
+      "options_en": [
         "They got lost — Karim said to keep climbing, because from the top you can see everything",
         "They ran out of water — Karim found a spring",
         "It started to rain — they sheltered in a cave",
@@ -126,9 +140,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What happened on the way home?",
-      "answer": "Léa fell asleep, so Karim drove",
+      "prompt": "Qu'est-ce qui s'est passé sur le chemin du retour ?",
+      "prompt_en": "What happened on the way home?",
+      "answer": "Léa s'est endormie, alors Karim a conduit",
       "options": [
+        "Léa s'est endormie, alors Karim a conduit",
+        "Ils ont crevé un pneu",
+        "Ils se sont encore perdus",
+        "Léa a conduit très vite"
+      ],
+      "options_en": [
         "Léa fell asleep, so Karim drove",
         "They had a flat tyre",
         "They got lost again",

@@ -78,9 +78,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What metro line and stop does Léa suggest?",
-      "answer": "Line 6, and get off at Bir-Hakeim",
+      "prompt": "Quelle ligne de métro et quel arrêt Léa propose-t-elle ?",
+      "prompt_en": "What metro line and stop does Léa suggest?",
+      "answer": "La ligne 6, et il faut descendre à Bir-Hakeim",
       "options": [
+        "La ligne 6, et il faut descendre à Bir-Hakeim",
+        "La ligne 1, et il faut descendre à Concorde",
+        "La ligne 6, et il faut descendre à Montmartre",
+        "La ligne 4, et il faut descendre à Bir-Hakeim"
+      ],
+      "options_en": [
         "Line 6, and get off at Bir-Hakeim",
         "Line 1, and get off at Concorde",
         "Line 6, and get off at Montmartre",
@@ -90,9 +97,16 @@
     },
     {
       "id": "q2",
-      "prompt": "List the walking directions in order.",
-      "answer": "Straight to the Seine, turn right, walk along the river, cross the bridge",
+      "prompt": "Quel est le chemin à pied, dans l'ordre ?",
+      "prompt_en": "List the walking directions in order.",
+      "answer": "Tout droit jusqu'à la Seine, à droite, le long de la Seine, puis traverser le pont",
       "options": [
+        "Tout droit jusqu'à la Seine, à droite, le long de la Seine, puis traverser le pont",
+        "À gauche, traverser le pont, puis tout droit",
+        "À droite, à gauche, puis prendre le métro",
+        "Traverser le pont, puis à gauche et marcher une heure"
+      ],
+      "options_en": [
         "Straight to the Seine, turn right, walk along the river, cross the bridge",
         "Turn left, cross the bridge, then go straight",
         "Turn right, turn left, then take the metro",
@@ -102,9 +116,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What does Léa realize at the end?",
-      "answer": "She wants to visit the Eiffel Tower herself one day",
+      "prompt": "Qu'est-ce que Léa comprend à la fin ?",
+      "prompt_en": "What does Léa realize at the end?",
+      "answer": "Elle veut visiter la tour Eiffel un jour, elle aussi",
       "options": [
+        "Elle veut visiter la tour Eiffel un jour, elle aussi",
+        "Elle est perdue, elle aussi",
+        "Elle est en retard au travail",
+        "Elle n'a jamais vu la Seine"
+      ],
+      "options_en": [
         "She wants to visit the Eiffel Tower herself one day",
         "She's lost too",
         "She's late for work",

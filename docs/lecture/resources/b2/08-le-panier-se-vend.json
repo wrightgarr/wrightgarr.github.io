@@ -131,6 +131,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi Josette dit-elle qu'elle « s'est fait avoir » ?",
+      "prompt_en": "Why does Josette say she \"got taken in\"?",
       "answer": "Elle avait vendu son appartement à condition de rester, mais les héritiers ont tout revendu",
       "options": [
         "Elle avait vendu son appartement à condition de rester, mais les héritiers ont tout revendu",
@@ -138,11 +139,18 @@
         "Elle a perdu ses économies au casino",
         "Amina a refusé de payer le loyer"
       ],
+      "options_en": [
+        "She had sold her flat on condition she could stay, but the heirs sold everything on",
+        "She signed a contract without reading it",
+        "She lost her savings at the casino",
+        "Amina refused to pay the rent"
+      ],
       "evidence": "Il y a dix ans, j'ai vendu mon appartement à un monsieur très gentil, à condition de pouvoir y rester. Il est mort l'année dernière, et ses enfants ont tout revendu."
     },
     {
       "id": "q2",
       "prompt": "Quelles sont les conséquences des locations touristiques dans le Panier, selon l'article ?",
+      "prompt_en": "According to the article, what are the consequences of tourist rentals in the Panier?",
       "answer": "Les commerces de proximité disparaissent et les habitants ne connaissent plus leurs voisins",
       "options": [
         "Les commerces de proximité disparaissent et les habitants ne connaissent plus leurs voisins",
@@ -150,17 +158,30 @@
         "Le quartier est plus calme",
         "Les familles reviennent"
       ],
+      "options_en": [
+        "Local shops are disappearing and residents no longer know their neighbours",
+        "Rents are falling",
+        "The district is quieter",
+        "Families are coming back"
+      ],
       "evidence": "Les boulangeries sont remplacées par des boutiques de souvenirs, les épiceries par des bars à cocktails."
     },
     {
       "id": "q3",
       "prompt": "Comment Amina réconforte-t-elle Josette ?",
+      "prompt_en": "How does Amina comfort Josette?",
       "answer": "Elle lui promet de l'aide et plaisante : sans elle, qui se plaindrait de son piano ?",
       "options": [
         "Elle lui promet de l'aide et plaisante : sans elle, qui se plaindrait de son piano ?",
         "Elle lui propose d'habiter chez elle",
         "Elle lui donne de l'argent",
         "Elle appelle la police"
+      ],
+      "options_en": [
+        "She promises her help and jokes: without her, who would complain about her piano?",
+        "She offers to let her live with her",
+        "She gives her money",
+        "She calls the police"
       ],
       "evidence": "Et puis vous ne pouvez pas partir : sans vous, qui se plaindrait de mon piano ?"
     }

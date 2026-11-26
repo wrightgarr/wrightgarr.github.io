@@ -131,6 +131,7 @@
     {
       "id": "q1",
       "prompt": "Quelle proposition Jean avait-il reçue en 1994, et qu'a-t-il répondu ?",
+      "prompt_en": "What offer had Jean received in 1994, and how did he respond?",
       "answer": "Une chronique mensuelle payée dans un journal ; il a refusé sans rien dire à sa femme",
       "options": [
         "Une chronique mensuelle payée dans un journal ; il a refusé sans rien dire à sa femme",
@@ -138,11 +139,18 @@
         "Un contrat pour un livre ; il a hésité un an",
         "Un prix littéraire ; il ne l'a pas réclamé"
       ],
+      "options_en": [
+        "A paid monthly column in a newspaper; he turned it down without telling his wife",
+        "A foreman's job; he accepted",
+        "A book contract; he hesitated for a year",
+        "A literary prize; he never claimed it"
+      ],
       "evidence": "Ils ont aimé mes textes sur le port et ils me proposent une chronique mensuelle. Payée."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Madame Ferrand se fait-elle aussi des reproches ?",
+      "prompt_en": "Why does Madame Ferrand blame herself too?",
       "answer": "Elle ne lui a jamais demandé ce qu'il écrivait pendant quarante ans",
       "options": [
         "Elle ne lui a jamais demandé ce qu'il écrivait pendant quarante ans",
@@ -150,17 +158,30 @@
         "Elle s'était moquée de ses textes",
         "Elle lui avait interdit d'écrire"
       ],
+      "options_en": [
+        "For forty years she never asked him what he was writing",
+        "She had thrown away one of his letters",
+        "She had made fun of his writing",
+        "She had forbidden him to write"
+      ],
       "evidence": "Il écrivait tous les soirs sur la table de la cuisine, pendant quarante ans, et je ne lui ai jamais demandé ce qu'il écrivait."
     },
     {
       "id": "q3",
       "prompt": "Que décide-t-elle de faire pour réparer ce regret ?",
+      "prompt_en": "What does she decide to do to make up for this regret?",
       "answer": "Mettre ses textes sur le port dans le livre, comme une chronique tardive",
       "options": [
         "Mettre ses textes sur le port dans le livre, comme une chronique tardive",
         "Écrire elle-même une chronique",
         "Envoyer les carnets au journal",
         "Brûler le carnet 25"
+      ],
+      "options_en": [
+        "Put his texts about the port in the book, as a belated column",
+        "Write a column herself",
+        "Send the notebooks to the newspaper",
+        "Burn notebook 25"
       ],
       "evidence": "Dans le livre, je veux qu'on mette ses textes sur le port, ceux que le journal avait aimés. Comme ça, il l'aura, sa chronique."
     }

@@ -104,9 +104,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "How did Léa travel to Marseille, and how did Minou react?",
-      "answer": "By TGV — and Minou meowed for three hours",
+      "prompt": "Comment Léa a-t-elle voyagé jusqu'à Marseille, et comment Minou a-t-il réagi ?",
+      "prompt_en": "How did Léa travel to Marseille, and how did Minou react?",
+      "answer": "En TGV — et Minou a miaulé pendant trois heures",
       "options": [
+        "En TGV — et Minou a miaulé pendant trois heures",
+        "En voiture — et Minou a dormi pendant tout le voyage",
+        "En avion — et Minou s'est caché dans sa boîte",
+        "En TGV — et Minou est resté très calme"
+      ],
+      "options_en": [
         "By TGV — and Minou meowed for three hours",
         "By car — and Minou slept the whole way",
         "By plane — and Minou hid in his box",
@@ -116,9 +123,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What did Léa do on Sunday? Name two things.",
-      "answer": "She carried the boxes upstairs and put away her clothes and books",
+      "prompt": "Qu'est-ce que Léa a fait dimanche ? Donne deux choses.",
+      "prompt_en": "What did Léa do on Sunday? Name two things.",
+      "answer": "Elle a monté les cartons et elle a rangé ses vêtements et ses livres",
       "options": [
+        "Elle a monté les cartons et elle a rangé ses vêtements et ses livres",
+        "Elle est allée à la plage et elle a rencontré ses collègues",
+        "Elle a acheté des meubles et elle a peint les murs",
+        "Elle a visité le magazine et le port"
+      ],
+      "options_en": [
         "She carried the boxes upstairs and put away her clothes and books",
         "She went to the beach and met her colleagues",
         "She bought furniture and painted the walls",
@@ -128,9 +142,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Who is Madame Ferrand, and what did she bring?",
-      "answer": "Her 75-year-old neighbour — she brought an apricot tart",
+      "prompt": "Qui est Madame Ferrand, et qu'est-ce qu'elle a apporté ?",
+      "prompt_en": "Who is Madame Ferrand, and what did she bring?",
+      "answer": "Sa voisine de 75 ans — elle a apporté une tarte aux abricots",
       "options": [
+        "Sa voisine de 75 ans — elle a apporté une tarte aux abricots",
+        "Sa nouvelle patronne — elle a apporté des fleurs",
+        "La propriétaire de l'immeuble — elle a apporté les clés",
+        "Sa voisine — elle a apporté une bouteille de vin"
+      ],
+      "options_en": [
         "Her 75-year-old neighbour — she brought an apricot tart",
         "Her new boss — she brought flowers",
         "The building's owner — she brought the keys",

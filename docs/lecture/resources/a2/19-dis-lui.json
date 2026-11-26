@@ -115,9 +115,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is Karim's secret?",
-      "answer": "He's in love with Amina",
+      "prompt": "Quel est le secret de Karim ?",
+      "prompt_en": "What is Karim's secret?",
+      "answer": "Il est amoureux d'Amina",
       "options": [
+        "Il est amoureux d'Amina",
+        "Il veut quitter le magazine",
+        "Il part vivre à Paris",
+        "Il a perdu les photos de Léa"
+      ],
+      "options_en": [
         "He's in love with Amina",
         "He wants to leave the magazine",
         "He's moving to Paris",
@@ -127,9 +134,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Why doesn't Léa like Karim's first message?",
-      "answer": "It's too dramatic",
+      "prompt": "Pourquoi Léa n'aime-t-elle pas le premier message de Karim ?",
+      "prompt_en": "Why doesn't Léa like Karim's first message?",
+      "answer": "Il est trop dramatique",
       "options": [
+        "Il est trop dramatique",
+        "Il est trop court",
+        "Il est en anglais",
+        "Il est trop drôle"
+      ],
+      "options_en": [
         "It's too dramatic",
         "It's too short",
         "It's in English",
@@ -139,9 +153,16 @@
     },
     {
       "id": "q3",
-      "prompt": "How does Amina reply?",
-      "answer": "She says yes, and asks for an ice cream on the Old Port too",
+      "prompt": "Comment Amina répond-elle ?",
+      "prompt_en": "How does Amina reply?",
+      "answer": "Elle dit oui, et elle demande aussi une glace sur le Vieux-Port",
       "options": [
+        "Elle dit oui, et elle demande aussi une glace sur le Vieux-Port",
+        "Elle dit qu'elle est trop occupée",
+        "Elle ne répond pas",
+        "Elle lui demande plutôt de venir à Paris"
+      ],
+      "options_en": [
         "She says yes, and asks for an ice cream on the Old Port too",
         "She says she's too busy",
         "She doesn't reply",

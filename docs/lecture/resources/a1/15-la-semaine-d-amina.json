@@ -70,9 +70,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What does Amina do on Tuesdays and Thursdays?",
-      "answer": "Tuesdays: works in a bookstore · Thursdays: plays violin in an orchestra",
+      "prompt": "Qu'est-ce qu'Amina fait le mardi et le jeudi ?",
+      "prompt_en": "What does Amina do on Tuesdays and Thursdays?",
+      "answer": "Mardi : elle travaille dans une librairie · Jeudi : elle joue du violon dans un orchestre",
       "options": [
+        "Mardi : elle travaille dans une librairie · Jeudi : elle joue du violon dans un orchestre",
+        "Mardi : cours de piano · Jeudi : elle chante dans un bar",
+        "Mardi : le marché · Jeudi : elle se repose",
+        "Mardi : elle travaille dans une bibliothèque · Jeudi : elle joue du piano"
+      ],
+      "options_en": [
         "Tuesdays: works in a bookstore · Thursdays: plays violin in an orchestra",
         "Tuesdays: piano class · Thursdays: sings in a bar",
         "Tuesdays: the market · Thursdays: rests",
@@ -82,9 +89,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What does she do on Friday evenings?",
-      "answer": "She sings in a jazz bar with friends",
+      "prompt": "Qu'est-ce qu'elle fait le vendredi soir ?",
+      "prompt_en": "What does she do on Friday evenings?",
+      "answer": "Elle chante dans un bar de jazz avec des amis",
       "options": [
+        "Elle chante dans un bar de jazz avec des amis",
+        "Elle téléphone à sa famille",
+        "Elle joue du violon",
+        "Elle travaille à la librairie"
+      ],
+      "options_en": [
         "She sings in a jazz bar with friends",
         "She calls her family",
         "She plays violin",
@@ -94,9 +108,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Why is it early morning when Amina calls her mother?",
-      "answer": "Montréal is six hours behind Paris",
+      "prompt": "Pourquoi est-ce tôt le matin quand Amina téléphone à sa mère ?",
+      "prompt_en": "Why is it early morning when Amina calls her mother?",
+      "answer": "À Montréal, il est six heures de moins qu'à Paris",
       "options": [
+        "À Montréal, il est six heures de moins qu'à Paris",
+        "Sa mère travaille la nuit",
+        "Amina se réveille toujours tôt",
+        "À Montréal, il est six heures de plus qu'à Paris"
+      ],
+      "options_en": [
         "Montréal is six hours behind Paris",
         "Her mother works nights",
         "Amina always wakes up early",

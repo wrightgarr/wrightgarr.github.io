@@ -104,9 +104,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Who gave Madame Ferrand the smartphone, and how did she feel about it at first?",
-      "answer": "Her son — at first she looked at it like a dangerous animal",
+      "prompt": "Qui a donné le smartphone à Madame Ferrand, et comment l'a-t-elle trouvé au début ?",
+      "prompt_en": "Who gave Madame Ferrand the smartphone, and how did she feel about it at first?",
+      "answer": "Son fils — au début, elle le regardait comme un animal dangereux",
       "options": [
+        "Son fils — au début, elle le regardait comme un animal dangereux",
+        "Léa — elle l'a adoré tout de suite",
+        "Sa fille — elle voulait le vendre",
+        "Karim — elle était très enthousiaste"
+      ],
+      "options_en": [
         "Her son — at first she looked at it like a dangerous animal",
         "Léa — she loved it right away",
         "Her daughter — she wanted to sell it",
@@ -116,9 +123,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Whom did she call first?",
-      "answer": "Her daughter in Québec",
+      "prompt": "Qui a-t-elle appelé en premier ?",
+      "prompt_en": "Whom did she call first?",
+      "answer": "Sa fille au Québec",
       "options": [
+        "Sa fille au Québec",
+        "Léa",
+        "Son fils",
+        "Un pêcheur du port"
+      ],
+      "options_en": [
         "Her daughter in Québec",
         "Léa",
         "Her son",
@@ -128,9 +142,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What almost happened yesterday, and why?",
-      "answer": "She almost fell into a fountain, because she was texting while walking",
+      "prompt": "Qu'est-ce qui a failli arriver hier, et pourquoi ?",
+      "prompt_en": "What almost happened yesterday, and why?",
+      "answer": "Elle a failli tomber dans une fontaine, parce qu'elle écrivait un message en marchant",
       "options": [
+        "Elle a failli tomber dans une fontaine, parce qu'elle écrivait un message en marchant",
+        "Elle a failli perdre son téléphone dans la mer",
+        "Elle a failli rater son bus",
+        "Elle a failli laisser tomber Minou"
+      ],
+      "options_en": [
         "She almost fell into a fountain, because she was texting while walking",
         "She almost lost her phone in the sea",
         "She almost missed her bus",

@@ -80,9 +80,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Where is Marco, and what does his mother do every day?",
-      "answer": "In Turin, at his parents' — his mother makes pasta every day",
+      "prompt": "Où est Marco, et qu'est-ce que sa mère fait tous les jours ?",
+      "prompt_en": "Where is Marco, and what does his mother do every day?",
+      "answer": "À Turin, chez ses parents — sa mère fait des pâtes tous les jours",
       "options": [
+        "À Turin, chez ses parents — sa mère fait des pâtes tous les jours",
+        "À Milan avec son frère — sa mère fait des pizzas",
+        "À Rome, à l'hôtel — sa mère fait de la soupe",
+        "En Suisse — sa mère fait du pain"
+      ],
+      "options_en": [
         "In Turin, at his parents' — his mother makes pasta every day",
         "In Milan with his brother — his mother makes pizza",
         "In Rome at a hotel — his mother makes soup",
@@ -92,9 +99,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What is Marco's travel plan for the next few days?",
-      "answer": "Milan tomorrow with his brother, then two days in Switzerland",
+      "prompt": "Quel est le programme de Marco pour les prochains jours ?",
+      "prompt_en": "What is Marco's travel plan for the next few days?",
+      "answer": "Milan demain avec son frère, puis deux jours en Suisse",
       "options": [
+        "Milan demain avec son frère, puis deux jours en Suisse",
+        "Rome demain, puis retour à Paris",
+        "La Suisse demain, puis une semaine à Milan",
+        "Nulle part — il reste à Turin jusqu'à Noël"
+      ],
+      "options_en": [
         "Milan tomorrow with his brother, then two days in Switzerland",
         "Rome tomorrow, then back to Paris",
         "Switzerland tomorrow, then a week in Milan",
@@ -104,9 +118,16 @@
     },
     {
       "id": "q3",
-      "prompt": "When does Marco return, and what will he bring?",
-      "answer": "January 5th — with real Italian coffee for Monsieur Dubois",
+      "prompt": "Quand Marco revient-il, et qu'est-ce qu'il va apporter ?",
+      "prompt_en": "When does Marco return, and what will he bring?",
+      "answer": "Le 5 janvier — avec du vrai café italien pour Monsieur Dubois",
       "options": [
+        "Le 5 janvier — avec du vrai café italien pour Monsieur Dubois",
+        "Le 25 décembre — avec des pâtes pour Amina",
+        "Le 15 janvier — avec du fromage pour Hugo",
+        "Le 5 janvier — avec du chocolat pour Léa"
+      ],
+      "options_en": [
         "January 5th — with real Italian coffee for Monsieur Dubois",
         "December 25th — with pasta for Amina",
         "January 15th — with cheese for Hugo",

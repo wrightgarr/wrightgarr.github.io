@@ -135,6 +135,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi Sylvie pense-t-elle que le voleur avait une clé ?",
+      "prompt_en": "Why does Sylvie think the thief had a key?",
       "answer": "Il n'y a aucune trace d'effraction et la porte était fermée à clé",
       "options": [
         "Il n'y a aucune trace d'effraction et la porte était fermée à clé",
@@ -142,11 +143,18 @@
         "Une fenêtre est cassée",
         "Bastien a perdu sa clé"
       ],
+      "options_en": [
+        "There's no sign of a break-in and the door was locked",
+        "She saw the thief",
+        "A window is broken",
+        "Bastien lost his key"
+      ],
       "evidence": "Il n'y a aucune trace d'effraction, a expliqué Sylvie. La porte était fermée à clé."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi Karim pense-t-il que ce n'est pas un professionnel ?",
+      "prompt_en": "Why does Karim think it wasn't a professional?",
       "answer": "Le tableau ne vaut pas grand-chose : un professionnel prendrait les grandes toiles",
       "options": [
         "Le tableau ne vaut pas grand-chose : un professionnel prendrait les grandes toiles",
@@ -154,17 +162,30 @@
         "Un professionnel aurait cassé la vitrine",
         "Le tableau était trop lourd"
       ],
+      "options_en": [
+        "The painting isn't worth much: a professional would take the big canvases",
+        "The thief left fingerprints",
+        "A professional would have broken the display case",
+        "The painting was too heavy"
+      ],
       "evidence": "Alors, ça ne doit pas être un professionnel, a dit Karim. Un professionnel prendrait les grandes toiles."
     },
     {
       "id": "q3",
       "prompt": "Qu'est-ce que Léa découvre sur la photo numéro 287 ?",
+      "prompt_en": "What does Léa discover in photo number 287?",
       "answer": "Une personne de dos, la main sur le cadre — et ce n'est pas Bastien",
       "options": [
         "Une personne de dos, la main sur le cadre — et ce n'est pas Bastien",
         "Bastien qui emporte le tableau",
         "Sylvie qui cache le tableau",
         "La vitrine vide à 22 h 15"
+      ],
+      "options_en": [
+        "A person seen from behind, hand on the frame — and it isn't Bastien",
+        "Bastien carrying the painting away",
+        "Sylvie hiding the painting",
+        "The empty display case at 10:15 p.m."
       ],
       "evidence": "Sur la photo numéro 287, prise à vingt-deux heures quinze, quelqu'un se tenait devant la vitrine, de dos, une main sur le cadre du tableau. Ce n'était pas Bastien."
     }

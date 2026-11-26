@@ -84,9 +84,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What do Amina and Léa order to drink?",
-      "answer": "Amina: mineral water · Léa: a bottle of red wine",
+      "prompt": "Qu'est-ce qu'Amina et Léa commandent à boire ?",
+      "prompt_en": "What do Amina and Léa order to drink?",
+      "answer": "Amina : de l'eau minérale · Léa : une bouteille de vin rouge",
       "options": [
+        "Amina : de l'eau minérale · Léa : une bouteille de vin rouge",
+        "Amina : du vin · Léa : de l'eau",
+        "Toutes les deux : du jus d'orange",
+        "Amina : un café · Léa : du vin blanc"
+      ],
+      "options_en": [
         "Amina: mineral water · Léa: a bottle of red wine",
         "Amina: wine · Léa: water",
         "Both: orange juice",
@@ -96,9 +103,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Why does Amina order the fish?",
-      "answer": "She doesn't eat meat",
+      "prompt": "Pourquoi Amina commande-t-elle le poisson ?",
+      "prompt_en": "Why does Amina order the fish?",
+      "answer": "Elle ne mange pas de viande",
       "options": [
+        "Elle ne mange pas de viande",
+        "Elle est allergique au bœuf",
+        "C'est le plat le moins cher",
+        "Hugo le recommande"
+      ],
+      "options_en": [
         "She doesn't eat meat",
         "She's allergic to beef",
         "It's the cheapest dish",
@@ -108,9 +122,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What does Hugo offer them?",
-      "answer": "His special dessert, a tarte Tatin",
+      "prompt": "Qu'est-ce qu'Hugo leur offre ?",
+      "prompt_en": "What does Hugo offer them?",
+      "answer": "Son dessert spécial, une tarte Tatin",
       "options": [
+        "Son dessert spécial, une tarte Tatin",
+        "Une bouteille de vin gratuite",
+        "Une table près de la fenêtre",
+        "Une assiette de fromages"
+      ],
+      "options_en": [
         "His special dessert, a tarte Tatin",
         "A free bottle of wine",
         "A table by the window",

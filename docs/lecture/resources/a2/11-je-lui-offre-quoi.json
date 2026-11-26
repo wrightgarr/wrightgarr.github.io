@@ -100,9 +100,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What is Léa giving her mother, and why?",
-      "answer": "A book of photos of Marseille, because she loves books",
+      "prompt": "Qu'est-ce que Léa offre à sa mère, et pourquoi ?",
+      "prompt_en": "What is Léa giving her mother, and why?",
+      "answer": "Un livre de photos de Marseille, parce qu'elle adore les livres",
       "options": [
+        "Un livre de photos de Marseille, parce qu'elle adore les livres",
+        "De l'huile d'olive, parce qu'elle adore cuisiner",
+        "Une cravate, parce qu'elle en a demandé une",
+        "Du savon, parce qu'il vient de Marseille"
+      ],
+      "options_en": [
         "A book of photos of Marseille, because she loves books",
         "Olive oil, because she loves cooking",
         "A tie, because she asked for one",
@@ -112,9 +119,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What happened to the tie Léa gave her father?",
-      "answer": "He never wore it",
+      "prompt": "Qu'est devenue la cravate que Léa a offerte à son père ?",
+      "prompt_en": "What happened to the tie Léa gave her father?",
+      "answer": "Il ne l'a jamais portée",
       "options": [
+        "Il ne l'a jamais portée",
+        "Il l'a perdue",
+        "Il l'a donnée à Hugo",
+        "Il la porte tous les jours"
+      ],
+      "options_en": [
         "He never wore it",
         "He lost it",
         "He gave it to Hugo",
@@ -124,9 +138,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What does Léa \"give\" Karim, and what does Karim offer her?",
-      "answer": "Advice to buy an umbrella — and Karim offers a meal at his mother's",
+      "prompt": "Qu'est-ce que Léa « offre » à Karim, et qu'est-ce que Karim lui propose ?",
+      "prompt_en": "What does Léa \"give\" Karim, and what does Karim offer her?",
+      "answer": "Un conseil : acheter un parapluie — et Karim l'invite à manger chez sa mère",
       "options": [
+        "Un conseil : acheter un parapluie — et Karim l'invite à manger chez sa mère",
+        "Un livre — et Karim lui offre une bouteille de vin",
+        "Du savon — et Karim propose de la conduire",
+        "Des épices — et Karim propose de cuisiner pour elle"
+      ],
+      "options_en": [
         "Advice to buy an umbrella — and Karim offers a meal at his mother's",
         "A book — and Karim offers a bottle of wine",
         "Soap — and Karim offers to drive her",

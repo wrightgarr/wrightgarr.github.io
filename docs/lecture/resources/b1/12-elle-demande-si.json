@@ -133,6 +133,7 @@
     {
       "id": "q1",
       "prompt": "De quoi Josette se plaint-elle au début ?",
+      "prompt_en": "What does Josette complain about at first?",
       "answer": "Le piano d'Amina l'empêche de dormir",
       "options": [
         "Le piano d'Amina l'empêche de dormir",
@@ -140,11 +141,18 @@
         "Amina ne paie pas son loyer",
         "Le chat de Léa est trop bruyant"
       ],
+      "options_en": [
+        "Amina's piano stops her sleeping",
+        "Amina has too many parties",
+        "Amina doesn't pay her rent",
+        "Léa's cat is too noisy"
+      ],
       "evidence": "Dites-lui que son piano me rend folle ! Je ne dors plus."
     },
     {
       "id": "q2",
       "prompt": "Quel argument Amina utilise-t-elle contre Josette ?",
+      "prompt_en": "What argument does Amina use against Josette?",
       "answer": "La télévision de Josette est très forte tous les soirs",
       "options": [
         "La télévision de Josette est très forte tous les soirs",
@@ -152,17 +160,30 @@
         "Le bail autorise la musique",
         "Josette n'est jamais chez elle"
       ],
+      "options_en": [
+        "Josette's television is very loud every evening",
+        "Josette plays the piano too",
+        "The lease allows music",
+        "Josette is never at home"
+      ],
       "evidence": "Et demande-lui pourquoi elle se plaint, alors que sa télévision hurle tous les soirs."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Josette change-t-elle d'attitude ?",
+      "prompt_en": "Why does Josette change her attitude?",
       "answer": "Son mari adorait Chopin et lui jouait les nocturnes",
       "options": [
         "Son mari adorait Chopin et lui jouait les nocturnes",
         "Amina lui offre une tarte",
         "Léa la menace d'appeler la police",
         "Elle veut vendre l'appartement"
+      ],
+      "options_en": [
+        "Her husband loved Chopin and used to play her the nocturnes",
+        "Amina gives her a tart",
+        "Léa threatens to call the police",
+        "She wants to sell the flat"
       ],
       "evidence": "Mon mari adorait Chopin. Il me jouait les nocturnes quand nous étions jeunes…"
     }

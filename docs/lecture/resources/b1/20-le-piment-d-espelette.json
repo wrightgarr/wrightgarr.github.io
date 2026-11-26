@@ -138,6 +138,7 @@
     {
       "id": "q1",
       "prompt": "Que dit Lucas sur le Pays basque ?",
+      "prompt_en": "What does Lucas say about the Basque Country?",
       "answer": "Il en rêve encore, et on y met du piment partout",
       "options": [
         "Il en rêve encore, et on y met du piment partout",
@@ -145,11 +146,18 @@
         "Il déteste la cuisine basque",
         "Il y a habité dix ans"
       ],
+      "options_en": [
+        "He still dreams of it, and they put chilli in everything there",
+        "He's never been there",
+        "He hates Basque food",
+        "He lived there for ten years"
+      ],
       "evidence": "Le Pays basque ? J'en rêve encore !"
     },
     {
       "id": "q2",
       "prompt": "Que signifie l'AOC pour le piment d'Espelette ?",
+      "prompt_en": "What does the AOC mean for Espelette pepper?",
       "answer": "Le piment ne peut être cultivé que dans dix villages",
       "options": [
         "Le piment ne peut être cultivé que dans dix villages",
@@ -157,17 +165,30 @@
         "Le piment est importé d'Espagne",
         "Le piment est vendu seulement en été"
       ],
+      "options_en": [
+        "The pepper can only be grown in ten villages",
+        "The pepper is grown all over France",
+        "The pepper is imported from Spain",
+        "The pepper is sold only in summer"
+      ],
       "evidence": "Ça veut dire qu'il ne peut être cultivé que dans dix villages, a-t-elle expliqué."
     },
     {
       "id": "q3",
       "prompt": "Comment Madame Ferrand réagit-elle au cadeau de Léa ?",
+      "prompt_en": "How does Madame Ferrand react to Léa's present?",
       "answer": "Elle refuse le piment dans la bouillabaisse, mais elle y réfléchira pour l'omelette",
       "options": [
         "Elle refuse le piment dans la bouillabaisse, mais elle y réfléchira pour l'omelette",
         "Elle le met tout de suite dans sa soupe",
         "Elle le jette",
         "Elle le donne à Josette"
+      ],
+      "options_en": [
+        "She refuses chilli in the bouillabaisse, but she'll think about it for the omelette",
+        "She puts it straight into her soup",
+        "She throws it away",
+        "She gives it to Josette"
       ],
       "evidence": "Du piment dans la bouillabaisse ? Jamais de la vie. Mais dans l'omelette… peut-être. J'y réfléchirai."
     }

@@ -74,9 +74,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What happens in Paris on July 14th?",
-      "answer": "It's the national holiday, with fireworks at the Eiffel Tower",
+      "prompt": "Qu'est-ce qui se passe à Paris le 14 juillet ?",
+      "prompt_en": "What happens in Paris on July 14th?",
+      "answer": "C'est la fête nationale, avec un feu d'artifice à la tour Eiffel",
       "options": [
+        "C'est la fête nationale, avec un feu d'artifice à la tour Eiffel",
+        "Les marchés de Noël ouvrent",
+        "Tout le monde part en vacances",
+        "Les feuilles deviennent rouges"
+      ],
+      "options_en": [
         "It's the national holiday, with fireworks at the Eiffel Tower",
         "The Christmas markets open",
         "Everyone leaves on vacation",
@@ -86,9 +93,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What is the weather like in spring?",
-      "answer": "The trees bloom and it often rains",
+      "prompt": "Quel temps fait-il au printemps ?",
+      "prompt_en": "What is the weather like in spring?",
+      "answer": "Les arbres fleurissent et il pleut souvent",
       "options": [
+        "Les arbres fleurissent et il pleut souvent",
+        "Il neige",
+        "Il fait très chaud et sec",
+        "Les feuilles tombent et il fait froid"
+      ],
+      "options_en": [
         "The trees bloom and it often rains",
         "It snows",
         "It's very hot and dry",
@@ -98,9 +112,16 @@
     },
     {
       "id": "q3",
-      "prompt": "When is Léa's birthday?",
-      "answer": "October 3rd",
+      "prompt": "Quand est l'anniversaire de Léa ?",
+      "prompt_en": "When is Léa's birthday?",
+      "answer": "Le 3 octobre",
       "options": [
+        "Le 3 octobre",
+        "Le 14 juillet",
+        "Le 3 mars",
+        "Le 13 octobre"
+      ],
+      "options_en": [
         "October 3rd",
         "July 14th",
         "March 3rd",

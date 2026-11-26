@@ -108,9 +108,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What does Léa find every Monday?",
-      "answer": "An envelope with an old black-and-white photo of Marseille",
+      "prompt": "Qu'est-ce que Léa trouve chaque lundi ?",
+      "prompt_en": "What does Léa find every Monday?",
+      "answer": "Une enveloppe avec une vieille photo de Marseille en noir et blanc",
       "options": [
+        "Une enveloppe avec une vieille photo de Marseille en noir et blanc",
+        "Une lettre d'un admirateur secret",
+        "Un croissant et un café",
+        "La clé d'un autre appartement"
+      ],
+      "options_en": [
         "An envelope with an old black-and-white photo of Marseille",
         "A letter from a secret admirer",
         "A croissant and a coffee",
@@ -120,9 +127,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What clue does she find on the fourth photo?",
-      "answer": "The letters \"J.F. 1962\" in pencil on the back",
+      "prompt": "Quel indice trouve-t-elle sur la quatrième photo ?",
+      "prompt_en": "What clue does she find on the fourth photo?",
+      "answer": "Les lettres « J.F. 1962 » au crayon, au dos",
       "options": [
+        "Les lettres « J.F. 1962 » au crayon, au dos",
+        "Un numéro de téléphone",
+        "L'empreinte de Madame Ferrand",
+        "Un dessin de l'immeuble"
+      ],
+      "options_en": [
         "The letters \"J.F. 1962\" in pencil on the back",
         "A phone number",
         "Madame Ferrand's fingerprint",
@@ -132,9 +146,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Why did Madame Ferrand leave the photos?",
-      "answer": "They were her late husband's, and she wanted a real photographer to have them",
+      "prompt": "Pourquoi Madame Ferrand a-t-elle laissé les photos ?",
+      "prompt_en": "Why did Madame Ferrand leave the photos?",
+      "answer": "C'étaient celles de son mari, aujourd'hui disparu, et elle voulait les donner à une vraie photographe",
       "options": [
+        "C'étaient celles de son mari, aujourd'hui disparu, et elle voulait les donner à une vraie photographe",
+        "Elle voulait les vendre",
+        "Elle faisait une blague à Léa",
+        "Elle voulait que Léa les encadre pour elle"
+      ],
+      "options_en": [
         "They were her late husband's, and she wanted a real photographer to have them",
         "She wanted to sell them",
         "She was playing a joke on Léa",

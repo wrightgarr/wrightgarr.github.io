@@ -67,9 +67,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Why doesn't Marco want to go home?",
-      "answer": "His apartment is small and cold",
+      "prompt": "Pourquoi Marco ne veut-il pas rentrer chez lui ?",
+      "prompt_en": "Why doesn't Marco want to go home?",
+      "answer": "Son appartement est petit et froid",
       "options": [
+        "Son appartement est petit et froid",
+        "Il a perdu ses clés",
+        "C'est trop loin",
+        "Ses voisins font du bruit"
+      ],
+      "options_en": [
         "His apartment is small and cold",
         "He has lost his keys",
         "It's too far away",
@@ -79,9 +86,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What's the problem with Amina's place and Hugo's place?",
-      "answer": "Amina has no sofa, and Hugo lives far away",
+      "prompt": "Quel est le problème chez Amina et chez Hugo ?",
+      "prompt_en": "What's the problem with Amina's place and Hugo's place?",
+      "answer": "Amina n'a pas de canapé, et Hugo habite loin",
       "options": [
+        "Amina n'a pas de canapé, et Hugo habite loin",
+        "Chez Amina, c'est trop petit, et Hugo n'a rien à manger",
+        "Chez Amina, il y a du bruit, et Hugo a un chat",
+        "Amina n'est pas là, et Hugo travaille"
+      ],
+      "options_en": [
         "Amina has no sofa, and Hugo lives far away",
         "Amina's is too small, and Hugo has no food",
         "Amina's is noisy, and Hugo has a cat",
@@ -91,9 +105,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What are Léa's two conditions?",
-      "answer": "Marco brings dessert and goes home afterwards",
+      "prompt": "Quelles sont les deux conditions de Léa ?",
+      "prompt_en": "What are Léa's two conditions?",
+      "answer": "Marco apporte le dessert et il rentre chez lui après",
       "options": [
+        "Marco apporte le dessert et il rentre chez lui après",
+        "Marco prépare le dîner et il fait le ménage",
+        "Marco apporte du vin et il donne à manger à Minou",
+        "Marco paie le film et il reste la nuit"
+      ],
+      "options_en": [
         "Marco brings dessert and goes home afterwards",
         "Marco cooks dinner and cleans up",
         "Marco brings wine and feeds Minou",

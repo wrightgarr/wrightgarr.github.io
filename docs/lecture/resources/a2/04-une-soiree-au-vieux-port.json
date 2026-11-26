@@ -91,9 +91,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Why did the women arrive at seven o'clock?",
-      "answer": "Just in time for the sunset",
+      "prompt": "Pourquoi les femmes sont-elles arrivées à sept heures ?",
+      "prompt_en": "Why did the women arrive at seven o'clock?",
+      "answer": "Juste à temps pour le coucher du soleil",
       "options": [
+        "Juste à temps pour le coucher du soleil",
+        "Parce que le restaurant ouvrait à sept heures",
+        "Parce que Nadia finissait le travail à sept heures",
+        "Parce que les bateaux rentraient à sept heures"
+      ],
+      "options_en": [
         "Just in time for the sunset",
         "Because the restaurant opened at seven",
         "Because Nadia finished work at seven",
@@ -103,9 +110,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What job did Madame Ferrand do?",
-      "answer": "She was a primary-school teacher",
+      "prompt": "Quel métier Madame Ferrand faisait-elle ?",
+      "prompt_en": "What job did Madame Ferrand do?",
+      "answer": "Elle était institutrice",
       "options": [
+        "Elle était institutrice",
+        "Elle était pêcheuse",
+        "Elle était médecin",
+        "Elle était journaliste"
+      ],
+      "options_en": [
         "She was a primary-school teacher",
         "She was a fisherwoman",
         "She was a doctor",
@@ -115,9 +129,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What happened to her two children?",
-      "answer": "Her daughter became a doctor in Québec; her son stayed in Marseille",
+      "prompt": "Que sont devenus ses deux enfants ?",
+      "prompt_en": "What happened to her two children?",
+      "answer": "Sa fille est devenue médecin au Québec ; son fils est resté à Marseille",
       "options": [
+        "Sa fille est devenue médecin au Québec ; son fils est resté à Marseille",
+        "Sa fille est restée à Marseille ; son fils est devenu pêcheur",
+        "Ils sont partis tous les deux à Paris",
+        "Son fils est devenu médecin au Canada ; sa fille est professeure"
+      ],
+      "options_en": [
         "Her daughter became a doctor in Québec; her son stayed in Marseille",
         "Her daughter stayed in Marseille; her son became a fisherman",
         "Both moved to Paris",

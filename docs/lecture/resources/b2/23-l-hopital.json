@@ -149,6 +149,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi Madame Ferrand refuse-t-elle d'abord l'opération ?",
+      "prompt_en": "Why does Madame Ferrand refuse the operation at first?",
       "answer": "Elle a peur de l'opération et voudrait un simple plâtre",
       "options": [
         "Elle a peur de l'opération et voudrait un simple plâtre",
@@ -156,11 +157,18 @@
         "Elle veut rentrer à Lyon",
         "Elle n'aime pas le chirurgien"
       ],
+      "options_en": [
+        "She's afraid of the operation and would like just a cast",
+        "She has no money",
+        "She wants to go back to Lyon",
+        "She doesn't like the surgeon"
+      ],
       "evidence": "Je ne me ferai pas ouvrir à presque soixante-dix-huit ans. Faites-moi un plâtre, et je rentre chez moi."
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce qui la fait changer d'avis ?",
+      "prompt_en": "What makes her change her mind?",
       "answer": "Un passage du carnet 33 où Jean raconte qu'elle l'avait obligé à se faire soigner",
       "options": [
         "Un passage du carnet 33 où Jean raconte qu'elle l'avait obligé à se faire soigner",
@@ -168,17 +176,30 @@
         "Un appel du maire",
         "Une conversation avec sa voisine de chambre"
       ],
+      "options_en": [
+        "A passage in notebook 33 where Jean tells how she had made him get treatment",
+        "A letter from Anne",
+        "A call from the mayor",
+        "A conversation with the woman in the next bed"
+      ],
       "evidence": "Elle m'a dit : \"Si tu ne te laisses pas soigner, c'est moi qui te tue.\""
     },
     {
       "id": "q3",
       "prompt": "Que demande-t-elle à Léa le jour de son anniversaire ?",
+      "prompt_en": "What does she ask Léa on her birthday?",
       "answer": "De ne pas laisser le livre attendre : elle veut le tenir avant l'été",
       "options": [
         "De ne pas laisser le livre attendre : elle veut le tenir avant l'été",
         "De vendre son appartement",
         "D'appeler Anne tous les jours",
         "De ne plus parler de Jean"
+      ],
+      "options_en": [
+        "Not to let the book wait: she wants to hold it before the summer",
+        "To sell her flat",
+        "To call Anne every day",
+        "To stop talking about Jean"
       ],
       "evidence": "Ne laisse pas ce livre attendre à cause de moi. Je veux le tenir dans mes mains avant l'été."
     }

@@ -112,6 +112,7 @@
     {
       "id": "q1",
       "prompt": "Comment se passait l'embauche des dockers à l'époque ?",
+      "prompt_en": "How were dockers hired back then?",
       "answer": "Ils étaient choisis chaque matin sur le quai ; ceux qui n'étaient pas pris rentraient sans salaire",
       "options": [
         "Ils étaient choisis chaque matin sur le quai ; ceux qui n'étaient pas pris rentraient sans salaire",
@@ -119,11 +120,18 @@
         "Ils étaient embauchés par lettre",
         "Ils travaillaient seulement la nuit"
       ],
+      "options_en": [
+        "They were picked every morning on the quay; those who weren't taken went home without pay",
+        "They had a ten-year contract",
+        "They were hired by letter",
+        "They worked only at night"
+      ],
       "evidence": "Il m'a dit que les dockers étaient embauchés à la journée, le matin, sur le quai, et que ceux qui n'étaient pas choisis rentraient chez eux sans salaire."
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce que les collègues de Jean pensaient qu'il écrivait ?",
+      "prompt_en": "What did Jean's colleagues think he was writing?",
       "answer": "Des lettres d'amour : ils croyaient qu'il avait une maîtresse",
       "options": [
         "Des lettres d'amour : ils croyaient qu'il avait une maîtresse",
@@ -131,17 +139,30 @@
         "Des articles pour un journal",
         "Des plaintes contre le contremaître"
       ],
+      "options_en": [
+        "Love letters: they thought he had a mistress",
+        "Poems for his mother",
+        "Articles for a newspaper",
+        "Complaints against the foreman"
+      ],
       "evidence": "Ils pensaient tous que Jean écrivait des lettres d'amour."
     },
     {
       "id": "q3",
       "prompt": "Pourquoi Léa ne garde-t-elle qu'une seule citation directe ?",
+      "prompt_en": "Why does Léa keep only one direct quotation?",
       "answer": "Pour garder la voix de Jean, avec une phrase qui devient le titre du chapitre",
       "options": [
         "Pour garder la voix de Jean, avec une phrase qui devient le titre du chapitre",
         "Parce que Gaston parlait trop vite",
         "Parce que l'enregistreur était cassé",
         "Parce que l'éditrice le lui avait demandé"
+      ],
+      "options_en": [
+        "To keep Jean's voice, with a sentence that becomes the chapter title",
+        "Because Gaston spoke too fast",
+        "Because the recorder was broken",
+        "Because the publisher asked her to"
       ],
       "evidence": "Puis elle a décidé de ne garder qu'une seule citation directe, la phrase de Jean"
     }

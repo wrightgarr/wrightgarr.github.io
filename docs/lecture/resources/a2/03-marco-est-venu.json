@@ -104,9 +104,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Why did it take Marco a long time to find Léa's apartment?",
-      "answer": "He went to the wrong address and climbed to the fifth floor of another building",
+      "prompt": "Pourquoi Marco a-t-il mis longtemps à trouver l'appartement de Léa ?",
+      "prompt_en": "Why did it take Marco a long time to find Léa's apartment?",
+      "answer": "Il s'est trompé d'adresse et il est monté au cinquième étage d'un autre immeuble",
       "options": [
+        "Il s'est trompé d'adresse et il est monté au cinquième étage d'un autre immeuble",
+        "Il s'est perdu dans le métro",
+        "Son train est arrivé avec trois heures de retard",
+        "Il a oublié le numéro de Léa chez lui"
+      ],
+      "options_en": [
         "He went to the wrong address and climbed to the fifth floor of another building",
         "He got lost in the metro",
         "His train arrived three hours late",
@@ -116,9 +123,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Where did Léa and Marco go on Saturday?",
-      "answer": "To the market, then up to Notre-Dame-de-la-Garde",
+      "prompt": "Où sont allés Léa et Marco samedi ?",
+      "prompt_en": "Where did Léa and Marco go on Saturday?",
+      "answer": "Au marché, puis à Notre-Dame-de-la-Garde",
       "options": [
+        "Au marché, puis à Notre-Dame-de-la-Garde",
+        "À la plage, puis dans un musée",
+        "Aux calanques, puis à Cassis",
+        "Au magazine, puis au restaurant"
+      ],
+      "options_en": [
         "To the market, then up to Notre-Dame-de-la-Garde",
         "To the beach, then to a museum",
         "To the calanques, then to Cassis",
@@ -128,9 +142,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What happened to Marco on the stairs?",
-      "answer": "He fell, but he didn't hurt himself",
+      "prompt": "Qu'est-ce qui est arrivé à Marco dans l'escalier ?",
+      "prompt_en": "What happened to Marco on the stairs?",
+      "answer": "Il est tombé, mais il ne s'est pas fait mal",
       "options": [
+        "Il est tombé, mais il ne s'est pas fait mal",
+        "Il a perdu son téléphone",
+        "Il a rencontré Madame Ferrand",
+        "Il s'est fait mal à la jambe et il est rentré"
+      ],
+      "options_en": [
         "He fell, but he didn't hurt himself",
         "He lost his phone",
         "He met Madame Ferrand",

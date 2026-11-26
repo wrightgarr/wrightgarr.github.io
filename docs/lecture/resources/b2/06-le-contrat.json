@@ -138,6 +138,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi la décision d'Hélène Castel est-elle exceptionnelle ?",
+      "prompt_en": "Why is Hélène Castel's decision exceptional?",
       "answer": "Elle reçoit trois cents manuscrits par an et n'en publie que six",
       "options": [
         "Elle reçoit trois cents manuscrits par an et n'en publie que six",
@@ -145,11 +146,18 @@
         "Elle n'aime pas Marseille",
         "Elle a refusé Jean en 1994"
       ],
+      "options_en": [
+        "She receives three hundred manuscripts a year and publishes only six",
+        "She never publishes photos",
+        "She doesn't like Marseille",
+        "She turned Jean down in 1994"
+      ],
       "evidence": "Je reçois trois cents manuscrits par an et j'en publie six. Celui-ci, je le veux."
     },
     {
       "id": "q2",
       "prompt": "Quelles sont les étapes du calendrier proposé par Hélène ?",
+      "prompt_en": "What are the stages of the schedule Hélène proposes?",
       "answer": "Lire les carnets et choisir les textes, écrire les introductions, faire les photos, puis la mise en page",
       "options": [
         "Lire les carnets et choisir les textes, écrire les introductions, faire les photos, puis la mise en page",
@@ -157,17 +165,30 @@
         "Traduire les carnets, les vendre, puis les brûler",
         "Tout faire en un mois"
       ],
+      "options_en": [
+        "Read the notebooks and choose the texts, write the introductions, take the photos, then do the layout",
+        "Write a novel, find a title, make a poster",
+        "Translate the notebooks, sell them, then burn them",
+        "Do everything in a month"
+      ],
       "evidence": "D'ici à fin janvier, vous aurez lu les quarante carnets et vous aurez choisi les textes."
     },
     {
       "id": "q3",
       "prompt": "Quelle condition Madame Ferrand ajoute-t-elle au contrat ?",
+      "prompt_en": "What condition does Madame Ferrand add to the contract?",
       "answer": "Qu'une partie des bénéfices aille à une association pour la mémoire du quartier Saint-Jean",
       "options": [
         "Qu'une partie des bénéfices aille à une association pour la mémoire du quartier Saint-Jean",
         "Que son nom soit en premier sur la couverture",
         "Que le livre soit publié en anglais",
         "Qu'on ne mette aucune photo d'elle"
+      ],
+      "options_en": [
+        "That part of the profits go to an association for the memory of the Saint-Jean district",
+        "That her name be first on the cover",
+        "That the book be published in English",
+        "That no photo of her be included"
       ],
       "evidence": "Madame Ferrand a insisté pour qu'une partie des bénéfices soit versée à une association qui conserve la mémoire du quartier Saint-Jean."
     }

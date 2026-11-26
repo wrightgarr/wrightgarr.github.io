@@ -99,9 +99,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Why is the magazine called Le Mistral?",
-      "answer": "It's named after the wind of Provence",
+      "prompt": "Pourquoi le magazine s'appelle-t-il Le Mistral ?",
+      "prompt_en": "Why is the magazine called Le Mistral?",
+      "answer": "Il porte le nom du vent de Provence",
       "options": [
+        "Il porte le nom du vent de Provence",
+        "C'est le nom de la rue des bureaux",
+        "C'est le nom du bateau de Nadia",
+        "C'est un restaurant célèbre de Marseille"
+      ],
+      "options_en": [
         "It's named after the wind of Provence",
         "It's the name of the street where the offices are",
         "It's the name of Nadia's boat",
@@ -111,9 +118,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What did Karim write last month, and what was the problem with it?",
-      "answer": "An article about the calanques — but the photos weren't very good",
+      "prompt": "Qu'est-ce que Karim a écrit le mois dernier, et quel était le problème ?",
+      "prompt_en": "What did Karim write last month, and what was the problem with it?",
+      "answer": "Un article sur les calanques — mais les photos n'étaient pas très bonnes",
       "options": [
+        "Un article sur les calanques — mais les photos n'étaient pas très bonnes",
+        "Un livre sur Paris — mais personne ne l'a lu",
+        "Un article sur Léa — mais il était trop long",
+        "Un guide des restaurants — mais il y avait des erreurs"
+      ],
+      "options_en": [
         "An article about the calanques — but the photos weren't very good",
         "A book about Paris — but nobody read it",
         "An article about Léa — but it was too long",
@@ -123,9 +137,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What did Léa do in the afternoon?",
-      "answer": "She read back issues of the magazine and took notes",
+      "prompt": "Qu'est-ce que Léa a fait l'après-midi ?",
+      "prompt_en": "What did Léa do in the afternoon?",
+      "answer": "Elle a lu d'anciens numéros du magazine et elle a pris des notes",
       "options": [
+        "Elle a lu d'anciens numéros du magazine et elle a pris des notes",
+        "Elle a pris des photos du port",
+        "Elle est rentrée tôt à la maison",
+        "Elle a écrit son premier article"
+      ],
+      "options_en": [
         "She read back issues of the magazine and took notes",
         "She took photos of the port",
         "She went home early",

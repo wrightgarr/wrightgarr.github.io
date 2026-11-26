@@ -107,6 +107,7 @@
     {
       "id": "q1",
       "prompt": "Pourquoi Amina ne peut-elle pas rester longtemps chez Léa ?",
+      "prompt_en": "Why can't Amina stay at Léa's for long?",
       "answer": "L'appartement est petit et Minou n'apprécie pas le violon",
       "options": [
         "L'appartement est petit et Minou n'apprécie pas le violon",
@@ -114,11 +115,18 @@
         "Madame Ferrand a besoin de la chambre",
         "Le loyer de Léa est trop cher"
       ],
+      "options_en": [
+        "The flat is small and Minou doesn't like the violin",
+        "Léa is going away on assignment",
+        "Madame Ferrand needs the room",
+        "Léa's rent is too expensive"
+      ],
       "evidence": "Pour les premiers jours, Léa l'a accueillie chez elle, mais l'appartement était petit et Minou n'appréciait pas beaucoup le violon."
     },
     {
       "id": "q2",
       "prompt": "Qu'est-ce que les agences demandent à Amina ?",
+      "prompt_en": "What do the agencies ask Amina for?",
       "answer": "Un garant, un dossier de vingt pages et un CDI",
       "options": [
         "Un garant, un dossier de vingt pages et un CDI",
@@ -126,17 +134,30 @@
         "Une lettre de Madame Ferrand",
         "Trois mois de loyer en liquide"
       ],
+      "options_en": [
+        "A guarantor, a twenty-page file and a permanent contract",
+        "A piano and a violin",
+        "A letter from Madame Ferrand",
+        "Three months' rent in cash"
+      ],
       "evidence": "Il faut que j'aie un garant, il faut que je fasse un dossier de vingt pages, il faut que je sois en CDI…"
     },
     {
       "id": "q3",
       "prompt": "Quelles conditions Josette impose-t-elle ?",
+      "prompt_en": "What conditions does Josette set?",
       "answer": "Signer le bail avant vendredi, payer la caution tout de suite et respecter le silence après 22 h",
       "options": [
         "Signer le bail avant vendredi, payer la caution tout de suite et respecter le silence après 22 h",
         "Ne jamais recevoir d'amis",
         "Vendre son piano",
         "Jouer du violon seulement le dimanche"
+      ],
+      "options_en": [
+        "Sign the lease before Friday, pay the deposit straight away and keep quiet after 10 p.m.",
+        "Never have friends over",
+        "Sell her piano",
+        "Play the violin only on Sundays"
       ],
       "evidence": "Il faudra que vous signiez le bail avant vendredi, et que vous payiez la caution tout de suite. Et le silence après vingt-deux heures, c'est obligatoire."
     }

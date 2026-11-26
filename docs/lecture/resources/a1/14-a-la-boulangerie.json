@@ -70,9 +70,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "What does Léa buy, and what's the total?",
-      "answer": "A baguette and two croissants — €3.50",
+      "prompt": "Qu'est-ce que Léa achète, et combien ça coûte au total ?",
+      "prompt_en": "What does Léa buy, and what's the total?",
+      "answer": "Une baguette et deux croissants — 3,50 €",
       "options": [
+        "Une baguette et deux croissants — 3,50 €",
+        "Deux baguettes — 5 €",
+        "Une baguette et un pain au chocolat — 3,50 €",
+        "Trois croissants — 1,50 €"
+      ],
+      "options_en": [
         "A baguette and two croissants — €3.50",
         "Two baguettes — €5",
         "A baguette and a pain au chocolat — €3.50",
@@ -82,9 +89,16 @@
     },
     {
       "id": "q2",
-      "prompt": "How much change does she receive?",
-      "answer": "€1.50",
+      "prompt": "Combien d'argent reçoit-elle en retour ?",
+      "prompt_en": "How much change does she receive?",
+      "answer": "1,50 €",
       "options": [
+        "1,50 €",
+        "3,50 €",
+        "0,50 €",
+        "2 €"
+      ],
+      "options_en": [
         "€1.50",
         "€3.50",
         "€0.50",
@@ -94,9 +108,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Who are the croissants for?",
-      "answer": "Marco and Amina",
+      "prompt": "Pour qui sont les croissants ?",
+      "prompt_en": "Who are the croissants for?",
+      "answer": "Pour Marco et Amina",
       "options": [
+        "Pour Marco et Amina",
+        "Pour Hugo et Monsieur Dubois",
+        "Pour ses parents",
+        "Pour Madame Martin"
+      ],
+      "options_en": [
         "Marco and Amina",
         "Hugo and Monsieur Dubois",
         "Her parents",

@@ -94,9 +94,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Who is Monsieur Dubois?",
-      "answer": "The owner of the café, who works there every day",
+      "prompt": "Qui est Monsieur Dubois ?",
+      "prompt_en": "Who is Monsieur Dubois?",
+      "answer": "Le patron du café, qui travaille là tous les jours",
       "options": [
+        "Le patron du café, qui travaille là tous les jours",
+        "Un serveur qui travaille seulement le week-end",
+        "Le père de Léa",
+        "Un client qui vient tous les matins"
+      ],
+      "options_en": [
         "The owner of the café, who works there every day",
         "A waiter who only works weekends",
         "Léa's father",
@@ -106,9 +113,16 @@
     },
     {
       "id": "q2",
-      "prompt": "What do Léa and Marco each order?",
-      "answer": "Léa: a coffee · Marco: a hot chocolate and a croissant",
+      "prompt": "Qu'est-ce que Léa et Marco commandent ?",
+      "prompt_en": "What do Léa and Marco each order?",
+      "answer": "Léa : un café · Marco : un chocolat chaud et un croissant",
       "options": [
+        "Léa : un café · Marco : un chocolat chaud et un croissant",
+        "Léa : un croissant · Marco : un café",
+        "Ils commandent tous les deux un chocolat chaud",
+        "Léa : un thé · Marco : seulement un croissant"
+      ],
+      "options_en": [
         "Léa: a coffee · Marco: a hot chocolate and a croissant",
         "Léa: a croissant · Marco: a coffee",
         "Both order hot chocolate",
@@ -118,9 +132,16 @@
     },
     {
       "id": "q3",
-      "prompt": "Where will Léa and Marco be today?",
-      "answer": "Léa at the museum; Marco at the library",
+      "prompt": "Où sont Léa et Marco aujourd'hui ?",
+      "prompt_en": "Where will Léa and Marco be today?",
+      "answer": "Léa au musée ; Marco à la bibliothèque",
       "options": [
+        "Léa au musée ; Marco à la bibliothèque",
+        "Léa à la bibliothèque ; Marco au musée",
+        "Tous les deux au café",
+        "Léa à la maison ; Marco à l'université"
+      ],
+      "options_en": [
         "Léa at the museum; Marco at the library",
         "Léa at the library; Marco at the museum",
         "Both at the café",

@@ -110,6 +110,7 @@
     {
       "id": "q1",
       "prompt": "Quel a été le résultat de la soirée du 17 janvier pour Le Mistral ?",
+      "prompt_en": "What was the result of the 17 January evening for Le Mistral?",
       "answer": "Le magazine a gagné trois cents nouveaux abonnés",
       "options": [
         "Le magazine a gagné trois cents nouveaux abonnés",
@@ -117,11 +118,18 @@
         "Nadia a démissionné",
         "Amina a gagné un concours"
       ],
+      "options_en": [
+        "The magazine gained three hundred new subscribers",
+        "The magazine was sold",
+        "Nadia resigned",
+        "Amina won a competition"
+      ],
       "evidence": "Le Mistral a gagné trois cents nouveaux abonnés."
     },
     {
       "id": "q2",
       "prompt": "Pourquoi les gardiens d'Ar-Men avaient-ils peur ?",
+      "prompt_en": "Why were the keepers of Ar-Men afraid?",
       "answer": "Des tempêtes, avec des vagues de plus de quinze mètres",
       "options": [
         "Des tempêtes, avec des vagues de plus de quinze mètres",
@@ -129,17 +137,30 @@
         "Du silence et de la solitude seulement",
         "Des pirates"
       ],
+      "options_en": [
+        "Of storms, with waves over fifteen metres high",
+        "Of sharks",
+        "Of silence and loneliness only",
+        "Of pirates"
+      ],
       "evidence": "Des tempêtes. Il y a des vagues dont la hauteur dépasse quinze mètres."
     },
     {
       "id": "q3",
       "prompt": "De quelle photo Léa est-elle la plus fière, et pourquoi est-elle importante ?",
+      "prompt_en": "Which photo is Léa proudest of, and why does it matter?",
       "answer": "Un portrait de Yann de dos, face à la tempête, la main levée vers le phare de son père",
       "options": [
         "Un portrait de Yann de dos, face à la tempête, la main levée vers le phare de son père",
         "Une photo du café breton",
         "Une photo d'Ar-Men au coucher du soleil",
         "Un selfie avec Claire Dumas"
+      ],
+      "options_en": [
+        "A portrait of Yann from behind, facing the storm, his hand raised towards his father's lighthouse",
+        "A photo of the Breton café",
+        "A photo of Ar-Men at sunset",
+        "A selfie with Claire Dumas"
       ],
       "evidence": "c'était un portrait de Yann, de dos, face à la tempête, la main levée vers le phare où son père avait passé sa vie."
     }

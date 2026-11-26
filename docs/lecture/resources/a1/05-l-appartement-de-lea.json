@@ -78,9 +78,16 @@
   "questions": [
     {
       "id": "q1",
-      "prompt": "Name three rooms in Léa's apartment.",
-      "answer": "A kitchen, a bedroom and a small living room",
+      "prompt": "Nomme trois pièces de l'appartement de Léa.",
+      "prompt_en": "Name three rooms in Léa's apartment.",
+      "answer": "Une cuisine, une chambre et un petit salon",
       "options": [
+        "Une cuisine, une chambre et un petit salon",
+        "Un jardin, un garage et une cuisine",
+        "Deux chambres et une salle à manger",
+        "Un bureau, un balcon et une salle de bains"
+      ],
+      "options_en": [
         "A kitchen, a bedroom and a small living room",
         "A garden, a garage and a kitchen",
         "Two bedrooms and a dining room",
@@ -90,9 +97,16 @@
     },
     {
       "id": "q2",
-      "prompt": "Where is Minou, and what is he doing?",
-      "answer": "Under the table, sleeping",
+      "prompt": "Où est Minou, et qu'est-ce qu'il fait ?",
+      "prompt_en": "Where is Minou, and what is he doing?",
+      "answer": "Sous la table, il dort",
       "options": [
+        "Sous la table, il dort",
+        "Sur le canapé, il mange",
+        "À la fenêtre, il regarde la rue",
+        "Sur la table, à côté des livres"
+      ],
+      "options_en": [
         "Under the table, sleeping",
         "On the sofa, eating",
         "At the window, watching the street",
@@ -102,9 +116,16 @@
     },
     {
       "id": "q3",
-      "prompt": "What is across from the building? What is nearby?",
-      "answer": "A bakery is across from it; a park is nearby",
+      "prompt": "Qu'est-ce qu'il y a en face de l'immeuble ? Et près de l'immeuble ?",
+      "prompt_en": "What is across from the building? What is nearby?",
+      "answer": "Une boulangerie en face ; un parc près de l'immeuble",
       "options": [
+        "Une boulangerie en face ; un parc près de l'immeuble",
+        "Un café en face ; un musée près de l'immeuble",
+        "Un parc en face ; la boulangerie est loin",
+        "Une station de métro en face ; une école près de l'immeuble"
+      ],
+      "options_en": [
         "A bakery is across from it; a park is nearby",
         "A café is across from it; a museum is nearby",
         "A park is across from it; the bakery is far away",
